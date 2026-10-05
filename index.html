@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Public-domain children's stories for bedtime." />
+    <meta name="theme-color" content="#f6efe1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Storybook" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <title>Storybook</title>
+    <script>
+      // Apply the saved/OS theme before first paint to avoid a flash.
+      (function () {
+        var t = 'system';
+        try {
+          t = JSON.parse(localStorage.getItem('storybook:v1')).settings.theme || 'system';
+        } catch (e) {}
+        if (t === 'system')
+          t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'sepia';
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

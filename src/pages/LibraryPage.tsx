@@ -1,0 +1,109 @@
+import { useMemo, useState } from 'react';
+import { Link } from 'react-router';
+import { StoryList } from '../components/StoryRow';
+import { SparkleIcon } from '../components/icons';
+import { useIndex } from '../data/IndexProvider';
+import { LENGTHS, lengthOf, type Length } from '../domain/length';
+import { matchesQuery } from '../domain/search';
+import { useAppState } from '../storage/StoreProvider';
+import { useVisibleStories } from '../app/useVisibleStories';
+
+export function LibraryPage() {
+  const { collections } = useIndex();
+  const visible = useVisibleStories();
+  const { progress } = useAppState();
+  const [query, setQuery] = useState('');
+  const [length, setLength] = useState<Length | null>(null);
+
+  const results = useMemo(
+    () =>
+      visible
+        .filter((s) => matchesQuery(s, query) && (!length || lengthOf(s.readingMinutes) === length))
+        .sort((a, b) => a.title.localeCompare(b.title)),
+    [visible, query, length],
+  );
+  const inProgress = useMemo(
+    () =>
+      visible
+        .filter((s) => s.id in progress)
+        .sort((a, b) => progress[b.id]!.updatedAt - progress[a.id]!.updatedAt),
+    [visible, progress],
+  );
+  const filtering = query.trim() !== '' || length !== null;
+
+  return (
+    <div className="page">
+      <h1 className="page-title">Storybook</h1>
+
+      <Link to="/surprise" className="surprise-cta">
+        <SparkleIcon size={26} />
+        <span>
+          <strong>Surprise me</strong>
+          <span className="sub">Pick tonight’s story</span>
+        </span>
+      </Link>
+
+      {inProgress.length > 0 && !filtering && (
+        <section aria-labelledby="continue-h">
+          <h2 id="continue-h">Continue reading</h2>
+          <StoryList entries={inProgress} showCollection label="Continue reading" />
+        </section>
+      )}
+
+      <section aria-labelledby="find-h" className="finder">
+        <h2 id="find-h">Find a story</h2>
+        <input
+          type="search"
+          className="search"
+          placeholder="Search titles"
+          aria-label="Search titles"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <div className="chips" role="group" aria-label="Length">
+          {LENGTHS.map((l) => (
+            <button
+              key={l.id}
+              type="button"
+              className="chip"
+              aria-pressed={length === l.id}
+              onClick={() => setLength(length === l.id ? null : l.id)}
+            >
+              {l.label}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      {filtering ? (
+        <section aria-label="Results">
+          <p className="muted" role="status">
+            {results.length} {results.length === 1 ? 'story' : 'stories'}
+          </p>
+          <StoryList entries={results} showCollection label="Results" />
+        </section>
+      ) : (
+        <section aria-labelledby="coll-h">
+          <h2 id="coll-h">Collections</h2>
+          <ul className="collections">
+            {collections.map((c) => {
+              const count = visible.filter((s) => s.collectionId === c.id).length;
+              return (
+                <li key={c.id}>
+                  <Link to={`/c/${c.id}`} className="collection-card" data-collection={c.id}>
+                    <span className="collection-title">{c.title}</span>
+                    <span className="muted">{c.contributor ?? c.author}</span>
+                    <span className="count">{count} stories</span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+      <p className="footer-links">
+        <Link to="/about">About &amp; credits</Link>
+      </p>
+    </div>
+  );
+}
