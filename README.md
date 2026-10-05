@@ -1,8 +1,10 @@
 # Storybook
 
-A calm, offline-capable reader for 319 public-domain children's stories — Aesop (with Milo Winter's
-illustrations), Grimm, Andersen, Lang's Blue Fairy Book, Jacobs' English Fairy Tales and Kipling's
-Just So Stories.
+A calm, offline-capable reader for 614 public-domain children's stories in 12 collections — Aesop
+(with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
+Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
+Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
+Goble's plates) and Busch's Max and Maurice.
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -13,7 +15,9 @@ Just So Stories.
   Swipe a story left to mark it unread (or read).
 - **Surprise me**: random pick filtered by collection, length (Under 5 min by default), unread or
   favorites, avoiding the last 10 picks.
-- Installable PWA that works offline; one tap in Settings saves every story (~12 MB).
+- Installable PWA that works offline; one tap in Settings saves every story (~36 MB with
+  illustrations, ~5 MB text only).
+- Tales told in more than one translation link to each other ("Other versions").
 - Child-safe defaults: stories flagged for mature themes or offensive language are hidden until a
   grown-up turns them on in Settings.
 
@@ -46,5 +50,7 @@ Build and deployment → Source: GitHub Actions**.
 ## Data and licensing
 
 Texts and illustrations are public domain in the USA. Project Gutenberg boilerplate has been
-stripped; sources are linked on the About page. Check translator dates before distributing outside
+stripped; sources are linked on the About page (and per book for Potter). Frederick Warne holds
+trademarks on Peter Rabbit and other Potter characters, so don't use them in the app's name, icon
+or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.

@@ -1,0 +1,137 @@
+{
+ "id": "potter--the-story-of-miss-moppet",
+ "collectionId": "potter",
+ "order": 10,
+ "title": "The Story of Miss Moppet",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 221,
+ "readingMinutes": 1,
+ "moral": null,
+ "firstPublished": 1906,
+ "source": "https://www.gutenberg.org/ebooks/14848",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "This is a Pussy called Miss Moppet, she thinks she has heard a mouse!"
+  },
+  {
+   "type": "p",
+   "text": "This is the Mouse peeping out behind the cupboard, and making fun of Miss Moppet. He is not afraid of a kitten."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m13.webp",
+   "alt": "Mouse"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m14.webp",
+   "alt": "Miss MoppetThis is Miss Moppet jumping just too late."
+  },
+  {
+   "type": "p",
+   "text": "This is Miss Moppet jumping just too late; she misses the Mouse and hits her own head."
+  },
+  {
+   "type": "p",
+   "text": "She thinks it is a very hard cupboard!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m17.webp",
+   "alt": "She thinks it is a very hard cupboard!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m18.webp",
+   "alt": "The Mouse watches Miss Moppet from the top of the cupboard."
+  },
+  {
+   "type": "p",
+   "text": "The Mouse watches Miss Moppet from the top of the cupboard."
+  },
+  {
+   "type": "p",
+   "text": "Miss Moppet ties up her head in a duster, and sits before the fire."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m21.webp",
+   "alt": "Miss Moppet ties up her head in a duster, and sits before the fire."
+  },
+  {
+   "type": "p",
+   "text": "The Mouse thinks she is looking very ill. He comes sliding down the bell-pull."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m23.webp",
+   "alt": "Mouse comes sliding down the bell-pull."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m24.webp",
+   "alt": "The Mouse comes a little nearer."
+  },
+  {
+   "type": "p",
+   "text": "Miss Moppet looks worse and worse. The Mouse comes a little nearer."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m26.webp",
+   "alt": "Miss Moppet holds her poor head in her paws, and looks at him through a hole in the duster."
+  },
+  {
+   "type": "p",
+   "text": "Miss Moppet holds her poor head in her paws, and looks at him through a hole in the duster. The Mouse comes very close."
+  },
+  {
+   "type": "p",
+   "text": "And then all of a sudden—Miss Moppet jumps upon the Mouse!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m29.webp",
+   "alt": "Miss Moppet thinks she will tease the Mouse."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m30.webp",
+   "alt": "She ties him up in the duster..."
+  },
+  {
+   "type": "p",
+   "text": "And because the Mouse has teased Miss Moppet—Miss Moppet thinks she will tease the Mouse; which is not at all nice of Miss Moppet."
+  },
+  {
+   "type": "p",
+   "text": "She ties him up in the duster, and tosses it about like a ball."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m33.webp",
+   "alt": "...and tosses it about like a ball."
+  },
+  {
+   "type": "p",
+   "text": "But she forgot about that hole in the duster; and when she untied it—there was no Mouse!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m35.webp",
+   "alt": "But she forgot about that hole in the duster."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-miss-moppet-m36.webp",
+   "alt": "He has wriggled out and run away; and he is dancing a jig on the top of the cupboard!"
+  },
+  {
+   "type": "p",
+   "text": "He has wriggled out and run away; and he is dancing a jig on the top of the cupboard!"
+  }
+ ]
+}

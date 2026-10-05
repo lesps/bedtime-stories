@@ -13,6 +13,8 @@ const index = {
       source: 'https://example.org/1',
       license: 'Public domain in the USA',
       storyCount: 1,
+      language: 'en',
+      originalLanguage: 'en',
     },
   ],
   stories: [
@@ -63,6 +65,13 @@ describe('loadIndex', () => {
     expect(fetchMock).toHaveBeenCalledWith(compendiumUrl('index.json'));
   });
 
+  it('typesets story titles in the index', async () => {
+    fetchMock.mockResolvedValue(
+      ok({ ...index, stories: [{ ...index.stories[0], title: "The Lion's Share" }] }),
+    );
+    expect((await loadIndex()).stories[0]?.title).toBe('The Lion’s Share');
+  });
+
   it('throws an invalid DataError on schema mismatch', async () => {
     fetchMock.mockResolvedValue(ok({ ...index, schemaVersion: 2 }));
     await expect(loadIndex()).rejects.toMatchObject({ name: 'DataError', kind: 'invalid' });
@@ -90,6 +99,25 @@ describe('loadStory', () => {
     expect(a).toBe(b);
     expect(fetchMock).toHaveBeenCalledTimes(1);
     expect(fetchMock).toHaveBeenCalledWith(compendiumUrl('stories/aesop--a.json'));
+  });
+
+  it('typesets ASCII quotes and dashes in titles and text, leaving the source data alone', async () => {
+    fetchMock.mockResolvedValue(
+      ok({
+        ...story,
+        title: "The Lion's Share",
+        moral: 'Be "kind"--always.',
+        blocks: [
+          { type: 'p', text: '"Hello," he said.' },
+          { type: 'image', src: "images/x's.jpg", alt: "the lion's den" },
+        ],
+      }),
+    );
+    const s = await loadStory('aesop--a');
+    expect(s.title).toBe('The Lion’s Share');
+    expect(s.moral).toBe('Be “kind”—always.');
+    expect(s.blocks[0]).toEqual({ type: 'p', text: '“Hello,” he said.' });
+    expect(s.blocks[1]).toEqual({ type: 'image', src: "images/x's.jpg", alt: 'the lion’s den' });
   });
 
   it('rejects unknown block types', async () => {

@@ -8,6 +8,10 @@ describe('AboutPage', () => {
     expect(await screen.findByText('The Aesop for Children')).toBeInTheDocument();
     expect(
       screen.getAllByRole('link', { name: 'Source text' }).map((a) => a.getAttribute('href')),
-    ).toEqual(['https://example.org/aesop', 'https://example.org/grimm']);
+    ).toEqual([
+      'https://example.org/aesop',
+      'https://example.org/grimm',
+      'https://example.org/hunt',
+    ]);
   });
 });

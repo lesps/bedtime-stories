@@ -28,8 +28,9 @@ describe('LibraryPage', () => {
     await userEvent.click(await screen.findByRole('button', { name: /Medium/ }));
     expect(
       within(screen.getByRole('list', { name: 'Results' })).getAllByRole('listitem'),
-    ).toHaveLength(1);
+    ).toHaveLength(2);
     expect(screen.getByText('Rapunzel')).toBeInTheDocument();
+    expect(screen.getByText('Rapunzel (Hunt)')).toBeInTheDocument();
     await userEvent.click(screen.getByRole('button', { name: /Long/ }));
     expect(screen.getByText('The Long One')).toBeInTheDocument();
     expect(screen.queryByText('Rapunzel')).not.toBeInTheDocument();

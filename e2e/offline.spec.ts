@@ -86,10 +86,10 @@ test('"Make all stories available offline" downloads everything', async ({ page,
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.reload();
   await page.getByRole('button', { name: /Make all stories available offline/ }).click();
-  await expect(page.getByText(/All 319 stories and 111 illustrations are saved/)).toBeVisible({
+  await expect(page.getByText(/All \d+ stories and \d+ illustrations are saved/)).toBeVisible({
     timeout: 60_000,
   });
-  await expect(page.getByText('319 of 319 saved on this device.')).toBeVisible();
+  await expect(page.getByText(/(\d+) of \1 saved on this device/)).toBeVisible();
 
   await goOffline(context);
   await page.goto('#/s/grimm--iron-hans');

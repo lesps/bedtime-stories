@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 import { useIndex } from '../data/IndexProvider';
-import { countCachedStories, downloadAll, offlineSupported } from '../offline/download';
+import { OFFLINE_MB, countCachedStories, downloadAll, offlineSupported } from '../offline/download';
 import { ThemePicker, TypeControls } from '../reader/ReaderControls';
 import { useSettings, useStore } from '../storage/StoreProvider';
 
@@ -54,6 +54,8 @@ function OfflineSection() {
   const [cached, setCached] = useState<number | null>(null);
   const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
   const [message, setMessage] = useState('');
+  const [withImages, setWithImages] = useState(true);
+  const mb = OFFLINE_MB.stories + (withImages ? OFFLINE_MB.images : 0);
 
   useEffect(() => {
     countCachedStories().then(setCached, () => setCached(null));
@@ -67,13 +69,16 @@ function OfflineSection() {
     const r = await downloadAll(
       stories.map((s) => s.id),
       (done, total) => setProgress({ done, total }),
+      { images: withImages },
     );
     setProgress(null);
     setCached(await countCachedStories());
     setMessage(
       r.failed
         ? `Saved ${r.stories} stories; ${r.failed} couldn’t be downloaded. Try again when you have a better connection.`
-        : `All ${r.stories} stories and ${r.images} illustrations are saved for offline reading.`,
+        : withImages
+          ? `All ${r.stories} stories and ${r.images} illustrations are saved for offline reading.`
+          : `All ${r.stories} stories are saved for offline reading.`,
     );
   };
 
@@ -84,8 +89,17 @@ function OfflineSection() {
         Stories you open are saved automatically.{' '}
         {cached != null && `${cached} of ${stories.length} saved on this device.`}
       </p>
+      <label className="toggle">
+        <input
+          type="checkbox"
+          checked={withImages}
+          disabled={progress !== null}
+          onChange={(e) => setWithImages(e.target.checked)}
+        />
+        Include illustrations (about {OFFLINE_MB.images} MB)
+      </label>
       <button type="button" className="btn" disabled={progress !== null} onClick={run}>
-        Make all stories available offline (about 12 MB)
+        Make all stories available offline (about {mb} MB)
       </button>
       {progress && (
         <div role="status">

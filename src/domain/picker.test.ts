@@ -72,6 +72,21 @@ describe('pick', () => {
     expect(ids({ recent: ['aesop--a', 'aesop--b', 'grimm--c'] })).toEqual(['grimm--d']);
   });
 
+  it('treats other translations of a recent pick as recent too (shared workId)', () => {
+    const tales = [
+      entry({ id: 'grimm--frog', workId: 'grimm-khm-001' }),
+      entry({ id: 'hunt--frog', workId: 'grimm-khm-001' }),
+      entry({ id: 'hunt--other', workId: 'grimm-khm-002' }),
+    ];
+    const seen = new Set<string>();
+    const rng = mulberry32(3);
+    for (let i = 0; i < 200; i++) {
+      const r = pick(tales, { recent: ['grimm--frog'] }, rng, ctx);
+      if (r.story) seen.add(r.story.id);
+    }
+    expect([...seen]).toEqual(['hunt--other']);
+  });
+
   it('only considers the last 10 recent picks', () => {
     const recent = ['aesop--a', ...Array.from({ length: 10 }, (_, i) => `x--${i}`)];
     expect(ids({ recent })).toContain('aesop--a');
