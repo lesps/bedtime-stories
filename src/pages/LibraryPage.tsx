@@ -65,7 +65,7 @@ export function LibraryPage() {
         <input
           type="search"
           className="search"
-          placeholder="Search titles"
+          placeholder="Search titles, cultures, themes"
           aria-label="Search titles"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
