@@ -127,6 +127,22 @@ describe('store', () => {
     expect(h[0]?.id).not.toBe('a--0');
   });
 
+  it('marks unread by removing from history only', () => {
+    store.markRead('a--x');
+    store.markRead('a--y');
+    store.setProgress('a--x', 2);
+    store.markUnread('a--x');
+    expect(store.get().history.map((h) => h.id)).toEqual(['a--y']);
+    expect(store.get().progress['a--x']?.blockIndex).toBe(2);
+  });
+
+  it('marking an unread story unread is a no-op', () => {
+    const fn = vi.fn();
+    store.subscribe(fn);
+    store.markUnread('a--x');
+    expect(fn).not.toHaveBeenCalled();
+  });
+
   it('caps recent picks', () => {
     for (let i = 0; i < 15; i++) store.recordPick(`a--${i}`);
     expect(store.get().recentPicks).toHaveLength(RECENT_PICKS_CAP);

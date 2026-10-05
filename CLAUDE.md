@@ -51,7 +51,7 @@ src/pages/                Library, Collection, Favorites, Surprise, Settings, Ab
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
 src/app/                  App/routes/layout, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
-e2e/                      a11y (axe, all themes), happy path, offline
+e2e/                      a11y (axe, all themes), happy path, offline, touch swipe
 ```
 
 ## Data contract (summary)
@@ -77,6 +77,11 @@ progress, history, recentPicks }`. Each field falls back to its default independ
   throttled to 800 ms; only indices > 0 are saved. Reopening offers "Continue from where you left
   off" — never auto-jumps. Seeing the final block marks the story read and clears its progress.
   Granularity is per block; some Grimm paragraphs are a screen or more long.
+- **Swipe actions** (`components/useSwipeReveal.ts`, `StoryRow`): swipe a story row left to
+  reveal "Mark unread" (read stories) or "Mark read". One row open at a time; a tap on an open row
+  closes it; the click ending a swipe never navigates. The action button is always in the tab
+  order and accessibility tree, and focusing it opens the row, so no gesture is required.
+  `store.markUnread` removes the story from history only; saved progress is kept.
 - **Theme**: `system` (default) = sepia when the OS is light, dark when the OS is dark, tracked
   live. Applied app-wide via `html[data-theme]`; an inline script in `index.html` sets it before
   first paint; `meta[name=theme-color]` follows.
