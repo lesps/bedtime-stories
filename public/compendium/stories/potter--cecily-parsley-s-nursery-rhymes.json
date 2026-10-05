@@ -1,0 +1,147 @@
+{
+ "id": "potter--cecily-parsley-s-nursery-rhymes",
+ "collectionId": "potter",
+ "order": 21,
+ "title": "Cecily Parsley's Nursery Rhymes",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 234,
+ "readingMinutes": 1,
+ "moral": null,
+ "firstPublished": 1922,
+ "source": "https://www.gutenberg.org/ebooks/23350",
+ "blocks": [
+  {
+   "type": "verse",
+   "text": "Cecily Parsley lived in a pen,\nAnd brewed good ale for gentlemen;"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0017-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "Gentlemen came every day,\nTill Cecily Parsley ran away."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0020-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "Goosey, goosey, gander,\nWhither will you wander?\nUpstairs and downstairs,\nAnd in my lady's chamber!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0023-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "This pig went to market;\nThis pig stayed at home;"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0026-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "p",
+   "text": "This pig had a bit of meat;"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0029-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "p",
+   "text": "And this pig had none;"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0033-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "This little pig cried\nWee! wee! wee!\nI can't find my way home."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0037-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "Pussy-cat sits by the fire;\nHow should she be fair?\nIn walks the little dog,\nSays “Pussy! are you there?”"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0040-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "“How do you do, Mistress Pussy?\nMistress Pussy, how do you do?”\n“I thank you kindly, little dog,\nI fare as well as you!”"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0044-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "Three blind mice, three blind mice,\nSee how they run!\nThey all run after the farmer's wife,\nAnd she cut off their tails with a carving knife,\nDid you ever see such a thing in your life\nAs three blind mice!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0047-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "Bow, wow, wow!\nWhose dog art thou?\n“I'm little Tom Tinker's dog,\nBow, wow, wow!”"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0050-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "We have a little garden,\nA garden of our own,\nAnd every day we water there\nThe seeds that we have sown."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0053-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "We love our little garden,\nAnd tend it with such care,\nYou will not find a faded leaf\nOr blighted blossom there."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0057-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "verse",
+   "text": "Ninny nanny netticoat,\nIn a white petticoat,\nWith a red nose,—\nThe longer she stands,\nThe shorter she grows."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0060-1.webp",
+   "alt": ""
+  },
+  {
+   "type": "image",
+   "src": "images/potter/cecily-parsley-s-nursery-rhymes-illus-0062-1.webp",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "id": "potter--the-story-of-a-fierce-bad-rabbit",
+ "collectionId": "potter",
+ "order": 9,
+ "title": "The Story of a Fierce Bad Rabbit",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 145,
+ "readingMinutes": 1,
+ "moral": null,
+ "firstPublished": 1906,
+ "source": "https://www.gutenberg.org/ebooks/45265",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "This is a fierce bad Rabbit; look at his savage whiskers and his claws and his turned-up tail."
+  },
+  {
+   "type": "p",
+   "text": "This is a nice gentle Rabbit. His mother has given him a carrot."
+  },
+  {
+   "type": "p",
+   "text": "The bad Rabbit would like some carrot."
+  },
+  {
+   "type": "p",
+   "text": "He doesn't say \"Please.\" He takes it!"
+  },
+  {
+   "type": "p",
+   "text": "And he scratches the good Rabbit very badly."
+  },
+  {
+   "type": "p",
+   "text": "The good Rabbit creeps away and hides in a hole. It feels sad."
+  },
+  {
+   "type": "p",
+   "text": "This is a man with a gun."
+  },
+  {
+   "type": "p",
+   "text": "He sees something sitting on a bench. He thinks it is a very funny bird!"
+  },
+  {
+   "type": "p",
+   "text": "He comes creeping up behind the trees."
+  },
+  {
+   "type": "p",
+   "text": "And then he shoots--BANG!"
+  },
+  {
+   "type": "p",
+   "text": "This is what happens--"
+  },
+  {
+   "type": "p",
+   "text": "But this is all he finds on the bench when he rushes up with his gun."
+  },
+  {
+   "type": "p",
+   "text": "The good Rabbit peeps out of its hole . . ."
+  },
+  {
+   "type": "p",
+   "text": ". . . and it sees the bad Rabbit tearing past--without any tail or whiskers!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i008.webp",
+   "alt": "the fierce bad rabbit"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i013.webp",
+   "alt": "nice bunny sitting on bench"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i016.webp",
+   "alt": "bad rabbit lstanding on bench leaning over good rabbit"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i019.webp",
+   "alt": "bad rabbit takes carrot and pushed gentle rabbit"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i022.webp",
+   "alt": "bad rabbit scratching gentle rabbit"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i025.webp",
+   "alt": "gentle rabbit hiding"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i029.webp",
+   "alt": "hunter walking"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i032.webp",
+   "alt": "hunter seens bad rabbit sitting on bench"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i036.webp",
+   "alt": "bad rabbit with runter faintly in background"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i039.webp",
+   "alt": "hunter aiming"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i042.webp",
+   "alt": "a swril of ears, carrot and fluffy tail"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i045.webp",
+   "alt": "hunter running up to bench now with only a carrot and fluffy tail on it"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i049.webp",
+   "alt": "gentle rabbit looking out of hole at hunter running off"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-story-of-a-fierce-bad-rabbit-i052.webp",
+   "alt": "fierce bad rabbit running off without tail"
+  }
+ ]
+}

@@ -24,6 +24,8 @@ export function collection(over: Partial<Collection> & { id: string }): Collecti
     source: `https://example.org/${over.id}`,
     license: 'Public domain in the USA',
     storyCount: 0,
+    language: 'en',
+    originalLanguage: 'en',
     ...over,
   };
 }

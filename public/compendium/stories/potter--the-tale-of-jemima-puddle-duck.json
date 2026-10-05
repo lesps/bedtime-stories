@@ -1,0 +1,385 @@
+{
+ "id": "potter--the-tale-of-jemima-puddle-duck",
+ "collectionId": "potter",
+ "order": 12,
+ "title": "The Tale of Jemima Puddle-Duck",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 1245,
+ "readingMinutes": 7,
+ "moral": null,
+ "firstPublished": 1908,
+ "source": "https://www.gutenberg.org/ebooks/14814",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "What a funny sight it is to see a brood of ducklings with a hen!"
+  },
+  {
+   "type": "p",
+   "text": "—Listen to the story of Jemima Puddle-duck, who was annoyed because the farmer's wife would not let her hatch her own eggs."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-11.webp",
+   "alt": "Jemima takes a stand"
+  },
+  {
+   "type": "p",
+   "text": "Her sister-in-law, Mrs. Rebeccah Puddle-duck, was perfectly willing to leave the hatching to some one else—\"I have not the patience to sit on a nest for twenty-eight days; and no more have you, Jemima. You would let them go cold; you know you would!\""
+  },
+  {
+   "type": "p",
+   "text": "\"I wish to hatch my own eggs; I will hatch them all by myself,\" quacked Jemima Puddle-duck."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-12.webp",
+   "alt": "Carried Off"
+  },
+  {
+   "type": "p",
+   "text": "She tried to hide her eggs; but they were always found and carried off."
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck became quite desperate. She determined to make a nest right away from the farm."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-15.webp",
+   "alt": "Setting Off"
+  },
+  {
+   "type": "p",
+   "text": "She set off on a fine spring afternoon along the cart-road that leads over the hill."
+  },
+  {
+   "type": "p",
+   "text": "She was wearing a shawl and a poke bonnet."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-16.webp",
+   "alt": "Top of A Hill"
+  },
+  {
+   "type": "p",
+   "text": "When she reached the top of the hill, she saw a wood in the distance."
+  },
+  {
+   "type": "p",
+   "text": "She thought that it looked a safe quiet spot."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-19.webp",
+   "alt": "Starting to Fly"
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck was not much in the habit of flying. She ran downhill a few yards flapping her shawl, and then she jumped off into the air."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-20.webp",
+   "alt": "Soaring"
+  },
+  {
+   "type": "p",
+   "text": "She flew beautifully when she had got a good start."
+  },
+  {
+   "type": "p",
+   "text": "She skimmed along over the tree-tops until she saw an open place in the middle of the wood, where the trees and brushwood had been cleared."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-23.webp",
+   "alt": "Fox-gloves"
+  },
+  {
+   "type": "p",
+   "text": "Jemima alighted rather heavily, and began to waddle about in search of a convenient dry nesting-place. She rather fancied a tree-stump amongst some tall fox-gloves."
+  },
+  {
+   "type": "p",
+   "text": "But—seated upon the stump, she was startled to find an elegantly dressed gentleman reading a newspaper."
+  },
+  {
+   "type": "p",
+   "text": "He had black prick ears and sandy coloured whiskers."
+  },
+  {
+   "type": "p",
+   "text": "\"Quack?\" said Jemima Puddle-duck, with her head and her bonnet on one side—\"Quack?\""
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-24.webp",
+   "alt": "Gentleman Reading"
+  },
+  {
+   "type": "p",
+   "text": "The gentleman raised his eyes above his newspaper and looked curiously at Jemima—"
+  },
+  {
+   "type": "p",
+   "text": "\"Madam, have you lost your way?\" said he. He had a long bushy tail which he was sitting upon, as the stump was somewhat damp."
+  },
+  {
+   "type": "p",
+   "text": "Jemima thought him mighty civil and handsome. She explained that she had not lost her way, but that she was trying to find a convenient dry nesting-place."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-27.webp",
+   "alt": "Jemima Tells Her Troubles"
+  },
+  {
+   "type": "p",
+   "text": "\"Ah! is that so? indeed!\" said the gentleman with sandy whiskers, looking curiously at Jemima. He folded up the newspaper, and put it in his coat-tail pocket."
+  },
+  {
+   "type": "p",
+   "text": "Jemima complained of the superfluous hen."
+  },
+  {
+   "type": "p",
+   "text": "\"Indeed! how interesting! I wish I could meet with that fowl. I would teach it to mind its own business!\""
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-28.webp",
+   "alt": "The Shed"
+  },
+  {
+   "type": "p",
+   "text": "\"But as to a nest—there is no difficulty: I have a sackful of feathers in my wood-shed. No, my dear madam, you will be in nobody's way. You may sit there as long as you like,\" said the bushy long-tailed gentleman."
+  },
+  {
+   "type": "p",
+   "text": "He led the way to a very retired, dismal-looking house amongst the fox-gloves."
+  },
+  {
+   "type": "p",
+   "text": "It was built of faggots and turf, and there were two broken pails, one on top of another, by way of a chimney."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-31.webp",
+   "alt": "Closing the Door"
+  },
+  {
+   "type": "p",
+   "text": "\"This is my summer residence; you would not find my earth—my winter house—so convenient,\" said the hospitable gentleman."
+  },
+  {
+   "type": "p",
+   "text": "There was a tumble-down shed at the back of the house, made of old soap-boxes. The gentleman opened the door, and showed Jemima in."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-32.webp",
+   "alt": "A Cozy Nest"
+  },
+  {
+   "type": "p",
+   "text": "The shed was almost quite full of feathers—it was almost suffocating; but it was comfortable and very soft."
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck was rather surprised to find such a vast quantity of feathers. But it was very comfortable; and she made a nest without any trouble at all."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-35.webp",
+   "alt": "So Polite"
+  },
+  {
+   "type": "p",
+   "text": "When she came out, the sandy whiskered gentleman was sitting on a log reading the newspaper—at least he had it spread out, but he was looking over the top of it."
+  },
+  {
+   "type": "p",
+   "text": "He was so polite, that he seemed almost sorry to let Jemima go home for the night. He promised to take great care of her nest until she came back again next day."
+  },
+  {
+   "type": "p",
+   "text": "He said he loved eggs and ducklings; he should be proud to see a fine nestful in his wood-shed."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-36.webp",
+   "alt": "So Attentive"
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck came every afternoon; she laid nine eggs in the nest. They were greeny white and very large. The foxy gentleman admired them immensely. He used to turn them over and count them when Jemima was not there."
+  },
+  {
+   "type": "p",
+   "text": "At last Jemima told him that she intended to begin to sit next day—\"and I will bring a bag of corn with me, so that I need never leave my nest until the eggs are hatched. They might catch cold,\" said the conscientious Jemima."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-39.webp",
+   "alt": "A Request"
+  },
+  {
+   "type": "p",
+   "text": "\"Madam, I beg you not to trouble yourself with a bag; I will provide oats. But before you commence your tedious sitting, I intend to give you a treat. Let us have a dinner-party all to ourselves!"
+  },
+  {
+   "type": "p",
+   "text": "\"May I ask you to bring up some herbs from the farm-garden to make a savoury omelette? Sage and thyme, and mint and two onions, and some parsley. I will provide lard for the stuff—lard for the omelette,\" said the hospitable gentleman with sandy whiskers."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-40.webp",
+   "alt": "Herb-gathering"
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck was a simpleton: not even the mention of sage and onions made her suspicious."
+  },
+  {
+   "type": "p",
+   "text": "She went round the farm-garden, nibbling off snippets of all the different sorts of herbs that are used for stuffing roast duck."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-43.webp",
+   "alt": "Telling Kep All"
+  },
+  {
+   "type": "p",
+   "text": "And she waddled into the kitchen, and got two onions out of a basket."
+  },
+  {
+   "type": "p",
+   "text": "The collie-dog Kep met her coming out, \"What are you doing with those onions? Where do you go every afternoon by yourself, Jemima Puddle-duck?\""
+  },
+  {
+   "type": "p",
+   "text": "Jemima was rather in awe of the collie; she told him the whole story."
+  },
+  {
+   "type": "p",
+   "text": "The collie listened, with his wise head on one side; he grinned when she described the polite gentleman with sandy whiskers."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-44.webp",
+   "alt": "Kep Goes Looking"
+  },
+  {
+   "type": "p",
+   "text": "He asked several questions about the wood, and about the exact position of the house and shed."
+  },
+  {
+   "type": "p",
+   "text": "Then he went out, and trotted down the village. He went to look for two fox-hound puppies who were out at walk with the butcher."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-47.webp",
+   "alt": "Jemima Brings Herbs"
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck went up the cart-road for the last time, on a sunny afternoon. She was rather burdened with bunches of herbs and two onions in a bag."
+  },
+  {
+   "type": "p",
+   "text": "She flew over the wood, and alighted opposite the house of the bushy long-tailed gentleman."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-48.webp",
+   "alt": "Kep Watches"
+  },
+  {
+   "type": "p",
+   "text": "He was sitting on a log; he sniffed the air, and kept glancing uneasily round the wood. When Jemima alighted he quite jumped."
+  },
+  {
+   "type": "p",
+   "text": "\"Come into the house as soon as you have looked at your eggs. Give me the herbs for the omelette. Be sharp!\""
+  },
+  {
+   "type": "p",
+   "text": "He was rather abrupt. Jemima Puddle-duck had never heard him speak like that."
+  },
+  {
+   "type": "p",
+   "text": "She felt surprised, and uncomfortable."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-51.webp",
+   "alt": "Kep and Friends"
+  },
+  {
+   "type": "p",
+   "text": "While she was inside she heard pattering feet round the back of the shed. Some one with a black nose sniffed at the bottom of the door, and then locked it."
+  },
+  {
+   "type": "p",
+   "text": "Jemima became much alarmed."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-52.webp",
+   "alt": "Chasing"
+  },
+  {
+   "type": "p",
+   "text": "A moment afterwards there were most awful noises—barking, baying, growls and howls, squealing and groans."
+  },
+  {
+   "type": "p",
+   "text": "And nothing more was ever seen of that foxy-whiskered gentleman."
+  },
+  {
+   "type": "p",
+   "text": "Presently Kep opened the door of the shed, and let out Jemima Puddle-duck."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-55.webp",
+   "alt": "Unlocked"
+  },
+  {
+   "type": "p",
+   "text": "Unfortunately the puppies rushed in and gobbled up all the eggs before he could stop them."
+  },
+  {
+   "type": "p",
+   "text": "He had a bite on his ear and both the puppies were limping."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-57.webp",
+   "alt": "In Tears"
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck was escorted home in tears on account of those eggs."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-jemima-puddle-duck-58.webp",
+   "alt": "Ducklings"
+  },
+  {
+   "type": "p",
+   "text": "She laid some more in June, and she was permitted to keep them herself: but only four of them hatched."
+  },
+  {
+   "type": "p",
+   "text": "Jemima Puddle-duck said that it was because of her nerves; but she had always been a bad sitter."
+  }
+ ]
+}

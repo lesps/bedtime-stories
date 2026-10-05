@@ -7,8 +7,22 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Compendium patches 001–003, taking the library from 319 stories / 6 collections to 614 / 12:
+  Andersen's _Little Mermaid_, _Thumbelina_ and _Ugly Duckling_ (Gutenberg #27200); 21 Beatrix
+  Potter books with 536 illustrations; Margaret Hunt's complete _Household Tales_ (210); Ozaki's
+  and Grace James's _Japanese Fairy Tales_; Busch's _Max and Maurice_.
+- "Other versions" in the reader for tales that exist in more than one translation (`workId`).
+- Potter stories show their own publication year and source link.
+- Text-only option for the offline download, with sizes kept honest by the integrity test.
 - Swipe a story row left to mark it unread (or read). The action is also reachable by keyboard
   and screen reader without swiping.
+
+### Changed
+
+- Curly quotes and em dashes for sources that use ASCII punctuation, applied when data loads.
+- Surprise me no longer offers another translation of a tale it picked recently.
+- Offline caches hold up to 1000 stories and 1000 images (was 400 / 150).
+- Image-size tool reads WebP as well as JPEG.
 
 ### Fixed
 

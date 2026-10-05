@@ -1,0 +1,403 @@
+{
+ "id": "potter--the-tale-of-ginger-and-pickles",
+ "collectionId": "potter",
+ "order": 15,
+ "title": "The Tale of Ginger and Pickles",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 1108,
+ "readingMinutes": 6,
+ "moral": null,
+ "firstPublished": 1909,
+ "source": "https://www.gutenberg.org/ebooks/14877",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Once upon a time there was a village shop. The name over the window was \"Ginger and Pickles.\""
+  },
+  {
+   "type": "p",
+   "text": "It was a little small shop just the right size for Dolls—Lucinda and Jane Doll-cook always bought their groceries at Ginger and Pickles."
+  },
+  {
+   "type": "p",
+   "text": "The counter inside was a convenient height for rabbits. Ginger and Pickles sold red spotty pocket-handkerchiefs at a penny three farthings."
+  },
+  {
+   "type": "p",
+   "text": "They also sold sugar, and snuff and galoshes."
+  },
+  {
+   "type": "p",
+   "text": "In fact, although it was such a small shop it sold nearly everything—except a few things that you want in a hurry—like bootlaces, hair-pins and mutton chops."
+  },
+  {
+   "type": "p",
+   "text": "Ginger and Pickles were the people who kept the shop. Ginger was a yellow tom-cat, and Pickles was a terrier."
+  },
+  {
+   "type": "p",
+   "text": "The rabbits were always a little bit afraid of Pickles."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig13.webp",
+   "alt": "Ginger and Pickles"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp14.webp",
+   "alt": "Ginger looking after mice"
+  },
+  {
+   "type": "p",
+   "text": "The shop was also patronized by mice—only the mice were rather afraid of Ginger."
+  },
+  {
+   "type": "p",
+   "text": "Ginger usually requested Pickles to serve them, because he said it made his mouth water."
+  },
+  {
+   "type": "p",
+   "text": "\"I cannot bear,\" said he, \"to see them going out at the door carrying their little parcels.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I have the same feeling about rats,\" replied Pickles, \"but it would never do to eat our own customers; they would leave us and go to Tabitha Twitchit's.\""
+  },
+  {
+   "type": "p",
+   "text": "\"On the contrary, they would go nowhere,\" replied Ginger gloomily."
+  },
+  {
+   "type": "p",
+   "text": "(Tabitha Twitchit kept the only other shop in the village. She did not give credit.)"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp17.webp",
+   "alt": "Mice"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig18.webp",
+   "alt": "Hedgehog"
+  },
+  {
+   "type": "p",
+   "text": "Ginger and Pickles gave unlimited credit."
+  },
+  {
+   "type": "p",
+   "text": "Now the meaning of \"credit\" is this—when a customer buys a bar of soap, instead of the customer pulling out a purse and paying for it—she says she will pay another time."
+  },
+  {
+   "type": "p",
+   "text": "And Pickles makes a low bow and says, \"With pleasure, madam,\" and it is written down in a book."
+  },
+  {
+   "type": "p",
+   "text": "The customers come again and again, and buy quantities, in spite of being afraid of Ginger and Pickles."
+  },
+  {
+   "type": "p",
+   "text": "But there is no money in what is called the \"till.\""
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp21.webp",
+   "alt": "Ledger, till, scales"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig22.webp",
+   "alt": "The customers came in crowds every day"
+  },
+  {
+   "type": "p",
+   "text": "The customers came in crowds every day and bought quantities, especially the toffee customers. But there was always no money; they never paid for as much as a pennyworth of peppermints."
+  },
+  {
+   "type": "p",
+   "text": "But the sales were enormous, ten times as large as Tabitha Twitchit's."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp24.webp",
+   "alt": "Ginger and Pickles were obliged to eat\ntheir own goods"
+  },
+  {
+   "type": "p",
+   "text": "As there was always no money, Ginger and Pickles were obliged to eat their own goods."
+  },
+  {
+   "type": "p",
+   "text": "Pickles ate biscuits and Ginger ate a dried haddock."
+  },
+  {
+   "type": "p",
+   "text": "They ate them by candle-light after the shop was closed."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp26.webp",
+   "alt": "Ginger and Pickles look out the door"
+  },
+  {
+   "type": "p",
+   "text": "When it came to Jan. 1st there was still no money, and Pickles was unable to buy a dog licence."
+  },
+  {
+   "type": "p",
+   "text": "\"It is very unpleasant, I am afraid of the police,\" said Pickles."
+  },
+  {
+   "type": "p",
+   "text": "\"It is your own fault for being a terrier; I do not require a licence, and neither does Kep, the Collie dog.\""
+  },
+  {
+   "type": "p",
+   "text": "\"It is very uncomfortable, I am afraid I shall be summoned. I have tried in vain to get a licence upon credit at the Post Office;\" said Pickles. \"The place is full of policemen. I met one as I was coming home.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Let us send in the bill again to Samuel Whiskers, Ginger, he owes 22/9 for bacon.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I do not believe that he intends to pay at all,\" replied Ginger."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig29.webp",
+   "alt": "Illustration"
+  },
+  {
+   "type": "p",
+   "text": "\"And I feel sure that Anna Maria pockets things—Where are all the cream crackers?\""
+  },
+  {
+   "type": "p",
+   "text": "\"You have eaten them yourself,\" replied Ginger."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp31.webp",
+   "alt": "Mice"
+  },
+  {
+   "type": "p",
+   "text": "Ginger and Pickles retired into the back parlour."
+  },
+  {
+   "type": "p",
+   "text": "They did accounts. They added up sums and sums, and sums."
+  },
+  {
+   "type": "p",
+   "text": "\"Samuel Whiskers has run up a bill as long as his tail; he has had an ounce and three-quarters of snuff since October.\""
+  },
+  {
+   "type": "p",
+   "text": "\"What is seven pounds of butter at 1/3, and a stick of sealing wax and four matches?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Send in all the bills again to everybody 'with compts,'\" replied Ginger."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig33.webp",
+   "alt": "They added up sums and sums, and sums"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp34.webp",
+   "alt": "There was an envelope lying on the counter, and a policeman writing in a note-book!"
+  },
+  {
+   "type": "p",
+   "text": "After a time they heard a noise in the shop, as if something had been pushed in at the door. They came out of the back parlour. There was an envelope lying on the counter, and a policeman writing in a note-book!"
+  },
+  {
+   "type": "p",
+   "text": "Pickles nearly had a fit, he barked and he barked and made little rushes."
+  },
+  {
+   "type": "p",
+   "text": "\"Bite him, Pickles! bite him!\" spluttered Ginger behind a sugar-barrel, \"he's only a German doll!\""
+  },
+  {
+   "type": "p",
+   "text": "The policeman went on writing in his notebook; twice he put his pencil in his mouth, and once he dipped it in the treacle."
+  },
+  {
+   "type": "p",
+   "text": "Pickles barked till he was hoarse. But still the policeman took no notice. He had bead eyes, and his helmet was sewed on with stitches."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig37.webp",
+   "alt": "But still the policeman took no notice"
+  },
+  {
+   "type": "p",
+   "text": "At length on his last little rush—Pickles found that the shop was empty. The policeman had disappeared."
+  },
+  {
+   "type": "p",
+   "text": "But the envelope remained."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp38.webp",
+   "alt": "Ginger and Pickles"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp39.webp",
+   "alt": "\"it is the rates and taxes, £3 19 11-3/4.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Do you think that he has gone to fetch a real live policeman? I am afraid it is a summons,\" said Pickles."
+  },
+  {
+   "type": "p",
+   "text": "\"No,\" replied Ginger, who had opened the envelope, \"it is the rates and taxes, £3 19 11-3/4.\""
+  },
+  {
+   "type": "p",
+   "text": "\"This is the last straw,\" said Pickles, \"let us close the shop.\""
+  },
+  {
+   "type": "p",
+   "text": "They put up the shutters, and left. But they have not removed from the neighbourhood. In fact some people wish they had gone further."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp41.webp",
+   "alt": "Ginger and Pickles"
+  },
+  {
+   "type": "p",
+   "text": "Ginger is living in the warren. I do not know what occupation he pursues; he looks stout and comfortable."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp43.webp",
+   "alt": "Ginger is living in the warren."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig44.webp",
+   "alt": "Pickles is at present a gamekeeper."
+  },
+  {
+   "type": "p",
+   "text": "Pickles is at present a gamekeeper."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp46.webp",
+   "alt": "The closing of the shop caused great inconvenience."
+  },
+  {
+   "type": "p",
+   "text": "The closing of the shop caused great inconvenience. Tabitha Twitchit immediately raised the price of everything a half-penny; and she continued to refuse to give credit."
+  },
+  {
+   "type": "p",
+   "text": "Of course there are the tradesmen's carts—the butcher, the fish-man and Timothy Baker."
+  },
+  {
+   "type": "p",
+   "text": "But a person cannot live on \"seed wigs\" and sponge-cake and butter-buns—not even when the sponge-cake is as good as Timothy's!"
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp49.webp",
+   "alt": "Of course there are the tradesmen's carts—the butcher, the fish-man and Timothy Baker."
+  },
+  {
+   "type": "p",
+   "text": "After a time Mr. John Dormouse and his daughter began to sell peppermints and candles."
+  },
+  {
+   "type": "p",
+   "text": "But they did not keep \"self-fitting sixes\"; and it takes five mice to carry one seven inch candle."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig51.webp",
+   "alt": "After a time Mr. John Dormouse and his daughter began to sell peppermints and candles."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp52.webp",
+   "alt": "Besides—the candles which they sell behave very strangely in warm weather."
+  },
+  {
+   "type": "p",
+   "text": "Besides—the candles which they sell behave very strangely in warm weather."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp53.webp",
+   "alt": "And Miss Dormouse refused to take back the ends when they were brought back to her with complaints."
+  },
+  {
+   "type": "p",
+   "text": "And Miss Dormouse refused to take back the ends when they were brought back to her with complaints."
+  },
+  {
+   "type": "p",
+   "text": "And when Mr. John Dormouse was complained to, he stayed in bed, and would say nothing but \"very snug;\" which is not the way to carry on a retail business."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp55.webp",
+   "alt": "And when Mr. John Dormouse was complained to, he stayed in bed."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp56.webp",
+   "alt": "The poster really was most 'ticing."
+  },
+  {
+   "type": "p",
+   "text": "So everybody was pleased when Sally Henny Penny sent out a printed poster to say that she was going to re-open the shop—Henny's Opening Sale! Grand co-operative Jumble! Penny's penny prices! Come buy, come try, come buy!\""
+  },
+  {
+   "type": "p",
+   "text": "The poster really was most 'ticing."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-ginger_fig58.webp",
+   "alt": "There was a rush upon the opening day."
+  },
+  {
+   "type": "p",
+   "text": "There was a rush upon the opening day. The shop was crammed with customers, and there were crowds of mice upon the biscuit canisters."
+  },
+  {
+   "type": "p",
+   "text": "Sally Henny Penny gets rather flustered when she tries to count out change, and she insists on being paid cash; but she is quite harmless."
+  },
+  {
+   "type": "image",
+   "src": "images/potter/the-tale-of-ginger-and-pickles-grayp60.webp",
+   "alt": "There is something to please everybody."
+  },
+  {
+   "type": "p",
+   "text": "And she has laid in a remarkable assortment of bargains."
+  },
+  {
+   "type": "p",
+   "text": "There is something to please everybody."
+  }
+ ]
+}

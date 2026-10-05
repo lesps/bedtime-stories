@@ -56,6 +56,11 @@ function ReaderPage({ storyId }: { storyId: string }) {
 
   const collection = collectionsById.get(entry.collectionId);
   const { prev, next } = neighbors(stories, storyId, settings);
+  const versions = entry.workId
+    ? stories.filter(
+        (s) => s.workId === entry.workId && s.id !== entry.id && isVisible(s, settings),
+      )
+    : [];
 
   return (
     <>
@@ -83,8 +88,19 @@ function ReaderPage({ storyId }: { storyId: string }) {
           <p className="muted byline">
             {collection?.contributor ?? collection?.author}
             {load.status === 'ready' && load.story.origin && <> · {load.story.origin}</>}
+            {load.status === 'ready' && load.story.firstPublished && (
+              <> · {load.story.firstPublished}</>
+            )}
             {' · '}
             {entry.readingMinutes} min read
+            {load.status === 'ready' && load.story.source && (
+              <>
+                {' · '}
+                <a href={load.story.source} rel="noopener noreferrer" target="_blank">
+                  Source
+                </a>
+              </>
+            )}
           </p>
         </header>
 
@@ -101,6 +117,27 @@ function ReaderPage({ storyId }: { storyId: string }) {
         )}
         {load.status === 'ready' && <StoryBody story={load.story} />}
 
+        {load.status !== 'loading' && versions.length > 0 && (
+          <nav className="versions" aria-label="Other versions">
+            <h2>Other versions</h2>
+            <ul>
+              {versions.map((v) => (
+                <li key={v.id}>
+                  <Link to={`/s/${v.id}`}>{v.title}</Link>{' '}
+                  <span className="muted">
+                    {[
+                      collectionsById.get(v.collectionId)?.title,
+                      collectionsById.get(v.collectionId)?.contributor,
+                      `${v.readingMinutes} min`,
+                    ]
+                      .filter(Boolean)
+                      .join(' · ')}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
         {load.status !== 'loading' && (
           <nav className="story-nav" aria-label="More stories">
             {prev ? (

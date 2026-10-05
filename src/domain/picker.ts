@@ -38,7 +38,10 @@ export function pick(
   if (pool.length === 0) return { story: null, reason: 'no-matches' };
 
   const recent = new Set(opts.recent.slice(-RECENT_WINDOW));
-  const fresh = pool.filter((e) => !recent.has(e.id));
+  const recentWorks = new Set(
+    entries.filter((e) => e.workId && recent.has(e.id)).map((e) => e.workId),
+  );
+  const fresh = pool.filter((e) => !recent.has(e.id) && !(e.workId && recentWorks.has(e.workId)));
   const relaxed = fresh.length === 0;
   const from = relaxed ? pool : fresh;
   const story = from[Math.min(from.length - 1, Math.floor(rng() * from.length))]!;

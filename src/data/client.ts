@@ -1,6 +1,23 @@
 import type { z } from 'zod';
 import { indexSchema, storySchema } from './schema';
-import type { Index, Story } from './types';
+import { typeset } from '../domain/typeset';
+import type { Block, Index, Story } from './types';
+
+const typesetBlock = (b: Block): Block =>
+  b.type === 'image' ? { ...b, alt: typeset(b.alt) } : { ...b, text: typeset(b.text) };
+
+const typesetIndex = (index: Index): Index => ({
+  ...index,
+  stories: index.stories.map((s) => ({ ...s, title: typeset(s.title) })),
+});
+
+const typesetStory = (story: Story): Story => ({
+  ...story,
+  title: typeset(story.title),
+  moral: story.moral && typeset(story.moral),
+  origin: story.origin && typeset(story.origin),
+  blocks: story.blocks.map(typesetBlock),
+});
 
 export type DataErrorKind = 'network' | 'http' | 'invalid';
 
@@ -40,7 +57,7 @@ let indexPromise: Promise<Index> | null = null;
 const storyPromises = new Map<string, Promise<Story>>();
 
 export function loadIndex(): Promise<Index> {
-  indexPromise ??= fetchJson('index.json', indexSchema).catch((e: unknown) => {
+  indexPromise ??= fetchJson('index.json', indexSchema).then(typesetIndex, (e: unknown) => {
     indexPromise = null;
     throw e;
   });
@@ -51,7 +68,7 @@ export function loadStory(id: string): Promise<Story> {
   if (!/^[a-z0-9-]+$/.test(id)) return Promise.reject(new DataError('invalid', `Bad id ${id}`));
   let p = storyPromises.get(id);
   if (!p) {
-    p = fetchJson(`stories/${id}.json`, storySchema).catch((e: unknown) => {
+    p = fetchJson(`stories/${id}.json`, storySchema).then(typesetStory, (e: unknown) => {
       storyPromises.delete(id);
       throw e;
     });

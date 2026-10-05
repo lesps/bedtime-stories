@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import type { Block, Index, Story } from './types';
 
-const flag = z.enum(['mature-themes', 'racial-slur']);
+const flag = z.enum(['mature-themes', 'racial-slur', 'antisemitic-caricature']);
 
 export const collectionSchema = z.object({
   id: z.string().min(1),
@@ -12,6 +12,8 @@ export const collectionSchema = z.object({
   source: z.string().url(),
   license: z.literal('Public domain in the USA'),
   storyCount: z.number().int().nonnegative(),
+  language: z.string().min(2),
+  originalLanguage: z.string().regex(/^[a-z]{2}$/),
 });
 
 const entryFields = {
@@ -23,6 +25,7 @@ const entryFields = {
   readingMinutes: z.number().int().min(1),
   excluded: z.boolean(),
   flags: z.array(flag),
+  workId: z.string().min(1).optional(),
 };
 
 export const indexEntrySchema = z.object({ ...entryFields, hasImages: z.boolean() });
@@ -48,4 +51,7 @@ export const storySchema: z.ZodType<Story> = z.object({
   origin: z.string().nullable(),
   moral: z.string().nullable(),
   blocks: z.array(blockSchema).min(1),
+  firstPublished: z.number().int().optional(),
+  source: z.string().url().optional(),
+  originalTitle: z.string().min(1).optional(),
 });

@@ -54,6 +54,13 @@ describe('downloadAll', () => {
     expect(await countCachedStories()).toBe(3);
   });
 
+  it('can skip illustrations to save space', async () => {
+    const r = await downloadAll(['a--1', 'a--2'], () => {}, { images: false });
+    expect(r).toEqual({ stories: 2, images: 0, failed: 0 });
+    expect(caches.stores.get(STORY_CACHE)?.size).toBe(2);
+    expect(caches.stores.get(IMAGE_CACHE)?.size ?? 0).toBe(0);
+  });
+
   it('skips stories already cached', async () => {
     await downloadAll(['a--2'], () => {});
     fetchMock.mockClear();

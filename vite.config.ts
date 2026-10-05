@@ -47,7 +47,7 @@ export default defineConfig({
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'stories',
-              expiration: { maxEntries: 400 },
+              expiration: { maxEntries: 1000 },
               cacheableResponse: { statuses: [0, 200] },
             },
           },
@@ -56,7 +56,7 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: {
               cacheName: 'images',
-              expiration: { maxEntries: 150, maxAgeSeconds: 60 * 60 * 24 * 365 },
+              expiration: { maxEntries: 1000, maxAgeSeconds: 60 * 60 * 24 * 365 },
               cacheableResponse: { statuses: [0, 200] },
             },
           },

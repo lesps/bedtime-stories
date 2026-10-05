@@ -522,6 +522,26 @@ figure img {
   font-family: system-ui, sans-serif;
   font-size: 1rem;
 }
+.versions {
+  margin-top: 2.5em;
+  font-size: 0.9em;
+}
+.versions h2 {
+  font-size: 1em;
+  margin: 0 0 0.5em;
+}
+.versions ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.versions li {
+  margin-bottom: 0.4em;
+}
+.versions .muted {
+  display: block;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85em;
+}
 .story-nav {
   display: grid;
   grid-template-columns: 1fr 1fr;

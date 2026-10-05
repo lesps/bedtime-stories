@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { createStore } from '../storage/store';
 import { renderApp } from '../test/renderApp';
 
@@ -29,5 +29,19 @@ describe('SettingsPage', () => {
     expect(store.get()).toMatchObject({ favorites: {}, progress: {}, history: [] });
     expect(store.get().settings.theme).toBe('light');
     expect(screen.getByRole('status')).toHaveTextContent('Reading data cleared.');
+  });
+
+  it('offers a text-only offline download with honest sizes', async () => {
+    vi.stubGlobal('caches', { open: async () => ({ keys: async () => [] }) });
+    renderApp('/settings');
+    const box = await screen.findByRole('checkbox', { name: /Include illustrations/ });
+    expect(box).toBeChecked();
+    expect(
+      screen.getByRole('button', { name: /available offline \(about 36 MB\)/ }),
+    ).toBeInTheDocument();
+    await userEvent.click(box);
+    expect(
+      screen.getByRole('button', { name: /available offline \(about 5 MB\)/ }),
+    ).toBeInTheDocument();
   });
 });

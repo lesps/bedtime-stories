@@ -9,7 +9,9 @@
    "firstPublished": 1919,
    "source": "https://www.gutenberg.org/ebooks/19994",
    "license": "Public domain in the USA",
-   "storyCount": 147
+   "storyCount": 147,
+   "language": "en",
+   "originalLanguage": "en"
   },
   {
    "id": "grimm",
@@ -19,7 +21,9 @@
    "firstPublished": 1823,
    "source": "https://www.gutenberg.org/ebooks/2591",
    "license": "Public domain in the USA",
-   "storyCount": 62
+   "storyCount": 62,
+   "language": "en",
+   "originalLanguage": "de"
   },
   {
    "id": "andersen",
@@ -29,7 +33,21 @@
    "firstPublished": null,
    "source": "https://www.gutenberg.org/ebooks/1597",
    "license": "Public domain in the USA",
-   "storyCount": 18
+   "storyCount": 18,
+   "language": "en",
+   "originalLanguage": "da"
+  },
+  {
+   "id": "andersen-27200",
+   "title": "Fairy Tales of Hans Christian Andersen",
+   "author": "Hans Christian Andersen",
+   "contributor": null,
+   "firstPublished": null,
+   "source": "https://www.gutenberg.org/ebooks/27200",
+   "license": "Public domain in the USA",
+   "storyCount": 3,
+   "language": "en",
+   "originalLanguage": "da"
   },
   {
    "id": "lang-blue",
@@ -39,7 +57,9 @@
    "firstPublished": 1889,
    "source": "https://www.gutenberg.org/ebooks/503",
    "license": "Public domain in the USA",
-   "storyCount": 37
+   "storyCount": 37,
+   "language": "en",
+   "originalLanguage": "en"
   },
   {
    "id": "jacobs-english",
@@ -49,7 +69,9 @@
    "firstPublished": 1890,
    "source": "https://www.gutenberg.org/ebooks/7439",
    "license": "Public domain in the USA",
-   "storyCount": 43
+   "storyCount": 43,
+   "language": "en",
+   "originalLanguage": "en"
   },
   {
    "id": "kipling-justso",
@@ -59,7 +81,69 @@
    "firstPublished": 1902,
    "source": "https://www.gutenberg.org/ebooks/2781",
    "license": "Public domain in the USA",
-   "storyCount": 12
+   "storyCount": 12,
+   "language": "en",
+   "originalLanguage": "en"
+  },
+  {
+   "id": "potter",
+   "title": "The Tales of Beatrix Potter",
+   "author": "Beatrix Potter",
+   "contributor": "Illustrated by the author",
+   "firstPublished": 1902,
+   "source": "https://www.gutenberg.org/ebooks/search/?query=beatrix+potter",
+   "license": "Public domain in the USA",
+   "storyCount": 21,
+   "language": "en",
+   "originalLanguage": "en"
+  },
+  {
+   "id": "grimm-hunt",
+   "title": "Household Tales",
+   "author": "Jacob and Wilhelm Grimm",
+   "contributor": "Translated by Margaret Hunt",
+   "firstPublished": 1884,
+   "language": "en",
+   "originalLanguage": "de",
+   "source": "https://www.gutenberg.org/ebooks/5314",
+   "license": "Public domain in the USA",
+   "storyCount": 210
+  },
+  {
+   "id": "japan-ozaki",
+   "title": "Japanese Fairy Tales",
+   "author": "Traditional",
+   "contributor": "Compiled and translated by Yei Theodora Ozaki",
+   "firstPublished": 1903,
+   "language": "en",
+   "originalLanguage": "ja",
+   "source": "https://www.gutenberg.org/ebooks/4018",
+   "license": "Public domain in the USA",
+   "storyCount": 22
+  },
+  {
+   "id": "japan-james",
+   "title": "Japanese Fairy Tales",
+   "author": "Traditional",
+   "contributor": "Retold by Grace James, illustrated by Warwick Goble",
+   "firstPublished": 1910,
+   "language": "en",
+   "originalLanguage": "ja",
+   "source": "https://www.gutenberg.org/ebooks/35853",
+   "license": "Public domain in the USA",
+   "storyCount": 38
+  },
+  {
+   "id": "busch-max-maurice",
+   "title": "Max and Maurice: A Juvenile History in Seven Tricks",
+   "author": "Wilhelm Busch",
+   "contributor": "Translated by Charles T. Brooks",
+   "firstPublished": 1871,
+   "language": "en",
+   "originalLanguage": "de",
+   "source": "https://www.gutenberg.org/ebooks/28847",
+   "license": "Public domain in the USA",
+   "storyCount": 1
   }
  ],
  "stories": [
@@ -1689,7 +1773,8 @@
    "readingMinutes": 14,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-057"
   },
   {
    "id": "grimm--hans-in-luck",
@@ -1700,7 +1785,8 @@
    "readingMinutes": 13,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-083"
   },
   {
    "id": "grimm--jorinda-and-jorindel",
@@ -1711,7 +1797,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-069"
   },
   {
    "id": "grimm--the-travelling-musicians",
@@ -1722,7 +1809,8 @@
    "readingMinutes": 8,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-027"
   },
   {
    "id": "grimm--old-sultan",
@@ -1733,7 +1821,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-048"
   },
   {
    "id": "grimm--the-straw-the-coal-and-the-bean",
@@ -1744,7 +1833,8 @@
    "readingMinutes": 3,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-018"
   },
   {
    "id": "grimm--briar-rose",
@@ -1755,7 +1845,8 @@
    "readingMinutes": 8,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-050"
   },
   {
    "id": "grimm--the-dog-and-the-sparrow",
@@ -1766,7 +1857,8 @@
    "readingMinutes": 7,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-058"
   },
   {
    "id": "grimm--the-twelve-dancing-princesses",
@@ -1777,7 +1869,8 @@
    "readingMinutes": 9,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-133"
   },
   {
    "id": "grimm--the-fisherman-and-his-wife",
@@ -1788,7 +1881,8 @@
    "readingMinutes": 12,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-085"
   },
   {
    "id": "grimm--the-willow-wren-and-the-bear",
@@ -1799,7 +1893,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-102"
   },
   {
    "id": "grimm--the-frog-prince",
@@ -1810,7 +1905,8 @@
    "readingMinutes": 7,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-001"
   },
   {
    "id": "grimm--cat-and-mouse-in-partnership",
@@ -1821,7 +1917,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-002"
   },
   {
    "id": "grimm--the-goose-girl",
@@ -1832,7 +1929,8 @@
    "readingMinutes": 12,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-089"
   },
   {
    "id": "grimm--the-adventures-of-chanticleer-and-partlet",
@@ -1843,7 +1941,8 @@
    "readingMinutes": 10,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-010"
   },
   {
    "id": "grimm--rapunzel",
@@ -1854,7 +1953,8 @@
    "readingMinutes": 8,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-012"
   },
   {
    "id": "grimm--fundevogel",
@@ -1865,7 +1965,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-051"
   },
   {
    "id": "grimm--the-valiant-little-tailor",
@@ -1876,7 +1977,8 @@
    "readingMinutes": 19,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-020"
   },
   {
    "id": "grimm--hansel-and-gretel",
@@ -1887,7 +1989,8 @@
    "readingMinutes": 16,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-015"
   },
   {
    "id": "grimm--the-mouse-the-bird-and-the-sausage",
@@ -1898,7 +2001,8 @@
    "readingMinutes": 4,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-023"
   },
   {
    "id": "grimm--mother-holle",
@@ -1909,7 +2013,8 @@
    "readingMinutes": 7,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-024"
   },
   {
    "id": "grimm--little-red-cap-little-red-riding-hood",
@@ -1920,7 +2025,8 @@
    "readingMinutes": 8,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-026"
   },
   {
    "id": "grimm--the-robber-bridegroom",
@@ -1933,7 +2039,8 @@
    "flags": [
     "mature-themes"
    ],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-040"
   },
   {
    "id": "grimm--tom-thumb",
@@ -1944,7 +2051,8 @@
    "readingMinutes": 14,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-037"
   },
   {
    "id": "grimm--rumpelstiltskin",
@@ -1955,7 +2063,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-055"
   },
   {
    "id": "grimm--clever-gretel",
@@ -1966,7 +2075,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-077"
   },
   {
    "id": "grimm--the-old-man-and-his-grandson",
@@ -1977,7 +2087,8 @@
    "readingMinutes": 1,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-078"
   },
   {
    "id": "grimm--the-little-peasant",
@@ -1988,7 +2099,8 @@
    "readingMinutes": 11,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-061"
   },
   {
    "id": "grimm--frederick-and-catherine",
@@ -1999,7 +2111,8 @@
    "readingMinutes": 11,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-059"
   },
   {
    "id": "grimm--sweetheart-roland",
@@ -2010,7 +2123,8 @@
    "readingMinutes": 8,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-056"
   },
   {
    "id": "grimm--snowdrop",
@@ -2021,7 +2135,8 @@
    "readingMinutes": 13,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-053"
   },
   {
    "id": "grimm--the-pink",
@@ -2032,7 +2147,8 @@
    "readingMinutes": 10,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-076"
   },
   {
    "id": "grimm--clever-elsie",
@@ -2043,7 +2159,8 @@
    "readingMinutes": 7,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-034"
   },
   {
    "id": "grimm--the-miser-in-the-bush",
@@ -2054,7 +2171,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-110"
   },
   {
    "id": "grimm--ashputtel",
@@ -2065,7 +2183,8 @@
    "readingMinutes": 14,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-021"
   },
   {
    "id": "grimm--the-white-snake",
@@ -2076,7 +2195,8 @@
    "readingMinutes": 9,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-017"
   },
   {
    "id": "grimm--the-wolf-and-the-seven-little-kids",
@@ -2087,7 +2207,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-005"
   },
   {
    "id": "grimm--the-queen-bee",
@@ -2098,7 +2219,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-062"
   },
   {
    "id": "grimm--the-elves-and-the-shoemaker",
@@ -2109,7 +2231,8 @@
    "readingMinutes": 4,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-039"
   },
   {
    "id": "grimm--the-juniper-tree",
@@ -2122,7 +2245,8 @@
    "flags": [
     "mature-themes"
    ],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-047"
   },
   {
    "id": "grimm--the-turnip",
@@ -2133,7 +2257,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-146"
   },
   {
    "id": "grimm--clever-hans",
@@ -2144,7 +2269,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-032"
   },
   {
    "id": "grimm--the-three-languages",
@@ -2155,7 +2281,8 @@
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-033"
   },
   {
    "id": "grimm--the-fox-and-the-cat",
@@ -2166,7 +2293,8 @@
    "readingMinutes": 2,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-075"
   },
   {
    "id": "grimm--the-four-clever-brothers",
@@ -2177,7 +2305,8 @@
    "readingMinutes": 9,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-129"
   },
   {
    "id": "grimm--lily-and-the-lion",
@@ -2188,7 +2317,8 @@
    "readingMinutes": 13,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-088"
   },
   {
    "id": "grimm--the-fox-and-the-horse",
@@ -2199,7 +2329,8 @@
    "readingMinutes": 3,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-132"
   },
   {
    "id": "grimm--the-blue-light",
@@ -2210,7 +2341,8 @@
    "readingMinutes": 10,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-116"
   },
   {
    "id": "grimm--the-raven",
@@ -2221,7 +2353,8 @@
    "readingMinutes": 13,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-093"
   },
   {
    "id": "grimm--the-golden-goose",
@@ -2232,7 +2365,8 @@
    "readingMinutes": 9,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-064"
   },
   {
    "id": "grimm--the-water-of-life",
@@ -2243,7 +2377,8 @@
    "readingMinutes": 16,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-097"
   },
   {
    "id": "grimm--the-twelve-huntsmen",
@@ -2254,7 +2389,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-067"
   },
   {
    "id": "grimm--the-king-of-the-golden-mountain",
@@ -2265,7 +2401,8 @@
    "readingMinutes": 14,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-092"
   },
   {
    "id": "grimm--doctor-knowall",
@@ -2276,7 +2413,8 @@
    "readingMinutes": 4,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-098"
   },
   {
    "id": "grimm--the-seven-ravens",
@@ -2287,7 +2425,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-025"
   },
   {
    "id": "grimm--the-wedding-of-mrs-fox",
@@ -2298,7 +2437,8 @@
    "readingMinutes": 4,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-038"
   },
   {
    "id": "grimm--the-salad",
@@ -2309,7 +2449,8 @@
    "readingMinutes": 12,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-122"
   },
   {
    "id": "grimm--the-story-of-the-youth-who-went-forth-to-learn-what-fear-was",
@@ -2320,7 +2461,8 @@
    "readingMinutes": 21,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-004"
   },
   {
    "id": "grimm--king-grisly-beard",
@@ -2331,7 +2473,8 @@
    "readingMinutes": 8,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-052"
   },
   {
    "id": "grimm--iron-hans",
@@ -2342,7 +2485,8 @@
    "readingMinutes": 18,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-136"
   },
   {
    "id": "grimm--cat-skin",
@@ -2353,7 +2497,8 @@
    "readingMinutes": 12,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-065"
   },
   {
    "id": "grimm--snow-white-and-rose-red",
@@ -2364,7 +2509,8 @@
    "readingMinutes": 13,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-161"
   },
   {
    "id": "andersen--the-emperor-s-new-clothes",
@@ -2573,6 +2719,41 @@
    "hasImages": false
   },
   {
+   "id": "andersen-27200--the-little-mermaid",
+   "collectionId": "andersen-27200",
+   "order": 1,
+   "title": "The Little Mermaid",
+   "wordCount": 9180,
+   "readingMinutes": 51,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "andersen-27200--little-tiny-or-thumbelina",
+   "collectionId": "andersen-27200",
+   "order": 2,
+   "title": "Little Tiny; or, Thumbelina",
+   "wordCount": 4331,
+   "readingMinutes": 24,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "andersen-27200--the-ugly-duckling",
+   "collectionId": "andersen-27200",
+   "order": 3,
+   "title": "The Ugly Duckling",
+   "wordCount": 3773,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
    "id": "lang-blue--the-bronze-ring",
    "collectionId": "lang-blue",
    "order": 1,
@@ -2669,7 +2850,8 @@
    "readingMinutes": 20,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-004"
   },
   {
    "id": "lang-blue--rumpelstiltzkin",
@@ -2680,7 +2862,8 @@
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-055"
   },
   {
    "id": "lang-blue--beauty-and-the-beast",
@@ -2834,7 +3017,8 @@
    "readingMinutes": 16,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-015"
   },
   {
    "id": "lang-blue--snow-white-and-rose-red",
@@ -2845,7 +3029,8 @@
    "readingMinutes": 14,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-161"
   },
   {
    "id": "lang-blue--the-goose-girl",
@@ -2856,7 +3041,8 @@
    "readingMinutes": 12,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-089"
   },
   {
    "id": "lang-blue--toads-and-diamonds",
@@ -2902,7 +3088,8 @@
    "readingMinutes": 17,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-006"
   },
   {
    "id": "lang-blue--the-brave-little-tailor",
@@ -2913,7 +3100,8 @@
    "readingMinutes": 19,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "grimm-khm-020"
   },
   {
    "id": "lang-blue--a-voyage-to-lilliput",
@@ -3595,6 +3783,3498 @@
    "excluded": false,
    "flags": [],
    "hasImages": false
+  },
+  {
+   "id": "potter--the-tale-of-peter-rabbit",
+   "collectionId": "potter",
+   "order": 1,
+   "title": "The Tale of Peter Rabbit",
+   "wordCount": 948,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-squirrel-nutkin",
+   "collectionId": "potter",
+   "order": 2,
+   "title": "The Tale of Squirrel Nutkin",
+   "wordCount": 1202,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tailor-of-gloucester",
+   "collectionId": "potter",
+   "order": 3,
+   "title": "The Tailor of Gloucester",
+   "wordCount": 2708,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-benjamin-bunny",
+   "collectionId": "potter",
+   "order": 4,
+   "title": "The Tale of Benjamin Bunny",
+   "wordCount": 1118,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-two-bad-mice",
+   "collectionId": "potter",
+   "order": 5,
+   "title": "The Tale of Two Bad Mice",
+   "wordCount": 893,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-mrs-tiggy-winkle",
+   "collectionId": "potter",
+   "order": 6,
+   "title": "The Tale of Mrs. Tiggy-Winkle",
+   "wordCount": 1248,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-the-pie-and-the-patty-pan",
+   "collectionId": "potter",
+   "order": 7,
+   "title": "The Tale of the Pie and the Patty-Pan",
+   "wordCount": 2777,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-mr-jeremy-fisher",
+   "collectionId": "potter",
+   "order": 8,
+   "title": "The Tale of Mr. Jeremy Fisher",
+   "wordCount": 792,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-story-of-a-fierce-bad-rabbit",
+   "collectionId": "potter",
+   "order": 9,
+   "title": "The Story of a Fierce Bad Rabbit",
+   "wordCount": 145,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-story-of-miss-moppet",
+   "collectionId": "potter",
+   "order": 10,
+   "title": "The Story of Miss Moppet",
+   "wordCount": 221,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-tom-kitten",
+   "collectionId": "potter",
+   "order": 11,
+   "title": "The Tale of Tom Kitten",
+   "wordCount": 691,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-jemima-puddle-duck",
+   "collectionId": "potter",
+   "order": 12,
+   "title": "The Tale of Jemima Puddle-Duck",
+   "wordCount": 1245,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-samuel-whiskers",
+   "collectionId": "potter",
+   "order": 13,
+   "title": "The Tale of Samuel Whiskers; or, The Roly-Poly Pudding",
+   "wordCount": 2561,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-the-flopsy-bunnies",
+   "collectionId": "potter",
+   "order": 14,
+   "title": "The Tale of the Flopsy Bunnies",
+   "wordCount": 997,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-ginger-and-pickles",
+   "collectionId": "potter",
+   "order": 15,
+   "title": "The Tale of Ginger and Pickles",
+   "wordCount": 1108,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-mrs-tittlemouse",
+   "collectionId": "potter",
+   "order": 16,
+   "title": "The Tale of Mrs. Tittlemouse",
+   "wordCount": 1125,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-timmy-tiptoes",
+   "collectionId": "potter",
+   "order": 17,
+   "title": "The Tale of Timmy Tiptoes",
+   "wordCount": 1297,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-mr-tod",
+   "collectionId": "potter",
+   "order": 18,
+   "title": "The Tale of Mr. Tod",
+   "wordCount": 4824,
+   "readingMinutes": 27,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--the-tale-of-pigling-bland",
+   "collectionId": "potter",
+   "order": 19,
+   "title": "The Tale of Pigling Bland",
+   "wordCount": 3371,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "potter--the-tale-of-johnny-town-mouse",
+   "collectionId": "potter",
+   "order": 20,
+   "title": "The Tale of Johnny Town-Mouse",
+   "wordCount": 1277,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "potter--cecily-parsley-s-nursery-rhymes",
+   "collectionId": "potter",
+   "order": 21,
+   "title": "Cecily Parsley's Nursery Rhymes",
+   "wordCount": 234,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "grimm-hunt--the-frog-king-or-iron-henry",
+   "collectionId": "grimm-hunt",
+   "order": 1,
+   "title": "The Frog-King, or Iron Henry",
+   "wordCount": 1410,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-001",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--cat-and-mouse-in-partnership",
+   "collectionId": "grimm-hunt",
+   "order": 2,
+   "title": "Cat and Mouse in Partnership",
+   "wordCount": 976,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-002",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--our-lady-s-child",
+   "collectionId": "grimm-hunt",
+   "order": 3,
+   "title": "Our Lady's Child",
+   "wordCount": 1899,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-003",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-story-of-the-youth-who-went-forth-to-learn-what-fear-was",
+   "collectionId": "grimm-hunt",
+   "order": 4,
+   "title": "The Story of the Youth Who Went Forth to Learn What Fear Was",
+   "wordCount": 3800,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-004",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wolf-and-the-seven-little-kids",
+   "collectionId": "grimm-hunt",
+   "order": 5,
+   "title": "The Wolf and the Seven Little Kids",
+   "wordCount": 1107,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-005",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--faithful-john",
+   "collectionId": "grimm-hunt",
+   "order": 6,
+   "title": "Faithful John",
+   "wordCount": 3128,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-006",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-good-bargain",
+   "collectionId": "grimm-hunt",
+   "order": 7,
+   "title": "The Good Bargain",
+   "wordCount": 1711,
+   "readingMinutes": 10,
+   "excluded": true,
+   "flags": [
+    "antisemitic-caricature"
+   ],
+   "workId": "grimm-khm-007",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wonderful-musician",
+   "collectionId": "grimm-hunt",
+   "order": 8,
+   "title": "The Wonderful Musician",
+   "wordCount": 1062,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-008",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-twelve-brothers",
+   "collectionId": "grimm-hunt",
+   "order": 9,
+   "title": "The Twelve Brothers",
+   "wordCount": 1976,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-009",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-pack-of-ragamuffins",
+   "collectionId": "grimm-hunt",
+   "order": 10,
+   "title": "The Pack of Ragamuffins",
+   "wordCount": 812,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-010",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--little-brother-and-little-sister",
+   "collectionId": "grimm-hunt",
+   "order": 11,
+   "title": "Little Brother and Little Sister",
+   "wordCount": 2420,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-011",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--rapunzel",
+   "collectionId": "grimm-hunt",
+   "order": 12,
+   "title": "Rapunzel",
+   "wordCount": 1433,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-012",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-little-men-in-the-wood",
+   "collectionId": "grimm-hunt",
+   "order": 13,
+   "title": "The Three Little Men in the Wood",
+   "wordCount": 2035,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-013",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-spinners",
+   "collectionId": "grimm-hunt",
+   "order": 14,
+   "title": "The Three Spinners",
+   "wordCount": 907,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-014",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--hansel-and-grethel",
+   "collectionId": "grimm-hunt",
+   "order": 15,
+   "title": "Hansel and Grethel",
+   "wordCount": 2946,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-015",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-snake-leaves",
+   "collectionId": "grimm-hunt",
+   "order": 16,
+   "title": "The Three Snake-Leaves",
+   "wordCount": 1437,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-016",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-white-snake",
+   "collectionId": "grimm-hunt",
+   "order": 17,
+   "title": "The White Snake",
+   "wordCount": 1601,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-017",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-straw-the-coal-and-the-bean",
+   "collectionId": "grimm-hunt",
+   "order": 18,
+   "title": "The Straw, the Coal, and the Bean",
+   "wordCount": 504,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-018",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-fisherman-and-his-wife",
+   "collectionId": "grimm-hunt",
+   "order": 19,
+   "title": "The Fisherman and His Wife",
+   "wordCount": 3063,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-019",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-valiant-little-tailor",
+   "collectionId": "grimm-hunt",
+   "order": 20,
+   "title": "The Valiant Little Tailor",
+   "wordCount": 3345,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-020",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--cinderella",
+   "collectionId": "grimm-hunt",
+   "order": 21,
+   "title": "Cinderella",
+   "wordCount": 2635,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-021",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-riddle",
+   "collectionId": "grimm-hunt",
+   "order": 22,
+   "title": "The Riddle",
+   "wordCount": 1147,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-022",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-mouse-the-bird-and-the-sausage",
+   "collectionId": "grimm-hunt",
+   "order": 23,
+   "title": "The Mouse, the Bird, and the Sausage",
+   "wordCount": 629,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-023",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--mother-holle",
+   "collectionId": "grimm-hunt",
+   "order": 24,
+   "title": "Mother Holle",
+   "wordCount": 1194,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-024",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-seven-ravens",
+   "collectionId": "grimm-hunt",
+   "order": 25,
+   "title": "The Seven Ravens",
+   "wordCount": 944,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-025",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--little-red-cap",
+   "collectionId": "grimm-hunt",
+   "order": 26,
+   "title": "Little Red-Cap",
+   "wordCount": 1383,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-026",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-bremen-town-musicians",
+   "collectionId": "grimm-hunt",
+   "order": 27,
+   "title": "The Bremen Town-Musicians",
+   "wordCount": 1263,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-027",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-singing-bone",
+   "collectionId": "grimm-hunt",
+   "order": 28,
+   "title": "The Singing Bone",
+   "wordCount": 738,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-028",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-devil-with-the-three-golden-hairs",
+   "collectionId": "grimm-hunt",
+   "order": 29,
+   "title": "The Devil With the Three Golden Hairs",
+   "wordCount": 2539,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-029",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-louse-and-the-flea",
+   "collectionId": "grimm-hunt",
+   "order": 30,
+   "title": "The Louse and the Flea",
+   "wordCount": 455,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-030",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-girl-without-hands",
+   "collectionId": "grimm-hunt",
+   "order": 31,
+   "title": "The Girl Without Hands",
+   "wordCount": 2332,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-031",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--clever-hans",
+   "collectionId": "grimm-hunt",
+   "order": 32,
+   "title": "Clever Hans",
+   "wordCount": 893,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-032",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-languages",
+   "collectionId": "grimm-hunt",
+   "order": 33,
+   "title": "The Three Languages",
+   "wordCount": 946,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-033",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--clever-elsie",
+   "collectionId": "grimm-hunt",
+   "order": 34,
+   "title": "Clever Elsie",
+   "wordCount": 1332,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-034",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-tailor-in-heaven",
+   "collectionId": "grimm-hunt",
+   "order": 35,
+   "title": "The Tailor in Heaven",
+   "wordCount": 774,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-035",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wishing-table-the-gold-ass-and-the-cudgel-in-the-sack",
+   "collectionId": "grimm-hunt",
+   "order": 36,
+   "title": "The Wishing-Table, the Gold-Ass, and the Cudgel in the Sack",
+   "wordCount": 3817,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-036",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--thumbling",
+   "collectionId": "grimm-hunt",
+   "order": 37,
+   "title": "Thumbling",
+   "wordCount": 2216,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-037",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wedding-of-mrs-fox",
+   "collectionId": "grimm-hunt",
+   "order": 38,
+   "title": "The Wedding of Mrs. Fox",
+   "wordCount": 787,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-038",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-elves",
+   "collectionId": "grimm-hunt",
+   "order": 39,
+   "title": "The Elves",
+   "wordCount": 1173,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-039",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-robber-bridegroom",
+   "collectionId": "grimm-hunt",
+   "order": 40,
+   "title": "The Robber Bridegroom",
+   "wordCount": 1384,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-040",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--herr-korbes",
+   "collectionId": "grimm-hunt",
+   "order": 41,
+   "title": "Herr Korbes",
+   "wordCount": 391,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-041",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-godfather",
+   "collectionId": "grimm-hunt",
+   "order": 42,
+   "title": "The Godfather",
+   "wordCount": 626,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-042",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--frau-trude",
+   "collectionId": "grimm-hunt",
+   "order": 43,
+   "title": "Frau Trude",
+   "wordCount": 301,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-043",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--godfather-death",
+   "collectionId": "grimm-hunt",
+   "order": 44,
+   "title": "Godfather Death",
+   "wordCount": 1224,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-044",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--thumbling-as-journeyman",
+   "collectionId": "grimm-hunt",
+   "order": 45,
+   "title": "Thumbling as Journeyman",
+   "wordCount": 1614,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-045",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--fitcher-s-bird",
+   "collectionId": "grimm-hunt",
+   "order": 46,
+   "title": "Fitcher's Bird",
+   "wordCount": 1404,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-046",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-juniper-tree",
+   "collectionId": "grimm-hunt",
+   "order": 47,
+   "title": "The Juniper-Tree",
+   "wordCount": 3076,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-047",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--old-sultan",
+   "collectionId": "grimm-hunt",
+   "order": 48,
+   "title": "Old Sultan",
+   "wordCount": 864,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-048",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-six-swans",
+   "collectionId": "grimm-hunt",
+   "order": 49,
+   "title": "The Six Swans",
+   "wordCount": 1987,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-049",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--briar-rose",
+   "collectionId": "grimm-hunt",
+   "order": 50,
+   "title": "Briar-Rose",
+   "wordCount": 1318,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-050",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--fundevogel-bird-foundling",
+   "collectionId": "grimm-hunt",
+   "order": 51,
+   "title": "Fundevogel (Bird-foundling)",
+   "wordCount": 956,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-051",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--king-thrushbeard",
+   "collectionId": "grimm-hunt",
+   "order": 52,
+   "title": "King Thrushbeard",
+   "wordCount": 1641,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-052",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--little-snow-white",
+   "collectionId": "grimm-hunt",
+   "order": 53,
+   "title": "Little Snow-white",
+   "wordCount": 3105,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-053",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-knapsack-the-hat-and-the-horn",
+   "collectionId": "grimm-hunt",
+   "order": 54,
+   "title": "The Knapsack, the Hat, and the Horn",
+   "wordCount": 2324,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-054",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--rumpelstiltskin",
+   "collectionId": "grimm-hunt",
+   "order": 55,
+   "title": "Rumpelstiltskin",
+   "wordCount": 1084,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-055",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--sweetheart-roland",
+   "collectionId": "grimm-hunt",
+   "order": 56,
+   "title": "Sweetheart Roland",
+   "wordCount": 1479,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-056",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-golden-bird",
+   "collectionId": "grimm-hunt",
+   "order": 57,
+   "title": "The Golden Bird",
+   "wordCount": 3081,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-057",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-dog-and-the-sparrow",
+   "collectionId": "grimm-hunt",
+   "order": 58,
+   "title": "The Dog and the Sparrow",
+   "wordCount": 1200,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-058",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--frederick-and-catherine",
+   "collectionId": "grimm-hunt",
+   "order": 59,
+   "title": "Frederick and Catherine",
+   "wordCount": 2573,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-059",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-two-brothers",
+   "collectionId": "grimm-hunt",
+   "order": 60,
+   "title": "The Two Brothers",
+   "wordCount": 8568,
+   "readingMinutes": 48,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-060",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-little-peasant",
+   "collectionId": "grimm-hunt",
+   "order": 61,
+   "title": "The Little Peasant",
+   "wordCount": 2076,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-061",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-queen-bee",
+   "collectionId": "grimm-hunt",
+   "order": 62,
+   "title": "The Queen Bee",
+   "wordCount": 808,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-062",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-feathers",
+   "collectionId": "grimm-hunt",
+   "order": 63,
+   "title": "The Three Feathers",
+   "wordCount": 1016,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-063",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-golden-goose",
+   "collectionId": "grimm-hunt",
+   "order": 64,
+   "title": "The Golden Goose",
+   "wordCount": 1088,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-064",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--allerleirauh",
+   "collectionId": "grimm-hunt",
+   "order": 65,
+   "title": "Allerleirauh",
+   "wordCount": 2176,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-065",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-hare-s-bride",
+   "collectionId": "grimm-hunt",
+   "order": 66,
+   "title": "The Hare's Bride",
+   "wordCount": 483,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-066",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-twelve-huntsmen",
+   "collectionId": "grimm-hunt",
+   "order": 67,
+   "title": "The Twelve Huntsmen",
+   "wordCount": 1084,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-067",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-thief-and-his-master",
+   "collectionId": "grimm-hunt",
+   "order": 68,
+   "title": "The Thief and his Master",
+   "wordCount": 799,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-068",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--jorinda-and-joringel",
+   "collectionId": "grimm-hunt",
+   "order": 69,
+   "title": "Jorinda and Joringel",
+   "wordCount": 937,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-069",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-sons-of-fortune",
+   "collectionId": "grimm-hunt",
+   "order": 70,
+   "title": "The Three Sons of Fortune",
+   "wordCount": 982,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-070",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--how-six-men-got-on-in-the-world",
+   "collectionId": "grimm-hunt",
+   "order": 71,
+   "title": "How Six Men Got on in the World",
+   "wordCount": 2071,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-071",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wolf-and-the-man",
+   "collectionId": "grimm-hunt",
+   "order": 72,
+   "title": "The Wolf and the Man",
+   "wordCount": 406,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-072",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wolf-and-the-fox",
+   "collectionId": "grimm-hunt",
+   "order": 73,
+   "title": "The Wolf and the Fox",
+   "wordCount": 717,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-073",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-fox-and-his-cousin",
+   "collectionId": "grimm-hunt",
+   "order": 74,
+   "title": "The Fox and His Cousin",
+   "wordCount": 374,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-074",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-fox-and-the-cat",
+   "collectionId": "grimm-hunt",
+   "order": 75,
+   "title": "The Fox and the Cat",
+   "wordCount": 288,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-075",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-pink",
+   "collectionId": "grimm-hunt",
+   "order": 76,
+   "title": "The Pink",
+   "wordCount": 1800,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-076",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--clever-grethel",
+   "collectionId": "grimm-hunt",
+   "order": 77,
+   "title": "Clever Grethel",
+   "wordCount": 919,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-077",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-old-man-and-his-grandson",
+   "collectionId": "grimm-hunt",
+   "order": 78,
+   "title": "The Old Man and His Grandson",
+   "wordCount": 249,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-078",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-water-nix",
+   "collectionId": "grimm-hunt",
+   "order": 79,
+   "title": "The Water-Nix",
+   "wordCount": 301,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-079",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-death-of-the-little-hen",
+   "collectionId": "grimm-hunt",
+   "order": 80,
+   "title": "The Death of the Little Hen",
+   "wordCount": 668,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-080",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--brother-lustig",
+   "collectionId": "grimm-hunt",
+   "order": 81,
+   "title": "Brother Lustig",
+   "wordCount": 4142,
+   "readingMinutes": 23,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-081",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--gambling-hansel",
+   "collectionId": "grimm-hunt",
+   "order": 82,
+   "title": "Gambling Hansel",
+   "wordCount": 981,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-082",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--hans-in-luck",
+   "collectionId": "grimm-hunt",
+   "order": 83,
+   "title": "Hans in Luck",
+   "wordCount": 2047,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-083",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--hans-married",
+   "collectionId": "grimm-hunt",
+   "order": 84,
+   "title": "Hans Married",
+   "wordCount": 443,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-084",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-gold-children",
+   "collectionId": "grimm-hunt",
+   "order": 85,
+   "title": "The Gold-Children",
+   "wordCount": 1928,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-085",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-fox-and-the-geese",
+   "collectionId": "grimm-hunt",
+   "order": 86,
+   "title": "The Fox and the Geese",
+   "wordCount": 229,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-086",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-poor-man-and-the-rich-man",
+   "collectionId": "grimm-hunt",
+   "order": 87,
+   "title": "The Poor Man and the Rich Man",
+   "wordCount": 1729,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-087",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-singing-springing-lark",
+   "collectionId": "grimm-hunt",
+   "order": 88,
+   "title": "The Singing, Springing Lark",
+   "wordCount": 2338,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-088",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-goose-girl",
+   "collectionId": "grimm-hunt",
+   "order": 89,
+   "title": "The Goose-Girl",
+   "wordCount": 2212,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-089",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-young-giant",
+   "collectionId": "grimm-hunt",
+   "order": 90,
+   "title": "The Young Giant",
+   "wordCount": 3091,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-090",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-gnome",
+   "collectionId": "grimm-hunt",
+   "order": 91,
+   "title": "The Gnome",
+   "wordCount": 1854,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-091",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-king-of-the-golden-mountain",
+   "collectionId": "grimm-hunt",
+   "order": 92,
+   "title": "The King of the Golden Mountain",
+   "wordCount": 2429,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-092",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-raven",
+   "collectionId": "grimm-hunt",
+   "order": 93,
+   "title": "The Raven",
+   "wordCount": 2261,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-093",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-peasant-s-wise-daughter",
+   "collectionId": "grimm-hunt",
+   "order": 94,
+   "title": "The Peasant's Wise Daughter",
+   "wordCount": 1425,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-094",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--old-hildebrand",
+   "collectionId": "grimm-hunt",
+   "order": 95,
+   "title": "Old Hildebrand",
+   "wordCount": 1322,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-095",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-little-birds",
+   "collectionId": "grimm-hunt",
+   "order": 96,
+   "title": "The Three Little Birds",
+   "wordCount": 1440,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-096",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-water-of-life",
+   "collectionId": "grimm-hunt",
+   "order": 97,
+   "title": "The Water of Life",
+   "wordCount": 2319,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-097",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--doctor-knowall",
+   "collectionId": "grimm-hunt",
+   "order": 98,
+   "title": "Doctor Knowall",
+   "wordCount": 771,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-098",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-spirit-in-the-bottle",
+   "collectionId": "grimm-hunt",
+   "order": 99,
+   "title": "The Spirit in the Bottle",
+   "wordCount": 1787,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-099",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-devil-s-sooty-brother",
+   "collectionId": "grimm-hunt",
+   "order": 100,
+   "title": "The Devil's Sooty Brother",
+   "wordCount": 1263,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-100",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--bearskin",
+   "collectionId": "grimm-hunt",
+   "order": 101,
+   "title": "Bearskin",
+   "wordCount": 1982,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-101",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-willow-wren-and-the-bear",
+   "collectionId": "grimm-hunt",
+   "order": 102,
+   "title": "The Willow-Wren and the Bear",
+   "wordCount": 913,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-102",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--sweet-porridge",
+   "collectionId": "grimm-hunt",
+   "order": 103,
+   "title": "Sweet Porridge",
+   "wordCount": 245,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-103",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--wise-folks",
+   "collectionId": "grimm-hunt",
+   "order": 104,
+   "title": "Wise Folks",
+   "wordCount": 1582,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-104",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--stories-about-snakes",
+   "collectionId": "grimm-hunt",
+   "order": 105,
+   "title": "Stories about Snakes",
+   "wordCount": 518,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-105",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-poor-miller-s-boy-and-the-cat",
+   "collectionId": "grimm-hunt",
+   "order": 106,
+   "title": "The Poor Miller's Boy and the Cat",
+   "wordCount": 1398,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-106",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-two-travellers",
+   "collectionId": "grimm-hunt",
+   "order": 107,
+   "title": "The Two Travellers",
+   "wordCount": 4176,
+   "readingMinutes": 23,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-107",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--hans-the-hedgehog",
+   "collectionId": "grimm-hunt",
+   "order": 108,
+   "title": "Hans the Hedgehog",
+   "wordCount": 2118,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-108",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-shroud",
+   "collectionId": "grimm-hunt",
+   "order": 109,
+   "title": "The Shroud",
+   "wordCount": 256,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-109",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-jew-among-thorns",
+   "collectionId": "grimm-hunt",
+   "order": 110,
+   "title": "The Jew Among Thorns",
+   "wordCount": 1792,
+   "readingMinutes": 10,
+   "excluded": true,
+   "flags": [
+    "antisemitic-caricature"
+   ],
+   "workId": "grimm-khm-110",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-skilful-huntsman",
+   "collectionId": "grimm-hunt",
+   "order": 111,
+   "title": "The Skilful Huntsman",
+   "wordCount": 2349,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-111",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-flail-from-heaven",
+   "collectionId": "grimm-hunt",
+   "order": 112,
+   "title": "The Flail From Heaven",
+   "wordCount": 396,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-112",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-two-kings-children",
+   "collectionId": "grimm-hunt",
+   "order": 113,
+   "title": "The Two Kings' Children",
+   "wordCount": 3418,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-113",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-cunning-little-tailor",
+   "collectionId": "grimm-hunt",
+   "order": 114,
+   "title": "The Cunning Little Tailor",
+   "wordCount": 1216,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-114",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-bright-sun-brings-it-to-light",
+   "collectionId": "grimm-hunt",
+   "order": 115,
+   "title": "The Bright Sun Brings It to Light",
+   "wordCount": 541,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-115",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-blue-light",
+   "collectionId": "grimm-hunt",
+   "order": 116,
+   "title": "The Blue Light",
+   "wordCount": 1750,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-116",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wilful-child",
+   "collectionId": "grimm-hunt",
+   "order": 117,
+   "title": "The Wilful Child",
+   "wordCount": 142,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-117",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-army-surgeons",
+   "collectionId": "grimm-hunt",
+   "order": 118,
+   "title": "The Three Army-Surgeons",
+   "wordCount": 1087,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-118",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-seven-swabians",
+   "collectionId": "grimm-hunt",
+   "order": 119,
+   "title": "The Seven Swabians",
+   "wordCount": 1021,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-119",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-apprentices",
+   "collectionId": "grimm-hunt",
+   "order": 120,
+   "title": "The Three Apprentices",
+   "wordCount": 1165,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-120",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-king-s-son-who-feared-nothing",
+   "collectionId": "grimm-hunt",
+   "order": 121,
+   "title": "The King's Son Who Feared Nothing",
+   "wordCount": 2138,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-121",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--donkey-cabbages",
+   "collectionId": "grimm-hunt",
+   "order": 122,
+   "title": "Donkey Cabbages",
+   "wordCount": 2634,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-122",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-old-woman-in-the-wood",
+   "collectionId": "grimm-hunt",
+   "order": 123,
+   "title": "The Old Woman in the Wood",
+   "wordCount": 916,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-123",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-brothers",
+   "collectionId": "grimm-hunt",
+   "order": 124,
+   "title": "The Three Brothers",
+   "wordCount": 659,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-124",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-devil-and-his-grandmother",
+   "collectionId": "grimm-hunt",
+   "order": 125,
+   "title": "The Devil and his Grandmother",
+   "wordCount": 1248,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-125",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--ferdinand-the-faithful",
+   "collectionId": "grimm-hunt",
+   "order": 126,
+   "title": "Ferdinand the Faithful",
+   "wordCount": 1991,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-126",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-iron-stove",
+   "collectionId": "grimm-hunt",
+   "order": 127,
+   "title": "The Iron Stove",
+   "wordCount": 2201,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-127",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-lazy-spinner",
+   "collectionId": "grimm-hunt",
+   "order": 128,
+   "title": "The Lazy Spinner",
+   "wordCount": 767,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-128",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-four-skilful-brothers",
+   "collectionId": "grimm-hunt",
+   "order": 129,
+   "title": "The Four Skilful Brothers",
+   "wordCount": 1663,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-129",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--one-eye-two-eyes-and-three-eyes",
+   "collectionId": "grimm-hunt",
+   "order": 130,
+   "title": "One-eye, Two-eyes, and Three-eyes",
+   "wordCount": 2641,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-130",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--fair-katrinelje-and-pif-paf-poltrie",
+   "collectionId": "grimm-hunt",
+   "order": 131,
+   "title": "Fair Katrinelje and Pif-Paf-Poltrie",
+   "wordCount": 305,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-131",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-fox-and-the-horse",
+   "collectionId": "grimm-hunt",
+   "order": 132,
+   "title": "The Fox and the Horse",
+   "wordCount": 481,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-132",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-shoes-that-were-danced-to-pieces",
+   "collectionId": "grimm-hunt",
+   "order": 133,
+   "title": "The Shoes That Were Danced to Pieces",
+   "wordCount": 1464,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-133",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-six-servants",
+   "collectionId": "grimm-hunt",
+   "order": 134,
+   "title": "The Six Servants",
+   "wordCount": 2706,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-134",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-white-bride-and-the-black-one",
+   "collectionId": "grimm-hunt",
+   "order": 135,
+   "title": "The White Bride and the Black One",
+   "wordCount": 1545,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-135",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--iron-john",
+   "collectionId": "grimm-hunt",
+   "order": 136,
+   "title": "Iron John",
+   "wordCount": 3221,
+   "readingMinutes": 18,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-136",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-black-princesses",
+   "collectionId": "grimm-hunt",
+   "order": 137,
+   "title": "The Three Black Princesses",
+   "wordCount": 710,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-137",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--knoist-and-his-three-sons",
+   "collectionId": "grimm-hunt",
+   "order": 138,
+   "title": "Knoist and his Three Sons",
+   "wordCount": 152,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-138",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-maid-of-brakel",
+   "collectionId": "grimm-hunt",
+   "order": 139,
+   "title": "The Maid of Brakel",
+   "wordCount": 133,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-139",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--domestic-servants",
+   "collectionId": "grimm-hunt",
+   "order": 140,
+   "title": "Domestic Servants",
+   "wordCount": 148,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-140",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-lambkin-and-the-little-fish",
+   "collectionId": "grimm-hunt",
+   "order": 141,
+   "title": "The Lambkin and the Little Fish",
+   "wordCount": 640,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-141",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--simeli-mountain",
+   "collectionId": "grimm-hunt",
+   "order": 142,
+   "title": "Simeli Mountain",
+   "wordCount": 852,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-142",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--going-a-travelling",
+   "collectionId": "grimm-hunt",
+   "order": 143,
+   "title": "Going A-Travelling",
+   "wordCount": 424,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-143",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-donkey",
+   "collectionId": "grimm-hunt",
+   "order": 144,
+   "title": "The Donkey",
+   "wordCount": 1296,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-144",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-ungrateful-son",
+   "collectionId": "grimm-hunt",
+   "order": 145,
+   "title": "The Ungrateful Son",
+   "wordCount": 168,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-145",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-turnip",
+   "collectionId": "grimm-hunt",
+   "order": 146,
+   "title": "The Turnip",
+   "wordCount": 1155,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-146",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-old-man-made-young-again",
+   "collectionId": "grimm-hunt",
+   "order": 147,
+   "title": "The Old Man Made Young Again",
+   "wordCount": 543,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-147",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-lord-s-animals-and-the-devil-s",
+   "collectionId": "grimm-hunt",
+   "order": 148,
+   "title": "The Lord's Animals and the Devil's",
+   "wordCount": 365,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-148",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-beam",
+   "collectionId": "grimm-hunt",
+   "order": 149,
+   "title": "The Beam",
+   "wordCount": 282,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-149",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-old-beggar-woman",
+   "collectionId": "grimm-hunt",
+   "order": 150,
+   "title": "The Old Beggar-Woman",
+   "wordCount": 164,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-150",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-sluggards",
+   "collectionId": "grimm-hunt",
+   "order": 151,
+   "title": "The Three Sluggards",
+   "wordCount": 1341,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-151",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-shepherd-boy",
+   "collectionId": "grimm-hunt",
+   "order": 152,
+   "title": "The Shepherd Boy",
+   "wordCount": 363,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-152",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-star-money",
+   "collectionId": "grimm-hunt",
+   "order": 153,
+   "title": "The Star-Money",
+   "wordCount": 337,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-153",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-stolen-farthings",
+   "collectionId": "grimm-hunt",
+   "order": 154,
+   "title": "The Stolen Farthings",
+   "wordCount": 350,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-154",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--brides-on-their-trial",
+   "collectionId": "grimm-hunt",
+   "order": 155,
+   "title": "Brides On Their Trial",
+   "wordCount": 155,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-155",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--odds-and-ends",
+   "collectionId": "grimm-hunt",
+   "order": 156,
+   "title": "Odds And Ends",
+   "wordCount": 205,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-156",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-sparrow-and-his-four-children",
+   "collectionId": "grimm-hunt",
+   "order": 157,
+   "title": "The Sparrow And His Four Children",
+   "wordCount": 929,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-157",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-story-of-schlauraffen-land",
+   "collectionId": "grimm-hunt",
+   "order": 158,
+   "title": "The Story of Schlauraffen Land",
+   "wordCount": 334,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-158",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-ditmarsch-tale-of-wonders",
+   "collectionId": "grimm-hunt",
+   "order": 159,
+   "title": "The Ditmarsch Tale of Wonders",
+   "wordCount": 209,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-159",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--a-riddling-tale",
+   "collectionId": "grimm-hunt",
+   "order": 160,
+   "title": "A Riddling Tale",
+   "wordCount": 131,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-160",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--snow-white-and-rose-red",
+   "collectionId": "grimm-hunt",
+   "order": 161,
+   "title": "Snow-White and Rose-Red",
+   "wordCount": 2436,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-161",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-wise-servant",
+   "collectionId": "grimm-hunt",
+   "order": 162,
+   "title": "The Wise Servant",
+   "wordCount": 252,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-162",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-glass-coffin",
+   "collectionId": "grimm-hunt",
+   "order": 163,
+   "title": "The Glass Coffin",
+   "wordCount": 2373,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-163",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--lazy-harry",
+   "collectionId": "grimm-hunt",
+   "order": 164,
+   "title": "Lazy Harry",
+   "wordCount": 996,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-164",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-griffin",
+   "collectionId": "grimm-hunt",
+   "order": 165,
+   "title": "The Griffin",
+   "wordCount": 2808,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-165",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--strong-hans",
+   "collectionId": "grimm-hunt",
+   "order": 166,
+   "title": "Strong Hans",
+   "wordCount": 2632,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-166",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-peasant-in-heaven",
+   "collectionId": "grimm-hunt",
+   "order": 167,
+   "title": "The Peasant in Heaven",
+   "wordCount": 256,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-167",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--lean-lisa",
+   "collectionId": "grimm-hunt",
+   "order": 168,
+   "title": "Lean Lisa",
+   "wordCount": 458,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-168",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-hut-in-the-forest",
+   "collectionId": "grimm-hunt",
+   "order": 169,
+   "title": "The Hut in the Forest",
+   "wordCount": 1894,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-169",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--sharing-joy-and-sorrow",
+   "collectionId": "grimm-hunt",
+   "order": 170,
+   "title": "Sharing Joy and Sorrow",
+   "wordCount": 377,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-170",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-willow-wren",
+   "collectionId": "grimm-hunt",
+   "order": 171,
+   "title": "The Willow-Wren",
+   "wordCount": 1142,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-171",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-sole",
+   "collectionId": "grimm-hunt",
+   "order": 172,
+   "title": "The Sole",
+   "wordCount": 240,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-172",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-bittern-and-the-hoopoe",
+   "collectionId": "grimm-hunt",
+   "order": 173,
+   "title": "The Bittern and the Hoopoe",
+   "wordCount": 237,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-173",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-owl",
+   "collectionId": "grimm-hunt",
+   "order": 174,
+   "title": "The Owl",
+   "wordCount": 840,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-174",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-moon",
+   "collectionId": "grimm-hunt",
+   "order": 175,
+   "title": "The Moon",
+   "wordCount": 779,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-175",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-duration-of-life",
+   "collectionId": "grimm-hunt",
+   "order": 176,
+   "title": "The Duration of Life",
+   "wordCount": 576,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-176",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--death-s-messengers",
+   "collectionId": "grimm-hunt",
+   "order": 177,
+   "title": "Death's Messengers",
+   "wordCount": 585,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-177",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--master-pfriem-master-cobbler-s-awl",
+   "collectionId": "grimm-hunt",
+   "order": 178,
+   "title": "Master Pfriem (Master Cobbler's Awl)",
+   "wordCount": 1439,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-178",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-goose-girl-at-the-well",
+   "collectionId": "grimm-hunt",
+   "order": 179,
+   "title": "The Goose-Girl at the Well",
+   "wordCount": 3876,
+   "readingMinutes": 22,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-179",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--eve-s-various-children",
+   "collectionId": "grimm-hunt",
+   "order": 180,
+   "title": "Eve's Various Children",
+   "wordCount": 677,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-180",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-nix-of-the-mill-pond",
+   "collectionId": "grimm-hunt",
+   "order": 181,
+   "title": "The Nix of the Mill-Pond",
+   "wordCount": 2126,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-181",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-little-folks-presents",
+   "collectionId": "grimm-hunt",
+   "order": 182,
+   "title": "The Little Folks' Presents",
+   "wordCount": 981,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-182",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-giant-and-the-tailor",
+   "collectionId": "grimm-hunt",
+   "order": 183,
+   "title": "The Giant and the Tailor",
+   "wordCount": 726,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-183",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-nail",
+   "collectionId": "grimm-hunt",
+   "order": 184,
+   "title": "The Nail",
+   "wordCount": 265,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-184",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-poor-boy-in-the-grave",
+   "collectionId": "grimm-hunt",
+   "order": 185,
+   "title": "The Poor Boy in the Grave",
+   "wordCount": 1265,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-185",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-true-sweethearts",
+   "collectionId": "grimm-hunt",
+   "order": 186,
+   "title": "The True Sweethearts",
+   "wordCount": 2665,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-186",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-hare-and-the-hedgehog",
+   "collectionId": "grimm-hunt",
+   "order": 187,
+   "title": "The Hare and the Hedgehog",
+   "wordCount": 1360,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-187",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-spindle-the-shuttle-and-the-needle",
+   "collectionId": "grimm-hunt",
+   "order": 188,
+   "title": "The Spindle, The Shuttle, and the Needle",
+   "wordCount": 1099,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-188",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-peasant-and-the-devil",
+   "collectionId": "grimm-hunt",
+   "order": 189,
+   "title": "The Peasant and the Devil",
+   "wordCount": 376,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-189",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-crumbs-on-the-table",
+   "collectionId": "grimm-hunt",
+   "order": 190,
+   "title": "The Crumbs on the Table",
+   "wordCount": 181,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-190",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-sea-hare",
+   "collectionId": "grimm-hunt",
+   "order": 191,
+   "title": "The Sea-Hare",
+   "wordCount": 1310,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-191",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-master-thief",
+   "collectionId": "grimm-hunt",
+   "order": 192,
+   "title": "The Master-Thief",
+   "wordCount": 3069,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-192",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-drummer",
+   "collectionId": "grimm-hunt",
+   "order": 193,
+   "title": "The Drummer",
+   "wordCount": 3823,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-193",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-ear-of-corn",
+   "collectionId": "grimm-hunt",
+   "order": 194,
+   "title": "The Ear of Corn",
+   "wordCount": 240,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-194",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-grave-mound",
+   "collectionId": "grimm-hunt",
+   "order": 195,
+   "title": "The Grave-Mound",
+   "wordCount": 1483,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "workId": "grimm-khm-195",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--old-rinkrank",
+   "collectionId": "grimm-hunt",
+   "order": 196,
+   "title": "Old Rinkrank",
+   "wordCount": 764,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-196",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-crystal-ball",
+   "collectionId": "grimm-hunt",
+   "order": 197,
+   "title": "The Crystal Ball",
+   "wordCount": 1079,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-197",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--maid-maleen",
+   "collectionId": "grimm-hunt",
+   "order": 198,
+   "title": "Maid Maleen",
+   "wordCount": 1977,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-198",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-boots-of-buffalo-leather",
+   "collectionId": "grimm-hunt",
+   "order": 199,
+   "title": "The Boots of Buffalo-Leather",
+   "wordCount": 1461,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-199",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-golden-key",
+   "collectionId": "grimm-hunt",
+   "order": 200,
+   "title": "The Golden Key",
+   "wordCount": 188,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-khm-200",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--st-joseph-in-the-forest",
+   "collectionId": "grimm-hunt",
+   "order": 201,
+   "title": "St. Joseph in the Forest",
+   "wordCount": 1161,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-01",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-twelve-apostles",
+   "collectionId": "grimm-hunt",
+   "order": 202,
+   "title": "The Twelve Apostles",
+   "wordCount": 405,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-02",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-rose",
+   "collectionId": "grimm-hunt",
+   "order": 203,
+   "title": "The Rose",
+   "wordCount": 157,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-03",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--poverty-and-humility-lead-to-heaven",
+   "collectionId": "grimm-hunt",
+   "order": 204,
+   "title": "Poverty and Humility Lead to Heaven",
+   "wordCount": 492,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-04",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--god-s-food",
+   "collectionId": "grimm-hunt",
+   "order": 205,
+   "title": "God's Food",
+   "wordCount": 243,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-05",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-three-green-twigs",
+   "collectionId": "grimm-hunt",
+   "order": 206,
+   "title": "The Three Green Twigs",
+   "wordCount": 964,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-06",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--our-lady-s-little-glass",
+   "collectionId": "grimm-hunt",
+   "order": 207,
+   "title": "Our Lady's Little Glass",
+   "wordCount": 160,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-07",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-aged-mother",
+   "collectionId": "grimm-hunt",
+   "order": 208,
+   "title": "The Aged Mother",
+   "wordCount": 341,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-08",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-heavenly-wedding",
+   "collectionId": "grimm-hunt",
+   "order": 209,
+   "title": "The Heavenly Wedding",
+   "wordCount": 517,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-09",
+   "hasImages": false
+  },
+  {
+   "id": "grimm-hunt--the-hazel-branch",
+   "collectionId": "grimm-hunt",
+   "order": 210,
+   "title": "The Hazel-Branch",
+   "wordCount": 204,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "workId": "grimm-kl-10",
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--my-lord-bag-of-rice",
+   "collectionId": "japan-ozaki",
+   "order": 1,
+   "title": "My Lord Bag of Rice",
+   "wordCount": 2310,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-tongue-cut-sparrow",
+   "collectionId": "japan-ozaki",
+   "order": 2,
+   "title": "The Tongue-Cut Sparrow",
+   "wordCount": 3369,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-tongue-cut-sparrow"
+  },
+  {
+   "id": "japan-ozaki--the-story-of-urashima-taro-the-fisher-lad",
+   "collectionId": "japan-ozaki",
+   "order": 3,
+   "title": "The Story of Urashima Taro, the Fisher Lad",
+   "wordCount": 4220,
+   "readingMinutes": 23,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-urashima"
+  },
+  {
+   "id": "japan-ozaki--the-farmer-and-the-badger",
+   "collectionId": "japan-ozaki",
+   "order": 4,
+   "title": "The Farmer and the Badger",
+   "wordCount": 2399,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-shinansha-or-the-south-pointing-carriage",
+   "collectionId": "japan-ozaki",
+   "order": 5,
+   "title": "The Shinansha, or the South Pointing Carriage",
+   "wordCount": 1181,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-adventures-of-kintaro-the-golden-boy",
+   "collectionId": "japan-ozaki",
+   "order": 6,
+   "title": "The Adventures of Kintaro, the Golden Boy",
+   "wordCount": 3119,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-story-of-princess-hase",
+   "collectionId": "japan-ozaki",
+   "order": 7,
+   "title": "The Story of Princess Hase",
+   "wordCount": 2990,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-story-of-the-man-who-did-not-wish-to-die",
+   "collectionId": "japan-ozaki",
+   "order": 8,
+   "title": "The Story of the Man Who Did Not Wish to Die",
+   "wordCount": 2602,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-bamboo-cutter-and-the-moon-child",
+   "collectionId": "japan-ozaki",
+   "order": 9,
+   "title": "The Bamboo-Cutter and the Moon-Child",
+   "wordCount": 5731,
+   "readingMinutes": 32,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-bamboo-cutter"
+  },
+  {
+   "id": "japan-ozaki--the-mirror-of-matsuyama",
+   "collectionId": "japan-ozaki",
+   "order": 10,
+   "title": "The Mirror of Matsuyama",
+   "wordCount": 5250,
+   "readingMinutes": 29,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-matsuyama-mirror"
+  },
+  {
+   "id": "japan-ozaki--the-goblin-of-adachigahara",
+   "collectionId": "japan-ozaki",
+   "order": 11,
+   "title": "The Goblin of Adachigahara",
+   "wordCount": 1716,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-sagacious-monkey-and-the-boar",
+   "collectionId": "japan-ozaki",
+   "order": 12,
+   "title": "The Sagacious Monkey and the Boar",
+   "wordCount": 931,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-happy-hunter-and-the-skillful-fisher",
+   "collectionId": "japan-ozaki",
+   "order": 13,
+   "title": "The Happy Hunter and the Skillful Fisher",
+   "wordCount": 6273,
+   "readingMinutes": 35,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-happy-hunter"
+  },
+  {
+   "id": "japan-ozaki--the-story-of-the-old-man-who-made-withered-trees-to-flower",
+   "collectionId": "japan-ozaki",
+   "order": 14,
+   "title": "The Story of the Old Man Who Made Withered Trees to Flower",
+   "wordCount": 2735,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-hanasaka-jiji"
+  },
+  {
+   "id": "japan-ozaki--the-jelly-fish-and-the-monkey",
+   "collectionId": "japan-ozaki",
+   "order": 15,
+   "title": "The Jelly Fish and the Monkey",
+   "wordCount": 3192,
+   "readingMinutes": 18,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-jellyfish-and-monkey"
+  },
+  {
+   "id": "japan-ozaki--the-quarrel-of-the-monkey-and-the-crab",
+   "collectionId": "japan-ozaki",
+   "order": 16,
+   "title": "The Quarrel of the Monkey and the Crab",
+   "wordCount": 2677,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-white-hare-and-the-crocodiles",
+   "collectionId": "japan-ozaki",
+   "order": 17,
+   "title": "The White Hare and the Crocodiles",
+   "wordCount": 2134,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-story-of-prince-yamato-take",
+   "collectionId": "japan-ozaki",
+   "order": 18,
+   "title": "The Story of Prince Yamato Take",
+   "wordCount": 5295,
+   "readingMinutes": 29,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--momotaro-or-the-story-of-the-son-of-a-peach",
+   "collectionId": "japan-ozaki",
+   "order": 19,
+   "title": "Momotaro, or the Story of the Son of a Peach",
+   "wordCount": 4395,
+   "readingMinutes": 24,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-momotaro"
+  },
+  {
+   "id": "japan-ozaki--the-ogre-of-rashomon",
+   "collectionId": "japan-ozaki",
+   "order": 20,
+   "title": "The Ogre of Rashomon",
+   "wordCount": 2219,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--how-an-old-man-lost-his-wen",
+   "collectionId": "japan-ozaki",
+   "order": 21,
+   "title": "How an Old Man Lost His Wen",
+   "wordCount": 2161,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-ozaki--the-stones-of-five-colors-and-the-empress-jokwa",
+   "collectionId": "japan-ozaki",
+   "order": 22,
+   "title": "The Stones of Five Colors and the Empress Jokwa",
+   "wordCount": 3029,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--green-willow",
+   "collectionId": "japan-james",
+   "order": 1,
+   "title": "Green Willow",
+   "wordCount": 2027,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-flute",
+   "collectionId": "japan-james",
+   "order": 2,
+   "title": "The Flute",
+   "wordCount": 1567,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-tea-kettle",
+   "collectionId": "japan-james",
+   "order": 3,
+   "title": "The Tea-Kettle",
+   "wordCount": 1721,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-peony-lantern",
+   "collectionId": "japan-james",
+   "order": 4,
+   "title": "The Peony Lantern",
+   "wordCount": 2963,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-sea-king-and-the-magic-jewels",
+   "collectionId": "japan-james",
+   "order": 5,
+   "title": "The Sea King and the Magic Jewels",
+   "wordCount": 3069,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "ja-happy-hunter"
+  },
+  {
+   "id": "japan-james--the-good-thunder",
+   "collectionId": "japan-james",
+   "order": 6,
+   "title": "The Good Thunder",
+   "wordCount": 1218,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-black-bowl",
+   "collectionId": "japan-james",
+   "order": 7,
+   "title": "The Black Bowl",
+   "wordCount": 2243,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-star-lovers",
+   "collectionId": "japan-james",
+   "order": 8,
+   "title": "The Star Lovers",
+   "wordCount": 1231,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--horaizan",
+   "collectionId": "japan-james",
+   "order": 9,
+   "title": "Horaizan",
+   "wordCount": 1581,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--reflections",
+   "collectionId": "japan-james",
+   "order": 10,
+   "title": "Reflections",
+   "wordCount": 2733,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-story-of-susa-the-impetuous",
+   "collectionId": "japan-james",
+   "order": 11,
+   "title": "The Story of Susa, the Impetuous",
+   "wordCount": 2998,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-wind-in-the-pine-tree",
+   "collectionId": "japan-james",
+   "order": 12,
+   "title": "The Wind in the Pine Tree",
+   "wordCount": 1531,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--flower-of-the-peony",
+   "collectionId": "japan-james",
+   "order": 13,
+   "title": "Flower of the Peony",
+   "wordCount": 1808,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-mallet",
+   "collectionId": "japan-james",
+   "order": 14,
+   "title": "The Mallet",
+   "wordCount": 2625,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-bell-of-dojoji",
+   "collectionId": "japan-james",
+   "order": 15,
+   "title": "The Bell of Dōjōji",
+   "wordCount": 1718,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-maiden-of-unai",
+   "collectionId": "japan-james",
+   "order": 16,
+   "title": "The Maiden of Unai",
+   "wordCount": 2028,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-robe-of-feathers",
+   "collectionId": "japan-james",
+   "order": 17,
+   "title": "The Robe of Feathers",
+   "wordCount": 1310,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-singing-bird-of-heaven",
+   "collectionId": "japan-james",
+   "order": 18,
+   "title": "The Singing Bird of Heaven",
+   "wordCount": 1103,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-cold-lady",
+   "collectionId": "japan-james",
+   "order": 19,
+   "title": "The Cold Lady",
+   "wordCount": 1981,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-fire-quest",
+   "collectionId": "japan-james",
+   "order": 20,
+   "title": "The Fire Quest",
+   "wordCount": 716,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--a-legend-of-kwannon",
+   "collectionId": "japan-james",
+   "order": 21,
+   "title": "A Legend of Kwannon",
+   "wordCount": 1470,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-espousal-of-the-rats-daughter",
+   "collectionId": "japan-james",
+   "order": 22,
+   "title": "The Espousal of the Rat’s Daughter",
+   "wordCount": 2391,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-land-of-yomi",
+   "collectionId": "japan-james",
+   "order": 23,
+   "title": "The Land of Yomi",
+   "wordCount": 1187,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-spring-lover-and-the-autumn-lover",
+   "collectionId": "japan-james",
+   "order": 24,
+   "title": "The Spring Lover and the Autumn Lover",
+   "wordCount": 1286,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-strange-story-of-the-golden-comb",
+   "collectionId": "japan-james",
+   "order": 25,
+   "title": "The Strange Story of the Golden Comb",
+   "wordCount": 2992,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-jelly-fish-takes-a-journey",
+   "collectionId": "japan-james",
+   "order": 26,
+   "title": "The Jelly-Fish Takes a Journey",
+   "wordCount": 990,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-jellyfish-and-monkey"
+  },
+  {
+   "id": "japan-james--urashima",
+   "collectionId": "japan-james",
+   "order": 27,
+   "title": "Urashima",
+   "wordCount": 1262,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-urashima"
+  },
+  {
+   "id": "japan-james--tamamo-the-fox-maiden",
+   "collectionId": "japan-james",
+   "order": 28,
+   "title": "Tamamo, the Fox Maiden",
+   "wordCount": 1678,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--momotaro",
+   "collectionId": "japan-james",
+   "order": 29,
+   "title": "Momotaro",
+   "wordCount": 1013,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "ja-momotaro"
+  },
+  {
+   "id": "japan-james--the-matsuyama-mirror",
+   "collectionId": "japan-james",
+   "order": 30,
+   "title": "The Matsuyama Mirror",
+   "wordCount": 1181,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-matsuyama-mirror"
+  },
+  {
+   "id": "japan-james--broken-images",
+   "collectionId": "japan-james",
+   "order": 31,
+   "title": "Broken Images",
+   "wordCount": 1176,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-tongue-cut-sparrow",
+   "collectionId": "japan-james",
+   "order": 32,
+   "title": "The Tongue-Cut Sparrow",
+   "wordCount": 1030,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "ja-tongue-cut-sparrow"
+  },
+  {
+   "id": "japan-james--the-nurse",
+   "collectionId": "japan-james",
+   "order": 33,
+   "title": "The Nurse",
+   "wordCount": 1486,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": true
+  },
+  {
+   "id": "japan-james--the-beautiful-dancer-of-yedo",
+   "collectionId": "japan-james",
+   "order": 34,
+   "title": "The Beautiful Dancer of Yedo",
+   "wordCount": 1836,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--hana-saka-jiji",
+   "collectionId": "japan-james",
+   "order": 35,
+   "title": "Hana-Saka-Jiji",
+   "wordCount": 1297,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "ja-hanasaka-jiji"
+  },
+  {
+   "id": "japan-james--the-moon-maiden",
+   "collectionId": "japan-james",
+   "order": 36,
+   "title": "The Moon Maiden",
+   "wordCount": 1273,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "ja-bamboo-cutter"
+  },
+  {
+   "id": "japan-james--karma",
+   "collectionId": "japan-james",
+   "order": 37,
+   "title": "Karma",
+   "wordCount": 1235,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "japan-james--the-sad-story-of-the-yaoyas-daughter",
+   "collectionId": "japan-james",
+   "order": 38,
+   "title": "The Sad Story of the Yaoya’s Daughter",
+   "wordCount": 1344,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false
+  },
+  {
+   "id": "busch-max-maurice--max-and-maurice",
+   "collectionId": "busch-max-maurice",
+   "order": 1,
+   "title": "Max and Maurice",
+   "wordCount": 2339,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": true
   }
  ]
 }

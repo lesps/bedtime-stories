@@ -1,9 +1,9 @@
-import { act, screen } from '@testing-library/react';
+import { act, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createStore } from '../storage/store';
 import { installFakeIO } from '../test/fakeIntersectionObserver';
-import { renderApp } from '../test/renderApp';
+import { fixtureStoryBodies, renderApp } from '../test/renderApp';
 
 let io: ReturnType<typeof installFakeIO>;
 beforeEach(() => {
@@ -71,6 +71,37 @@ describe('ReaderPage', () => {
     release();
     await screen.findByText('The Heron begins here.');
     expect(screen.getByRole('navigation', { name: 'More stories' })).toBeInTheDocument();
+  });
+
+  it('links other visible versions of the same tale', async () => {
+    renderApp('/s/grimm--rapunzel');
+    await screen.findByText('Rapunzel begins here.');
+    const nav = screen.getByRole('navigation', { name: 'Other versions' });
+    const links = within(nav).getAllByRole('link');
+    expect(links.map((a) => a.getAttribute('href'))).toEqual(['/s/hunt--rapunzel']);
+    expect(nav).toHaveTextContent('Household Tales');
+  });
+
+  it('has no other-versions list for a tale with one version', async () => {
+    renderApp('/s/aesop--the-heron');
+    await screen.findByText('The Heron begins here.');
+    expect(screen.queryByRole('navigation', { name: 'Other versions' })).not.toBeInTheDocument();
+  });
+
+  it('shows a per-book year and source link when the story has them (Potter)', async () => {
+    renderApp('/s/aesop--the-lion', createStore(localStorage), {
+      'aesop--the-lion': {
+        ...fixtureStoryBodies['aesop--the-lion']!,
+        firstPublished: 1902,
+        source: 'https://www.gutenberg.org/ebooks/14838',
+      },
+    });
+    await screen.findByText('The Lion begins here.');
+    expect(screen.getByText(/1902/)).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Source' })).toHaveAttribute(
+      'href',
+      'https://www.gutenberg.org/ebooks/14838',
+    );
   });
 
   it('refuses to render a hidden story', async () => {
