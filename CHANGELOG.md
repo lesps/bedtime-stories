@@ -5,6 +5,11 @@ versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Swipe a story row left to mark it unread (or read). The action is also reachable by keyboard
+  and screen reader without swiping.
+
 ## [0.1.0] - 2026-10-05
 
 ### Added

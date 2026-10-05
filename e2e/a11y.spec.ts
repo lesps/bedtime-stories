@@ -9,6 +9,7 @@ const pages = [
     expect: '.verse',
   },
   { name: 'Library', path: '#/', expect: '.collection-card' },
+  { name: 'Collection', path: '#/c/aesop', expect: '.row-action' },
   { name: 'Surprise', path: '#/surprise', expect: '.chip' },
   { name: 'Settings', path: '#/settings', expect: '.card' },
 ];

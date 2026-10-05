@@ -139,6 +139,10 @@ export function createStore(storage: Storage, now: () => number = Date.now) {
       const history = [...state.history.filter((h) => h.id !== id), { id, readAt: now() }];
       set({ ...state, history: history.slice(-HISTORY_CAP) });
     },
+    markUnread(id: string) {
+      if (!state.history.some((h) => h.id === id)) return;
+      set({ ...state, history: state.history.filter((h) => h.id !== id) });
+    },
     recordPick(id: string) {
       const recentPicks = [...state.recentPicks.filter((p) => p !== id), id];
       set({ ...state, recentPicks: recentPicks.slice(-RECENT_PICKS_CAP) });

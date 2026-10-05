@@ -10,6 +10,7 @@ Just So Stories.
 - Serif reader with light / sepia / dark themes (Auto follows your phone), 5 text sizes, relaxed
   spacing, scroll progress, previous/next.
 - Favorites, "continue from where you left off", read history — stored only on your device.
+  Swipe a story left to mark it unread (or read).
 - **Surprise me**: random pick filtered by collection, length (Under 5 min by default), unread or
   favorites, avoiding the last 10 picks.
 - Installable PWA that works offline; one tap in Settings saves every story (~12 MB).

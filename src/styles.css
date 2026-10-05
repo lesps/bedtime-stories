@@ -297,9 +297,40 @@ main {
   margin: 0;
 }
 .story-row {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+.row-content {
+  position: relative;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .story-row:not([data-dragging='true']) .row-content {
+    transition: transform 0.2s ease-out;
+  }
+}
+.row-action {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: var(--accent);
+  color: var(--on-accent);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.row-action:focus-visible {
+  outline-offset: -4px;
+  outline-color: var(--on-accent);
 }
 .story-link {
   flex: 1;
