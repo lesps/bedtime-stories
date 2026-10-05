@@ -8,7 +8,8 @@ Goble's plates) and Busch's Max and Maurice.
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
-- Browse collections, search titles, filter by length with a two-handled slider.
+- Browse by collection, culture (Japanese, Norwegian, French…) or theme (animals, tricksters,
+  gentle & cosy…); search titles and tags; filter by length with a two-handled slider.
 - Serif reader with light / sepia / dark themes (Auto follows your phone), 5 text sizes, relaxed
   spacing, scroll progress, previous/next.
 - Favorites, "continue from where you left off", read history — stored only on your device.

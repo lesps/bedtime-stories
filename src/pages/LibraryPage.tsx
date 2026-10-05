@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
+import { TagCards } from '../components/TagCards';
 import { StoryList } from '../components/StoryRow';
 import { SparkleIcon } from '../components/icons';
 import { useIndex } from '../data/IndexProvider';
@@ -9,8 +10,16 @@ import { matchesQuery } from '../domain/search';
 import { useAppState } from '../storage/StoreProvider';
 import { useVisibleStories } from '../app/useVisibleStories';
 
+const BROWSE = [
+  { id: 'collections', label: 'Collections' },
+  { id: 'cultures', label: 'Cultures' },
+  { id: 'themes', label: 'Themes' },
+] as const;
+
 export function LibraryPage() {
-  const { collections } = useIndex();
+  const { collections, tagLabels } = useIndex();
+  const [params, setParams] = useSearchParams();
+  const by = BROWSE.find((b) => b.id === params.get('by'))?.id ?? 'collections';
   const visible = useVisibleStories();
   const { progress } = useAppState();
   const [query, setQuery] = useState('');
@@ -19,9 +28,9 @@ export function LibraryPage() {
   const results = useMemo(
     () =>
       visible
-        .filter((s) => matchesQuery(s, query) && inRange(s.readingMinutes, length))
+        .filter((s) => matchesQuery(s, query, tagLabels(s.id)) && inRange(s.readingMinutes, length))
         .sort((a, b) => a.title.localeCompare(b.title)),
-    [visible, query, length],
+    [visible, query, length, tagLabels],
   );
   const inProgress = useMemo(
     () =>
@@ -72,22 +81,42 @@ export function LibraryPage() {
           <StoryList entries={results} showCollection label="Results" />
         </section>
       ) : (
-        <section aria-labelledby="coll-h">
-          <h2 id="coll-h">Collections</h2>
-          <ul className="collections">
-            {collections.map((c) => {
-              const count = visible.filter((s) => s.collectionId === c.id).length;
-              return (
-                <li key={c.id}>
-                  <Link to={`/c/${c.id}`} className="collection-card" data-collection={c.id}>
-                    <span className="collection-title">{c.title}</span>
-                    <span className="muted">{c.contributor ?? c.author}</span>
-                    <span className="count">{count} stories</span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+        <section aria-labelledby="browse-h">
+          <h2 id="browse-h">Browse by</h2>
+          <div className="chips" role="radiogroup" aria-label="Browse by">
+            {BROWSE.map((b) => (
+              <button
+                key={b.id}
+                type="button"
+                role="radio"
+                className="chip"
+                aria-checked={by === b.id}
+                onClick={() =>
+                  setParams(b.id === 'collections' ? {} : { by: b.id }, { replace: true })
+                }
+              >
+                {b.label}
+              </button>
+            ))}
+          </div>
+          {by === 'collections' ? (
+            <ul className="collections">
+              {collections.map((c) => {
+                const count = visible.filter((s) => s.collectionId === c.id).length;
+                return (
+                  <li key={c.id}>
+                    <Link to={`/c/${c.id}`} className="collection-card" data-collection={c.id}>
+                      <span className="collection-title">{c.title}</span>
+                      <span className="muted">{c.contributor ?? c.author}</span>
+                      <span className="count">{count} stories</span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          ) : (
+            <TagCards kind={by} />
+          )}
         </section>
       )}
       <p className="footer-links">

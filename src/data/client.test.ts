@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { DataError, compendiumUrl, loadIndex, loadStory, resetDataCache } from './client';
+import { DataError, compendiumUrl, loadIndex, loadStory, loadTags, resetDataCache } from './client';
 
 const index = {
   schemaVersion: 1,
@@ -128,5 +128,30 @@ describe('loadStory', () => {
   it('rejects ids that would escape the stories directory', async () => {
     await expect(loadStory('../index')).rejects.toMatchObject({ kind: 'invalid' });
     expect(fetchMock).not.toHaveBeenCalled();
+  });
+});
+
+describe('loadTags', () => {
+  const tags = {
+    schemaVersion: 1,
+    cultures: [{ id: 'greek', label: 'Ancient Greek' }],
+    themes: [{ id: 'animals', label: 'Animals' }],
+    stories: { 'aesop--a': { cultures: ['greek'], themes: ['animals'] } },
+  };
+
+  it('fetches, validates and caches tags.json', async () => {
+    fetchMock.mockResolvedValue(ok(tags));
+    const a = await loadTags();
+    expect(await loadTags()).toBe(a);
+    expect(a.stories['aesop--a']?.themes).toEqual(['animals']);
+    expect(fetchMock).toHaveBeenCalledWith(compendiumUrl('tags.json'));
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
+  it('rejects a story with no themes', async () => {
+    fetchMock.mockResolvedValue(
+      ok({ ...tags, stories: { 'aesop--a': { cultures: ['greek'], themes: [] } } }),
+    );
+    await expect(loadTags()).rejects.toMatchObject({ kind: 'invalid' });
   });
 });

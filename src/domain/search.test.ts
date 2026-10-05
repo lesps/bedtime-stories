@@ -14,4 +14,12 @@ describe('search', () => {
     expect(matchesQuery(e, 'elephant tiger')).toBe(false);
     expect(matchesQuery(e, '   ')).toBe(true);
   });
+
+  it('also matches tag labels, each word in the title or a tag', () => {
+    const e = entry({ id: 'j--fox', title: 'Tamamo, the Fox Maiden' });
+    expect(matchesQuery(e, 'japanese', ['Japanese', 'Ghosts & spirits'])).toBe(true);
+    expect(matchesQuery(e, 'japanese fox', ['Japanese'])).toBe(true);
+    expect(matchesQuery(e, 'spirits', ['Ghosts & spirits'])).toBe(true);
+    expect(matchesQuery(e, 'german fox', ['Japanese'])).toBe(false);
+  });
 });

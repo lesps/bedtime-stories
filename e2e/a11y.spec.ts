@@ -10,6 +10,8 @@ const pages = [
   },
   { name: 'Library', path: '#/', expect: '.collection-card' },
   { name: 'Collection', path: '#/c/aesop', expect: '.row-action' },
+  { name: 'Library by theme', path: '#/?by=themes', expect: '.tag-cards' },
+  { name: 'Tag page', path: '#/tags/cultures/japanese', expect: '.story-row' },
   { name: 'Surprise', path: '#/surprise', expect: '.chip' },
   { name: 'Settings', path: '#/settings', expect: '.card' },
 ];

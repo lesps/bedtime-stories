@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import type { Block, Index, Story } from './types';
+import type { Block, Index, Story, Tags } from './types';
 
 const flag = z.enum(['mature-themes', 'racial-slur', 'antisemitic-caricature']);
 
@@ -54,4 +54,15 @@ export const storySchema: z.ZodType<Story> = z.object({
   firstPublished: z.number().int().optional(),
   source: z.string().url().optional(),
   originalTitle: z.string().min(1).optional(),
+});
+
+const tagDef = z.object({ id: z.string().regex(/^[a-z-]+$/), label: z.string().min(1) });
+
+export const tagsSchema: z.ZodType<Tags> = z.object({
+  schemaVersion: z.literal(1),
+  cultures: z.array(tagDef).min(1),
+  themes: z.array(tagDef).min(1),
+  stories: z.record(
+    z.object({ cultures: z.array(z.string()).min(1), themes: z.array(z.string()).min(1) }),
+  ),
 });

@@ -1,7 +1,7 @@
 import type { z } from 'zod';
-import { indexSchema, storySchema } from './schema';
+import { indexSchema, storySchema, tagsSchema } from './schema';
 import { typeset } from '../domain/typeset';
-import type { Block, Index, Story } from './types';
+import type { Block, Index, Story, Tags } from './types';
 
 const typesetBlock = (b: Block): Block =>
   b.type === 'image' ? { ...b, alt: typeset(b.alt) } : { ...b, text: typeset(b.text) };
@@ -54,6 +54,7 @@ async function fetchJson<T>(path: string, schema: z.ZodType<T>): Promise<T> {
 }
 
 let indexPromise: Promise<Index> | null = null;
+let tagsPromise: Promise<Tags> | null = null;
 const storyPromises = new Map<string, Promise<Story>>();
 
 export function loadIndex(): Promise<Index> {
@@ -62,6 +63,14 @@ export function loadIndex(): Promise<Index> {
     throw e;
   });
   return indexPromise;
+}
+
+export function loadTags(): Promise<Tags> {
+  tagsPromise ??= fetchJson('tags.json', tagsSchema).catch((e: unknown) => {
+    tagsPromise = null;
+    throw e;
+  });
+  return tagsPromise;
 }
 
 export function loadStory(id: string): Promise<Story> {
@@ -79,5 +88,6 @@ export function loadStory(id: string): Promise<Story> {
 
 export function resetDataCache() {
   indexPromise = null;
+  tagsPromise = null;
   storyPromises.clear();
 }
