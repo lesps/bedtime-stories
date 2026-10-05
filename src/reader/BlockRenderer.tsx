@@ -1,9 +1,13 @@
 import type { Block } from '../data/types';
 import { compendiumUrl } from '../data/client';
+import imageSizes from '../data/imageSizes.json';
 
-type Props = { block: Block; index: number };
+const sizes: Record<string, number[] | undefined> = imageSizes;
 
-export function BlockRenderer({ block, index }: Props) {
+/** `priority`: the image is likely the first paint, so skip lazy loading. */
+type Props = { block: Block; index: number; priority?: boolean };
+
+export function BlockRenderer({ block, index, priority }: Props) {
   const data = { 'data-block': index };
   switch (block.type) {
     case 'p':
@@ -32,11 +36,22 @@ export function BlockRenderer({ block, index }: Props) {
           <small>{block.text}</small>
         </aside>
       );
-    case 'image':
+    case 'image': {
+      const [width, height] = sizes[block.src] ?? [];
       return (
         <figure {...data}>
-          <img src={compendiumUrl(block.src)} alt={block.alt} loading="lazy" decoding="async" />
+          <img
+            src={compendiumUrl(block.src)}
+            alt={block.alt}
+            width={width}
+            height={height}
+            loading={priority ? 'eager' : 'lazy'}
+            decoding="async"
+            // React 18 only passes the lowercase attribute through.
+            {...(priority && { fetchpriority: 'high' })}
+          />
         </figure>
       );
+    }
   }
 }

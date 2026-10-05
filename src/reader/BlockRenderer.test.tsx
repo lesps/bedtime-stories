@@ -45,5 +45,21 @@ describe('BlockRenderer', () => {
     expect(img).toHaveAttribute('loading', 'lazy');
     expect(img.getAttribute('src')).toMatch(/compendium\/images\/aesop\/i001\.jpg$/);
     expect(img.closest('figure')).not.toBeNull();
+    // Intrinsic size reserves space before the image loads (no layout shift).
+    expect(img).toHaveAttribute('width', '679');
+    expect(img).toHaveAttribute('height', '977');
+  });
+
+  it('loads a priority image eagerly so it can be the fast first paint', () => {
+    render(
+      <BlockRenderer
+        index={0}
+        priority
+        block={{ type: 'image', src: 'images/aesop/i001.jpg', alt: 'THE HERON' }}
+      />,
+    );
+    const img = screen.getByRole('img', { name: 'THE HERON' });
+    expect(img).toHaveAttribute('loading', 'eager');
+    expect(img).toHaveAttribute('fetchpriority', 'high');
   });
 });

@@ -56,6 +56,23 @@ describe('ReaderPage', () => {
     );
   });
 
+  it('holds back prev/next until the text has loaded, so it does not jump', async () => {
+    renderApp('/s/aesop--the-heron');
+    // Hold story responses until released; the index still loads normally.
+    const real = globalThis.fetch;
+    let release!: () => void;
+    const gate = new Promise<void>((r) => (release = r));
+    vi.stubGlobal('fetch', async (url: string) => {
+      if (url.includes('/stories/')) await gate;
+      return real(url);
+    });
+    expect(await screen.findByText('Opening the book…')).toBeInTheDocument();
+    expect(screen.queryByRole('navigation', { name: 'More stories' })).not.toBeInTheDocument();
+    release();
+    await screen.findByText('The Heron begins here.');
+    expect(screen.getByRole('navigation', { name: 'More stories' })).toBeInTheDocument();
+  });
+
   it('refuses to render a hidden story', async () => {
     renderApp('/s/grimm--hidden-tale');
     expect(
