@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router';
+import { LengthSlider } from '../components/LengthSlider';
 import { usePrefersReducedMotion } from '../app/theme';
 import { loadStory } from '../data/client';
 import { useIndex } from '../data/IndexProvider';
@@ -8,13 +9,6 @@ import { excerpt } from '../domain/excerpt';
 import { pick, type PickResult } from '../domain/picker';
 import { useAppState, useStore } from '../storage/StoreProvider';
 import { useVisibleStories } from '../app/useVisibleStories';
-
-const LENGTH_CHOICES: { label: string; value: number | null }[] = [
-  { label: 'Under 5 min', value: 5 },
-  { label: 'Under 10 min', value: 10 },
-  { label: 'Under 20 min', value: 20 },
-  { label: 'Any length', value: null },
-];
 
 const SHUFFLE_MS = 700;
 
@@ -48,6 +42,7 @@ export function SurprisePage() {
       stories,
       {
         collections: picker.collections,
+        minMinutes: picker.minMinutes,
         maxMinutes: picker.maxMinutes ?? undefined,
         unreadOnly: picker.unreadOnly,
         favoritesOnly: picker.favoritesOnly,
@@ -110,20 +105,10 @@ export function SurprisePage() {
         ))}
       </div>
 
-      <div className="chips" role="radiogroup" aria-label="Length">
-        {LENGTH_CHOICES.map((l) => (
-          <button
-            key={l.label}
-            type="button"
-            role="radio"
-            className="chip"
-            aria-checked={picker.maxMinutes === l.value}
-            onClick={() => setPicker({ maxMinutes: l.value })}
-          >
-            {l.label}
-          </button>
-        ))}
-      </div>
+      <LengthSlider
+        value={{ min: picker.minMinutes, max: picker.maxMinutes }}
+        onChange={(r) => setPicker({ minMinutes: r.min, maxMinutes: r.max })}
+      />
 
       <div className="toggles">
         <label className="toggle">

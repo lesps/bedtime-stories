@@ -67,6 +67,21 @@ describe('store', () => {
     expect(s.settings.fontSize).toBe(DEFAULT_STATE.settings.fontSize);
   });
 
+  it('defaults the picker to stories up to 5 minutes', () => {
+    expect(DEFAULT_STATE.settings.picker).toMatchObject({ minMinutes: 1, maxMinutes: 5 });
+  });
+
+  it('keeps an older saved maxMinutes and adds the new minimum', () => {
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({ version: 1, settings: { picker: { collections: [], maxMinutes: 20 } } }),
+    );
+    expect(createStore(localStorage, clock).get().settings.picker).toMatchObject({
+      minMinutes: 1,
+      maxMinutes: 20,
+    });
+  });
+
   it('survives a throwing storage backend', () => {
     const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
     const broken = {

@@ -1,4 +1,4 @@
-import { screen, within } from '@testing-library/react';
+import { fireEvent, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it } from 'vitest';
 import { renderApp } from '../test/renderApp';
@@ -25,13 +25,19 @@ describe('LibraryPage', () => {
 
   it('filters by length', async () => {
     renderApp('/');
-    await userEvent.click(await screen.findByRole('button', { name: /Medium/ }));
+    // Medium: 7–15 min (stop indices 4..6)
+    fireEvent.change(await screen.findByRole('slider', { name: 'Shortest' }), {
+      target: { value: '4' },
+    });
+    fireEvent.change(screen.getByRole('slider', { name: 'Longest' }), { target: { value: '6' } });
     expect(
       within(screen.getByRole('list', { name: 'Results' })).getAllByRole('listitem'),
     ).toHaveLength(2);
     expect(screen.getByText('Rapunzel')).toBeInTheDocument();
     expect(screen.getByText('Rapunzel (Hunt)')).toBeInTheDocument();
-    await userEvent.click(screen.getByRole('button', { name: /Long/ }));
+    // Long: 15 min and up
+    fireEvent.change(screen.getByRole('slider', { name: 'Longest' }), { target: { value: '10' } });
+    fireEvent.change(screen.getByRole('slider', { name: 'Shortest' }), { target: { value: '6' } });
     expect(screen.getByText('The Long One')).toBeInTheDocument();
     expect(screen.queryByText('Rapunzel')).not.toBeInTheDocument();
   });
@@ -44,7 +50,7 @@ describe('LibraryPage', () => {
     await userEvent.clear(box);
     await userEvent.type(box, 'hidden');
     expect(screen.queryByText('Hidden Tale')).not.toBeInTheDocument();
-    expect(screen.getByRole('status')).toHaveTextContent('0 stories');
+    expect(screen.getByText('0 stories')).toBeInTheDocument();
   });
 
   it('reveals mature stories when the setting is on', async () => {

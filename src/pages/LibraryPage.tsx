@@ -3,7 +3,8 @@ import { Link } from 'react-router';
 import { StoryList } from '../components/StoryRow';
 import { SparkleIcon } from '../components/icons';
 import { useIndex } from '../data/IndexProvider';
-import { LENGTHS, lengthOf, type Length } from '../domain/length';
+import { LengthSlider } from '../components/LengthSlider';
+import { FULL_RANGE, inRange, isFullRange, type LengthRange } from '../domain/length';
 import { matchesQuery } from '../domain/search';
 import { useAppState } from '../storage/StoreProvider';
 import { useVisibleStories } from '../app/useVisibleStories';
@@ -13,12 +14,12 @@ export function LibraryPage() {
   const visible = useVisibleStories();
   const { progress } = useAppState();
   const [query, setQuery] = useState('');
-  const [length, setLength] = useState<Length | null>(null);
+  const [length, setLength] = useState<LengthRange>(FULL_RANGE);
 
   const results = useMemo(
     () =>
       visible
-        .filter((s) => matchesQuery(s, query) && (!length || lengthOf(s.readingMinutes) === length))
+        .filter((s) => matchesQuery(s, query) && inRange(s.readingMinutes, length))
         .sort((a, b) => a.title.localeCompare(b.title)),
     [visible, query, length],
   );
@@ -29,7 +30,7 @@ export function LibraryPage() {
         .sort((a, b) => progress[b.id]!.updatedAt - progress[a.id]!.updatedAt),
     [visible, progress],
   );
-  const filtering = query.trim() !== '' || length !== null;
+  const filtering = query.trim() !== '' || !isFullRange(length);
 
   return (
     <div className="page">
@@ -60,19 +61,7 @@ export function LibraryPage() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <div className="chips" role="group" aria-label="Length">
-          {LENGTHS.map((l) => (
-            <button
-              key={l.id}
-              type="button"
-              className="chip"
-              aria-pressed={length === l.id}
-              onClick={() => setLength(length === l.id ? null : l.id)}
-            >
-              {l.label}
-            </button>
-          ))}
-        </div>
+        <LengthSlider value={length} onChange={setLength} />
       </section>
 
       {filtering ? (

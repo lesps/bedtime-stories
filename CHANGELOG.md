@@ -19,6 +19,9 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
+- Length filters are now a two-handled slider (1 min to 60+) in the library and Surprise me, so
+  the picker can choose only medium or only long stories. Saved "under N min" choices carry
+  over.
 - Curly quotes and em dashes for sources that use ASCII punctuation, applied when data loads.
 - Surprise me no longer offers another translation of a tale it picked recently.
 - Offline caches hold up to 1000 stories and 1000 images (was 400 / 150).

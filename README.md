@@ -8,13 +8,14 @@ Goble's plates) and Busch's Max and Maurice.
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
-- Browse collections, search titles, filter by length.
+- Browse collections, search titles, filter by length with a two-handled slider.
 - Serif reader with light / sepia / dark themes (Auto follows your phone), 5 text sizes, relaxed
   spacing, scroll progress, previous/next.
 - Favorites, "continue from where you left off", read history — stored only on your device.
   Swipe a story left to mark it unread (or read).
-- **Surprise me**: random pick filtered by collection, length (Under 5 min by default), unread or
-  favorites, avoiding the last 10 picks.
+- **Surprise me**: random pick filtered by collection, a length range (up to 5 min by default;
+  slide it to get only medium or only long stories), unread or favorites, avoiding the last 10
+  picks.
 - Installable PWA that works offline; one tap in Settings saves every story (~36 MB with
   illustrations, ~5 MB text only).
 - Tales told in more than one translation link to each other ("Other versions").
