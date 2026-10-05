@@ -10,6 +10,7 @@ import { LibraryPage } from '../pages/LibraryPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
 import { SettingsPage } from '../pages/SettingsPage';
 import { SurprisePage } from '../pages/SurprisePage';
+import { TagPage } from '../pages/TagPage';
 import { ReaderRoute } from '../reader/ReaderPage';
 import { StoreProvider, useSettings } from '../storage/StoreProvider';
 import type { Store } from '../storage/store';
@@ -62,6 +63,7 @@ export function AppRoutes() {
       <Route element={<Layout />}>
         <Route index element={<LibraryPage />} />
         <Route path="c/:collectionId" element={<CollectionPage />} />
+        <Route path="tags/:kind/:tagId" element={<TagPage />} />
         <Route path="s/:storyId" element={<ReaderRoute />} />
         <Route path="favorites" element={<FavoritesPage />} />
         <Route path="surprise" element={<SurprisePage />} />

@@ -25,7 +25,7 @@ type Load =
   { status: 'loading' } | { status: 'error'; error: unknown } | { status: 'ready'; story: Story };
 
 function ReaderPage({ storyId }: { storyId: string }) {
-  const { byId, stories, collectionsById } = useIndex();
+  const { byId, stories, collectionsById, tagsOf, tagDef } = useIndex();
   const settings = useSettings();
   const entry = byId.get(storyId);
   const visible = entry ? isVisible(entry, settings) : false;
@@ -102,6 +102,17 @@ function ReaderPage({ storyId }: { storyId: string }) {
               </>
             )}
           </p>
+          <ul className="tag-chips" aria-label="Tags">
+            {(['cultures', 'themes'] as const).flatMap((kind) =>
+              tagsOf(entry.id)[kind].map((t) => (
+                <li key={`${kind}-${t}`}>
+                  <Link to={`/tags/${kind}/${t}`} className="tag-chip" data-kind={kind}>
+                    {tagDef(kind, t)?.label ?? t}
+                  </Link>
+                </li>
+              )),
+            )}
+          </ul>
         </header>
 
         {load.status === 'loading' && (

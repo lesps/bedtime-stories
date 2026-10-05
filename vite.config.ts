@@ -37,7 +37,11 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,woff2}', 'compendium/index.json'],
+        globPatterns: [
+          '**/*.{js,css,html,svg,png,woff2}',
+          'compendium/index.json',
+          'compendium/tags.json',
+        ],
         globIgnores: ['compendium/stories/**', 'compendium/images/**'],
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,

@@ -1,11 +1,18 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import { useStore } from '../storage/StoreProvider';
-import { loadIndex } from './client';
-import type { Collection, Index, IndexEntry } from './types';
+import { loadIndex, loadTags } from './client';
+import type { Collection, Index, IndexEntry, StoryTags, TagDef, TagKind, Tags } from './types';
+
+const NO_TAGS: StoryTags = { cultures: [], themes: [] };
 
 type IndexValue = Index & {
   byId: Map<string, IndexEntry>;
   collectionsById: Map<string, Collection>;
+  tags: Tags;
+  tagsOf: (storyId: string) => StoryTags;
+  tagDef: (kind: TagKind, id: string) => TagDef | undefined;
+  /** Every tag label on a story, for search. */
+  tagLabels: (storyId: string) => string[];
 };
 
 const IndexContext = createContext<IndexValue | null>(null);
@@ -21,17 +28,32 @@ export function IndexProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     let live = true;
-    loadIndex().then(
-      (index) => {
+    Promise.all([loadIndex(), loadTags()]).then(
+      ([index, tags]) => {
         if (!live) return;
         const byId = new Map(index.stories.map((s) => [s.id, s]));
         store.prune(new Set(byId.keys()));
+        const defs = {
+          cultures: new Map(tags.cultures.map((t) => [t.id, t])),
+          themes: new Map(tags.themes.map((t) => [t.id, t])),
+        };
+        const tagsOf = (id: string) => tags.stories[id] ?? NO_TAGS;
         setState({
           status: 'ready',
           value: {
             ...index,
             byId,
             collectionsById: new Map(index.collections.map((c) => [c.id, c])),
+            tags,
+            tagsOf,
+            tagDef: (kind, id) => defs[kind].get(id),
+            tagLabels: (id) => {
+              const t = tagsOf(id);
+              return [
+                ...t.cultures.map((c) => defs.cultures.get(c)?.label ?? c),
+                ...t.themes.map((c) => defs.themes.get(c)?.label ?? c),
+              ];
+            },
           },
         });
       },

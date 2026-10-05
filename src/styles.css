@@ -693,3 +693,38 @@ figure img {
   position: absolute;
   transform: translateX(-50%);
 }
+
+/* Tags */
+.eyebrow {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.eyebrow + .page-title {
+  margin-top: 0.1rem;
+}
+.tag-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
+  margin: -0.75em 0 1.5em;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+}
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  text-decoration: none;
+}
+.tag-chip[data-kind='cultures'] {
+  border-color: var(--accent);
+  color: var(--accent);
+}

@@ -73,6 +73,20 @@ describe('ReaderPage', () => {
     expect(screen.getByRole('navigation', { name: 'More stories' })).toBeInTheDocument();
   });
 
+  it('links its culture and theme tags', async () => {
+    renderApp('/s/aesop--the-heron');
+    await screen.findByText('The Heron begins here.');
+    const tags = screen.getByRole('list', { name: 'Tags' });
+    expect(within(tags).getByRole('link', { name: 'Ancient Greek' })).toHaveAttribute(
+      'href',
+      '/tags/cultures/greek',
+    );
+    expect(within(tags).getByRole('link', { name: 'Animals' })).toHaveAttribute(
+      'href',
+      '/tags/themes/animals',
+    );
+  });
+
   it('links other visible versions of the same tale', async () => {
     renderApp('/s/grimm--rapunzel');
     await screen.findByText('Rapunzel begins here.');

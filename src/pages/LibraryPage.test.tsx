@@ -72,4 +72,34 @@ describe('LibraryPage', () => {
       .map((a) => a.querySelector('.story-title')?.textContent);
     expect(titles).toEqual(['The Heron', 'Rapunzel']);
   });
+
+  it('browses by culture, with visible-story counts, into a tag page', async () => {
+    renderApp('/');
+    await userEvent.click(await screen.findByRole('radio', { name: 'Cultures' }));
+    // grimm--rapunzel, grimm--the-long-one, hunt--rapunzel; hidden and mature ones don't count
+    const german = screen.getByRole('link', { name: /German/ });
+    expect(german).toHaveTextContent('3 stories');
+    expect(screen.getByRole('link', { name: /Ancient Greek/ })).toHaveTextContent('3 stories');
+    await userEvent.click(german);
+    expect(await screen.findByRole('heading', { level: 1, name: 'German' })).toBeInTheDocument();
+    expect(screen.getByText('The Long One')).toBeInTheDocument();
+    expect(screen.queryByText('Hidden Tale')).not.toBeInTheDocument();
+  });
+
+  it('browses by theme', async () => {
+    renderApp('/');
+    await userEvent.click(await screen.findByRole('radio', { name: 'Themes' }));
+    expect(screen.getByRole('link', { name: /Fables with a moral/ })).toHaveTextContent(
+      '3 stories',
+    );
+    expect(screen.queryByRole('link', { name: /The Aesop for Children/ })).not.toBeInTheDocument();
+  });
+
+  it('finds stories by tag name in search', async () => {
+    renderApp('/');
+    await userEvent.type(await screen.findByRole('searchbox'), 'german long');
+    const results = screen.getByRole('list', { name: 'Results' });
+    expect(within(results).getAllByRole('listitem')).toHaveLength(1);
+    expect(results).toHaveTextContent('The Long One');
+  });
 });

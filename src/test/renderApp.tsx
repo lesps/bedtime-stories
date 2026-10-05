@@ -3,7 +3,7 @@ import { MemoryRouter } from 'react-router';
 import { vi } from 'vitest';
 import { AppRoutes } from '../app/App';
 import { resetDataCache } from '../data/client';
-import type { Index, Story } from '../data/types';
+import type { Index, Story, Tags } from '../data/types';
 import { StoreProvider } from '../storage/StoreProvider';
 import { createStore } from '../storage/store';
 import { collection, entry, makeIndex, storyOf } from './fixtures';
@@ -66,6 +66,36 @@ export const fixtureIndex: Index = makeIndex(fixtureStories, [
   collection({ id: 'hunt', title: 'Household Tales', contributor: 'Translated by Margaret Hunt' }),
 ]);
 
+const culture = (id: string) =>
+  id.startsWith('aesop')
+    ? 'greek'
+    : id.startsWith('hunt') || id.startsWith('grimm')
+      ? 'german'
+      : 'english';
+
+export const fixtureTags: Tags = {
+  schemaVersion: 1,
+  cultures: [
+    { id: 'greek', label: 'Ancient Greek' },
+    { id: 'german', label: 'German' },
+    { id: 'english', label: 'English' },
+  ],
+  themes: [
+    { id: 'animals', label: 'Animals' },
+    { id: 'fables', label: 'Fables with a moral' },
+    { id: 'royalty', label: 'Kings, queens & castles' },
+  ],
+  stories: Object.fromEntries(
+    fixtureStories.map((e) => [
+      e.id,
+      {
+        cultures: [culture(e.id)],
+        themes: e.id.startsWith('aesop') ? ['animals', 'fables'] : ['royalty'],
+      },
+    ]),
+  ),
+};
+
 export const fixtureStoryBodies: Record<string, Story> = Object.fromEntries(
   fixtureStories.map((e) => [
     e.id,
@@ -85,6 +115,7 @@ export function mockCompendiumFetch(overrides: Partial<Record<string, Story>> = 
   const bodies = { ...fixtureStoryBodies, ...overrides };
   const fetchMock = vi.fn(async (url: string) => {
     if (url.endsWith('index.json')) return new Response(JSON.stringify(fixtureIndex));
+    if (url.endsWith('tags.json')) return new Response(JSON.stringify(fixtureTags));
     const id = /stories\/([^/]+)\.json$/.exec(url)?.[1];
     const body = id && bodies[id];
     return body ? new Response(JSON.stringify(body)) : new Response('', { status: 404 });

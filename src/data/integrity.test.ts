@@ -5,12 +5,34 @@ import { describe, expect, it } from 'vitest';
 import { statSync } from 'node:fs';
 import { OFFLINE_MB } from '../offline/download';
 import imageSizes from './imageSizes.json';
-import { indexSchema, storySchema } from './schema';
+import { indexSchema, storySchema, tagsSchema } from './schema';
 
 const root = join(__dirname, '../../public/compendium');
 const index = indexSchema.parse(JSON.parse(readFileSync(join(root, 'index.json'), 'utf8')));
 
+const tags = tagsSchema.parse(JSON.parse(readFileSync(join(root, 'tags.json'), 'utf8')));
+
 describe('compendium integrity', () => {
+  it('tags exactly the stories in the index (run `python3 tools/tag_stories.py` if not)', () => {
+    expect(Object.keys(tags.stories).sort()).toEqual(index.stories.map((s) => s.id).sort());
+  });
+
+  it('gives every story at least one known culture and one known theme', () => {
+    const cultures = new Set(tags.cultures.map((c) => c.id));
+    const themes = new Set(tags.themes.map((t) => t.id));
+    for (const [id, t] of Object.entries(tags.stories)) {
+      expect(t.cultures.length, id).toBeGreaterThan(0);
+      expect(t.themes.length, id).toBeGreaterThan(0);
+      for (const c of t.cultures) expect(cultures.has(c), `${id}: ${c}`).toBe(true);
+      for (const th of t.themes) expect(themes.has(th), `${id}: ${th}`).toBe(true);
+    }
+  });
+
+  it('uses every defined tag at least once', () => {
+    const used = new Set(Object.values(tags.stories).flatMap((t) => [...t.cultures, ...t.themes]));
+    for (const t of [...tags.cultures, ...tags.themes]) expect(used.has(t.id), t.id).toBe(true);
+  });
+
   it('has unique story ids and at least one story per collection', () => {
     expect(new Set(index.stories.map((s) => s.id)).size).toBe(index.stories.length);
     for (const c of index.collections) expect(c.storyCount, c.id).toBeGreaterThan(0);

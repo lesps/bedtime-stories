@@ -71,7 +71,7 @@ test('works offline for cached stories and explains uncached ones', async ({ pag
   await page.goto('./');
   await page.reload();
   await expect(page.getByText('You’re offline')).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'Collections' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Browse by' })).toBeVisible();
 
   await page.goto('#/s/aesop--the-heron');
   await expect(page.getByRole('complementary', { name: 'Moral' })).toBeVisible();
