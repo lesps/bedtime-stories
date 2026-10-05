@@ -64,5 +64,5 @@ test('reader settings survive reload and dark mode follows the OS', async ({ pag
 test('corrupt storage cannot crash the app', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('storybook:v1', '{oops'));
   await page.goto('./');
-  await expect(page.getByRole('heading', { name: 'Collections' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Browse by' })).toBeVisible();
 });
