@@ -1,0 +1,62 @@
+{
+ "id": "aesop--the-cock-and-the-fox",
+ "collectionId": "aesop",
+ "order": 68,
+ "title": "The Cock and the Fox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 313,
+ "readingMinutes": 2,
+ "moral": "The trickster is easily tricked.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "One bright evening as the sun was sinking on a glorious world a wise old Cock flew into a tree to roost. Before he composed himself to rest, he flapped his wings three times and crowed loudly. But just as he was about to put his head under his wing, his beady eyes caught a flash of red and a glimpse of a long pointed nose, and there just below him stood Master Fox."
+  },
+  {
+   "type": "p",
+   "text": "\"Have you heard the wonderful news?\" cried the Fox in a very joyful and excited manner."
+  },
+  {
+   "type": "p",
+   "text": "\"What news?\" asked the Cock very calmly. But he had a queer, fluttery feeling inside him, for, you know, he was very much afraid of the Fox."
+  },
+  {
+   "type": "p",
+   "text": "\"Your family and mine and all other animals have agreed to forget their differences and live in peace and friendship from now on forever. Just think of it! I simply cannot wait to embrace you! Do come down, dear friend, and let us celebrate the joyful event.\""
+  },
+  {
+   "type": "p",
+   "text": "\"How grand!\" said the Cock. \"I certainly am delighted at the news.\" But he spoke in an absent way, and stretching up on tiptoes, seemed to be looking at something afar off."
+  },
+  {
+   "type": "p",
+   "text": "\"What is it you see?\" asked the Fox a little anxiously."
+  },
+  {
+   "type": "p",
+   "text": "\"Why, it looks to me like a couple of Dogs coming this way. They must have heard the good news and—\""
+  },
+  {
+   "type": "p",
+   "text": "But the Fox did not wait to hear more. Off he started on a run."
+  },
+  {
+   "type": "p",
+   "text": "\"Wait,\" cried the Cock. \"Why do you run? The Dogs are friends of yours now!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Yes,\" answered the Fox. \"But they might not have heard the news. Besides, I have a very important errand that I had almost forgotten about.\""
+  },
+  {
+   "type": "p",
+   "text": "The Cock smiled as he buried his head in his feathers and went to sleep, for he had succeeded in outwitting a very crafty enemy."
+  },
+  {
+   "type": "moral",
+   "text": "The trickster is easily tricked."
+  }
+ ]
+}

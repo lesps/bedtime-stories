@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-fox-and-the-hedgehog",
+ "collectionId": "aesop",
+ "order": 106,
+ "title": "The Fox and the Hedgehog",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 108,
+ "readingMinutes": 1,
+ "moral": "Better to bear a lesser evil than to risk a greater in removing it.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i079_th.jpg",
+   "alt": "THE FOX AND THE HEDGEHOG"
+  },
+  {
+   "type": "p",
+   "text": "A Fox, swimming across a river, was barely able to reach the bank, where he lay bruised and exhausted from his struggle with the swift current. Soon a swarm of blood-sucking flies settled on him; but he lay quietly, still too weak to run away from them."
+  },
+  {
+   "type": "p",
+   "text": "A Hedgehog happened by. \"Let me drive the flies away,\" he said kindly."
+  },
+  {
+   "type": "p",
+   "text": "\"No, no!\" exclaimed the Fox, \"do not disturb them! They have taken all they can hold. If you drive them away, another greedy swarm will come and take the little blood I have left.\""
+  },
+  {
+   "type": "moral",
+   "text": "Better to bear a lesser evil than to risk a greater in removing it."
+  }
+ ]
+}

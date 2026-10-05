@@ -1,0 +1,47 @@
+{
+ "id": "aesop--the-hare-and-the-tortoise",
+ "collectionId": "aesop",
+ "order": 126,
+ "title": "The Hare and the Tortoise",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 196,
+ "readingMinutes": 1,
+ "moral": "The race is not always to the swift.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Hare was making fun of the Tortoise one day for being so slow."
+  },
+  {
+   "type": "p",
+   "text": "\"Do you ever get anywhere?\" he asked with a mocking laugh."
+  },
+  {
+   "type": "p",
+   "text": "\"Yes,\" replied the Tortoise, \"and I get there sooner than you think. I'll run you a race and prove it.\""
+  },
+  {
+   "type": "p",
+   "text": "The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed. So the Fox, who had consented to act as judge, marked the distance and started the runners off."
+  },
+  {
+   "type": "p",
+   "text": "The Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up."
+  },
+  {
+   "type": "p",
+   "text": "The Tortoise meanwhile kept going slowly but steadily, and, after a time, passed the place where the Hare was sleeping. But the Hare slept on very peacefully; and when at last he did wake up, the Tortoise was near the goal. The Hare now ran his swiftest, but he could not overtake the Tortoise in time."
+  },
+  {
+   "type": "moral",
+   "text": "The race is not always to the swift."
+  },
+  {
+   "type": "image",
+   "src": "images/aesop/i093.jpg",
+   "alt": "THE HARE AND THE TORTOISE"
+  }
+ ]
+}

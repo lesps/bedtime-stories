@@ -1,0 +1,30 @@
+{
+ "id": "aesop--the-cat-and-the-birds",
+ "collectionId": "aesop",
+ "order": 87,
+ "title": "The Cat and the Birds",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 112,
+ "readingMinutes": 1,
+ "moral": "Be wise and shun the quack.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Cat was growing very thin. As you have guessed, he did not get enough to eat. One day he heard that some Birds in the neighborhood were ailing and needed a doctor. So he put on a pair of spectacles, and with a leather box in his hand, knocked at the door of the Bird's home."
+  },
+  {
+   "type": "p",
+   "text": "The Birds peeped out, and Dr. Cat, with much solicitude, asked how they were. He would be very happy to give them some medicine."
+  },
+  {
+   "type": "p",
+   "text": "\"Tweet, tweet,\" laughed the Birds. \"Very smart, aren't you? We are very well, thank you, and more so, if you only keep away from here.\""
+  },
+  {
+   "type": "moral",
+   "text": "Be wise and shun the quack."
+  }
+ ]
+}

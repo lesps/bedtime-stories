@@ -1,0 +1,55 @@
+{
+ "id": "aesop--the-lion-the-ass-and-the-fox",
+ "collectionId": "aesop",
+ "order": 138,
+ "title": "The Lion, the Ass, and the Fox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 163,
+ "readingMinutes": 1,
+ "moral": "Learn from the misfortunes of others.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i104_th.jpg",
+   "alt": "THE LION, THE ASS, AND THE FOX"
+  },
+  {
+   "type": "p",
+   "text": "A Lion, an Ass, and a Fox were hunting in company, and caught a large quantity of game. The Ass was asked to divide the spoil. This he did very fairly, giving each an equal share."
+  },
+  {
+   "type": "p",
+   "text": "The Fox was well satisfied, but the Lion flew into a great rage over it, and with one stroke of his huge paw, he added the Ass to the pile of slain."
+  },
+  {
+   "type": "p",
+   "text": "Then he turned to the Fox."
+  },
+  {
+   "type": "p",
+   "text": "\"You divide it,\" he roared angrily."
+  },
+  {
+   "type": "p",
+   "text": "The Fox wasted no time in talking. He quickly piled all the game into one great heap. From this he took a very small portion for himself, such undesirable bits as the horns and hoofs of a mountain goat, and the end of an ox tail."
+  },
+  {
+   "type": "p",
+   "text": "The Lion now recovered his good humor entirely."
+  },
+  {
+   "type": "p",
+   "text": "\"Who taught you to divide so fairly?\" he asked pleasantly."
+  },
+  {
+   "type": "p",
+   "text": "\"I learned a lesson from the Ass,\" replied the Fox, carefully edging away."
+  },
+  {
+   "type": "moral",
+   "text": "Learn from the misfortunes of others."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "aesop--the-wolf-and-the-shepherd",
+ "collectionId": "aesop",
+ "order": 75,
+ "title": "The Wolf and the Shepherd",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 125,
+ "readingMinutes": 1,
+ "moral": "Once a wolf, always a wolf.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i059_th.jpg",
+   "alt": "THE WOLF AND THE SHEPHERD"
+  },
+  {
+   "type": "p",
+   "text": "A Wolf had been prowling around a flock of Sheep for a long time, and the Shepherd watched very anxiously to prevent him from carrying off a Lamb. But the Wolf did not try to do any harm. Instead he seemed to be helping the Shepherd take care of the Sheep. At last the Shepherd got so used to seeing the Wolf about that he forgot how wicked he could be."
+  },
+  {
+   "type": "p",
+   "text": "One day he even went so far as to leave his flock in the Wolf's care while he went on an errand. But when he came back and saw how many of the flock had been killed and carried off, he knew how foolish to trust a Wolf."
+  },
+  {
+   "type": "moral",
+   "text": "Once a wolf, always a wolf."
+  }
+ ]
+}

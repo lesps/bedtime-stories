@@ -1,0 +1,26 @@
+{
+ "id": "aesop--the-cock-and-the-jewel",
+ "collectionId": "aesop",
+ "order": 39,
+ "title": "The Cock and the Jewel",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 87,
+ "readingMinutes": 1,
+ "moral": "Precious things are without value to those who cannot prize them.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Cock was busily scratching and scraping about to find something to eat for himself and his family, when he happened to turn up a precious jewel that had been lost by its owner."
+  },
+  {
+   "type": "p",
+   "text": "\"Aha!\" said the Cock. \"No doubt you are very costly and he who lost you would give a great deal to find you. But as for me, I would choose a single grain of barleycorn before all the jewels in the world.\""
+  },
+  {
+   "type": "moral",
+   "text": "Precious things are without value to those who cannot prize them."
+  }
+ ]
+}

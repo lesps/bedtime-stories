@@ -1,0 +1,31 @@
+{
+ "id": "aesop--the-hares-and-the-frogs",
+ "collectionId": "aesop",
+ "order": 47,
+ "title": "The Hares and the Frogs",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 124,
+ "readingMinutes": 1,
+ "moral": "However unfortunate we may think we are there is always someone worse off than ourselves.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i037_th.jpg",
+   "alt": "THE HARES AND THE FROGS"
+  },
+  {
+   "type": "p",
+   "text": "Hares, as you know, are very timid. The least shadow, sends them scurrying in fright to a hiding place. Once they decided to die rather than live in such misery. But while they were debating how best to meet death, they thought they heard a noise and in a flash were scampering off to the warren. On the way they passed a pond where a family of Frogs was sitting among the reeds on the bank. In an instant the startled Frogs were seeking safety in the mud."
+  },
+  {
+   "type": "p",
+   "text": "\"Look,\" cried a Hare, \"things are not so bad after all, for here are creatures who are even afraid of us!\""
+  },
+  {
+   "type": "moral",
+   "text": "However unfortunate we may think we are there is always someone worse off than ourselves."
+  }
+ ]
+}

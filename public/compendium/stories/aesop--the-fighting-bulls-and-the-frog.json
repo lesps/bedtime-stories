@@ -1,0 +1,39 @@
+{
+ "id": "aesop--the-fighting-bulls-and-the-frog",
+ "collectionId": "aesop",
+ "order": 81,
+ "title": "The Fighting Bulls and the Frog",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 114,
+ "readingMinutes": 1,
+ "moral": "When the great fall out, the weak must suffer for it.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i064_th.jpg",
+   "alt": "THE FIGHTING BULLS AND THE FROG"
+  },
+  {
+   "type": "p",
+   "text": "Two Bulls were fighting furiously in a field, at one side of which was a marsh. An old Frog living in the marsh, trembled as he watched the fierce battle."
+  },
+  {
+   "type": "p",
+   "text": "\"What are you afraid of?\" asked a young Frog."
+  },
+  {
+   "type": "p",
+   "text": "\"Do you not see,\" replied the old Frog, \"that the Bull who is beaten, will be driven away from the good forage up there to the reeds of this marsh, and we shall all be trampled into the mud?\""
+  },
+  {
+   "type": "p",
+   "text": "It turned out as the Frog had said. The beaten Bull was driven to the marsh, where his great hoofs crushed the Frogs to death."
+  },
+  {
+   "type": "moral",
+   "text": "When the great fall out, the weak must suffer for it."
+  }
+ ]
+}

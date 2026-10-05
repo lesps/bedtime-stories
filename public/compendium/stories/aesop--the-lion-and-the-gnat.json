@@ -1,0 +1,43 @@
+{
+ "id": "aesop--the-lion-and-the-gnat",
+ "collectionId": "aesop",
+ "order": 37,
+ "title": "The Lion and the Gnat",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 183,
+ "readingMinutes": 1,
+ "moral": "The least of our enemies is often the most to be feared.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i032_th.jpg",
+   "alt": "THE LION AND THE GNAT"
+  },
+  {
+   "type": "p",
+   "text": "\"Away with you, vile insect!\" said a Lion angrily to a Gnat that was buzzing around his head. But the Gnat was not in the least disturbed."
+  },
+  {
+   "type": "p",
+   "text": "\"Do you think,\" he said spitefully to the Lion, \"that I am afraid of you because they call you king?\""
+  },
+  {
+   "type": "p",
+   "text": "The next instant he flew at the Lion and stung him sharply on the nose. Mad with rage, the Lion struck fiercely at the Gnat, but only succeeded in tearing himself with his claws. Again and again the Gnat stung the Lion, who now was roaring terribly. At last, worn out with rage and covered with wounds that his own teeth and claws had made, the Lion gave up the fight."
+  },
+  {
+   "type": "p",
+   "text": "The Gnat buzzed away to tell the whole world about his victory, but instead he flew straight into a spider's web. And there, he who had defeated the King of beasts came to a miserable end, the prey of a little spider."
+  },
+  {
+   "type": "moral",
+   "text": "The least of our enemies is often the most to be feared."
+  },
+  {
+   "type": "moral",
+   "text": "Pride over a success should not throw us off our guard."
+  }
+ ]
+}

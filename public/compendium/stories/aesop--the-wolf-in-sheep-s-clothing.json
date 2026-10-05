@@ -1,0 +1,31 @@
+{
+ "id": "aesop--the-wolf-in-sheep-s-clothing",
+ "collectionId": "aesop",
+ "order": 95,
+ "title": "The Wolf in Sheep's Clothing",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 119,
+ "readingMinutes": 1,
+ "moral": "The evil doer often comes to harm through his own deceit.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i071_th.jpg",
+   "alt": "THE WOLF IN SHEEP'S CLOTHING"
+  },
+  {
+   "type": "p",
+   "text": "A certain Wolf could not get enough to eat because of the watchfulness of the Shepherds. But one night he found a sheep skin that had been cast aside and forgotten. The next day, dressed in the skin, the Wolf strolled into the pasture with the Sheep. Soon a little Lamb was following him about and was quickly led away to slaughter."
+  },
+  {
+   "type": "p",
+   "text": "That evening the Wolf entered the fold with the flock. But it happened that the Shepherd took a fancy for mutton broth that very evening, and, picking up a knife, went to the fold. There the first he laid hands on and killed was the Wolf."
+  },
+  {
+   "type": "moral",
+   "text": "The evil doer often comes to harm through his own deceit."
+  }
+ ]
+}

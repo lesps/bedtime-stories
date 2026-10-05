@@ -1,0 +1,51 @@
+{
+ "id": "aesop--two-travelers-and-a-bear",
+ "collectionId": "aesop",
+ "order": 116,
+ "title": "Two Travelers and a Bear",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 155,
+ "readingMinutes": 1,
+ "moral": "Misfortune is the test of true friendship.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i086_th.jpg",
+   "alt": "TWO TRAVELERS AND A BEAR"
+  },
+  {
+   "type": "p",
+   "text": "Two Men were traveling in company through a forest, when, all at once, a huge Bear crashed out of the brush near them."
+  },
+  {
+   "type": "p",
+   "text": "One of the Men, thinking of his own safety, climbed a tree."
+  },
+  {
+   "type": "p",
+   "text": "The other, unable to fight the savage beast alone, threw himself on the ground and lay still, as if he were dead. He had heard that a Bear will not touch a dead body."
+  },
+  {
+   "type": "p",
+   "text": "It must have been true, for the Bear snuffed at the Man's head awhile, and then, seeming to be satisfied that he was dead, walked away."
+  },
+  {
+   "type": "p",
+   "text": "The Man in the tree climbed down."
+  },
+  {
+   "type": "p",
+   "text": "\"It looked just as if that Bear whispered in your ear,\" he said. \"What did he tell you?\""
+  },
+  {
+   "type": "p",
+   "text": "\"He said,\" answered the other, \"that it was not at all wise to keep company with a fellow who would desert his friend in a moment of danger.\""
+  },
+  {
+   "type": "moral",
+   "text": "Misfortune is the test of true friendship."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "aesop--the-lion-and-the-ass-2",
+ "collectionId": "aesop",
+ "order": 56,
+ "title": "The Lion and the Ass",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 148,
+ "readingMinutes": 1,
+ "moral": "The loud-mouthed boaster does not impress nor frighten those who know him.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i045_th.jpg",
+   "alt": "THE LION AND THE ASS"
+  },
+  {
+   "type": "p",
+   "text": "A Lion and an Ass agreed to go hunting together. In their search for game the hunters saw a number of Wild Goats run into a cave, and laid plans to catch them. The Ass was to go into the cave and drive the Goats out, while the Lion would stand at the entrance to strike them down."
+  },
+  {
+   "type": "p",
+   "text": "The plan worked beautifully. The Ass made such a frightful din in the cave, kicking and braying with all his might, that the Goats came running out in a panic of fear, only to fall victim to the Lion."
+  },
+  {
+   "type": "p",
+   "text": "The Ass came proudly out of the cave."
+  },
+  {
+   "type": "p",
+   "text": "\"Did you see how I made them run?\" he said."
+  },
+  {
+   "type": "p",
+   "text": "\"Yes, indeed,\" answered the Lion, \"and if I had not known you and your kind I should certainly have run, too.\""
+  },
+  {
+   "type": "moral",
+   "text": "The loud-mouthed boaster does not impress nor frighten those who know him."
+  }
+ ]
+}

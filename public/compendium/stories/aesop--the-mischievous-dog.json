@@ -1,0 +1,31 @@
+{
+ "id": "aesop--the-mischievous-dog",
+ "collectionId": "aesop",
+ "order": 110,
+ "title": "The Mischievous Dog",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 98,
+ "readingMinutes": 1,
+ "moral": "Notoriety is not fame.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i082_th.jpg",
+   "alt": "THE MISCHIEVOUS DOG"
+  },
+  {
+   "type": "p",
+   "text": "There was once a Dog who was so ill-natured and mischievous that his Master had to fasten a heavy wooden clog about his neck to keep him from annoying visitors and neighbors. But the Dog seemed to be very proud of the clog and dragged it about noisily as if he wished to attract everybody's attention. He was not able to impress anyone."
+  },
+  {
+   "type": "p",
+   "text": "\"You would be wiser,\" said an old acquaintance, \"to keep quietly out of sight with that clog. Do you want everybody to know what a disgraceful and ill-natured Dog you are?\""
+  },
+  {
+   "type": "moral",
+   "text": "Notoriety is not fame."
+  }
+ ]
+}

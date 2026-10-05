@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-fox-and-the-lion",
+ "collectionId": "aesop",
+ "order": 55,
+ "title": "The Fox and the Lion",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 91,
+ "readingMinutes": 1,
+ "moral": "Familiarity breeds contempt.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i044_th.jpg",
+   "alt": "THE FOX AND THE LION"
+  },
+  {
+   "type": "p",
+   "text": "A very young Fox, who had never before seen a Lion, happened to meet one in the forest. A single look was enough to send the Fox off at top speed for the nearest hiding place."
+  },
+  {
+   "type": "p",
+   "text": "The second time the Fox saw the Lion he stopped behind a tree to look at him a moment before slinking away. But the third time, the Fox went boldly up to the Lion and, without turning a hair, said, \"Hello, there, old top.\""
+  },
+  {
+   "type": "moral",
+   "text": "Familiarity breeds contempt."
+  },
+  {
+   "type": "moral",
+   "text": "Acquaintance with evil blinds us to its dangers."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "aesop--the-fisherman-and-the-little-fish",
+ "collectionId": "aesop",
+ "order": 146,
+ "title": "The Fisherman and the Little Fish",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 111,
+ "readingMinutes": 1,
+ "moral": "A small gain is worth more than a large promise.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i110_th.jpg",
+   "alt": "THE FISHERMAN AND THE LITTLE FISH"
+  },
+  {
+   "type": "p",
+   "text": "A poor Fisherman, who lived on the fish he caught, had bad luck one day and caught nothing but a very small fry. The Fisherman was about to put it in his basket when the little Fish said:"
+  },
+  {
+   "type": "p",
+   "text": "\"Please spare me, Mr. Fisherman! I am so small it is not worth while to carry me home. When I am bigger, I shall make you a much better meal.\""
+  },
+  {
+   "type": "p",
+   "text": "But the Fisherman quickly put the fish into his basket."
+  },
+  {
+   "type": "p",
+   "text": "\"How foolish I should be,\" he said, \"to throw you back. However small you may be, you are better than nothing at all.\""
+  },
+  {
+   "type": "moral",
+   "text": "A small gain is worth more than a large promise."
+  }
+ ]
+}

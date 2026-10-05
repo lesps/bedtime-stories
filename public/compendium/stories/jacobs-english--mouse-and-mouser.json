@@ -1,0 +1,86 @@
+{
+ "id": "jacobs-english--mouse-and-mouser",
+ "collectionId": "jacobs-english",
+ "order": 10,
+ "title": "Mouse and Mouser",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 309,
+ "readingMinutes": 2,
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The Mouse went to visit the Cat, and found her sitting behind the hall door, spinning."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE. What are you doing, my lady, my lady, What are you doing, my lady?"
+  },
+  {
+   "type": "p",
+   "text": "CAT ( sharply ). I'm spinning old breeches, good body, good body I'm spinning old breeches, good body."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE. Long may you wear them, my lady, my lady, Long may you wear them, my lady."
+  },
+  {
+   "type": "p",
+   "text": "CAT ( gruffly ). I'll wear' em and tear 'em, good body, good body. I'll wear 'em and tear 'em, good body."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE. I was sweeping my room, my lady, my lady, I was sweeping my room, my lady."
+  },
+  {
+   "type": "p",
+   "text": "CAT. The cleaner you'd be, good body, good body, The cleaner you'd be, good body."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE. I found a silver sixpence, my lady, my lady, I found a silver sixpence, my lady."
+  },
+  {
+   "type": "p",
+   "text": "CAT. The richer you were, good body, good body, The richer you were, good body."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE. I went to the market, my lady, my lady, I went to the market, my lady."
+  },
+  {
+   "type": "p",
+   "text": "CAT. The further you went, good body, good body The further you went, good body."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE. I bought me a pudding, my lady, my lady, I bought me a pudding, my lady."
+  },
+  {
+   "type": "p",
+   "text": "CAT ( snarling ). The more meat you had, good body, good body, The more meat you had, good body."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE. I put it in the window to cool, my lady, I put it in the window to cool."
+  },
+  {
+   "type": "p",
+   "text": "CAT. ( sharply ). The faster you'd eat it, good body, good body, The faster you'd eat it, good body."
+  },
+  {
+   "type": "p",
+   "text": "MOUSE ( timidly ). The cat came and ate it, my lady, my lady, The cat came and ate it, my lady."
+  },
+  {
+   "type": "p",
+   "text": "CAT ( pouncingly ). And I'll eat you, good body, good body, And I'll eat you, good body."
+  },
+  {
+   "type": "p",
+   "text": "( Springs upon the mouse and kills it. )"
+  }
+ ]
+}

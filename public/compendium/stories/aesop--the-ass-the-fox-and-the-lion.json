@@ -1,0 +1,46 @@
+{
+ "id": "aesop--the-ass-the-fox-and-the-lion",
+ "collectionId": "aesop",
+ "order": 42,
+ "title": "The Ass, the Fox, and the Lion",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 201,
+ "readingMinutes": 1,
+ "moral": "Traitors may expect treachery.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "An Ass and a Fox had become close comrades, and were constantly in each other's company. While the Ass cropped a fresh bit of greens, the Fox would devour a chicken from the neighboring farmyard or a bit of cheese filched from the dairy. One day the pair unexpectedly met a Lion. The Ass was very much frightened, but the Fox calmed his fears."
+  },
+  {
+   "type": "p",
+   "text": "\"I will talk to him,\" he said."
+  },
+  {
+   "type": "p",
+   "text": "So the Fox walked boldly up to the Lion."
+  },
+  {
+   "type": "p",
+   "text": "\"Your highness,\" he said in an undertone, so the Ass could not hear him, \"I've got a fine scheme in my head. If you promise not to hurt me, I will lead that foolish creature yonder into a pit where he can't get out, and you can feast at your pleasure.\""
+  },
+  {
+   "type": "p",
+   "text": "The Lion agreed and the Fox returned to the Ass."
+  },
+  {
+   "type": "p",
+   "text": "\"I made him promise not to hurt us,\" said the Fox. \"But come, I know a good place to hide till he is gone.\""
+  },
+  {
+   "type": "p",
+   "text": "So the Fox led the Ass into a deep pit. But when the Lion saw that the Ass was his for the taking, he first of all struck down the traitor Fox."
+  },
+  {
+   "type": "moral",
+   "text": "Traitors may expect treachery."
+  }
+ ]
+}

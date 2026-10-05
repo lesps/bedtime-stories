@@ -1,0 +1,43 @@
+{
+ "id": "aesop--belling-the-cat",
+ "collectionId": "aesop",
+ "order": 6,
+ "title": "Belling the Cat",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 211,
+ "readingMinutes": 1,
+ "moral": "It is one thing to say that something should be done, but quite a different matter to do it.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i006_th.jpg",
+   "alt": "BELLING THE CAT"
+  },
+  {
+   "type": "p",
+   "text": "The Mice once called a meeting to decide on a plan to free themselves of their enemy, the Cat. At least they wished to find some way of knowing when she was coming, so they might have time to run away. Indeed, something had to be done, for they lived in such constant fear of her claws that they hardly dared stir from their dens by night or day."
+  },
+  {
+   "type": "p",
+   "text": "Many plans were discussed, but none of them was thought good enough. At last a very young Mouse got up and said:"
+  },
+  {
+   "type": "p",
+   "text": "\"I have a plan that seems very simple, but I know it will be successful. All we have to do is to hang a bell about the Cat's neck. When we hear the bell ringing we will know immediately that our enemy is coming.\""
+  },
+  {
+   "type": "p",
+   "text": "All the Mice were much surprised that they had not thought of such a plan before. But in the midst of the rejoicing over their good fortune, an old Mouse arose and said:"
+  },
+  {
+   "type": "p",
+   "text": "\"I will say that the plan of the young Mouse is very good. But let me ask one question: Who will bell the Cat?\""
+  },
+  {
+   "type": "moral",
+   "text": "It is one thing to say that something should be done, but quite a different matter to do it."
+  }
+ ]
+}

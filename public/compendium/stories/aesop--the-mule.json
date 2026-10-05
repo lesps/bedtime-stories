@@ -1,0 +1,34 @@
+{
+ "id": "aesop--the-mule",
+ "collectionId": "aesop",
+ "order": 72,
+ "title": "The Mule",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 77,
+ "readingMinutes": 1,
+ "moral": "Be sure of your pedigree before you boast of it.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Mule had had a long rest and much good feeding. He was feeling very vigorous indeed, and pranced around loftily, holding his head high."
+  },
+  {
+   "type": "p",
+   "text": "\"My father certainly was a full-blooded racer,\" he said. \"I can feel that distinctly.\""
+  },
+  {
+   "type": "p",
+   "text": "Next day he was put into harness again and that evening he was very downhearted indeed."
+  },
+  {
+   "type": "p",
+   "text": "\"I was mistaken,\" he said. \"My father was an Ass after all.\""
+  },
+  {
+   "type": "moral",
+   "text": "Be sure of your pedigree before you boast of it."
+  }
+ ]
+}

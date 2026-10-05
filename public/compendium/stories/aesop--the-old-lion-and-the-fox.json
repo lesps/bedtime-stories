@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-old-lion-and-the-fox",
+ "collectionId": "aesop",
+ "order": 98,
+ "title": "The Old Lion and the Fox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 176,
+ "readingMinutes": 1,
+ "moral": "Take warning from the misfortunes of others.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i074_th.jpg",
+   "alt": "THE OLD LION AND THE FOX"
+  },
+  {
+   "type": "p",
+   "text": "An old Lion, whose teeth and claws were so worn that it was not so easy for him to get food as in his younger days, pretended that he was sick. He took care to let all his neighbors know about it, and then lay down in his cave to wait for visitors. And when they came to offer him their sympathy, he ate them up one by one."
+  },
+  {
+   "type": "p",
+   "text": "The Fox came too, but he was very cautious about it. Standing at a safe distance from the cave, he inquired politely after the Lion's health. The Lion replied that he was very ill indeed, and asked the Fox to step in for a moment. But Master Fox very wisely stayed outside, thanking the Lion very kindly for the invitation."
+  },
+  {
+   "type": "p",
+   "text": "\"I should be glad to do as you ask,\" he added, \"but I have noticed that there are many footprints leading into your cave and none coming out. Pray tell me, how do your visitors find their way out again?\""
+  },
+  {
+   "type": "moral",
+   "text": "Take warning from the misfortunes of others."
+  }
+ ]
+}

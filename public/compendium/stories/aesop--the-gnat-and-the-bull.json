@@ -1,0 +1,39 @@
+{
+ "id": "aesop--the-gnat-and-the-bull",
+ "collectionId": "aesop",
+ "order": 19,
+ "title": "The Gnat and the Bull",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 112,
+ "readingMinutes": 1,
+ "moral": "We are often of greater importance in our own eyes than in the eyes of our neighbor.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i016_th.jpg",
+   "alt": "THE GNAT AND THE BULL"
+  },
+  {
+   "type": "p",
+   "text": "A Gnat flew over the meadow with much buzzing for so small a creature and settled on the tip of one of the horns of a Bull. After he had rested a short time, he made ready to fly away. But before he left he begged the Bull's pardon for having used his horn for a resting place."
+  },
+  {
+   "type": "p",
+   "text": "\"You must be very glad to have me go now,\" he said."
+  },
+  {
+   "type": "p",
+   "text": "\"It's all the same to me,\" replied the Bull. \"I did not even know you were there.\""
+  },
+  {
+   "type": "moral",
+   "text": "We are often of greater importance in our own eyes than in the eyes of our neighbor."
+  },
+  {
+   "type": "moral",
+   "text": "The smaller the mind the greater the conceit."
+  }
+ ]
+}

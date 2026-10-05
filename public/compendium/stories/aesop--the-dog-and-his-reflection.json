@@ -1,0 +1,31 @@
+{
+ "id": "aesop--the-dog-and-his-reflection",
+ "collectionId": "aesop",
+ "order": 125,
+ "title": "The Dog and His Reflection",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 139,
+ "readingMinutes": 1,
+ "moral": "It is very foolish to be greedy.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i092_th.jpg",
+   "alt": "THE DOG AND HIS REFLECTION"
+  },
+  {
+   "type": "p",
+   "text": "A Dog, to whom the butcher had thrown a bone, was hurrying home with his prize as fast as he could go. As he crossed a narrow footbridge, he happened to look down and saw himself reflected in the quiet water as if in a mirror. But the greedy Dog thought he saw a real Dog carrying a bone much bigger than his own."
+  },
+  {
+   "type": "p",
+   "text": "If he had stopped to think he would have known better. But instead of thinking, he dropped his bone and sprang at the Dog in the river, only to find himself swimming for dear life to reach the shore. At last he managed to scramble out, and as he stood sadly thinking about the good bone he had lost, he realized what a stupid Dog he had been."
+  },
+  {
+   "type": "moral",
+   "text": "It is very foolish to be greedy."
+  }
+ ]
+}

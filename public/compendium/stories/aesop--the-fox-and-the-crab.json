@@ -1,0 +1,22 @@
+{
+ "id": "aesop--the-fox-and-the-crab",
+ "collectionId": "aesop",
+ "order": 93,
+ "title": "The Fox and the Crab",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 67,
+ "readingMinutes": 1,
+ "moral": "Be content with your lot.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Crab one day grew disgusted with the sands in which he lived. He decided to take a stroll to the meadow not far inland. There he would find better fare than briny water and sand mites. So off he crawled to the meadow. But there a hungry Fox spied him, and in a twinkling, ate him up, both shell and claw."
+  },
+  {
+   "type": "moral",
+   "text": "Be content with your lot."
+  }
+ ]
+}

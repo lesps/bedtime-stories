@@ -1,0 +1,34 @@
+{
+ "id": "aesop--the-dog-and-the-oyster",
+ "collectionId": "aesop",
+ "order": 88,
+ "title": "The Dog and the Oyster",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 92,
+ "readingMinutes": 1,
+ "moral": "Act in haste and repent at leisure—and often in pain.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "There was once a Dog who was very fond of eggs. He visited the hen house very often and at last got so greedy that he would swallow the eggs whole."
+  },
+  {
+   "type": "p",
+   "text": "One day the Dog wandered down to the seashore. There he spied an Oyster. In a twinkling the Oyster was resting in the Dog's stomach, shell and all."
+  },
+  {
+   "type": "p",
+   "text": "It pained the Dog a good deal, as you can guess."
+  },
+  {
+   "type": "p",
+   "text": "\"I've learned that all round things are not eggs,\" he said groaning."
+  },
+  {
+   "type": "moral",
+   "text": "Act in haste and repent at leisure—and often in pain."
+  }
+ ]
+}
