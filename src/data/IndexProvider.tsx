@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import { useStore } from '../storage/StoreProvider';
+import { collectionLabels } from '../domain/collectionLabel';
 import { loadIndex, loadTags } from './client';
 import type { Collection, Index, IndexEntry, StoryTags, TagDef, TagKind, Tags } from './types';
 
@@ -9,6 +10,8 @@ type IndexValue = Index & {
   byId: Map<string, IndexEntry>;
   collectionsById: Map<string, Collection>;
   tags: Tags;
+  /** Collection title, with the credited surname added where two collections share a title. */
+  collectionLabel: (collectionId: string) => string;
   tagsOf: (storyId: string) => StoryTags;
   tagDef: (kind: TagKind, id: string) => TagDef | undefined;
   /** Every tag label on a story, for search. */
@@ -38,6 +41,7 @@ export function IndexProvider({ children }: { children: ReactNode }) {
           themes: new Map(tags.themes.map((t) => [t.id, t])),
         };
         const tagsOf = (id: string) => tags.stories[id] ?? NO_TAGS;
+        const labels = collectionLabels(index.collections);
         setState({
           status: 'ready',
           value: {
@@ -45,6 +49,7 @@ export function IndexProvider({ children }: { children: ReactNode }) {
             byId,
             collectionsById: new Map(index.collections.map((c) => [c.id, c])),
             tags,
+            collectionLabel: (id) => labels.get(id) ?? id,
             tagsOf,
             tagDef: (kind, id) => defs[kind].get(id),
             tagLabels: (id) => {

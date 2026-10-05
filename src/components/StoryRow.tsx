@@ -15,7 +15,7 @@ export function StoryRow({
   entry: IndexEntry;
   showCollection?: boolean;
 }) {
-  const { collectionsById } = useIndex();
+  const { collectionLabel } = useIndex();
   const store = useStore();
   const read = useAppState().history.some((h) => h.id === entry.id);
   const { offset, open, dragging, setOpen, handlers } = useSwipeReveal(entry.id, ACTION_WIDTH);
@@ -45,7 +45,7 @@ export function StoryRow({
         <Link to={`/s/${entry.id}`} className="story-link" draggable={false}>
           <span className="story-title">{entry.title}</span>
           <span className="story-meta">
-            {showCollection && <>{collectionsById.get(entry.collectionId)?.title} · </>}
+            {showCollection && <>{collectionLabel(entry.collectionId)} · </>}
             {entry.readingMinutes} min
             {read && (
               <span className="read-mark">

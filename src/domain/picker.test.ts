@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { entry, mulberry32 } from '../test/fixtures';
-import { pick, type PickContext } from './picker';
+import { pick, pickMany, type PickContext } from './picker';
 
 const pool = [
   entry({ id: 'aesop--a', readingMinutes: 1 }),
@@ -125,5 +125,101 @@ describe('pick', () => {
     }
     expect(counts.size).toBe(4);
     for (const c of counts.values()) expect(Math.abs(c - N / 4)).toBeLessThan(N * 0.03);
+  });
+
+  describe('culture and theme filters', () => {
+    const tags: Record<string, { cultures: string[]; themes: string[] }> = {
+      'aesop--a': { cultures: ['greek'], themes: ['animals', 'gentle'] },
+      'aesop--b': { cultures: ['greek'], themes: ['animals', 'tricksters'] },
+      'grimm--c': { cultures: ['german'], themes: ['monsters', 'royalty'] },
+      'grimm--d': { cultures: ['german'], themes: ['gentle', 'royalty'] },
+    };
+    const tctx: PickContext = { ...ctx, tagsOf: (id) => tags[id] ?? { cultures: [], themes: [] } };
+    const run = (opts: Parameters<typeof pick>[1]) => ids(opts, 300, tctx);
+
+    it('includes any of the chosen cultures', () => {
+      expect(run({ recent: [], cultures: { include: ['german'], exclude: [] } })).toEqual([
+        'grimm--c',
+        'grimm--d',
+      ]);
+    });
+
+    it('includes stories having any of the chosen themes', () => {
+      expect(
+        run({ recent: [], themes: { include: ['gentle', 'tricksters'], exclude: [] } }),
+      ).toEqual(['aesop--a', 'aesop--b', 'grimm--d']);
+    });
+
+    it('excludes stories having any excluded theme ("no monsters tonight")', () => {
+      expect(run({ recent: [], themes: { include: [], exclude: ['monsters'] } })).toEqual([
+        'aesop--a',
+        'aesop--b',
+        'grimm--d',
+      ]);
+    });
+
+    it('lets exclude win over include', () => {
+      expect(run({ recent: [], themes: { include: ['royalty'], exclude: ['monsters'] } })).toEqual([
+        'grimm--d',
+      ]);
+    });
+
+    it('treats a story with no tags as matching no include, but surviving excludes', () => {
+      const bare = { ...ctx };
+      expect(ids({ recent: [], themes: { include: ['gentle'], exclude: [] } }, 50, bare)).toEqual(
+        [],
+      );
+      expect(
+        ids({ recent: [], themes: { include: [], exclude: ['gentle'] } }, 300, bare),
+      ).toHaveLength(4);
+    });
+  });
+
+  describe('pickMany', () => {
+    it('returns n distinct stories, avoiding recent ones', () => {
+      const r = pickMany(pool, { recent: ['aesop--a'] }, 3, mulberry32(9), ctx);
+      expect(r.stories).toHaveLength(3);
+      expect(new Set(r.stories.map((s) => s.id)).size).toBe(3);
+      expect(r.stories.map((s) => s.id)).not.toContain('aesop--a');
+      expect(r).toMatchObject({ relaxed: false });
+    });
+
+    it('never offers two translations of the same tale together', () => {
+      const tales = [
+        entry({ id: 'grimm--frog', workId: 'w1' }),
+        entry({ id: 'hunt--frog', workId: 'w1' }),
+        entry({ id: 'hunt--other', workId: 'w2' }),
+        entry({ id: 'aesop--x' }),
+      ];
+      for (let seed = 0; seed < 50; seed++) {
+        const r = pickMany(tales, { recent: [] }, 3, mulberry32(seed), ctx);
+        const works = r.stories.map((s) => s.workId).filter(Boolean);
+        expect(new Set(works).size).toBe(works.length);
+        expect(r.stories).toHaveLength(3);
+      }
+    });
+
+    it('tops up from recent picks only when fresh ones run out, and says so', () => {
+      const r = pickMany(
+        pool,
+        { recent: ['aesop--a', 'aesop--b', 'grimm--c'] },
+        3,
+        mulberry32(1),
+        ctx,
+      );
+      expect(r.stories).toHaveLength(3);
+      expect(r.stories[0]?.id).toBe('grimm--d');
+      expect(r).toMatchObject({ relaxed: true });
+    });
+
+    it('returns fewer when fewer qualify, and no-matches when none do', () => {
+      expect(
+        pickMany(pool, { recent: [], maxMinutes: 1 }, 3, Math.random, ctx).stories,
+      ).toHaveLength(1);
+      expect(pickMany(pool, { recent: [], collections: ['x'] }, 3, Math.random, ctx)).toEqual({
+        stories: [],
+        reason: 'no-matches',
+      });
+    });
   });
 });

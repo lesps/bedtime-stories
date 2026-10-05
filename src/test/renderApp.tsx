@@ -84,13 +84,16 @@ export const fixtureTags: Tags = {
     { id: 'animals', label: 'Animals' },
     { id: 'fables', label: 'Fables with a moral' },
     { id: 'royalty', label: 'Kings, queens & castles' },
+    { id: 'gentle', label: 'Gentle & cosy' },
   ],
   stories: Object.fromEntries(
     fixtureStories.map((e) => [
       e.id,
       {
         cultures: [culture(e.id)],
-        themes: e.id.startsWith('aesop') ? ['animals', 'fables'] : ['royalty'],
+        themes: e.id.startsWith('aesop')
+          ? ['animals', 'fables', ...(e.id === 'aesop--the-heron' ? ['gentle'] : [])]
+          : ['royalty'],
       },
     ]),
   ),

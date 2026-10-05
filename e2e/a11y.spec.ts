@@ -12,7 +12,7 @@ const pages = [
   { name: 'Collection', path: '#/c/aesop', expect: '.row-action' },
   { name: 'Library by theme', path: '#/?by=themes', expect: '.tag-cards' },
   { name: 'Tag page', path: '#/tags/cultures/japanese', expect: '.story-row' },
-  { name: 'Surprise', path: '#/surprise', expect: '.chip' },
+  { name: 'Surprise', path: '#/surprise', expect: '.preset' },
   { name: 'Settings', path: '#/settings', expect: '.card' },
 ];
 
@@ -56,4 +56,22 @@ test('verse keeps its line breaks', async ({ page }) => {
   const verse = page.locator('.verse').first();
   await expect(verse).toHaveCSS('white-space', 'pre-wrap');
   expect(await verse.textContent()).toContain('\n');
+});
+
+test('Surprise filters (open, with included and excluded chips) have no serious violations', async ({
+  page,
+}) => {
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await page.goto('#/surprise');
+  await page.getByText('More filters').click();
+  await page.getByRole('button', { name: /^Japanese: any$/ }).click();
+  const monsters = page.getByRole('button', { name: /^Giants, witches & monsters: any$/ });
+  await monsters.click();
+  await page.getByRole('button', { name: /^Giants, witches & monsters: included$/ }).click();
+  await expect(page.getByRole('button', { name: /monsters: excluded$/ })).toBeVisible();
+  const { violations } = await new AxeBuilder({ page }).analyze();
+  const serious = violations.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+  expect(serious, JSON.stringify(serious.map((v) => [v.id, v.nodes.map((n) => n.target)]))).toEqual(
+    [],
+  );
 });
