@@ -1,0 +1,34 @@
+{
+ "id": "aesop--the-goatherd-and-the-goat",
+ "collectionId": "aesop",
+ "order": 103,
+ "title": "The Goatherd and the Goat",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 71,
+ "readingMinutes": 1,
+ "moral": "Wicked deeds will not stay hid.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Goat strayed away from the flock, tempted by a patch of clover. The Goatherd tried to call it back, but in vain. It would not obey him. Then he picked up a stone and threw it, breaking the Goat's horn."
+  },
+  {
+   "type": "p",
+   "text": "The Goatherd was frightened."
+  },
+  {
+   "type": "p",
+   "text": "\"Do not tell the master,\" he begged the Goat."
+  },
+  {
+   "type": "p",
+   "text": "\"No,\" said the Goat, \"that broken horn can speak for itself!\""
+  },
+  {
+   "type": "moral",
+   "text": "Wicked deeds will not stay hid."
+  }
+ ]
+}

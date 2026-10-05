@@ -1,0 +1,34 @@
+{
+ "id": "aesop--the-serpent-and-the-eagle",
+ "collectionId": "aesop",
+ "order": 94,
+ "title": "The Serpent and the Eagle",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 186,
+ "readingMinutes": 1,
+ "moral": "An act of kindness is well repaid.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Serpent had succeeded in surprising an Eagle and had wrapped himself around the Eagle's neck. The Eagle could not reach the Serpent, neither with beak nor claws. Far into the sky he soared trying to shake off his enemy. But the Serpent's hold only tightened, and slowly the Eagle sank back to earth, gasping for breath."
+  },
+  {
+   "type": "p",
+   "text": "A Countryman chanced to see the unequal combat. In pity for the noble Eagle he rushed up and soon had loosened the coiling Serpent and freed the Eagle."
+  },
+  {
+   "type": "p",
+   "text": "The Serpent was furious. He had no chance to bite the watchful Countryman. Instead he struck at the drinking horn, hanging at the Countryman's belt, and into it let fly the poison of his fangs."
+  },
+  {
+   "type": "p",
+   "text": "The Countryman now went on toward home. Becoming thirsty on the way, he filled his horn at a spring, and was about to drink. There was a sudden rush of great wings. Sweeping down, the Eagle seized the poisoned horn from out his savior's hands, and flew away with it to hide it where it could never be found."
+  },
+  {
+   "type": "moral",
+   "text": "An act of kindness is well repaid."
+  }
+ ]
+}

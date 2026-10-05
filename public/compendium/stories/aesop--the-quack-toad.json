@@ -1,0 +1,26 @@
+{
+ "id": "aesop--the-quack-toad",
+ "collectionId": "aesop",
+ "order": 108,
+ "title": "The Quack Toad",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 100,
+ "readingMinutes": 1,
+ "moral": "Those who would mend others, should first mend themselves.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "An old Toad once informed all his neighbors that he was a learned doctor. In fact he could cure anything. The Fox heard the news and hurried to see the Toad. He looked the Toad over very carefully."
+  },
+  {
+   "type": "p",
+   "text": "\"Mr. Toad,\" he said, \"I've been told that you cure anything! But just take a look at yourself, and then try some of your own medicine. If you can cure yourself of that blotchy skin and that rheumatic gait, someone might believe you. Otherwise, I should advise you to try some other profession.\""
+  },
+  {
+   "type": "moral",
+   "text": "Those who would mend others, should first mend themselves."
+  }
+ ]
+}

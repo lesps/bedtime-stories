@@ -1,0 +1,42 @@
+{
+ "id": "aesop--the-ass-and-the-grasshoppers",
+ "collectionId": "aesop",
+ "order": 71,
+ "title": "The Ass and the Grasshoppers",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 136,
+ "readingMinutes": 1,
+ "moral": "The laws of nature are unchangeable.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "One day as an Ass was walking in the pasture, he found some Grasshoppers chirping merrily in a grassy corner of the field."
+  },
+  {
+   "type": "p",
+   "text": "He listened with a great deal of admiration to the song of the Grasshoppers. It was such a joyful song that his pleasure-loving heart was filled with a wish to sing as they did."
+  },
+  {
+   "type": "p",
+   "text": "\"What is it?\" he asked very respectfully, \"that has given you such beautiful voices? Is there any special food you eat, or is it some divine nectar that makes you sing so wonderfully?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Yes,\" said the Grasshoppers, who were very fond of a joke; \"it is the dew we drink! Try some and see.\""
+  },
+  {
+   "type": "p",
+   "text": "So thereafter the Ass would eat nothing and drink nothing but dew."
+  },
+  {
+   "type": "p",
+   "text": "Naturally, the poor foolish Ass soon died."
+  },
+  {
+   "type": "moral",
+   "text": "The laws of nature are unchangeable."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "aesop--the-boy-and-the-nettle",
+ "collectionId": "aesop",
+ "order": 113,
+ "title": "The Boy and the Nettle",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 58,
+ "readingMinutes": 1,
+ "moral": "Whatever you do, do with all your might.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Boy, stung by a Nettle, ran home crying, to get his mother to blow on the hurt and kiss it."
+  },
+  {
+   "type": "p",
+   "text": "\"Son,\" said the Boy's mother, when she had comforted him, \"the next time you come near a Nettle, grasp it firmly, and it will be as soft as silk.\""
+  },
+  {
+   "type": "moral",
+   "text": "Whatever you do, do with all your might."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-young-crab-and-his-mother",
+ "collectionId": "aesop",
+ "order": 3,
+ "title": "The Young Crab and His Mother",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 94,
+ "readingMinutes": 1,
+ "moral": "Do not tell others how to act unless you can set a good example.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i003_th.jpg",
+   "alt": "THE YOUNG CRAB AND HIS MOTHER"
+  },
+  {
+   "type": "p",
+   "text": "\"Why in the world do you walk sideways like that?\" said a Mother Crab to her son. \"You should always walk straight forward with your toes turned out.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Show me how to walk, mother dear,\" answered the little Crab obediently, \"I want to learn.\""
+  },
+  {
+   "type": "p",
+   "text": "So the old Crab tried and tried to walk straight forward. But she could walk sideways only, like her son. And when she wanted to turn her toes out she tripped and fell on her nose."
+  },
+  {
+   "type": "moral",
+   "text": "Do not tell others how to act unless you can set a good example."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "aesop--the-monkey-and-the-cat",
+ "collectionId": "aesop",
+ "order": 61,
+ "title": "The Monkey and the Cat",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 230,
+ "readingMinutes": 1,
+ "moral": "The flatterer seeks some benefit at your expense.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i050_th.jpg",
+   "alt": "THE MONKEY AND THE CAT"
+  },
+  {
+   "type": "p",
+   "text": "Once upon a time a Cat and a Monkey lived as pets in the same house. They were great friends and were constantly in all sorts of mischief together. What they seemed to think of more than anything else was to get something to eat, and it did not matter much to them how they got it."
+  },
+  {
+   "type": "p",
+   "text": "One day they were sitting by the fire, watching some chestnuts roasting on the hearth. How to get them was the question."
+  },
+  {
+   "type": "p",
+   "text": "\"I would gladly get them,\" said the cunning Monkey, \"but you are much more skillful at such things than I am. Pull them out and I'll divide them between us.\""
+  },
+  {
+   "type": "p",
+   "text": "Pussy stretched out her paw very carefully, pushed aside some of the cinders, and drew back her paw very quickly. Then she tried it again, this time pulling a chestnut half out of the fire. A third time and she drew out the chestnut. This performance she went through several times, each time singeing her paw severely. As fast as she pulled the chestnuts out of the fire, the Monkey ate them up."
+  },
+  {
+   "type": "p",
+   "text": "Now the master came in, and away scampered the rascals, Mistress Cat with a burnt paw and no chestnuts. From that time on, they say, she contented herself with mice and rats and had little to do with Sir Monkey."
+  },
+  {
+   "type": "moral",
+   "text": "The flatterer seeks some benefit at your expense."
+  }
+ ]
+}

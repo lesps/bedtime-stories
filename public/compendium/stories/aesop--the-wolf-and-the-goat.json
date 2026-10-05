@@ -1,0 +1,39 @@
+{
+ "id": "aesop--the-wolf-and-the-goat",
+ "collectionId": "aesop",
+ "order": 70,
+ "title": "The Wolf and the Goat",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 120,
+ "readingMinutes": 1,
+ "moral": "An invitation prompted by selfishness is not to be accepted.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i056_th.jpg",
+   "alt": "THE WOLF AND THE GOAT"
+  },
+  {
+   "type": "p",
+   "text": "A hungry Wolf spied a Goat browsing at the top of a steep cliff where he could not possibly get at her."
+  },
+  {
+   "type": "p",
+   "text": "\"That is a very dangerous place for you,\" he called out, pretending to be very anxious about the Goat's safety. \"What if you should fall! Please listen to me and come down! Here you can get all you want of the finest, tenderest grass in the country.\""
+  },
+  {
+   "type": "p",
+   "text": "The Goat looked over the edge of the cliff."
+  },
+  {
+   "type": "p",
+   "text": "\"How very, very anxious you are about me,\" she said, \"and how generous you are with your grass! But I know you! It's your own appetite you are thinking of, not mine!\""
+  },
+  {
+   "type": "moral",
+   "text": "An invitation prompted by selfishness is not to be accepted."
+  }
+ ]
+}

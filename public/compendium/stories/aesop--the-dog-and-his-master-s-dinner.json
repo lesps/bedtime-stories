@@ -1,0 +1,38 @@
+{
+ "id": "aesop--the-dog-and-his-master-s-dinner",
+ "collectionId": "aesop",
+ "order": 57,
+ "title": "The Dog and His Master's Dinner",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 143,
+ "readingMinutes": 1,
+ "moral": "Do not stop to argue with temptation.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Dog had learned to carry his master's dinner to him every day. He was very faithful to his duty, though the smell of the good things in the basket tempted him."
+  },
+  {
+   "type": "p",
+   "text": "The Dogs in the neighborhood noticed him carrying the basket and soon discovered what was in it. They made several attempts to steal it from him. But he always guarded it faithfully."
+  },
+  {
+   "type": "p",
+   "text": "Then one day all the Dogs in the neighborhood got together and met him on his way with the basket. The Dog tried to run away from them. But at last he stopped to argue."
+  },
+  {
+   "type": "p",
+   "text": "That was his mistake. They soon made him feel so ridiculous that he dropped the basket and seized a large piece of roast meat intended for his master's dinner."
+  },
+  {
+   "type": "p",
+   "text": "\"Very well,\" he said, \"you divide the rest.\""
+  },
+  {
+   "type": "moral",
+   "text": "Do not stop to argue with temptation."
+  }
+ ]
+}

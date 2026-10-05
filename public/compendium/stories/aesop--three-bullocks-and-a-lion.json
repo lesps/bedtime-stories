@@ -1,0 +1,35 @@
+{
+ "id": "aesop--three-bullocks-and-a-lion",
+ "collectionId": "aesop",
+ "order": 90,
+ "title": "Three Bullocks and a Lion",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 163,
+ "readingMinutes": 1,
+ "moral": "In unity is strength.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i068_th.jpg",
+   "alt": "THREE BULLOCKS AND A LION"
+  },
+  {
+   "type": "p",
+   "text": "A Lion had been watching three Bullocks feeding in an open field. He had tried to attack them several times, but they had kept together, and helped each other to drive him off. The Lion had little hope of eating them, for he was no match for three strong Bullocks with their sharp horns and hoofs. But he could not keep away from that field, for it is hard to resist watching a good meal, even when there is little chance of getting it."
+  },
+  {
+   "type": "p",
+   "text": "Then one day the Bullocks had a quarrel, and when the hungry Lion came to look at them and lick his chops as he was accustomed to do, he found them in separate corners of the field, as far away from one another as they could get."
+  },
+  {
+   "type": "p",
+   "text": "It was now an easy matter for the Lion to attack them one at a time, and this he proceeded to do with the greatest satisfaction and relish."
+  },
+  {
+   "type": "moral",
+   "text": "In unity is strength."
+  }
+ ]
+}

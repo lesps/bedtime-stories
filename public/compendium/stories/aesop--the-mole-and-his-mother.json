@@ -1,0 +1,42 @@
+{
+ "id": "aesop--the-mole-and-his-mother",
+ "collectionId": "aesop",
+ "order": 140,
+ "title": "The Mole and His Mother",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 98,
+ "readingMinutes": 1,
+ "moral": "Boast of one thing and you will be found lacking in that and a few other things as well.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A little Mole once said to his Mother:"
+  },
+  {
+   "type": "p",
+   "text": "\"Why, Mother, you said I was blind! But I am sure I can see!\""
+  },
+  {
+   "type": "p",
+   "text": "Mother Mole saw she would have to get such conceit out of his head. So she put a bit of frankincense before him and asked him to tell what it was."
+  },
+  {
+   "type": "p",
+   "text": "The little Mole peered at it."
+  },
+  {
+   "type": "p",
+   "text": "\"Why, that's a pebble!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Well, my son, that proves you've lost your sense of smell as well as being blind.\""
+  },
+  {
+   "type": "moral",
+   "text": "Boast of one thing and you will be found lacking in that and a few other things as well."
+  }
+ ]
+}

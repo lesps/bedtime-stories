@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-stag-the-sheep-and-the-wolf",
+ "collectionId": "aesop",
+ "order": 122,
+ "title": "The Stag, the Sheep, and the Wolf",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 133,
+ "readingMinutes": 1,
+ "moral": "Two blacks do not make a white.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i089_th.jpg",
+   "alt": "THE STAG, THE SHEEP, AND THE WOLF"
+  },
+  {
+   "type": "p",
+   "text": "One day a Stag came to a Sheep and asked her to lend him a measure of wheat. The Sheep knew him for a very swift runner, who could easily take himself out of reach, were he so inclined. So she asked him if he knew someone who would answer for him."
+  },
+  {
+   "type": "p",
+   "text": "\"Yes, yes,\" answered the Stag confidently, \"the Wolf has promised to be my surety.\""
+  },
+  {
+   "type": "p",
+   "text": "\"The Wolf!\" exclaimed the Sheep indignantly. \"Do you think I would trust you on such security? I know the Wolf! He takes what he wants and runs off with it without paying. As for you, you can use your legs so well that I should have little chance of collecting the debt if I had to catch you for it!\""
+  },
+  {
+   "type": "moral",
+   "text": "Two blacks do not make a white."
+  }
+ ]
+}

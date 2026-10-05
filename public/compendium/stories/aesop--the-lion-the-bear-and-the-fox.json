@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-lion-the-bear-and-the-fox",
+ "collectionId": "aesop",
+ "order": 44,
+ "title": "The Lion, the Bear, and the Fox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 103,
+ "readingMinutes": 1,
+ "moral": "Those who have all the toil do not always get the profit.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i035_th.jpg",
+   "alt": "THE LION, THE BEAR, AND THE FOX"
+  },
+  {
+   "type": "p",
+   "text": "Just as a great Bear rushed to seize a stray kid, a Lion leaped from another direction upon the same prey. The two fought furiously for the prize until they had received so many wounds that both sank down unable to continue the battle."
+  },
+  {
+   "type": "p",
+   "text": "Just then a Fox dashed up, and seizing the kid, made off with it as fast as he could go, while the Lion and the Bear looked on in helpless rage."
+  },
+  {
+   "type": "p",
+   "text": "\"How much better it would have been,\" they said, \"to have shared in a friendly spirit.\""
+  },
+  {
+   "type": "moral",
+   "text": "Those who have all the toil do not always get the profit."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "aesop--the-bat-and-the-weasels",
+ "collectionId": "aesop",
+ "order": 107,
+ "title": "The Bat and the Weasels",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 189,
+ "readingMinutes": 1,
+ "moral": "Set your sails with the wind.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i080_th.jpg",
+   "alt": "THE BAT AND THE WEASELS"
+  },
+  {
+   "type": "p",
+   "text": "A Bat blundered into the nest of a Weasel, who ran up to catch and eat him. The Bat begged for his life, but the Weasel would not listen."
+  },
+  {
+   "type": "p",
+   "text": "\"You are a Mouse,\" he said, \"and I am a sworn enemy of Mice. Every Mouse I catch, I am going to eat!\""
+  },
+  {
+   "type": "p",
+   "text": "\"But I am not a Mouse!\" cried the Bat. \"Look at my wings. Can Mice fly? Why, I am only a Bird! Please let me go!\""
+  },
+  {
+   "type": "p",
+   "text": "The Weasel had to admit that the Bat was not a Mouse, so he let him go. But a few days later, the foolish Bat went blindly into the nest of another Weasel. This Weasel happened to be a bitter enemy of Birds, and he soon had the Bat under his claws, ready to eat him."
+  },
+  {
+   "type": "p",
+   "text": "\"You are a Bird,\" he said, \"and I am going to eat you!\""
+  },
+  {
+   "type": "p",
+   "text": "\"What,\" cried the Bat, \"I, a Bird! Why, all Birds have feathers! I am nothing but a Mouse. 'Down with all Cats,' is my motto!\""
+  },
+  {
+   "type": "p",
+   "text": "And so the Bat escaped with his life a second time."
+  },
+  {
+   "type": "moral",
+   "text": "Set your sails with the wind."
+  }
+ ]
+}

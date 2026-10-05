@@ -1,0 +1,43 @@
+{
+ "id": "aesop--the-heron",
+ "collectionId": "aesop",
+ "order": 67,
+ "title": "The Heron",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 153,
+ "readingMinutes": 1,
+ "moral": "Do not be too hard to suit or you may have to be content with the worst or with nothing at all.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i054_th.jpg",
+   "alt": "THE HERON"
+  },
+  {
+   "type": "p",
+   "text": "A Heron was walking sedately along the bank of a stream, his eyes on the clear water, and his long neck and pointed bill ready to snap up a likely morsel for his breakfast. The clear water swarmed with fish, but Master Heron was hard to please that morning."
+  },
+  {
+   "type": "p",
+   "text": "\"No small fry for me,\" he said. \"Such scanty fare is not fit for a Heron.\""
+  },
+  {
+   "type": "p",
+   "text": "Now a fine young Perch swam near."
+  },
+  {
+   "type": "p",
+   "text": "\"No indeed,\" said the Heron. \"I wouldn't even trouble to open my beak for anything like that!\""
+  },
+  {
+   "type": "p",
+   "text": "As the sun rose, the fish left the shallow water near the shore and swam below into the cool depths toward the middle. The Heron saw no more fish, and very glad was he at last to breakfast on a tiny Snail."
+  },
+  {
+   "type": "moral",
+   "text": "Do not be too hard to suit or you may have to be content with the worst or with nothing at all."
+  }
+ ]
+}

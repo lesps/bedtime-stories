@@ -1,0 +1,55 @@
+{
+ "id": "aesop--the-man-and-the-satyr",
+ "collectionId": "aesop",
+ "order": 134,
+ "title": "The Man and the Satyr",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 175,
+ "readingMinutes": 1,
+ "moral": "The man who talks for both sides is not to be trusted by either.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A long time ago a Man met a Satyr in the forest and succeeded in making friends with him. The two soon became the best of comrades, living together in the Man's hut. But one cold winter evening, as they were walking homeward, the Satyr saw the Man blow on his fingers."
+  },
+  {
+   "type": "p",
+   "text": "\"Why do you do that?\" asked the Satyr."
+  },
+  {
+   "type": "p",
+   "text": "\"To warm my hands,\" the Man replied."
+  },
+  {
+   "type": "p",
+   "text": "When they reached home the Man prepared two bowls of porridge. These he placed steaming hot on the table, and the comrades sat down very cheerfully to enjoy the meal. But much to the Satyr's surprise, the Man began to blow into his bowl of porridge."
+  },
+  {
+   "type": "p",
+   "text": "\"Why do you do that?\" he asked."
+  },
+  {
+   "type": "p",
+   "text": "\"To cool my porridge,\" replied the Man."
+  },
+  {
+   "type": "p",
+   "text": "The Satyr sprang hurriedly to his feet and made for the door."
+  },
+  {
+   "type": "p",
+   "text": "\"Goodby,\" he said, \"I've seen enough. A fellow that blows hot and cold in the same breath cannot be friends with me!\""
+  },
+  {
+   "type": "moral",
+   "text": "The man who talks for both sides is not to be trusted by either."
+  },
+  {
+   "type": "image",
+   "src": "images/aesop/i102.jpg",
+   "alt": "THE MAN AND THE SATYR"
+  }
+ ]
+}

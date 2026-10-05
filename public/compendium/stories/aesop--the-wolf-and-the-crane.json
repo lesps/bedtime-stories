@@ -1,0 +1,51 @@
+{
+ "id": "aesop--the-wolf-and-the-crane",
+ "collectionId": "aesop",
+ "order": 14,
+ "title": "The Wolf and the Crane",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 183,
+ "readingMinutes": 1,
+ "moral": "Expect no reward for serving the wicked.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i012_th.jpg",
+   "alt": "THE WOLF AND THE CRANE"
+  },
+  {
+   "type": "p",
+   "text": "A Wolf had been feasting too greedily, and a bone had stuck crosswise in his throat. He could get it neither up nor down, and of course he could not eat a thing. Naturally that was an awful state of affairs for a greedy Wolf."
+  },
+  {
+   "type": "p",
+   "text": "So away he hurried to the Crane. He was sure that she, with her long neck and bill, would easily be able to reach the bone and pull it out."
+  },
+  {
+   "type": "p",
+   "text": "\"I will reward you very handsomely,\" said the Wolf, \"if you pull that bone out for me.\""
+  },
+  {
+   "type": "p",
+   "text": "The Crane, as you can imagine, was very uneasy about putting her head in a Wolf's throat. But she was grasping in nature, so she did what the Wolf asked her to do."
+  },
+  {
+   "type": "p",
+   "text": "When the Wolf felt that the bone was gone, he started to walk away."
+  },
+  {
+   "type": "p",
+   "text": "\"But what about my reward!\" called the Crane anxiously."
+  },
+  {
+   "type": "p",
+   "text": "\"What!\" snarled the Wolf, whirling around. \"Haven't you got it? Isn't it enough that I let you take your head out of my mouth without snapping it off?\""
+  },
+  {
+   "type": "moral",
+   "text": "Expect no reward for serving the wicked."
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "id": "aesop--the-cock-and-the-fox-2",
+ "collectionId": "aesop",
+ "order": 144,
+ "title": "The Cock and the Fox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 160,
+ "readingMinutes": 1,
+ "moral": "The wicked deserve no aid.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Fox was caught in a trap one fine morning, because he had got too near the Farmer's hen house. No doubt he was hungry, but that was not an excuse for stealing. A Cock, rising early, discovered what had happened. He knew the Fox could not get at him, so he went a little closer to get a good look at his enemy."
+  },
+  {
+   "type": "p",
+   "text": "The Fox saw a slender chance of escape."
+  },
+  {
+   "type": "p",
+   "text": "\"Dear friend,\" he said, \"I was just on my way to visit a sick relative, when I stumbled into this string and got all tangled up. But please do not tell anybody about it. I dislike causing sorrow to anybody, and I am sure I can soon gnaw this string to pieces.\""
+  },
+  {
+   "type": "p",
+   "text": "But the Cock was not to be so easily fooled. He soon roused the whole hen yard, and when the Farmer came running out, that was the end of Mr. Fox."
+  },
+  {
+   "type": "moral",
+   "text": "The wicked deserve no aid."
+  }
+ ]
+}

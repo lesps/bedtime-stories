@@ -1,0 +1,30 @@
+{
+ "id": "aesop--the-wolves-and-the-sheep",
+ "collectionId": "aesop",
+ "order": 143,
+ "title": "The Wolves and the Sheep",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 114,
+ "readingMinutes": 1,
+ "moral": "Do not give up friends for foes.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A pack of Wolves lurked near the Sheep pasture. But the Dogs kept them all at a respectful distance, and the Sheep grazed in perfect safety. But now the Wolves thought of a plan to trick the Sheep."
+  },
+  {
+   "type": "p",
+   "text": "\"Why is there always this hostility between us?\" they said. \"If it were not for those Dogs who are always stirring up trouble, I am sure we should get along beautifully. Send them away and you will see what good friends we shall become.\""
+  },
+  {
+   "type": "p",
+   "text": "The Sheep were easily fooled. They persuaded the Dogs to go away, and that very evening the Wolves had the grandest feast of their lives."
+  },
+  {
+   "type": "moral",
+   "text": "Do not give up friends for foes."
+  }
+ ]
+}

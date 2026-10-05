@@ -1,0 +1,34 @@
+{
+ "id": "aesop--the-man-and-the-lion",
+ "collectionId": "aesop",
+ "order": 99,
+ "title": "The Man and the Lion",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 123,
+ "readingMinutes": 1,
+ "moral": "It all depends on the point of view, and who tells the story.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "A Lion and a Man chanced to travel in company through the forest. They soon began to quarrel, for each of them boasted that he and his kind were far superior to the other both in strength and mind."
+  },
+  {
+   "type": "p",
+   "text": "Now they reached a clearing in the forest and there stood a statue. It was a representation of Heracles in the act of tearing the jaws of the Nemean Lion."
+  },
+  {
+   "type": "p",
+   "text": "\"See,\" said the man, \"that's how strong we are! The King of Beasts is like wax in our hands!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Ho!\" laughed the Lion, \"a Man made that statue. It would have been quite a different scene had a Lion made it!\""
+  },
+  {
+   "type": "moral",
+   "text": "It all depends on the point of view, and who tells the story."
+  }
+ ]
+}

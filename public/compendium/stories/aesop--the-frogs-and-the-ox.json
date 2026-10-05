@@ -1,0 +1,47 @@
+{
+ "id": "aesop--the-frogs-and-the-ox",
+ "collectionId": "aesop",
+ "order": 4,
+ "title": "The Frogs and the Ox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 134,
+ "readingMinutes": 1,
+ "moral": "Do not attempt the impossible.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i004_th.jpg",
+   "alt": "THE FROGS AND THE OX"
+  },
+  {
+   "type": "p",
+   "text": "An Ox came down to a reedy pool to drink. As he splashed heavily into the water, he crushed a young Frog into the mud. The old Frog soon missed the little one and asked his brothers and sisters what had become of him."
+  },
+  {
+   "type": "p",
+   "text": "\"A great big monster,\" said one of them, \"stepped on little brother with one of his huge feet!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Big, was he!\" said the old Frog, puffing herself up. \"Was he as big as this?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Oh, much bigger!\" they cried."
+  },
+  {
+   "type": "p",
+   "text": "The Frog puffed up still more."
+  },
+  {
+   "type": "p",
+   "text": "\"He could not have been bigger than this,\" she said. But the little Frogs all declared that the monster was much, much bigger and the old Frog kept puffing herself out more and more until, all at once, she burst."
+  },
+  {
+   "type": "moral",
+   "text": "Do not attempt the impossible."
+  }
+ ]
+}

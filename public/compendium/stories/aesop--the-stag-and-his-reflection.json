@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-stag-and-his-reflection",
+ "collectionId": "aesop",
+ "order": 51,
+ "title": "The Stag and His Reflection",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 130,
+ "readingMinutes": 1,
+ "moral": "We often make much of the ornamental and despise the useful.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i041_th.jpg",
+   "alt": "THE STAG AND HIS REFLECTION"
+  },
+  {
+   "type": "p",
+   "text": "A Stag, drinking from a crystal spring, saw himself mirrored in the clear water. He greatly admired the graceful arch of his antlers, but he was very much ashamed of his spindling legs."
+  },
+  {
+   "type": "p",
+   "text": "\"How can it be,\" he sighed, \"that I should be cursed with such legs when I have so magnificent a crown.\""
+  },
+  {
+   "type": "p",
+   "text": "At that moment he scented a panther and in an instant was bounding away through the forest. But as he ran his wide-spreading antlers caught in the branches of the trees, and soon the Panther overtook him. Then the Stag perceived that the legs of which he was so ashamed would have saved him had it not been for the useless ornaments on his head."
+  },
+  {
+   "type": "moral",
+   "text": "We often make much of the ornamental and despise the useful."
+  }
+ ]
+}

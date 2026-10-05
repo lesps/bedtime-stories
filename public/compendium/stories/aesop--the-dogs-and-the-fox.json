@@ -1,0 +1,26 @@
+{
+ "id": "aesop--the-dogs-and-the-fox",
+ "collectionId": "aesop",
+ "order": 62,
+ "title": "The Dogs and the Fox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 70,
+ "readingMinutes": 1,
+ "moral": "It is easy and also contemptible to kick a man that is down.",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Some Dogs found the skin of a Lion and furiously began to tear it with their teeth. A Fox chanced to see them and laughed scornfully."
+  },
+  {
+   "type": "p",
+   "text": "\"If that Lion had been alive,\" he said, \"it would have been a very different story. He would have made you feel how much sharper his claws are than your teeth.\""
+  },
+  {
+   "type": "moral",
+   "text": "It is easy and also contemptible to kick a man that is down."
+  }
+ ]
+}

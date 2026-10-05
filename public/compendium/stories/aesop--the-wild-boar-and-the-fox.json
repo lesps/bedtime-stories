@@ -1,0 +1,35 @@
+{
+ "id": "aesop--the-wild-boar-and-the-fox",
+ "collectionId": "aesop",
+ "order": 41,
+ "title": "The Wild Boar and the Fox",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "wordCount": 127,
+ "readingMinutes": 1,
+ "moral": "Preparedness for war is the best guarantee of peace.",
+ "blocks": [
+  {
+   "type": "image",
+   "src": "images/aesop/i034_th.jpg",
+   "alt": "THE WILD BOAR AND THE FOX"
+  },
+  {
+   "type": "p",
+   "text": "A Wild Boar was sharpening his tusks busily against the stump of a tree, when a Fox happened by. Now the Fox was always looking for a chance to make fun of his neighbors. So he made a great show of looking anxiously about, as if in fear of some hidden enemy. But the Boar kept right on with his work."
+  },
+  {
+   "type": "p",
+   "text": "\"Why are you doing that?\" asked the Fox at last with a grin. \"There isn't any danger that I can see.\""
+  },
+  {
+   "type": "p",
+   "text": "\"True enough,\" replied the Boar, \"but when danger does come there will not be time for such work as this. My weapons will have to be ready for use then, or I shall suffer for it.\""
+  },
+  {
+   "type": "moral",
+   "text": "Preparedness for war is the best guarantee of peace."
+  }
+ ]
+}
