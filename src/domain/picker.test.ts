@@ -48,6 +48,11 @@ describe('pick', () => {
     expect(ids({ recent: [], maxMinutes: 5 })).toEqual(['aesop--a', 'aesop--b']);
   });
 
+  it('filters by a minimum length (medium or long only)', () => {
+    expect(ids({ recent: [], minMinutes: 6, maxMinutes: 15 })).toEqual(['grimm--c']);
+    expect(ids({ recent: [], minMinutes: 15 })).toEqual(['grimm--d']);
+  });
+
   it('filters unread only', () => {
     expect(ids({ recent: [], unreadOnly: true })).toEqual(['aesop--b', 'grimm--c', 'grimm--d']);
   });

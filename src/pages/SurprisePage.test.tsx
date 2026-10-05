@@ -1,4 +1,4 @@
-import { screen } from '@testing-library/react';
+import { fireEvent, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createStore } from '../storage/store';
@@ -16,10 +16,7 @@ beforeEach(() => {
 describe('SurprisePage', () => {
   it('defaults to Under 5 min and picks a visible matching story with an excerpt', async () => {
     const { store } = renderApp('/surprise');
-    expect(await screen.findByRole('radio', { name: 'Under 5 min' })).toHaveAttribute(
-      'aria-checked',
-      'true',
-    );
+    expect(await screen.findByRole('group', { name: 'Length' })).toHaveTextContent('Up to 5 min');
     await userEvent.click(screen.getByRole('button', { name: 'Pick a story' }));
     const card = await screen.findByRole('region', { name: 'Your story' });
     const id = store.get().recentPicks.at(-1)!;
@@ -31,14 +28,27 @@ describe('SurprisePage', () => {
   it('persists filter choices in settings', async () => {
     renderApp('/surprise');
     await userEvent.click(await screen.findByRole('button', { name: "Grimms' Fairy Tales" }));
-    await userEvent.click(screen.getByRole('radio', { name: 'Any length' }));
+    fireEvent.change(screen.getByRole('slider', { name: 'Longest' }), { target: { value: '10' } });
+    fireEvent.change(screen.getByRole('slider', { name: 'Shortest' }), { target: { value: '6' } });
     await userEvent.click(screen.getByRole('checkbox', { name: 'Unread only' }));
     expect(createStore(localStorage).get().settings.picker).toEqual({
       collections: ['grimm'],
+      minMinutes: 15,
       maxMinutes: null,
       unreadOnly: true,
       favoritesOnly: false,
     });
+  });
+
+  it('can pick only long stories', async () => {
+    const { store } = renderApp('/surprise');
+    fireEvent.change(await screen.findByRole('slider', { name: 'Longest' }), {
+      target: { value: '10' },
+    });
+    fireEvent.change(screen.getByRole('slider', { name: 'Shortest' }), { target: { value: '6' } });
+    await userEvent.click(screen.getByRole('button', { name: 'Pick a story' }));
+    await screen.findByRole('region', { name: 'Your story' });
+    expect(store.get().recentPicks.at(-1)).toBe('grimm--the-long-one');
   });
 
   it('explains when nothing matches', async () => {

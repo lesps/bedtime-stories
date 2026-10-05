@@ -5,6 +5,7 @@ export const RECENT_WINDOW = 10;
 
 export type PickOptions = {
   collections?: string[];
+  minMinutes?: number;
   maxMinutes?: number;
   unreadOnly?: boolean;
   favoritesOnly?: boolean;
@@ -31,6 +32,7 @@ export function pick(
     (e) =>
       isVisible(e, ctx.visibility) &&
       (!cols || cols.has(e.collectionId)) &&
+      (opts.minMinutes == null || e.readingMinutes >= opts.minMinutes) &&
       (opts.maxMinutes == null || e.readingMinutes <= opts.maxMinutes) &&
       (!opts.unreadOnly || !ctx.readIds.has(e.id)) &&
       (!opts.favoritesOnly || ctx.favoriteIds.has(e.id)),

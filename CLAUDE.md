@@ -47,7 +47,7 @@ tools/image-sizes.mjs     reads JPEG/WebP dimensions into src/data/imageSizes.js
 src/data/                 types.ts, schema.ts (zod), client.ts (loadIndex/loadStory, DataError),
                           imageSizes.json (generated; width/height per image),
                           IndexProvider.tsx (loads index, prunes unknown ids from the store)
-src/domain/               pure logic: visibility, picker, navigation (prev/next), length buckets,
+src/domain/               pure logic: visibility, picker, navigation (prev/next), length ranges,
                           search normalisation, excerpt, typeset (curly quotes/dashes)
 src/storage/              store.ts (single versioned localStorage key), StoreProvider.tsx (hooks)
 src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker
@@ -55,7 +55,7 @@ src/pages/                Library, Collection, Favorites, Surprise, Settings, Ab
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
 src/app/                  App/routes/layout, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
-e2e/                      a11y (axe, all themes), happy path, offline, touch swipe
+e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider
 ```
 
 ## Data contract (summary)
@@ -92,6 +92,11 @@ progress, history, recentPicks }`. Each field falls back to its default independ
 - **Other versions**: the reader lists visible stories sharing the current story's `workId`, and
   the picker treats every translation of a recently picked tale as recent. Potter stories show
   their own year and a Source link in the byline.
+- **Length** (`domain/length.ts`, `components/LengthSlider.tsx`): a two-handled slider over the
+  stops 1, 2, 3, 5, 7, 10, 15, 20, 30, 45, 60+ min (dense at the short end, where most stories
+  are). `max: null` means no upper bound. Used by the library filter (default: any length) and
+  Surprise me (persisted as `picker.minMinutes`/`maxMinutes`, default up to 5 min). When both
+  handles meet in the upper half, Shortest is raised above Longest so they can be pulled apart.
 - **Swipe actions** (`components/useSwipeReveal.ts`, `StoryRow`): swipe a story row left to
   reveal "Mark unread" (read stories) or "Mark read". One row open at a time; a tap on an open row
   closes it; the click ending a swipe never navigates. The action button is always in the tab

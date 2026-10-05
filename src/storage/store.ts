@@ -21,11 +21,19 @@ const settingsSchema = z.object({
   picker: z
     .object({
       collections: z.array(z.string()).catch([]),
+      minMinutes: z.number().positive().catch(1),
+      /** null = no upper bound */
       maxMinutes: z.number().positive().nullable().catch(5),
       unreadOnly: z.boolean().catch(false),
       favoritesOnly: z.boolean().catch(false),
     })
-    .catch({ collections: [], maxMinutes: 5, unreadOnly: false, favoritesOnly: false }),
+    .catch({
+      collections: [],
+      minMinutes: 1,
+      maxMinutes: 5,
+      unreadOnly: false,
+      favoritesOnly: false,
+    }),
 });
 
 const progressSchema = z.object({

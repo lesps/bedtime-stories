@@ -586,3 +586,110 @@ figure img {
   font-size: 1.05rem;
   line-height: 1.55;
 }
+
+/* Two-handled length slider: two native ranges stacked; only their thumbs take input. */
+.length-slider {
+  border: 0;
+  margin: 0.75rem 0;
+  padding: 0;
+  min-width: 0;
+}
+.length-slider legend {
+  float: left;
+  padding: 0;
+  font-weight: 600;
+}
+.length-value {
+  float: right;
+  color: var(--accent);
+  font-weight: 600;
+}
+.range {
+  --thumb: 28px;
+  clear: both;
+  position: relative;
+  height: 44px;
+  margin: 0 calc(var(--thumb) / 2);
+}
+.range::before,
+.range::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 6px;
+  margin-top: -3px;
+  border-radius: 3px;
+}
+.range::before {
+  left: 0;
+  right: 0;
+  background: var(--border);
+}
+.range::after {
+  left: calc(var(--lo) * 100%);
+  right: calc((1 - var(--hi)) * 100%);
+  background: var(--accent);
+}
+.range input {
+  position: absolute;
+  inset: 0 calc(var(--thumb) / -2);
+  width: calc(100% + var(--thumb));
+  height: 100%;
+  margin: 0;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  appearance: none;
+  z-index: 1;
+}
+.range input::-webkit-slider-runnable-track {
+  background: none;
+}
+.range input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: auto;
+  width: var(--thumb);
+  height: var(--thumb);
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--accent);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.25);
+  cursor: grab;
+}
+.range input::-moz-range-thumb {
+  pointer-events: auto;
+  width: var(--thumb);
+  height: var(--thumb);
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--accent);
+  cursor: grab;
+}
+.range input::-moz-range-track {
+  background: none;
+}
+.range input:focus-visible {
+  outline: none;
+}
+.range input.on-top {
+  z-index: 2;
+}
+.range input:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+.range input:focus-visible::-moz-range-thumb {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+.range-ticks {
+  position: relative;
+  height: 1.2rem;
+  margin: 0 calc(28px / 2);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.range-ticks span {
+  position: absolute;
+  transform: translateX(-50%);
+}
