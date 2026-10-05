@@ -14,7 +14,8 @@
     "format": "prettier --write .",
     "typecheck": "tsc -b --noEmit",
     "icons": "node tools/make-icons.mjs",
-    "perf": "node tools/lighthouse.mjs"
+    "perf": "node tools/lighthouse.mjs",
+    "image-sizes": "node tools/image-sizes.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

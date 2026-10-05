@@ -2,6 +2,7 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
+import imageSizes from './imageSizes.json';
 import { indexSchema, storySchema } from './schema';
 
 const root = join(__dirname, '../../public/compendium');
@@ -24,6 +25,13 @@ describe('compendium integrity', () => {
     for (const c of index.collections) {
       expect(index.stories.filter((s) => s.collectionId === c.id)).toHaveLength(c.storyCount);
     }
+  });
+
+  it('has a size for exactly the images on disk (run `npm run image-sizes` if not)', () => {
+    const onDisk = readdirSync(join(root, 'images')).flatMap((d) =>
+      readdirSync(join(root, 'images', d)).map((f) => `images/${d}/${f}`),
+    );
+    expect(Object.keys(imageSizes).sort()).toEqual(onDisk.sort());
   });
 
   it.each(index.stories.map((s) => [s.id, s] as const))(

@@ -101,24 +101,26 @@ function ReaderPage({ storyId }: { storyId: string }) {
         )}
         {load.status === 'ready' && <StoryBody story={load.story} />}
 
-        <nav className="story-nav" aria-label="More stories">
-          {prev ? (
-            <Link to={`/s/${prev.id}`} rel="prev">
-              <span className="muted">← Previous</span>
-              <span>{prev.title}</span>
-            </Link>
-          ) : (
-            <span />
-          )}
-          {next ? (
-            <Link to={`/s/${next.id}`} rel="next" className="next">
-              <span className="muted">Next →</span>
-              <span>{next.title}</span>
-            </Link>
-          ) : (
-            <span />
-          )}
-        </nav>
+        {load.status !== 'loading' && (
+          <nav className="story-nav" aria-label="More stories">
+            {prev ? (
+              <Link to={`/s/${prev.id}`} rel="prev">
+                <span className="muted">← Previous</span>
+                <span>{prev.title}</span>
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next ? (
+              <Link to={`/s/${next.id}`} rel="next" className="next">
+                <span className="muted">Next →</span>
+                <span>{next.title}</span>
+              </Link>
+            ) : (
+              <span />
+            )}
+          </nav>
+        )}
       </article>
     </>
   );
@@ -195,7 +197,7 @@ function StoryBody({ story }: { story: Story }) {
       )}
       <div className="story-body" ref={setRoot}>
         {story.blocks.map((b, i) => (
-          <BlockRenderer key={i} block={b} index={i} />
+          <BlockRenderer key={i} block={b} index={i} priority={i === 0} />
         ))}
       </div>
     </>

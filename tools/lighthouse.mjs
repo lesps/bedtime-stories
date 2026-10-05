@@ -6,6 +6,8 @@ import * as chromeLauncher from 'chrome-launcher';
 import lighthouse from 'lighthouse';
 
 const TARGET = 90;
+const RUNS = 3;
+const median = (xs) => [...xs].sort((a, b) => a - b)[Math.floor(xs.length / 2)];
 const PORT = 4175;
 const BASE = `http://localhost:${PORT}/bedtime-stories/`;
 const PAGES = { library: `${BASE}#/`, 'aesop story': `${BASE}#/s/aesop--the-heron` };
@@ -40,17 +42,29 @@ try {
   });
   try {
     for (const [name, url] of Object.entries(PAGES)) {
-      const { lhr } = await lighthouse(url, {
-        port: chrome.port,
-        onlyCategories: ['performance', 'accessibility'],
-        logLevel: 'error',
-      });
+      const runs = [];
+      for (let i = 0; i < RUNS; i++) {
+        const { lhr } = await lighthouse(url, {
+          port: chrome.port,
+          onlyCategories: ['performance', 'accessibility'],
+          logLevel: 'error',
+        });
+        runs.push(lhr.categories);
+      }
       const scores = Object.fromEntries(
-        Object.entries(lhr.categories).map(([k, c]) => [k, Math.round((c.score ?? 0) * 100)]),
+        Object.keys(runs[0]).map((k) => [
+          k,
+          median(runs.map((r) => Math.round((r[k].score ?? 0) * 100))),
+        ]),
+      );
+      const all = Object.fromEntries(
+        Object.keys(runs[0]).map((k) => [k, runs.map((r) => Math.round((r[k].score ?? 0) * 100))]),
       );
       const ok = Object.values(scores).every((s) => s >= TARGET);
       failed ||= !ok;
-      console.log(`${ok ? '✓' : '✗'} ${name}: ${JSON.stringify(scores)}`);
+      console.log(
+        `${ok ? '✓' : '✗'} ${name}: median ${JSON.stringify(scores)} runs ${JSON.stringify(all)}`,
+      );
     }
   } finally {
     await chrome.kill();
