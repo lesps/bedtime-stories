@@ -7,6 +7,21 @@ export const RECENT_PICKS_CAP = 10;
 export const THEMES = ['system', 'light', 'sepia', 'dark'] as const;
 export const FONT_SIZES = [15, 17, 19, 22, 25] as const;
 
+const tagFilter = z
+  .object({ include: z.array(z.string()).catch([]), exclude: z.array(z.string()).catch([]) })
+  .catch({ include: [], exclude: [] });
+
+const DEFAULT_PICKER = {
+  collections: [],
+  minMinutes: 1,
+  maxMinutes: 5,
+  unreadOnly: false,
+  favoritesOnly: false,
+  cultures: { include: [], exclude: [] },
+  themes: { include: [], exclude: [] },
+  count: 1 as const,
+};
+
 const settingsSchema = z.object({
   showMature: z.boolean().catch(false),
   showExcluded: z.boolean().catch(false),
@@ -26,14 +41,12 @@ const settingsSchema = z.object({
       maxMinutes: z.number().positive().nullable().catch(5),
       unreadOnly: z.boolean().catch(false),
       favoritesOnly: z.boolean().catch(false),
+      cultures: tagFilter,
+      themes: tagFilter,
+      /** How many stories to offer at once. */
+      count: z.union([z.literal(1), z.literal(3)]).catch(1),
     })
-    .catch({
-      collections: [],
-      minMinutes: 1,
-      maxMinutes: 5,
-      unreadOnly: false,
-      favoritesOnly: false,
-    }),
+    .catch(() => DEFAULT_PICKER),
 });
 
 const progressSchema = z.object({
@@ -51,6 +64,7 @@ const stateSchema = z.object({
 });
 
 export type Settings = z.infer<typeof settingsSchema>;
+export type PickerSettings = Settings['picker'];
 export type State = z.infer<typeof stateSchema>;
 export type Theme = Settings['theme'];
 

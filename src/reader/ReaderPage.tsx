@@ -25,7 +25,7 @@ type Load =
   { status: 'loading' } | { status: 'error'; error: unknown } | { status: 'ready'; story: Story };
 
 function ReaderPage({ storyId }: { storyId: string }) {
-  const { byId, stories, collectionsById, tagsOf, tagDef } = useIndex();
+  const { byId, stories, collectionsById, collectionLabel, tagsOf, tagDef } = useIndex();
   const settings = useSettings();
   const entry = byId.get(storyId);
   const visible = entry ? isVisible(entry, settings) : false;
@@ -137,7 +137,7 @@ function ReaderPage({ storyId }: { storyId: string }) {
                   <Link to={`/s/${v.id}`}>{v.title}</Link>{' '}
                   <span className="muted">
                     {[
-                      collectionsById.get(v.collectionId)?.title,
+                      collectionLabel(v.collectionId),
                       collectionsById.get(v.collectionId)?.contributor,
                       `${v.readingMinutes} min`,
                     ]

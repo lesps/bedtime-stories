@@ -49,7 +49,8 @@ tools/image-sizes.mjs     reads JPEG/WebP dimensions into src/data/imageSizes.js
 src/data/                 types.ts, schema.ts (zod), client.ts (loadIndex/loadTags/loadStory, DataError),
                           imageSizes.json (generated; width/height per image),
                           IndexProvider.tsx (loads index + tags, prunes unknown ids from the store)
-src/domain/               pure logic: visibility, picker, navigation (prev/next), length ranges,
+src/domain/               pure logic: visibility, picker (+ presets), navigation (prev/next), length ranges,
+                          collection labels,
                           search normalisation, excerpt, typeset (curly quotes/dashes)
 src/storage/              store.ts (single versioned localStorage key), StoreProvider.tsx (hooks)
 src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker
@@ -57,7 +58,8 @@ src/pages/                Library, Collection, Tag, Favorites, Surprise, Setting
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
 src/app/                  App/routes/layout, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
-e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider
+e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
+                          surprise (Give me 3)
 ```
 
 ## Data contract (summary)
@@ -110,6 +112,17 @@ progress, history, recentPicks }`. Each field falls back to its default independ
   pass: fix a wrong tag by adding to `OVERRIDES`, never by editing `tags.json`. The library has a
   "Browse by Collections / Cultures / Themes" switch (`?by=`), tag pages at `#/tags/:kind/:id`,
   tag chips in the reader, and search matches tag labels. Counts respect visibility.
+- **Surprise me** (`domain/picker.ts`, `domain/presets.ts`, `pages/SurprisePage.tsx`):
+  `pickMany` returns up to 1 or 3 distinct stories (never two translations of one tale), avoiding
+  the last 10 picks and their translations unless that leaves too few. Filters: collections,
+  length, unread/favorites, and culture/theme tri-state chips (tap: include → exclude → any;
+  include = any of, exclude = none of, exclude wins). Presets (Quick & gentle, Something new =
+  unread from cultures not yet read, Old favorite) replace all filters but keep the count. All of
+  it persists in `settings.picker`. Cards flip in, except under reduced motion. "Recently picked"
+  lists the last 10. If fewer stories match than asked for, the page says so.
+- **Collection labels** (`domain/collectionLabel.ts`): where two collections share a title (the
+  two "Japanese Fairy Tales"), the credited person's surname is appended wherever a collection is
+  named next to a story or as a filter.
 - **Swipe actions** (`components/useSwipeReveal.ts`, `StoryRow`): swipe a story row left to
   reveal "Mark unread" (read stories) or "Mark read". One row open at a time; a tap on an open row
   closes it; the click ending a swipe never navigates. The action button is always in the tab

@@ -14,9 +14,10 @@ Goble's plates) and Busch's Max and Maurice.
   spacing, scroll progress, previous/next.
 - Favorites, "continue from where you left off", read history — stored only on your device.
   Swipe a story left to mark it unread (or read).
-- **Surprise me**: random pick filtered by collection, a length range (up to 5 min by default;
-  slide it to get only medium or only long stories), unread or favorites, avoiding the last 10
-  picks.
+- **Surprise me**: one story or "Give me 3", filtered by length range, collection, culture and
+  theme (include or leave out — "no monsters tonight"), unread or favorites, with one-tap presets
+  (Quick & gentle, Something new, Old favorite). Avoids your last 10 picks and other translations
+  of them.
 - Installable PWA that works offline; one tap in Settings saves every story (~36 MB with
   illustrations, ~5 MB text only).
 - Tales told in more than one translation link to each other ("Other versions").
