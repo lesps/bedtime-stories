@@ -1,9 +1,16 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router';
 import { usePrefersReducedMotion } from '../app/theme';
 import { useOnline } from '../app/useOnline';
 import { FavoriteButton } from '../components/FavoriteButton';
-import { CloseIcon } from '../components/icons';
+import { CloseIcon, NoteIcon } from '../components/icons';
+import { byReadingOrder } from '../domain/notebook';
+import { resolveAnchor } from '../domain/annotations';
+import { HighlightSheet } from '../notes/HighlightSheet';
+import { HighlightToolbar } from '../notes/HighlightToolbar';
+import type { Mark } from '../notes/MarkedText';
+import { NotesPanel } from '../notes/NotesPanel';
+import { readSelection, type SelectionInfo } from '../notes/selection';
 import { DataError, loadStory } from '../data/client';
 import { useIndex } from '../data/IndexProvider';
 import type { Story } from '../data/types';
@@ -11,7 +18,8 @@ import { neighbors } from '../domain/navigation';
 import { isVisible } from '../domain/visibility';
 import { NotFoundPage } from '../pages/NotFoundPage';
 import { FONT_SIZES } from '../storage/store';
-import { useSettings, useStore } from '../storage/StoreProvider';
+import { useAppState, useSettings, useStore } from '../storage/StoreProvider';
+import type { Highlight, HighlightColor } from '../storage/store';
 import { BlockRenderer } from './BlockRenderer';
 import { ProgressBar } from './ProgressBar';
 import { ReaderControls } from './ReaderControls';
@@ -35,6 +43,7 @@ function ReaderPage({ storyId }: { storyId: string }) {
 
   const store = useStore();
   const navigate = useNavigate();
+  const [, setHeaderParams] = useSearchParams();
   useEffect(() => {
     if (entry && visible) store.openStory(entry.id);
   }, [store, entry, visible]);
@@ -88,6 +97,22 @@ function ReaderPage({ storyId }: { storyId: string }) {
             </Link>
             <div className="row">
               <ReaderControls />
+              <button
+                type="button"
+                className="icon-btn"
+                aria-label="Notes"
+                onClick={() =>
+                  setHeaderParams(
+                    (p) => {
+                      p.set('notes', '1');
+                      return p;
+                    },
+                    { replace: true },
+                  )
+                }
+              >
+                <NoteIcon />
+              </button>
               <FavoriteButton id={entry.id} title={entry.title} />
               <button
                 type="button"
@@ -223,8 +248,13 @@ function StoryBody({ story }: { story: Story }) {
   const [saved] = useState(() => store.get().progress[story.id]?.blockIndex ?? null);
   const canResume = saved != null && saved > 0 && saved < story.blocks.length;
   // Arriving from the Reading tab (?resume=1) means "carry on", so skip the question.
-  const [params] = useSearchParams();
+  const [params, setParams] = useSearchParams();
   const [autoResume] = useState(() => params.get('resume') === '1');
+  const notesOpen = params.get('notes') === '1';
+  const { annotations, storyNotes } = useAppState();
+  const highlights = useMemo(() => annotations[story.id] ?? [], [annotations, story.id]);
+  const [selection, setSelection] = useState<SelectionInfo | null>(null);
+  const [sheet, setSheet] = useState<{ id: string; focusNote: boolean } | null>(null);
   const [offer, setOffer] = useState(canResume && !autoResume);
   const [root, setRoot] = useState<HTMLElement | null>(null);
   const finished = useRef(false);
@@ -252,6 +282,67 @@ function StoryBody({ story }: { story: Story }) {
     root.querySelector(`[data-block="${saved}"]`)?.scrollIntoView({ block: 'start' });
   }, [root, autoResume, canResume, saved]);
 
+  // Highlights are anchored to the displayed (typeset) text; re-anchor by quote if it moved.
+  const { marksByBlock, placed, detached } = useMemo(() => {
+    const marksByBlock = new Map<number, Mark[]>();
+    const placed: Highlight[] = [];
+    const detached: Highlight[] = [];
+    for (const h of highlights) {
+      const b = story.blocks[h.block];
+      const at = b && b.type !== 'image' ? resolveAnchor(b.text, h) : null;
+      if (!at) {
+        detached.push(h);
+        continue;
+      }
+      placed.push(h);
+      const list = marksByBlock.get(h.block) ?? [];
+      list.push({ id: h.id, ...at, color: h.color, hasNote: !!h.note });
+      marksByBlock.set(h.block, list);
+    }
+    return { marksByBlock, placed: placed.sort(byReadingOrder), detached };
+  }, [highlights, story.blocks]);
+
+  useEffect(() => {
+    if (!root) return;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const onChange = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => setSelection(readSelection(root)), 120);
+    };
+    document.addEventListener('selectionchange', onChange);
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener('selectionchange', onChange);
+    };
+  }, [root]);
+
+  const highlight = (color: HighlightColor, focusNote = false) => {
+    if (!selection) return;
+    const { block, start, end, quote } = selection;
+    const id = store.addHighlight(story.id, { block, start, end, quote, color });
+    window.getSelection()?.removeAllRanges();
+    setSelection(null);
+    if (focusNote) setSheet({ id, focusNote: true });
+  };
+
+  const closeNotes = () =>
+    setParams(
+      (p) => {
+        p.delete('notes');
+        return p;
+      },
+      { replace: true },
+    );
+
+  const jumpTo = (h: Highlight) => {
+    closeNotes();
+    root
+      ?.querySelector(`[data-block="${h.block}"]`)
+      ?.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'center' });
+  };
+
+  const open = sheet && highlights.find((h) => h.id === sheet.id);
+
   const resume = () => {
     setOffer(false);
     root
@@ -273,9 +364,47 @@ function StoryBody({ story }: { story: Story }) {
       )}
       <div className="story-body" ref={setRoot}>
         {story.blocks.map((b, i) => (
-          <BlockRenderer key={i} block={b} index={i} priority={i === 0} />
+          <BlockRenderer
+            key={i}
+            block={b}
+            index={i}
+            priority={i === 0}
+            marks={marksByBlock.get(i)}
+            onMark={(id) => setSheet({ id, focusNote: false })}
+          />
         ))}
       </div>
+      {selection && !sheet && (
+        <HighlightToolbar
+          selection={selection}
+          onColor={(c) => highlight(c)}
+          onNote={() => highlight('yellow', true)}
+        />
+      )}
+      {open && (
+        <HighlightSheet
+          key={open.id}
+          highlight={open}
+          focusNote={sheet.focusNote}
+          onColor={(color) => store.updateHighlight(story.id, open.id, { color })}
+          onSaveNote={(note) => store.updateHighlight(story.id, open.id, { note })}
+          onDelete={() => {
+            store.removeHighlight(story.id, open.id);
+            setSheet(null);
+          }}
+          onClose={() => setSheet(null)}
+        />
+      )}
+      {notesOpen && (
+        <NotesPanel
+          storyNote={storyNotes[story.id]?.text ?? ''}
+          highlights={placed}
+          detached={detached}
+          onSaveStoryNote={(text) => store.setStoryNote(story.id, text)}
+          onJump={jumpTo}
+          onClose={closeNotes}
+        />
+      )}
     </>
   );
 }

@@ -9,6 +9,10 @@
   --on-accent: #fffaf0;
   --border: #d6c6a8;
   --moral-bg: #e9dcbf;
+  --hl-yellow: #f7dc7a;
+  --hl-green: #cfe6b0;
+  --hl-blue: #c6dcf2;
+  --hl-pink: #f3cbd6;
   color-scheme: light;
 }
 :root[data-theme='light'] {
@@ -20,6 +24,10 @@
   --on-accent: #ffffff;
   --border: #d9d9e0;
   --moral-bg: #f5ede4;
+  --hl-yellow: #fde68a;
+  --hl-green: #c9efc4;
+  --hl-blue: #cfe3ff;
+  --hl-pink: #fcd3e1;
   color-scheme: light;
 }
 :root[data-theme='dark'] {
@@ -31,6 +39,10 @@
   --on-accent: #1a1206;
   --border: #383a44;
   --moral-bg: #2a2620;
+  --hl-yellow: #5c4c1a;
+  --hl-green: #2f4a2a;
+  --hl-blue: #24405e;
+  --hl-pink: #5a2a3c;
   color-scheme: dark;
 }
 
@@ -439,11 +451,21 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.25rem;
   font-family: system-ui, sans-serif;
   font-size: 0.95rem;
 }
 .crumb {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   text-decoration: none;
+}
+.story-header-top .row {
+  flex-wrap: nowrap;
+  gap: 0;
 }
 .byline {
   font-size: 0.8em;
@@ -858,4 +880,165 @@ figure img {
 .shelf-list .meter {
   margin: 0.35rem 0 0;
   height: 4px;
+}
+
+/* Highlights and notes */
+mark.hl {
+  color: inherit;
+  border-radius: 3px;
+  padding: 0.05em 0;
+  cursor: pointer;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+[data-color='yellow'] {
+  --hl: var(--hl-yellow);
+}
+[data-color='green'] {
+  --hl: var(--hl-green);
+}
+[data-color='blue'] {
+  --hl: var(--hl-blue);
+}
+[data-color='pink'] {
+  --hl: var(--hl-pink);
+}
+mark.hl,
+.hl-quote,
+.sheet-quote {
+  background: var(--hl);
+}
+mark.hl[data-note] {
+  text-decoration: underline dotted var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+mark.hl:focus-visible {
+  outline: 2px solid var(--accent);
+}
+.hl-toolbar {
+  position: fixed;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 300px;
+  height: 52px;
+  padding: 0.4rem 0.5rem;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.25);
+  font-family: system-ui, sans-serif;
+}
+.swatch {
+  width: 36px;
+  height: 36px;
+  flex: none;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background: var(--hl);
+  cursor: pointer;
+}
+.swatch[aria-checked='true'] {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.hl-toolbar .note-btn {
+  margin-left: auto;
+  white-space: nowrap;
+  min-height: 36px;
+  padding: 0.3rem 0.8rem;
+}
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-end;
+  background: rgb(0 0 0 / 0.35);
+}
+.sheet {
+  width: 100%;
+  max-width: 44rem;
+  max-height: 85vh;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom));
+  border-radius: 18px 18px 0 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+.sheet-head {
+  justify-content: space-between;
+}
+.sheet-head h2 {
+  margin: 0.25rem 0;
+}
+.sheet-quote {
+  margin: 0 0 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-family: var(--serif);
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: 0.75rem 0;
+  font-weight: 600;
+}
+.field textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  resize: vertical;
+}
+.sheet-actions {
+  justify-content: space-between;
+}
+.hl-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+.hl-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 0.6rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: none;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.hl-item .hl-quote {
+  font-family: var(--serif);
+  padding: 0.05em 0.2em;
+  border-radius: 3px;
+}
+.hl-item.detached .hl-quote {
+  background: none;
+  font-style: italic;
+}
+.hl-note {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+.section-head {
+  justify-content: space-between;
+}
+.section-head h2 {
+  margin-bottom: 0.5rem;
 }

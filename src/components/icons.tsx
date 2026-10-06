@@ -48,3 +48,8 @@ export const OpenBookIcon = ({ size = 22 }: P) => (
     <path d="M2 5.5C4.5 4 8.5 4 12 6c3.5-2 7.5-2 10-.5V19c-2.5-1.5-6.5-1.5-10 .5-3.5-2-7.5-2-10-.5zM12 6v13.5" />
   </svg>
 );
+export const NoteIcon = ({ size = 22 }: P) => (
+  <svg {...base(size)}>
+    <path d="M4 20h4L19 9l-4-4L4 16zM14 6l4 4" />
+  </svg>
+);

@@ -56,6 +56,30 @@ const progressSchema = z.object({
   updatedAt: z.number(),
 });
 
+export const HIGHLIGHT_COLORS = ['yellow', 'green', 'blue', 'pink'] as const;
+
+const highlightSchema = z.object({
+  id: z.string().min(1),
+  block: z.number().int().nonnegative(),
+  start: z.number().int().nonnegative(),
+  end: z.number().int().positive(),
+  /** The highlighted text, used to re-anchor if a story's wording ever changes. */
+  quote: z.string().min(1),
+  color: z.enum(HIGHLIGHT_COLORS).catch('yellow'),
+  note: z.string().optional(),
+  createdAt: z.number(),
+  updatedAt: z.number(),
+});
+
+/** Keeps the valid items of an array and drops the rest. */
+const validItems = <S extends z.ZodTypeAny>(schema: S) =>
+  z.array(z.unknown()).transform((xs): z.output<S>[] =>
+    xs.flatMap((x) => {
+      const r = schema.safeParse(x);
+      return r.success ? [r.data as z.output<S>] : [];
+    }),
+  );
+
 const stateSchema = z.object({
   version: z.literal(1),
   settings: z.unknown().transform((v) => settingsSchema.parse(typeof v === 'object' && v ? v : {})),
@@ -65,12 +89,18 @@ const stateSchema = z.object({
   recentPicks: z.array(z.string()).catch([]),
   /** The story the Reading tab returns to; cleared when finished or closed. */
   openStoryId: z.string().nullable().catch(null),
+  /** Highlights (optionally with a passage note) per story. */
+  annotations: z.record(validItems(highlightSchema)).catch({}),
+  /** One free-form note per story. */
+  storyNotes: z.record(z.object({ text: z.string(), updatedAt: z.number() })).catch({}),
 });
 
 export type Settings = z.infer<typeof settingsSchema>;
 export type PickerSettings = Settings['picker'];
 export type State = z.infer<typeof stateSchema>;
 export type Theme = Settings['theme'];
+export type Highlight = z.infer<typeof highlightSchema>;
+export type HighlightColor = (typeof HIGHLIGHT_COLORS)[number];
 
 export const DEFAULT_STATE: State = stateSchema.parse({ version: 1, settings: {} });
 
@@ -89,9 +119,9 @@ function parse(json: string | null): State {
     // Each field falls back to its default independently, so one bad field doesn't wipe the rest.
     const state = stateSchema.parse(raw);
     const rawRec = raw as Record<string, unknown>;
-    const repaired = (['favorites', 'progress', 'history', 'recentPicks'] as const).some(
-      (k) => k in rawRec && JSON.stringify(rawRec[k]) !== JSON.stringify(state[k]),
-    );
+    const repaired = (
+      ['favorites', 'progress', 'history', 'recentPicks', 'annotations'] as const
+    ).some((k) => k in rawRec && JSON.stringify(rawRec[k]) !== JSON.stringify(state[k]));
     if (repaired) console.warn('[storybook] Some stored data was invalid and has been reset.');
     return state;
   } catch (e) {
@@ -99,6 +129,11 @@ function parse(json: string | null): State {
     return DEFAULT_STATE;
   }
 }
+
+const newId = () =>
+  typeof crypto !== 'undefined' && 'randomUUID' in crypto
+    ? crypto.randomUUID()
+    : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`;
 
 export type Store = ReturnType<typeof createStore>;
 
@@ -183,8 +218,48 @@ export function createStore(storage: Storage, now: () => number = Date.now) {
       const recentPicks = [...state.recentPicks.filter((p) => p !== id), id];
       set({ ...state, recentPicks: recentPicks.slice(-RECENT_PICKS_CAP) });
     },
-    clearReadingData() {
-      set({ ...DEFAULT_STATE, settings: state.settings });
+    /** Clears favorites, progress and history; highlights and notes only if asked. */
+    clearReadingData({ includeNotes = false }: { includeNotes?: boolean } = {}) {
+      set({
+        ...DEFAULT_STATE,
+        settings: state.settings,
+        ...(includeNotes ? {} : { annotations: state.annotations, storyNotes: state.storyNotes }),
+      });
+    },
+    addHighlight(
+      storyId: string,
+      h: Pick<Highlight, 'block' | 'start' | 'end' | 'quote' | 'color'> & { note?: string },
+    ): string {
+      const id = newId();
+      const t = now();
+      const list = [
+        ...(state.annotations[storyId] ?? []),
+        { id, ...h, createdAt: t, updatedAt: t },
+      ];
+      set({ ...state, annotations: { ...state.annotations, [storyId]: list } });
+      return id;
+    },
+    updateHighlight(storyId: string, id: string, patch: { color?: HighlightColor; note?: string }) {
+      const list = (state.annotations[storyId] ?? []).map((h) => {
+        if (h.id !== id) return h;
+        const next: Highlight = { ...h, ...patch, updatedAt: now() };
+        if (patch.note !== undefined && !patch.note.trim()) delete next.note;
+        return next;
+      });
+      set({ ...state, annotations: { ...state.annotations, [storyId]: list } });
+    },
+    removeHighlight(storyId: string, id: string) {
+      const list = (state.annotations[storyId] ?? []).filter((h) => h.id !== id);
+      const annotations = list.length
+        ? { ...state.annotations, [storyId]: list }
+        : omit(state.annotations, storyId);
+      set({ ...state, annotations });
+    },
+    setStoryNote(storyId: string, text: string) {
+      const storyNotes = text.trim()
+        ? { ...state.storyNotes, [storyId]: { text, updatedAt: now() } }
+        : omit(state.storyNotes, storyId);
+      set({ ...state, storyNotes });
     },
     /** Drops user data for stories that no longer exist in the index. */
     prune(known: ReadonlySet<string>) {
@@ -198,6 +273,8 @@ export function createStore(storage: Storage, now: () => number = Date.now) {
         history: state.history.filter((h) => keep(h.id)),
         recentPicks: state.recentPicks.filter(keep),
         openStoryId: state.openStoryId && keep(state.openStoryId) ? state.openStoryId : null,
+        annotations: filterRec(state.annotations),
+        storyNotes: filterRec(state.storyNotes),
       };
       if (JSON.stringify(next) !== JSON.stringify(state)) set(next);
     },

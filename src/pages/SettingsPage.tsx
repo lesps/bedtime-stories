@@ -115,21 +115,32 @@ function OfflineSection() {
 function ClearDataSection() {
   const store = useStore();
   const [confirming, setConfirming] = useState(false);
+  const [withNotes, setWithNotes] = useState(false);
   const [done, setDone] = useState(false);
   return (
     <section aria-labelledby="data-h" className="card">
       <h2 id="data-h">Reading data</h2>
       <p className="muted">
-        Favorites, reading positions, and history are stored only on this device.
+        Favorites, reading positions, history, highlights and notes are stored only on this device.
+        Export your notes from the Reading tab to keep a copy.
       </p>
       {confirming ? (
         <div className="row" role="group" aria-label="Confirm clearing reading data">
           <span>Clear favorites, positions, and history?</span>
+          <label className="toggle">
+            <input
+              type="checkbox"
+              checked={withNotes}
+              onChange={(e) => setWithNotes(e.target.checked)}
+            />
+            Also delete highlights and notes
+          </label>
           <button
             type="button"
             className="btn danger"
             onClick={() => {
-              store.clearReadingData();
+              store.clearReadingData({ includeNotes: withNotes });
+              setWithNotes(false);
               setConfirming(false);
               setDone(true);
             }}

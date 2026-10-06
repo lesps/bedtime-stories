@@ -51,16 +51,19 @@ src/data/                 types.ts, schema.ts (zod), client.ts (loadIndex/loadTa
                           IndexProvider.tsx (loads index + tags, prunes unknown ids from the store)
 src/domain/               pure logic: visibility, picker (+ presets), navigation (prev/next), length ranges,
                           collection labels,
-                          search normalisation, excerpt, typeset (curly quotes/dashes)
+                          search normalisation, excerpt, typeset (curly quotes/dashes), progress,
+                          annotations (anchor + segments), notebook (list + Markdown export)
 src/storage/              store.ts (single versioned localStorage key), StoreProvider.tsx (hooks)
 src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker
+src/notes/                selection (DOM → block offsets), MarkedText, HighlightToolbar, HighlightSheet,
+                          NotesPanel
 src/pages/                Library, Collection, Tag, Reading (shelf), Favorites, Surprise, Settings,
                           About, NotFound
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
 src/app/                  App/routes/layout, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
 e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
-                          surprise (Give me 3), reading tab
+                          surprise (Give me 3), reading tab, notes
 ```
 
 ## Data contract (summary)
@@ -88,7 +91,7 @@ with `python3 tools/tag_stories.py` after any data change.
   hidden unless `showMature`. Applied in library, search, collections, favorites, continue-reading,
   prev/next and the picker. A hidden story opened by URL shows a "hidden" message, not the text.
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
-progress, history, recentPicks, openStoryId }`. Progress entries also carry `blockCount` (when
+progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progress entries also carry `blockCount` (when
   known) so the shelf can show a percentage. Each field falls back to its default independently; corrupt
   JSON resets with a `console.warn`. `migrate()` is the version seam (v1 = identity). Ids not in
   the index are pruned when the index loads. History caps at 200, recent picks at 10. Cross-tab
@@ -103,6 +106,17 @@ progress, history, recentPicks, openStoryId }`. Progress entries also carry `blo
   `#/s/:id?resume=1`, which scrolls straight to the saved block with no "Continue?" prompt, and the
   tab shows as current while you read that story. With nothing open it shows the shelf: the most
   recent in-progress story (percent and minutes left), the others, and the last 5 finished.
+- **Highlights and notes** (`src/notes/`, `domain/annotations.ts`): selecting text in one block
+  shows a toolbar (four colours + Add note) placed below the selection, clear of the phone's own
+  copy menu and selection handles; it flips above when there's no room over the tab bar. A
+  selection running into later blocks is clamped to the block it starts in. A highlight is stored
+  as `{ block, start, end, quote, color, note? }` against the displayed (typeset) text; on render
+  it's re-anchored by `quote` if offsets drifted, and set aside as "couldn't find" if the quote is
+  gone. `MarkedText` adds no characters (the note marker is CSS), so DOM offsets stay valid.
+  Tapping a highlight opens a sheet (colour, note, delete). The header's Notes button (or
+  `?notes=1`) opens a panel with the story note and all highlights (tap to jump). The Reading
+  shelf lists annotated stories as a Notebook with **Export notes** (Markdown). "Clear reading
+  data" keeps highlights and notes unless "Also delete highlights and notes" is ticked.
 - **Typography** (`domain/typeset.ts`): several sources are ASCII (`"`, `'`, `--`). The data
   client typesets titles, block text, morals, origins and alt text into curly quotes and em
   dashes on load; the files on disk are never rewritten.

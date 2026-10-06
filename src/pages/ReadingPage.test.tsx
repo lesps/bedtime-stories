@@ -1,4 +1,5 @@
 import { screen, within } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createStore } from '../storage/store';
 import { installFakeIO } from '../test/fakeIntersectionObserver';
@@ -68,5 +69,40 @@ describe('ReadingPage', () => {
       'Settings',
     ]);
     expect(tabs[2]).toHaveAttribute('aria-current', 'page');
+  });
+
+  it('lists annotated stories in a Notebook, linking to their notes, and exports Markdown', async () => {
+    const store = createStore(localStorage);
+    store.addHighlight('aesop--the-heron', {
+      block: 1,
+      start: 0,
+      end: 6,
+      quote: 'Middle',
+      color: 'yellow',
+      note: 'Read slowly',
+    });
+    store.setStoryNote('grimm--rapunzel', 'Long but loved');
+    renderApp('/reading', store);
+    const book = await screen.findByRole('list', { name: 'Notebook' });
+    const items = within(book).getAllByRole('link');
+    expect(items.map((a) => a.getAttribute('href')).sort()).toEqual([
+      '/s/aesop--the-heron?notes=1',
+      '/s/grimm--rapunzel?notes=1',
+    ]);
+    expect(book).toHaveTextContent('1 highlight · 1 note');
+
+    let blob: Blob | undefined;
+    vi.stubGlobal('URL', {
+      ...URL,
+      createObjectURL: (b: Blob) => ((blob = b), 'blob:x'),
+      revokeObjectURL() {},
+    });
+    const click = vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(() => {});
+    await userEvent.click(screen.getByRole('button', { name: 'Export notes' }));
+    expect(click).toHaveBeenCalled();
+    const md = await blob!.text();
+    expect(md).toContain('## The Heron');
+    expect(md).toContain('> Middle');
+    expect(md).toContain('Long but loved');
   });
 });
