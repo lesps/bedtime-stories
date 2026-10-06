@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
-import { HashRouter, Link, NavLink, Outlet, Route, Routes, useLocation } from 'react-router';
+import { HashRouter, Outlet, Route, Routes, useLocation } from 'react-router';
 import { OfflineBanner } from '../components/OfflineBanner';
-import { BookIcon, GearIcon, HeartIcon, OpenBookIcon, SparkleIcon } from '../components/icons';
 import { IndexProvider } from '../data/IndexProvider';
 import { AboutPage } from '../pages/AboutPage';
 import { CollectionPage } from '../pages/CollectionPage';
@@ -13,17 +12,14 @@ import { SettingsPage } from '../pages/SettingsPage';
 import { SurprisePage } from '../pages/SurprisePage';
 import { TagPage } from '../pages/TagPage';
 import { ReaderRoute } from '../reader/ReaderPage';
-import { StoreProvider, useAppState, useSettings } from '../storage/StoreProvider';
+import { StoreProvider, useSettings } from '../storage/StoreProvider';
 import type { Store } from '../storage/store';
+import { TabBar } from './TabBar';
 import { useApplyTheme } from './theme';
 
 function Layout() {
   useApplyTheme(useSettings().theme);
   const { pathname } = useLocation();
-  const { openStoryId } = useAppState();
-  // While reading the open story, the Reading tab is the current one.
-  const readingActive =
-    pathname === '/reading' || (!!openStoryId && pathname === `/s/${openStoryId}`);
   useEffect(() => window.scrollTo(0, 0), [pathname]);
   return (
     <>
@@ -40,41 +36,23 @@ function Layout() {
           <Outlet />
         </IndexProvider>
       </main>
-      <nav className="tabbar" aria-label="Main">
-        <NavLink to="/" end>
-          <BookIcon />
-          <span>Library</span>
-        </NavLink>
-        <NavLink to="/surprise">
-          <SparkleIcon />
-          <span>Surprise</span>
-        </NavLink>
-        <Link
-          to="/reading"
-          className={readingActive ? 'active' : undefined}
-          aria-current={readingActive ? 'page' : undefined}
-        >
-          <OpenBookIcon />
-          <span>Reading</span>
-        </Link>
-        <NavLink to="/favorites">
-          <HeartIcon filled={false} />
-          <span>Favorites</span>
-        </NavLink>
-        <NavLink to="/settings">
-          <GearIcon />
-          <span>Settings</span>
-        </NavLink>
-      </nav>
+      <TabBar />
     </>
   );
+}
+
+/** Remounts the library when the Library tab asks for a reset (fresh `state.reset`). */
+function LibraryRoute() {
+  const { state } = useLocation();
+  const reset = (state as { reset?: number } | null)?.reset;
+  return <LibraryPage key={reset ?? 0} />;
 }
 
 export function AppRoutes() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route index element={<LibraryPage />} />
+        <Route index element={<LibraryRoute />} />
         <Route path="c/:collectionId" element={<CollectionPage />} />
         <Route path="tags/:kind/:tagId" element={<TagPage />} />
         <Route path="s/:storyId" element={<ReaderRoute />} />

@@ -1,4 +1,4 @@
-import { fireEvent, screen, within } from '@testing-library/react';
+import { act, fireEvent, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it } from 'vitest';
 import { renderApp } from '../test/renderApp';
@@ -71,6 +71,22 @@ describe('LibraryPage', () => {
       .getAllByRole('link')
       .map((a) => a.querySelector('.story-title')?.textContent);
     expect(titles).toEqual(['The Heron', 'Rapunzel']);
+  });
+
+  it('leaves finished stories out of Continue reading, and shows read and progress separately', async () => {
+    const { store } = renderApp('/c/aesop');
+    await screen.findByText('The Heron');
+    act(() => {
+      store.finishStory('aesop--the-heron', 4);
+      store.markRead('aesop--the-lion');
+      store.setProgress('aesop--the-lion', 2, 4); // rereading
+    });
+    const heron = screen.getByText('The Heron').closest('li')!;
+    const lion = screen.getByText('The Lion').closest('li')!;
+    expect(heron).toHaveTextContent(/·\s*read/);
+    expect(heron).not.toHaveTextContent('% through');
+    expect(lion).toHaveTextContent(/read/);
+    expect(lion).toHaveTextContent('50% through');
   });
 
   it('browses by culture, with visible-story counts, into a tag page', async () => {

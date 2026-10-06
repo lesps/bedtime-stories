@@ -15,8 +15,12 @@ Goble's plates) and Busch's Max and Maurice.
 - Highlight passages in four colours, add notes to a passage or a whole story, and export your
   notebook as Markdown.
 - A **Reading** tab that takes you straight back into the story you have open, or shows your
-  shelf of stories in progress (with percent read) and recently finished ones.
-- Favorites, "continue from where you left off", read history — stored only on your device.
+  shelf of stories in progress (with percent read) and recently finished ones. Stories always
+  open where you left off; finished ones start again from the top, and rereads keep their own
+  place.
+- Tabs behave like a phone app's: tap the current tab to go back to its main screen, scroll to
+  the top, or (in a story) close the book.
+- Favorites, reading positions and read history — stored only on your device.
   Swipe a story left to mark it unread (or read).
 - **Surprise me**: one story or "Give me 3", filtered by length range, collection, culture and
   theme (include or leave out — "no monsters tonight"), unread or favorites, with one-tap presets

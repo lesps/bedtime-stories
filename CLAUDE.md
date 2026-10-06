@@ -49,7 +49,8 @@ tools/image-sizes.mjs     reads JPEG/WebP dimensions into src/data/imageSizes.js
 src/data/                 types.ts, schema.ts (zod), client.ts (loadIndex/loadTags/loadStory, DataError),
                           imageSizes.json (generated; width/height per image),
                           IndexProvider.tsx (loads index + tags, prunes unknown ids from the store)
-src/domain/               pure logic: visibility, picker (+ presets), navigation (prev/next), length ranges,
+src/domain/               pure logic: visibility, picker (+ presets), navigation (prev/next), nav (tab
+                          sections and re-tap rules), length ranges,
                           collection labels,
                           search normalisation, excerpt, typeset (curly quotes/dashes), progress,
                           annotations (anchor + segments), notebook (list + Markdown export)
@@ -60,10 +61,10 @@ src/notes/                selection (DOM → block offsets), MarkedText, Highlig
 src/pages/                Library, Collection, Tag, Reading (shelf), Favorites, Surprise, Settings,
                           About, NotFound
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
-src/app/                  App/routes/layout, theme (system/light/sepia/dark), online status hook
+src/app/                  App/routes/layout, TabBar, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
 e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
-                          surprise (Give me 3), reading tab, notes
+                          surprise (Give me 3), reading tab, notes, nav (tab re-taps)
 ```
 
 ## Data contract (summary)
@@ -92,20 +93,30 @@ with `python3 tools/tag_stories.py` after any data change.
   prev/next and the picker. A hidden story opened by URL shows a "hidden" message, not the text.
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
 progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progress entries also carry `blockCount` (when
-  known) so the shelf can show a percentage. Each field falls back to its default independently; corrupt
+  known) so the shelf can show a percentage, and `finished` once the last block was reached. Each field falls back to its default independently; corrupt
   JSON resets with a `console.warn`. `migrate()` is the version seam (v1 = identity). Ids not in
   the index are pruned when the index loads. History caps at 200, recent picks at 10. Cross-tab
   changes are picked up via the `storage` event.
 - **Resume**: `useReadingTracker` (IntersectionObserver) reports the topmost visible block,
-  throttled to 800 ms; only indices > 0 are saved. Reopening offers "Continue from where you left
-  off" — never auto-jumps. Seeing the final block marks the story read and clears its progress.
-  Granularity is per block; some Grimm paragraphs are a screen or more long.
+  throttled to 800 ms; only indices > 0 are saved. Opening a story always jumps straight to its
+  saved block, unless it was finished (then it starts at the top). A toast above the tab bar says
+  "Picked up where you left off · Start over" for 6 s; Start over scrolls up and forgets the
+  place. Granularity is per block; some Grimm paragraphs are a screen or more long.
+- **Read vs progress**: "read" (history) and the reading position are separate. Seeing the final
+  block calls `finishStory`: marks read, records the position as `finished`, closes the book.
+  Reading a finished story again overwrites the position (no longer finished) while it stays read,
+  so rereads resume and show in Continue reading / the shelf. Story rows show both ("✓ read · 40%
+  through"). Mark unread only touches history.
+- **Tab bar** (`app/TabBar.tsx`, `domain/nav.ts`): the current tab follows the section
+  (`sectionOf`: collections and tag pages are Library, every story is Reading, About is
+  Settings). Tapping (`tabTap`): another tab → its main screen; the current tab from deeper inside
+  → its main screen; on the main screen → scroll to top, then (Library) reset search/filters by
+  remounting with `state.reset`; in a story, Reading → close the book and show the shelf.
 - **Reading tab** (`pages/ReadingPage.tsx`, middle of the tab bar): the reader marks a visible
-  story as the open story when it mounts; finishing it (final block seen) or the reader's
-  **Close book** button clears it. Tapping Reading with an open story redirects to
-  `#/s/:id?resume=1`, which scrolls straight to the saved block with no "Continue?" prompt, and the
-  tab shows as current while you read that story. With nothing open it shows the shelf: the most
-  recent in-progress story (percent and minutes left), the others, and the last 5 finished.
+  story as the open story when it mounts; finishing it or **Close book** (header ✕, or tapping
+  Reading again) clears it. Tapping Reading with an open story redirects into it. With nothing open it shows the shelf: the most
+  recent unfinished story (percent and minutes left), the other unfinished ones, and the last 5
+  finished.
 - **Highlights and notes** (`src/notes/`, `domain/annotations.ts`): selecting text in one block
   shows a toolbar (four colours + Add note) placed below the selection, clear of the phone's own
   copy menu and selection handles; it flips above when there's no room over the tab bar. A

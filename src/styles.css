@@ -1042,3 +1042,47 @@ mark.hl:focus-visible {
 .section-head h2 {
   margin-bottom: 0.5rem;
 }
+
+/* Resume notice in the reader */
+.resumed.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(84px + env(safe-area-inset-bottom));
+  z-index: 35;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+  margin: 0;
+  padding: 0 0.5rem 0 1rem;
+  border-radius: 999px;
+  background: var(--text);
+  color: var(--bg);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.25);
+}
+.resumed.toast .link-btn {
+  color: var(--bg);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .resumed.toast {
+    animation: toast-in 0.25s ease-out;
+  }
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 8px);
+  }
+}
+.link-btn {
+  min-height: 44px;
+  padding: 0 0.25rem;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
