@@ -15,6 +15,11 @@ describe('CollectionPage', () => {
     expect(rows[0]).toHaveTextContent('2 min');
   });
 
+  it('links back to the library', async () => {
+    renderApp('/c/aesop');
+    expect(await screen.findByRole('link', { name: '‹ Library' })).toHaveAttribute('href', '/');
+  });
+
   it('shows not found for an unknown collection', async () => {
     renderApp('/c/nope');
     expect(await screen.findByRole('heading', { name: 'Not found' })).toBeInTheDocument();

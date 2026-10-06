@@ -53,9 +53,11 @@ src/domain/               pure logic: visibility, picker (+ presets), navigation
                           sections and re-tap rules), length ranges,
                           collection labels,
                           search normalisation, excerpt, typeset (curly quotes/dashes), progress,
-                          annotations (anchor + segments), notebook (list + Markdown export)
+                          annotations (anchor + segments), notebook (list + Markdown export),
+                          autoHide (reader bar show/hide on scroll)
 src/storage/              store.ts (single versioned localStorage key), StoreProvider.tsx (hooks)
-src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker
+src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker,
+                          useAutoHide
 src/notes/                selection (DOM → block offsets), MarkedText, HighlightToolbar, HighlightSheet,
                           NotesPanel
 src/pages/                Library, Collection, Tag, Reading (shelf), Favorites, Surprise, Settings,
@@ -64,7 +66,7 @@ src/offline/download.ts   "Make all stories available offline" (writes into the 
 src/app/                  App/routes/layout, TabBar, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
 e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
-                          surprise (Give me 3), reading tab, notes, nav (tab re-taps)
+                          surprise (Give me 3), reading tab (+ reader bar), notes, nav (tab re-taps)
 ```
 
 ## Data contract (summary)
@@ -162,6 +164,14 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
   closes it; the click ending a swipe never navigates. The action button is always in the tab
   order and accessibility tree, and focusing it opens the row, so no gesture is required.
   `store.markUnread` removes the story from history only; saved progress is kept.
+- **Reader bar** (`reader/useAutoHide.ts`, `domain/autoHide.ts`): the crumb + Aa / Notes / ♡ / ✕
+  row is sticky and slides away while scrolling down (more than 8 px past the top 64 px), back on
+  any 8 px scroll up, at the top, or when it gets focus. It sits outside `<header>` as a direct
+  child of the article so `position: sticky` lasts the whole story. The Aa panel hangs from the
+  bar's right edge so it stays on screen.
+- **Empty collections**: collections with no visible stories (e.g. Busch, all excluded by
+  default) are left out of the library and Surprise me's collection chips. Collection and tag
+  pages have a "‹ Library" / "‹ Themes" back link (installed iOS apps have no back button).
 - **Layout stability**: images render with `width`/`height` from `imageSizes.json` so space is
   reserved before they load; a story's first block, if an image, loads eagerly with
   `fetchpriority="high"`. Prev/next is rendered only once the story has loaded. These keep CLS

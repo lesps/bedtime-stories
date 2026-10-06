@@ -11,7 +11,8 @@ Goble's plates) and Busch's Max and Maurice.
 - Browse by collection, culture (Japanese, Norwegian, French…) or theme (animals, tricksters,
   gentle & cosy…); search titles and tags; filter by length with a two-handled slider.
 - Serif reader with light / sepia / dark themes (Auto follows your phone), 5 text sizes, relaxed
-  spacing, scroll progress, previous/next.
+  spacing, scroll progress, previous/next. Its toolbar slides away as you read and comes back
+  when you scroll up.
 - Highlight passages in four colours, add notes to a passage or a whole story, and export your
   notebook as Markdown.
 - A **Reading** tab that takes you straight back into the story you have open, or shows your

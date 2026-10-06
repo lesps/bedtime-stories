@@ -47,3 +47,19 @@ test('five tabs fit on a small phone', async ({ page }) => {
   }
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
 });
+
+test('reader bar tucks away while reading down and returns on scroll up; Aa panel fits', async ({
+  page,
+}) => {
+  await page.goto('#/s/grimm--iron-hans');
+  const close = page.getByRole('button', { name: 'Close book' });
+  await expect(close).toBeInViewport();
+  await page.mouse.wheel(0, 1500);
+  await expect(close).not.toBeInViewport();
+  await page.mouse.wheel(0, -200);
+  await expect(close).toBeInViewport();
+
+  await page.getByRole('button', { name: 'Reading settings' }).click();
+  const panel = page.getByRole('radiogroup', { name: 'Theme' });
+  await expect(panel).toBeInViewport({ ratio: 1 });
+});

@@ -54,6 +54,13 @@ export const fixtureStories = [
     workId: 'grimm-khm-012',
     flags: ['mature-themes'],
   }),
+  entry({
+    id: 'busch--max-and-maurice',
+    order: 1,
+    title: 'Max and Maurice',
+    readingMinutes: 6,
+    excluded: true,
+  }),
 ];
 
 export const fixtureIndex: Index = makeIndex(fixtureStories, [
@@ -64,6 +71,7 @@ export const fixtureIndex: Index = makeIndex(fixtureStories, [
   }),
   collection({ id: 'grimm', title: "Grimms' Fairy Tales", contributor: 'Translated by Taylor' }),
   collection({ id: 'hunt', title: 'Household Tales', contributor: 'Translated by Margaret Hunt' }),
+  collection({ id: 'busch', title: 'Max and Maurice', contributor: 'Translated by Brooks' }),
 ]);
 
 const culture = (id: string) =>

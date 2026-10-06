@@ -23,6 +23,7 @@ import type { Highlight, HighlightColor } from '../storage/store';
 import { BlockRenderer } from './BlockRenderer';
 import { ProgressBar } from './ProgressBar';
 import { ReaderControls } from './ReaderControls';
+import { useAutoHide } from './useAutoHide';
 import { useReadingTracker } from './useReadingTracker';
 
 export function ReaderRoute() {
@@ -40,6 +41,7 @@ function ReaderPage({ storyId }: { storyId: string }) {
   const visible = entry ? isVisible(entry, settings) : false;
   const [load, setLoad] = useState<Load>({ status: 'loading' });
   const [attempt, setAttempt] = useState(0);
+  const bar = useAutoHide();
 
   const store = useStore();
   const navigate = useNavigate();
@@ -90,43 +92,48 @@ function ReaderPage({ storyId }: { storyId: string }) {
           } as React.CSSProperties
         }
       >
-        <header className="story-header">
-          <div className="story-header-top">
-            <Link to={`/c/${entry.collectionId}`} className="muted crumb">
-              {collection?.title}
-            </Link>
-            <div className="row">
-              <ReaderControls />
-              <button
-                type="button"
-                className="icon-btn"
-                aria-label="Notes"
-                onClick={() =>
-                  setHeaderParams(
-                    (p) => {
-                      p.set('notes', '1');
-                      return p;
-                    },
-                    { replace: true },
-                  )
-                }
-              >
-                <NoteIcon />
-              </button>
-              <FavoriteButton id={entry.id} title={entry.title} />
-              <button
-                type="button"
-                className="icon-btn"
-                aria-label="Close book"
-                onClick={() => {
-                  store.closeStory(entry.id);
-                  navigate('/reading');
-                }}
-              >
-                <CloseIcon />
-              </button>
-            </div>
+        <div
+          className="reader-bar"
+          data-hidden={!bar.visible}
+          data-floating={bar.floating}
+          onFocus={bar.show}
+        >
+          <Link to={`/c/${entry.collectionId}`} className="muted crumb">
+            {collection?.title}
+          </Link>
+          <div className="row">
+            <ReaderControls />
+            <button
+              type="button"
+              className="icon-btn"
+              aria-label="Notes"
+              onClick={() =>
+                setHeaderParams(
+                  (p) => {
+                    p.set('notes', '1');
+                    return p;
+                  },
+                  { replace: true },
+                )
+              }
+            >
+              <NoteIcon />
+            </button>
+            <FavoriteButton id={entry.id} title={entry.title} />
+            <button
+              type="button"
+              className="icon-btn"
+              aria-label="Close book"
+              onClick={() => {
+                store.closeStory(entry.id);
+                navigate('/reading');
+              }}
+            >
+              <CloseIcon />
+            </button>
           </div>
+        </div>
+        <header className="story-header">
           <h1>{entry.title}</h1>
           <p className="muted byline">
             {collection?.contributor ?? collection?.author}

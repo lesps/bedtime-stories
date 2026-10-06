@@ -25,6 +25,13 @@ describe('SurprisePage', () => {
     expect(screen.getByRole('link', { name: 'Read it' })).toHaveAttribute('href', `/s/${id}`);
   });
 
+  it('offers only collections with visible stories', async () => {
+    renderApp('/surprise');
+    await userEvent.click(await screen.findByText('More filters'));
+    expect(screen.getByRole('button', { name: 'Household Tales' })).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Max and Maurice' })).not.toBeInTheDocument();
+  });
+
   it('persists filter choices in settings', async () => {
     renderApp('/surprise');
     await userEvent.click(await screen.findByRole('button', { name: "Grimms' Fairy Tales" }));

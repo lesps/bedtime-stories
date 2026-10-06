@@ -1,4 +1,4 @@
-import { act, screen, within } from '@testing-library/react';
+import { act, fireEvent, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createStore } from '../storage/store';
@@ -197,6 +197,26 @@ describe('ReaderPage', () => {
       blockCount: 4,
     });
     expect(store.get().history.map((h) => h.id)).toEqual(['aesop--the-heron']);
+  });
+
+  it('tucks the reader bar away while scrolling down and brings it back on scroll up', async () => {
+    renderApp('/s/aesop--the-heron');
+    await screen.findByText('The Heron begins here.');
+    const bar = screen.getByRole('button', { name: 'Close book' }).closest('[data-hidden]')!;
+    expect(bar).toHaveAttribute('data-hidden', 'false');
+    const scrollTo = (y: number) => {
+      window.scrollY = y;
+      fireEvent.scroll(window);
+    };
+    act(() => scrollTo(400));
+    expect(bar).toHaveAttribute('data-hidden', 'true');
+    act(() => scrollTo(300));
+    expect(bar).toHaveAttribute('data-hidden', 'false');
+    act(() => scrollTo(600));
+    expect(bar).toHaveAttribute('data-hidden', 'true');
+    act(() => screen.getByRole('button', { name: 'Notes' }).focus());
+    expect(bar).toHaveAttribute('data-hidden', 'false');
+    act(() => scrollTo(0));
   });
 
   it('explains when a story is not available offline', async () => {

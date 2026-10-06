@@ -17,6 +17,14 @@ describe('TagPage', () => {
     expect(list).toHaveTextContent("Grimms' Fairy Tales");
   });
 
+  it('links back to the library, browsing that kind of tag', async () => {
+    renderApp('/tags/themes/royalty');
+    expect(await screen.findByRole('link', { name: '‹ Themes' })).toHaveAttribute(
+      'href',
+      '/?by=themes',
+    );
+  });
+
   it('says the kind of tag it is', async () => {
     renderApp('/tags/cultures/greek');
     expect(await screen.findByText(/Culture/)).toBeInTheDocument();
