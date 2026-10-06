@@ -54,12 +54,13 @@ src/domain/               pure logic: visibility, picker (+ presets), navigation
                           search normalisation, excerpt, typeset (curly quotes/dashes)
 src/storage/              store.ts (single versioned localStorage key), StoreProvider.tsx (hooks)
 src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker
-src/pages/                Library, Collection, Tag, Favorites, Surprise, Settings, About, NotFound
+src/pages/                Library, Collection, Tag, Reading (shelf), Favorites, Surprise, Settings,
+                          About, NotFound
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
 src/app/                  App/routes/layout, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
 e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
-                          surprise (Give me 3)
+                          surprise (Give me 3), reading tab
 ```
 
 ## Data contract (summary)
@@ -87,7 +88,8 @@ with `python3 tools/tag_stories.py` after any data change.
   hidden unless `showMature`. Applied in library, search, collections, favorites, continue-reading,
   prev/next and the picker. A hidden story opened by URL shows a "hidden" message, not the text.
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
-progress, history, recentPicks }`. Each field falls back to its default independently; corrupt
+progress, history, recentPicks, openStoryId }`. Progress entries also carry `blockCount` (when
+  known) so the shelf can show a percentage. Each field falls back to its default independently; corrupt
   JSON resets with a `console.warn`. `migrate()` is the version seam (v1 = identity). Ids not in
   the index are pruned when the index loads. History caps at 200, recent picks at 10. Cross-tab
   changes are picked up via the `storage` event.
@@ -95,6 +97,12 @@ progress, history, recentPicks }`. Each field falls back to its default independ
   throttled to 800 ms; only indices > 0 are saved. Reopening offers "Continue from where you left
   off" — never auto-jumps. Seeing the final block marks the story read and clears its progress.
   Granularity is per block; some Grimm paragraphs are a screen or more long.
+- **Reading tab** (`pages/ReadingPage.tsx`, middle of the tab bar): the reader marks a visible
+  story as the open story when it mounts; finishing it (final block seen) or the reader's
+  **Close book** button clears it. Tapping Reading with an open story redirects to
+  `#/s/:id?resume=1`, which scrolls straight to the saved block with no "Continue?" prompt, and the
+  tab shows as current while you read that story. With nothing open it shows the shelf: the most
+  recent in-progress story (percent and minutes left), the others, and the last 5 finished.
 - **Typography** (`domain/typeset.ts`): several sources are ASCII (`"`, `'`, `--`). The data
   client typesets titles, block text, morals, origins and alt text into curly quotes and em
   dashes on load; the files on disk are never rewritten.

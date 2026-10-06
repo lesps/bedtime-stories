@@ -12,6 +12,8 @@ Goble's plates) and Busch's Max and Maurice.
   gentle & cosy…); search titles and tags; filter by length with a two-handled slider.
 - Serif reader with light / sepia / dark themes (Auto follows your phone), 5 text sizes, relaxed
   spacing, scroll progress, previous/next.
+- A **Reading** tab that takes you straight back into the story you have open, or shows your
+  shelf of stories in progress (with percent read) and recently finished ones.
 - Favorites, "continue from where you left off", read history — stored only on your device.
   Swipe a story left to mark it unread (or read).
 - **Surprise me**: one story or "Give me 3", filtered by length range, collection, culture and

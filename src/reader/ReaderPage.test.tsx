@@ -199,4 +199,48 @@ describe('ReaderPage', () => {
     await userEvent.click(await screen.findByRole('button', { name: 'Favorite The Heron' }));
     expect(store.get().favorites).toHaveProperty('aesop--the-heron');
   });
+
+  describe('open story (Reading tab)', () => {
+    it('marks a visible story as open, and saves progress with its block count', async () => {
+      const { store } = renderApp('/s/aesop--the-heron');
+      await screen.findByText('The Heron begins here.');
+      expect(store.get().openStoryId).toBe('aesop--the-heron');
+      act(() => io.show([2]));
+      await settle();
+      expect(store.get().progress['aesop--the-heron']).toMatchObject({
+        blockIndex: 2,
+        blockCount: 4,
+      });
+    });
+
+    it('does not open a hidden story', async () => {
+      const { store } = renderApp('/s/grimm--hidden-tale');
+      await screen.findByRole('heading', { name: 'This story is hidden' });
+      expect(store.get().openStoryId).toBeNull();
+    });
+
+    it('closes the story when it is finished', async () => {
+      const { store } = renderApp('/s/aesop--the-heron');
+      await screen.findByText('The Heron begins here.');
+      act(() => io.show([3]));
+      expect(store.get().openStoryId).toBeNull();
+    });
+
+    it('Close book clears it and goes to the shelf', async () => {
+      const { store } = renderApp('/s/aesop--the-heron');
+      await screen.findByText('The Heron begins here.');
+      await userEvent.click(screen.getByRole('button', { name: 'Close book' }));
+      expect(store.get().openStoryId).toBeNull();
+      expect(await screen.findByRole('heading', { level: 1, name: 'Reading' })).toBeInTheDocument();
+    });
+
+    it('with ?resume=1 jumps straight to the saved place, without asking', async () => {
+      const store = createStore(localStorage);
+      store.setProgress('aesop--the-heron', 2, 4);
+      renderApp('/s/aesop--the-heron?resume=1', store);
+      await screen.findByText('The Heron begins here.');
+      expect(screen.queryByRole('button', { name: /Continue from/ })).not.toBeInTheDocument();
+      expect(Element.prototype.scrollIntoView).toHaveBeenCalledTimes(1);
+    });
+  });
 });

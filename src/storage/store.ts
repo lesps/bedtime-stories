@@ -51,6 +51,8 @@ const settingsSchema = z.object({
 
 const progressSchema = z.object({
   blockIndex: z.number().int().nonnegative(),
+  /** Total blocks in the story, so progress can be shown as a fraction. */
+  blockCount: z.number().int().positive().optional(),
   updatedAt: z.number(),
 });
 
@@ -61,6 +63,8 @@ const stateSchema = z.object({
   progress: z.record(progressSchema).catch({}),
   history: z.array(z.object({ id: z.string(), readAt: z.number() })).catch([]),
   recentPicks: z.array(z.string()).catch([]),
+  /** The story the Reading tab returns to; cleared when finished or closed. */
+  openStoryId: z.string().nullable().catch(null),
 });
 
 export type Settings = z.infer<typeof settingsSchema>;
@@ -149,9 +153,19 @@ export function createStore(storage: Storage, now: () => number = Date.now) {
         id in state.favorites ? omit(state.favorites, id) : { ...state.favorites, [id]: now() };
       set({ ...state, favorites });
     },
-    setProgress(id: string, blockIndex: number) {
-      if (state.progress[id]?.blockIndex === blockIndex) return;
-      set({ ...state, progress: { ...state.progress, [id]: { blockIndex, updatedAt: now() } } });
+    setProgress(id: string, blockIndex: number, blockCount?: number) {
+      const prev = state.progress[id];
+      if (prev?.blockIndex === blockIndex && prev.blockCount === blockCount) return;
+      const entry = { blockIndex, ...(blockCount ? { blockCount } : {}), updatedAt: now() };
+      set({ ...state, progress: { ...state.progress, [id]: entry } });
+    },
+    openStory(id: string) {
+      if (state.openStoryId === id) return;
+      set({ ...state, openStoryId: id });
+    },
+    closeStory(id: string) {
+      if (state.openStoryId !== id) return;
+      set({ ...state, openStoryId: null });
     },
     clearProgress(id: string) {
       if (!(id in state.progress)) return;
@@ -183,6 +197,7 @@ export function createStore(storage: Storage, now: () => number = Date.now) {
         progress: filterRec(state.progress),
         history: state.history.filter((h) => keep(h.id)),
         recentPicks: state.recentPicks.filter(keep),
+        openStoryId: state.openStoryId && keep(state.openStoryId) ? state.openStoryId : null,
       };
       if (JSON.stringify(next) !== JSON.stringify(state)) set(next);
     },

@@ -14,6 +14,7 @@ const pages = [
   { name: 'Tag page', path: '#/tags/cultures/japanese', expect: '.story-row' },
   { name: 'Surprise', path: '#/surprise', expect: '.preset' },
   { name: 'Settings', path: '#/settings', expect: '.card' },
+  { name: 'Reading shelf', path: '#/reading', expect: '.page-title' },
 ];
 
 for (const theme of ['light', 'sepia', 'dark'] as const) {

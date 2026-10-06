@@ -38,3 +38,13 @@ export const CheckIcon = ({ size = 16 }: P) => (
     <path d="M20 6 9 17l-5-5" />
   </svg>
 );
+export const CloseIcon = ({ size = 22 }: P) => (
+  <svg {...base(size)}>
+    <path d="M6 6l12 12M18 6 6 18" />
+  </svg>
+);
+export const OpenBookIcon = ({ size = 22 }: P) => (
+  <svg {...base(size)}>
+    <path d="M2 5.5C4.5 4 8.5 4 12 6c3.5-2 7.5-2 10-.5V19c-2.5-1.5-6.5-1.5-10 .5-3.5-2-7.5-2-10-.5zM12 6v13.5" />
+  </svg>
+);

@@ -328,6 +328,10 @@ main {
   font-weight: 600;
   cursor: pointer;
 }
+.story-row:not([data-open='true']):not([data-dragging='true']) .row-action {
+  /* Hidden behind the row until revealed; avoids a sub-pixel edge showing. Still focusable. */
+  opacity: 0;
+}
 .row-action:focus-visible {
   outline-offset: -4px;
   outline-color: var(--on-accent);
@@ -825,4 +829,33 @@ figure img {
 .tag-chip[data-kind='cultures'] {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+/* Reading shelf */
+.shelf-hero {
+  margin: 0.5rem 0 1rem;
+  padding: 1.1rem 1.25rem 1.25rem;
+  border-radius: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.shelf-hero .eyebrow {
+  margin: 0;
+}
+.meter {
+  display: block;
+  height: 6px;
+  margin: 0.5rem 0 0.9rem;
+  border-radius: 3px;
+  background: var(--border);
+  overflow: hidden;
+}
+.meter span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+.shelf-list .meter {
+  margin: 0.35rem 0 0;
+  height: 4px;
 }
