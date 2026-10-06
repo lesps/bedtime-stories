@@ -27,6 +27,12 @@ test('Reading tab returns to the open story at its place; Close shows the shelf'
 
   await hero.getByRole('link', { name: 'Keep reading' }).click();
   await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(500);
+  await expect(page.getByRole('status')).toHaveCount(0);
+
+  await page.getByRole('button', { name: 'Close book' }).click();
+  await hero.getByRole('button', { name: 'Start Iron Hans over' }).click();
+  await expect(page.getByRole('heading', { level: 1, name: 'Iron Hans' })).toBeVisible();
+  expect(await page.evaluate(() => window.scrollY)).toBeLessThan(50);
 });
 
 test('five tabs fit on a small phone', async ({ page }) => {

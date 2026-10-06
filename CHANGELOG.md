@@ -37,8 +37,8 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
-- Stories open straight at the saved place, with a brief "Picked up where you left off · Start
-  over" toast, instead of asking. Finished stories start from the top.
+- Stories open straight at the saved place instead of asking; Start over lives on the Reading
+  shelf, per story. Finished stories start from the top.
 - Finishing a story keeps its position as finished instead of deleting it, so read status and
   progress are independent: rereads resume and appear in Continue reading.
 - Hidden swipe-action buttons no longer show a faint edge beside story rows.

@@ -16,8 +16,8 @@ Goble's plates) and Busch's Max and Maurice.
   notebook as Markdown.
 - A **Reading** tab that takes you straight back into the story you have open, or shows your
   shelf of stories in progress (with percent read) and recently finished ones. Stories always
-  open where you left off; finished ones start again from the top, and rereads keep their own
-  place.
+  open where you left off (Start over on the shelf begins again); finished ones start from the
+  top, and rereads keep their own place.
 - Tabs behave like a phone app's: tap the current tab to go back to its main screen, scroll to
   the top, or (in a story) close the book.
 - Favorites, reading positions and read history — stored only on your device.

@@ -78,7 +78,7 @@ test('Surprise filters (open, with included and excluded chips) have no serious 
 });
 
 for (const theme of ['light', 'sepia', 'dark'] as const) {
-  test(`resume toast and progress rows have no serious violations (${theme})`, async ({ page }) => {
+  test(`shelf and progress rows have no serious violations (${theme})`, async ({ page }) => {
     await page.addInitScript((t) => {
       localStorage.setItem(
         'storybook:v1',
@@ -90,8 +90,8 @@ for (const theme of ['light', 'sepia', 'dark'] as const) {
         }),
       );
     }, theme);
-    await page.goto('#/s/grimm--iron-hans');
-    await expect(page.getByRole('status', { name: 'Resumed' })).toBeVisible();
+    await page.goto('#/reading');
+    await expect(page.getByRole('button', { name: 'Start Iron Hans over' })).toBeVisible();
     const scan = async () => {
       const { violations } = await new AxeBuilder({ page }).analyze();
       const serious = violations.filter((v) => v.impact === 'serious' || v.impact === 'critical');

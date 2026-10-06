@@ -99,9 +99,9 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
   changes are picked up via the `storage` event.
 - **Resume**: `useReadingTracker` (IntersectionObserver) reports the topmost visible block,
   throttled to 800 ms; only indices > 0 are saved. Opening a story always jumps straight to its
-  saved block, unless it was finished (then it starts at the top). A toast above the tab bar says
-  "Picked up where you left off · Start over" for 6 s; Start over scrolls up and forgets the
-  place. Granularity is per block; some Grimm paragraphs are a screen or more long.
+  saved block, unless it was finished (then it starts at the top), with no prompt or notice. To
+  begin again, the shelf has **Start over** per story (forgets the place, opens at the top).
+  Granularity is per block; some Grimm paragraphs are a screen or more long.
 - **Read vs progress**: "read" (history) and the reading position are separate. Seeing the final
   block calls `finishStory`: marks read, records the position as `finished`, closes the book.
   Reading a finished story again overwrites the position (no longer finished) while it stays read,
@@ -115,7 +115,8 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
 - **Reading tab** (`pages/ReadingPage.tsx`, middle of the tab bar): the reader marks a visible
   story as the open story when it mounts; finishing it or **Close book** (header ✕, or tapping
   Reading again) clears it. Tapping Reading with an open story redirects into it. With nothing open it shows the shelf: the most
-  recent unfinished story (percent and minutes left), the other unfinished ones, and the last 5
+  recent unfinished story (percent and minutes left), the other unfinished ones (each with Start
+  over), and the last 5
   finished.
 - **Highlights and notes** (`src/notes/`, `domain/annotations.ts`): selecting text in one block
   shows a toolbar (four colours + Add note) placed below the selection, clear of the phone's own

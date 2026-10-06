@@ -47,6 +47,32 @@ describe('ReadingPage', () => {
     expect(screen.getByRole('list', { name: 'Recently finished' })).toHaveTextContent('The Heron');
   });
 
+  it('Start over on the shelf forgets the place and opens the story at the top', async () => {
+    let t = 0;
+    const store = createStore(localStorage, () => ++t);
+    store.setProgress('grimm--rapunzel', 1, 4);
+    store.setProgress('aesop--the-lion', 3, 4);
+    renderApp('/reading', store);
+    const hero = await screen.findByRole('region', { name: 'Pick up where you left off' });
+    await userEvent.click(within(hero).getByRole('button', { name: 'Start The Lion over' }));
+    expect(await screen.findByText('The Lion begins here.')).toBeInTheDocument();
+    expect(store.get().progress['aesop--the-lion']).toBeUndefined();
+    expect(Element.prototype.scrollIntoView).not.toHaveBeenCalled();
+  });
+
+  it('offers Start over on each other story in progress', async () => {
+    let t = 0;
+    const store = createStore(localStorage, () => ++t);
+    store.setProgress('grimm--rapunzel', 1, 4);
+    store.setProgress('aesop--the-lion', 3, 4);
+    renderApp('/reading', store);
+    const others = await screen.findByRole('list', { name: 'Also in progress' });
+    await userEvent.click(within(others).getByRole('button', { name: 'Start Rapunzel over' }));
+    expect(await screen.findByText('Rapunzel begins here.')).toBeInTheDocument();
+    expect(store.get().progress['grimm--rapunzel']).toBeUndefined();
+    expect(store.get().progress['aesop--the-lion']).toBeDefined();
+  });
+
   it('shows the shelf when the open story is hidden by settings', async () => {
     const store = createStore(localStorage);
     store.openStory('aesop--dark-fable');

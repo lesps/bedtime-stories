@@ -242,8 +242,6 @@ function LoadError({ error, onRetry }: { error: unknown; onRetry: () => void }) 
   );
 }
 
-const RESUME_NOTICE_MS = 6000;
-
 function StoryBody({ story }: { story: Story }) {
   const store = useStore();
   const reducedMotion = usePrefersReducedMotion();
@@ -254,7 +252,6 @@ function StoryBody({ story }: { story: Story }) {
       ? p.blockIndex
       : null;
   });
-  const [resumed, setResumed] = useState(saved != null);
   const [root, setRoot] = useState<HTMLElement | null>(null);
   const finished = useRef(false);
   const [params, setParams] = useSearchParams();
@@ -344,29 +341,8 @@ function StoryBody({ story }: { story: Story }) {
 
   const open = sheet && highlights.find((h) => h.id === sheet.id);
 
-  // The notice is a toast (the page has already scrolled away from the top), so let it fade.
-  useEffect(() => {
-    if (!resumed) return;
-    const t = setTimeout(() => setResumed(false), RESUME_NOTICE_MS);
-    return () => clearTimeout(t);
-  }, [resumed]);
-
-  const startOver = () => {
-    setResumed(false);
-    store.clearProgress(story.id);
-    window.scrollTo({ top: 0, behavior: reducedMotion ? 'auto' : 'smooth' });
-  };
-
   return (
     <>
-      {resumed && (
-        <p className="resumed toast" role="status" aria-label="Resumed">
-          Picked up where you left off ·{' '}
-          <button type="button" className="link-btn" onClick={startOver}>
-            Start over
-          </button>
-        </p>
-      )}
       <div className="story-body" ref={setRoot}>
         {story.blocks.map((b, i) => (
           <BlockRenderer

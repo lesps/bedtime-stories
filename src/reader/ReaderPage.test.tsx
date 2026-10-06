@@ -155,32 +155,10 @@ describe('ReaderPage', () => {
     renderApp('/s/aesop--the-heron', first.store);
     await screen.findByText('The Heron begins here.');
     expect(Element.prototype.scrollIntoView).toHaveBeenCalledTimes(1);
-    expect(screen.queryByRole('button', { name: /Continue from/ })).not.toBeInTheDocument();
-    expect(screen.getByRole('status', { name: 'Resumed' })).toHaveTextContent(
-      'Picked up where you left off',
-    );
-  });
-
-  it('lets the resume notice fade after a few seconds', async () => {
-    vi.useFakeTimers({ shouldAdvanceTime: true });
-    const store = createStore(localStorage);
-    store.setProgress('aesop--the-heron', 2, 4);
-    renderApp('/s/aesop--the-heron', store);
-    await screen.findByRole('status', { name: 'Resumed' });
-    act(() => void vi.advanceTimersByTime(6500));
-    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
-    vi.useRealTimers();
-  });
-
-  it('Start over goes to the top and forgets the saved place', async () => {
-    const store = createStore(localStorage);
-    store.setProgress('aesop--the-heron', 2, 4);
-    renderApp('/s/aesop--the-heron', store);
-    await screen.findByText('The Heron begins here.');
-    await userEvent.click(screen.getByRole('button', { name: 'Start over' }));
-    expect(window.scrollTo).toHaveBeenCalledWith(expect.objectContaining({ top: 0 }));
-    expect(store.get().progress['aesop--the-heron']).toBeUndefined();
-    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole('button', { name: /Continue from|Start over/ }),
+    ).not.toBeInTheDocument();
+    expect(screen.queryByRole('status')).not.toBeInTheDocument();
   });
 
   it('starts a finished story from the top, keeping it read', async () => {
@@ -189,7 +167,6 @@ describe('ReaderPage', () => {
     renderApp('/s/aesop--the-heron', store);
     await screen.findByText('The Heron begins here.');
     expect(Element.prototype.scrollIntoView).not.toHaveBeenCalled();
-    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
     act(() => io.show([1]));
     await settle();
     expect(store.get().progress['aesop--the-heron']).toMatchObject({ blockIndex: 1 });
