@@ -4,7 +4,7 @@ import { StoryList } from '../components/StoryRow';
 import { useIndex } from '../data/IndexProvider';
 import type { IndexEntry } from '../data/types';
 import { notebookMarkdown, notebookStories } from '../domain/notebook';
-import { progressInfo } from '../domain/progress';
+import { isInProgress, progressInfo } from '../domain/progress';
 import { useAppState } from '../storage/StoreProvider';
 
 export function ReadingPage() {
@@ -14,11 +14,11 @@ export function ReadingPage() {
   const byId = new Map(visible.map((s) => [s.id, s]));
 
   if (openStoryId && byId.has(openStoryId)) {
-    return <Navigate replace to={`/s/${openStoryId}?resume=1`} />;
+    return <Navigate replace to={`/s/${openStoryId}`} />;
   }
 
   const inProgress = Object.entries(progress)
-    .filter(([id]) => byId.has(id))
+    .filter(([id, p]) => byId.has(id) && isInProgress(p))
     .sort(([, a], [, b]) => b.updatedAt - a.updatedAt)
     .map(([id, p]) => ({
       entry: byId.get(id)!,
@@ -68,7 +68,7 @@ export function ReadingPage() {
             )}
           </p>
           {hero.info && <Meter fraction={hero.info.fraction} />}
-          <Link to={`/s/${hero.entry.id}?resume=1`} className="btn primary">
+          <Link to={`/s/${hero.entry.id}`} className="btn primary">
             Keep reading
           </Link>
         </section>
@@ -80,7 +80,7 @@ export function ReadingPage() {
           <ul className="story-list shelf-list" aria-label="Also in progress">
             {others.map(({ entry, info }) => (
               <li key={entry.id} className="story-row">
-                <Link to={`/s/${entry.id}?resume=1`} className="story-link">
+                <Link to={`/s/${entry.id}`} className="story-link">
                   <span className="story-title">{entry.title}</span>
                   <span className="story-meta">
                     {collectionLabel(entry.collectionId)}

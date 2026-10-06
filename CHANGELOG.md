@@ -7,6 +7,11 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Tab bar re-taps: tapping the current tab returns to its main screen, then scrolls to the top,
+  then (Library) clears search and filters; in a story, tapping Reading closes the book. The
+  current tab now follows the section you're in (collection and tag pages light up Library).
+- Story rows show reading progress ("40% through") separately from the read mark.
+
 - Highlights and notes: select text to highlight it (four colours) or add a note; tap a
   highlight to recolour, annotate or delete it; a Notes panel per story with a story note and a
   list of highlights; a Notebook on the Reading shelf with Markdown export. Clearing reading data
@@ -32,6 +37,10 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
+- Stories open straight at the saved place, with a brief "Picked up where you left off · Start
+  over" toast, instead of asking. Finished stories start from the top.
+- Finishing a story keeps its position as finished instead of deleting it, so read status and
+  progress are independent: rereads resume and appear in Continue reading.
 - Hidden swipe-action buttons no longer show a faint edge beside story rows.
 - Collections that share a title are labelled with their translator's surname, e.g. "Japanese
   Fairy Tales (Ozaki)".

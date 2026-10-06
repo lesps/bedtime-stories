@@ -24,9 +24,11 @@ describe('ReadingPage', () => {
   it('shows the shelf when no story is open', async () => {
     let t = 0;
     const store = createStore(localStorage, () => ++t);
+    store.finishStory('aesop--the-heron', 4);
+    store.finishStory('grimm--the-long-one', 4);
+    store.setProgress('grimm--the-long-one', 1, 4); // a reread in progress
     store.setProgress('grimm--rapunzel', 1, 4);
     store.setProgress('aesop--the-lion', 3, 4);
-    store.markRead('aesop--the-heron');
     renderApp('/reading', store);
     expect(await screen.findByRole('heading', { level: 1, name: 'Reading' })).toBeInTheDocument();
 
@@ -35,10 +37,12 @@ describe('ReadingPage', () => {
     expect(hero).toHaveTextContent('75%');
     expect(within(hero).getByRole('link', { name: /Keep reading/ })).toHaveAttribute(
       'href',
-      '/s/aesop--the-lion?resume=1',
+      '/s/aesop--the-lion',
     );
     const others = screen.getByRole('list', { name: 'Also in progress' });
     expect(others).toHaveTextContent('Rapunzel');
+    expect(others).toHaveTextContent('The Long One');
+    expect(others).not.toHaveTextContent('The Heron');
     expect(others).toHaveTextContent('25%');
     expect(screen.getByRole('list', { name: 'Recently finished' })).toHaveTextContent('The Heron');
   });

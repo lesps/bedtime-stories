@@ -8,6 +8,7 @@ import { fixtureStoryBodies, renderApp } from '../test/renderApp';
 let io: ReturnType<typeof installFakeIO>;
 beforeEach(() => {
   io = installFakeIO();
+  window.scrollTo = vi.fn() as typeof window.scrollTo;
   Element.prototype.scrollIntoView = vi.fn();
 });
 
@@ -143,7 +144,7 @@ describe('ReaderPage', () => {
     expect(screen.getByRole('article').style.getPropertyValue('--reader-size')).toBe('22px');
   });
 
-  it('saves the topmost block and offers to resume instead of jumping', async () => {
+  it('saves the topmost block and jumps straight back there on reopen, without asking', async () => {
     const first = renderApp('/s/aesop--the-heron');
     await screen.findByText('The Heron begins here.');
     act(() => io.show([2]));
@@ -153,13 +154,50 @@ describe('ReaderPage', () => {
 
     renderApp('/s/aesop--the-heron', first.store);
     await screen.findByText('The Heron begins here.');
-    expect(Element.prototype.scrollIntoView).not.toHaveBeenCalled();
-    await userEvent.click(screen.getByRole('button', { name: 'Continue from where you left off' }));
     expect(Element.prototype.scrollIntoView).toHaveBeenCalledTimes(1);
     expect(screen.queryByRole('button', { name: /Continue from/ })).not.toBeInTheDocument();
+    expect(screen.getByRole('status', { name: 'Resumed' })).toHaveTextContent(
+      'Picked up where you left off',
+    );
   });
 
-  it('does not overwrite saved progress while the resume offer is pending at the top', async () => {
+  it('lets the resume notice fade after a few seconds', async () => {
+    vi.useFakeTimers({ shouldAdvanceTime: true });
+    const store = createStore(localStorage);
+    store.setProgress('aesop--the-heron', 2, 4);
+    renderApp('/s/aesop--the-heron', store);
+    await screen.findByRole('status', { name: 'Resumed' });
+    act(() => void vi.advanceTimersByTime(6500));
+    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
+    vi.useRealTimers();
+  });
+
+  it('Start over goes to the top and forgets the saved place', async () => {
+    const store = createStore(localStorage);
+    store.setProgress('aesop--the-heron', 2, 4);
+    renderApp('/s/aesop--the-heron', store);
+    await screen.findByText('The Heron begins here.');
+    await userEvent.click(screen.getByRole('button', { name: 'Start over' }));
+    expect(window.scrollTo).toHaveBeenCalledWith(expect.objectContaining({ top: 0 }));
+    expect(store.get().progress['aesop--the-heron']).toBeUndefined();
+    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
+  });
+
+  it('starts a finished story from the top, keeping it read', async () => {
+    const store = createStore(localStorage);
+    store.finishStory('aesop--the-heron', 4);
+    renderApp('/s/aesop--the-heron', store);
+    await screen.findByText('The Heron begins here.');
+    expect(Element.prototype.scrollIntoView).not.toHaveBeenCalled();
+    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
+    act(() => io.show([1]));
+    await settle();
+    expect(store.get().progress['aesop--the-heron']).toMatchObject({ blockIndex: 1 });
+    expect(store.get().progress['aesop--the-heron']).not.toHaveProperty('finished');
+    expect(store.get().history.map((h) => h.id)).toEqual(['aesop--the-heron']);
+  });
+
+  it('does not overwrite the saved place while the top of the story is on screen', async () => {
     const store = createStore(localStorage);
     store.setProgress('aesop--the-heron', 2);
     renderApp('/s/aesop--the-heron', store);
@@ -170,14 +208,17 @@ describe('ReaderPage', () => {
     expect(store.get().progress['aesop--the-heron']?.blockIndex).toBe(2);
   });
 
-  it('marks read and clears progress when the final block is seen', async () => {
+  it('marks read and records the position as finished when the final block is seen', async () => {
     const store = createStore(localStorage);
     store.setProgress('aesop--the-heron', 1);
     renderApp('/s/aesop--the-heron', store);
     await screen.findByText('The Heron begins here.');
     act(() => io.show([2, 3]));
     await settle();
-    expect(store.get().progress['aesop--the-heron']).toBeUndefined();
+    expect(store.get().progress['aesop--the-heron']).toMatchObject({
+      finished: true,
+      blockCount: 4,
+    });
     expect(store.get().history.map((h) => h.id)).toEqual(['aesop--the-heron']);
   });
 
@@ -232,15 +273,6 @@ describe('ReaderPage', () => {
       await userEvent.click(screen.getByRole('button', { name: 'Close book' }));
       expect(store.get().openStoryId).toBeNull();
       expect(await screen.findByRole('heading', { level: 1, name: 'Reading' })).toBeInTheDocument();
-    });
-
-    it('with ?resume=1 jumps straight to the saved place, without asking', async () => {
-      const store = createStore(localStorage);
-      store.setProgress('aesop--the-heron', 2, 4);
-      renderApp('/s/aesop--the-heron?resume=1', store);
-      await screen.findByText('The Heron begins here.');
-      expect(screen.queryByRole('button', { name: /Continue from/ })).not.toBeInTheDocument();
-      expect(Element.prototype.scrollIntoView).toHaveBeenCalledTimes(1);
     });
   });
 });

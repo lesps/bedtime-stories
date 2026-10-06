@@ -242,45 +242,46 @@ function LoadError({ error, onRetry }: { error: unknown; onRetry: () => void }) 
   );
 }
 
+const RESUME_NOTICE_MS = 6000;
+
 function StoryBody({ story }: { story: Story }) {
   const store = useStore();
   const reducedMotion = usePrefersReducedMotion();
-  const [saved] = useState(() => store.get().progress[story.id]?.blockIndex ?? null);
-  const canResume = saved != null && saved > 0 && saved < story.blocks.length;
-  // Arriving from the Reading tab (?resume=1) means "carry on", so skip the question.
+  // Opening a story always carries on from the saved place, unless it was finished (then: top).
+  const [saved] = useState(() => {
+    const p = store.get().progress[story.id];
+    return p && !p.finished && p.blockIndex > 0 && p.blockIndex < story.blocks.length
+      ? p.blockIndex
+      : null;
+  });
+  const [resumed, setResumed] = useState(saved != null);
+  const [root, setRoot] = useState<HTMLElement | null>(null);
+  const finished = useRef(false);
   const [params, setParams] = useSearchParams();
-  const [autoResume] = useState(() => params.get('resume') === '1');
   const notesOpen = params.get('notes') === '1';
   const { annotations, storyNotes } = useAppState();
   const highlights = useMemo(() => annotations[story.id] ?? [], [annotations, story.id]);
   const [selection, setSelection] = useState<SelectionInfo | null>(null);
   const [sheet, setSheet] = useState<{ id: string; focusNote: boolean } | null>(null);
-  const [offer, setOffer] = useState(canResume && !autoResume);
-  const [root, setRoot] = useState<HTMLElement | null>(null);
-  const finished = useRef(false);
 
   const onTopmost = useCallback(
     (i: number) => {
       if (finished.current || i === 0) return;
       store.setProgress(story.id, i, story.blocks.length);
-      setOffer(false);
     },
-    [store, story.id],
+    [store, story.id, story.blocks.length],
   );
   const onFinal = useCallback(() => {
     finished.current = true;
-    store.clearProgress(story.id);
-    store.markRead(story.id);
-    store.closeStory(story.id);
-    setOffer(false);
-  }, [store, story.id]);
+    store.finishStory(story.id, story.blocks.length);
+  }, [store, story.id, story.blocks.length]);
 
   useReadingTracker(root, story.blocks.length, onTopmost, onFinal);
 
   useEffect(() => {
-    if (!root || !autoResume || !canResume) return;
+    if (!root || saved == null) return;
     root.querySelector(`[data-block="${saved}"]`)?.scrollIntoView({ block: 'start' });
-  }, [root, autoResume, canResume, saved]);
+  }, [root, saved]);
 
   // Highlights are anchored to the displayed (typeset) text; re-anchor by quote if it moved.
   const { marksByBlock, placed, detached } = useMemo(() => {
@@ -343,24 +344,28 @@ function StoryBody({ story }: { story: Story }) {
 
   const open = sheet && highlights.find((h) => h.id === sheet.id);
 
-  const resume = () => {
-    setOffer(false);
-    root
-      ?.querySelector(`[data-block="${saved}"]`)
-      ?.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+  // The notice is a toast (the page has already scrolled away from the top), so let it fade.
+  useEffect(() => {
+    if (!resumed) return;
+    const t = setTimeout(() => setResumed(false), RESUME_NOTICE_MS);
+    return () => clearTimeout(t);
+  }, [resumed]);
+
+  const startOver = () => {
+    setResumed(false);
+    store.clearProgress(story.id);
+    window.scrollTo({ top: 0, behavior: reducedMotion ? 'auto' : 'smooth' });
   };
 
   return (
     <>
-      {offer && (
-        <div className="resume" role="region" aria-label="Resume">
-          <button type="button" className="btn primary" onClick={resume}>
-            Continue from where you left off
-          </button>
-          <button type="button" className="btn ghost" onClick={() => setOffer(false)}>
+      {resumed && (
+        <p className="resumed toast" role="status" aria-label="Resumed">
+          Picked up where you left off ·{' '}
+          <button type="button" className="link-btn" onClick={startOver}>
             Start over
           </button>
-        </div>
+        </p>
       )}
       <div className="story-body" ref={setRoot}>
         {story.blocks.map((b, i) => (

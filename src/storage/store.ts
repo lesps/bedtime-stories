@@ -53,6 +53,8 @@ const progressSchema = z.object({
   blockIndex: z.number().int().nonnegative(),
   /** Total blocks in the story, so progress can be shown as a fraction. */
   blockCount: z.number().int().positive().optional(),
+  /** The last block was reached. Kept apart from "read" (history) so rereads can be resumed. */
+  finished: z.boolean().optional(),
   updatedAt: z.number(),
 });
 
@@ -190,9 +192,21 @@ export function createStore(storage: Storage, now: () => number = Date.now) {
     },
     setProgress(id: string, blockIndex: number, blockCount?: number) {
       const prev = state.progress[id];
-      if (prev?.blockIndex === blockIndex && prev.blockCount === blockCount) return;
+      if (prev?.blockIndex === blockIndex && prev.blockCount === blockCount && !prev.finished)
+        return;
       const entry = { blockIndex, ...(blockCount ? { blockCount } : {}), updatedAt: now() };
       set({ ...state, progress: { ...state.progress, [id]: entry } });
+    },
+    /** Reached the last block: mark read, keep the position as finished, and close the book. */
+    finishStory(id: string, blockCount: number) {
+      const history = [...state.history.filter((h) => h.id !== id), { id, readAt: now() }];
+      const entry = { blockIndex: blockCount - 1, blockCount, finished: true, updatedAt: now() };
+      set({
+        ...state,
+        history: history.slice(-HISTORY_CAP),
+        progress: { ...state.progress, [id]: entry },
+        openStoryId: state.openStoryId === id ? null : state.openStoryId,
+      });
     },
     openStory(id: string) {
       if (state.openStoryId === id) return;

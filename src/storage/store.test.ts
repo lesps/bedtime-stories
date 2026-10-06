@@ -287,6 +287,35 @@ describe('store', () => {
     });
   });
 
+  describe('finishing vs read', () => {
+    it('finishing marks read, closes the book and keeps progress as finished', () => {
+      store.openStory('a--x');
+      store.setProgress('a--x', 3, 10);
+      store.finishStory('a--x', 10);
+      expect(store.get().history.map((h) => h.id)).toEqual(['a--x']);
+      expect(store.get().openStoryId).toBeNull();
+      expect(store.get().progress['a--x']).toMatchObject({
+        blockIndex: 9,
+        blockCount: 10,
+        finished: true,
+      });
+    });
+
+    it('rereading overwrites the finished marker but keeps the story read', () => {
+      store.finishStory('a--x', 10);
+      store.setProgress('a--x', 2, 10);
+      expect(store.get().progress['a--x']).not.toHaveProperty('finished');
+      expect(store.get().history.map((h) => h.id)).toEqual(['a--x']);
+    });
+
+    it('marking unread leaves the reading position alone', () => {
+      store.setProgress('a--x', 4, 10);
+      store.markRead('a--x');
+      store.markUnread('a--x');
+      expect(store.get().progress['a--x']?.blockIndex).toBe(4);
+    });
+  });
+
   it('caps recent picks', () => {
     for (let i = 0; i < 15; i++) store.recordPick(`a--${i}`);
     expect(store.get().recentPicks).toHaveLength(RECENT_PICKS_CAP);

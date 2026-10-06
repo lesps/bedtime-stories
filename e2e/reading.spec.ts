@@ -16,7 +16,6 @@ test('Reading tab returns to the open story at its place; Close shows the shelf'
 
   await page.getByRole('link', { name: 'Reading' }).click();
   await expect(page.getByRole('heading', { level: 1, name: 'Iron Hans' })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Continue from/ })).toHaveCount(0);
   await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(500);
   await expect(page.getByRole('link', { name: 'Reading' })).toHaveAttribute('aria-current', 'page');
 

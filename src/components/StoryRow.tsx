@@ -3,6 +3,7 @@ import type { IndexEntry } from '../data/types';
 import { useIndex } from '../data/IndexProvider';
 import { useAppState, useStore } from '../storage/StoreProvider';
 import { FavoriteButton } from './FavoriteButton';
+import { isInProgress, progressInfo } from '../domain/progress';
 import { CheckIcon } from './icons';
 import { useSwipeReveal } from './useSwipeReveal';
 
@@ -17,7 +18,11 @@ export function StoryRow({
 }) {
   const { collectionLabel } = useIndex();
   const store = useStore();
-  const read = useAppState().history.some((h) => h.id === entry.id);
+  const { history, progress } = useAppState();
+  const read = history.some((h) => h.id === entry.id);
+  // Where you are in a story is separate from whether you've read it: a reread shows both.
+  const p = progress[entry.id];
+  const through = isInProgress(p) ? progressInfo(p, entry.readingMinutes) : null;
   const { offset, open, dragging, setOpen, handlers } = useSwipeReveal(entry.id, ACTION_WIDTH);
 
   return (
@@ -53,6 +58,7 @@ export function StoryRow({
                 <CheckIcon /> read
               </span>
             )}
+            {through && <> · {Math.round(through.fraction * 100)}% through</>}
           </span>
         </Link>
         <FavoriteButton id={entry.id} title={entry.title} />

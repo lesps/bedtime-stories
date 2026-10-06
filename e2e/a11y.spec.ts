@@ -76,3 +76,33 @@ test('Surprise filters (open, with included and excluded chips) have no serious 
     [],
   );
 });
+
+for (const theme of ['light', 'sepia', 'dark'] as const) {
+  test(`resume toast and progress rows have no serious violations (${theme})`, async ({ page }) => {
+    await page.addInitScript((t) => {
+      localStorage.setItem(
+        'storybook:v1',
+        JSON.stringify({
+          version: 1,
+          settings: { theme: t },
+          history: [{ id: 'grimm--iron-hans', readAt: 1 }],
+          progress: { 'grimm--iron-hans': { blockIndex: 4, blockCount: 13, updatedAt: 2 } },
+        }),
+      );
+    }, theme);
+    await page.goto('#/s/grimm--iron-hans');
+    await expect(page.getByRole('status', { name: 'Resumed' })).toBeVisible();
+    const scan = async () => {
+      const { violations } = await new AxeBuilder({ page }).analyze();
+      const serious = violations.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+      expect(
+        serious,
+        JSON.stringify(serious.map((v) => [v.id, v.nodes.map((n) => n.target)])),
+      ).toEqual([]);
+    };
+    await scan();
+    await page.goto('#/c/grimm');
+    await expect(page.getByText('% through')).toBeVisible();
+    await scan();
+  });
+}

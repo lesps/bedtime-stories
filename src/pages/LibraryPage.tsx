@@ -6,6 +6,7 @@ import { SparkleIcon } from '../components/icons';
 import { useIndex } from '../data/IndexProvider';
 import { LengthSlider } from '../components/LengthSlider';
 import { FULL_RANGE, inRange, isFullRange, type LengthRange } from '../domain/length';
+import { isInProgress } from '../domain/progress';
 import { matchesQuery } from '../domain/search';
 import { useAppState } from '../storage/StoreProvider';
 import { useVisibleStories } from '../app/useVisibleStories';
@@ -35,7 +36,7 @@ export function LibraryPage() {
   const inProgress = useMemo(
     () =>
       visible
-        .filter((s) => s.id in progress)
+        .filter((s) => isInProgress(progress[s.id]))
         .sort((a, b) => progress[b.id]!.updatedAt - progress[a.id]!.updatedAt),
     [visible, progress],
   );

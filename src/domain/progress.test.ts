@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { progressInfo } from './progress';
+import { isInProgress, progressInfo } from './progress';
 
 describe('progressInfo', () => {
   it.each([
@@ -13,6 +13,23 @@ describe('progressInfo', () => {
       fraction,
       minutesLeft: left,
     });
+  });
+
+  it('reports finished stories as complete', () => {
+    expect(
+      progressInfo({ blockIndex: 9, blockCount: 10, finished: true, updatedAt: 0 }, 20),
+    ).toEqual({
+      fraction: 1,
+      minutesLeft: 0,
+    });
+  });
+
+  it('says which saved positions are still in progress', () => {
+    expect(isInProgress({ blockIndex: 3, updatedAt: 0 })).toBe(true);
+    expect(isInProgress({ blockIndex: 9, blockCount: 10, finished: true, updatedAt: 0 })).toBe(
+      false,
+    );
+    expect(isInProgress(undefined)).toBe(false);
   });
 
   it('is unknown without a block count (older saved progress)', () => {
