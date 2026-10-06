@@ -7,6 +7,10 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Highlights and notes: select text to highlight it (four colours) or add a note; tap a
+  highlight to recolour, annotate or delete it; a Notes panel per story with a story note and a
+  list of highlights; a Notebook on the Reading shelf with Markdown export. Clearing reading data
+  keeps notes unless you ask otherwise.
 - Reading tab in the middle of the tab bar: returns straight to the open story at its place, or
   shows a shelf of stories in progress (percent read, minutes left) and recently finished. The
   reader gains a Close book button.

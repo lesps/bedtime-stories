@@ -12,6 +12,8 @@ Goble's plates) and Busch's Max and Maurice.
   gentle & cosy…); search titles and tags; filter by length with a two-handled slider.
 - Serif reader with light / sepia / dark themes (Auto follows your phone), 5 text sizes, relaxed
   spacing, scroll progress, previous/next.
+- Highlight passages in four colours, add notes to a passage or a whole story, and export your
+  notebook as Markdown.
 - A **Reading** tab that takes you straight back into the story you have open, or shows your
   shelf of stories in progress (with percent read) and recently finished ones.
 - Favorites, "continue from where you left off", read history — stored only on your device.

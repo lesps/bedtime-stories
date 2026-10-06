@@ -1,39 +1,47 @@
 import type { Block } from '../data/types';
 import { compendiumUrl } from '../data/client';
+import { MarkedText, type Mark } from '../notes/MarkedText';
 import imageSizes from '../data/imageSizes.json';
 
 const sizes: Record<string, number[] | undefined> = imageSizes;
 
 /** `priority`: the image is likely the first paint, so skip lazy loading. */
-type Props = { block: Block; index: number; priority?: boolean };
+type Props = {
+  block: Block;
+  index: number;
+  priority?: boolean;
+  marks?: Mark[];
+  onMark?: (id: string) => void;
+};
 
-export function BlockRenderer({ block, index, priority }: Props) {
+export function BlockRenderer({ block, index, priority, marks, onMark }: Props) {
+  const t = (text: string) => <MarkedText text={text} marks={marks} onMark={onMark} />;
   const data = { 'data-block': index };
   switch (block.type) {
     case 'p':
-      return <p {...data}>{block.text}</p>;
+      return <p {...data}>{t(block.text)}</p>;
     case 'verse':
       return (
         <p className="verse" {...data}>
-          {block.text}
+          {t(block.text)}
         </p>
       );
     case 'moral':
       return (
         <aside className="moral" aria-label="Moral" {...data}>
-          <p>{block.text}</p>
+          <p>{t(block.text)}</p>
         </aside>
       );
     case 'heading':
       return (
         <h2 className="story-heading" {...data}>
-          {block.text}
+          {t(block.text)}
         </h2>
       );
     case 'note':
       return (
         <aside className="note" aria-label="Note" {...data}>
-          <small>{block.text}</small>
+          <small>{t(block.text)}</small>
         </aside>
       );
     case 'image': {

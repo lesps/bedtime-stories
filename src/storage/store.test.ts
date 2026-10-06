@@ -210,6 +210,83 @@ describe('store', () => {
     expect(store.get().progress['a--y']).toEqual({ blockIndex: 2, updatedAt: 1_000 });
   });
 
+  describe('highlights and notes', () => {
+    const hl = { block: 2, start: 5, end: 16, quote: 'upon a time', color: 'yellow' as const };
+
+    it('adds a highlight and returns its id', () => {
+      const id = store.addHighlight('a--x', hl);
+      expect(store.get().annotations['a--x']).toEqual([
+        { id, ...hl, createdAt: 1_000, updatedAt: 1_000 },
+      ]);
+    });
+
+    it('updates colour and note, and an empty note removes the note', () => {
+      const id = store.addHighlight('a--x', hl);
+      now = 2_000;
+      store.updateHighlight('a--x', id, { color: 'blue', note: 'Ada laughed here' });
+      expect(store.get().annotations['a--x']?.[0]).toMatchObject({
+        color: 'blue',
+        note: 'Ada laughed here',
+        updatedAt: 2_000,
+      });
+      store.updateHighlight('a--x', id, { note: '   ' });
+      expect(store.get().annotations['a--x']?.[0]).not.toHaveProperty('note');
+    });
+
+    it('removes a highlight, and the story entry when it was the last one', () => {
+      const id = store.addHighlight('a--x', hl);
+      store.removeHighlight('a--x', id);
+      expect(store.get().annotations).toEqual({});
+    });
+
+    it('keeps a story note, and an empty one deletes it', () => {
+      store.setStoryNote('a--x', 'Favourite of both kids');
+      expect(store.get().storyNotes['a--x']).toEqual({
+        text: 'Favourite of both kids',
+        updatedAt: 1_000,
+      });
+      store.setStoryNote('a--x', '');
+      expect(store.get().storyNotes).toEqual({});
+    });
+
+    it('keeps notes when reading data is cleared, unless asked to include them', () => {
+      store.addHighlight('a--x', hl);
+      store.setStoryNote('a--x', 'note');
+      store.clearReadingData();
+      expect(Object.keys(store.get().annotations)).toEqual(['a--x']);
+      expect(Object.keys(store.get().storyNotes)).toEqual(['a--x']);
+      store.clearReadingData({ includeNotes: true });
+      expect(store.get().annotations).toEqual({});
+      expect(store.get().storyNotes).toEqual({});
+    });
+
+    it('prunes notes for stories no longer in the index', () => {
+      store.addHighlight('a--gone', hl);
+      store.setStoryNote('a--gone', 'x');
+      store.prune(new Set(['a--keep']));
+      expect(store.get().annotations).toEqual({});
+      expect(store.get().storyNotes).toEqual({});
+    });
+
+    it('drops malformed highlights without losing good ones', () => {
+      const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({
+          version: 1,
+          annotations: {
+            'a--x': [
+              { id: 'h1', ...hl, createdAt: 1, updatedAt: 1 },
+              { id: 'h2', block: 'nope' },
+            ],
+          },
+        }),
+      );
+      expect(createStore(localStorage, clock).get().annotations['a--x']).toHaveLength(1);
+      warn.mockRestore();
+    });
+  });
+
   it('caps recent picks', () => {
     for (let i = 0; i < 15; i++) store.recordPick(`a--${i}`);
     expect(store.get().recentPicks).toHaveLength(RECENT_PICKS_CAP);

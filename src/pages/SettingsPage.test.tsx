@@ -44,4 +44,28 @@ describe('SettingsPage', () => {
       screen.getByRole('button', { name: /available offline \(about 5 MB\)/ }),
     ).toBeInTheDocument();
   });
+
+  it('keeps highlights and notes when clearing reading data unless asked', async () => {
+    const store = createStore(localStorage);
+    store.addHighlight('aesop--the-heron', {
+      block: 1,
+      start: 0,
+      end: 6,
+      quote: 'Middle',
+      color: 'yellow',
+    });
+    store.toggleFavorite('aesop--the-heron');
+    renderApp('/settings', store);
+    await userEvent.click(await screen.findByRole('button', { name: 'Clear reading data' }));
+    await userEvent.click(screen.getByRole('button', { name: 'Yes, clear' }));
+    expect(store.get().favorites).toEqual({});
+    expect(store.get().annotations).toHaveProperty('aesop--the-heron');
+
+    await userEvent.click(screen.getByRole('button', { name: 'Clear reading data' }));
+    await userEvent.click(
+      screen.getByRole('checkbox', { name: /Also delete highlights and notes/ }),
+    );
+    await userEvent.click(screen.getByRole('button', { name: 'Yes, clear' }));
+    expect(store.get().annotations).toEqual({});
+  });
 });

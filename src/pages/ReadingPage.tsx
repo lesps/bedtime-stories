@@ -3,11 +3,12 @@ import { useVisibleStories } from '../app/useVisibleStories';
 import { StoryList } from '../components/StoryRow';
 import { useIndex } from '../data/IndexProvider';
 import type { IndexEntry } from '../data/types';
+import { notebookMarkdown, notebookStories } from '../domain/notebook';
 import { progressInfo } from '../domain/progress';
 import { useAppState } from '../storage/StoreProvider';
 
 export function ReadingPage() {
-  const { openStoryId, progress, history } = useAppState();
+  const { openStoryId, progress, history, annotations, storyNotes } = useAppState();
   const { collectionLabel } = useIndex();
   const visible = useVisibleStories();
   const byId = new Map(visible.map((s) => [s.id, s]));
@@ -29,6 +30,18 @@ export function ReadingPage() {
     .map((h) => byId.get(h.id))
     .filter((s): s is IndexEntry => !!s)
     .slice(0, 5);
+
+  const notebook = notebookStories(visible, annotations, storyNotes);
+  const exportNotes = () => {
+    const md = notebookMarkdown(notebook, annotations, storyNotes, collectionLabel);
+    const url = URL.createObjectURL(new Blob([md], { type: 'text/markdown' }));
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `storybook-notes-${new Date().toISOString().slice(0, 10)}.md`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+  const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
 
   return (
     <div className="page">
@@ -74,6 +87,31 @@ export function ReadingPage() {
                     {info && <> · {Math.round(info.fraction * 100)}%</>}
                   </span>
                   {info && <Meter fraction={info.fraction} />}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {notebook.length > 0 && (
+        <section aria-labelledby="notebook-h">
+          <div className="row section-head">
+            <h2 id="notebook-h">Notebook</h2>
+            <button type="button" className="btn ghost" onClick={exportNotes}>
+              Export notes
+            </button>
+          </div>
+          <ul className="story-list" aria-label="Notebook">
+            {notebook.map(({ entry, highlights, notes }) => (
+              <li key={entry.id} className="story-row">
+                <Link to={`/s/${entry.id}?notes=1`} className="story-link">
+                  <span className="story-title">{entry.title}</span>
+                  <span className="story-meta">
+                    {[highlights && plural(highlights, 'highlight'), notes && plural(notes, 'note')]
+                      .filter(Boolean)
+                      .join(' · ')}
+                  </span>
                 </Link>
               </li>
             ))}
