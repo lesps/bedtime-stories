@@ -7,6 +7,9 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Reading tab in the middle of the tab bar: returns straight to the open story at its place, or
+  shows a shelf of stories in progress (percent read, minutes left) and recently finished. The
+  reader gains a Close book button.
 - Fuller Surprise me: "Give me 3", culture and theme filters that include or exclude, presets
   (Quick & gentle, Something new, Old favorite), a recently-picked list, a card-flip reveal, and a
   note when fewer stories match than were asked for.
@@ -25,6 +28,7 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
+- Hidden swipe-action buttons no longer show a faint edge beside story rows.
 - Collections that share a title are labelled with their translator's surname, e.g. "Japanese
   Fairy Tales (Ozaki)".
 - Length filters are now a two-handled slider (1 min to 60+) in the library and Surprise me, so

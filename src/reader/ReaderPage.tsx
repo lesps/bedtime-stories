@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Link, useParams } from 'react-router';
+import { Link, useNavigate, useParams, useSearchParams } from 'react-router';
 import { usePrefersReducedMotion } from '../app/theme';
 import { useOnline } from '../app/useOnline';
 import { FavoriteButton } from '../components/FavoriteButton';
+import { CloseIcon } from '../components/icons';
 import { DataError, loadStory } from '../data/client';
 import { useIndex } from '../data/IndexProvider';
 import type { Story } from '../data/types';
@@ -31,6 +32,12 @@ function ReaderPage({ storyId }: { storyId: string }) {
   const visible = entry ? isVisible(entry, settings) : false;
   const [load, setLoad] = useState<Load>({ status: 'loading' });
   const [attempt, setAttempt] = useState(0);
+
+  const store = useStore();
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (entry && visible) store.openStory(entry.id);
+  }, [store, entry, visible]);
 
   useEffect(() => {
     if (!entry || !visible) return;
@@ -82,6 +89,17 @@ function ReaderPage({ storyId }: { storyId: string }) {
             <div className="row">
               <ReaderControls />
               <FavoriteButton id={entry.id} title={entry.title} />
+              <button
+                type="button"
+                className="icon-btn"
+                aria-label="Close book"
+                onClick={() => {
+                  store.closeStory(entry.id);
+                  navigate('/reading');
+                }}
+              >
+                <CloseIcon />
+              </button>
             </div>
           </div>
           <h1>{entry.title}</h1>
@@ -203,14 +221,18 @@ function StoryBody({ story }: { story: Story }) {
   const store = useStore();
   const reducedMotion = usePrefersReducedMotion();
   const [saved] = useState(() => store.get().progress[story.id]?.blockIndex ?? null);
-  const [offer, setOffer] = useState(saved != null && saved > 0 && saved < story.blocks.length);
+  const canResume = saved != null && saved > 0 && saved < story.blocks.length;
+  // Arriving from the Reading tab (?resume=1) means "carry on", so skip the question.
+  const [params] = useSearchParams();
+  const [autoResume] = useState(() => params.get('resume') === '1');
+  const [offer, setOffer] = useState(canResume && !autoResume);
   const [root, setRoot] = useState<HTMLElement | null>(null);
   const finished = useRef(false);
 
   const onTopmost = useCallback(
     (i: number) => {
       if (finished.current || i === 0) return;
-      store.setProgress(story.id, i);
+      store.setProgress(story.id, i, story.blocks.length);
       setOffer(false);
     },
     [store, story.id],
@@ -219,10 +241,16 @@ function StoryBody({ story }: { story: Story }) {
     finished.current = true;
     store.clearProgress(story.id);
     store.markRead(story.id);
+    store.closeStory(story.id);
     setOffer(false);
   }, [store, story.id]);
 
   useReadingTracker(root, story.blocks.length, onTopmost, onFinal);
+
+  useEffect(() => {
+    if (!root || !autoResume || !canResume) return;
+    root.querySelector(`[data-block="${saved}"]`)?.scrollIntoView({ block: 'start' });
+  }, [root, autoResume, canResume, saved]);
 
   const resume = () => {
     setOffer(false);

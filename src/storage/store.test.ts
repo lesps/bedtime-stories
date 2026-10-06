@@ -179,6 +179,37 @@ describe('store', () => {
     expect(fn).not.toHaveBeenCalled();
   });
 
+  it('tracks the open story: opening replaces it, closing only clears the matching one', () => {
+    expect(store.get().openStoryId).toBeNull();
+    store.openStory('a--x');
+    store.openStory('a--y');
+    expect(store.get().openStoryId).toBe('a--y');
+    store.closeStory('a--x');
+    expect(store.get().openStoryId).toBe('a--y');
+    store.closeStory('a--y');
+    expect(store.get().openStoryId).toBeNull();
+  });
+
+  it('prunes an unknown open story and clears it with reading data', () => {
+    store.openStory('a--gone');
+    store.prune(new Set(['a--keep']));
+    expect(store.get().openStoryId).toBeNull();
+    store.openStory('a--keep');
+    store.clearReadingData();
+    expect(store.get().openStoryId).toBeNull();
+  });
+
+  it('remembers how many blocks a story has alongside its progress', () => {
+    store.setProgress('a--x', 3, 12);
+    expect(store.get().progress['a--x']).toEqual({
+      blockIndex: 3,
+      blockCount: 12,
+      updatedAt: 1_000,
+    });
+    store.setProgress('a--y', 2);
+    expect(store.get().progress['a--y']).toEqual({ blockIndex: 2, updatedAt: 1_000 });
+  });
+
   it('caps recent picks', () => {
     for (let i = 0; i < 15; i++) store.recordPick(`a--${i}`);
     expect(store.get().recentPicks).toHaveLength(RECENT_PICKS_CAP);
