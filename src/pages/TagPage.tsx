@@ -1,11 +1,11 @@
-import { useParams } from 'react-router';
+import { Link, useParams } from 'react-router';
 import { useVisibleStories } from '../app/useVisibleStories';
 import { StoryList } from '../components/StoryRow';
 import { useIndex } from '../data/IndexProvider';
 import type { TagKind } from '../data/types';
 import { NotFoundPage } from './NotFoundPage';
 
-export const KIND_LABEL: Record<TagKind, string> = { cultures: 'Culture', themes: 'Theme' };
+const KIND_LABEL: Record<TagKind, string> = { cultures: 'Cultures', themes: 'Themes' };
 const isKind = (k: string | undefined): k is TagKind => k === 'cultures' || k === 'themes';
 
 export function TagPage() {
@@ -19,7 +19,9 @@ export function TagPage() {
     .sort((a, b) => a.title.localeCompare(b.title));
   return (
     <div className="page">
-      <p className="muted eyebrow">{KIND_LABEL[kind]}</p>
+      <Link to={`/?by=${kind}`} className="back-link">
+        ‹ {KIND_LABEL[kind]}
+      </Link>
       <h1 className="page-title">{def.label}</h1>
       <p className="muted">
         {list.length} {list.length === 1 ? 'story' : 'stories'}

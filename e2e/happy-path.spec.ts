@@ -24,10 +24,7 @@ test('search → read → favorite → reload → resume → surprise', async ({
     'aria-pressed',
     'true',
   );
-  // Reopening jumps straight back to the saved place and says so.
-  await expect(page.getByRole('status', { name: 'Resumed' })).toContainText(
-    'Picked up where you left off',
-  );
+  // Reopening jumps straight back to the saved place.
   await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(500);
 
   await page.getByRole('link', { name: 'Library' }).click();

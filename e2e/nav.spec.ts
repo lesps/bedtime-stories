@@ -38,6 +38,5 @@ test('finished stories reopen at the top; rereads resume', async ({ page }) => {
   await page.goto('#/');
   await page.goto('#/s/aesop--the-heron');
   await expect(page.getByRole('heading', { level: 1, name: 'The Heron' })).toBeVisible();
-  await expect(page.getByRole('status', { name: 'Resumed' })).toHaveCount(0);
   expect(await page.evaluate(() => window.scrollY)).toBeLessThan(50);
 });

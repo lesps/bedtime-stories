@@ -53,9 +53,11 @@ src/domain/               pure logic: visibility, picker (+ presets), navigation
                           sections and re-tap rules), length ranges,
                           collection labels,
                           search normalisation, excerpt, typeset (curly quotes/dashes), progress,
-                          annotations (anchor + segments), notebook (list + Markdown export)
+                          annotations (anchor + segments), notebook (list + Markdown export),
+                          autoHide (reader bar show/hide on scroll)
 src/storage/              store.ts (single versioned localStorage key), StoreProvider.tsx (hooks)
-src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker
+src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker,
+                          useAutoHide
 src/notes/                selection (DOM → block offsets), MarkedText, HighlightToolbar, HighlightSheet,
                           NotesPanel
 src/pages/                Library, Collection, Tag, Reading (shelf), Favorites, Surprise, Settings,
@@ -64,7 +66,7 @@ src/offline/download.ts   "Make all stories available offline" (writes into the 
 src/app/                  App/routes/layout, TabBar, theme (system/light/sepia/dark), online status hook
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
 e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
-                          surprise (Give me 3), reading tab, notes, nav (tab re-taps)
+                          surprise (Give me 3), reading tab (+ reader bar), notes, nav (tab re-taps)
 ```
 
 ## Data contract (summary)
@@ -99,9 +101,9 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
   changes are picked up via the `storage` event.
 - **Resume**: `useReadingTracker` (IntersectionObserver) reports the topmost visible block,
   throttled to 800 ms; only indices > 0 are saved. Opening a story always jumps straight to its
-  saved block, unless it was finished (then it starts at the top). A toast above the tab bar says
-  "Picked up where you left off · Start over" for 6 s; Start over scrolls up and forgets the
-  place. Granularity is per block; some Grimm paragraphs are a screen or more long.
+  saved block, unless it was finished (then it starts at the top), with no prompt or notice. To
+  begin again, the shelf has **Start over** per story (forgets the place, opens at the top).
+  Granularity is per block; some Grimm paragraphs are a screen or more long.
 - **Read vs progress**: "read" (history) and the reading position are separate. Seeing the final
   block calls `finishStory`: marks read, records the position as `finished`, closes the book.
   Reading a finished story again overwrites the position (no longer finished) while it stays read,
@@ -115,7 +117,8 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
 - **Reading tab** (`pages/ReadingPage.tsx`, middle of the tab bar): the reader marks a visible
   story as the open story when it mounts; finishing it or **Close book** (header ✕, or tapping
   Reading again) clears it. Tapping Reading with an open story redirects into it. With nothing open it shows the shelf: the most
-  recent unfinished story (percent and minutes left), the other unfinished ones, and the last 5
+  recent unfinished story (percent and minutes left), the other unfinished ones (each with Start
+  over), and the last 5
   finished.
 - **Highlights and notes** (`src/notes/`, `domain/annotations.ts`): selecting text in one block
   shows a toolbar (four colours + Add note) placed below the selection, clear of the phone's own
@@ -161,6 +164,14 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
   closes it; the click ending a swipe never navigates. The action button is always in the tab
   order and accessibility tree, and focusing it opens the row, so no gesture is required.
   `store.markUnread` removes the story from history only; saved progress is kept.
+- **Reader bar** (`reader/useAutoHide.ts`, `domain/autoHide.ts`): the crumb + Aa / Notes / ♡ / ✕
+  row is sticky and slides away while scrolling down (more than 8 px past the top 64 px), back on
+  any 8 px scroll up, at the top, or when it gets focus. It sits outside `<header>` as a direct
+  child of the article so `position: sticky` lasts the whole story. The Aa panel hangs from the
+  bar's right edge so it stays on screen.
+- **Empty collections**: collections with no visible stories (e.g. Busch, all excluded by
+  default) are left out of the library and Surprise me's collection chips. Collection and tag
+  pages have a "‹ Library" / "‹ Themes" back link (installed iOS apps have no back button).
 - **Layout stability**: images render with `width`/`height` from `imageSizes.json` so space is
   reserved before they load; a story's first block, if an image, loads eagerly with
   `fetchpriority="high"`. Prev/next is rendered only once the story has loaded. These keep CLS

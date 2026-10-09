@@ -1,15 +1,17 @@
-import { Link, Navigate } from 'react-router';
+import { Link, Navigate, useNavigate } from 'react-router';
 import { useVisibleStories } from '../app/useVisibleStories';
 import { StoryList } from '../components/StoryRow';
 import { useIndex } from '../data/IndexProvider';
 import type { IndexEntry } from '../data/types';
 import { notebookMarkdown, notebookStories } from '../domain/notebook';
 import { isInProgress, progressInfo } from '../domain/progress';
-import { useAppState } from '../storage/StoreProvider';
+import { useAppState, useStore } from '../storage/StoreProvider';
 
 export function ReadingPage() {
   const { openStoryId, progress, history, annotations, storyNotes } = useAppState();
   const { collectionLabel } = useIndex();
+  const store = useStore();
+  const navigate = useNavigate();
   const visible = useVisibleStories();
   const byId = new Map(visible.map((s) => [s.id, s]));
 
@@ -41,6 +43,10 @@ export function ReadingPage() {
     a.click();
     URL.revokeObjectURL(url);
   };
+  const startOver = (id: string) => {
+    store.clearProgress(id);
+    navigate(`/s/${id}`);
+  };
   const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
 
   return (
@@ -68,9 +74,12 @@ export function ReadingPage() {
             )}
           </p>
           {hero.info && <Meter fraction={hero.info.fraction} />}
-          <Link to={`/s/${hero.entry.id}`} className="btn primary">
-            Keep reading
-          </Link>
+          <div className="row">
+            <Link to={`/s/${hero.entry.id}`} className="btn primary">
+              Keep reading
+            </Link>
+            <StartOver title={hero.entry.title} onClick={() => startOver(hero.entry.id)} />
+          </div>
         </section>
       )}
 
@@ -79,7 +88,7 @@ export function ReadingPage() {
           <h2 id="also-h">Also in progress</h2>
           <ul className="story-list shelf-list" aria-label="Also in progress">
             {others.map(({ entry, info }) => (
-              <li key={entry.id} className="story-row">
+              <li key={entry.id} className="story-row shelf-row">
                 <Link to={`/s/${entry.id}`} className="story-link">
                   <span className="story-title">{entry.title}</span>
                   <span className="story-meta">
@@ -88,6 +97,7 @@ export function ReadingPage() {
                   </span>
                   {info && <Meter fraction={info.fraction} />}
                 </Link>
+                <StartOver title={entry.title} onClick={() => startOver(entry.id)} />
               </li>
             ))}
           </ul>
@@ -134,5 +144,18 @@ function Meter({ fraction }: { fraction: number }) {
     <span className="meter" aria-hidden="true">
       <span style={{ width: `${Math.round(fraction * 100)}%` }} />
     </span>
+  );
+}
+
+function StartOver({ title, onClick }: { title: string; onClick: () => void }) {
+  return (
+    <button
+      type="button"
+      className="btn ghost"
+      aria-label={`Start ${title} over`}
+      onClick={onClick}
+    >
+      Start over
+    </button>
   );
 }

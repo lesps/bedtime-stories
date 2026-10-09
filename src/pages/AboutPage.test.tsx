@@ -12,6 +12,7 @@ describe('AboutPage', () => {
       'https://example.org/aesop',
       'https://example.org/grimm',
       'https://example.org/hunt',
+      'https://example.org/busch',
     ]);
   });
 });

@@ -1,4 +1,4 @@
-import { act, screen, within } from '@testing-library/react';
+import { act, fireEvent, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { createStore } from '../storage/store';
@@ -155,32 +155,10 @@ describe('ReaderPage', () => {
     renderApp('/s/aesop--the-heron', first.store);
     await screen.findByText('The Heron begins here.');
     expect(Element.prototype.scrollIntoView).toHaveBeenCalledTimes(1);
-    expect(screen.queryByRole('button', { name: /Continue from/ })).not.toBeInTheDocument();
-    expect(screen.getByRole('status', { name: 'Resumed' })).toHaveTextContent(
-      'Picked up where you left off',
-    );
-  });
-
-  it('lets the resume notice fade after a few seconds', async () => {
-    vi.useFakeTimers({ shouldAdvanceTime: true });
-    const store = createStore(localStorage);
-    store.setProgress('aesop--the-heron', 2, 4);
-    renderApp('/s/aesop--the-heron', store);
-    await screen.findByRole('status', { name: 'Resumed' });
-    act(() => void vi.advanceTimersByTime(6500));
-    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
-    vi.useRealTimers();
-  });
-
-  it('Start over goes to the top and forgets the saved place', async () => {
-    const store = createStore(localStorage);
-    store.setProgress('aesop--the-heron', 2, 4);
-    renderApp('/s/aesop--the-heron', store);
-    await screen.findByText('The Heron begins here.');
-    await userEvent.click(screen.getByRole('button', { name: 'Start over' }));
-    expect(window.scrollTo).toHaveBeenCalledWith(expect.objectContaining({ top: 0 }));
-    expect(store.get().progress['aesop--the-heron']).toBeUndefined();
-    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole('button', { name: /Continue from|Start over/ }),
+    ).not.toBeInTheDocument();
+    expect(screen.queryByRole('status')).not.toBeInTheDocument();
   });
 
   it('starts a finished story from the top, keeping it read', async () => {
@@ -189,7 +167,6 @@ describe('ReaderPage', () => {
     renderApp('/s/aesop--the-heron', store);
     await screen.findByText('The Heron begins here.');
     expect(Element.prototype.scrollIntoView).not.toHaveBeenCalled();
-    expect(screen.queryByRole('status', { name: 'Resumed' })).not.toBeInTheDocument();
     act(() => io.show([1]));
     await settle();
     expect(store.get().progress['aesop--the-heron']).toMatchObject({ blockIndex: 1 });
@@ -220,6 +197,26 @@ describe('ReaderPage', () => {
       blockCount: 4,
     });
     expect(store.get().history.map((h) => h.id)).toEqual(['aesop--the-heron']);
+  });
+
+  it('tucks the reader bar away while scrolling down and brings it back on scroll up', async () => {
+    renderApp('/s/aesop--the-heron');
+    await screen.findByText('The Heron begins here.');
+    const bar = screen.getByRole('button', { name: 'Close book' }).closest('[data-hidden]')!;
+    expect(bar).toHaveAttribute('data-hidden', 'false');
+    const scrollTo = (y: number) => {
+      window.scrollY = y;
+      fireEvent.scroll(window);
+    };
+    act(() => scrollTo(400));
+    expect(bar).toHaveAttribute('data-hidden', 'true');
+    act(() => scrollTo(300));
+    expect(bar).toHaveAttribute('data-hidden', 'false');
+    act(() => scrollTo(600));
+    expect(bar).toHaveAttribute('data-hidden', 'true');
+    act(() => screen.getByRole('button', { name: 'Notes' }).focus());
+    expect(bar).toHaveAttribute('data-hidden', 'false');
+    act(() => scrollTo(0));
   });
 
   it('explains when a story is not available offline', async () => {

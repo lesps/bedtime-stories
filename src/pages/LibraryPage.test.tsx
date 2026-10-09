@@ -1,6 +1,7 @@
 import { act, fireEvent, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it } from 'vitest';
+import { createStore } from '../storage/store';
 import { renderApp } from '../test/renderApp';
 
 describe('LibraryPage', () => {
@@ -10,6 +11,17 @@ describe('LibraryPage', () => {
     expect(aesop).toHaveTextContent('3 stories'); // mature one hidden
     expect(screen.getByRole('link', { name: /Grimms' Fairy Tales/ })).toHaveTextContent(
       '2 stories',
+    );
+  });
+
+  it('leaves out collections with no visible stories, and counts in the singular', async () => {
+    const store = createStore(localStorage);
+    renderApp('/', store);
+    await screen.findByRole('link', { name: /The Aesop for Children/ });
+    expect(screen.queryByRole('link', { name: /Max and Maurice/ })).not.toBeInTheDocument();
+    act(() => store.updateSettings({ showExcluded: true }));
+    expect(await screen.findByRole('link', { name: /Max and Maurice/ })).toHaveTextContent(
+      /1 story$/,
     );
   });
 

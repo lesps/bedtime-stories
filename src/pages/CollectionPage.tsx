@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { Link, useParams } from 'react-router';
 import { StoryList } from '../components/StoryRow';
 import { useIndex } from '../data/IndexProvider';
 import { visibleInCollection } from '../domain/navigation';
@@ -14,6 +14,9 @@ export function CollectionPage() {
   const list = visibleInCollection(stories, collectionId, settings);
   return (
     <div className="page">
+      <Link to="/" className="back-link">
+        ‹ Library
+      </Link>
       <h1 className="page-title">{collection.title}</h1>
       <p className="muted">
         {collection.author}

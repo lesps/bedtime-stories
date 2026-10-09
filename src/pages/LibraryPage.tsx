@@ -104,12 +104,15 @@ export function LibraryPage() {
             <ul className="collections">
               {collections.map((c) => {
                 const count = visible.filter((s) => s.collectionId === c.id).length;
+                if (count === 0) return null;
                 return (
                   <li key={c.id}>
                     <Link to={`/c/${c.id}`} className="collection-card" data-collection={c.id}>
                       <span className="collection-title">{c.title}</span>
                       <span className="muted">{c.contributor ?? c.author}</span>
-                      <span className="count">{count} stories</span>
+                      <span className="count">
+                        {count} {count === 1 ? 'story' : 'stories'}
+                      </span>
                     </Link>
                   </li>
                 );

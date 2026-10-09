@@ -15,14 +15,19 @@ export function TagCards({ kind }: { kind: TagKind }) {
     .sort((a, b) => counts.get(b.id)! - counts.get(a.id)!);
   return (
     <ul className="collections tag-cards">
-      {defs.map((d) => (
-        <li key={d.id}>
-          <Link to={`/tags/${kind}/${d.id}`} className="collection-card">
-            <span className="collection-title">{d.label}</span>
-            <span className="count">{counts.get(d.id)} stories</span>
-          </Link>
-        </li>
-      ))}
+      {defs.map((d) => {
+        const n = counts.get(d.id)!;
+        return (
+          <li key={d.id}>
+            <Link to={`/tags/${kind}/${d.id}`} className="collection-card">
+              <span className="collection-title">{d.label}</span>
+              <span className="count">
+                {n} {n === 1 ? 'story' : 'stories'}
+              </span>
+            </Link>
+          </li>
+        );
+      })}
     </ul>
   );
 }

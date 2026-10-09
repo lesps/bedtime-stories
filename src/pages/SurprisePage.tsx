@@ -125,17 +125,22 @@ export function SurprisePage() {
           >
             All collections
           </button>
-          {collections.map((c) => (
-            <button
-              key={c.id}
-              type="button"
-              className="chip"
-              aria-pressed={picker.collections.includes(c.id)}
-              onClick={() => toggleCollection(c.id)}
-            >
-              {collectionLabel(c.id)}
-            </button>
-          ))}
+          {collections
+            .filter(
+              (c) =>
+                picker.collections.includes(c.id) || visible.some((s) => s.collectionId === c.id),
+            )
+            .map((c) => (
+              <button
+                key={c.id}
+                type="button"
+                className="chip"
+                aria-pressed={picker.collections.includes(c.id)}
+                onClick={() => toggleCollection(c.id)}
+              >
+                {collectionLabel(c.id)}
+              </button>
+            ))}
         </div>
         <h2 className="filter-h">Cultures</h2>
         <p className="muted hint">Tap once to include, twice to leave out.</p>
