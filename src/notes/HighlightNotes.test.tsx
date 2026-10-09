@@ -97,6 +97,37 @@ describe('highlights and notes', () => {
     expect(screen.queryByRole('button', { name: /Highlight: Middle/ })).not.toBeInTheDocument();
   });
 
+  it('moves focus into the highlight sheet, closes it on Escape and returns focus', async () => {
+    const store = createStore(localStorage);
+    store.addHighlight('aesop--the-heron', {
+      block: 1,
+      start: 0,
+      end: 6,
+      quote: 'Middle',
+      color: 'yellow',
+    });
+    await openHeron(store);
+    const mark = screen.getByRole('button', { name: /Highlight: Middle/ });
+    await userEvent.click(mark);
+    const sheet = screen.getByRole('dialog', { name: /Highlight/ });
+    expect(sheet).toContainElement(document.activeElement as HTMLElement);
+    await userEvent.keyboard('{Escape}');
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    expect(mark).toHaveFocus();
+  });
+
+  it('closes the Notes panel on Escape from anywhere', async () => {
+    await openHeron();
+    const button = screen.getByRole('button', { name: 'Notes' });
+    await userEvent.click(button);
+    expect(screen.getByRole('dialog', { name: 'Notes' })).toContainElement(
+      document.activeElement as HTMLElement,
+    );
+    act(() => (document.activeElement as HTMLElement).blur());
+    await userEvent.keyboard('{Escape}');
+    expect(screen.queryByRole('dialog', { name: 'Notes' })).not.toBeInTheDocument();
+  });
+
   it('keeps a story note and lists highlights in the Notes panel, jumping to one', async () => {
     const store = createStore(localStorage);
     store.addHighlight('aesop--the-heron', {

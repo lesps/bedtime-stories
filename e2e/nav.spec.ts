@@ -40,3 +40,21 @@ test('finished stories reopen at the top; rereads resume', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1, name: 'The Heron' })).toBeVisible();
   expect(await page.evaluate(() => window.scrollY)).toBeLessThan(50);
 });
+
+test('back returns to the same place in a long list; new pages start at the top', async ({
+  page,
+}) => {
+  await page.goto('#/c/grimm');
+  const link = page.locator('.story-link').nth(30);
+  await link.scrollIntoViewIfNeeded();
+  await page.evaluate(() => window.scrollBy(0, 200));
+  const y = await page.evaluate(() => window.scrollY);
+  expect(y).toBeGreaterThan(1000);
+  await link.click();
+  await expect(page.getByRole('article')).toBeVisible();
+  expect(await page.evaluate(() => window.scrollY)).toBeLessThan(50);
+
+  await page.goBack();
+  await expect(page.getByRole('heading', { level: 1, name: "Grimms' Fairy Tales" })).toBeAttached();
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(y - 50);
+});

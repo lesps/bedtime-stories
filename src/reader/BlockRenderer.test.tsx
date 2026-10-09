@@ -48,6 +48,9 @@ describe('BlockRenderer', () => {
     // Intrinsic size reserves space before the image loads (no layout shift).
     expect(img).toHaveAttribute('width', '679');
     expect(img).toHaveAttribute('height', '977');
+    // Lets CSS cap the height (70vh) while keeping the box sized before the image loads.
+    expect(img.style.getPropertyValue('--ar')).toBe(String(679 / 977));
+    expect(img.style.getPropertyValue('--w')).toBe('679px');
   });
 
   it('loads a priority image eagerly so it can be the fast first paint', () => {

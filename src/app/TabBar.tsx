@@ -48,6 +48,9 @@ export function TabBar() {
 
   return (
     <nav className="tabbar" aria-label="Main">
+      <span className="tabbar-brand" aria-hidden="true">
+        Storybook
+      </span>
       {TABS.map((t) => (
         <Link
           key={t.id}

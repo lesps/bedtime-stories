@@ -332,6 +332,7 @@ main {
   top: 0;
   right: 0;
   bottom: 0;
+  width: 112px;
   border: 0;
   background: var(--accent);
   color: var(--on-accent);
@@ -347,6 +348,10 @@ main {
 .row-action:focus-visible {
   outline-offset: -4px;
   outline-color: var(--on-accent);
+}
+.story-link:focus-visible {
+  /* The row clips overflow (for the swipe tray), so keep the ring inside it. */
+  outline-offset: -3px;
 }
 .story-link {
   flex: 1;
@@ -404,6 +409,9 @@ main {
 .tabbar a.active {
   color: var(--accent);
   font-weight: 600;
+}
+.tabbar-brand {
+  display: none;
 }
 
 .offline-banner {
@@ -555,16 +563,13 @@ figure img {
   height: auto;
   border-radius: 8px;
 }
+/* Known size: cap the height at 70vh with a width the browser can lay out before the image
+   arrives (a max-height alone would leave the box unsized and shift the text). */
+figure img[style] {
+  width: min(100%, var(--w), calc(70vh * var(--ar)));
+}
 :root[data-theme='dark'] figure img {
   filter: brightness(0.88);
-}
-.resume {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0 0 1.5em;
-  font-family: system-ui, sans-serif;
-  font-size: 1rem;
 }
 .versions {
   margin-top: 2.5em;
@@ -1026,6 +1031,9 @@ mark.hl:focus-visible {
   font-size: 1rem;
   line-height: 1.45;
 }
+.sheet:focus {
+  outline: none;
+}
 .sheet-head {
   justify-content: space-between;
 }
@@ -1095,4 +1103,185 @@ mark.hl:focus-visible {
 }
 .section-head h2 {
   margin-bottom: 0.5rem;
+}
+
+/* Pointer feedback. Hover styles only where there is a real hover (not sticky taps on phones). */
+@media (hover: hover) {
+  .btn:not(:disabled):hover,
+  .chip:hover,
+  .preset:hover {
+    border-color: var(--muted);
+  }
+  .btn.primary:not(:disabled):hover,
+  .surprise-cta:hover {
+    filter: brightness(1.08);
+  }
+  .icon-btn:hover,
+  .tabbar a:hover {
+    color: var(--text);
+  }
+  .icon-btn:hover {
+    background: var(--surface);
+  }
+  .collection-card:hover {
+    border-color: var(--accent);
+  }
+  .row-content:hover {
+    background: var(--surface);
+  }
+  .tag-chip:hover {
+    border-color: var(--accent);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .btn,
+  .chip,
+  .icon-btn,
+  .preset,
+  .collection-card,
+  .row-content {
+    transition:
+      background-color 0.15s,
+      border-color 0.15s,
+      color 0.15s,
+      transform 0.1s;
+  }
+  .btn:not(:disabled):active,
+  .chip:active,
+  .preset:active,
+  .surprise-cta:active,
+  .collection-card:active {
+    transform: scale(0.98);
+  }
+}
+
+/* Mouse and trackpad: no swipe; the row's action sits inline and shows on hover or focus. */
+@media (hover: hover) and (pointer: fine) {
+  .row-content {
+    transform: none !important;
+  }
+  /* Overlaid just left of the heart, above the row content. */
+  .row-action {
+    right: 48px;
+    top: 50%;
+    bottom: auto;
+    z-index: 1;
+    width: auto;
+    min-height: 36px;
+    padding: 0 0.6rem;
+    transform: translateY(-50%);
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--accent);
+    font-size: 0.85rem;
+  }
+  .story-row:not([data-open='true']):not([data-dragging='true']) .row-action {
+    opacity: 0;
+  }
+  .story-row:hover .row-action,
+  .story-row:focus-within .row-action {
+    opacity: 1 !important;
+  }
+  .row-action:hover {
+    text-decoration: underline;
+  }
+  .row-action:focus-visible {
+    outline-color: var(--accent);
+  }
+}
+
+/* Desktop: the tab bar becomes a sidebar and pages get room to breathe. */
+@media (min-width: 64rem) {
+  :root {
+    --sidebar: 13rem;
+  }
+  .tabbar {
+    inset: 0 auto 0 0;
+    width: var(--sidebar);
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    padding: 1.5rem 0.75rem;
+    border-top: 0;
+    border-right: 1px solid var(--border);
+  }
+  .tabbar-brand {
+    display: block;
+    padding: 0 0.85rem 1.25rem;
+    font-family: var(--serif);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .tabbar a {
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 0.75rem;
+    padding: 0.65rem 0.85rem;
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+  .tabbar a.active {
+    background: var(--bg);
+  }
+  main,
+  .offline-banner {
+    margin-left: var(--sidebar);
+  }
+  main {
+    padding-bottom: 0;
+  }
+  .progress {
+    left: var(--sidebar);
+  }
+  .page {
+    max-width: 60rem;
+    padding: 2rem 2.5rem 3rem;
+  }
+  .page.prose {
+    max-width: 44rem;
+  }
+  .story-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.5rem;
+  }
+  .settings-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 0 1.25rem;
+  }
+  .reader {
+    padding-top: 2rem;
+  }
+  .reader-bar {
+    margin-top: -2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+  /* Sheets become a centred dialog; the Notes panel docks on the right. */
+  .sheet-backdrop {
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--sidebar);
+  }
+  .sheet {
+    max-width: 32rem;
+    border-radius: 18px;
+    padding-bottom: 1.25rem;
+    box-shadow: 0 20px 50px rgb(0 0 0 / 0.25);
+  }
+  .sheet-backdrop.drawer {
+    align-items: stretch;
+    justify-content: flex-end;
+    background: rgb(0 0 0 / 0.2);
+  }
+  .drawer .sheet {
+    width: 26rem;
+    max-height: none;
+    margin: 0;
+    border-radius: 0;
+    border-left: 1px solid var(--border);
+  }
 }

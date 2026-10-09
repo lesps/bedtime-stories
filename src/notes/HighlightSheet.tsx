@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useDialog } from '../components/useDialog';
 import { HIGHLIGHT_COLORS, type Highlight, type HighlightColor } from '../storage/store';
 
 const LABEL: Record<HighlightColor, string> = {
@@ -30,18 +31,20 @@ export function HighlightSheet({
     if (note !== (highlight.note ?? '')) onSaveNote(note);
     onClose();
   };
+  const dialog = useDialog<HTMLDivElement>(done);
   useEffect(() => {
     if (focusNote) area.current?.focus();
   }, [focusNote]);
   return (
     <div className="sheet-backdrop" onClick={done}>
       <div
+        ref={dialog}
+        tabIndex={-1}
         className="sheet"
         role="dialog"
         aria-modal="true"
         aria-label={`Highlight: ${highlight.quote}`}
         onClick={(e) => e.stopPropagation()}
-        onKeyDown={(e) => e.key === 'Escape' && done()}
       >
         <blockquote className="sheet-quote" data-color={highlight.color}>
           {highlight.quote}

@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import { usePrefersReducedMotion } from '../app/theme';
 import { useVisibleStories } from '../app/useVisibleStories';
 import { LengthSlider } from '../components/LengthSlider';
+import { StoryList } from '../components/StoryRow';
 import { TagFilterChips } from '../components/TagFilterChips';
 import { loadStory } from '../data/client';
 import { useIndex } from '../data/IndexProvider';
@@ -79,8 +80,10 @@ export function SurprisePage() {
     Number(picker.unreadOnly) +
     Number(picker.favoritesOnly);
 
+  const onScreen = new Set(result?.stories.map((s) => s.id));
   const recent = [...state.recentPicks]
     .reverse()
+    .filter((id) => !onScreen.has(id))
     .map((id) => visible.find((s) => s.id === id))
     .filter((s): s is IndexEntry => !!s);
 
@@ -253,13 +256,7 @@ export function SurprisePage() {
       {recent.length > 0 && (
         <section aria-labelledby="recent-h" className="recent">
           <h2 id="recent-h">Recently picked</h2>
-          <ul aria-label="Recently picked">
-            {recent.map((s) => (
-              <li key={s.id}>
-                <Link to={`/s/${s.id}`}>{s.title}</Link>
-              </li>
-            ))}
-          </ul>
+          <StoryList entries={recent} showCollection label="Recently picked" />
         </section>
       )}
     </div>

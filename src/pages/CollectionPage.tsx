@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router';
-import { StoryList } from '../components/StoryRow';
+import { LengthFilteredList } from '../components/LengthFilteredList';
 import { useIndex } from '../data/IndexProvider';
 import { visibleInCollection } from '../domain/navigation';
 import { useSettings } from '../storage/StoreProvider';
@@ -23,7 +23,7 @@ export function CollectionPage() {
         {collection.contributor && <> · {collection.contributor}</>}
         {collection.firstPublished && <> · {collection.firstPublished}</>}
       </p>
-      <StoryList entries={list} label={`Stories in ${collection.title}`} />
+      <LengthFilteredList entries={list} label={`Stories in ${collection.title}`} />
     </div>
   );
 }

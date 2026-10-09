@@ -63,10 +63,12 @@ src/notes/                selection (DOM → block offsets), MarkedText, Highlig
 src/pages/                Library, Collection, Tag, Reading (shelf), Favorites, Surprise, Settings,
                           About, NotFound
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
-src/app/                  App/routes/layout, TabBar, theme (system/light/sepia/dark), online status hook
+src/app/                  App/routes/layout, TabBar, theme (system/light/sepia/dark), online status hook,
+                          useScrollMemory (back/forward scroll positions)
 src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
 e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
-                          surprise (Give me 3), reading tab (+ reader bar), notes, nav (tab re-taps)
+                          surprise (Give me 3), reading tab (+ reader bar), notes, nav (tab re-taps,
+                          back keeps scroll), desktop (sidebar, hover actions, drawer, a11y)
 ```
 
 ## Data contract (summary)
@@ -109,6 +111,21 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
   Reading a finished story again overwrites the position (no longer finished) while it stays read,
   so rereads resume and show in Continue reading / the shelf. Story rows show both ("✓ read · 40%
   through"). Mark unread only touches history.
+- **Responsive layout** (`styles.css`): one breakpoint at 64rem (1024px). Below it, the phone
+  layout (bottom tab bar, single column). At and above it, the tab bar is a left sidebar
+  (`--sidebar`, 13rem, with a "Storybook" wordmark), pages widen to 60rem, story lists and
+  Settings cards go two-up, collection/tag cards three-up, the highlight sheet is a centred
+  dialog and the Notes panel docks on the right. The reader stays at 65ch. Hover styles live
+  under `@media (hover: hover)`; mouse/trackpad specifics under `(hover: hover) and (pointer:
+fine)`.
+- **Dialogs** (`components/useDialog.ts`): the highlight sheet and Notes panel move focus inside
+  on open, close on Escape from anywhere, and return focus to the opener. The Aa panel closes on
+  Escape (focus back to Aa) or a pointer-down outside it.
+- **Scroll memory** (`app/useScrollMemory.ts`): a new path starts at the top; Back/Forward
+  (`POP`) restore that history entry's position. Positions are saved per history key on scroll;
+  the key ref updates in a layout effect so the scroll clamp caused by a shorter new page is never
+  saved against the page being left. Query-only changes (`?notes=1`, `?by=`) don't scroll.
+  `history.scrollRestoration` is `manual`.
 - **Tab bar** (`app/TabBar.tsx`, `domain/nav.ts`): the current tab follows the section
   (`sectionOf`: collections and tag pages are Library, every story is Reading, About is
   Settings). Tapping (`tabTap`): another tab → its main screen; the current tab from deeper inside
@@ -162,8 +179,9 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
 - **Swipe actions** (`components/useSwipeReveal.ts`, `StoryRow`): swipe a story row left to
   reveal "Mark unread" (read stories) or "Mark read". One row open at a time; a tap on an open row
   closes it; the click ending a swipe never navigates. The action button is always in the tab
-  order and accessibility tree, and focusing it opens the row, so no gesture is required.
-  `store.markUnread` removes the story from history only; saved progress is kept.
+  order and accessibility tree, and focusing it opens the row, so no gesture is required. Mouse
+  drags are ignored; with a fine pointer the action is a pill beside the heart that shows on row
+  hover or focus. `store.markUnread` removes the story from history only; saved progress is kept.
 - **Reader bar** (`reader/useAutoHide.ts`, `domain/autoHide.ts`): the crumb + Aa / Notes / ♡ / ✕
   row is sticky and slides away while scrolling down (more than 8 px past the top 64 px), back on
   any 8 px scroll up, at the top, or when it gets focus. It sits outside `<header>` as a direct
@@ -171,9 +189,14 @@ progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progres
   bar's right edge so it stays on screen.
 - **Empty collections**: collections with no visible stories (e.g. Busch, all excluded by
   default) are left out of the library and Surprise me's collection chips. Collection and tag
-  pages have a "‹ Library" / "‹ Themes" back link (installed iOS apps have no back button).
+  pages have a "‹ Library" / "‹ Themes" back link (installed iOS apps have no back button) and
+  their own length slider with a count ("2 of 3 stories", `components/LengthFilteredList.tsx`).
+- **Surprise me, recently picked** lists the last picks as story rows, leaving out the ones on
+  screen.
 - **Layout stability**: images render with `width`/`height` from `imageSizes.json` so space is
-  reserved before they load; a story's first block, if an image, loads eagerly with
+  reserved before they load; illustrations are capped at 70vh via `--ar`/`--w` custom properties
+  (`width: min(100%, var(--w), 70vh × ratio)`), never `width: auto` + `max-height`, which leaves
+  the box unsized until load and shifted text by CLS 0.3 in Lighthouse; a story's first block, if an image, loads eagerly with
   `fetchpriority="high"`. Prev/next is rendered only once the story has loaded. These keep CLS
   near zero; without them Lighthouse performance on illustrated fables swung between 78 and 98.
   The integrity test fails if `imageSizes.json` doesn't match the images on disk.

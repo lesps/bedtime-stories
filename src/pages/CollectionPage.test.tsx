@@ -1,4 +1,4 @@
-import { screen, within } from '@testing-library/react';
+import { fireEvent, screen, within } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import { renderApp } from '../test/renderApp';
 
@@ -13,6 +13,17 @@ describe('CollectionPage', () => {
       'The Lion',
     ]);
     expect(rows[0]).toHaveTextContent('2 min');
+  });
+
+  it('filters by length and says how many match', async () => {
+    renderApp('/c/aesop');
+    const list = await screen.findByRole('list', { name: /Stories in/ });
+    expect(screen.getByText('3 stories')).toBeInTheDocument();
+    // Up to 2 min (stop index 1)
+    fireEvent.change(screen.getByRole('slider', { name: 'Longest' }), { target: { value: '1' } });
+    expect(within(list).getAllByRole('listitem')).toHaveLength(2);
+    expect(list).not.toHaveTextContent('The Lion');
+    expect(screen.getByText('2 of 3 stories')).toBeInTheDocument();
   });
 
   it('links back to the library', async () => {

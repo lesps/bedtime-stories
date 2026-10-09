@@ -12,35 +12,37 @@ export function SettingsPage() {
     <div className="page">
       <h1 className="page-title">Settings</h1>
 
-      <section aria-labelledby="look-h" className="card">
-        <h2 id="look-h">Reading</h2>
-        <p className="muted">“Auto” follows your phone: sepia by day, dark at night.</p>
-        <ThemePicker />
-        <TypeControls />
-      </section>
+      <div className="settings-cards">
+        <section aria-labelledby="look-h" className="card">
+          <h2 id="look-h">Reading</h2>
+          <p className="muted">“Auto” follows your device: sepia by day, dark at night.</p>
+          <ThemePicker />
+          <TypeControls />
+        </section>
 
-      <section aria-labelledby="content-h" className="card">
-        <h2 id="content-h">For grown-ups</h2>
-        <label className="toggle">
-          <input
-            type="checkbox"
-            checked={showMature}
-            onChange={(e) => store.updateSettings({ showMature: e.target.checked })}
-          />
-          Show stories with mature themes
-        </label>
-        <label className="toggle">
-          <input
-            type="checkbox"
-            checked={showExcluded}
-            onChange={(e) => store.updateSettings({ showExcluded: e.target.checked })}
-          />
-          Show stories excluded for offensive language
-        </label>
-      </section>
+        <section aria-labelledby="content-h" className="card">
+          <h2 id="content-h">For grown-ups</h2>
+          <label className="toggle">
+            <input
+              type="checkbox"
+              checked={showMature}
+              onChange={(e) => store.updateSettings({ showMature: e.target.checked })}
+            />
+            Show stories with mature themes
+          </label>
+          <label className="toggle">
+            <input
+              type="checkbox"
+              checked={showExcluded}
+              onChange={(e) => store.updateSettings({ showExcluded: e.target.checked })}
+            />
+            Show stories excluded for offensive language
+          </label>
+        </section>
 
-      <OfflineSection />
-      <ClearDataSection />
+        <OfflineSection />
+        <ClearDataSection />
+      </div>
 
       <p className="footer-links">
         <Link to="/about">About &amp; credits</Link>

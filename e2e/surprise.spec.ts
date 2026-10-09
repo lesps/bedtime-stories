@@ -14,8 +14,12 @@ test('Give me 3 with a preset offers three distinct stories, then remembers them
   for (const t of await cards.allTextContents()) {
     expect(Number(t.match(/(\d+) min/)![1])).toBeLessThanOrEqual(5);
   }
-  const recent = page.getByRole('list', { name: 'Recently picked' });
-  await expect(recent.getByRole('link')).toHaveCount(3);
+  // Remembered, but not listed under Recently picked while they're on screen.
+  const saved = await page.evaluate(
+    () => JSON.parse(localStorage.getItem('storybook:v1')!).recentPicks.length,
+  );
+  expect(saved).toBe(3);
+  await expect(page.getByRole('list', { name: 'Recently picked' })).toHaveCount(0);
   await cards.first().getByRole('link', { name: 'Read it' }).click();
   await expect(page.getByRole('article')).toBeVisible();
 });

@@ -199,6 +199,20 @@ describe('ReaderPage', () => {
     expect(store.get().history.map((h) => h.id)).toEqual(['aesop--the-heron']);
   });
 
+  it('closes the reading settings panel on Escape or a click elsewhere', async () => {
+    renderApp('/s/aesop--the-heron');
+    await screen.findByText('The Heron begins here.');
+    const aa = screen.getByRole('button', { name: 'Reading settings' });
+    await userEvent.click(aa);
+    expect(screen.getByRole('radiogroup', { name: 'Theme' })).toBeInTheDocument();
+    await userEvent.keyboard('{Escape}');
+    expect(screen.queryByRole('radiogroup', { name: 'Theme' })).not.toBeInTheDocument();
+    expect(aa).toHaveFocus();
+    await userEvent.click(aa);
+    await userEvent.click(screen.getByText('The Heron begins here.'));
+    expect(screen.queryByRole('radiogroup', { name: 'Theme' })).not.toBeInTheDocument();
+  });
+
   it('tucks the reader bar away while scrolling down and brings it back on scroll up', async () => {
     renderApp('/s/aesop--the-heron');
     await screen.findByText('The Heron begins here.');

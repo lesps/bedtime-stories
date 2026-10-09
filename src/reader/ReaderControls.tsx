@@ -1,4 +1,4 @@
-import { useId, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
 import { FONT_SIZES, THEMES, type Theme } from '../storage/store';
 import { useSettings, useStore } from '../storage/StoreProvider';
 
@@ -76,9 +76,29 @@ export function TypeControls() {
 export function ReaderControls() {
   const [open, setOpen] = useState(false);
   const id = useId();
+  const root = useRef<HTMLDivElement>(null);
+  const button = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape') return;
+      setOpen(false);
+      button.current?.focus();
+    };
+    const onDown = (e: PointerEvent) => {
+      if (!root.current?.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('pointerdown', onDown);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('pointerdown', onDown);
+    };
+  }, [open]);
   return (
-    <div className="reader-controls">
+    <div className="reader-controls" ref={root}>
       <button
+        ref={button}
         type="button"
         className="icon-btn"
         aria-expanded={open}

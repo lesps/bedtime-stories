@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { HashRouter, Outlet, Route, Routes, useLocation } from 'react-router';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { IndexProvider } from '../data/IndexProvider';
@@ -16,11 +15,11 @@ import { StoreProvider, useSettings } from '../storage/StoreProvider';
 import type { Store } from '../storage/store';
 import { TabBar } from './TabBar';
 import { useApplyTheme } from './theme';
+import { useScrollMemory } from './useScrollMemory';
 
 function Layout() {
   useApplyTheme(useSettings().theme);
-  const { pathname } = useLocation();
-  useEffect(() => window.scrollTo(0, 0), [pathname]);
+  useScrollMemory();
   return (
     <>
       <a
