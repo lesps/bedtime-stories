@@ -53,6 +53,11 @@ export function BlockRenderer({ block, index, priority, marks, onMark }: Props) 
             alt={block.alt}
             width={width}
             height={height}
+            style={
+              width && height
+                ? ({ '--ar': width / height, '--w': `${width}px` } as React.CSSProperties)
+                : undefined
+            }
             loading={priority ? 'eager' : 'lazy'}
             decoding="async"
             // React 18 only passes the lowercase attribute through.

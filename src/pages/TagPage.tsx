@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router';
 import { useVisibleStories } from '../app/useVisibleStories';
-import { StoryList } from '../components/StoryRow';
+import { LengthFilteredList } from '../components/LengthFilteredList';
 import { useIndex } from '../data/IndexProvider';
 import type { TagKind } from '../data/types';
 import { NotFoundPage } from './NotFoundPage';
@@ -23,10 +23,7 @@ export function TagPage() {
         ‹ {KIND_LABEL[kind]}
       </Link>
       <h1 className="page-title">{def.label}</h1>
-      <p className="muted">
-        {list.length} {list.length === 1 ? 'story' : 'stories'}
-      </p>
-      <StoryList entries={list} showCollection label={def.label} />
+      <LengthFilteredList entries={list} showCollection label={def.label} />
     </div>
   );
 }

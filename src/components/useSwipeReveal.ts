@@ -5,7 +5,8 @@ const SLOP = 10;
 
 /**
  * Horizontal swipe-left to reveal a fixed-width action tray. Vertical gestures are left to the
- * browser (pair with `touch-action: pan-y`). Only one row is open at a time.
+ * browser (pair with `touch-action: pan-y`). Only one row is open at a time. Mouse drags are
+ * ignored; fine pointers get the action on hover (CSS).
  */
 export function useSwipeReveal(id: string, width: number) {
   const [offset, setOffset] = useState(0);
@@ -34,7 +35,8 @@ export function useSwipeReveal(id: string, width: number) {
 
   const handlers = {
     onPointerDown(e: PointerEvent<HTMLElement>) {
-      if (e.button !== 0) return;
+      // Touch only: with a mouse, a drag is a text selection or a miss, and the action shows on hover.
+      if (e.button !== 0 || e.pointerType === 'mouse') return;
       swiped.current = false;
       gesture.current = { x: e.clientX, y: e.clientY, base: open ? -width : 0, axis: null };
     },

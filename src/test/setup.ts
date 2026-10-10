@@ -8,9 +8,11 @@ if (typeof window !== 'undefined') {
   if (!('PointerEvent' in window)) {
     class PointerEvent extends MouseEvent {
       pointerId: number;
+      pointerType: string;
       constructor(type: string, init: PointerEventInit = {}) {
         super(type, init);
         this.pointerId = init.pointerId ?? 0;
+        this.pointerType = init.pointerType ?? '';
       }
     }
     Object.assign(window, { PointerEvent });

@@ -9,7 +9,8 @@ Goble's plates) and Busch's Max and Maurice.
 **Live:** https://lesps.github.io/bedtime-stories/
 
 - Browse by collection, culture (Japanese, Norwegian, French…) or theme (animals, tricksters,
-  gentle & cosy…); search titles and tags; filter by length with a two-handled slider.
+  gentle & cosy…); search titles and tags; filter by length with a two-handled slider (in the
+  library and on every collection and tag page).
 - Serif reader with light / sepia / dark themes (Auto follows your phone), 5 text sizes, relaxed
   spacing, scroll progress, previous/next. Its toolbar slides away as you read and comes back
   when you scroll up.
@@ -27,6 +28,9 @@ Goble's plates) and Busch's Max and Maurice.
   theme (include or leave out — "no monsters tonight"), unread or favorites, with one-tap presets
   (Quick & gentle, Something new, Old favorite). Avoids your last 10 picks and other translations
   of them.
+- Works on phones, tablets and desktops: a bottom tab bar on small screens, a sidebar with wider,
+  multi-column pages on desktop; keyboard-friendly dialogs (Escape closes), hover actions with a
+  mouse, and Back returns to where you were in a list.
 - Installable PWA that works offline; one tap in Settings saves every story (~36 MB with
   illustrations, ~5 MB text only).
 - Tales told in more than one translation link to each other ("Other versions").

@@ -155,8 +155,20 @@ describe('SurprisePage', () => {
     expect(
       within(recent)
         .getAllByRole('link')
-        .map((a) => a.textContent),
+        .map((a) => a.querySelector('.story-title')?.textContent),
     ).toEqual(['The Heron', 'The Lion']);
+  });
+
+  it('leaves the story on screen out of Recently picked', async () => {
+    const store = createStore(localStorage);
+    store.recordPick('grimm--the-long-one');
+    renderApp('/surprise', store);
+    await userEvent.click(await screen.findByRole('button', { name: 'Pick a story' }));
+    const card = await screen.findByRole('region', { name: 'Your story' });
+    const picked = within(card).getByRole('heading').textContent!;
+    const recent = screen.getByRole('list', { name: 'Recently picked' });
+    expect(recent).toHaveTextContent('The Long One');
+    expect(recent).not.toHaveTextContent(picked);
   });
 
   it('resets filters to the defaults, keeping the count', async () => {

@@ -7,12 +7,13 @@ import { renderApp } from '../test/renderApp';
 const rowFor = (title: string) => screen.getByText(title).closest('li')!;
 const content = (row: HTMLElement) => row.querySelector<HTMLElement>('.row-content')!;
 
-function swipe(row: HTMLElement, dx: number, dy = 0) {
+function swipe(row: HTMLElement, dx: number, dy = 0, pointerType = 'touch') {
   const el = content(row);
-  fireEvent.pointerDown(el, { clientX: 300, clientY: 100, pointerId: 1, button: 0 });
-  fireEvent.pointerMove(el, { clientX: 300 + dx / 2, clientY: 100 + dy / 2, pointerId: 1 });
-  fireEvent.pointerMove(el, { clientX: 300 + dx, clientY: 100 + dy, pointerId: 1 });
-  fireEvent.pointerUp(el, { clientX: 300 + dx, clientY: 100 + dy, pointerId: 1 });
+  const at = (x: number, y: number) => ({ clientX: x, clientY: y, pointerId: 1, pointerType });
+  fireEvent.pointerDown(el, { ...at(300, 100), button: 0 });
+  fireEvent.pointerMove(el, at(300 + dx / 2, 100 + dy / 2));
+  fireEvent.pointerMove(el, at(300 + dx, 100 + dy));
+  fireEvent.pointerUp(el, at(300 + dx, 100 + dy));
 }
 
 describe('StoryRow swipe actions', () => {
@@ -30,6 +31,14 @@ describe('StoryRow swipe actions', () => {
 
     expect(store.get().history).toEqual([]);
     expect(row).not.toHaveTextContent(/·\s*read/);
+    expect(row).toHaveAttribute('data-open', 'false');
+  });
+
+  it('ignores mouse drags: with a mouse the action shows on hover instead', async () => {
+    renderApp('/c/aesop');
+    await screen.findByText('The Lion');
+    const row = rowFor('The Lion');
+    swipe(row, -120, 0, 'mouse');
     expect(row).toHaveAttribute('data-open', 'false');
   });
 

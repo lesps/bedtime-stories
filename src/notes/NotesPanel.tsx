@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useDialog } from '../components/useDialog';
 import type { Highlight } from '../storage/store';
 
 /** Story note plus every highlight in reading order; set-aside ones listed separately. */
@@ -23,15 +24,17 @@ export function NotesPanel({
     save();
     onClose();
   };
+  const dialog = useDialog<HTMLDivElement>(close);
   return (
-    <div className="sheet-backdrop" onClick={close}>
+    <div className="sheet-backdrop drawer" onClick={close}>
       <div
+        ref={dialog}
+        tabIndex={-1}
         className="sheet notes-panel"
         role="dialog"
         aria-modal="true"
         aria-label="Notes"
         onClick={(e) => e.stopPropagation()}
-        onKeyDown={(e) => e.key === 'Escape' && close()}
       >
         <div className="row sheet-head">
           <h2>Notes</h2>
