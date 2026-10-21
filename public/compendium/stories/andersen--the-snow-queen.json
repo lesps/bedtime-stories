@@ -6,10 +6,14 @@
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 11918,
+ "wordCount": 11929,
  "readingMinutes": 66,
  "moral": null,
  "blocks": [
+  {
+   "type": "heading",
+   "text": "First Story. Which Treats of a Mirror and of the Splinters"
+  },
   {
    "type": "p",
    "text": "Now then, let us begin. When we are at the end of the story, we shall know more than we know now: but to begin."
@@ -23,8 +27,8 @@
    "text": "“That's glorious fun!” said the sprite. If a good thought passed through a man's mind, then a grin was seen in the mirror, and the sprite laughed heartily at his clever discovery. All the little sprites who went to his school—for he kept a sprite school—told each other that a miracle had happened; and that now only, as they thought, it would be possible to see how the world really looked. They ran about with the mirror; and at last there was not a land or a person who was not represented distorted in the mirror. So then they thought they would fly up to the sky, and have a joke there. The higher they flew with the mirror, the more terribly it grinned: they could hardly hold it fast. Higher and higher still they flew, nearer and nearer to the stars, when suddenly the mirror shook so terribly with grinning, that it flew out of their hands and fell to the earth, where it was dashed in a hundred million and more pieces. And now it worked much more evil than before; for some of these pieces were hardly so large as a grain of sand, and they flew about in the wide world, and when they got into people's eyes, there they stayed; and then people saw everything perverted, or only had an eye for that which was evil. This happened because the very smallest bit had the same power which the whole mirror had possessed. Some persons even got a splinter in their heart, and then it made one shudder, for their heart became like a lump of ice. Some of the broken pieces were so large that they were used for windowpanes, through which one could not see one's friends. Other pieces were put in spectacles; and that was a sad affair when people put on their glasses to see well and rightly. Then the wicked sprite laughed till he almost choked, for all this tickled his fancy. The fine splinters still flew about in the air: and now we shall hear what happened next."
   },
   {
-   "type": "p",
-   "text": "SECOND STORY. A Little Boy and a Little Girl"
+   "type": "heading",
+   "text": "Second Story. A Little Boy and a Little Girl"
   },
   {
    "type": "p",
@@ -155,8 +159,8 @@
    "text": "Kay looked at her. She was very beautiful; a more clever, or a more lovely countenance he could not fancy to himself; and she no longer appeared of ice as before, when she sat outside the window, and beckoned to him; in his eyes she was perfect, he did not fear her at all, and told her that he could calculate in his head and with fractions, even; that he knew the number of square miles there were in the different countries, and how many inhabitants they contained; and she smiled while he spoke. It then seemed to him as if what he knew was not enough, and he looked upwards in the large huge empty space above him, and on she flew with him; flew high over the black clouds, while the storm moaned and whistled as though it were singing some old tune. On they flew over woods and lakes, over seas, and many lands; and beneath them the chilling storm rushed fast, the wolves howled, the snow crackled; above them flew large screaming crows, but higher up appeared the moon, quite large and bright; and it was on it that Kay gazed during the long long winter's night; while by day he slept at the feet of the Snow Queen."
   },
   {
-   "type": "p",
-   "text": "THIRD STORY. Of the Flower-Garden At the Old Woman's Who Understood Witchcraft"
+   "type": "heading",
+   "text": "Third Story. Of the Flower-Garden at the Old Woman’s Who Understood Witchcraft"
   },
   {
    "type": "p",
@@ -371,8 +375,8 @@
    "text": "Oh, how tender and wearied her little feet were! All around it looked so cold and raw: the long willow-leaves were quite yellow, and the fog dripped from them like water; one leaf fell after the other: the sloes only stood full of fruit, which set one's teeth on edge. Oh, how dark and comfortless it was in the dreary world!"
   },
   {
-   "type": "p",
-   "text": "FOURTH STORY. The Prince and Princess"
+   "type": "heading",
+   "text": "Fourth Story. The Prince and Princess"
   },
   {
    "type": "p",
@@ -543,8 +547,8 @@
    "text": "“Farewell! Farewell!” cried Prince and Princess; and Gerda wept, and the Raven wept. Thus passed the first miles; and then the Raven bade her farewell, and this was the most painful separation of all. He flew into a tree, and beat his black wings as long as he could see the carriage, that shone from afar like a sunbeam."
   },
   {
-   "type": "p",
-   "text": "FIFTH STORY. The Little Robber Maiden"
+   "type": "heading",
+   "text": "Fifth Story. The Little Robber Maiden"
   },
   {
    "type": "p",
@@ -663,8 +667,8 @@
    "text": "“These are my old northern-lights,” said the Reindeer, “look how they gleam!” And on he now sped still quicker—day and night on he went: the loaves were consumed, and the ham too; and now they were in Lapland."
   },
   {
-   "type": "p",
-   "text": "SIXTH STORY. The Lapland Woman and the Finland Woman"
+   "type": "heading",
+   "text": "Sixth Story. The Lapland Woman and the Finland Woman"
   },
   {
    "type": "p",
@@ -727,8 +731,8 @@
    "text": "But now we shall see how Kay fared. He never thought of Gerda, and least of all that she was standing before the palace."
   },
   {
-   "type": "p",
-   "text": "SEVENTH STORY. What Took Place in the Palace of the Snow Queen, and what Happened Afterward."
+   "type": "heading",
+   "text": "Seventh Story. What Took Place in the Palace of the Snow Queen, and What Happened Afterward"
   },
   {
    "type": "p",

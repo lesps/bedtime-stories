@@ -6,7 +6,7 @@
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 3369,
+ "wordCount": 3368,
  "readingMinutes": 19,
  "moral": null,
  "blocks": [
@@ -104,11 +104,11 @@
   },
   {
    "type": "p",
-   "text": "The sparrow asked him to follow her, and flying before him she led him to a beautiful house in the heart of the bamboo grove. The old man was utterly astonished when he entered the house to find what a beautiful place it was. It was built of the whitest wood, the soft cream-colored mats which took the place of carpets were the finest he had ever seen, and the cushions that the sparrow brought out for him to sit on were made of the finest silk and crape. Beautiful vases and lacquer boxes adorned the tokonoma[1] of every room."
+   "text": "The sparrow asked him to follow her, and flying before him she led him to a beautiful house in the heart of the bamboo grove. The old man was utterly astonished when he entered the house to find what a beautiful place it was. It was built of the whitest wood, the soft cream-colored mats which took the place of carpets were the finest he had ever seen, and the cushions that the sparrow brought out for him to sit on were made of the finest silk and crape. Beautiful vases and lacquer boxes adorned the tokonoma of every room."
   },
   {
-   "type": "p",
-   "text": "[1] An alcove where precious objects are displayed."
+   "type": "note",
+   "text": "An alcove where precious objects are displayed."
   },
   {
    "type": "p",

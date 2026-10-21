@@ -6,7 +6,7 @@ export function typeset(text: string): string {
   if (!/["'-]/.test(text)) return text;
   return (
     text
-      .replace(/--/g, '—')
+      .replace(/-{2,}/g, '—')
       .replace(ELISIONS, '’')
       // A quote followed by space, end or punctuation closes; one opening a word after space,
       // start, a bracket or a dash opens; anything else closes.

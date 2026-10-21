@@ -73,6 +73,15 @@ versioning: [SemVer](https://semver.org/).
 
 ### Fixed
 
+- Story text review (`docs/text-review.md`, corrections in `tools/fix_text.py`): Hunt's _Twelve
+  Idle Servants_ split out of _The Three Sluggards_ (615 stories); translators' footnotes in
+  Andersen, Ozaki and Taylor's _Golden Goose_ shown as notes instead of story text; junk removed
+  from the end of _The Golden Key_ and _The Stones of Five Colors_; section headings in _The Snow
+  Queen_, _The Shoes of Fortune_ and four Grimm tales; 25 quotation-mark errors, 14 typos, 9
+  line-wrap hyphenations and 31 drop-cap capitals ("THERE was once") corrected; Hunt titles and
+  Lang's source notes tidied. New integrity checks keep these from coming back.
+- `---` in the Hunt text rendered as "—-"; any run of hyphens is now one em dash.
+
 - Escape didn't close the highlight sheet unless focus was inside it, so it could stay open behind
   the Notes panel.
 - Keyboard focus rings on story rows were clipped.

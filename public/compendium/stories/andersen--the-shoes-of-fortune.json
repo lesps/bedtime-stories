@@ -6,10 +6,14 @@
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 12637,
+ "wordCount": 12631,
  "readingMinutes": 70,
  "moral": null,
  "blocks": [
+  {
+   "type": "heading",
+   "text": "I. A Beginning"
+  },
   {
    "type": "p",
    "text": "Every author has some peculiarity in his descriptions or in his style of writing. Those who do not like him, magnify it, shrug up their shoulders, and exclaim—there he is again! I, for my part, know very well how I can bring about this movement and this exclamation. It would happen immediately if I were to begin here, as I intended to do, with: “Rome has its Corso, Naples its Toledo”—“Ah! that Andersen; there he is again!” they would cry; yet I must, to please my fancy, continue quite quietly, and add: “But Copenhagen has its East Street.”"
@@ -24,11 +28,11 @@
   },
   {
    "type": "p",
-   "text": "They had got just so far, and the conversation began to crystallise, as it could but do with the scanty stream which the commonplace world supplied. Amongst other things they spoke of the middle ages: some praised that period as far more interesting, far more poetical than our own too sober present; indeed Councillor Knap defended this opinion so warmly, that the hostess declared immediately on his side, and both exerted themselves with unwearied eloquence. The Councillor boldly declared the time of King Hans to be the noblest and the most happy period.*"
+   "text": "They had got just so far, and the conversation began to crystallise, as it could but do with the scanty stream which the commonplace world supplied. Amongst other things they spoke of the middle ages: some praised that period as far more interesting, far more poetical than our own too sober present; indeed Councillor Knap defended this opinion so warmly, that the hostess declared immediately on his side, and both exerted themselves with unwearied eloquence. The Councillor boldly declared the time of King Hans to be the noblest and the most happy period."
   },
   {
-   "type": "p",
-   "text": "* A.D. 1482-1513"
+   "type": "note",
+   "text": "A.D. 1482-1513"
   },
   {
    "type": "p",
@@ -55,7 +59,7 @@
    "text": "Such was their conversation."
   },
   {
-   "type": "p",
+   "type": "heading",
    "text": "II. What Happened to the Councillor"
   },
   {
@@ -244,11 +248,11 @@
   },
   {
    "type": "p",
-   "text": "So far all went on well. Some one of the worthy burghers now spoke of the dreadful pestilence that had raged in the country a few years back, meaning that of 1484. The Councillor imagined it was the cholera that was meant, which people made so much fuss about; and the discourse passed off satisfactorily enough. The war of the buccaneers of 1490 was so recent that it could not fail being alluded to; the English pirates had, they said, most shamefully taken their ships while in the roadstead; and the Councillor, before whose eyes the Herostratic [*] event of 1801 still floated vividly, agreed entirely with the others in abusing the rascally English. With other topics he was not so fortunate; every moment brought about some new confusion, and threatened to become a perfect Babel; for the worthy Bachelor was really too ignorant, and the simplest observations of the Councillor sounded to him too daring and phantastical. They looked at one another from the crown of the head to the soles of the feet; and when matters grew to too high a pitch, then the Bachelor talked Latin, in the hope of being better understood—but it was of no use after all."
+   "text": "So far all went on well. Some one of the worthy burghers now spoke of the dreadful pestilence that had raged in the country a few years back, meaning that of 1484. The Councillor imagined it was the cholera that was meant, which people made so much fuss about; and the discourse passed off satisfactorily enough. The war of the buccaneers of 1490 was so recent that it could not fail being alluded to; the English pirates had, they said, most shamefully taken their ships while in the roadstead; and the Councillor, before whose eyes the Herostratic event of 1801 still floated vividly, agreed entirely with the others in abusing the rascally English. With other topics he was not so fortunate; every moment brought about some new confusion, and threatened to become a perfect Babel; for the worthy Bachelor was really too ignorant, and the simplest observations of the Councillor sounded to him too daring and phantastical. They looked at one another from the crown of the head to the soles of the feet; and when matters grew to too high a pitch, then the Bachelor talked Latin, in the hope of being better understood—but it was of no use after all."
   },
   {
-   "type": "verse",
-   "text": "     * Herostratus, or Eratostratus—an Ephesian, who wantonly\n     set fire to the famous temple of Diana, in order to\n     commemorate his name by so uncommon an action."
+   "type": "note",
+   "text": "Herostratus, or Eratostratus—an Ephesian, who wantonly set fire to the famous temple of Diana, in order to commemorate his name by so uncommon an action."
   },
   {
    "type": "p",
@@ -283,8 +287,8 @@
    "text": "Two minutes later, he was sitting in a hackney-coach and driving to Frederickshafen. He thought of the distress and agony he had endured, and praised from the very bottom of his heart the happy reality—our own time—which, with all its deficiencies, is yet much better than that in which, so much against his inclination, he had lately been."
   },
   {
-   "type": "p",
-   "text": "III. The Watchman's Adventure"
+   "type": "heading",
+   "text": "III. The Watchman’s Adventure"
   },
   {
    "type": "p",
@@ -336,11 +340,11 @@
   },
   {
    "type": "p",
-   "text": "As to ourselves, we all know the speed produced by the employment of steam; we have experienced it either on railroads, or in boats when crossing the sea; but such a flight is like the travelling of a sloth in comparison with the velocity with which light moves. It flies nineteen million times faster than the best race-horse; and yet electricity is quicker still. Death is an electric shock which our heart receives; the freed soul soars upwards on the wings of electricity. The sun's light wants eight minutes and some seconds to perform a journey of more than twenty million of our Danish [*] miles; borne by electricity, the soul wants even some minutes less to accomplish the same flight. To it the space between the heavenly bodies is not greater than the distance between the homes of our friends in town is for us, even if they live a short way from each other; such an electric shock in the heart, however, costs us the use of the body here below; unless, like the watchman of East Street, we happen to have on the Shoes of Fortune."
+   "text": "As to ourselves, we all know the speed produced by the employment of steam; we have experienced it either on railroads, or in boats when crossing the sea; but such a flight is like the travelling of a sloth in comparison with the velocity with which light moves. It flies nineteen million times faster than the best race-horse; and yet electricity is quicker still. Death is an electric shock which our heart receives; the freed soul soars upwards on the wings of electricity. The sun's light wants eight minutes and some seconds to perform a journey of more than twenty million of our Danish miles; borne by electricity, the soul wants even some minutes less to accomplish the same flight. To it the space between the heavenly bodies is not greater than the distance between the homes of our friends in town is for us, even if they live a short way from each other; such an electric shock in the heart, however, costs us the use of the body here below; unless, like the watchman of East Street, we happen to have on the Shoes of Fortune."
   },
   {
-   "type": "verse",
-   "text": "     * A Danish mile is nearly 4 3/4 English."
+   "type": "note",
+   "text": "A Danish mile is nearly 4 3/4 English."
   },
   {
    "type": "p",
@@ -348,11 +352,11 @@
   },
   {
    "type": "p",
-   "text": "He perceived immediately a quantity of beings who were certainly what we call “men”; yet they looked different to us. A far more correct imagination than that of the pseudo-Herschel* had created them; and if they had been placed in rank and file, and copied by some skilful painter's hand, one would, without doubt, have exclaimed involuntarily, “What a beautiful arabesque!”"
+   "text": "He perceived immediately a quantity of beings who were certainly what we call “men”; yet they looked different to us. A far more correct imagination than that of the pseudo-Herschel had created them; and if they had been placed in rank and file, and copied by some skilful painter's hand, one would, without doubt, have exclaimed involuntarily, “What a beautiful arabesque!”"
   },
   {
-   "type": "p",
-   "text": "*This relates to a book published some years ago in Germany, and said to be by Herschel, which contained a description of the moon and its inhabitants, written with such a semblance of truth that many were deceived by the imposture."
+   "type": "note",
+   "text": "This relates to a book published some years ago in Germany, and said to be by Herschel, which contained a description of the moon and its inhabitants, written with such a semblance of truth that many were deceived by the imposture."
   },
   {
    "type": "p",
@@ -364,11 +368,11 @@
   },
   {
    "type": "p",
-   "text": "The watchman's spirit understood the language of the inhabitants of the moon pretty well. The Selenites* disputed variously about our earth, and expressed their doubts if it could be inhabited: the air, they said, must certainly be too dense to allow any rational dweller in the moon the necessary free respiration. They considered the moon alone to be inhabited: they imagined it was the real heart of the universe or planetary system, on which the genuine Cosmopolites, or citizens of the world, dwelt. What strange things men—no, what strange things Selenites sometimes take into their heads!"
+   "text": "The watchman's spirit understood the language of the inhabitants of the moon pretty well. The Selenites disputed variously about our earth, and expressed their doubts if it could be inhabited: the air, they said, must certainly be too dense to allow any rational dweller in the moon the necessary free respiration. They considered the moon alone to be inhabited: they imagined it was the real heart of the universe or planetary system, on which the genuine Cosmopolites, or citizens of the world, dwelt. What strange things men—no, what strange things Selenites sometimes take into their heads!"
   },
   {
-   "type": "p",
-   "text": "* Dwellers in the moon."
+   "type": "note",
+   "text": "Dwellers in the moon."
   },
   {
    "type": "p",
@@ -380,11 +384,11 @@
   },
   {
    "type": "p",
-   "text": "He sat lifeless on the steps: the morning-star,* that is to say, the heavy wooden staff, headed with iron spikes, and which had nothing else in common with its sparkling brother in the sky, had glided from his hand; while his eyes were fixed with glassy stare on the moon, looking for the good old fellow of a spirit which still haunted it."
+   "text": "He sat lifeless on the steps: the morning-star, that is to say, the heavy wooden staff, headed with iron spikes, and which had nothing else in common with its sparkling brother in the sky, had glided from his hand; while his eyes were fixed with glassy stare on the moon, looking for the good old fellow of a spirit which still haunted it."
   },
   {
-   "type": "p",
-   "text": "*The watchmen in Germany, had formerly, and in some places they still carry with them, on their rounds at night, a sort of mace or club, known in ancient times by the above denomination."
+   "type": "note",
+   "text": "The watchmen in Germany, had formerly, and in some places they still carry with them, on their rounds at night, a sort of mace or club, known in ancient times by the above denomination."
   },
   {
    "type": "p",
@@ -403,8 +407,8 @@
    "text": "The same day he was discharged from the hospital as perfectly cured; but the Shoes meanwhile remained behind."
   },
   {
-   "type": "p",
-   "text": "IV. A Moment of Head Importance—An Evening's “Dramatic Readings”—A Most Strange Journey"
+   "type": "heading",
+   "text": "IV. A Moment of Head Importance—An Evening’s “Dramatic Readings”—A Most Strange Journey"
   },
   {
    "type": "p",
@@ -472,11 +476,11 @@
   },
   {
    "type": "p",
-   "text": "With the snake-like writhings of an idea he glided into another female heart; but this seemed to him like a large holy fane. [*] The white dove of innocence fluttered over the altar. How gladly would he have sunk upon his knees; but he must away to the next heart; yet he still heard the pealing tones of the organ, and he himself seemed to have become a newer and a better man; he felt unworthy to tread the neighboring sanctuary which a poor garret, with a sick bed-rid mother, revealed. But God's warm sun streamed through the open window; lovely roses nodded from the wooden flower-boxes on the roof, and two sky-blue birds sang rejoicingly, while the sick mother implored God's richest blessings on her pious daughter."
+   "text": "With the snake-like writhings of an idea he glided into another female heart; but this seemed to him like a large holy fane. The white dove of innocence fluttered over the altar. How gladly would he have sunk upon his knees; but he must away to the next heart; yet he still heard the pealing tones of the organ, and he himself seemed to have become a newer and a better man; he felt unworthy to tread the neighboring sanctuary which a poor garret, with a sick bed-rid mother, revealed. But God's warm sun streamed through the open window; lovely roses nodded from the wooden flower-boxes on the roof, and two sky-blue birds sang rejoicingly, while the sick mother implored God's richest blessings on her pious daughter."
   },
   {
-   "type": "verse",
-   "text": "     * temple"
+   "type": "note",
+   "text": "temple"
   },
   {
    "type": "p",
@@ -500,11 +504,11 @@
   },
   {
    "type": "p",
-   "text": "“Good Heavens!” sighed he. “I have surely a disposition to madness—'tis dreadfully hot here; my blood boils in my veins and my head is burning like a coal.” And he now remembered the important event of the evening before, how his head had got jammed in between the iron railings of the hospital. “That's what it is, no doubt,” said he. “I must do something in time: under such circumstances a Russian bath might do me good. I only wish I were already on the upper bank.” [*]"
+   "text": "“Good Heavens!” sighed he. “I have surely a disposition to madness—'tis dreadfully hot here; my blood boils in my veins and my head is burning like a coal.” And he now remembered the important event of the evening before, how his head had got jammed in between the iron railings of the hospital. “That's what it is, no doubt,” said he. “I must do something in time: under such circumstances a Russian bath might do me good. I only wish I were already on the upper bank.”"
   },
   {
-   "type": "verse",
-   "text": "     *In these Russian (vapor) baths the person extends himself\n     on a bank or form, and as he gets accustomed to the heat,\n     moves to another higher up towards the ceiling, where, of\n     course, the vapor is warmest. In this manner he ascends\n     gradually to the highest."
+   "type": "note",
+   "text": "In these Russian (vapor) baths the person extends himself on a bank or form, and as he gets accustomed to the heat, moves to another higher up towards the ceiling, where, of course, the vapor is warmest. In this manner he ascends gradually to the highest."
   },
   {
    "type": "p",
@@ -523,16 +527,16 @@
    "text": "The next morning he had a sore chest and a bleeding back; and, excepting the fright, that was all that he had gained by the Shoes of Fortune."
   },
   {
-   "type": "p",
+   "type": "heading",
    "text": "V. Metamorphosis of the Copying-Clerk"
   },
   {
    "type": "p",
-   "text": "The watchman, whom we have certainly not forgotten, thought meanwhile of the galoshes he had found and taken with him to the hospital; he now went to fetch them; and as neither the lieutenant, nor anybody else in the street, claimed them as his property, they were delivered over to the police-office.*"
+   "text": "The watchman, whom we have certainly not forgotten, thought meanwhile of the galoshes he had found and taken with him to the hospital; he now went to fetch them; and as neither the lieutenant, nor anybody else in the street, claimed them as his property, they were delivered over to the police-office."
   },
   {
-   "type": "p",
-   "text": "*As on the continent, in all law and police practices nothing is verbal, but any circumstance, however trifling, is reduced to writing, the labor, as well as the number of papers that thus accumulate, is enormous. In a police-office, consequently, we find copying-clerks among many other scribes of various denominations, of which, it seems, our hero was one."
+   "type": "note",
+   "text": "As on the continent, in all law and police practices nothing is verbal, but any circumstance, however trifling, is reduced to writing, the labor, as well as the number of papers that thus accumulate, is enormous. In a police-office, consequently, we find copying-clerks among many other scribes of various denominations, of which, it seems, our hero was one."
   },
   {
    "type": "p",
@@ -683,7 +687,7 @@
    "text": "“Heaven help me!” cried he. “How did I get up here—and so buried in sleep, too? After all, that was a very unpleasant, disagreeable dream that haunted me! The whole story is nothing but silly, stupid nonsense!”"
   },
   {
-   "type": "p",
+   "type": "heading",
    "text": "VI. The Best That the Galoshes Gave"
   },
   {

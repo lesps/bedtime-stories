@@ -104,3 +104,62 @@ describe('compendium integrity', () => {
     },
   );
 });
+
+// Text hygiene: regressions of the fixes in tools/fix_text.py (see docs/text-review.md).
+describe('story text', () => {
+  const stories = index.stories.map((e) =>
+    storySchema.parse(JSON.parse(readFileSync(join(root, 'stories', `${e.id}.json`), 'utf8'))),
+  );
+  const offenders = (test: (text: string, type: string) => boolean) =>
+    stories.flatMap((s) =>
+      s.blocks
+        .map((b, i) => [b, i] as const)
+        .filter(([b]) => 'text' in b && test(b.text, b.type))
+        .map(([b, i]) => `${s.id} [${i}]: ${'text' in b ? b.text.slice(0, 60) : ''}`),
+    );
+
+  it('has no footnote markers left in the body (footnotes are note blocks)', () => {
+    expect(
+      offenders(
+        (t, type) => type !== 'note' && /\[\*\]|\[\d\]|[\w.,!?”’]\*(\s|$)|^\s*\*\s*\w/.test(t),
+      ),
+    ).toEqual([]);
+  });
+
+  it('has no words broken by line-wrap hyphenation ("Rose- red")', () => {
+    expect(offenders((t) => /[A-Za-z]- [A-Za-z]/.test(t))).toEqual([]);
+  });
+
+  it('has no drop-cap capitals at the start of a paragraph ("THERE was once")', () => {
+    expect(
+      offenders(
+        (t, type) =>
+          (type === 'p' || type === 'verse') &&
+          /^\s*[“‘"']?[A-Z]{2,}[\s,’']+[A-Za-z’']*[a-z]/.test(t),
+      ),
+    ).toEqual([]);
+  });
+
+  it('has no blank blocks or separator lines', () => {
+    expect(offenders((t) => !t.trim() || (/^[-*_\s]{8,}$/.test(t) && !/\* \*/.test(t)))).toEqual(
+      [],
+    );
+  });
+
+  it('keeps short words lower case inside titles', () => {
+    const small = /^(a|an|and|the|of|in|on|to|with|at|by|for|or)$/i;
+    const bad = index.stories.filter((s) =>
+      s.title
+        .split(' ')
+        .some(
+          (w, i, ws) =>
+            i > 0 &&
+            small.test(w) &&
+            /^[A-Z]/.test(w) &&
+            !/[;:(]$|^or,$/.test(ws[i - 1]!) &&
+            !/^A-/.test(w),
+        ),
+    );
+    expect(bad.map((s) => s.title)).toEqual([]);
+  });
+});

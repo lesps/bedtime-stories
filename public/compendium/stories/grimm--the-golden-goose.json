@@ -12,7 +12,7 @@
  "blocks": [
   {
    "type": "p",
-   "text": "There was a man who had three sons, the youngest of whom was called Dummling,[*] and was despised, mocked, and sneered at on every occasion."
+   "text": "There was a man who had three sons, the youngest of whom was called Dummling, and was despised, mocked, and sneered at on every occasion."
   },
   {
    "type": "p",
@@ -91,8 +91,8 @@
    "text": "Dummling went straight into the forest, and there sat the little grey man to whom he had given his cake. When he heard what Dummling wanted, he said: ‘Since you have given me to eat and to drink, I will give you the ship; and I do all this because you once were kind to me.’ Then he gave him the ship which could sail on land and water, and when the king saw that, he could no longer prevent him from having his daughter. The wedding was celebrated, and after the king’s death, Dummling inherited his kingdom and lived for a long time contentedly with his wife."
   },
   {
-   "type": "verse",
-   "text": "     [*] Simpleton"
+   "type": "note",
+   "text": "Dummling: Simpleton."
   }
  ],
  "workId": "grimm-khm-064"

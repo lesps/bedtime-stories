@@ -12,6 +12,10 @@ describe('typeset', () => {
     ["'Twas the night; 'tis cold; give 'em bread", '’Twas the night; ’tis cold; give ’em bread'],
     ['wait--what?', 'wait—what?'],
     ['wait -- what?', 'wait — what?'],
+    // Hunt's text uses three hyphens for a dash; that is one em dash, not a dash and a hyphen.
+    ['the glass answered---', 'the glass answered—'],
+    ['feathers fly---for then', 'feathers fly—for then'],
+    ['Cock-a-doodle-doo! The story is all told,---', 'Cock-a-doodle-doo! The story is all told,—'],
     ['("Run")', '(“Run”)'],
     ['it turned out--" "Buzz! Buzz!"', 'it turned out—” “Buzz! Buzz!”'],
     ['"Why certainly——" began the Tortoise', '“Why certainly——” began the Tortoise'],

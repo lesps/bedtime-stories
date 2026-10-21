@@ -6,7 +6,7 @@
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 1480,
+ "wordCount": 1479,
  "readingMinutes": 8,
  "moral": null,
  "blocks": [
@@ -96,7 +96,11 @@
   },
   {
    "type": "verse",
-   "text": "    “Ach! du lieber Augustin,\n    Alles ist weg, weg, weg!”*\n\n    * “Ah! dear Augustine!\n    All is gone, gone, gone!”"
+   "text": "    “Ach! du lieber Augustin,\n    Alles ist weg, weg, weg!”"
+  },
+  {
+   "type": "note",
+   "text": "“Ah! dear Augustine! All is gone, gone, gone!”"
   },
   {
    "type": "p",

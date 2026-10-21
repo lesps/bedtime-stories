@@ -64,8 +64,8 @@ COLLECTION_CULTURE = {
 }
 
 ORIGIN_CULTURE = [
-    (r"perrault|aulnoy|villeneuve|beaumont|cabinet des fees", "french"),
-    (r"asbjornsen", "norwegian"),
+    (r"perrault|aulnoy|villeneuve|beaumont|cabinet des f[eé]es", "french"),
+    (r"asbj[oø]rnsen", "norwegian"),
     (r"grimm", "german"),
     (r"arabian nights", "arabian"),
     (r"scotland", "scottish"),
@@ -172,6 +172,9 @@ THRESHOLD = {
 
 # Hand-review decisions: story id -> {"add": [...], "remove": [...]}.
 OVERRIDES: dict[str, dict[str, list[str]]] = {
+    # Two comic tales of laziness (split apart by tools/fix_text.py).
+    "grimm-hunt--the-three-sluggards": {"add": ["royalty", "fools"], "remove": ["family"]},
+    "grimm-hunt--the-twelve-idle-servants": {"add": ["fools"], "remove": ["greed-pride"]},
     "aesop--the-lion-the-bear-and-the-fox": {
         "remove": [
             "ghosts"

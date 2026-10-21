@@ -6,7 +6,7 @@
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 2997,
+ "wordCount": 2993,
  "readingMinutes": 17,
  "moral": null,
  "blocks": [
@@ -72,11 +72,11 @@
   },
   {
    "type": "p",
-   "text": "“The Greeks and Romans,” said the old man, “called her a Dryad; but that we do not understand. The people who live in the New Booths [*] have a much better name for her; they call her 'old Granny'—and she it is to whom you are to pay attention. Now listen, and look at the beautiful Elderbush."
+   "text": "“The Greeks and Romans,” said the old man, “called her a Dryad; but that we do not understand. The people who live in the New Booths have a much better name for her; they call her 'old Granny'—and she it is to whom you are to pay attention. Now listen, and look at the beautiful Elderbush."
   },
   {
-   "type": "verse",
-   "text": "     * A row of buildings for seamen in Copenhagen."
+   "type": "note",
+   "text": "A row of buildings for seamen in Copenhagen."
   },
   {
    "type": "p",
@@ -160,11 +160,11 @@
   },
   {
    "type": "p",
-   "text": "“It is lovely here in spring!” said the young maiden. And they stood in a beech-wood that had just put on its first green, where the woodroof [*] at their feet sent forth its fragrance, and the pale-red anemony looked so pretty among the verdure. “Oh, would it were always spring in the sweetly-smelling Danish beech-forests!”"
+   "text": "“It is lovely here in spring!” said the young maiden. And they stood in a beech-wood that had just put on its first green, where the woodroof at their feet sent forth its fragrance, and the pale-red anemony looked so pretty among the verdure. “Oh, would it were always spring in the sweetly-smelling Danish beech-forests!”"
   },
   {
-   "type": "verse",
-   "text": "     * Asperula odorata."
+   "type": "note",
+   "text": "Asperula odorata."
   },
   {
    "type": "p",

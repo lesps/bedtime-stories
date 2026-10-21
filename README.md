@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 614 public-domain children's stories in 12 collections — Aesop
+A calm, offline-capable reader for 615 public-domain children's stories in 12 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick

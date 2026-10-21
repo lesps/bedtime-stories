@@ -6,7 +6,7 @@
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 4220,
+ "wordCount": 4219,
  "readingMinutes": 23,
  "moral": null,
  "blocks": [
@@ -120,7 +120,7 @@
   },
   {
    "type": "p",
-   "text": "\"Indeed,\" said Urashima, \"I regret very much that I have no \"sake\" in my boat to offer you, but come up and dry your back in the sun—tortoises always love to do that.\""
+   "text": "\"Indeed,\" said Urashima, \"I regret very much that I have no 'sake' in my boat to offer you, but come up and dry your back in the sun—tortoises always love to do that.\""
   },
   {
    "type": "p",
@@ -164,11 +164,11 @@
   },
   {
    "type": "p",
-   "text": "\"This is strange indeed!\" said Urashima; \"then. Mr. Tortoise, with your kind permission I will get on your back. Dokoisho!\"[2] he exclaimed as he jumped on."
+   "text": "\"This is strange indeed!\" said Urashima; \"then. Mr. Tortoise, with your kind permission I will get on your back. Dokoisho!\" he exclaimed as he jumped on."
   },
   {
-   "type": "p",
-   "text": "[2] \"All right\" (only used by lower classes)."
+   "type": "note",
+   "text": "\"All right\" (only used by lower classes)."
   },
   {
    "type": "p",

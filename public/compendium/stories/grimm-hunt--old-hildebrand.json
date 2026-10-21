@@ -6,7 +6,7 @@
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 1322,
+ "wordCount": 1323,
  "readingMinutes": 7,
  "moral": null,
  "workId": "grimm-khm-095",
@@ -70,7 +70,7 @@
   },
   {
    "type": "verse",
-   "text": "\"I wish 'twas a year before he came back,\nI'd never ask himfor the laurel-leaf sack.\""
+   "text": "\"I wish 'twas a year before he came back,\nI'd never ask him for the laurel-leaf sack.\""
   },
   {
    "type": "p",

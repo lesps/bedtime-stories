@@ -3,7 +3,7 @@
  "collectionId": "lang-blue",
  "order": 28,
  "title": "Prince Darling",
- "origin": "Cabinet des Fees.",
+ "origin": "Cabinet des Fées.",
  "excluded": false,
  "flags": [],
  "wordCount": 4682,
@@ -12,7 +12,7 @@
  "blocks": [
   {
    "type": "p",
-   "text": "ONCE upon a time there lived a king who was so just and kind that his subjects called him “the Good King.” It happened one day, when he was out hunting, that a little white rabbit, which his dogs were chasing, sprang into his arms for shelter. The King stroked it gently, and said to it:"
+   "text": "Once upon a time there lived a king who was so just and kind that his subjects called him “the Good King.” It happened one day, when he was out hunting, that a little white rabbit, which his dogs were chasing, sprang into his arms for shelter. The King stroked it gently, and said to it:"
   },
   {
    "type": "p",

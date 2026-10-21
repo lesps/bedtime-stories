@@ -1,7 +1,7 @@
 {
  "id": "grimm-hunt--the-drummer",
  "collectionId": "grimm-hunt",
- "order": 193,
+ "order": 194,
  "title": "The Drummer",
  "origin": null,
  "excluded": false,
@@ -70,7 +70,7 @@
   },
   {
    "type": "verse",
-   "text": "\"Drummer, drummer, I pray thee hear!\nHast thou forgotten thy heldest me dear?\nThat on the glass-mountain we sat hour by hour?\nThat I rescued thy life from the witch's power?\nDidst thou not plight thy troth to me?\nDrummer, drummer, hearken to me!\""
+   "text": "\"Drummer, drummer, I pray thee hear!\nHast thou forgotten thou heldest me dear?\nThat on the glass-mountain we sat hour by hour?\nThat I rescued thy life from the witch's power?\nDidst thou not plight thy troth to me?\nDrummer, drummer, hearken to me!\""
   },
   {
    "type": "p",

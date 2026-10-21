@@ -13,8 +13,8 @@
  "originalTitle": "Die Hochzeit der Frau Füchsin",
  "blocks": [
   {
-   "type": "p",
-   "text": "FIRST STORY"
+   "type": "heading",
+   "text": "First Story"
   },
   {
    "type": "p",
@@ -69,8 +69,8 @@
    "text": "But just as the wedding was going to be solemnized, old Mr. Fox stirred under the bench, and cudgelled all the rabble, and drove them and Mrs. Fox out of the house."
   },
   {
-   "type": "p",
-   "text": "SECOND STORY"
+   "type": "heading",
+   "text": "Second Story"
   },
   {
    "type": "p",
@@ -122,7 +122,7 @@
   },
   {
    "type": "p",
-   "text": "Mrs. Fox asked, \"Has the gentleman red stockings on' and has he a pointed mouth?\" \"No,\" answered the cat. \"Then he won't do for me.\""
+   "text": "Mrs. Fox asked, \"Has the gentleman red stockings on, and has he a pointed mouth?\" \"No,\" answered the cat. \"Then he won't do for me.\""
   },
   {
    "type": "p",

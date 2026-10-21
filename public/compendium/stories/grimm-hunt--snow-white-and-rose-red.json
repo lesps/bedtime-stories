@@ -1,12 +1,12 @@
 {
  "id": "grimm-hunt--snow-white-and-rose-red",
  "collectionId": "grimm-hunt",
- "order": 161,
+ "order": 162,
  "title": "Snow-White and Rose-Red",
  "origin": null,
  "excluded": false,
  "flags": [],
- "wordCount": 2436,
+ "wordCount": 2435,
  "readingMinutes": 14,
  "moral": null,
  "workId": "grimm-khm-161",
@@ -14,7 +14,7 @@
  "blocks": [
   {
    "type": "p",
-   "text": "There was once a poor widow who lived in a lonely cottage. In front of the cottage was a garden wherein stood two rose-trees, one of which bore white and the other red roses. She had two children who were like the two rose-trees, and one was called Snow-white, and the other Rose-red. They were as good and happy, as busy and cheerful as ever two children in the world were, only Snow-white was more quiet and gentle than Rose- red. Rose-red liked better to run about in the meadows and fields seeking flowers and catching butterflies; but Snow-white sat at home with her mother, and helped her with her house-work, or read to her when there was nothing to do."
+   "text": "There was once a poor widow who lived in a lonely cottage. In front of the cottage was a garden wherein stood two rose-trees, one of which bore white and the other red roses. She had two children who were like the two rose-trees, and one was called Snow-white, and the other Rose-red. They were as good and happy, as busy and cheerful as ever two children in the world were, only Snow-white was more quiet and gentle than Rose-red. Rose-red liked better to run about in the meadows and fields seeking flowers and catching butterflies; but Snow-white sat at home with her mother, and helped her with her house-work, or read to her when there was nothing to do."
   },
   {
    "type": "p",
