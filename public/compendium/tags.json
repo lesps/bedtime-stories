@@ -1,7 +1,7 @@
 {
 "schemaVersion": 1,
 "cultures": [{"id": "greek", "label": "Ancient Greek"}, {"id": "german", "label": "German"}, {"id": "danish", "label": "Danish"}, {"id": "french", "label": "French"}, {"id": "norwegian", "label": "Norwegian"}, {"id": "english", "label": "English"}, {"id": "scottish", "label": "Scottish"}, {"id": "irish", "label": "Irish"}, {"id": "arabian", "label": "Arabian Nights"}, {"id": "turkish", "label": "Turkish"}, {"id": "estonian", "label": "Estonian"}, {"id": "japanese", "label": "Japanese"}],
-"themes": [{"id": "animals", "label": "Animals"}, {"id": "fables", "label": "Fables with a moral"}, {"id": "tricksters", "label": "Tricksters & clever escapes"}, {"id": "kindness", "label": "Kindness rewarded"}, {"id": "greed-pride", "label": "Greed & pride punished"}, {"id": "royalty", "label": "Kings, queens & castles"}, {"id": "magic", "label": "Magic & enchantment"}, {"id": "monsters", "label": "Giants, witches & monsters"}, {"id": "family", "label": "Brothers, sisters & family"}, {"id": "how-things-began", "label": "How things came to be"}, {"id": "fools", "label": "Fools & silly folk"}, {"id": "quests", "label": "Journeys & quests"}, {"id": "wishes", "label": "Wishes & bargains"}, {"id": "underdogs", "label": "Youngest & underdogs"}, {"id": "legends", "label": "Faith & legends"}, {"id": "ghosts", "label": "Ghosts & spirits"}, {"id": "gentle", "label": "Gentle & cosy"}],
+"themes": [{"id": "animals", "label": "Animals"}, {"id": "fables", "label": "Fables with a moral"}, {"id": "tricksters", "label": "Tricksters & clever escapes"}, {"id": "kindness", "label": "Kindness rewarded"}, {"id": "greed-pride", "label": "Greed & pride punished"}, {"id": "royalty", "label": "Kings, queens & castles"}, {"id": "magic", "label": "Magic & enchantment"}, {"id": "monsters", "label": "Giants, witches & monsters"}, {"id": "family", "label": "Brothers, sisters & family"}, {"id": "how-things-began", "label": "How things came to be"}, {"id": "fools", "label": "Fools & silly folk"}, {"id": "quests", "label": "Journeys & quests"}, {"id": "wishes", "label": "Wishes & bargains"}, {"id": "underdogs", "label": "Youngest & underdogs"}, {"id": "legends", "label": "Faith & legends"}, {"id": "ghosts", "label": "Ghosts & spirits"}, {"id": "gentle", "label": "Gentle & cosy"}, {"id": "gods-heroes", "label": "Gods & heroes"}],
 "stories": {
 "aesop--the-wolf-and-the-kid": {"cultures": ["greek"], "themes": ["animals", "fables", "fools", "gentle"]},
 "aesop--the-tortoise-and-the-ducks": {"cultures": ["greek"], "themes": ["animals", "fables", "greed-pride", "fools", "quests", "gentle"]},
@@ -616,6 +616,18 @@
 "japan-james--the-moon-maiden": {"cultures": ["japanese"], "themes": ["magic", "gentle"]},
 "japan-james--karma": {"cultures": ["japanese"], "themes": ["legends"]},
 "japan-james--the-sad-story-of-the-yaoyas-daughter": {"cultures": ["japanese"], "themes": ["legends"]},
-"busch-max-maurice--max-and-maurice": {"cultures": ["german"], "themes": ["tricksters"]}
+"busch-max-maurice--max-and-maurice": {"cultures": ["german"], "themes": ["tricksters"]},
+"hawthorne-tanglewood--the-minotaur": {"cultures": ["greek"], "themes": ["royalty", "monsters", "gods-heroes"]},
+"hawthorne-tanglewood--the-pygmies": {"cultures": ["greek"], "themes": ["monsters", "gods-heroes"]},
+"hawthorne-tanglewood--the-dragon-s-teeth": {"cultures": ["greek"], "themes": ["monsters", "quests", "gods-heroes"]},
+"hawthorne-tanglewood--circe-s-palace": {"cultures": ["greek"], "themes": ["royalty", "gods-heroes"]},
+"hawthorne-tanglewood--the-pomegranate-seeds": {"cultures": ["greek"], "themes": ["gods-heroes"]},
+"hawthorne-tanglewood--the-golden-fleece": {"cultures": ["greek"], "themes": ["royalty", "monsters", "gods-heroes"]},
+"myths-greek--theseus-and-the-minotaur": {"cultures": ["greek"], "themes": ["royalty", "monsters", "family", "gods-heroes"]},
+"myths-greek--heracles-and-the-pygmies": {"cultures": ["greek"], "themes": ["monsters", "family", "quests", "gods-heroes"]},
+"myths-greek--cadmus-and-the-dragon-s-teeth": {"cultures": ["greek"], "themes": ["animals", "royalty", "monsters", "family", "quests", "gods-heroes"]},
+"myths-greek--odysseus-and-circe": {"cultures": ["greek"], "themes": ["animals", "tricksters", "royalty", "magic", "quests", "gentle", "gods-heroes"]},
+"myths-greek--persephone-and-the-pomegranate-seeds": {"cultures": ["greek"], "themes": ["royalty", "quests", "gods-heroes"]},
+"myths-greek--jason-and-the-golden-fleece": {"cultures": ["greek"], "themes": ["kindness", "royalty", "magic", "monsters", "gods-heroes"]}
 }
 }

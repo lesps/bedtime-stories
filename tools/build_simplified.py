@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+"""Builds the simplified-retelling collections from tools/simplified/*.md.
+
+Each Markdown file is one story, named `<storyId>.md`, with a small front matter:
+
+    ---
+    title: Theseus and the Minotaur
+    adaptedFrom: hawthorne-tanglewood--the-minotaur
+    order: 1
+    namesNote: optional sentence about names that differ in the original
+    ---
+    Paragraphs, separated by blank lines.
+
+The story inherits `workId` from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
+and `readingLevel`, and ends with a note naming the original. The original gets
+`simplifiedId` pointing back. Edit the .md files, never the generated JSON, then run:
+
+    python3 tools/build_simplified.py && python3 tools/tag_stories.py
+"""
+import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from compendium_io import finish, load_index, load_story, save_index, sync_entry, upsert_collection  # noqa: E402
+
+SRC = Path(__file__).parent / "simplified"
+ADAPTED_BY = "Claude (Anthropic), 2026"
+
+COLLECTIONS = {
+    "myths-greek": {
+        "id": "myths-greek",
+        "title": "Greek Myths, Simply Told",
+        "author": "Traditional (ancient Greek)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
+}
+
+
+def parse(path):
+    raw = path.read_text()
+    m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
+    if not m:
+        raise SystemExit(f"{path.name}: missing front matter")
+    meta = dict(line.split(": ", 1) for line in m.group(1).splitlines() if line.strip())
+    paras = [re.sub(r"\s*\n\s*", " ", p).strip() for p in re.split(r"\n\s*\n", m.group(2))]
+    return meta, [p for p in paras if p]
+
+
+def main():
+    index = load_index()
+    by_collection = {cid: [] for cid in COLLECTIONS}
+    originals = {}
+    for path in sorted(SRC.glob("*.md")):
+        sid = path.stem
+        cid = sid.split("--")[0]
+        if cid not in COLLECTIONS:
+            raise SystemExit(f"{path.name}: unknown collection {cid}")
+        meta, paras = parse(path)
+        orig = load_story(meta["adaptedFrom"])
+        coll = next(c for c in index["collections"] if c["id"] == orig["collectionId"])
+        credit = f"{coll['author']}'s “{orig['title']}” in {coll['title']}"
+        if coll.get("firstPublished"):
+            credit += f" ({coll['firstPublished']})"
+        note = f"A simplified retelling of {credit}. The original is listed under Other versions."
+        if meta.get("namesNote"):
+            note += " " + meta["namesNote"]
+        story = {
+            "id": sid,
+            "collectionId": cid,
+            "order": int(meta["order"]),
+            "title": meta["title"],
+            "origin": None,
+            "excluded": orig["excluded"],
+            "flags": orig["flags"],
+            "moral": None,
+            "blocks": [{"type": "p", "text": p} for p in paras] + [{"type": "note", "text": note}],
+            "workId": orig["workId"],
+            "adaptation": "simplified",
+            "adaptedBy": ADAPTED_BY,
+            "adaptedFrom": orig["id"],
+        }
+        if "source" in orig:
+            story["source"] = orig["source"]
+        by_collection[cid].append(finish(story))
+        originals[orig["id"]] = sid
+    for cid, stories in by_collection.items():
+        if stories:
+            upsert_collection(index, COLLECTIONS[cid], sorted(stories, key=lambda s: s["order"]))
+    for oid, sid in originals.items():
+        orig = load_story(oid)
+        orig["simplifiedId"] = sid
+        sync_entry(index, orig)
+    save_index(index)
+    for stories in by_collection.values():
+        for s in stories:
+            print(f"{s['id']:55} {s['wordCount']:5} words {s['readingMinutes']:3} min  {s['readingLevel']}")
+
+
+if __name__ == "__main__":
+    main()

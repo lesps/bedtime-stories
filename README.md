@@ -1,10 +1,11 @@
 # Storybook
 
-A calm, offline-capable reader for 614 public-domain children's stories in 12 collections — Aesop
+A calm, offline-capable reader for 626 public-domain children's stories in 14 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
-Goble's plates) and Busch's Max and Maurice.
+Goble's plates), Busch's Max and Maurice, and the start of a world-mythology shelf: Hawthorne's
+Tanglewood Tales with simplified retellings for young readers (Greek Myths, Simply Told).
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -70,3 +71,7 @@ stripped; sources are linked on the About page (and per book for Potter). Freder
 trademarks on Peter Rabbit and other Potter characters, so don't use them in the app's name, icon
 or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
+
+The simplified retellings (`myths-greek`) were written by Claude (Anthropic) from public-domain
+originals; their editable source is `tools/simplified/*.md`, rebuilt into story JSON by
+`tools/build_simplified.py`. Each one links to its original.

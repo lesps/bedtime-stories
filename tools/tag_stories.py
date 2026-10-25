@@ -47,6 +47,7 @@ THEMES = [
     ("legends", "Faith & legends"),
     ("ghosts", "Ghosts & spirits"),
     ("gentle", "Gentle & cosy"),
+    ("gods-heroes", "Gods & heroes"),
 ]
 
 COLLECTION_CULTURE = {
@@ -61,7 +62,12 @@ COLLECTION_CULTURE = {
     "kipling-justso": "english",
     "japan-ozaki": "japanese",
     "japan-james": "japanese",
+    "hawthorne-tanglewood": "greek",
+    "myths-greek": "greek",
 }
+
+# Myth collections: every story gets the gods-heroes theme.
+MYTH_COLLECTIONS = {"hawthorne-tanglewood", "myths-greek"}
 
 ORIGIN_CULTURE = [
     (r"perrault|aulnoy|villeneuve|beaumont|cabinet des fees", "french"),
@@ -172,6 +178,9 @@ THRESHOLD = {
 
 # Hand-review decisions: story id -> {"add": [...], "remove": [...]}.
 OVERRIDES: dict[str, dict[str, list[str]]] = {
+    # Persephone is carried off and the world starves: not "gentle", whatever the word counts say.
+    "hawthorne-tanglewood--the-pomegranate-seeds": {"remove": ["gentle"]},
+    "myths-greek--persephone-and-the-pomegranate-seeds": {"remove": ["gentle"]},
     "aesop--the-lion-the-bear-and-the-fox": {
         "remove": [
             "ghosts"
@@ -294,6 +303,8 @@ def themes_of(story):
         found.add("how-things-began")
     if col == "potter":
         found.add("animals")
+    if col in MYTH_COLLECTIONS:
+        found.add("gods-heroes")
     scary = len(re.findall(SCARY, text)) * 1000 / n
     if scary < 1.0 and "mature-themes" not in story["flags"] and not {"monsters", "ghosts"} & found:
         found.add("gentle")
