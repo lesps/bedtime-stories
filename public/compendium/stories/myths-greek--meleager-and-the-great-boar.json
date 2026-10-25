@@ -1,0 +1,77 @@
+{
+ "id": "myths-greek--meleager-and-the-great-boar",
+ "collectionId": "myths-greek",
+ "order": 30,
+ "title": "Meleager and the Great Boar",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "When Meleager was a newborn baby, his mother, Queen Althea, saw three strange old women standing by the fireplace. They were the Fates, who spin the thread of every person's life."
+  },
+  {
+   "type": "p",
+   "text": "\"This child,\" they said, \"will live only as long as that log burning in the fire.\""
+  },
+  {
+   "type": "p",
+   "text": "The queen jumped up, pulled the burning log out of the fire, and put out the flames. Then she hid the log away in a safe place. And because the log never burned, Meleager grew up strong and healthy."
+  },
+  {
+   "type": "p",
+   "text": "When he was a young man, his father, the king, held a great feast to thank the gods. But he forgot to thank Artemis, the goddess of the hunt. Artemis was angry. She sent a gigantic wild boar to the kingdom. It had eyes like fire, bristles like spears and tusks as long as an elephant's. It trampled the wheat fields and smashed the vineyards. The farmers ran away in fear."
+  },
+  {
+   "type": "p",
+   "text": "Meleager called on the bravest heroes of Greece to help him hunt it. Jason came, and Theseus, and many others. And a young woman came too. Her name was Atalanta, and she was the best hunter of them all."
+  },
+  {
+   "type": "p",
+   "text": "They found the boar hiding in a swamp. It charged out at them. One hero fell. Another hero climbed a tree to get away. Jason threw his spear, and it missed. Then Atalanta drew her bow, and her arrow was the first to hit the boar."
+  },
+  {
+   "type": "p",
+   "text": "\"Well done!\" cried Meleager. He rushed in with his spear, and he finished the boar off."
+  },
+  {
+   "type": "p",
+   "text": "Everyone cheered. Meleager gave the boar's head and its shaggy hide to Atalanta, because she had hit it first."
+  },
+  {
+   "type": "p",
+   "text": "But Meleager's two uncles were jealous. \"A prize like that shouldn't go to a girl,\" they said, and they snatched it away from her. Meleager was so angry that he lost his temper, and he fought them, and both of his uncles were killed."
+  },
+  {
+   "type": "p",
+   "text": "When Queen Althea heard that her son had killed her brothers, she was wild with grief and anger. She took out the old log she had hidden all those years. Four times she held it over the fire, and four times she pulled it back. At last she threw it into the flames."
+  },
+  {
+   "type": "p",
+   "text": "Far away, Meleager suddenly felt a burning pain. As the log burned, he grew weaker and weaker. When the log turned to ashes, Meleager's life was over."
+  },
+  {
+   "type": "p",
+   "text": "His mother was sorry the moment she had done it, but it was too late. His sisters cried and cried for their brother. At last Artemis felt sorry for them, and she turned them into birds, so they could fly away from their sadness."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Meleager” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls Artemis by her Roman name, Diana."
+  }
+ ],
+ "workId": "greek-meleager",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--meleager",
+ "wordCount": 473,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 3.6,
+  "avgSentenceWords": 10.9,
+  "band": "middle"
+ }
+}

@@ -1,12 +1,12 @@
 # Storybook
 
-A calm, offline-capable reader for 667 public-domain children's stories in 15 collections — Aesop
+A calm, offline-capable reader for 696 public-domain children's stories in 16 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
 Goble's plates), Busch's Max and Maurice, and the start of a world-mythology shelf: Hawthorne's
-Tanglewood Tales and 21 myths from Bulfinch's The Age of Fable, with simplified retellings for
-young readers (Greek Myths, Simply Told).
+Tanglewood Tales, Kingsley's The Heroes and 36 myths from Bulfinch's The Age of Fable, with
+simplified retellings for young readers (Greek Myths, Simply Told).
 
 **Live:** https://lesps.github.io/bedtime-stories/
 

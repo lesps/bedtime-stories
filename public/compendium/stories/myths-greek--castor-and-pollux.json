@@ -1,0 +1,63 @@
+{
+ "id": "myths-greek--castor-and-pollux",
+ "collectionId": "myths-greek",
+ "order": 32,
+ "title": "Castor and Pollux, the Twins",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Castor and Pollux were twin brothers. Their mother was a queen named Leda, and their father was Zeus. People said that they hatched out of an egg! Their little sister was Helen, who grew up to be the most beautiful woman in the world."
+  },
+  {
+   "type": "p",
+   "text": "The twins did everything together. Castor was the best horse-tamer in Greece. Pollux was the best boxer. They never went anywhere without each other."
+  },
+  {
+   "type": "p",
+   "text": "When their little sister Helen was carried away from home, the two brothers rode off together, found her and brought her safely back."
+  },
+  {
+   "type": "p",
+   "text": "They also sailed with Jason on the ship Argo, to find the Golden Fleece. One night on that voyage, a terrible storm came up. The waves crashed over the ship, and the sailors were afraid. Orpheus played his harp and prayed to the gods. And suddenly, the storm calmed down, and two little stars appeared, shining above the heads of the twins."
+  },
+  {
+   "type": "p",
+   "text": "Ever since then, sailors have thought of Castor and Pollux as their friends. On stormy nights, a strange glowing light sometimes flickers on the tops of ships' masts. Long ago, sailors believed it was the twins coming to keep them safe."
+  },
+  {
+   "type": "p",
+   "text": "Then, one sad day, the twins went into a battle, and Castor was killed."
+  },
+  {
+   "type": "p",
+   "text": "Pollux could not bear it. He went to his father, Zeus. \"Please,\" he begged, \"take my life instead, and give it to my brother. Or let me share my life with him.\""
+  },
+  {
+   "type": "p",
+   "text": "Zeus was moved by how much the brothers loved each other. So he let them share. One day they would both be in the underworld, and the next day they would both be with the gods in the bright sky, and so on, day after day. That way they would never be apart."
+  },
+  {
+   "type": "p",
+   "text": "Some people tell the end of the story another way. They say Zeus put both brothers up in the sky as stars, side by side. And there they are tonight: two bright stars close together, called the Twins."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Castor and Pollux” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls Zeus by his Roman name, Jupiter."
+  }
+ ],
+ "workId": "greek-castor-pollux",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--castor-and-pollux",
+ "wordCount": 361,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 4.1,
+  "avgSentenceWords": 11.4,
+  "band": "middle"
+ }
+}

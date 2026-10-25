@@ -14,6 +14,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+from build_compendium import title_case  # noqa: E402
 from compendium_io import finish, load_index, save_index, upsert_collection  # noqa: E402
 
 COLLECTION = {
@@ -29,7 +30,8 @@ COLLECTION = {
 }
 
 M = ["mature-themes"]
-# (heading in the text, story title, workId, flags), in book order.
+# (heading in the text, story title, workId, flags[, last heading]), in book order. With a last
+# heading, the story runs through that section too, and the inner headings become heading blocks.
 SECTIONS = [
     ("PROMETHEUS AND PANDORA", "Prometheus and Pandora", "greek-prometheus-pandora", []),
     ("APOLLO AND DAPHNE", "Apollo and Daphne", "greek-apollo-daphne", []),
@@ -52,6 +54,22 @@ SECTIONS = [
     ("ORPHEUS AND EURYDICE", "Orpheus and Eurydice", "greek-orpheus", M),
     ("ARION", "Arion", "greek-arion", []),
     ("AURORA AND TITHONUS", "Aurora and Tithonus", "greek-tithonus", []),
+    # Heroes
+    ("THE GRAEAE AND THE GORGONS", "Perseus", "greek-perseus", [], "THE WEDDING FEAST"),
+    ("THE SPHINX", "The Sphinx", "greek-oedipus-sphinx", M),
+    ("PEGASUS AND THE CHIMAERA", "Pegasus and the Chimaera", "greek-bellerophon", []),
+    ("MELEAGER AND ATALANTA", "Meleager", "greek-meleager", M),
+    ("ATALANTA", "Atalanta", "greek-atalanta", []),
+    ("HERCULES", "Hercules", "greek-heracles-labours", M),  # madness, Nessus, death on the pyre
+    ("CASTOR AND POLLUX", "Castor and Pollux", "greek-castor-pollux", []),
+    # Troy and the Odyssey
+    ("THE TROJAN WAR", "The Trojan War", "greek-trojan-war", M),
+    ("THE FALL OF TROY", "The Fall of Troy", "greek-wooden-horse", M),
+    ("RETURN OF ULYSSES", "The Return of Ulysses", "greek-odysseus-cyclops", []),
+    ("THE LAESTRYGONIANS", "The Laestrygonians and Circe", "greek-odysseus-circe", []),
+    ("SCYLLA AND CHARYBDIS", "Scylla and Charybdis", "greek-odysseus-sirens", []),
+    ("THE PHAEACIANS", "The Phaeacians", "greek-odysseus-nausicaa", []),
+    ("FATE OF THE SUITORS", "Fate of the Suitors", "greek-odysseus-homecoming", M),
 ]
 
 HEADING = re.compile(r"^[A-Z][A-Z ,;:.'-]{3,}$")
@@ -70,16 +88,27 @@ def is_heading(line):
     return s.startswith("CHAPTER") or (line == s and bool(HEADING.match(s)))
 
 
-def section(lines, heading):
+def find(lines, heading):
     hits = [i for i, l in enumerate(lines) if l.strip() == heading]
     if len(hits) != 1:
         raise SystemExit(f"heading {heading!r} found {len(hits)} times")
-    i = hits[0] + 1
+    return hits[0]
+
+
+def section(lines, heading, last=None):
+    """Lines of one section; with `last`, through that later section, keeping inner headings."""
+    i = find(lines, heading) + 1
     while i < len(lines) and (not lines[i].strip() or is_heading(lines[i])):
         i += 1
+    stop = find(lines, last) if last else None
     body = []
-    while i < len(lines) and not is_heading(lines[i]):
-        body.append(lines[i])
+    while i < len(lines):
+        if is_heading(lines[i]):
+            if stop is None or i > stop or lines[i].strip().startswith("CHAPTER"):
+                break
+            body.append("\x00" + lines[i].strip())
+        else:
+            body.append(lines[i])
         i += 1
     return body
 
@@ -87,16 +116,27 @@ def section(lines, heading):
 def blocks_of(body):
     paras, cur = [], []
     for line in body + [""]:
-        if line.strip():
+        if line.startswith("\x00"):
+            if cur:
+                paras.append(cur)
+                cur = []
+            paras.append([line])
+        elif line.strip():
             cur.append(line.rstrip())
         elif cur:
             paras.append(cur)
             cur = []
     blocks, in_note = [], False
     for p in paras:
+        if p[0].startswith("\x00"):
+            blocks.append({"type": "heading", "text": title_case(p[0][1:])})
+            continue
         if all(l.startswith("  ") for l in p):
             indent = min(len(l) - len(l.lstrip()) for l in p)
-            blocks.append({"type": "verse", "text": "\n".join(l[indent:] for l in p)})
+            verse = "\n".join(l[indent:] for l in p)
+            if in_note and verse.endswith("]"):  # a footnote can close on its quoted poem
+                in_note, verse = False, verse[:-1]
+            blocks.append({"type": "verse", "text": verse})
             continue
         text = re.sub(r"\s+", " ", " ".join(l.strip() for l in p)).strip()
         # A footnote runs from "[Footnote:" to the paragraph ending in "]", sometimes several.
@@ -115,7 +155,7 @@ def blocks_of(body):
 def main(src):
     lines = fable_lines(Path(src) / "Bulfinch-s-Mythology_4928" / "4928.txt")
     stories = []
-    for order, (heading, title, work_id, flags) in enumerate(SECTIONS, 1):
+    for order, (heading, title, work_id, flags, *last) in enumerate(SECTIONS, 1):
         slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
         story = {
             "id": f"{COLLECTION['id']}--{slug}",
@@ -126,7 +166,7 @@ def main(src):
             "excluded": False,
             "flags": list(flags),
             "moral": None,
-            "blocks": blocks_of(section(lines, heading)),
+            "blocks": blocks_of(section(lines, heading, *last)),
             "workId": work_id,
         }
         stories.append(finish(story))

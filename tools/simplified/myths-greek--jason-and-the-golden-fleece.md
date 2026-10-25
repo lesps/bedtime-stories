@@ -3,6 +3,7 @@ title: Jason and the Golden Fleece
 adaptedFrom: hawthorne-tanglewood--the-golden-fleece
 order: 6
 namesNote: Hawthorne uses Roman names in places: Hercules for Heracles, Neptune for Poseidon, Vulcan for Hephaestus and Mars for Ares.
+alsoSimplifies: kingsley-heroes--the-argonauts
 ---
 
 When Jason was a baby, a wicked man named Pelias took his father's throne. To keep him safe, Jason was sent to live in a cave in the mountains with the strangest teacher in the world. His name was Chiron, and he was a centaur. From the waist up he was a wise old man, and from the waist down he was a white horse.

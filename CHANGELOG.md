@@ -7,6 +7,15 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 3 (data only): heroes, Troy and the Odyssey. Kingsley's _The Heroes_ (1856):
+  Perseus, The Argonauts, Theseus. Fifteen more Bulfinch sections: Perseus, the Sphinx,
+  Bellerophon, Meleager, Atalanta, Hercules, Castor and Pollux, the Trojan War, the fall of Troy
+  and five Odyssey sections. Twelve new simplified retellings (grade 2.7–5.0). Lang's _The
+  Terrible Head_ now shares `greek-perseus` with the other Perseus versions. A retelling can
+  stand in for several versions of one myth via `alsoSimplifies`; Kingsley's Theseus and
+  Argonauts point to the existing Hawthorne-based retellings. New tool `extract_kingsley.py`;
+  Bulfinch sections can now span several headings, and a footnote that ends on a poem no
+  longer swallows the paragraphs after it.
 - Mythology, part 2 (data only): 21 myths from Bulfinch's _The Age of Fable_ (1855): creation,
   Prometheus and Pandora, Phaeton, Midas, Arachne, Orpheus and others, with footnotes as `note`
   blocks. Twenty get simplified retellings in _Greek Myths, Simply Told_ (grade 2–4, 1–5 min);

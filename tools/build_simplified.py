@@ -9,12 +9,14 @@ Each Markdown file is one story, named `<storyId>.md`, with a small front matter
     order: 1
     namesNote: optional sentence about names that differ in the original
     flags: optional; "none" or a comma list, when the retelling leaves out what flagged the original
+    alsoSimplifies: optional comma list of other versions of the same myth this retelling stands in for
     ---
     Paragraphs, separated by blank lines.
 
 The story inherits `workId` from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
 and `readingLevel`, and ends with a note naming the original. The original gets
-`simplifiedId` pointing back. Edit the .md files, never the generated JSON, then run:
+`simplifiedId` pointing back, and so does every story in `alsoSimplifies` (which must share the
+workId, or have none yet, in which case it is given this one). Edit the .md files, never the generated JSON, then run:
 
     python3 tools/build_simplified.py && python3 tools/tag_stories.py
 """
@@ -63,7 +65,7 @@ def flags_of(meta, orig):
 def main():
     index = load_index()
     by_collection = {cid: [] for cid in COLLECTIONS}
-    originals = {}
+    originals, work_ids = {}, {}
     for path in sorted(SRC.glob("*.md")):
         sid = path.stem
         cid = sid.split("--")[0]
@@ -97,11 +99,18 @@ def main():
             story["source"] = orig["source"]
         by_collection[cid].append(finish(story))
         originals[orig["id"]] = sid
+        for other in filter(None, (x.strip() for x in meta.get("alsoSimplifies", "").split(","))):
+            originals[other] = sid
+            work_ids[other] = orig["workId"]
     for cid, stories in by_collection.items():
         if stories:
             upsert_collection(index, COLLECTIONS[cid], sorted(stories, key=lambda s: s["order"]))
     for oid, sid in originals.items():
         orig = load_story(oid)
+        if oid in work_ids:
+            if orig.get("workId", work_ids[oid]) != work_ids[oid]:
+                raise SystemExit(f"{oid}: workId {orig['workId']} differs from {work_ids[oid]}")
+            orig["workId"] = work_ids[oid]
         orig["simplifiedId"] = sid
         sync_entry(index, orig)
     save_index(index)

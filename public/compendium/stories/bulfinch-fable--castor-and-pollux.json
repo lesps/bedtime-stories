@@ -1,0 +1,53 @@
+{
+ "id": "bulfinch-fable--castor-and-pollux",
+ "collectionId": "bulfinch-fable",
+ "order": 28,
+ "title": "Castor and Pollux",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Castor and Pollux were the offspring of Leda and the Swan, under which disguise Jupiter had concealed himself. Leda gave birth to an egg from which sprang the twins. Helen, so famous afterwards as the cause of the Trojan war, was their sister."
+  },
+  {
+   "type": "p",
+   "text": "When Theseus and his friend Pirithous had carried off Helen from Sparta, the youthful heroes Castor and Pollux, with their followers, hastened to her rescue. Theseus was absent from Attica and the brothers were successful in recovering their sister."
+  },
+  {
+   "type": "p",
+   "text": "Castor was famous for taming and managing horses, and Pollux for skill in boxing. They were united by the warmest affection and inseparable in all their enterprises. They accompanied the Argonautic expedition. During the voyage a storm arose, and Orpheus prayed to the Samothracian gods, and played on his harp, whereupon the storm ceased and stars appeared on the heads of the brothers. From this incident, Castor and Pollux came afterwards to be considered the patron deities of seamen and voyagers, and the lambent flames, which in certain states of the atmosphere play round the sails and masts of vessels, were called by their names."
+  },
+  {
+   "type": "p",
+   "text": "After the Argonautic expedition, we find Castor and Pollux engaged in a war with Idas and Lynceus. Castor was slain, and Pollux, inconsolable for the loss of his brother, besought Jupiter to be permitted to give his own life as a ransom for him. Jupiter so far consented as to allow the two brothers to enjoy the boon of life alternately, passing one day under the earth and the next in the heavenly abodes. According to another form of the story, Jupiter rewarded the attachment of the brothers by placing them among the stars as Gemini the Twins."
+  },
+  {
+   "type": "p",
+   "text": "They received divine honors under the name of Dioscuri (sons of Jove). They were believed to have appeared occasionally in later times, taking part with one side or the other, in hard-fought fields, and were said on such occasions to be mounted on magnificent white steeds. Thus in the early history of Rome they are said to have assisted the Romans at the battle of Lake Regillus, and after the victory a temple was erected in their honor on the spot where they appeared."
+  },
+  {
+   "type": "p",
+   "text": "Macaulay, in his \"Lays of Ancient Rome,\" thus alludes to the legend:"
+  },
+  {
+   "type": "verse",
+   "text": "\"So like they were, no mortal\n   Might one from other know;\n White as snow their armor was,\n   Their steeds were white as snow.\n Never on earthly anvil\n   Did such rare armor gleam,\n And never did such gallant steeds\n   Drink of an earthly stream."
+  },
+  {
+   "type": "verse",
+   "text": "\"Back comes the chief in triumph\n   Who in the hour of fight\n Hath seen the great Twin Brethren\n   In harness on his right.\n Safe comes the ship to haven,\n   Through billows and through gales.\n If once the great Twin Brethren\n   Sit shining on the sails.\""
+  }
+ ],
+ "workId": "greek-castor-pollux",
+ "wordCount": 469,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 9.9,
+  "avgSentenceWords": 21.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-greek--castor-and-pollux"
+}
