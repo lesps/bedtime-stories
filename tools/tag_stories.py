@@ -64,10 +64,11 @@ COLLECTION_CULTURE = {
     "japan-james": "japanese",
     "hawthorne-tanglewood": "greek",
     "myths-greek": "greek",
+    "bulfinch-fable": "greek",
 }
 
 # Myth collections: every story gets the gods-heroes theme.
-MYTH_COLLECTIONS = {"hawthorne-tanglewood", "myths-greek"}
+MYTH_COLLECTIONS = {"hawthorne-tanglewood", "bulfinch-fable", "myths-greek"}
 
 ORIGIN_CULTURE = [
     (r"perrault|aulnoy|villeneuve|beaumont|cabinet des fees", "french"),
@@ -181,6 +182,10 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     # Persephone is carried off and the world starves: not "gentle", whatever the word counts say.
     "hawthorne-tanglewood--the-pomegranate-seeds": {"remove": ["gentle"]},
     "myths-greek--persephone-and-the-pomegranate-seeds": {"remove": ["gentle"]},
+    # A death at the heart of the story is not "gentle", even when few violent words appear.
+    "myths-greek--phaethon-and-the-sun-chariot": {"remove": ["gentle"]},
+    "myths-greek--daedalus-and-icarus": {"remove": ["gentle"]},
+    "bulfinch-fable--io": {"remove": ["gentle"]},
     "aesop--the-lion-the-bear-and-the-fox": {
         "remove": [
             "ghosts"

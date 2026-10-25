@@ -1,0 +1,99 @@
+{
+ "id": "myths-greek--athena-and-arachne",
+ "collectionId": "myths-greek",
+ "order": 22,
+ "title": "Athena and Arachne",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Athena was the goddess of wisdom. She was born in a very strange way. One day Zeus had a terrible headache. His head split open, and out jumped Athena, fully grown and wearing a suit of armor."
+  },
+  {
+   "type": "p",
+   "text": "Athena taught people many useful things: how to plow fields, how to build ships, and how to spin wool and weave cloth."
+  },
+  {
+   "type": "p",
+   "text": "Once, Athena and Poseidon, the god of the sea, both wanted the same city. So the gods held a contest. \"Whoever gives the city the most useful gift,\" they said, \"will have it.\""
+  },
+  {
+   "type": "p",
+   "text": "Poseidon struck the ground with his three-pronged spear, and out leaped a horse. Then Athena touched the ground, and up grew an olive tree, with olives to eat and oil for lamps and cooking. The gods decided the olive tree was the better gift. So the city became Athena's, and it was named Athens, after her."
+  },
+  {
+   "type": "p",
+   "text": "There was also a young woman named Arachne who was the best weaver in the whole land. Even the nymphs came out of the woods and rivers to watch her work. She spun wool so fine and soft that it looked like a cloud. She wove pictures so real that you'd think you could step into them."
+  },
+  {
+   "type": "p",
+   "text": "\"Athena must have taught you,\" people said."
+  },
+  {
+   "type": "p",
+   "text": "\"Athena?\" said Arachne, tossing her head. \"Nobody taught me. I'm a better weaver than Athena. Let her come and have a contest with me, if she dares.\""
+  },
+  {
+   "type": "p",
+   "text": "Athena heard. She disguised herself as an old woman, with gray hair and a walking stick, and went to see Arachne."
+  },
+  {
+   "type": "p",
+   "text": "\"Be careful, my dear,\" said the old woman. \"You may be the best weaver among people. But don't say you're better than a goddess. Ask her to forgive you, and she will.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Mind your own business, old woman,\" snapped Arachne. \"If Athena isn't afraid, why doesn't she come herself?\""
+  },
+  {
+   "type": "p",
+   "text": "\"She is here,\" said Athena. And she threw off her disguise and stood there, tall and shining. The nymphs bowed down. But Arachne did not take back a single word."
+  },
+  {
+   "type": "p",
+   "text": "So the contest began. They each set up a loom and began to weave, faster and faster. Their shuttles flew back and forth. Their threads were every color of the rainbow, and some were made of gold."
+  },
+  {
+   "type": "p",
+   "text": "Athena wove a picture of her contest with Poseidon, with all the gods watching. In the corners she wove small pictures of people who had been foolish enough to challenge the gods, and what had happened to them. It was a warning."
+  },
+  {
+   "type": "p",
+   "text": "Arachne wove pictures too. But hers showed the gods behaving badly, playing tricks and doing foolish things."
+  },
+  {
+   "type": "p",
+   "text": "Arachne's weaving was perfect. Not even Athena could find a single mistake. But it was rude and disrespectful to the gods. Athena was so angry that she tore it to pieces."
+  },
+  {
+   "type": "p",
+   "text": "Then she touched Arachne. \"You love to weave so much,\" said Athena. \"Then weave you shall, forever.\""
+  },
+  {
+   "type": "p",
+   "text": "At once Arachne began to shrink. Her hair fell out. Her nose and ears disappeared. Her head became tiny and her body became round. Her fingers turned into long, thin legs. Arachne had turned into a spider."
+  },
+  {
+   "type": "p",
+   "text": "And she is still weaving today. Look in a corner, or between two branches on a dewy morning, and you will see her beautiful webs. That is why scientists still call spiders arachnids, after Arachne, the girl who said she could weave better than a goddess."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Minerva and Arachne” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch uses the Roman names Minerva for Athena, Neptune for Poseidon and Jupiter for Zeus."
+  }
+ ],
+ "workId": "greek-arachne",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--minerva-and-arachne",
+ "wordCount": 603,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 3.8,
+  "avgSentenceWords": 9.6,
+  "band": "middle"
+ }
+}

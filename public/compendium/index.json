@@ -167,7 +167,19 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 6
+   "storyCount": 26
+  },
+  {
+   "id": "bulfinch-fable",
+   "title": "The Age of Fable",
+   "author": "Thomas Bulfinch",
+   "contributor": null,
+   "firstPublished": 1855,
+   "source": "https://www.gutenberg.org/ebooks/4928",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 21
   }
  ],
  "stories": [
@@ -7515,6 +7527,763 @@
     "band": "early"
    },
    "adaptedFrom": "hawthorne-tanglewood--the-golden-fleece"
+  },
+  {
+   "id": "myths-greek--prometheus-pandora-and-the-flood",
+   "collectionId": "myths-greek",
+   "order": 7,
+   "title": "Prometheus, Pandora and the Great Flood",
+   "wordCount": 841,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-prometheus-pandora",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 8.8,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--prometheus-and-pandora"
+  },
+  {
+   "id": "myths-greek--apollo-and-daphne",
+   "collectionId": "myths-greek",
+   "order": 8,
+   "title": "Apollo and Daphne",
+   "wordCount": 491,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-apollo-daphne",
+   "readingLevel": {
+    "fkGrade": 2.4,
+    "avgSentenceWords": 8.7,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--apollo-and-daphne"
+  },
+  {
+   "id": "myths-greek--pyramus-and-thisbe",
+   "collectionId": "myths-greek",
+   "order": 9,
+   "title": "Pyramus and Thisbe",
+   "wordCount": 540,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-pyramus-thisbe",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 10.8,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--pyramus-and-thisbe"
+  },
+  {
+   "id": "myths-greek--io-and-the-hundred-eyed-giant",
+   "collectionId": "myths-greek",
+   "order": 10,
+   "title": "Io and the Hundred-Eyed Giant",
+   "wordCount": 711,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-io",
+   "readingLevel": {
+    "fkGrade": 2.2,
+    "avgSentenceWords": 9.3,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--io"
+  },
+  {
+   "id": "myths-greek--callisto-and-the-great-bear",
+   "collectionId": "myths-greek",
+   "order": 11,
+   "title": "Callisto and the Great Bear",
+   "wordCount": 433,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-callisto",
+   "readingLevel": {
+    "fkGrade": 2.5,
+    "avgSentenceWords": 9.8,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--callisto"
+  },
+  {
+   "id": "myths-greek--artemis-and-actaeon",
+   "collectionId": "myths-greek",
+   "order": 12,
+   "title": "Artemis and Actaeon",
+   "wordCount": 504,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-actaeon",
+   "readingLevel": {
+    "fkGrade": 2.2,
+    "avgSentenceWords": 9.1,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--diana-and-actaeon"
+  },
+  {
+   "id": "myths-greek--leto-and-the-frogs",
+   "collectionId": "myths-greek",
+   "order": 13,
+   "title": "Leto and the Frogs",
+   "wordCount": 481,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-latona-frogs",
+   "readingLevel": {
+    "fkGrade": 2.5,
+    "avgSentenceWords": 8.9,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--latona-and-the-rustics"
+  },
+  {
+   "id": "myths-greek--phaethon-and-the-sun-chariot",
+   "collectionId": "myths-greek",
+   "order": 14,
+   "title": "Phaethon and the Sun Chariot",
+   "wordCount": 693,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-phaethon",
+   "readingLevel": {
+    "fkGrade": 2.2,
+    "avgSentenceWords": 8.4,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--phaeton"
+  },
+  {
+   "id": "myths-greek--king-midas",
+   "collectionId": "myths-greek",
+   "order": 15,
+   "title": "King Midas",
+   "wordCount": 689,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-midas",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 9.2,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--midas"
+  },
+  {
+   "id": "myths-greek--baucis-and-philemon",
+   "collectionId": "myths-greek",
+   "order": 16,
+   "title": "Baucis and Philemon",
+   "wordCount": 666,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-baucis-philemon",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 9.9,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--baucis-and-philemon"
+  },
+  {
+   "id": "myths-greek--pygmalion-and-the-statue",
+   "collectionId": "myths-greek",
+   "order": 17,
+   "title": "Pygmalion and the Statue",
+   "wordCount": 359,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-pygmalion",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 10.3,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--pygmalion"
+  },
+  {
+   "id": "myths-greek--ceyx-and-alcyone",
+   "collectionId": "myths-greek",
+   "order": 18,
+   "title": "Ceyx and Alcyone",
+   "wordCount": 709,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-ceyx-alcyone",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 10.3,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--ceyx-and-halcyone"
+  },
+  {
+   "id": "myths-greek--echo-and-narcissus",
+   "collectionId": "myths-greek",
+   "order": 19,
+   "title": "Echo and Narcissus",
+   "wordCount": 582,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-echo-narcissus",
+   "readingLevel": {
+    "fkGrade": 2.4,
+    "avgSentenceWords": 8.3,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--echo-and-narcissus"
+  },
+  {
+   "id": "myths-greek--clytie-and-the-sunflower",
+   "collectionId": "myths-greek",
+   "order": 20,
+   "title": "Clytie and the Sunflower",
+   "wordCount": 223,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-clytie",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 10.7,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--clytie"
+  },
+  {
+   "id": "myths-greek--hero-and-leander",
+   "collectionId": "myths-greek",
+   "order": 21,
+   "title": "Hero and Leander",
+   "wordCount": 308,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-hero-leander",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 11.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--hero-and-leander"
+  },
+  {
+   "id": "myths-greek--athena-and-arachne",
+   "collectionId": "myths-greek",
+   "order": 22,
+   "title": "Athena and Arachne",
+   "wordCount": 603,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-arachne",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 9.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--minerva-and-arachne"
+  },
+  {
+   "id": "myths-greek--niobe",
+   "collectionId": "myths-greek",
+   "order": 23,
+   "title": "Niobe",
+   "wordCount": 470,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-niobe",
+   "readingLevel": {
+    "fkGrade": 2.4,
+    "avgSentenceWords": 8.8,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--niobe"
+  },
+  {
+   "id": "myths-greek--daedalus-and-icarus",
+   "collectionId": "myths-greek",
+   "order": 24,
+   "title": "Daedalus and Icarus",
+   "wordCount": 540,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-daedalus",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 10.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--daedalus"
+  },
+  {
+   "id": "myths-greek--orpheus-and-eurydice",
+   "collectionId": "myths-greek",
+   "order": 25,
+   "title": "Orpheus and Eurydice",
+   "wordCount": 650,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-orpheus",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 9.8,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--orpheus-and-eurydice"
+  },
+  {
+   "id": "myths-greek--eos-and-tithonus",
+   "collectionId": "myths-greek",
+   "order": 26,
+   "title": "Eos and Tithonus",
+   "wordCount": 402,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-tithonus",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.8,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--aurora-and-tithonus"
+  },
+  {
+   "id": "bulfinch-fable--prometheus-and-pandora",
+   "collectionId": "bulfinch-fable",
+   "order": 1,
+   "title": "Prometheus and Pandora",
+   "wordCount": 2641,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-prometheus-pandora",
+   "readingLevel": {
+    "fkGrade": 8.7,
+    "avgSentenceWords": 20.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--prometheus-pandora-and-the-flood"
+  },
+  {
+   "id": "bulfinch-fable--apollo-and-daphne",
+   "collectionId": "bulfinch-fable",
+   "order": 2,
+   "title": "Apollo and Daphne",
+   "wordCount": 1124,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-apollo-daphne",
+   "readingLevel": {
+    "fkGrade": 7.1,
+    "avgSentenceWords": 18.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--apollo-and-daphne"
+  },
+  {
+   "id": "bulfinch-fable--pyramus-and-thisbe",
+   "collectionId": "bulfinch-fable",
+   "order": 3,
+   "title": "Pyramus and Thisbe",
+   "wordCount": 1140,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-pyramus-thisbe",
+   "readingLevel": {
+    "fkGrade": 7.1,
+    "avgSentenceWords": 18.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--pyramus-and-thisbe"
+  },
+  {
+   "id": "bulfinch-fable--io",
+   "collectionId": "bulfinch-fable",
+   "order": 4,
+   "title": "Io",
+   "wordCount": 1182,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-io",
+   "readingLevel": {
+    "fkGrade": 8.2,
+    "avgSentenceWords": 21.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--io-and-the-hundred-eyed-giant"
+  },
+  {
+   "id": "bulfinch-fable--callisto",
+   "collectionId": "bulfinch-fable",
+   "order": 5,
+   "title": "Callisto",
+   "wordCount": 776,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-callisto",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 24.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--callisto-and-the-great-bear"
+  },
+  {
+   "id": "bulfinch-fable--diana-and-actaeon",
+   "collectionId": "bulfinch-fable",
+   "order": 6,
+   "title": "Diana and Actaeon",
+   "wordCount": 871,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-actaeon",
+   "readingLevel": {
+    "fkGrade": 8.1,
+    "avgSentenceWords": 21.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--artemis-and-actaeon"
+  },
+  {
+   "id": "bulfinch-fable--latona-and-the-rustics",
+   "collectionId": "bulfinch-fable",
+   "order": 7,
+   "title": "Latona and the Rustics",
+   "wordCount": 794,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-latona-frogs",
+   "readingLevel": {
+    "fkGrade": 8.0,
+    "avgSentenceWords": 20.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--leto-and-the-frogs"
+  },
+  {
+   "id": "bulfinch-fable--phaeton",
+   "collectionId": "bulfinch-fable",
+   "order": 8,
+   "title": "Phaeton",
+   "wordCount": 2881,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-phaethon",
+   "readingLevel": {
+    "fkGrade": 8.2,
+    "avgSentenceWords": 21.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--phaethon-and-the-sun-chariot"
+  },
+  {
+   "id": "bulfinch-fable--midas",
+   "collectionId": "bulfinch-fable",
+   "order": 9,
+   "title": "Midas",
+   "wordCount": 970,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-midas",
+   "readingLevel": {
+    "fkGrade": 8.5,
+    "avgSentenceWords": 20.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--king-midas"
+  },
+  {
+   "id": "bulfinch-fable--baucis-and-philemon",
+   "collectionId": "bulfinch-fable",
+   "order": 10,
+   "title": "Baucis and Philemon",
+   "wordCount": 1281,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-baucis-philemon",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 25.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--baucis-and-philemon"
+  },
+  {
+   "id": "bulfinch-fable--pygmalion",
+   "collectionId": "bulfinch-fable",
+   "order": 11,
+   "title": "Pygmalion",
+   "wordCount": 651,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-pygmalion",
+   "readingLevel": {
+    "fkGrade": 8.3,
+    "avgSentenceWords": 21.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--pygmalion-and-the-statue"
+  },
+  {
+   "id": "bulfinch-fable--ceyx-and-halcyone",
+   "collectionId": "bulfinch-fable",
+   "order": 12,
+   "title": "Ceyx and Halcyone",
+   "wordCount": 2648,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-ceyx-alcyone",
+   "readingLevel": {
+    "fkGrade": 6.8,
+    "avgSentenceWords": 18.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--ceyx-and-alcyone"
+  },
+  {
+   "id": "bulfinch-fable--echo-and-narcissus",
+   "collectionId": "bulfinch-fable",
+   "order": 13,
+   "title": "Echo and Narcissus",
+   "wordCount": 1283,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-echo-narcissus",
+   "readingLevel": {
+    "fkGrade": 7.2,
+    "avgSentenceWords": 19.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--echo-and-narcissus"
+  },
+  {
+   "id": "bulfinch-fable--clytie",
+   "collectionId": "bulfinch-fable",
+   "order": 14,
+   "title": "Clytie",
+   "wordCount": 236,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-clytie",
+   "readingLevel": {
+    "fkGrade": 10.7,
+    "avgSentenceWords": 29.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--clytie-and-the-sunflower"
+  },
+  {
+   "id": "bulfinch-fable--hero-and-leander",
+   "collectionId": "bulfinch-fable",
+   "order": 15,
+   "title": "Hero and Leander",
+   "wordCount": 490,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-hero-leander",
+   "readingLevel": {
+    "fkGrade": 12.4,
+    "avgSentenceWords": 30.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--hero-and-leander"
+  },
+  {
+   "id": "bulfinch-fable--minerva-and-arachne",
+   "collectionId": "bulfinch-fable",
+   "order": 16,
+   "title": "Minerva and Arachne",
+   "wordCount": 1494,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-arachne",
+   "readingLevel": {
+    "fkGrade": 9.3,
+    "avgSentenceWords": 21.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--athena-and-arachne"
+  },
+  {
+   "id": "bulfinch-fable--niobe",
+   "collectionId": "bulfinch-fable",
+   "order": 17,
+   "title": "Niobe",
+   "wordCount": 1444,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-niobe",
+   "readingLevel": {
+    "fkGrade": 7.1,
+    "avgSentenceWords": 17.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--niobe"
+  },
+  {
+   "id": "bulfinch-fable--daedalus",
+   "collectionId": "bulfinch-fable",
+   "order": 18,
+   "title": "Daedalus",
+   "wordCount": 863,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-daedalus",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 24.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--daedalus-and-icarus"
+  },
+  {
+   "id": "bulfinch-fable--orpheus-and-eurydice",
+   "collectionId": "bulfinch-fable",
+   "order": 19,
+   "title": "Orpheus and Eurydice",
+   "wordCount": 1242,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-orpheus",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 23.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--orpheus-and-eurydice"
+  },
+  {
+   "id": "bulfinch-fable--arion",
+   "collectionId": "bulfinch-fable",
+   "order": 20,
+   "title": "Arion",
+   "wordCount": 1372,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-arion",
+   "readingLevel": {
+    "fkGrade": 6.1,
+    "avgSentenceWords": 16.0,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "bulfinch-fable--aurora-and-tithonus",
+   "collectionId": "bulfinch-fable",
+   "order": 21,
+   "title": "Aurora and Tithonus",
+   "wordCount": 695,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-tithonus",
+   "readingLevel": {
+    "fkGrade": 10.1,
+    "avgSentenceWords": 23.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--eos-and-tithonus"
   }
  ]
 }

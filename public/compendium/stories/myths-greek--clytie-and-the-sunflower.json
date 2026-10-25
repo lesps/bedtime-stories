@@ -1,0 +1,55 @@
+{
+ "id": "myths-greek--clytie-and-the-sunflower",
+ "collectionId": "myths-greek",
+ "order": 20,
+ "title": "Clytie and the Sunflower",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Clytie was a water nymph who loved Apollo, the god of the sun. Every day she watched him drive his golden chariot across the sky. But Apollo never noticed her at all."
+  },
+  {
+   "type": "p",
+   "text": "Clytie was so sad that she sat down on the cold ground, with her long hair falling over her shoulders, and she did not move."
+  },
+  {
+   "type": "p",
+   "text": "When the sun came up in the morning, she watched it rise. All day long she watched it climb across the sky. When it went down in the evening, she watched it set. She never looked at anything else."
+  },
+  {
+   "type": "p",
+   "text": "For nine whole days she sat there. She did not eat. She did not drink. She only turned her face to follow the sun."
+  },
+  {
+   "type": "p",
+   "text": "At last her feet sank into the earth and became roots. Her body became a tall green stem. Her face became a big round flower with golden petals all around it, like the rays of the sun."
+  },
+  {
+   "type": "p",
+   "text": "Clytie had become a sunflower."
+  },
+  {
+   "type": "p",
+   "text": "And even today, if you watch young sunflowers in a field, you will see them do what Clytie did. In the morning they face east, where the sun comes up. All day they turn slowly to follow it across the sky."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Clytie” in The Age of Fable (1855). The original is listed under Other versions."
+  }
+ ],
+ "workId": "greek-clytie",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--clytie",
+ "wordCount": 223,
+ "readingMinutes": 1,
+ "readingLevel": {
+  "fkGrade": 3.2,
+  "avgSentenceWords": 10.7,
+  "band": "early"
+ }
+}

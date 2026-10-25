@@ -1,0 +1,63 @@
+{
+ "id": "bulfinch-fable--hero-and-leander",
+ "collectionId": "bulfinch-fable",
+ "order": 15,
+ "title": "Hero and Leander",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Leander was a youth of Abydos, a town of the Asian side of the strait which separates Asia and Europe. On the opposite shore, in the town of Sestos, lived the maiden Hero, a priestess of Venus. Leander loved her, and used to swim the strait nightly to enjoy the company of his mistress, guided by a torch which she reared upon the tower for the purpose. But one night a tempest arose and the sea was rough; his strength failed, and he was drowned. The waves bore his body to the European shore, where Hero became aware of his death, and in her despair cast herself down from the tower into the sea and perished."
+  },
+  {
+   "type": "p",
+   "text": "The following sonnet is by Keats:"
+  },
+  {
+   "type": "p",
+   "text": "\"ON A PICTURE OF LEANDER"
+  },
+  {
+   "type": "verse",
+   "text": "\"Come hither all sweet maidens soberly,\n   Down looking aye, and with a chasten'd light\n   Hid in the fringes of your eyelids white,\n And meekly let your fair hands joined be\n As if so gentle that ye could not see,\n   Untouch'd, a victim of your beauty bright,\n   Sinking away to his young spirit's night,\n Sinking bewilder'd'mid the dreary sea.\n 'Tis young Leander toiling to his death\n   Nigh swooning he doth purse his weary lips\n For Hero's cheek, and smiles against her smile\n   O horrid dream! see how his body dips\n Dead-heavy; arms and shoulders gleam awhile;\n He's gone; up bubbles all his amorous breath!\""
+  },
+  {
+   "type": "p",
+   "text": "The story of Leander's swimming the Hellespont was looked upon as fabulous, and the feat considered impossible, till Lord Byron proved its possibility by performing it himself. In the \"Bride of Abydos\" he says,"
+  },
+  {
+   "type": "verse",
+   "text": "\"These limbs that buoyant wave hath borne.\""
+  },
+  {
+   "type": "p",
+   "text": "The distance in the narrowest part is almost a mile, and there is a constant current setting out from the Sea of Marmora into the Archipelago. Since Byron's time the feat has been achieved by others; but it yet remains a test of strength and skill in the art of swimming sufficient to give a wide and lasting celebrity to any one of our readers who may dare to make the attempt and succeed in accomplishing it."
+  },
+  {
+   "type": "p",
+   "text": "In the beginning of the second canto of the same poem, Byron thus alludes to this story:"
+  },
+  {
+   "type": "verse",
+   "text": "\"The winds are high on Helle's wave,\n As on that night of stormiest water,\nWhen Love, who sent, forgot to save\nThe young, the beautiful, the brave,\nThe lonely hope of Sestos' daughter."
+  },
+  {
+   "type": "verse",
+   "text": "O, when alone along the sky\nThe turret-torch was blazing high,\nThough rising gale and breaking foam,\nAnd shrieking sea-birds warned him home;\nAnd clouds aloft and tides below,\nWith signs and sounds forbade to go,\nHe could not see, he would not hear\nOr sound or sight foreboding fear.\nHis eye but saw that light of love,\nThe only star it hailed above;\nHis ear but rang with Hero's song,\n'Ye waves, divide not lovers long.'\nThat tale is old, but love anew\nMay nerve young hearts to prove as true.\""
+  }
+ ],
+ "workId": "greek-hero-leander",
+ "wordCount": 490,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 12.4,
+  "avgSentenceWords": 30.8,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-greek--hero-and-leander"
+}

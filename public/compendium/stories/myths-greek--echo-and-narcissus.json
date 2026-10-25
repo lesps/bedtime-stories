@@ -1,0 +1,119 @@
+{
+ "id": "myths-greek--echo-and-narcissus",
+ "collectionId": "myths-greek",
+ "order": 19,
+ "title": "Echo and Narcissus",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Echo was a mountain nymph who loved the woods and hills. She was cheerful and friendly, but she had one fault. She loved to talk, and she always had to have the last word."
+  },
+  {
+   "type": "p",
+   "text": "One day Hera, the queen of the gods, came into the woods looking for her husband, Zeus. Echo kept Hera talking and talking, on and on, so that Hera did not find him."
+  },
+  {
+   "type": "p",
+   "text": "When Hera realized she had been tricked, she was furious. \"You have used your voice to fool me,\" she said. \"So from now on, you will never be able to speak first. You will only be able to repeat the last words that someone else says.\""
+  },
+  {
+   "type": "p",
+   "text": "And from then on, that was all Echo could do."
+  },
+  {
+   "type": "p",
+   "text": "One day Echo saw a young man hunting in the mountains. His name was Narcissus, and he was the most handsome young man anyone had ever seen. Echo fell in love with him at once. She followed him through the woods. She wanted so much to talk to him, but she had to wait for him to speak first."
+  },
+  {
+   "type": "p",
+   "text": "Narcissus got separated from his friends. \"Is anyone here?\" he called."
+  },
+  {
+   "type": "p",
+   "text": "\"Here!\" said Echo."
+  },
+  {
+   "type": "p",
+   "text": "Narcissus looked around but saw no one. \"Come!\" he called."
+  },
+  {
+   "type": "p",
+   "text": "\"Come!\" said Echo."
+  },
+  {
+   "type": "p",
+   "text": "\"Why are you hiding from me?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Hiding from me?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Let's meet,\" said Narcissus."
+  },
+  {
+   "type": "p",
+   "text": "\"Let's meet!\" cried Echo happily, and she ran out of the trees to hug him."
+  },
+  {
+   "type": "p",
+   "text": "But Narcissus jumped back. \"Go away!\" he said. \"I don't want you.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I want you,\" whispered Echo sadly. But Narcissus was gone."
+  },
+  {
+   "type": "p",
+   "text": "Echo was so ashamed that she hid in the caves and the mountains. She was so sad that she faded away, until there was nothing left of her but her voice. You can still hear her today. Go into the mountains, or into a big empty hall, and shout. Echo will answer you with your own last words."
+  },
+  {
+   "type": "p",
+   "text": "Narcissus was unkind to everyone who liked him, not only Echo. At last someone he had hurt said a prayer: \"Let Narcissus find out how it feels to love someone who will never love him back.\""
+  },
+  {
+   "type": "p",
+   "text": "The gods heard."
+  },
+  {
+   "type": "p",
+   "text": "One hot day, Narcissus came to a clear, still pool in the woods. He was thirsty, and he knelt down to drink. In the water he saw a face looking up at him. It was a beautiful face, with bright eyes and curly hair. Narcissus did not know it was his own reflection. He thought it was a water spirit, and he fell in love with it."
+  },
+  {
+   "type": "p",
+   "text": "He smiled, and the face smiled back. He reached out his arms, and the face reached out too. But whenever he touched the water, the face rippled and disappeared."
+  },
+  {
+   "type": "p",
+   "text": "\"Why do you run away from me?\" he cried. \"Even the nymphs like me. Why won't you?\""
+  },
+  {
+   "type": "p",
+   "text": "Narcissus could not leave the pool. He stayed there day after day. He forgot to eat. He forgot to sleep. He only gazed and gazed into the water. Little by little he faded away, just as Echo had."
+  },
+  {
+   "type": "p",
+   "text": "When the nymphs came to look for him, he was gone. But in the place where he had knelt, a flower was growing, a white flower with a yellow middle, bending over the water. Today we call that flower the narcissus."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Echo and Narcissus” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch uses the Roman names Juno for Hera and Diana for Artemis."
+  }
+ ],
+ "workId": "greek-echo-narcissus",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--echo-and-narcissus",
+ "wordCount": 582,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 2.4,
+  "avgSentenceWords": 8.3,
+  "band": "early"
+ }
+}

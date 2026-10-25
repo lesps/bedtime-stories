@@ -8,6 +8,7 @@ Each Markdown file is one story, named `<storyId>.md`, with a small front matter
     adaptedFrom: hawthorne-tanglewood--the-minotaur
     order: 1
     namesNote: optional sentence about names that differ in the original
+    flags: optional; "none" or a comma list, when the retelling leaves out what flagged the original
     ---
     Paragraphs, separated by blank lines.
 
@@ -52,6 +53,13 @@ def parse(path):
     return meta, [p for p in paras if p]
 
 
+def flags_of(meta, orig):
+    if "flags" not in meta:
+        return orig["flags"]
+    value = meta["flags"].strip()
+    return [] if value == "none" else [f.strip() for f in value.split(",")]
+
+
 def main():
     index = load_index()
     by_collection = {cid: [] for cid in COLLECTIONS}
@@ -77,7 +85,7 @@ def main():
             "title": meta["title"],
             "origin": None,
             "excluded": orig["excluded"],
-            "flags": orig["flags"],
+            "flags": flags_of(meta, orig),
             "moral": None,
             "blocks": [{"type": "p", "text": p} for p in paras] + [{"type": "note", "text": note}],
             "workId": orig["workId"],

@@ -1,0 +1,91 @@
+{
+ "id": "myths-greek--orpheus-and-eurydice",
+ "collectionId": "myths-greek",
+ "order": 25,
+ "title": "Orpheus and Eurydice",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Orpheus was the greatest musician who ever lived. His father, Apollo, gave him a golden lyre, and taught him to play it. When Orpheus played, wild animals came out of the forest and lay down at his feet. Lions and wolves forgot to be fierce. Trees pulled up their roots and moved closer to listen. Even the rocks softened a little."
+  },
+  {
+   "type": "p",
+   "text": "Orpheus married a young woman named Eurydice, and they were very happy. But one day, not long after the wedding, Eurydice was running through a meadow with her friends. She stepped on a snake hidden in the grass. It bit her on the ankle, and she died."
+  },
+  {
+   "type": "p",
+   "text": "Orpheus was heartbroken. He played the saddest songs in the world, but nothing could bring her back. At last he made a decision. \"I will go down to the land of the dead,\" he said, \"and bring her home.\""
+  },
+  {
+   "type": "p",
+   "text": "No living person had ever done such a thing. But Orpheus found a cave that led deep under the ground. He went down and down into the darkness, playing his lyre."
+  },
+  {
+   "type": "p",
+   "text": "When he came to the dark river at the edge of the underworld, the ferryman would not take living people across. But Orpheus played, and the ferryman rowed him over. Then he came to Cerberus, the huge three-headed dog that guarded the gate. Orpheus played, and all three of Cerberus's heads lay down and went to sleep."
+  },
+  {
+   "type": "p",
+   "text": "At last Orpheus came before Hades and Persephone, the king and queen of the dead, on their dark thrones. He sang to them."
+  },
+  {
+   "type": "p",
+   "text": "\"I have not come to steal anything,\" he sang. \"I have come for my wife, Eurydice. She was taken too soon. Everyone comes to you in the end. Let her come back to the world for a little while longer. Then she will come back to you when it is time. If you will not let her go, then keep me here too.\""
+  },
+  {
+   "type": "p",
+   "text": "As he sang, the ghosts all around began to cry. Even the people being punished in the underworld stopped their work to listen. And for the first time ever, Hades and Persephone had tears on their cheeks."
+  },
+  {
+   "type": "p",
+   "text": "\"You may take her,\" said Hades. \"But on one condition. Eurydice will follow behind you. You must not look back at her, not even once, until you are both out in the sunlight. If you look back, she must stay here forever.\""
+  },
+  {
+   "type": "p",
+   "text": "So Eurydice was called. She came out from among the ghosts, still limping a little on her hurt ankle. And Orpheus began the long climb back up toward the world."
+  },
+  {
+   "type": "p",
+   "text": "He walked through the dark tunnel. He could not hear her footsteps. Was she really there? Was she still following? He climbed and climbed. At last he saw the light of day ahead. He was almost there."
+  },
+  {
+   "type": "p",
+   "text": "Then, just before they reached the top, he could not stand it any longer. He turned to look."
+  },
+  {
+   "type": "p",
+   "text": "There she was, right behind him. He reached out his arms to her. But she was already slipping away, back down into the dark."
+  },
+  {
+   "type": "p",
+   "text": "\"Goodbye,\" she whispered. And she was gone."
+  },
+  {
+   "type": "p",
+   "text": "Orpheus tried to go back down, but this time the ferryman would not take him. For the rest of his life he played sad, beautiful songs about Eurydice, and the whole world listened."
+  },
+  {
+   "type": "p",
+   "text": "But the story has a happy ending. When Orpheus grew old, and his own life ended, he went down to the land of the dead a second time. There he found Eurydice waiting for him. Now they walk together in the happy fields of the underworld. Sometimes she walks ahead, and sometimes he does. And now Orpheus can look back at her as often as he likes."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Orpheus and Eurydice” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch uses the Roman names Pluto for Hades and Proserpine for Persephone."
+  }
+ ],
+ "workId": "greek-orpheus",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--orpheus-and-eurydice",
+ "wordCount": 650,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 3.2,
+  "avgSentenceWords": 9.8,
+  "band": "early"
+ }
+}

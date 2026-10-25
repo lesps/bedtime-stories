@@ -1,0 +1,54 @@
+---
+title: Prometheus, Pandora and the Great Flood
+adaptedFrom: bulfinch-fable--prometheus-and-pandora
+order: 7
+namesNote: Bulfinch calls Zeus by his Roman name, Jupiter, and Poseidon by his, Neptune.
+---
+
+In the very beginning, there was no earth, no sea and no sky. Everything was mixed up together in one great jumble called Chaos. Then the light, fiery part floated up and became the sky. The heavy part sank down and became the earth. The water ran into the low places and became the sea.
+
+Rivers began to flow. Mountains rose up. Fish swam in the sea, birds flew in the air, and animals walked on the land. But something was missing.
+
+Two giant brothers, Prometheus and Epimetheus, were given a job: to make the creatures of the world and give each one a gift. Epimetheus went first. He gave the lion its strength and the rabbit its speed. He gave birds their wings, the turtle its shell and the bear its thick fur.
+
+Then Prometheus took some clay, mixed it with water, and shaped the first people. He made them stand up tall, so that while animals looked down at the ground, people could look up at the stars.
+
+"Now, brother," said Prometheus, "what gift shall we give the people?"
+
+Epimetheus looked in his bag. It was empty. He had given everything away to the animals.
+
+So Prometheus climbed up to the sky. He lit a torch from the fire of the sun, and he carried fire down to the people. With fire they could keep warm. They could cook food, make tools and build homes. Fire made people the cleverest creatures on earth.
+
+But Zeus, the king of the gods, was angry. He had not wanted people to have fire. So he chained Prometheus to a mountain for a very long time. Prometheus never said he was sorry. He knew he had done the right thing.
+
+Zeus was still not done. He told the gods to make the first woman. Each god gave her a gift. One gave her beauty, one gave her music, and one gave her a clever tongue. They named her Pandora, which means "all gifts." Pandora married Epimetheus.
+
+In their house was a jar, and the jar was closed tight. Nobody was supposed to open it. But Pandora wondered and wondered what was inside. One day she could not stand it any longer. She lifted the lid, just a little.
+
+Out flew all the troubles of the world. Out flew sickness and sadness. Out flew anger, greed and envy. They buzzed away in every direction like a swarm of stinging bugs.
+
+Pandora slammed the lid shut. But it was too late. Only one thing was left at the very bottom of the jar. It was Hope. And that is why, no matter how many troubles people have, they still have hope.
+
+At first, the world was a happy place. People call it the Golden Age. It was always spring. Food grew without planting. No one fought, and no one needed laws.
+
+But after a while, things got worse. Summer and winter came, and people had to build houses and plant fields. Then people began to fight. They grew greedy and dug in the ground for gold and iron. They were unkind to each other and to the gods.
+
+Zeus looked down and shook his head. "These people have become too wicked," he said. "I will wash the world clean and start again."
+
+He sent the rain. It rained and rained. Poseidon, the god of the sea, sent the rivers flooding over their banks. The water rose over the fields, over the houses, over the trees. Soon there was nothing but water everywhere.
+
+Only one mountain still poked up above the waves. On top of it, a little boat bumped against the rocks. In the boat were a man named Deucalion and his wife, Pyrrha. They were good and kind, and they had always been honest.
+
+Zeus saw them and remembered how good they were. So he sent the north wind to blow the clouds away. Poseidon blew on a great seashell horn, and all the water ran back into the sea.
+
+Deucalion and Pyrrha climbed out and looked around. The world was empty and quiet. "We are all alone," said Pyrrha.
+
+They went to a temple and prayed. A voice answered them. "Throw the bones of your mother behind you."
+
+Pyrrha was shocked. "I would never do such a thing!"
+
+Deucalion thought hard. Then he smiled. "The earth is the mother of us all," he said. "Her bones must be the stones."
+
+So they picked up stones and threw them over their shoulders as they walked. When the stones touched the ground, they began to soften and change. The stones Deucalion threw became men. The stones Pyrrha threw became women.
+
+And that, said the old Greeks, is how the world was filled with people again. It is also why people can be so tough and hard-working: they came from stones.
