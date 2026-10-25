@@ -1,0 +1,67 @@
+---
+title: Horatius at the Bridge
+adaptedFrom: church-livy--the-story-of-lars-porsenna
+order: 13
+namesNote: Macaulay's poem “Horatius,” in Lays of Ancient Rome, tells the same story in verse, and is listed under Other versions too.
+alsoSimplifies: macaulay-lays--horatius
+---
+
+After Romulus and Numa, Rome had many more kings. The last of them was a cruel and proud king named Tarquin. At last the Romans had had enough. They drove Tarquin out of the city and swore that Rome would never again be ruled by a king. From then on, Rome would be free.
+
+Tarquin ran away to Lars Porsena, the powerful king of Clusium, a great city of the Etruscans. "Help me get my throne back," he begged. "If the Romans can throw out their king, what is to stop your people from throwing you out too?"
+
+So Lars Porsena gathered a huge army and marched on Rome. All the farmers ran inside the city walls for safety. On one side, the city had strong walls. On the other side was the river Tiber, flowing deep and fast. But across the river there was one wooden bridge. If the enemy crossed that bridge, Rome would be lost.
+
+On the far side of the river, opposite Rome, was a hill called the Janiculum. Lars Porsena's army attacked it so suddenly that they captured it in no time, and then they came charging down toward the bridge. The Roman soldiers who had been guarding the hill turned and ran, throwing away their weapons as they fled across the bridge.
+
+But one man was guarding the bridge that day. His name was Horatius.
+
+"Men of Rome!" Horatius shouted. "Running away won't save you! If you leave this bridge standing, the enemy will be inside the city right behind you. Break down the bridge! Use axes, use fire, use anything you have! I will hold back the enemy for as long as one man can."
+
+And he ran to the far end of the bridge, alone, to face the whole army.
+
+But two brave men were ashamed to leave him there. Their names were Lartius and Herminius, and they ran to stand beside him, one on his left and one on his right. The bridge was so narrow that only a few enemies could come at them at once. So the three of them stood shoulder to shoulder, and held back the first charge of the Etruscan army, while behind them the Romans chopped and hacked at the bridge with axes and crowbars.
+
+The Etruscan soldiers could not believe it. Three men, holding back their whole army!
+
+At last only a small piece of the bridge was left. "Come back! Come back!" shouted the Romans. Horatius sent Lartius and Herminius running back across. But he himself stayed where he was, at the far end, all alone.
+
+He glared at the Etruscan princes. "Well?" he called. "Which of you will fight me? Or are you all just servants of King Porsena, come here to take away other people's freedom, when you don't even have any yourselves?"
+
+For a moment, they all just looked at each other, waiting for someone else to go first. Then, ashamed, they gave a great shout and threw their spears at him, all at once. Horatius caught them all on his shield, and stood firm. They rushed forward to push him off the bridge.
+
+Then, with a great crash, the bridge fell into the river. The Romans had done it! The enemy stopped, frightened.
+
+Horatius turned and looked down at the river. "Father Tiber," he prayed, "I beg you, take this soldier and his armor kindly into your waters."
+
+And he jumped into the river, in all his heavy armor, and swam. The current was strong, and spears splashed into the water all around him. But he was not hurt at all. He swam all the way across and climbed out on the other side, safe among his own people. And the whole city cheered. In the poem about Horatius, they say that even the Etruscan soldiers, watching him swim, could hardly stop themselves from cheering too.
+
+The Romans never forgot him. They put up a statue of Horatius in the marketplace, and gave him as much land as he could plow around in a single day. And even though food was scarce, every citizen gave him a little of their own, to say thank you.
+
+But Rome was not saved yet. Lars Porsena could not cross the river now, so he decided to starve the city instead. He camped beside the Tiber and blocked the river with ships, so that no food could come in. Soon the Romans were very hungry.
+
+Then a brave young man named Caius Mucius had a bold idea. "I will sneak into the enemy camp," he told the leaders of Rome, "and stop King Porsena myself." He hid a dagger under his cloak and slipped across the river.
+
+In the enemy camp, the soldiers were lining up to get their pay. Two men sat side by side, both dressed in fine clothes, and the soldiers were talking to both of them. Which one was the king? Mucius did not dare to ask, in case somebody realized he was a stranger. So he guessed. And he guessed wrong. He struck down the king's secretary.
+
+The guards grabbed him and dragged him before the king.
+
+"I am Caius Mucius, a citizen of Rome," he said proudly. "I came to stop you, and I am not afraid to suffer for it. Romans are brave enough to do great things, and brave enough to bear pain. And I am not the only one. Many more young Romans are ready to try."
+
+King Porsena was angry and frightened. "Tell me about these others," he said, "or I will have you thrown into the fire!"
+
+Then Mucius did an astonishing thing. There was a fire burning on an altar nearby. Mucius walked up to it and held his right hand in the flames. He did not move, and he did not cry out. He just looked at the king, as if he could not feel a thing.
+
+"See how little Romans care about pain," he said, "when they want to win glory."
+
+The king jumped up from his seat. "Take him away from the fire!" he ordered. "You are braver against yourself than against me. Go home. You are free."
+
+From then on, Mucius was called Scaevola, which means "Lefty," because he had lost the use of his right hand. And King Porsena was so worried about the other young Romans who might come after him that he soon made peace.
+
+As part of the peace, the Romans had to send some of their young people to stay in the Etruscan camp as hostages. Among them was a girl named Cloelia. One day Cloelia slipped away from the guards. She led all the other girls down to the river, and they swam across the Tiber together, and she brought them all safely home.
+
+King Porsena was angry at first. "Send her back," he told the Romans, "or the peace is over." The Romans kept their promise and sent her back. But by then the king's anger had turned to admiration.
+
+"This girl is even braver than Horatius or Mucius," he said. "I will set her free. And she may choose some of the other hostages to take home with her." Cloelia chose the youngest children, because they were the ones most in need of going home.
+
+The Romans put up a statue of Cloelia sitting on a horse, in the most important street in Rome. And King Porsena went home and never tried to bring back King Tarquin again. Rome was free.

@@ -1,0 +1,54 @@
+---
+title: The Geese That Saved Rome
+adaptedFrom: church-livy--rome-and-the-gauls
+order: 14
+flags: none
+---
+
+Long ago, a people called the Gauls came over the high Alps mountains into Italy. They were enormous men, taller than anyone the Italians had ever seen, with long hair and long swords, and their leader was a king named Brennus. They had heard about the good things that grew in Italy, especially the grapes and the wine, and they wanted land of their own there.
+
+The Gauls attacked an Etruscan city called Clusium, and the people of Clusium asked Rome for help. Rome sent three messengers to talk to the Gauls. But the messengers were hot-headed young men. Instead of making peace, they joined in the fighting against the Gauls, and that was against every rule for messengers. The Gauls were furious, and they turned their whole army toward Rome.
+
+The Roman army marched out to meet them, at a little river called the Allia. But the Roman generals were careless. They did not build a camp. They did not ask the gods for a sign. And when the Gauls charged, with their terrible war cries, the Romans panicked and ran. Most of the soldiers fled to the nearby city of Veii. The rest ran all the way back to Rome.
+
+The Gauls were amazed that they had won so easily. They marched on to Rome, and when they got there, they found the gates wide open and nobody on the walls.
+
+Inside the city, the Romans had made a hard choice. They could not defend the whole city. So all the young men who could fight, and their families, climbed up to the top of the Capitoline Hill, where the great temple of Jupiter stood and the walls were strongest. They took all the food they could carry. The priestesses of Vesta carried away the sacred things to a safe place in another town. And many other people fled to the countryside.
+
+But the old men of Rome, the senators, who had led the city for many years, decided to stay in their homes. "We are too old to fight," they said. "We will not eat the food that the young soldiers need." So they put on their finest robes, the robes they had worn on the proudest days of their lives, and sat in their ivory chairs in the doorways of their houses, waiting.
+
+The next day, the Gauls came marching into the silent city. They stared at the old men sitting so still in their doorways, in their splendid robes. They looked so grand and calm that the Gauls thought they must be statues of the gods. They stood and gazed at them in wonder.
+
+Then one Gaul reached out and stroked the long white beard of an old man named Marcus Papirius, to see if he was real. Papirius was so insulted that he whacked the Gaul on the head with his ivory staff! That broke the spell. The furious Gauls fell upon the old men, and the brave senators of Rome lost their lives that day, as they had known they would. Then the Gauls set the city on fire.
+
+From the top of the Capitoline Hill, the Romans watched their homes burn. It broke their hearts. But they did not give up. When the Gauls tried to climb the hill, the Romans waited until they were halfway up and then charged down at them and drove them back.
+
+So the Gauls camped around the hill, to starve the Romans out.
+
+While they waited, a young Roman named Fabius did something very brave. His family had always held a special prayer every year on another hill in the city. When the day came, Fabius put on his priest's robes, took the holy things in his hands, and walked straight down the hill, right through the middle of the Gauls' camp. He did not hurry. He did not look left or right. The Gauls were so astonished that they let him pass. He said his family's prayers, and walked all the way back up again.
+
+Then, one bright moonlit night, the Gauls found a steep, rocky path up the side of the Capitoline Hill. Silently, one by one, they began to climb, passing up their weapons and pulling each other up the rocks. They were so quiet that not even the dogs woke up.
+
+But the Gauls had not counted on the geese.
+
+On top of the hill, near the temple of Juno, lived a flock of geese that were sacred to the goddess. The Romans were starving, but they had never eaten the sacred geese. And now the geese heard something moving in the darkness. They began to honk and cackle and flap their wings, making a tremendous racket.
+
+The noise woke up a soldier named Marcus Manlius. He grabbed his weapons and ran to the edge of the hill, shouting for the others. Just at that moment, the first Gaul was climbing over the top. Manlius bashed him with his shield, and the Gaul toppled backward and knocked over the men climbing behind him. The other Romans came running and threw down rocks and spears, and the whole line of Gauls went tumbling down the hill.
+
+The geese had saved Rome!
+
+The next morning, all the soldiers thanked Manlius. Even though they were starving, each one gave him a little of his own food and wine. It was a small gift, but it meant a great deal.
+
+But the Romans on the hill were growing weaker and weaker with hunger. The Gauls were suffering too, from sickness in their camp, and they wanted to go home. So the two sides made a deal. The Romans would pay the Gauls a thousand pounds of gold, and the Gauls would leave.
+
+The gold was brought out and weighed on a big scale. But the Gauls had brought false weights, to make the Romans pay more. When the Romans complained, King Brennus laughed. He took off his heavy sword and threw it onto the scale with the weights, so the Romans would have to pay even more. "Woe to the conquered!" he said.
+
+But before all the gold was weighed, a great Roman general named Camillus arrived with a new army. The Romans had made him their leader, with all the power of a king for a little while. He marched straight up to the scales.
+
+"Take that gold away," said Camillus. "Rome does not buy its freedom with gold. Rome wins it with iron!" And he told the Gauls to get ready for battle.
+
+The Gauls rushed at the Romans, but now it was their turn to be beaten. Camillus drove them out of the city and far away, and Rome was free again.
+
+Afterwards, many Romans wanted to leave their burned city and move to Veii, where the houses were still standing. But Camillus would not hear of it. He had the temples of the gods repaired, and persuaded the Romans to stay and rebuild their own city, stronger than ever. They called Camillus the second Romulus, the second founder of Rome.
+
+And they never forgot the geese.

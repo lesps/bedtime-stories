@@ -42,6 +42,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-roman": {
+        "id": "myths-roman",
+        "title": "Roman Myths, Simply Told",
+        "author": "Traditional (ancient Roman)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
 }
 
 
@@ -75,6 +86,10 @@ def main():
         orig = load_story(meta["adaptedFrom"])
         coll = next(c for c in index["collections"] if c["id"] == orig["collectionId"])
         credit = f"{coll['author']}'s “{orig['title']}” in {coll['title']}"
+        if (coll.get("contributor") or "").startswith("Translated by "):
+            # The collection title names the poets; credit the translator instead.
+            translator = coll["contributor"].removeprefix("Translated by ")
+            credit = f"“{orig['title']}” in {coll['title']}, translated by {translator}"
         if coll.get("firstPublished"):
             credit += f" ({coll['firstPublished']})"
         note = f"A simplified retelling of {credit}. The original is listed under Other versions."

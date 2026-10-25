@@ -167,7 +167,7 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 38
+   "storyCount": 42
   },
   {
    "id": "bulfinch-fable",
@@ -179,7 +179,7 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 35
+   "storyCount": 39
   },
   {
    "id": "kingsley-heroes",
@@ -192,6 +192,66 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 3
+  },
+  {
+   "id": "hesiod-hymns",
+   "title": "Hesiod and the Homeric Hymns",
+   "author": "Hesiod and the Homeric poets",
+   "contributor": "Translated by Hugh G. Evelyn-White",
+   "firstPublished": 1914,
+   "source": "https://www.gutenberg.org/ebooks/348",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "el",
+   "storyCount": 5
+  },
+  {
+   "author": "Alfred J. Church",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "church-virgil",
+   "title": "Stories from Virgil",
+   "contributor": "Retold from Virgil's Aeneid",
+   "firstPublished": 1879,
+   "source": "https://www.gutenberg.org/ebooks/40622",
+   "originalLanguage": "la",
+   "storyCount": 9
+  },
+  {
+   "author": "Alfred J. Church",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "church-livy",
+   "title": "Stories from Livy",
+   "contributor": "Retold from Livy's History of Rome",
+   "firstPublished": 1883,
+   "source": "https://www.gutenberg.org/ebooks/24030",
+   "originalLanguage": "la",
+   "storyCount": 4
+  },
+  {
+   "id": "macaulay-lays",
+   "title": "Lays of Ancient Rome",
+   "author": "Thomas Babington Macaulay",
+   "contributor": null,
+   "firstPublished": 1842,
+   "source": "https://www.gutenberg.org/ebooks/847",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-roman",
+   "title": "Roman Myths, Simply Told",
+   "author": "Traditional (ancient Roman)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 16
   }
  ],
  "stories": [
@@ -8129,6 +8189,78 @@
    "adaptedFrom": "bulfinch-fable--fate-of-the-suitors"
   },
   {
+   "id": "myths-greek--zeus-and-the-titans",
+   "collectionId": "myths-greek",
+   "order": 39,
+   "title": "Zeus and the Titans",
+   "wordCount": 1183,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-theogony",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.4,
+    "band": "early"
+   },
+   "adaptedFrom": "hesiod-hymns--the-theogony"
+  },
+  {
+   "id": "myths-greek--apollo-is-born",
+   "collectionId": "myths-greek",
+   "order": 40,
+   "title": "Apollo Is Born",
+   "wordCount": 1259,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-apollo-delphi",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 12.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "hesiod-hymns--hymn-to-apollo"
+  },
+  {
+   "id": "myths-greek--baby-hermes-and-the-stolen-cattle",
+   "collectionId": "myths-greek",
+   "order": 41,
+   "title": "Baby Hermes and the Stolen Cattle",
+   "wordCount": 1264,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-hermes-cattle",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "hesiod-hymns--hymn-to-hermes"
+  },
+  {
+   "id": "myths-greek--dionysus-and-the-pirates",
+   "collectionId": "myths-greek",
+   "order": 42,
+   "title": "Dionysus and the Pirates",
+   "wordCount": 550,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-dionysus-pirates",
+   "readingLevel": {
+    "fkGrade": 2.7,
+    "avgSentenceWords": 9.7,
+    "band": "early"
+   },
+   "adaptedFrom": "hesiod-hymns--hymn-to-dionysus"
+  },
+  {
    "id": "bulfinch-fable--prometheus-and-pandora",
    "collectionId": "bulfinch-fable",
    "order": 1,
@@ -8263,15 +8395,15 @@
    "collectionId": "bulfinch-fable",
    "order": 8,
    "title": "Phaeton",
-   "wordCount": 2881,
+   "wordCount": 2865,
    "readingMinutes": 16,
    "excluded": false,
    "flags": [],
    "hasImages": false,
    "workId": "greek-phaethon",
    "readingLevel": {
-    "fkGrade": 8.2,
-    "avgSentenceWords": 21.4,
+    "fkGrade": 8.1,
+    "avgSentenceWords": 21.3,
     "band": "advanced"
    },
    "simplifiedId": "myths-greek--phaethon-and-the-sun-chariot"
@@ -8378,8 +8510,8 @@
    "hasImages": false,
    "workId": "greek-clytie",
    "readingLevel": {
-    "fkGrade": 10.7,
-    "avgSentenceWords": 29.6,
+    "fkGrade": 10.4,
+    "avgSentenceWords": 29.2,
     "band": "advanced"
    },
    "simplifiedId": "myths-greek--clytie-and-the-sunflower"
@@ -8418,8 +8550,8 @@
    "hasImages": false,
    "workId": "greek-arachne",
    "readingLevel": {
-    "fkGrade": 9.3,
-    "avgSentenceWords": 21.8,
+    "fkGrade": 9.2,
+    "avgSentenceWords": 21.6,
     "band": "advanced"
    },
    "simplifiedId": "myths-greek--athena-and-arachne"
@@ -8673,7 +8805,7 @@
    "collectionId": "bulfinch-fable",
    "order": 30,
    "title": "The Fall of Troy",
-   "wordCount": 1766,
+   "wordCount": 1756,
    "readingMinutes": 10,
    "excluded": false,
    "flags": [
@@ -8682,8 +8814,8 @@
    "hasImages": false,
    "workId": "greek-wooden-horse",
    "readingLevel": {
-    "fkGrade": 10.7,
-    "avgSentenceWords": 23.2,
+    "fkGrade": 10.4,
+    "avgSentenceWords": 22.6,
     "band": "advanced"
    },
    "simplifiedId": "myths-greek--the-wooden-horse"
@@ -8781,6 +8913,82 @@
    "simplifiedId": "myths-greek--odysseus-comes-home"
   },
   {
+   "id": "bulfinch-fable--the-roman-gods",
+   "collectionId": "bulfinch-fable",
+   "order": 36,
+   "title": "The Roman Gods",
+   "wordCount": 620,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-gods",
+   "readingLevel": {
+    "fkGrade": 8.2,
+    "avgSentenceWords": 16.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--janus-and-the-gods-of-rome"
+  },
+  {
+   "id": "bulfinch-fable--vertumnus-and-pomona",
+   "collectionId": "bulfinch-fable",
+   "order": 37,
+   "title": "Vertumnus and Pomona",
+   "wordCount": 1569,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-vertumnus-pomona",
+   "readingLevel": {
+    "fkGrade": 7.9,
+    "avgSentenceWords": 21.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--pomona-and-vertumnus"
+  },
+  {
+   "id": "bulfinch-fable--cupid-and-psyche",
+   "collectionId": "bulfinch-fable",
+   "order": 38,
+   "title": "Cupid and Psyche",
+   "wordCount": 4135,
+   "readingMinutes": 23,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-cupid-psyche",
+   "readingLevel": {
+    "fkGrade": 10.9,
+    "avgSentenceWords": 26.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--cupid-and-psyche"
+  },
+  {
+   "id": "bulfinch-fable--the-sibyl",
+   "collectionId": "bulfinch-fable",
+   "order": 39,
+   "title": "The Sibyl",
+   "wordCount": 573,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-sibyl",
+   "readingLevel": {
+    "fkGrade": 9.0,
+    "avgSentenceWords": 22.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--the-sibyl-s-books"
+  },
+  {
    "id": "kingsley-heroes--perseus",
    "collectionId": "kingsley-heroes",
    "order": 1,
@@ -8833,6 +9041,651 @@
     "band": "advanced"
    },
    "simplifiedId": "myths-greek--theseus-and-the-minotaur"
+  },
+  {
+   "id": "hesiod-hymns--the-theogony",
+   "collectionId": "hesiod-hymns",
+   "order": 1,
+   "title": "The Theogony",
+   "wordCount": 9777,
+   "readingMinutes": 54,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-theogony",
+   "readingLevel": {
+    "fkGrade": 13.0,
+    "avgSentenceWords": 32.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--zeus-and-the-titans"
+  },
+  {
+   "id": "hesiod-hymns--hymn-to-demeter",
+   "collectionId": "hesiod-hymns",
+   "order": 2,
+   "title": "Hymn to Demeter",
+   "wordCount": 5079,
+   "readingMinutes": 28,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-persephone",
+   "readingLevel": {
+    "fkGrade": 12.0,
+    "avgSentenceWords": 31.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--persephone-and-the-pomegranate-seeds"
+  },
+  {
+   "id": "hesiod-hymns--hymn-to-apollo",
+   "collectionId": "hesiod-hymns",
+   "order": 3,
+   "title": "Hymn to Apollo",
+   "wordCount": 5419,
+   "readingMinutes": 30,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-apollo-delphi",
+   "readingLevel": {
+    "fkGrade": 12.7,
+    "avgSentenceWords": 33.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--apollo-is-born"
+  },
+  {
+   "id": "hesiod-hymns--hymn-to-hermes",
+   "collectionId": "hesiod-hymns",
+   "order": 4,
+   "title": "Hymn to Hermes",
+   "wordCount": 5950,
+   "readingMinutes": 33,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-hermes-cattle",
+   "readingLevel": {
+    "fkGrade": 10.8,
+    "avgSentenceWords": 28.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--baby-hermes-and-the-stolen-cattle"
+  },
+  {
+   "id": "hesiod-hymns--hymn-to-dionysus",
+   "collectionId": "hesiod-hymns",
+   "order": 5,
+   "title": "Hymn to Dionysus",
+   "wordCount": 614,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-dionysus-pirates",
+   "readingLevel": {
+    "fkGrade": 10.0,
+    "avgSentenceWords": 27.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--dionysus-and-the-pirates"
+  },
+  {
+   "id": "church-virgil--the-fall-of-troy",
+   "collectionId": "church-virgil",
+   "order": 1,
+   "title": "The Fall of Troy",
+   "wordCount": 5650,
+   "readingMinutes": 31,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-aeneas-troy",
+   "readingLevel": {
+    "fkGrade": 8.0,
+    "avgSentenceWords": 23.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--aeneas-escapes-from-troy"
+  },
+  {
+   "id": "church-virgil--the-wanderings-of-aeneas",
+   "collectionId": "church-virgil",
+   "order": 2,
+   "title": "The Wanderings of Aeneas",
+   "wordCount": 5782,
+   "readingMinutes": 32,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-wanderings",
+   "readingLevel": {
+    "fkGrade": 8.3,
+    "avgSentenceWords": 23.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--the-wanderings-of-aeneas"
+  },
+  {
+   "id": "church-virgil--dido-queen-of-carthage",
+   "collectionId": "church-virgil",
+   "order": 3,
+   "title": "Dido, Queen of Carthage",
+   "wordCount": 7721,
+   "readingMinutes": 43,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-dido",
+   "readingLevel": {
+    "fkGrade": 8.0,
+    "avgSentenceWords": 22.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--dido-queen-of-carthage"
+  },
+  {
+   "id": "church-virgil--the-funeral-games",
+   "collectionId": "church-virgil",
+   "order": 4,
+   "title": "The Funeral Games",
+   "wordCount": 5436,
+   "readingMinutes": 30,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-games",
+   "readingLevel": {
+    "fkGrade": 8.1,
+    "avgSentenceWords": 23.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--the-great-boat-race"
+  },
+  {
+   "id": "church-virgil--the-sibyl-and-the-dwellings-of-the-dead",
+   "collectionId": "church-virgil",
+   "order": 5,
+   "title": "The Sibyl and the Dwellings of the Dead",
+   "wordCount": 4991,
+   "readingMinutes": 28,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-aeneas-underworld",
+   "readingLevel": {
+    "fkGrade": 6.4,
+    "avgSentenceWords": 18.9,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-roman--aeneas-visits-the-underworld"
+  },
+  {
+   "id": "church-virgil--aeneas-comes-to-latium",
+   "collectionId": "church-virgil",
+   "order": 6,
+   "title": "Aeneas Comes to Latium",
+   "wordCount": 4632,
+   "readingMinutes": 26,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-latium",
+   "readingLevel": {
+    "fkGrade": 8.8,
+    "avgSentenceWords": 24.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--aeneas-comes-to-italy"
+  },
+  {
+   "id": "church-virgil--king-evander-and-the-arms-of-aeneas",
+   "collectionId": "church-virgil",
+   "order": 7,
+   "title": "King Evander and the Arms of Aeneas",
+   "wordCount": 3291,
+   "readingMinutes": 18,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-evander",
+   "readingLevel": {
+    "fkGrade": 8.0,
+    "avgSentenceWords": 21.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--king-evander-and-the-shield-of-aeneas"
+  },
+  {
+   "id": "church-virgil--nisus-and-euryalus",
+   "collectionId": "church-virgil",
+   "order": 8,
+   "title": "Nisus and Euryalus",
+   "wordCount": 2233,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-nisus-euryalus",
+   "readingLevel": {
+    "fkGrade": 5.9,
+    "avgSentenceWords": 17.2,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "church-virgil--the-war-in-latium",
+   "collectionId": "church-virgil",
+   "order": 9,
+   "title": "The War in Latium",
+   "wordCount": 13103,
+   "readingMinutes": 73,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-aeneas-war",
+   "readingLevel": {
+    "fkGrade": 6.7,
+    "avgSentenceWords": 19.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--aeneas-and-turnus"
+  },
+  {
+   "id": "church-livy--the-story-of-romulus",
+   "collectionId": "church-livy",
+   "order": 1,
+   "title": "The Story of Romulus",
+   "wordCount": 3444,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-romulus-remus",
+   "readingLevel": {
+    "fkGrade": 11.7,
+    "avgSentenceWords": 30.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--romulus-and-remus"
+  },
+  {
+   "id": "church-livy--the-story-of-numa",
+   "collectionId": "church-livy",
+   "order": 2,
+   "title": "The Story of Numa",
+   "wordCount": 783,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-numa-egeria",
+   "readingLevel": {
+    "fkGrade": 12.5,
+    "avgSentenceWords": 32.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--numa-and-the-nymph-egeria"
+  },
+  {
+   "id": "church-livy--the-story-of-lars-porsenna",
+   "collectionId": "church-livy",
+   "order": 3,
+   "title": "The Story of Lars Porsenna",
+   "wordCount": 3390,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-horatius",
+   "readingLevel": {
+    "fkGrade": 11.5,
+    "avgSentenceWords": 30.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--horatius-at-the-bridge"
+  },
+  {
+   "id": "church-livy--rome-and-the-gauls",
+   "collectionId": "church-livy",
+   "order": 4,
+   "title": "Rome and the Gauls",
+   "wordCount": 6495,
+   "readingMinutes": 36,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "roman-gauls-capitol",
+   "readingLevel": {
+    "fkGrade": 13.8,
+    "avgSentenceWords": 35.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--the-geese-that-saved-rome"
+  },
+  {
+   "id": "macaulay-lays--horatius",
+   "collectionId": "macaulay-lays",
+   "order": 1,
+   "title": "Horatius",
+   "wordCount": 3204,
+   "readingMinutes": 18,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-horatius",
+   "readingLevel": {
+    "fkGrade": 9.2,
+    "avgSentenceWords": 25.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-roman--horatius-at-the-bridge"
+  },
+  {
+   "id": "myths-roman--janus-and-the-gods-of-rome",
+   "collectionId": "myths-roman",
+   "order": 1,
+   "title": "Janus and the Gods of Rome",
+   "wordCount": 675,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-gods",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 13.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--the-roman-gods"
+  },
+  {
+   "id": "myths-roman--aeneas-escapes-from-troy",
+   "collectionId": "myths-roman",
+   "order": 2,
+   "title": "Aeneas Escapes from Troy",
+   "wordCount": 1176,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-troy",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 11.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-virgil--the-fall-of-troy"
+  },
+  {
+   "id": "myths-roman--the-wanderings-of-aeneas",
+   "collectionId": "myths-roman",
+   "order": 3,
+   "title": "The Wanderings of Aeneas",
+   "wordCount": 1422,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-wanderings",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.0,
+    "band": "early"
+   },
+   "adaptedFrom": "church-virgil--the-wanderings-of-aeneas"
+  },
+  {
+   "id": "myths-roman--dido-queen-of-carthage",
+   "collectionId": "myths-roman",
+   "order": 4,
+   "title": "Dido, Queen of Carthage",
+   "wordCount": 1552,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-dido",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 10.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-virgil--dido-queen-of-carthage"
+  },
+  {
+   "id": "myths-roman--the-great-boat-race",
+   "collectionId": "myths-roman",
+   "order": 5,
+   "title": "The Great Boat Race",
+   "wordCount": 1677,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-games",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.0,
+    "band": "early"
+   },
+   "adaptedFrom": "church-virgil--the-funeral-games"
+  },
+  {
+   "id": "myths-roman--aeneas-visits-the-underworld",
+   "collectionId": "myths-roman",
+   "order": 6,
+   "title": "Aeneas Visits the Underworld",
+   "wordCount": 1667,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-underworld",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-virgil--the-sibyl-and-the-dwellings-of-the-dead"
+  },
+  {
+   "id": "myths-roman--the-sibyl-s-books",
+   "collectionId": "myths-roman",
+   "order": 7,
+   "title": "The Sibyl's Books",
+   "wordCount": 607,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-sibyl",
+   "readingLevel": {
+    "fkGrade": 3.1,
+    "avgSentenceWords": 11.3,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--the-sibyl"
+  },
+  {
+   "id": "myths-roman--aeneas-comes-to-italy",
+   "collectionId": "myths-roman",
+   "order": 8,
+   "title": "Aeneas Comes to Italy",
+   "wordCount": 1343,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-latium",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 10.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-virgil--aeneas-comes-to-latium"
+  },
+  {
+   "id": "myths-roman--king-evander-and-the-shield-of-aeneas",
+   "collectionId": "myths-roman",
+   "order": 9,
+   "title": "King Evander and the Shield of Aeneas",
+   "wordCount": 1428,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-evander",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-virgil--king-evander-and-the-arms-of-aeneas"
+  },
+  {
+   "id": "myths-roman--aeneas-and-turnus",
+   "collectionId": "myths-roman",
+   "order": 10,
+   "title": "Aeneas and Turnus",
+   "wordCount": 1518,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-aeneas-war",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 10.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-virgil--the-war-in-latium"
+  },
+  {
+   "id": "myths-roman--romulus-and-remus",
+   "collectionId": "myths-roman",
+   "order": 11,
+   "title": "Romulus and Remus",
+   "wordCount": 1185,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-romulus-remus",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 11.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-livy--the-story-of-romulus"
+  },
+  {
+   "id": "myths-roman--numa-and-the-nymph-egeria",
+   "collectionId": "myths-roman",
+   "order": 12,
+   "title": "Numa and the Nymph Egeria",
+   "wordCount": 637,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-numa-egeria",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 15.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-livy--the-story-of-numa"
+  },
+  {
+   "id": "myths-roman--horatius-at-the-bridge",
+   "collectionId": "myths-roman",
+   "order": 13,
+   "title": "Horatius at the Bridge",
+   "wordCount": 1297,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-horatius",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 11.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-livy--the-story-of-lars-porsenna"
+  },
+  {
+   "id": "myths-roman--the-geese-that-saved-rome",
+   "collectionId": "myths-roman",
+   "order": 14,
+   "title": "The Geese That Saved Rome",
+   "wordCount": 1207,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-gauls-capitol",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 13.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "church-livy--rome-and-the-gauls"
+  },
+  {
+   "id": "myths-roman--pomona-and-vertumnus",
+   "collectionId": "myths-roman",
+   "order": 15,
+   "title": "Pomona and Vertumnus",
+   "wordCount": 740,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-vertumnus-pomona",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 12.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--vertumnus-and-pomona"
+  },
+  {
+   "id": "myths-roman--cupid-and-psyche",
+   "collectionId": "myths-roman",
+   "order": 16,
+   "title": "Cupid and Psyche",
+   "wordCount": 1732,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "roman-cupid-psyche",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 10.5,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--cupid-and-psyche"
   }
  ]
 }

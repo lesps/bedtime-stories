@@ -1,0 +1,301 @@
+{
+ "id": "macaulay-lays--horatius",
+ "collectionId": "macaulay-lays",
+ "order": 1,
+ "title": "Horatius",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "verse",
+   "text": "Lars Porsena of Clusium\n     By the Nine Gods he swore\nThat the great house of Tarquin\n     Should suffer wrong no more.\nBy the Nine Gods he swore it,\n     And named a trysting day,\nAnd bade his messengers ride forth,\nEast and west and south and north,\n     To summon his array."
+  },
+  {
+   "type": "verse",
+   "text": "East and west and south and north\n     The messengers ride fast,\nAnd tower and town and cottage\n     Have heard the trumpet's blast.\nShame on the false Etruscan\n     Who lingers in his home,\nWhen Porsena of Clusium\n     Is on the march for Rome."
+  },
+  {
+   "type": "verse",
+   "text": "The horsemen and the footmen\n     Are pouring in amain\nFrom many a stately market-place,\n     From many a fruitful plain,\nFrom many a lonely hamlet,\n     Which, hid by beech and pine,\nLike an eagle's nest, hangs on the crest\n     Of purple Apennine;"
+  },
+  {
+   "type": "verse",
+   "text": "From lordly Volaterræ,\n     Where scowls the far-famed hold\nPiled by the hands of giants\n     For godlike kings of old;\nFrom seagirt Populonia,\n     Whose sentinels descry\nSardinia's snowy mountain-tops\n     Fringing the southern sky;"
+  },
+  {
+   "type": "verse",
+   "text": "From the proud mart of Pisæ,\n     Queen of the western waves,\nWhere ride Massilia's triremes\n     Heavy with fair-haired slaves;\nFrom where sweet Clanis wanders\n     Through corn and vines and flowers;\nFrom where Cortona lifts to heaven\n     Her diadem of towers."
+  },
+  {
+   "type": "verse",
+   "text": "Tall are the oaks whose acorns\n     Drop in dark Auser's rill;\nFat are the stags that champ the boughs\n     Of the Ciminian hill;\nBeyond all streams Clitumnus\n     Is to the herdsman dear;\nBest of all pools the fowler loves\n     The great Volsinian mere."
+  },
+  {
+   "type": "verse",
+   "text": "But now no stroke of woodman\n     Is heard by Auser's rill;\nNo hunter tracks the stag's green path\n     Up the Ciminian hill;\nUnwatched along Clitumnus\n     Grazes the milk-white steer;\nUnharmed the water fowl may dip\n     In the Volsminian mere."
+  },
+  {
+   "type": "verse",
+   "text": "The harvests of Arretium,\n     This year, old men shall reap;\nThis year, young boys in Umbro\n     Shall plunge the struggling sheep;\nAnd in the vats of Luna,\n     This year, the must shall foam\nRound the white feet of laughing girls\n     Whose sires have marched to Rome."
+  },
+  {
+   "type": "verse",
+   "text": "There be thirty chosen prophets,\n     The wisest of the land,\nWho alway by Lars Porsena\n     Both morn and evening stand:\nEvening and morn the Thirty\n     Have turned the verses o'er,\nTraced from the right on linen white\n     By mighty seers of yore."
+  },
+  {
+   "type": "verse",
+   "text": "And with one voice the Thirty\n     Have their glad answer given:\n\"Go forth, go forth, Lars Porsena;\n     Go forth, beloved of Heaven;\nGo, and return in glory\n     To Clusium's royal dome;\nAnd hang round Nurscia's altars\n     The golden shields of Rome.\""
+  },
+  {
+   "type": "verse",
+   "text": "And now hath every city\n     Sent up her tale of men;\nThe foot are fourscore thousand,\n     The horse are thousands ten.\nBefore the gates of Sutrium\n     Is met the great array.\nA proud man was Lars Porsena\n     Upon the trysting day."
+  },
+  {
+   "type": "verse",
+   "text": "For all the Etruscan armies\n     Were ranged beneath his eye,\nAnd many a banished Roman,\n     And many a stout ally;\nAnd with a mighty following\n     To join the muster came\nThe Tusculan Mamilius,\n     Prince of the Latian name."
+  },
+  {
+   "type": "verse",
+   "text": "But by the yellow Tiber\n     Was tumult and affright:\nFrom all the spacious champaign\n     To Rome men took their flight.\nA mile around the city,\n     The throng stopped up the ways;\nA fearful sight it was to see\n     Through two long nights and days."
+  },
+  {
+   "type": "verse",
+   "text": "For aged folks on crutches,\n     And women great with child,\nAnd mothers sobbing over babes\n     That clung to them and smiled,\nAnd sick men borne in litters\n     High on the necks of slaves,\nAnd troops of sun-burned husbandmen\n     With reaping-hooks and staves,"
+  },
+  {
+   "type": "verse",
+   "text": "And droves of mules and asses\n     Laden with skins of wine,\nAnd endless flocks of goats and sheep,\n     And endless herds of kine,\nAnd endless trains of wagons\n     That creaked beneath the weight\nOf corn-sacks and of household goods,\n     Choked every roaring gate."
+  },
+  {
+   "type": "verse",
+   "text": "Now, from the rock Tarpeian,\n     Could the wan burghers spy\nThe line of blazing villages\n     Red in the midnight sky.\nThe Fathers of the City,\n     They sat all night and day,\nFor every hour some horseman come\n     With tidings of dismay."
+  },
+  {
+   "type": "verse",
+   "text": "To eastward and to westward\n     Have spread the Tuscan bands;\nNor house, nor fence, nor dovecote\n     In Crustumerium stands.\nVerbenna down to Ostia\n     Hath wasted all the plain;\nAstur hath stormed Janiculum,\n     And the stout guards are slain."
+  },
+  {
+   "type": "verse",
+   "text": "I wis, in all the Senate,\n     There was no heart so bold,\nBut sore it ached, and fast it beat,\n     When that ill news was told.\nForthwith up rose the Consul,\n     Up rose the Fathers all;\nIn haste they girded up their gowns,\n     And hied them to the wall."
+  },
+  {
+   "type": "verse",
+   "text": "They held a council standing,\n     Before the River-Gate;\nShort time was there, ye well may guess,\n     For musing or debate.\nOut spake the Consul roundly:\n     \"The bridge must straight go down;\nFor, since Janiculum is lost,\n     Nought else can save the town.\""
+  },
+  {
+   "type": "verse",
+   "text": "Just then a scout came flying,\n     All wild with haste and fear:\n\"To arms! to arms! Sir Consul:\n     Lars Porsena is here.\"\nOn the low hills to westward\n     The Consol fixed his eye,\nAnd saw the swarthy storm of dust\n     Rise fast along the sky."
+  },
+  {
+   "type": "verse",
+   "text": "And nearer fast and nearer\n     Doth the red whirlwind come;\nAnd louder still and still more loud,\nFrom underneath that rolling cloud,\nIs heard the trumpet's war-note proud,\n     The trampling, and the hum.\nAnd plainly and more plainly\n     Now through the gloom appears,\nFar to left and far to right,\nIn broken gleams of dark-blue light,\nThe long array of helmets bright,\n     The long array of spears."
+  },
+  {
+   "type": "verse",
+   "text": "And plainly and more plainly,\n     Above that glimmering line,\nNow might ye see the banners\n     Of twelve fair cities shine;\nBut the banner of proud Clusium\n     Was highest of them all,\nThe terror of the Umbrian,\n     The terror of the Gaul."
+  },
+  {
+   "type": "verse",
+   "text": "And plainly and more plainly\n     Now might the burghers know,\nBy port and vest, by horse and crest,\n     Each warlike Lucumo.\nThere Cilnius of Arretium\n     On his fleet roan was seen;\nAnd Astur of the four-fold shield,\nGirt with the brand none else may wield,\nTolumnius with the belt of gold,\nAnd dark Verbenna from the hold\n     By reedy Thrasymene."
+  },
+  {
+   "type": "verse",
+   "text": "Fast by the royal standard,\n     O'erlooking all the war,\nLars Porsena of Clusium\n     Sat in his ivory car.\nBy the right wheel rode Mamilius,\n     Prince of the Latian name;\nAnd by the left false Sextus,\n     That wrought the deed of shame."
+  },
+  {
+   "type": "verse",
+   "text": "But when the face of Sextus\n     Was seen among the foes,\nA yell that rent the firmament\n     From all the town arose.\nOn the house-tops was no woman\n     But spat towards him and hissed,\nNo child but screamed out curses,\n     And shook its little fist."
+  },
+  {
+   "type": "verse",
+   "text": "But the Consul's brow was sad,\n     And the Consul's speech was low,\nAnd darkly looked he at the wall,\n     And darkly at the foe.\n\"Their van will be upon us\n     Before the bridge goes down;\nAnd if they once may win the bridge,\n     What hope to save the town?\""
+  },
+  {
+   "type": "verse",
+   "text": "Then out spake brave Horatius,\n     The Captain of the Gate:\n\"To every man upon this earth\n     Death cometh soon or late.\nAnd how can man die better\n     Than facing fearful odds,\nFor the ashes of his fathers,\n     And the temples of his gods,"
+  },
+  {
+   "type": "verse",
+   "text": "\"And for the tender mother\n     Who dandled him to rest,\nAnd for the wife who nurses\n     His baby at her breast,\nAnd for the holy maidens\n     Who feed the eternal flame,\nTo save them from false Sextus\n     That wrought the deed of shame?"
+  },
+  {
+   "type": "verse",
+   "text": "\"Haul down the bridge, Sir Consul,\n     With all the speed ye may;\nI, with two more to help me,\n     Will hold the foe in play.\nIn yon strait path a thousand\n     May well be stopped by three.\nNow who will stand on either hand,\n     And keep the bridge with me?\""
+  },
+  {
+   "type": "verse",
+   "text": "Then out spake Spurius Lartius;\n     A Ramnian proud was he:\n\"Lo, I will stand at thy right hand,\n     And keep the bridge with thee.\"\nAnd out spake strong Herminius;\n     Of Titian blood was he:\n\"I will abide on thy left side,\n     And keep the bridge with thee.\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Horatius,\" quoth the Consul,\n     \"As thou sayest, so let it be.\"\nAnd straight against that great array\n     Forth went the dauntless Three.\nFor Romans in Rome's quarrel\n     Spared neither land nor gold,\nNor son nor wife, nor limb nor life,\n     In the brave days of old."
+  },
+  {
+   "type": "verse",
+   "text": "Then none was for a party;\n     Then all were for the state;\nThen the great man helped the poor,\n     And the poor man loved the great:\nThen lands were fairly portioned;\n     Then spoils were fairly sold:\nThe Romans were like brothers\n     In the brave days of old."
+  },
+  {
+   "type": "verse",
+   "text": "Now Roman is to Roman\n     More hateful than a foe,\nAnd the Tribunes beard the high,\n     And the Fathers grind the low.\nAs we wax hot in faction,\n     In battle we wax cold:\nWherefore men fight not as they fought\n     In the brave days of old."
+  },
+  {
+   "type": "verse",
+   "text": "Now while the Three were tightening\n     Their harness on their backs,\nThe Consul was the foremost man\n     To take in hand an axe:\nAnd Fathers mixed with Commons\n     Seized hatchet, bar, and crow,\nAnd smote upon the planks above,\n     And loosed the props below."
+  },
+  {
+   "type": "verse",
+   "text": "Meanwhile the Tuscan army,\n     Right glorious to behold,\nCome flashing back the noonday light,\nRank behind rank, like surges bright\n     Of a broad sea of gold.\nFour hundred trumpets sounded\n     A peal of warlike glee,\nAs that great host, with measured tread,\nAnd spears advanced, and ensigns spread,\nRolled slowly towards the bridge's head,\n     Where stood the dauntless Three."
+  },
+  {
+   "type": "verse",
+   "text": "The Three stood calm and silent,\n     And looked upon the foes,\nAnd a great shout of laughter\n     From all the vanguard rose:\nAnd forth three chiefs came spurring\n     Before that deep array;\nTo earth they sprang, their swords they drew,\nAnd lifted high their shields, and flew\n     To win the narrrow way;"
+  },
+  {
+   "type": "verse",
+   "text": "Aunus from green Tifernum,\n     Lord of the Hill of Vines;\nAnd Seius, whose eight hundred slaves\n     Sicken in Ilva's mines;\nAnd Picus, long to Clusium\n     Vassal in peace and war,\nWho led to fight his Umbrian powers\nFrom that gray crag where, girt with towers,\nThe fortress of Nequinum lowers\n     O'er the pale waves of Nar."
+  },
+  {
+   "type": "verse",
+   "text": "Stout Lartius hurled down Aunus\n     Into the stream beneath;\nHerminius struck at Seius,\n     And clove him to the teeth;\nAt Picus brave Horatius\n     Darted one fiery thrust;\nAnd the proud Umbrian's gilded arms\n     Clashed in the bloody dust."
+  },
+  {
+   "type": "verse",
+   "text": "Then Ocnus of Falerii\n     Rushed on the Roman Three;\nAnd Lausulus of Urgo,\n     The rover of the sea;\nAnd Aruns of Volsinium,\n     Who slew the great wild boar,\nThe great wild boar that had his den\nAmidst the reeds of Cosa's fen,\nAnd wasted fields, and slaughtered men,\n     Along Albinia's shore."
+  },
+  {
+   "type": "verse",
+   "text": "Herminius smote down Aruns:\n     Lartius laid Ocnus low:\nRight to the heart of Lausulus\n     Horatius sent a blow.\n\"Lie there,\" he cried, \"fell pirate!\n     No more, aghast and pale,\nFrom Ostia's walls the crowd shall mark\nThe track of thy destroying bark.\nNo more Campania's hinds shall fly\nTo woods and caverns when they spy\n     Thy thrice accursed sail.\""
+  },
+  {
+   "type": "verse",
+   "text": "But now no sound of laughter\n     Was heard among the foes.\nA wild and wrathful clamor\n     From all the vanguard rose.\nSix spears' lengths from the entrance\n     Halted that deep array,\nAnd for a space no man came forth\n     To win the narrow way."
+  },
+  {
+   "type": "verse",
+   "text": "But hark! the cry is Astur:\n     And lo! the ranks divide;\nAnd the great Lord of Luna\n     Comes with his stately stride.\nUpon his ample shoulders\n     Clangs loud the four-fold shield,\nAnd in his hand he shakes the brand\n     Which none but he can wield."
+  },
+  {
+   "type": "verse",
+   "text": "He smiled on those bold Romans\n     A smile serene and high;\nHe eyed the flinching Tuscans,\n     And scorn was in his eye.\nQuoth he, \"The she-wolf's litter\n     Stand savagely at bay:\nBut will ye dare to follow,\n     If Astur clears the way?\""
+  },
+  {
+   "type": "verse",
+   "text": "Then, whirling up his broadsword\n     With both hands to the height,\nHe rushed against Horatius,\n     And smote with all his might.\nWith shield and blade Horatius\n     Right deftly turned the blow.\nThe blow, though turned, came yet too nigh;\nIt missed his helm, but gashed his thigh:\nThe Tuscans raised a joyful cry\n     To see the red blood flow."
+  },
+  {
+   "type": "verse",
+   "text": "He reeled, and on Herminius\n     He leaned one breathing-space;\nThen, like a wild cat mad with wounds,\n     Sprang right at Astur's face.\nThrough teeth, and skull, and helmet\n     So fierce a thrust he sped,\nThe good sword stood a hand-breadth out\n     Behind the Tuscan's head."
+  },
+  {
+   "type": "verse",
+   "text": "And the great Lord of Luna\n     Fell at that deadly stroke,\nAs falls on Mount Alvernus\n     A thunder smitten oak:\nFar o'er the crashing forest\n     The giant arms lie spread;\nAnd the pale augurs, muttering low,\n     Gaze on the blasted head."
+  },
+  {
+   "type": "verse",
+   "text": "On Astur's throat Horatius\n     Right firmly pressed his heel,\nAnd thrice and four times tugged amain,\n     Ere he wrenched out the steel.\n\"And see,\" he cried, \"the welcome,\n     Fair guests, that waits you here!\nWhat noble Lucomo comes next\n     To taste our Roman cheer?\""
+  },
+  {
+   "type": "verse",
+   "text": "But at his haughty challenge\n     A sullen murmur ran,\nMingled of wrath, and shame, and dread,\n     Along that glittering van.\nThere lacked not men of prowess,\n     Nor men of lordly race;\nFor all Etruria's noblest\n     Were round the fatal place."
+  },
+  {
+   "type": "verse",
+   "text": "But all Etruria's noblest\n     Felt their hearts sink to see\nOn the earth the bloody corpses,\n     In the path the dauntless Three:\nAnd, from the ghastly entrance\n     Where those bold Romans stood,\nAll shrank, like boys who unaware,\nRanging the woods to start a hare,\nCome to the mouth of the dark lair\nWhere, growling low, a fierce old bear\n     Lies amidst bones and blood."
+  },
+  {
+   "type": "verse",
+   "text": "Was none who would be foremost\n     To lead such dire attack;\nBut those behind cried, \"Forward!\"\n     And those before cried, \"Back!\"\nAnd backward now and forward\n     Wavers the deep array;\nAnd on the tossing sea of steel\nTo and frow the standards reel;\nAnd the victorious trumpet-peal\n     Dies fitfully away."
+  },
+  {
+   "type": "verse",
+   "text": "Yet one man for one moment\n     Strode out before the crowd;\nWell known was he to all the Three,\n     And they gave him greeting loud.\n\"Now welcome, welcome, Sextus!\n     Now welcome to thy home!\nWhy dost thou stay, and turn away?\n     Here lies the road to Rome.\""
+  },
+  {
+   "type": "verse",
+   "text": "Thrice looked he at the city;\n     Thrice looked he at the dead;\nAnd thrice came on in fury,\n     And thrice turned back in dread:\nAnd, white with fear and hatred,\n     Scowled at the narrow way\nWhere, wallowing in a pool of blood,\n     The bravest Tuscans lay."
+  },
+  {
+   "type": "verse",
+   "text": "But meanwhile axe and lever\n     Have manfully been plied;\nAnd now the bridge hangs tottering\n     Above the boiling tide.\n\"Come back, come back, Horatius!\"\n     Loud cried the Fathers all.\n\"Back, Lartius! back, Herminius!\n     Back, ere the ruin fall!\""
+  },
+  {
+   "type": "verse",
+   "text": "Back darted Spurius Lartius;\n     Herminius darted back:\nAnd, as they passed, beneath their feet\n     They felt the timbers crack.\nBut when they turned their faces,\n     And on the farther shore\nSaw brave Horatius stand alone,\n     They would have crossed once more."
+  },
+  {
+   "type": "verse",
+   "text": "But with a crash like thunder\n     Fell every loosened beam,\nAnd, like a dam, the mighty wreck\n     Lay right athwart the stream:\nAnd a long shout of triumph\n     Rose from the walls of Rome,\nAs to the highest turret-tops\n     Was splashed the yellow foam."
+  },
+  {
+   "type": "verse",
+   "text": "And, like a horse unbroken\n     When first he feels the rein,\nThe furious river struggled hard,\n     And tossed his tawny mane,\nAnd burst the curb and bounded,\n     Rejoicing to be free,\nAnd whirling down, in fierce career,\nBattlement, and plank, and pier,\n     Rushed headlong to the sea."
+  },
+  {
+   "type": "verse",
+   "text": "Alone stood brave Horatius,\n     But constant still in mind;\nThrice thirty thousand foes before,\n     And the broad flood behind.\n\"Down with him!\" cried false Sextus,\n     With a smile on his pale face.\n\"Now yield thee,\" cried Lars Porsena,\n     \"Now yield thee to our grace.\""
+  },
+  {
+   "type": "verse",
+   "text": "Round turned he, as not deigning\n     Those craven ranks to see;\nNought spake he to Lars Porsena,\n     To Sextus nought spake he;\nBut he saw on Palatinus\n     The white porch of his home;\nAnd he spake to the noble river\n     That rolls by the towers of Rome."
+  },
+  {
+   "type": "verse",
+   "text": "\"Oh, Tiber! Father Tiber!\n     To whom the Romans pray,\nA Roman's life, a Roman's arms,\n     Take thou in charge this day!\"\nSo he spake, and speaking sheathed\n     The good sword by his side,\nAnd with his harness on his back,\n     Plunged headlong in the tide."
+  },
+  {
+   "type": "verse",
+   "text": "No sound of joy or sorrow\n     Was heard from either bank;\nBut friends and foes in dumb surprise,\nWith parted lips and straining eyes,\n     Stood gazing where he sank;\nAnd when above the surges,\n     They saw his crest appear,\nAll Rome sent forth a rapturous cry,\nAnd even the ranks of Tuscany\n     Could scarce forbear to cheer."
+  },
+  {
+   "type": "verse",
+   "text": "But fiercely ran the current,\n     Swollen high by months of rain:\nAnd fast his blood was flowing;\n     And he was sore in pain,\nAnd heavy with his armor,\n     And spent with changing blows:\nAnd oft they thought him sinking,\n     But still again he rose."
+  },
+  {
+   "type": "verse",
+   "text": "Never, I ween, did swimmer,\n     In such an evil case,\nStruggle through such a raging flood\n     Safe to the landing place:\nBut his limbs were borne up bravely\n     By the brave heart within,\nAnd our good father Tiber\n     Bare bravely up his chin."
+  },
+  {
+   "type": "verse",
+   "text": "\"Curse on him!\" quoth false Sextus;\n     \"Will not the villain drown?\nBut for this stay, ere close of day\n     We should have sacked the town!\"\n\"Heaven help him!\" quoth Lars Porsena\n     \"And bring him safe to shore;\nFor such a gallant feat of arms\n     Was never seen before.\""
+  },
+  {
+   "type": "verse",
+   "text": "And now he feels the bottom;\n     Now on dry earth he stands;\nNow round him throng the Fathers;\n     To press his gory hands;\nAnd now, with shouts and clapping,\n     And noise of weeping loud,\nHe enters through the River-Gate\n     Borne by the joyous crowd."
+  },
+  {
+   "type": "verse",
+   "text": "They gave him of the corn-land,\n     That was of public right,\nAs much as two strong oxen\n     Could plough from morn till night;\nAnd they made a molten image,\n     And set it up on high,\nAnd there is stands unto this day\n     To witness if I lie."
+  },
+  {
+   "type": "verse",
+   "text": "It stands in the Comitium\n     Plain for all folk to see;\nHoratius in his harness,\n     Halting upon one knee:\nAnd underneath is written,\n     In letters all of gold,\nHow valiantly he kept the bridge\n     In the brave days of old."
+  },
+  {
+   "type": "verse",
+   "text": "And still his name sounds stirring\n     Unto the men of Rome,\nAs the trumpet-blast that cries to them\n     To charge the Volscian home;\nAnd wives still pray to Juno\n     For boys with hearts as bold\nAs his who kept the bridge so well\n     In the brave days of old."
+  },
+  {
+   "type": "verse",
+   "text": "And in the nights of winter,\n     When the cold north winds blow,\nAnd the long howling of the wolves\n     Is heard amidst the snow;\nWhen round the lonely cottage\n     Roars loud the tempest's din,\nAnd the good logs of Algidus\n     Roar louder yet within;"
+  },
+  {
+   "type": "verse",
+   "text": "When the oldest cask is opened,\n     And the largest lamp is lit;\nWhen the chestnuts glow in the embers,\n     And the kid turns on the spit;\nWhen young and old in circle\n     Around the firebrands close;\nWhen the girls are weaving baskets,\n     And the lads are shaping bows;"
+  },
+  {
+   "type": "verse",
+   "text": "When the goodman mends his armor,\n     And trims his helmet's plume;\nWhen the goodwife's shuttle merrily\n     Goes flashing through the loom;\nWith weeping and with laughter\n     Still is the story told,\nHow well Horatius kept the bridge\n     In the brave days of old."
+  }
+ ],
+ "workId": "roman-horatius",
+ "wordCount": 3204,
+ "readingMinutes": 18,
+ "readingLevel": {
+  "fkGrade": 9.2,
+  "avgSentenceWords": 25.8,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-roman--horatius-at-the-bridge"
+}

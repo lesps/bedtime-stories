@@ -1,0 +1,60 @@
+---
+title: Romulus and Remus
+adaptedFrom: church-livy--the-story-of-romulus
+order: 11
+flags: none
+---
+
+Long after Aeneas, his family still ruled in Italy, as kings of the city of Alba. One of those kings, named Procas, had two sons, Numitor and Amulius. When Procas died, the crown should have gone to Numitor, the elder. But his wicked younger brother, Amulius, drove him out and made himself king instead.
+
+Numitor had a daughter named Rhea Silvia. Amulius was afraid that one day her children might take back the throne. So he made her a priestess of the goddess Vesta. The priestesses of Vesta were never allowed to marry or have children. That way, thought Amulius, Numitor's family would die out.
+
+But Rhea Silvia had twin baby boys, and it was said that their father was Mars, the god of war.
+
+King Amulius was furious. He threw Rhea Silvia into prison, and he gave the babies to his servants. "Throw them into the river Tiber," he ordered.
+
+But that spring, the Tiber had flooded its banks. The servants could not get near the main stream. So they put the babies in a basket and left it in the shallow flood water at the edge, sure that they would soon drown, and went away.
+
+But the water went down, and the basket was left sitting safe on dry ground. The babies began to cry. A she-wolf, coming down from the hills to drink at the river, heard them. She ran up to the basket. But she did not hurt them. Instead, she lay down beside them and fed them with her milk, like her own cubs, and licked them gently with her tongue.
+
+That was how the king's shepherd, Faustulus, found them, as he happened to walk by. He picked up the babies and carried them home to his wife, and the two of them raised the boys as their own. They named them Romulus and Remus.
+
+The twins grew up big and strong. They did not like to sit and watch sheep. They roamed the forests, hunting wild animals. When they were older, they even fought bands of robbers, took back what the robbers had stolen and shared it out among the poor shepherds.
+
+The robbers were furious. One day, during a festival for the god Pan, they set an ambush. Romulus fought them off, but they caught Remus. They dragged him before King Amulius and told lies about him, saying he had been stealing from Numitor's lands. So the king sent Remus to Numitor to be punished.
+
+But when Numitor looked at the young man, he wondered. Remus had a twin brother. He was about the right age. And there was something noble about him. Could this be one of his own lost grandsons? Numitor asked him many questions, and he began to be sure.
+
+At the same time, old Faustulus told Romulus the truth at last: how he had found the twin babies by the river, with the wolf. So Romulus and Remus learned that they were princes. Together with their friends, they made their way into the palace and overthrew the wicked King Amulius. Then they gave the crown back to their grandfather, Numitor, and all the people cheered.
+
+But the twins did not want to stay in Alba. "Let's build our own city," they said, "in the place where the wolf found us, by the river Tiber." Many shepherds and young men wanted to come with them.
+
+There was only one problem. They were twins. Who should be king of the new city, and give it his name? They could not decide, so they agreed to ask the gods to send a sign. Romulus stood on one hill, called the Palatine, and Remus stood on another hill, called the Aventine. And they both watched the sky.
+
+Remus saw a sign first: six vultures flying over his hill. But just after, Romulus saw twelve vultures.
+
+"I saw them first!" said Remus's friends. "So Remus should be king!"
+
+"But Romulus saw twice as many!" said Romulus's friends. "So Romulus should be king!"
+
+They argued, and the argument turned into a fight. And in the fight, sadly, Remus was killed. Some people tell it another way: they say that when Romulus built the first low wall around his city, Remus jumped over it to make fun of it, and in his anger Romulus struck him down. Either way, it was a sad beginning.
+
+So Romulus became the first king of the new city, and he named it Rome, after himself.
+
+Romulus wanted his city to grow. So he welcomed anyone who wanted to live there, no matter who they were or where they came from. Soon the city was full of people. But there were hardly any women, and no families. Romulus asked the neighboring peoples to let their daughters marry his men, but they all laughed and refused.
+
+So Romulus thought of a trick. He invited all the neighbors to a great festival, with games and races. Whole families came to see the new city, among them many Sabines. And in the middle of the games, at a signal, the young men of Rome grabbed the unmarried young women and carried them away to be their wives.
+
+The Sabines were furious. They called it a terrible wrong, and they went to war. The Sabine king, Titus Tatius, marched on Rome with a great army. The Romans and the Sabines fought a fierce battle in the valley between two of Rome's hills.
+
+Then something amazing happened. The young women, who were now married to Romans and had children of their own, ran right into the middle of the battle, between the two armies, with their hair loose and their clothes torn.
+
+"Stop!" they cried. "On one side are our fathers. On the other side are our husbands. If you fight, then whoever wins, we lose! If you must fight, fight us instead, because we are the reason for this war."
+
+Everyone fell silent. The soldiers lowered their swords. Then the leaders came forward and made peace. And they did better than peace: the Romans and the Sabines became one people. The Sabines came to live in Rome, and for a while, Romulus and Tatius ruled together as two kings.
+
+Romulus ruled Rome for thirty-seven years. Then one day, while he was reviewing his army on a great field, a sudden storm swept over, with thunder and dark clouds, and hid him from everyone's sight. When the storm passed, Romulus was gone. He was never seen on earth again.
+
+The people were frightened and sad. Then a man named Proculus came forward. "This morning," he said, "Romulus came down from the sky and stood before me. He said, 'Tell the Romans that the gods want Rome to be the greatest city in the world.' Then he went back up into heaven."
+
+So the Romans believed that Romulus had been taken up into the sky to become a god. And from then on, they worshipped him as a god.

@@ -10,7 +10,11 @@
  "blocks": [
   {
    "type": "p",
-   "text": "Clytie was a water-nymph and in love with Apollo, who made her no return. So she pined away, sitting all day long upon the cold ground, with her unbound tresses streaming over her shoulders. Nine days she sat and tasted neither food nor drink, her own tears and the chilly dew her only food. She gazed on the sun when he rose, and as he passed through his daily course to his setting; she saw no other object, her face turned constantly on him. At last, they say, her limbs rooted in the ground, her face became a flower [Footnote: The sunflower.] which turns on its stem so as always to face the sun throughout its daily course; for it retains to that extent the feeling of the nymph from whom it sprang."
+   "text": "Clytie was a water-nymph and in love with Apollo, who made her no return. So she pined away, sitting all day long upon the cold ground, with her unbound tresses streaming over her shoulders. Nine days she sat and tasted neither food nor drink, her own tears and the chilly dew her only food. She gazed on the sun when he rose, and as he passed through his daily course to his setting; she saw no other object, her face turned constantly on him. At last, they say, her limbs rooted in the ground, her face became a flower which turns on its stem so as always to face the sun throughout its daily course; for it retains to that extent the feeling of the nymph from whom it sprang."
+  },
+  {
+   "type": "note",
+   "text": "Note: The sunflower."
   },
   {
    "type": "p",
@@ -33,8 +37,8 @@
  "wordCount": 236,
  "readingMinutes": 1,
  "readingLevel": {
-  "fkGrade": 10.7,
-  "avgSentenceWords": 29.6,
+  "fkGrade": 10.4,
+  "avgSentenceWords": 29.2,
   "band": "advanced"
  },
  "simplifiedId": "myths-greek--clytie-and-the-sunflower"

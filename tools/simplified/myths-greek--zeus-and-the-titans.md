@@ -1,0 +1,65 @@
+---
+title: Zeus and the Titans
+adaptedFrom: hesiod-hymns--the-theogony
+order: 39
+namesNote: Evelyn-White calls Gaia and Uranus by their English names, Earth and Heaven, and spells Cronus “Cronos.”
+flags: none
+---
+
+In the very beginning there was nothing at all. No land, no sea, no sky. There was only a huge, dark, empty space called Chaos.
+
+Then, out of the emptiness, came Gaia, the Earth. She was wide and strong, and she would hold up everything that was to come. Next came Night, all dark, and out of Night came the bright Day.
+
+Gaia made the mountains, where nymphs would one day live in the valleys. She made the deep, salty sea. And she made Uranus, the starry Sky, as big as herself, to stretch over her like a roof.
+
+Gaia and Uranus had many children. First came the Titans, twelve tall and mighty gods. Then came three Cyclopes, giants with one round eye in the middle of their foreheads, who were very good at making things. Last came three monstrous brothers, each with a hundred arms and fifty heads.
+
+But Uranus did not love his children. He was afraid of how strong they were. As each one was born, he pushed it back down into a dark hole deep inside the Earth, and would not let it come out into the light.
+
+Gaia groaned. Her children were locked up inside her, and it hurt. So she made a great curved blade out of hard grey stone, and she called her children to her.
+
+"Your father is cruel," she said. "Who will help me stop him?"
+
+The children were too frightened to answer. All except the youngest Titan, Cronus. He was clever and bold.
+
+"I will, Mother," said Cronus.
+
+So when night came, and Uranus came down to lie over the Earth, Cronus jumped out of his hiding place and swung the stone blade. He wounded his father and drove him away, high up into the sky, where he stays to this day, far above the earth.
+
+Some drops of the Sky's blood fell into the sea, and the sea began to foam. Out of the white foam rose a beautiful goddess. Her name was Aphrodite, and she became the goddess of love.
+
+Now Cronus was king of the world. He married his sister Rhea, another Titan, and they had six children: Hestia, Demeter, Hera, Hades, Poseidon and, last of all, Zeus.
+
+But Gaia and Uranus had warned Cronus. "One day," they said, "one of your own children will take your throne, just as you took your father's."
+
+Cronus was determined that it would never happen. So every time Rhea had a baby, Cronus took the baby and swallowed it whole! Gulp! Hestia went down. Gulp! Demeter. Gulp! Hera, Hades and Poseidon. Gods do not die, so they lived on inside their father, in the dark.
+
+Rhea was heartbroken. When her sixth baby was coming, she went to her parents for help. "Help me save this one," she begged.
+
+So Gaia carried Rhea's newborn baby, Zeus, through the black night to the island of Crete, and hid him in a cave deep in a wooded mountain. Then Rhea took a big stone and wrapped it up in baby blankets, and handed it to Cronus.
+
+Cronus did not even look. Gulp! He swallowed the stone, and he thought he had swallowed his son.
+
+Zeus grew up safe and hidden in his cave in Crete. He grew very fast, and he grew very strong. And when he was grown, Gaia helped him trick his father. Cronus was made to cough up everything he had swallowed. Out came the stone first, because it had gone down last. Then out came Poseidon, Hades, Hera, Demeter and Hestia, all grown up and very glad to be free!
+
+Zeus set the stone in the ground at a place called Pytho, at the foot of Mount Parnassus, so that people would always remember. Then he went down into the dark places under the earth and set free the Cyclopes, whom their father had locked away. The Cyclopes were so grateful that they made Zeus a wonderful gift: thunder and lightning. From then on, Zeus could hurl thunderbolts.
+
+But Cronus and the Titans did not want to give up their power. So a great war began. Zeus and his brothers and sisters fought from Mount Olympus, and the Titans fought from another mountain across the plain. For ten whole years they fought, and neither side could win.
+
+Then Gaia told Zeus a secret. "Set free the Hundred-Handed brothers," she said. "With them on your side, you will win."
+
+So Zeus went down into the dark and brought up the three brothers with a hundred arms. He gave them nectar and ambrosia, the food of the gods, until they felt strong again. "Will you help us?" he asked.
+
+"You set us free," said one of them, whose name was Cottus. "We will fight for you."
+
+Then came the biggest battle the world has ever seen. The sea roared. The earth shook. The sky groaned, and Mount Olympus trembled all the way down to its roots. Zeus hurled thunderbolt after thunderbolt, so that the forests caught fire and the sea boiled. And the Hundred-Handed brothers picked up huge rocks, three hundred at a time, and threw them at the Titans until the Titans were buried.
+
+So the Titans were beaten. Zeus locked them away in Tartarus, the deepest, darkest pit of all, so far down that a bronze anvil dropped from the earth would fall for nine days and nine nights before it reached the bottom. Poseidon built bronze gates to close it, and the Hundred-Handed brothers stood guard.
+
+There was one more danger. Gaia had one last child, a monster called Typhoeus, with a hundred snake heads that hissed and roared and flashed fire from their eyes. But Zeus leaped down from Olympus with his thunder and lightning, and he struck down Typhoeus and threw him out of the world. They say the wild, stormy winds that wreck ships still come from him.
+
+At last there was peace. The gods asked Zeus to be their king, and he shared out the world among them. Zeus took the sky. Poseidon took the sea. Hades took the dark land under the earth, where people go when they die. And Zeus gave each of the other gods a special job to do.
+
+Then Zeus married Metis, the wisest of all the goddesses. But he was warned that a child of hers might one day be stronger than he was. So, like his father before him, he swallowed her. But this time it turned out well. Some time later, Zeus's head began to ache terribly, and out of it sprang a new goddess, already grown up and wearing shining armor. She was Athena, as wise as her mother and as strong as her father.
+
+And that is how the old Titans were beaten, and how Zeus and the gods of Olympus came to rule the world.

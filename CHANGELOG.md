@@ -7,6 +7,18 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 4 (data only): the rest of the Greco-Roman shelf. Hesiod's _Theogony_ and the
+  Homeric Hymns to Demeter, Apollo, Hermes and Dionysus (Evelyn-White's 1914 translation);
+  Church's _Stories from Virgil_ (1879), the whole _Aeneid_ in nine stories; three stories from
+  Church's _Stories from Livy_ (1883) cut into four (Romulus, Numa, Lars Porsenna, the Gauls);
+  Macaulay's "Horatius" (1842); and four Roman sections of Bulfinch (the Roman gods, Vertumnus
+  and Pomona, Cupid and Psyche, the Sibyl). Twenty new retellings (grade 2.7–5.5): four in
+  _Greek Myths, Simply Told_ (Zeus and the Titans, Apollo, Hermes, Dionysus) and sixteen in the
+  new _Roman Myths, Simply Told_. The Hymn to Demeter links to the Persephone retelling and
+  Macaulay's poem to the Horatius one. New culture `roman` (13 in all), set per story for
+  Bulfinch's Roman sections. Ten originals are `mature-themes`, none of the retellings; Nisus and Euryalus already
+  reads at middle level and keeps its original only. New tools `extract_hesiod.py`,
+  `extract_church.py` and `extract_macaulay.py`.
 - Mythology, part 3 (data only): heroes, Troy and the Odyssey. Kingsley's _The Heroes_ (1856):
   Perseus, The Argonauts, Theseus. Fifteen more Bulfinch sections: Perseus, the Sphinx,
   Bellerophon, Meleager, Atalanta, Hercules, Castor and Pollux, the Trojan War, the fall of Troy
@@ -66,6 +78,11 @@ versioning: [SemVer](https://semver.org/).
   and screen reader without swiping.
 
 ### Changed
+
+- The text-only offline download is now advertised as about 7 MB (38 MB with illustrations), to
+  match the larger compendium.
+- Bulfinch footnotes inside a paragraph now follow it as `note` blocks instead of sitting
+  mid-sentence in brackets, and cross-references to the book's appendix are dropped.
 
 - Dialogs move focus inside, close on Escape from anywhere and hand focus back; the reading
   settings panel closes on Escape or a click outside.

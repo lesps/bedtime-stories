@@ -1,0 +1,37 @@
+{
+ "id": "church-livy--the-story-of-numa",
+ "collectionId": "church-livy",
+ "order": 2,
+ "title": "The Story of Numa",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "And now it was needful that another king should be chosen. No man in those days was more renowned for his righteousness and piety than a certain Numa Pompilius that dwelt at Cures in the land of the Sabines. Now it seemed at first to the Senate that the Sabines would be too powerful in the state if a king should be chosen from amongst them, nevertheless because they could not agree upon any other man, at last with one consent they decreed that the kingdom should be offered to him. And Numa was willing to receive it if only the gods consented. And the consent of the gods was asked in this fashion. Being led by the augur into the citadel, he sat down on a stone, with his face looking towards the south, and on his left hand sat the augur, having his head covered and in his hand an augur's staff, which is a wand bent at the end and having no knot. Then looking towards the city and the country round about, he offered prayers to the Gods and marked out the region of the sky from the sunrising to the sunsetting; the parts towards the south he called the right, and the parts towards the north he called the left; and he set a boundary before as far as his eye could reach. After this he took his staff in his left hand and laid his right on the head of Numa, praying in these words: \"Father Jupiter, if it be thy will that this Numa Pompilius, whose head I hold, should be King of Rome, show us, I pray thee, clear tokens of this thy will within the space which I have marked out.\" He then named the tokens which he desired, and when they had been shown, Numa was declared to be King."
+  },
+  {
+   "type": "p",
+   "text": "King Numa, considering that the city was but newly founded, and that by violence and force, conceived that he ought to found it anew, giving it justice and laws and religion; and that he might soften the manners and tempers of the people, he would have them cease awhile from war. To this end he built a temple of Janus, by which it might be signified whether there was peace or war in the State; for, if it were peace, the gates of the temple should be shut, but if it were war, they should be open. Twice only were the gates shut after the days of Numa; for the first time when Titus Manlius was Consul, after the ending of the first war against Carthage, and for the second time when the Emperor Augustus, after vanquishing Antony at Actium, established universal peace both by land and sea. This temple then King Numa built, and shut the gates thereof, having first made treaties of peace with the nations round about."
+  },
+  {
+   "type": "p",
+   "text": "Many other things did King Numa set in order for his people. First he divided the year into twelve months, each month being according to the course of the moon, and in every twenty-fourth year another month, that the year might so agree with the course of the sun. Also he appointed certain lawful days for business, and other days on which nothing might be done. He made priests also, of whom the chief was the priest of Jupiter, to whom he gave splendid apparel and a chair of ivory. Two other priests he made, one of Mars, and the other of Quirinus, that is to say, of Romulus the god. And he chose virgins for the service of Vesta, who should keep alive the sacred fire, and twelve priests of Mars, whom he called the Salii, to be keepers of the sacred shield. (This shield, men said, fell down from heaven, and that it might be kept the more safely, King Numa commanded that they should make eleven other shields like unto it.) This shield and its fellows the Salii were to carry through the city, having on flowered tunics and breastplates of brass, and dancing and singing hymns. And many other things as to the worship of the gods, and the interpreting of signs, and the dealing with marvels and portents, King Numa set in order. And that the people might regard these laws and customs with the more reverence, he gave out that he had not devised them of his own wit, but that he had learnt them from a certain goddess whose name was Egeria, whom he was wont to meet in a grove that was hard by the city."
+  },
+  {
+   "type": "p",
+   "text": "King Numa died, having reigned forty and three years; and the people chose in his room one Tullus Hostilius."
+  }
+ ],
+ "workId": "roman-numa-egeria",
+ "wordCount": 783,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 12.5,
+  "avgSentenceWords": 32.7,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-roman--numa-and-the-nymph-egeria"
+}

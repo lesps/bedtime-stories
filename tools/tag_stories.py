@@ -2,7 +2,7 @@
 """Generates public/compendium/tags.json: culture and theme tags for every story.
 
 Cultures come from the collection, refined by each story's `origin` (Lang's Blue Fairy Book mixes
-French, Norwegian, German, Arabian Nights and other sources). Themes come from vocabulary scoring
+French, Norwegian, German, Arabian Nights and other sources) or set per story in STORY_CULTURE. Themes come from vocabulary scoring
 over the full text and title, collection rules, and the OVERRIDES table below, which records
 hand-review decisions. Like the content flags, this is an editorial first pass.
 
@@ -16,6 +16,7 @@ ROOT = Path("public/compendium")
 
 CULTURES = [
     ("greek", "Ancient Greek"),
+    ("roman", "Ancient Roman"),
     ("german", "German"),
     ("danish", "Danish"),
     ("french", "French"),
@@ -66,10 +67,33 @@ COLLECTION_CULTURE = {
     "myths-greek": "greek",
     "bulfinch-fable": "greek",
     "kingsley-heroes": "greek",
+    "hesiod-hymns": "greek",
+    "church-virgil": "roman",
+    "church-livy": "roman",
+    "macaulay-lays": "roman",
+    "myths-roman": "roman",
+}
+
+# Stories whose culture differs from their collection's: Bulfinch's Roman sections.
+STORY_CULTURE = {
+    "bulfinch-fable--the-roman-gods": "roman",
+    "bulfinch-fable--vertumnus-and-pomona": "roman",
+    "bulfinch-fable--cupid-and-psyche": "roman",
+    "bulfinch-fable--the-sibyl": "roman",
 }
 
 # Myth collections: every story gets the gods-heroes theme.
-MYTH_COLLECTIONS = {"hawthorne-tanglewood", "kingsley-heroes", "bulfinch-fable", "myths-greek"}
+MYTH_COLLECTIONS = {
+    "hawthorne-tanglewood",
+    "kingsley-heroes",
+    "bulfinch-fable",
+    "myths-greek",
+    "hesiod-hymns",
+    "church-virgil",
+    "church-livy",
+    "macaulay-lays",
+    "myths-roman",
+}
 
 ORIGIN_CULTURE = [
     (r"perrault|aulnoy|villeneuve|beaumont|cabinet des fees", "french"),
@@ -188,6 +212,24 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-greek--daedalus-and-icarus": {"remove": ["gentle"]},
     "bulfinch-fable--io": {"remove": ["gentle"]},
     "myths-greek--oedipus-and-the-sphinx": {"remove": ["gentle"]},  # a riddle with deadly stakes
+    # Greek gods (part 4): creation myths, and corrections to the word counts.
+    "hesiod-hymns--the-theogony": {"add": ["how-things-began", "monsters"]},
+    "myths-greek--zeus-and-the-titans": {"add": ["how-things-began", "monsters"], "remove": ["gentle"]},
+    "myths-greek--apollo-is-born": {"add": ["how-things-began"]},
+    "hesiod-hymns--hymn-to-dionysus": {"add": ["magic", "animals"], "remove": ["quests"]},
+    "myths-greek--dionysus-and-the-pirates": {"add": ["magic", "animals"], "remove": ["fools"]},
+    # Roman (part 4).
+    "bulfinch-fable--the-roman-gods": {"add": ["how-things-began"], "remove": ["ghosts"]},
+    "myths-roman--janus-and-the-gods-of-rome": {"add": ["how-things-began"], "remove": ["kindness"]},
+    "bulfinch-fable--cupid-and-psyche": {"add": ["magic"]},
+    "myths-roman--cupid-and-psyche": {"add": ["magic"], "remove": ["monsters"]},
+    "macaulay-lays--horatius": {"remove": ["greed-pride"]},
+    "myths-roman--romulus-and-remus": {"add": ["animals", "how-things-began"]},
+    "myths-roman--aeneas-and-turnus": {"remove": ["wishes"]},
+    # Battles and monsters are not "gentle", whatever the word counts say.
+    "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
+    "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},
+    "myths-roman--the-geese-that-saved-rome": {"remove": ["gentle"]},
     "aesop--the-lion-the-bear-and-the-fox": {
         "remove": [
             "ghosts"
@@ -281,6 +323,8 @@ def words(text):
 
 
 def culture_of(story):
+    if story["id"] in STORY_CULTURE:
+        return STORY_CULTURE[story["id"]]
     if story["collectionId"] == "lang-blue":
         if story["id"] in LANG_NO_ORIGIN:
             return LANG_NO_ORIGIN[story["id"]]

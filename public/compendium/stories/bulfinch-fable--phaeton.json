@@ -14,7 +14,7 @@
   },
   {
    "type": "p",
-   "text": "The palace of the Sun stood reared aloft on columns, glittering with gold and precious stones, while polished ivory formed the ceilings, and silver the doors. The workmanship surpassed the material; [Footnote: See Proverbial Expressions.] for upon the walls Vulcan had represented earth, sea, and skies, with their inhabitants. In the sea were the nymphs, some sporting in the waves, some riding on the backs of fishes, while others sat upon the rocks and dried their sea-green hair. Their faces were not all alike, nor yet unlike,--but such as sisters' ought to be. [Footnote: See Proverbial Expressions.] The earth had its towns and forests and rivers and rustic divinities. Over all was carved the likeness of the glorious heaven; and on the silver doors the twelve signs of the zodiac, six on each side."
+   "text": "The palace of the Sun stood reared aloft on columns, glittering with gold and precious stones, while polished ivory formed the ceilings, and silver the doors. The workmanship surpassed the material; for upon the walls Vulcan had represented earth, sea, and skies, with their inhabitants. In the sea were the nymphs, some sporting in the waves, some riding on the backs of fishes, while others sat upon the rocks and dried their sea-green hair. Their faces were not all alike, nor yet unlike,--but such as sisters' ought to be. The earth had its towns and forests and rivers and rustic divinities. Over all was carved the likeness of the glorious heaven; and on the silver doors the twelve signs of the zodiac, six on each side."
   },
   {
    "type": "p",
@@ -26,7 +26,7 @@
   },
   {
    "type": "p",
-   "text": "It was of gold, the gift of Vulcan; the axle was of gold, the pole and wheels of gold, the spokes of silver. Along the seat were rows of chrysolites and diamonds which reflected all around the brightness of the sun. While the daring youth, gazed in admiration, the early Dawn threw open the purple doors of the east, and showed the pathway strewn with roses. The stars withdrew, marshalled by the Day-star, which last of all retired also. The father, when he saw the earth beginning to glow, and the Moon preparing to retire, ordered the Hours to harness up the horses. They obeyed, and led forth from the lofty stalls the steeds full fed with ambrosia, and attached the reins. Then the father bathed the face of his son with a powerful unguent, and made him capable of enduring the brightness of the flame. He set the rays on his head, and, with a foreboding sigh, said, \"If, my son, you will in this at least heed my advice, spare the whip and hold tight the reins. They go fast enough of their own accord; the labor is to hold them in. You are not to take the straight road directly between the five circles, but turn off to the left. Keep within the limit of the middle zone, and avoid the northern and the southern alike. You will see the marks of the wheels, and they will serve to guide you. And, that the skies and the earth may each receive their due share of heat, go not too high, or you will burn the heavenly dwellings, nor too low, or you will set the earth on fire; the middle course is safest and best. [Footnote: See Proverbial Expressions] And now I leave you to your chance, which I hope will plan better for you than you have done for yourself. Night is passing out of the western gates and we can delay no longer. Take the reins; but if at last your heart fails you, and you will benefit by my advice, stay where you are in safety, and suffer me to light and warm the earth.\" The agile youth sprang into the chariot, stood erect, and grasped the reins with delight, pouring out thanks to his reluctant parent."
+   "text": "It was of gold, the gift of Vulcan; the axle was of gold, the pole and wheels of gold, the spokes of silver. Along the seat were rows of chrysolites and diamonds which reflected all around the brightness of the sun. While the daring youth, gazed in admiration, the early Dawn threw open the purple doors of the east, and showed the pathway strewn with roses. The stars withdrew, marshalled by the Day-star, which last of all retired also. The father, when he saw the earth beginning to glow, and the Moon preparing to retire, ordered the Hours to harness up the horses. They obeyed, and led forth from the lofty stalls the steeds full fed with ambrosia, and attached the reins. Then the father bathed the face of his son with a powerful unguent, and made him capable of enduring the brightness of the flame. He set the rays on his head, and, with a foreboding sigh, said, \"If, my son, you will in this at least heed my advice, spare the whip and hold tight the reins. They go fast enough of their own accord; the labor is to hold them in. You are not to take the straight road directly between the five circles, but turn off to the left. Keep within the limit of the middle zone, and avoid the northern and the southern alike. You will see the marks of the wheels, and they will serve to guide you. And, that the skies and the earth may each receive their due share of heat, go not too high, or you will burn the heavenly dwellings, nor too low, or you will set the earth on fire; the middle course is safest and best. And now I leave you to your chance, which I hope will plan better for you than you have done for yourself. Night is passing out of the western gates and we can delay no longer. Take the reins; but if at last your heart fails you, and you will benefit by my advice, stay where you are in safety, and suffer me to light and warm the earth.\" The agile youth sprang into the chariot, stood erect, and grasped the reins with delight, pouring out thanks to his reluctant parent."
   },
   {
    "type": "p",
@@ -51,10 +51,6 @@
   {
    "type": "verse",
    "text": "\"Driver of Phoebus' chariot Phaeton,\n Struck by Jove's thunder, rests beneath this stone.\n He could not rule his father's car of fire,\n Yet was it much so nobly to aspire\""
-  },
-  {
-   "type": "note",
-   "text": "Note: See Proverbial Expressions"
   },
   {
    "type": "p",
@@ -82,11 +78,11 @@
   }
  ],
  "workId": "greek-phaethon",
- "wordCount": 2881,
+ "wordCount": 2865,
  "readingMinutes": 16,
  "readingLevel": {
-  "fkGrade": 8.2,
-  "avgSentenceWords": 21.4,
+  "fkGrade": 8.1,
+  "avgSentenceWords": 21.3,
   "band": "advanced"
  },
  "simplifiedId": "myths-greek--phaethon-and-the-sun-chariot"
