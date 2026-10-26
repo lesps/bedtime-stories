@@ -17,6 +17,7 @@ ROOT = Path("public/compendium")
 CULTURES = [
     ("greek", "Ancient Greek"),
     ("roman", "Ancient Roman"),
+    ("etruscan", "Etruscan"),
     ("german", "German"),
     ("danish", "Danish"),
     ("french", "French"),
@@ -72,10 +73,15 @@ COLLECTION_CULTURE = {
     "church-livy": "roman",
     "macaulay-lays": "roman",
     "myths-roman": "roman",
+    "greek-sources": "greek",
+    "latin-sources": "roman",
 }
 
-# Stories whose culture differs from their collection's: Bulfinch's Roman sections.
+# Stories whose culture differs from their collection's: Bulfinch's Roman sections, and the
+# Etruscan Tages, known only from Roman writers.
 STORY_CULTURE = {
+    "latin-sources--tages": "etruscan",
+    "myths-roman--tages-the-child-from-the-furrow": "etruscan",
     "bulfinch-fable--the-roman-gods": "roman",
     "bulfinch-fable--vertumnus-and-pomona": "roman",
     "bulfinch-fable--cupid-and-psyche": "roman",
@@ -93,6 +99,8 @@ MYTH_COLLECTIONS = {
     "church-livy",
     "macaulay-lays",
     "myths-roman",
+    "greek-sources",
+    "latin-sources",
 }
 
 ORIGIN_CULTURE = [
@@ -226,6 +234,12 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "macaulay-lays--horatius": {"remove": ["greed-pride"]},
     "myths-roman--romulus-and-remus": {"add": ["animals", "how-things-began"]},
     "myths-roman--aeneas-and-turnus": {"remove": ["wishes"]},
+    # Claude's translations (part 4): Sisyphus is the craftiest of men; Tages begins Etruscan
+    # divination, and Cicero's scoffing ("foolish") is not a fools tale.
+    "greek-sources--sisyphus-and-tantalus": {"add": ["tricksters"]},
+    "myths-greek--sisyphus-and-tantalus": {"add": ["tricksters"]},
+    "latin-sources--tages": {"add": ["how-things-began"], "remove": ["tricksters", "fools"]},
+    "myths-roman--tages-the-child-from-the-furrow": {"add": ["how-things-began"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

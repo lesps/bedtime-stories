@@ -7,6 +7,16 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 4b (data only): the three Greco-Roman myths with no public-domain English
+  source, in Claude's own translations from the Greek and Latin texts of the Perseus Digital
+  Library. _Myths from the Greek Writers_: Hephaestus and the golden throne (Pausanias 1.20.3;
+  Iliad 18.394–407 and 1.571–600) and Sisyphus and Tantalus (Iliad 6, Apollodorus, Pausanias
+  2.5.1, Pindar's first Olympian, Odyssey 11.582–600). _Myths from the Latin Writers_: Tages, the
+  Etruscan child prophet ploughed up from a field (Cicero, _On Divination_ 2.50–51; Ovid,
+  _Metamorphoses_ 15.547–559). Each passage is headed with its reference, and an end note names
+  the editions. Three new retellings (grade 4.2–5.0). Tages reads at middle level but is two
+  excerpts rather than a story, so it gets a retelling too. New culture `etruscan` (14 in all).
+  New tool `build_translations.py`, source files in `tools/translations/`.
 - Mythology, part 4 (data only): the rest of the Greco-Roman shelf. Hesiod's _Theogony_ and the
   Homeric Hymns to Demeter, Apollo, Hermes and Dionysus (Evelyn-White's 1914 translation);
   Church's _Stories from Virgil_ (1879), the whole _Aeneid_ in nine stories; three stories from

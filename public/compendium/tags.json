@@ -1,6 +1,6 @@
 {
 "schemaVersion": 1,
-"cultures": [{"id": "greek", "label": "Ancient Greek"}, {"id": "roman", "label": "Ancient Roman"}, {"id": "german", "label": "German"}, {"id": "danish", "label": "Danish"}, {"id": "french", "label": "French"}, {"id": "norwegian", "label": "Norwegian"}, {"id": "english", "label": "English"}, {"id": "scottish", "label": "Scottish"}, {"id": "irish", "label": "Irish"}, {"id": "arabian", "label": "Arabian Nights"}, {"id": "turkish", "label": "Turkish"}, {"id": "estonian", "label": "Estonian"}, {"id": "japanese", "label": "Japanese"}],
+"cultures": [{"id": "greek", "label": "Ancient Greek"}, {"id": "roman", "label": "Ancient Roman"}, {"id": "etruscan", "label": "Etruscan"}, {"id": "german", "label": "German"}, {"id": "danish", "label": "Danish"}, {"id": "french", "label": "French"}, {"id": "norwegian", "label": "Norwegian"}, {"id": "english", "label": "English"}, {"id": "scottish", "label": "Scottish"}, {"id": "irish", "label": "Irish"}, {"id": "arabian", "label": "Arabian Nights"}, {"id": "turkish", "label": "Turkish"}, {"id": "estonian", "label": "Estonian"}, {"id": "japanese", "label": "Japanese"}],
 "themes": [{"id": "animals", "label": "Animals"}, {"id": "fables", "label": "Fables with a moral"}, {"id": "tricksters", "label": "Tricksters & clever escapes"}, {"id": "kindness", "label": "Kindness rewarded"}, {"id": "greed-pride", "label": "Greed & pride punished"}, {"id": "royalty", "label": "Kings, queens & castles"}, {"id": "magic", "label": "Magic & enchantment"}, {"id": "monsters", "label": "Giants, witches & monsters"}, {"id": "family", "label": "Brothers, sisters & family"}, {"id": "how-things-began", "label": "How things came to be"}, {"id": "fools", "label": "Fools & silly folk"}, {"id": "quests", "label": "Journeys & quests"}, {"id": "wishes", "label": "Wishes & bargains"}, {"id": "underdogs", "label": "Youngest & underdogs"}, {"id": "legends", "label": "Faith & legends"}, {"id": "ghosts", "label": "Ghosts & spirits"}, {"id": "gentle", "label": "Gentle & cosy"}, {"id": "gods-heroes", "label": "Gods & heroes"}],
 "stories": {
 "aesop--the-wolf-and-the-kid": {"cultures": ["greek"], "themes": ["animals", "fables", "fools", "gentle"]},
@@ -665,6 +665,8 @@
 "myths-greek--apollo-is-born": {"cultures": ["greek"], "themes": ["tricksters", "monsters", "how-things-began", "quests", "legends", "gods-heroes"]},
 "myths-greek--baby-hermes-and-the-stolen-cattle": {"cultures": ["greek"], "themes": ["tricksters", "legends", "gentle", "gods-heroes"]},
 "myths-greek--dionysus-and-the-pirates": {"cultures": ["greek"], "themes": ["animals", "kindness", "magic", "gentle", "gods-heroes"]},
+"myths-greek--hephaestus-and-the-golden-throne": {"cultures": ["greek"], "themes": ["kindness", "royalty", "family", "legends", "gentle", "gods-heroes"]},
+"myths-greek--sisyphus-and-tantalus": {"cultures": ["greek"], "themes": ["tricksters", "greed-pride", "legends", "gods-heroes"]},
 "bulfinch-fable--prometheus-and-pandora": {"cultures": ["greek"], "themes": ["legends", "gods-heroes"]},
 "bulfinch-fable--apollo-and-daphne": {"cultures": ["greek"], "themes": ["greed-pride", "legends", "gentle", "gods-heroes"]},
 "bulfinch-fable--pyramus-and-thisbe": {"cultures": ["greek"], "themes": ["gods-heroes"]},
@@ -741,6 +743,10 @@
 "myths-roman--horatius-at-the-bridge": {"cultures": ["roman"], "themes": ["royalty", "gods-heroes"]},
 "myths-roman--the-geese-that-saved-rome": {"cultures": ["roman"], "themes": ["animals", "legends", "gods-heroes"]},
 "myths-roman--pomona-and-vertumnus": {"cultures": ["roman"], "themes": ["legends", "gentle", "gods-heroes"]},
-"myths-roman--cupid-and-psyche": {"cultures": ["roman"], "themes": ["kindness", "magic", "legends", "gods-heroes"]}
+"myths-roman--cupid-and-psyche": {"cultures": ["roman"], "themes": ["kindness", "magic", "legends", "gods-heroes"]},
+"myths-roman--tages-the-child-from-the-furrow": {"cultures": ["etruscan"], "themes": ["how-things-began", "legends", "gentle", "gods-heroes"]},
+"greek-sources--hephaestus-and-the-golden-throne": {"cultures": ["greek"], "themes": ["kindness", "royalty", "family", "legends", "gentle", "gods-heroes"]},
+"greek-sources--sisyphus-and-tantalus": {"cultures": ["greek"], "themes": ["tricksters", "legends", "gods-heroes"]},
+"latin-sources--tages": {"cultures": ["etruscan"], "themes": ["how-things-began", "legends", "gods-heroes"]}
 }
 }

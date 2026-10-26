@@ -1,14 +1,15 @@
 # Storybook
 
-A calm, offline-capable reader for 739 public-domain children's stories in 21 collections — Aesop
+A calm, offline-capable reader for 745 public-domain children's stories in 23 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
 Goble's plates), Busch's Max and Maurice, and the start of a world-mythology shelf. Greek and Roman
 so far: Hesiod and the Homeric Hymns (Evelyn-White's translation), Hawthorne's Tanglewood Tales,
 Kingsley's The Heroes, 40 sections of Bulfinch's The Age of Fable, Church's Stories from Virgil and
-Stories from Livy, and Macaulay's "Horatius", with simplified retellings for young readers (Greek
-Myths and Roman Myths, Simply Told).
+Stories from Livy, Macaulay's "Horatius", and Claude's own translations from Homer, Pindar,
+Apollodorus, Pausanias, Cicero and Ovid where no free English version exists, with simplified
+retellings for young readers (Greek Myths and Roman Myths, Simply Told).
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -77,4 +78,6 @@ the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
 
 The simplified retellings (`myths-greek`, `myths-roman`) were written by Claude (Anthropic) from
 public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt into story JSON by
-`tools/build_simplified.py`. Each one links to its original.
+`tools/build_simplified.py`. Each one links to its original. Likewise, the two "Myths from the
+Greek/Latin Writers" collections are Claude's translations of ancient passages, edited in
+`tools/translations/*.md` and built by `tools/build_translations.py`.

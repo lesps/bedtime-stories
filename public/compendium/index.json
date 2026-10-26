@@ -167,7 +167,7 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 42
+   "storyCount": 44
   },
   {
    "id": "bulfinch-fable",
@@ -251,7 +251,31 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 16
+   "storyCount": 17
+  },
+  {
+   "contributor": "Translated by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/translations",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "greek-sources",
+   "title": "Myths from the Greek Writers",
+   "author": "Homer, Pindar, Apollodorus and Pausanias",
+   "originalLanguage": "el",
+   "storyCount": 2
+  },
+  {
+   "contributor": "Translated by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/translations",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "latin-sources",
+   "title": "Myths from the Latin Writers",
+   "author": "Cicero and Ovid",
+   "originalLanguage": "la",
+   "storyCount": 1
   }
  ],
  "stories": [
@@ -8261,6 +8285,42 @@
    "adaptedFrom": "hesiod-hymns--hymn-to-dionysus"
   },
   {
+   "id": "myths-greek--hephaestus-and-the-golden-throne",
+   "collectionId": "myths-greek",
+   "order": 43,
+   "title": "Hephaestus and the Golden Throne",
+   "wordCount": 669,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-hephaestus-throne",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 12.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "greek-sources--hephaestus-and-the-golden-throne"
+  },
+  {
+   "id": "myths-greek--sisyphus-and-tantalus",
+   "collectionId": "myths-greek",
+   "order": 44,
+   "title": "Sisyphus and Tantalus",
+   "wordCount": 609,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-sisyphus-tantalus",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 12.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "greek-sources--sisyphus-and-tantalus"
+  },
+  {
    "id": "bulfinch-fable--prometheus-and-pandora",
    "collectionId": "bulfinch-fable",
    "order": 1,
@@ -9686,6 +9746,78 @@
     "band": "early"
    },
    "adaptedFrom": "bulfinch-fable--cupid-and-psyche"
+  },
+  {
+   "id": "myths-roman--tages-the-child-from-the-furrow",
+   "collectionId": "myths-roman",
+   "order": 17,
+   "title": "Tages, the Child from the Furrow",
+   "wordCount": 535,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "etruscan-tages",
+   "readingLevel": {
+    "fkGrade": 5.0,
+    "avgSentenceWords": 13.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "latin-sources--tages"
+  },
+  {
+   "id": "greek-sources--hephaestus-and-the-golden-throne",
+   "collectionId": "greek-sources",
+   "order": 1,
+   "title": "Hephaestus and the Golden Throne",
+   "wordCount": 679,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-hephaestus-throne",
+   "readingLevel": {
+    "fkGrade": 7.2,
+    "avgSentenceWords": 18.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--hephaestus-and-the-golden-throne"
+  },
+  {
+   "id": "greek-sources--sisyphus-and-tantalus",
+   "collectionId": "greek-sources",
+   "order": 2,
+   "title": "Sisyphus and Tantalus",
+   "wordCount": 761,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-sisyphus-tantalus",
+   "readingLevel": {
+    "fkGrade": 7.8,
+    "avgSentenceWords": 19.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--sisyphus-and-tantalus"
+  },
+  {
+   "id": "latin-sources--tages",
+   "collectionId": "latin-sources",
+   "order": 1,
+   "title": "Tages",
+   "wordCount": 580,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "etruscan-tages",
+   "readingLevel": {
+    "fkGrade": 6.3,
+    "avgSentenceWords": 17.7,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-roman--tages-the-child-from-the-furrow"
   }
  ]
 }

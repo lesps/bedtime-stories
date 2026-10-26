@@ -1,0 +1,36 @@
+---
+title: Hephaestus and the Golden Throne
+order: 1
+workId: greek-hephaestus-throne
+sources: the Greek of Pausanias (ed. Spiro, Teubner, 1903) and Homer (ed. Monro and Allen, Oxford, 1920), as published by the Perseus Digital Library
+---
+
+## Pausanias, Description of Greece 1.20.3
+
+Near the theatre in Athens is the oldest sanctuary of Dionysus. Inside its wall are two temples and two statues of Dionysus: Dionysus of Eleutherae, and the one that Alcamenes made of ivory and gold.
+
+There are paintings there too. One shows Dionysus bringing Hephaestus up to heaven. The Greeks tell this story about it. When Hephaestus was born, Hera threw him down. He did not forget the wrong, and sent her a gift: a golden throne with invisible bonds. When she sat down on it, she was held fast. Hephaestus would listen to none of the other gods. But Dionysus, whom he trusted more than anyone, made him drunk and brought him up to heaven.
+
+These scenes are painted there, and also Pentheus and Lycurgus paying the penalty for their insults to Dionysus, Ariadne asleep, Theseus putting out to sea, and Dionysus arriving to carry Ariadne away.
+
+## Homer, Iliad 18.394–407
+
+Note: The sea goddess Thetis has come to Hephaestus's house to ask him to make armour for her son Achilles. Hephaestus says to his wife:
+
+“Truly, an awesome and honoured goddess is in our house: the one who saved me when I was in pain after my long fall, by the will of my shameless mother, who wanted to hide me away because I was lame. I would have suffered agony then, if Eurynome and Thetis had not taken me into their arms: Eurynome, the daughter of Ocean, the river that flows back into itself.
+
+“With them, for nine years, I forged many fine things, brooches and curling spirals, flower-shaped ornaments and necklaces, in a hollow cave. All around it the stream of Ocean flowed without end, murmuring with foam. No one else knew of it, neither god nor mortal man. Only Thetis and Eurynome knew, who saved me. Now she has come to our house, and I must repay lovely-haired Thetis in full for saving my life.”
+
+## Homer, Iliad 1.571–600
+
+Note: Zeus has quarrelled with his wife Hera at the feast of the gods and threatened her, and all the gods sit troubled.
+
+Then Hephaestus, the famous craftsman, began to speak among them, to comfort his dear mother, white-armed Hera.
+
+“This will be a ruinous business, past bearing, if you two quarrel like this over mortals and stir up an uproar among the gods. There will be no pleasure in our good feast when the worse things win. I advise my mother, though she knows it herself, to be gentle with our dear father Zeus, so that father will not scold again and spoil our feast. For if the Olympian, the lord of the lightning, wished to throw us from our seats, he could; he is by far the strongest. No, speak to him with gentle words, and at once the Olympian will be kind to us.”
+
+So he spoke, and jumping up he put a two-handled cup into his dear mother's hand and said to her:
+
+“Be patient, my mother, and bear it, though you are hurt, so that I do not see you, dear as you are, struck before my eyes. Then, grieve as I might, I could do nothing to help you, for the Olympian is hard to stand against. Once before, when I was eager to defend you, he seized me by the foot and threw me from the threshold of heaven. All day long I fell, and as the sun went down I landed on Lemnos, with little life left in me. There the Sintian people took care of me where I fell.”
+
+So he spoke, and the white-armed goddess Hera smiled, and smiling she took the cup from her son's hand. Then he poured sweet nectar for all the other gods in turn, from left to right, drawing it from the mixing bowl. And endless laughter rose among the blessed gods as they watched Hephaestus bustling through the hall.
