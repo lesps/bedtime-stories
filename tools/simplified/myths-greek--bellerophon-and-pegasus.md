@@ -1,0 +1,36 @@
+---
+title: Bellerophon and Pegasus
+adaptedFrom: bulfinch-fable--pegasus-and-the-chimaera
+order: 29
+namesNote: Bulfinch uses the Roman names Minerva for Athena and Jupiter for Zeus.
+---
+
+When Perseus defeated Medusa the Gorgon, something wonderful happened. Where drops of her blood fell on the ground, a horse sprang up. He was white, and he had great feathered wings. His name was Pegasus.
+
+The goddess Athena caught Pegasus and tamed him. She gave him to the Muses, the goddesses of music and poetry, who lived on a mountain. Once Pegasus kicked a rock there with his hoof, and a spring of fresh water came bubbling out. It still flows today.
+
+Far away, in the land of Lycia, there lived a monster called the Chimera. The front of its body was a lion. The middle was a goat. Its tail was a dragon. And out of its mouth it breathed fire. It burned the farmers' fields and frightened everyone.
+
+The king of Lycia wanted someone to get rid of it. Just then, a brave young man named Bellerophon came to his palace. Bellerophon carried a letter from another king. The letter said what a great hero Bellerophon was. But at the very end it said something else. The other king was jealous of Bellerophon, and he asked the king of Lycia to get rid of him.
+
+The king of Lycia did not want to harm a guest. So he thought of a clever idea. "I'll send him to fight the Chimera," he thought. "The monster will take care of him for me."
+
+Bellerophon agreed to go. But first he asked a wise old man for advice.
+
+"You will need the winged horse, Pegasus," said the wise man. "Go and sleep tonight in Athena's temple."
+
+So Bellerophon slept in the temple. In the night, Athena came to him in a dream and gave him a golden bridle. When he woke up, the golden bridle was really in his hand.
+
+Then Athena showed him Pegasus, drinking from a well. When the winged horse saw the golden bridle, he came trotting over, as gentle as a lamb, and let Bellerophon put it on him.
+
+Bellerophon climbed onto his back, and Pegasus spread his wings and flew up into the sky.
+
+They soared over the mountains until they found the Chimera. The monster roared and blew out a blast of fire. But Pegasus flew high above it, out of reach of the flames. Bellerophon swooped down again and again with his spear, until at last the Chimera fell and did not get up.
+
+The king of Lycia was amazed. He gave Bellerophon more dangerous jobs, but with Pegasus's help he won them all. At last the king said, "The gods must love this young man." He let Bellerophon marry his daughter, and made him the next king.
+
+But Bellerophon grew proud. He began to think he was as great as the gods. One day he said, "I will fly Pegasus all the way up to Mount Olympus, and live with the gods."
+
+Zeus did not like that at all. He sent a tiny gadfly to sting Pegasus. Pegasus bucked, and Bellerophon fell off his back and tumbled all the way down to earth. He was badly hurt. For the rest of his days he wandered alone, far from other people, sad and sorry for his pride.
+
+And Pegasus? He kept on flying, up and up. Look for him in the night sky on autumn evenings. There is a group of stars shaped like a great square, and it is called Pegasus, the winged horse.

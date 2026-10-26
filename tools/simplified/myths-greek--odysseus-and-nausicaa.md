@@ -1,0 +1,44 @@
+---
+title: Odysseus and Nausicaa
+adaptedFrom: bulfinch-fable--the-phaeacians
+order: 37
+namesNote: Bulfinch calls Odysseus by his Latin name, Ulysses, and uses Minerva for Athena and Neptune for Poseidon.
+---
+
+Odysseus swam through the stormy sea until his arms ached. At last he found the calm mouth of a river and crawled up onto the land. He had lost everything: his ship, his men, even his clothes. He was so tired that he piled up a heap of dry leaves under two olive trees, crawled inside like a squirrel in its nest, and fell fast asleep.
+
+He had landed on the island of the Phaeacians, a kind and happy people who loved ships and music.
+
+That same night, the goddess Athena sent a dream to the king's daughter, Princess Nausicaa. "You'll be getting married one day soon," said the dream. "You should wash all the family's clothes, so everything is ready."
+
+In the morning, Nausicaa asked her father for a wagon. She loaded it with all the laundry, and she and her friends drove down to the river. They washed the clothes in the clear pools, stomping them clean with their feet, and spread them on the rocks to dry in the sun. Then they ate a picnic and played a game of catch with a ball.
+
+One of the girls threw the ball too far, and it landed in the river. The girls all shrieked, and the noise woke Odysseus.
+
+He peeked out of the bushes. He had no clothes on, so he broke off a leafy branch to cover himself. Then he stepped out. He was covered in salt and seaweed, and he looked so wild that all the girls ran away screaming. All except Nausicaa. Athena gave her courage, and she stood her ground.
+
+"Please, princess," said Odysseus, very politely, from a safe distance. "I have been shipwrecked. Could you spare me some old clothes, and tell me where I am?"
+
+Nausicaa called her friends back. They gave him clothes, and olive oil to wash with, and food and drink. When Odysseus had washed and dressed, Athena made him look tall and handsome. The girls could hardly believe he was the same man.
+
+"Follow our wagon to the city," said Nausicaa. "But when we get near, walk behind on your own. People might gossip if they see me with a stranger. Go to my father's palace and kneel before my mother, the queen. If she likes you, they will help you get home."
+
+Odysseus did as she said. Athena wrapped him in a magic mist so that no one would see him as he walked through the city. The palace had walls of shining bronze and doors of gold, and gardens full of fruit trees that never stopped growing fruit, winter or summer.
+
+Odysseus walked into the great hall, and the mist disappeared. He knelt at the queen's feet. "Please help a lost stranger to get home," he said.
+
+The king, Alcinous, took his hand and gave him a seat of honor, and they gave him food and drink. "Tomorrow," said the king, "we will find a ship to take you wherever you want to go."
+
+The next day there were games. The young Phaeacian men ran races and wrestled. They teased the stranger to join in. So Odysseus picked up a heavy stone discus and threw it much, much farther than any of theirs.
+
+Then a blind singer named Demodocus played his harp and sang a song about the Trojan War, and the wooden horse, and the clever hero Odysseus. And as he listened, Odysseus covered his face and cried.
+
+"Why are you crying, stranger?" asked the king. "Did you lose someone you loved at Troy?"
+
+"I am Odysseus," he said.
+
+Everyone gasped. Then they asked him to tell them his adventures, and he told them everything: the Cyclops, the bag of winds, Circe, the Sirens, the sea monsters and Calypso.
+
+The next day the Phaeacians filled a ship with wonderful presents for him. Odysseus was so tired that he fell asleep on board. The Phaeacians rowed him all the way to Ithaca, gently carried him ashore while he slept, laid his presents beside him and sailed home.
+
+But Poseidon, the god of the sea, was angry that they had helped Odysseus, whom he did not like. As the Phaeacian ship sailed back into its own harbor, Poseidon turned it into stone. It is still there, they say, a rock shaped like a ship, at the mouth of the harbor.

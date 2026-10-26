@@ -3,6 +3,7 @@ title: Odysseus and Circe
 adaptedFrom: hawthorne-tanglewood--circe-s-palace
 order: 4
 namesNote: Hawthorne calls Odysseus by his Latin name, Ulysses, and calls Hermes “Quicksilver.”
+alsoSimplifies: bulfinch-fable--the-laestrygonians-and-circe
 ---
 
 Odysseus was a king and a very clever man. After a long war far from home, he set sail with his men to go back to his little island kingdom. But the journey home took ten long years, because they had one adventure after another.

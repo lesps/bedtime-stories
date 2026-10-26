@@ -1,0 +1,79 @@
+{
+ "id": "myths-greek--oedipus-and-the-sphinx",
+ "collectionId": "myths-greek",
+ "order": 28,
+ "title": "Oedipus and the Sphinx",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the city of Thebes had a terrible problem. A monster called the Sphinx had come to live on a high rock beside the road into the city."
+  },
+  {
+   "type": "p",
+   "text": "The Sphinx had the body of a lion and the head of a woman. Whenever a traveler came along the road, she would stop them and ask a riddle."
+  },
+  {
+   "type": "p",
+   "text": "\"If you answer correctly,\" she said, \"you may pass. If you answer wrongly, you may not.\""
+  },
+  {
+   "type": "p",
+   "text": "Many travelers tried to answer her riddle. Not one of them had ever got it right, and none of them ever came back. Soon no one in Thebes dared to use that road."
+  },
+  {
+   "type": "p",
+   "text": "Then a young man named Oedipus came walking toward the city. When he was a baby, he had been left alone on a mountain, but a kind shepherd had found him and taken him to a new family. Now he was grown up, and he was clever and brave."
+  },
+  {
+   "type": "p",
+   "text": "\"Don't go that way!\" the people warned him. \"The Sphinx will get you!\""
+  },
+  {
+   "type": "p",
+   "text": "\"I'm not afraid of a riddle,\" said Oedipus. And he walked right up to the rock."
+  },
+  {
+   "type": "p",
+   "text": "The Sphinx looked down at him with her cold eyes. \"Here is my riddle,\" she said. \"What creature walks on four legs in the morning, on two legs at noon, and on three legs in the evening?\""
+  },
+  {
+   "type": "p",
+   "text": "Oedipus thought. Four legs, then two, then three. What animal could change its legs like that? Then he smiled."
+  },
+  {
+   "type": "p",
+   "text": "\"It's a person,\" he said. \"In the morning of life, when we are babies, we crawl on our hands and knees. That's four legs. At noon, when we are grown up, we walk on our two feet. And in the evening of life, when we are old, we walk with a cane. That's three.\""
+  },
+  {
+   "type": "p",
+   "text": "The Sphinx stared at him. No one had ever answered her riddle before. She was so furious that she leaped from her rock, and that was the end of the Sphinx."
+  },
+  {
+   "type": "p",
+   "text": "The people of Thebes were free at last. They cheered and cheered for the clever young man who had saved their city. And to thank him, they made Oedipus their king."
+  },
+  {
+   "type": "p",
+   "text": "Here is a riddle for you to try on your family: What has a face and two hands, but no arms or legs? (A clock!)"
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “The Sphinx” in The Age of Fable (1855). The original is listed under Other versions."
+  }
+ ],
+ "workId": "greek-oedipus-sphinx",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--the-sphinx",
+ "wordCount": 403,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 2.7,
+  "avgSentenceWords": 10.1,
+  "band": "early"
+ }
+}

@@ -2,6 +2,7 @@
 title: Theseus and the Minotaur
 adaptedFrom: hawthorne-tanglewood--the-minotaur
 order: 1
+alsoSimplifies: kingsley-heroes--theseus
 ---
 
 Long ago, in a little city by a mountain, there lived a boy named Theseus. He lived with his mother, Aethra, and his wise old grandfather, the king. Theseus had never met his father.

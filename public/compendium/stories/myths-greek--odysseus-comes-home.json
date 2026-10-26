@@ -1,0 +1,103 @@
+{
+ "id": "myths-greek--odysseus-comes-home",
+ "collectionId": "myths-greek",
+ "order": 38,
+ "title": "Odysseus Comes Home",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "When Odysseus woke up on the beach, he did not know where he was. He had been gone for twenty years, and his own island looked strange to him."
+  },
+  {
+   "type": "p",
+   "text": "The goddess Athena appeared to him, dressed as a young shepherd. \"You are home, Odysseus,\" she said. \"This is Ithaca. But there is trouble in your palace.\""
+  },
+  {
+   "type": "p",
+   "text": "While Odysseus was away, more than a hundred rude young men had moved into his palace. They all wanted to marry his wife, Penelope, and become king. \"Odysseus must be dead,\" they said. Every day they ate his food and drank his wine and bossed his servants around. Penelope did not want to marry any of them. She kept hoping that Odysseus would come home."
+  },
+  {
+   "type": "p",
+   "text": "\"You must be careful,\" said Athena. \"There are too many of them to fight. Let me disguise you.\" She touched him, and he turned into an old beggar, with wrinkled skin and ragged clothes."
+  },
+  {
+   "type": "p",
+   "text": "Odysseus went to the hut of his old swineherd, Eumaeus, who looked after his pigs. Eumaeus did not recognize him. But he was kind to the poor old beggar and gave him food and a place to sleep."
+  },
+  {
+   "type": "p",
+   "text": "Meanwhile, Odysseus's son, Telemachus, who was now a grown young man, came home from a long journey. He had been searching for news of his father. He went to see Eumaeus, and there he found the old beggar."
+  },
+  {
+   "type": "p",
+   "text": "When they were alone, Athena gave Odysseus his own face back for a moment. \"Telemachus,\" he said, \"I am your father.\""
+  },
+  {
+   "type": "p",
+   "text": "At first Telemachus could not believe it. Then the two of them hugged and cried. They had not seen each other since Telemachus was a baby."
+  },
+  {
+   "type": "p",
+   "text": "Together they made a plan. Odysseus would go to the palace dressed as the beggar, and Telemachus would act as if nothing had changed."
+  },
+  {
+   "type": "p",
+   "text": "As the beggar walked into the palace courtyard, an old dog lying in the yard lifted his head and pricked up his ears. It was Argus, Odysseus's own hunting dog. He was very old now. He was the only one who knew his master at once, even after twenty years. He wagged his tail. Odysseus wanted to hug him, but he could not give away his secret. He had to walk past, with tears in his eyes."
+  },
+  {
+   "type": "p",
+   "text": "Inside, the rude young men laughed at the beggar and threw things at him. One of them hit him with a stool. Telemachus was furious, but he remembered the plan and kept quiet."
+  },
+  {
+   "type": "p",
+   "text": "Now Penelope decided to hold a contest. She brought out Odysseus's great bow. \"Whoever can string this bow,\" she said, \"and shoot an arrow through twelve rings in a row, I will marry him.\""
+  },
+  {
+   "type": "p",
+   "text": "One by one, the young men tried to bend the bow to put the string on. None of them was strong enough. They rubbed it with grease to soften it. It still would not bend."
+  },
+  {
+   "type": "p",
+   "text": "Then the old beggar spoke up. \"May I try?\""
+  },
+  {
+   "type": "p",
+   "text": "The young men laughed and jeered. But Telemachus said, \"Let him try.\""
+  },
+  {
+   "type": "p",
+   "text": "Odysseus picked up the bow. He bent it easily and slipped on the string. He plucked the string, and it sang like a bird. Then he fitted an arrow, took aim, and shot it straight through all twelve rings."
+  },
+  {
+   "type": "p",
+   "text": "He threw off his beggar's rags. \"I am Odysseus!\" he shouted. \"I have come home!\""
+  },
+  {
+   "type": "p",
+   "text": "The young men went pale. Odysseus, Telemachus and faithful Eumaeus had locked the doors and taken away the young men's weapons. Then they fought them, and they drove the troublemakers out of the palace for good."
+  },
+  {
+   "type": "p",
+   "text": "At last, after twenty years, Odysseus and Penelope were together again. She was almost afraid to believe it was really him. But it was. The long journey home from Troy was over."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Fate of the Suitors” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls Odysseus by his Latin name, Ulysses, and Athena by her Roman name, Minerva."
+  }
+ ],
+ "workId": "greek-odysseus-homecoming",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--fate-of-the-suitors",
+ "wordCount": 662,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 3.3,
+  "avgSentenceWords": 9.6,
+  "band": "early"
+ }
+}

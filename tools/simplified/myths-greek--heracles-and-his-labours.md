@@ -1,0 +1,37 @@
+---
+title: Heracles and His Labours
+adaptedFrom: bulfinch-fable--hercules
+order: 31
+namesNote: Bulfinch calls the hero by his Roman name, Hercules, and uses Jupiter for Zeus, Juno for Hera and Pluto for Hades.
+flags: none
+---
+
+Heracles was the son of Zeus, the king of the gods, and a human mother. That made him the strongest person who ever lived. But it also made Hera, the queen of the gods, very jealous. She did not like Zeus's children with other mothers, and she made trouble for Heracles all his life.
+
+When Heracles was still a baby, Hera sent two huge snakes slithering into his cradle. But baby Heracles grabbed one snake in each little fist and squeezed until they stopped wriggling. When his mother came running in, he was holding them up and laughing.
+
+When he grew up, Hera made him the servant of a mean, cowardly king named Eurystheus. The king gave Heracles one terrible job after another. They were called the labours of Heracles, and there were twelve in all. Here are some of them.
+
+**The lion.** A huge lion was terrorizing the valley of Nemea. Its skin was so tough that no arrow or sword could pierce it. Heracles wrestled the lion with his bare hands and squeezed it until it gave up. After that, he wore the lion's skin as a cloak, and its head as a helmet. When King Eurystheus saw Heracles coming back wearing the lion, he was so frightened that he hid in a big bronze jar.
+
+**The Hydra.** In a swamp lived a water monster called the Hydra, which had nine heads. Heracles knocked off one head with his club, but two new heads grew back in its place! So his friend Iolaus brought a burning torch. Every time Heracles knocked off a head, Iolaus touched the spot with fire so no new heads could grow. At last the Hydra was beaten.
+
+**The stables.** A king named Augeas had three thousand cows. Their stables had not been cleaned for thirty years, and they were piled high with dung. "Clean them in one day," said Eurystheus, laughing. Heracles did not pick up a shovel. Instead he dug a channel and turned two rivers so they ran right through the stables. The rushing water washed them perfectly clean by sunset.
+
+**The queen's belt.** The Amazons were a nation of warrior women. Their queen, Hippolyta, wore a beautiful belt, and the king's daughter wanted it. Heracles sailed to the land of the Amazons. Queen Hippolyta liked him, and she agreed to give him her belt. But jealous Hera disguised herself as an Amazon and started a rumor that Heracles had come to kidnap the queen. There was a great fight, but Heracles got away with the belt.
+
+**The cattle at the end of the world.** Far to the west lived a monster with three bodies, who kept a herd of red cattle. On his way there, Heracles came to the place where Europe and Africa almost touch. He set up two mountains, one on each side, to mark how far he had gone. People still call them the Pillars of Heracles. Then he took the cattle and drove them home.
+
+**The golden apples.** The hardest job of all was to fetch golden apples from a magic garden at the edge of the world. Heracles did not know where it was. But he found the giant Atlas, who held the whole sky on his shoulders. Atlas's daughters guarded the garden.
+
+"I'll hold the sky for you," said Heracles, "if you'll go and get me the apples."
+
+Atlas was happy to put the sky down for a while. He fetched the apples. But then he said, "Why don't I take them to the king myself? You can keep holding the sky."
+
+Heracles thought fast. "All right," he said. "But this sky is very heavy on my shoulders. Would you hold it for just one moment, while I put a cushion on them?"
+
+Atlas took the sky back. Heracles picked up the apples and walked away, waving goodbye.
+
+**The three-headed dog.** For his last labour, Heracles had to go down to the underworld, the land of the dead, and bring back Cerberus, the huge three-headed dog that guarded its gates. Hades, the king of the underworld, said, "You may borrow him, but only if you can catch him without any weapons." So Heracles wrestled Cerberus and carried him up into the daylight, all three heads snarling. When King Eurystheus saw him, he jumped back into his bronze jar. Then Heracles took the dog back home.
+
+Heracles had many more adventures, and not all of them were happy. But he never stopped helping people and fighting monsters. And when at last his life on earth was over, Zeus would not let him go down to the gloomy underworld. He carried his son up to Mount Olympus to live with the gods forever. Even Hera forgave him in the end, and her daughter Hebe, the goddess of youth, became his wife.

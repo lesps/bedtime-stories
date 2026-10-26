@@ -167,7 +167,7 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 26
+   "storyCount": 38
   },
   {
    "id": "bulfinch-fable",
@@ -179,7 +179,19 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 21
+   "storyCount": 35
+  },
+  {
+   "id": "kingsley-heroes",
+   "title": "The Heroes, or Greek Fairy Tales for My Children",
+   "author": "Charles Kingsley",
+   "contributor": null,
+   "firstPublished": 1856,
+   "source": "https://www.gutenberg.org/ebooks/677",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 3
   }
  ],
  "stories": [
@@ -2987,7 +2999,9 @@
    "readingMinutes": 21,
    "excluded": false,
    "flags": [],
-   "hasImages": false
+   "hasImages": false,
+   "workId": "greek-perseus",
+   "simplifiedId": "myths-greek--perseus-and-medusa"
   },
   {
    "id": "lang-blue--the-story-of-pretty-goldilocks",
@@ -7897,6 +7911,224 @@
    "adaptedFrom": "bulfinch-fable--aurora-and-tithonus"
   },
   {
+   "id": "myths-greek--perseus-and-medusa",
+   "collectionId": "myths-greek",
+   "order": 27,
+   "title": "Perseus and Medusa",
+   "wordCount": 1428,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-perseus",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 10.3,
+    "band": "early"
+   },
+   "adaptedFrom": "kingsley-heroes--perseus"
+  },
+  {
+   "id": "myths-greek--oedipus-and-the-sphinx",
+   "collectionId": "myths-greek",
+   "order": 28,
+   "title": "Oedipus and the Sphinx",
+   "wordCount": 403,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-oedipus-sphinx",
+   "readingLevel": {
+    "fkGrade": 2.7,
+    "avgSentenceWords": 10.1,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--the-sphinx"
+  },
+  {
+   "id": "myths-greek--bellerophon-and-pegasus",
+   "collectionId": "myths-greek",
+   "order": 29,
+   "title": "Bellerophon and Pegasus",
+   "wordCount": 606,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-bellerophon",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 10.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--pegasus-and-the-chimaera"
+  },
+  {
+   "id": "myths-greek--meleager-and-the-great-boar",
+   "collectionId": "myths-greek",
+   "order": 30,
+   "title": "Meleager and the Great Boar",
+   "wordCount": 473,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-meleager",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 10.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--meleager"
+  },
+  {
+   "id": "myths-greek--heracles-and-his-labours",
+   "collectionId": "myths-greek",
+   "order": 31,
+   "title": "Heracles and His Labours",
+   "wordCount": 846,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-heracles-labours",
+   "readingLevel": {
+    "fkGrade": 5.0,
+    "avgSentenceWords": 12.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--hercules"
+  },
+  {
+   "id": "myths-greek--castor-and-pollux",
+   "collectionId": "myths-greek",
+   "order": 32,
+   "title": "Castor and Pollux, the Twins",
+   "wordCount": 361,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-castor-pollux",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 11.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--castor-and-pollux"
+  },
+  {
+   "id": "myths-greek--the-golden-apple-and-the-trojan-war",
+   "collectionId": "myths-greek",
+   "order": 33,
+   "title": "The Golden Apple and the Trojan War",
+   "wordCount": 897,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-trojan-war",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 10.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--the-trojan-war"
+  },
+  {
+   "id": "myths-greek--the-wooden-horse",
+   "collectionId": "myths-greek",
+   "order": 34,
+   "title": "The Wooden Horse",
+   "wordCount": 686,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-wooden-horse",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 9.4,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--the-fall-of-troy"
+  },
+  {
+   "id": "myths-greek--odysseus-and-the-cyclops",
+   "collectionId": "myths-greek",
+   "order": 35,
+   "title": "Odysseus, the Cyclops and the Bag of Winds",
+   "wordCount": 951,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-cyclops",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 10.4,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--the-return-of-ulysses"
+  },
+  {
+   "id": "myths-greek--odysseus-the-sirens-and-the-sea-monsters",
+   "collectionId": "myths-greek",
+   "order": 36,
+   "title": "Odysseus, the Sirens and the Sea Monsters",
+   "wordCount": 662,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-sirens",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--scylla-and-charybdis"
+  },
+  {
+   "id": "myths-greek--odysseus-and-nausicaa",
+   "collectionId": "myths-greek",
+   "order": 37,
+   "title": "Odysseus and Nausicaa",
+   "wordCount": 762,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-nausicaa",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 12.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-fable--the-phaeacians"
+  },
+  {
+   "id": "myths-greek--odysseus-comes-home",
+   "collectionId": "myths-greek",
+   "order": 38,
+   "title": "Odysseus Comes Home",
+   "wordCount": 662,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-homecoming",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 9.6,
+    "band": "early"
+   },
+   "adaptedFrom": "bulfinch-fable--fate-of-the-suitors"
+  },
+  {
    "id": "bulfinch-fable--prometheus-and-pandora",
    "collectionId": "bulfinch-fable",
    "order": 1,
@@ -8284,6 +8516,323 @@
     "band": "advanced"
    },
    "simplifiedId": "myths-greek--eos-and-tithonus"
+  },
+  {
+   "id": "bulfinch-fable--perseus",
+   "collectionId": "bulfinch-fable",
+   "order": 22,
+   "title": "Perseus",
+   "wordCount": 2226,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-perseus",
+   "readingLevel": {
+    "fkGrade": 10.3,
+    "avgSentenceWords": 25.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--perseus-and-medusa"
+  },
+  {
+   "id": "bulfinch-fable--the-sphinx",
+   "collectionId": "bulfinch-fable",
+   "order": 23,
+   "title": "The Sphinx",
+   "wordCount": 475,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-oedipus-sphinx",
+   "readingLevel": {
+    "fkGrade": 10.6,
+    "avgSentenceWords": 25.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--oedipus-and-the-sphinx"
+  },
+  {
+   "id": "bulfinch-fable--pegasus-and-the-chimaera",
+   "collectionId": "bulfinch-fable",
+   "order": 24,
+   "title": "Pegasus and the Chimaera",
+   "wordCount": 821,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-bellerophon",
+   "readingLevel": {
+    "fkGrade": 13.0,
+    "avgSentenceWords": 29.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--bellerophon-and-pegasus"
+  },
+  {
+   "id": "bulfinch-fable--meleager",
+   "collectionId": "bulfinch-fable",
+   "order": 25,
+   "title": "Meleager",
+   "wordCount": 1125,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-meleager",
+   "readingLevel": {
+    "fkGrade": 6.9,
+    "avgSentenceWords": 17.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--meleager-and-the-great-boar"
+  },
+  {
+   "id": "bulfinch-fable--atalanta",
+   "collectionId": "bulfinch-fable",
+   "order": 26,
+   "title": "Atalanta",
+   "wordCount": 957,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-atalanta",
+   "readingLevel": {
+    "fkGrade": 6.2,
+    "avgSentenceWords": 15.5,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "bulfinch-fable--hercules",
+   "collectionId": "bulfinch-fable",
+   "order": 27,
+   "title": "Hercules",
+   "wordCount": 2214,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-heracles-labours",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 21.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--heracles-and-his-labours"
+  },
+  {
+   "id": "bulfinch-fable--castor-and-pollux",
+   "collectionId": "bulfinch-fable",
+   "order": 28,
+   "title": "Castor and Pollux",
+   "wordCount": 469,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-castor-pollux",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 21.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--castor-and-pollux"
+  },
+  {
+   "id": "bulfinch-fable--the-trojan-war",
+   "collectionId": "bulfinch-fable",
+   "order": 29,
+   "title": "The Trojan War",
+   "wordCount": 5879,
+   "readingMinutes": 33,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-trojan-war",
+   "readingLevel": {
+    "fkGrade": 9.4,
+    "avgSentenceWords": 21.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--the-golden-apple-and-the-trojan-war"
+  },
+  {
+   "id": "bulfinch-fable--the-fall-of-troy",
+   "collectionId": "bulfinch-fable",
+   "order": 30,
+   "title": "The Fall of Troy",
+   "wordCount": 1766,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-wooden-horse",
+   "readingLevel": {
+    "fkGrade": 10.7,
+    "avgSentenceWords": 23.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--the-wooden-horse"
+  },
+  {
+   "id": "bulfinch-fable--the-return-of-ulysses",
+   "collectionId": "bulfinch-fable",
+   "order": 31,
+   "title": "The Return of Ulysses",
+   "wordCount": 1675,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-cyclops",
+   "readingLevel": {
+    "fkGrade": 9.4,
+    "avgSentenceWords": 24.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--odysseus-and-the-cyclops"
+  },
+  {
+   "id": "bulfinch-fable--the-laestrygonians-and-circe",
+   "collectionId": "bulfinch-fable",
+   "order": 32,
+   "title": "The Laestrygonians and Circe",
+   "wordCount": 982,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-circe",
+   "readingLevel": {
+    "fkGrade": 11.2,
+    "avgSentenceWords": 26.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--odysseus-and-circe"
+  },
+  {
+   "id": "bulfinch-fable--scylla-and-charybdis",
+   "collectionId": "bulfinch-fable",
+   "order": 33,
+   "title": "Scylla and Charybdis",
+   "wordCount": 1143,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-sirens",
+   "readingLevel": {
+    "fkGrade": 11.0,
+    "avgSentenceWords": 25.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--odysseus-the-sirens-and-the-sea-monsters"
+  },
+  {
+   "id": "bulfinch-fable--the-phaeacians",
+   "collectionId": "bulfinch-fable",
+   "order": 34,
+   "title": "The Phaeacians",
+   "wordCount": 2442,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-nausicaa",
+   "readingLevel": {
+    "fkGrade": 10.6,
+    "avgSentenceWords": 25.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--odysseus-and-nausicaa"
+  },
+  {
+   "id": "bulfinch-fable--fate-of-the-suitors",
+   "collectionId": "bulfinch-fable",
+   "order": 35,
+   "title": "Fate of the Suitors",
+   "wordCount": 1361,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "greek-odysseus-homecoming",
+   "readingLevel": {
+    "fkGrade": 8.9,
+    "avgSentenceWords": 20.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--odysseus-comes-home"
+  },
+  {
+   "id": "kingsley-heroes--perseus",
+   "collectionId": "kingsley-heroes",
+   "order": 1,
+   "title": "Perseus",
+   "wordCount": 12061,
+   "readingMinutes": 67,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-perseus",
+   "readingLevel": {
+    "fkGrade": 8.9,
+    "avgSentenceWords": 25.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--perseus-and-medusa"
+  },
+  {
+   "id": "kingsley-heroes--the-argonauts",
+   "collectionId": "kingsley-heroes",
+   "order": 2,
+   "title": "The Argonauts",
+   "wordCount": 22315,
+   "readingMinutes": 124,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-jason",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 28.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--jason-and-the-golden-fleece"
+  },
+  {
+   "id": "kingsley-heroes--theseus",
+   "collectionId": "kingsley-heroes",
+   "order": 3,
+   "title": "Theseus",
+   "wordCount": 10996,
+   "readingMinutes": 61,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-theseus",
+   "readingLevel": {
+    "fkGrade": 8.6,
+    "avgSentenceWords": 25.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--theseus-and-the-minotaur"
   }
  ]
 }
