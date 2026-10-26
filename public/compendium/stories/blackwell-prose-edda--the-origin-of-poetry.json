@@ -1,0 +1,39 @@
+{
+ "id": "blackwell-prose-edda--the-origin-of-poetry",
+ "collectionId": "blackwell-prose-edda",
+ "order": 14,
+ "title": "The Origin of Poetry",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "The Origin of Poetry"
+  },
+  {
+   "type": "p",
+   "text": "Ægir having expressed a wish to know how poetry originated, Bragi informed him that the Æsir and Vanir having met to put an end to the war which had long been carried on between them, a treaty of peace was agreed to and ratified by each party spitting into a jar. As a lasting sign of the amity which was thenceforward to subsist between the contending parties, the gods formed out of this spittle a being to whom they gave the name of Kvasir, and whom they endowed with such a high degree of intelligence that no one could ask him a question that he was unable to answer. Kvasir then traversed the whole world to teach men wisdom, but was at length treacherously murdered by the dwarfs, Fjalar and Galar, who, by mixing up his blood with honey, composed a liquor of such surpassing excellence that whoever drinks of it acquires the gift of song. When the Æsir inquired what had become of Kvasir, the dwarfs told them that he had been suffocated with his own wisdom, not being able to find any one who by proposing to him a sufficient number of learned questions might relieve him of its superabundance. Not long after this event, Fjalar and Galar managed to drown the giant Gilling and murder his wife, deeds which were avenged by their son Suttung taking the dwarfs out to sea, and placing them on a shoal which was flooded at high water. In this critical position they implored Suttung to spare their lives, and accept the verse-inspiring beverage which they possessed as an atonement for their having killed his parents. Suttung having agreed to these conditions, released the dwarfs, and carrying the mead home with him, committed it to the care of his daughter Gunnlauth. Hence poetry is indifferently called Kvasir's blood, Suttung's mead, the dwarf's ransom, etc."
+  },
+  {
+   "type": "heading",
+   "text": "Odin Beguiles the Daughter of Baugi"
+  },
+  {
+   "type": "p",
+   "text": "Æsir then asked how the gods obtained possession of so valuable a beverage, on which Bragi informed him that Odin being fully determined to acquire it, set out for Jotunheim, and after journeying for some time, came to a meadow in which nine thralls were mowing. Entering into conversation with them, Odin, offered to whet their scythes, an offer which they gladly accepted, and finding that the whetstone he made use of had given the scythes an extraordinary sharpness, asked him whether he was willing to dispose of it. Odin, however, threw the whetstone in the air, and in attempting to catch it as it fell, each thrall brought his scythe to bear on the neck of one of his comrades, so that they were all killed in the scramble. Odin took up his night's lodging at the house of Suttung's brother, Baugi, who told him that he was sadly at a loss for labourers, his nine thralls having slain each other. Odin, who went under the name of Baulverk, said that for a draught of Suttung's mead he would do the work of nine men for him. The terms agreed on, Odin worked for Baugi the whole summer, but Suttung was deaf to his brother's entreaties, and would not part with a drop of the precious liquor, which was carefully preserved in a cavern under his daughter's custody. Into this cavern Odin was resolved to penetrate. He therefore persuaded Baugi to bore a hole through the rock, which he had no sooner done than Odin, transforming himself into a worm, crept through the crevice, and resuming his natural shape, won the heart of Gunnlauth. After passing three nights with the fair maiden, he had no great difficulty in inducing her to let him take a draught out of each of the three jars, called Odhroerir, Bodn, and Son, in which the mead was kept. But wishing to make the most of his advantage, he pulled so deep that not a drop was left in the vessels. Transforming himself into an eagle, he then flew off as fast as his wings could carry him, but Suttung becoming aware of the stratagem, also took upon himself an eagle's guise, and flew after him. The Æsir, on seeing him approach Asgard, set out in the yard all the jars they could lay their hands on, which Odin filled by discharging through his beak the wonder-working liquor he had drunken. He was however, so near being caught by Suttung, that some of the liquor escaped him by an impurer vent, and as no care was taken of this it fell to the share of the poetasters. But the liquor discharged in the jars was kept for the gods, and for those men who have sufficient wit to make a right use of it. Hence poetry is also called Odin's booty, Odin's gift, the beverage of the gods, &c, &c."
+  }
+ ],
+ "workId": "norse-mead",
+ "wordCount": 808,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 14.3,
+  "avgSentenceWords": 34.8,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--the-mead-of-poetry"
+}

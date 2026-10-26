@@ -1,0 +1,91 @@
+{
+ "id": "myths-norse--skadi-chooses-a-husband",
+ "collectionId": "myths-norse",
+ "order": 16,
+ "title": "Skadi Chooses a Husband",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The giant Thiazi had a daughter named Skadi. She was a giantess who lived high up in the snowy mountains, and she was fierce and brave."
+  },
+  {
+   "type": "p",
+   "text": "When Skadi heard that the gods had defeated her father, she put on her armor, picked up her weapons and marched straight to Asgard. She was going to make them pay!"
+  },
+  {
+   "type": "p",
+   "text": "But the gods did not want to fight her. \"We are sorry about your father,\" they said. \"Let us make it up to you. You may choose one of us gods to be your husband.\""
+  },
+  {
+   "type": "p",
+   "text": "Skadi thought about it. \"Very well,\" she said. \"And you must also make me laugh. Which you never will.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Agreed,\" said the gods. \"But there is one rule. When you choose your husband, you may only look at our feet.\""
+  },
+  {
+   "type": "p",
+   "text": "So all the gods stood behind a curtain, with only their bare feet showing underneath. Skadi walked slowly along the row of feet, looking carefully. She wanted to marry Baldur, the most beautiful of all the gods. At last she saw a pair of feet that were so handsome and so clean that she thought they must belong to Baldur."
+  },
+  {
+   "type": "p",
+   "text": "\"I choose these!\" she said."
+  },
+  {
+   "type": "p",
+   "text": "But when the curtain was pulled back, the feet did not belong to Baldur at all. They belonged to Njord, the god of the sea and the winds."
+  },
+  {
+   "type": "p",
+   "text": "Well, Skadi had chosen, and that was that. Now the gods had to make her laugh, and she was sure they never could. But Loki did some silly tricks with a goat, pulling and tumbling and squealing, and Skadi laughed and laughed in spite of herself."
+  },
+  {
+   "type": "p",
+   "text": "And to make up for her father even more, Odin took the giant's eyes and threw them up into the sky, where they became two stars, shining down on his daughter."
+  },
+  {
+   "type": "p",
+   "text": "So Skadi married Njord. But there was a problem. Skadi loved the mountains, where her father had lived. And Njord loved the sea. So they agreed to take turns. First they would live nine nights in the mountains, then three nights by the sea."
+  },
+  {
+   "type": "p",
+   "text": "But when Njord came back from the mountains, he said:"
+  },
+  {
+   "type": "p",
+   "text": "\"I'm tired of the mountains. I was only there nine nights, but the howling of the wolves sounded horrible to me, after the song of the swans.\""
+  },
+  {
+   "type": "p",
+   "text": "And when Skadi came back from the seashore, she said:"
+  },
+  {
+   "type": "p",
+   "text": "\"I can't sleep in my bed by the sea, because of the screaming of the seagulls. Every morning a gull flying in from the sea wakes me up!\""
+  },
+  {
+   "type": "p",
+   "text": "So in the end Skadi went home to her mountains, to her father's old house. And there she lives still, skiing over the snow on her skis, with her bow and arrows, hunting wild animals in the mountains. And Njord stayed by his beloved sea."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Skadi Chooses a Husband” in The Prose Edda, translated by I. A. Blackwell (1847). The original is listed under Other versions. Blackwell spells the giant's name “Thjassi.”"
+  }
+ ],
+ "workId": "norse-skadi",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "blackwell-prose-edda--skadi-chooses-a-husband",
+ "wordCount": 497,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 3.3,
+  "avgSentenceWords": 11.7,
+  "band": "early"
+ }
+}

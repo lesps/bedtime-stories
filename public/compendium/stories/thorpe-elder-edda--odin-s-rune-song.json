@@ -1,0 +1,129 @@
+{
+ "id": "thorpe-elder-edda--odin-s-rune-song",
+ "collectionId": "thorpe-elder-edda",
+ "order": 2,
+ "title": "Odin's Rune-Song",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "I know that I hung, on a wind-rocked tree, nine whole nights, with a spear wounded, and to Odin offered, myself to myself; on that tree, of which no one knows from what root it springs."
+  },
+  {
+   "type": "p",
+   "text": "Bread no one gave me, nor a horn of drink, downward I peered, to runes applied myself, wailing learnt them, then fell down thence."
+  },
+  {
+   "type": "p",
+   "text": "Potent songs nine from the famed son I learned of Bolthorn, Bestla's sire, and a draught obtained of the precious mead, drawn from Odhrærir."
+  },
+  {
+   "type": "p",
+   "text": "Then I began to bear fruit, and to know many things, to grow and well thrive: word by word I sought out words, fact by fact I sought out facts."
+  },
+  {
+   "type": "p",
+   "text": "Runes thou wilt find, and explained characters, very large characters, very potent characters, which the great speaker depicted, and the high powers formed, and the powers' prince graved:"
+  },
+  {
+   "type": "p",
+   "text": "Odin among the Æsir, but among the Alfar, Dain, and Dvalin for the dwarfs, Asvid for the Jotuns: some I myself graved."
+  },
+  {
+   "type": "p",
+   "text": "Knowest thou how to grave them? knowest thou how to expound them? knowest thou how to depict them? knowest thou how to prove them? knowest thou how to pray? knowest thou how to offer? knowest thou how to send? knowest thou how to consume?"
+  },
+  {
+   "type": "p",
+   "text": "'Tis better not to pray than too much offer; a gift ever looks to a return. 'Tis better not to send than too much consume. So Thund graved before the origin of men, where he ascended, to whence he afterwards came."
+  },
+  {
+   "type": "p",
+   "text": "Those songs I know which the king's wife knows not nor son of man. Help the first is called, for that will help thee against strifes and cares."
+  },
+  {
+   "type": "p",
+   "text": "For the second I know, what the sons of men require, who will as leeches live. * * * *"
+  },
+  {
+   "type": "p",
+   "text": "For the third I know, if I have great need to restrain my foes, the weapons' edge I deaden: of my adversaries nor arms nor wiles harm aught."
+  },
+  {
+   "type": "p",
+   "text": "For the fourth I know, if men place bonds on my limbs, I so sing that I can walk; the fetter starts from my feet, and the manacle from my hands."
+  },
+  {
+   "type": "p",
+   "text": "For the fifth I know, if I see a shot from a hostile hand, a shaft flying amid the host, so swift it cannot fly that I cannot arrest it, if only I get sight of it."
+  },
+  {
+   "type": "p",
+   "text": "For the sixth I know, if one wounds me with a green tree's roots; also if a man declares hatred to me, harm shall consume them sooner than me."
+  },
+  {
+   "type": "p",
+   "text": "For the seventh I know, if a lofty house I see blaze o'er its inmates, so furiously it shall not burn that I cannot save it. That song I can sing."
+  },
+  {
+   "type": "p",
+   "text": "For the eighth I know, what to all is useful to learn: where hatred grows among the sons of men—that I can quickly assuage."
+  },
+  {
+   "type": "p",
+   "text": "For the ninth I know, if I stand in need my bark on the water to save, I can the wind on the waves allay, and the sea lull."
+  },
+  {
+   "type": "p",
+   "text": "For the tenth I know, if I see troll-wives sporting in air, I can so operate that they will forsake their own forms, and their own minds."
+  },
+  {
+   "type": "p",
+   "text": "For the eleventh I know, if I have to lead my ancient friends to battle, under their shields I sing, and with power they go safe to the fight, safe from the fight; safe on every side they go."
+  },
+  {
+   "type": "p",
+   "text": "For the twelfth I know, if on a tree I see a corpse swinging from a halter, I can so grave and in runes depict, that the man shall walk, and with me converse."
+  },
+  {
+   "type": "p",
+   "text": "For the thirteenth I know, if on a young man I sprinkle water, he shall not fall, though he into battle come: that man shall not sink before swords."
+  },
+  {
+   "type": "p",
+   "text": "For the fourteenth I know, if in the society of men I have to enumerate the gods, Æsir and Alfar, I know the distinctions of all. This few unskilled can do."
+  },
+  {
+   "type": "p",
+   "text": "For the fifteenth I know what the dwarf Thiodreyrir sang before Delling's doors. Strength he sang to the Æsir, and to the Alfar prosperity, wisdom to Hroptatyr."
+  },
+  {
+   "type": "p",
+   "text": "For the sixteenth I know, if a modest maiden's favour and affection I desire to possess, the soul I change of the white-armed damsel, and wholly turn her mind."
+  },
+  {
+   "type": "p",
+   "text": "For the seventeenth I know, that that young maiden will reluctantly avoid me. These songs, Loddfafnir! thou wilt long have lacked; yet it may be good if thou understandest them, profitable if thou learnest them."
+  },
+  {
+   "type": "p",
+   "text": "For the eighteenth I know that which I never teach to maid or wife of man, (all is better what one only knows. This is the closing of the songs) save her alone who clasps me in her arms, or is my sister."
+  },
+  {
+   "type": "p",
+   "text": "Now are sung the High-one's songs, in the High-one's hall, to the sons of men all-useful, but useless to the Jotuns' sons. Hail to him who has sung them! Hail to him who knows them! May he profit who has learnt them! Hail to those who have listened to them!"
+  }
+ ],
+ "workId": "norse-odin-runes",
+ "wordCount": 850,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 6.1,
+  "avgSentenceWords": 18.6,
+  "band": "middle"
+ },
+ "simplifiedId": "myths-norse--how-odin-won-the-runes"
+}

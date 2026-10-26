@@ -46,12 +46,13 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           and the myth sources (extract_hawthorne.py: Tanglewood Tales;
                           extract_bulfinch.py: The Age of Fable; extract_kingsley.py: The Heroes;
                           extract_hesiod.py: Theogony + Homeric Hymns; extract_church.py: Stories
-                          from Virgil and Stories from Livy; extract_macaulay.py: "Horatius")
+                          from Virgil and Stories from Livy; extract_macaulay.py: "Horatius";
+                          extract_eddas.py: Thorpe's Elder Edda, Blackwell's Prose Edda, Lang's Sigurd)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
                           source (one story per file; `## Author, Work ref` headings per passage)
-tools/build_translations.py builds the `greek-sources` / `latin-sources` collections from those files
+tools/build_translations.py builds the `greek-sources` / `latin-sources` / `norse-sources` collections
 tools/readability.py      Flesch-Kincaid grade, words per sentence, reading band
 tools/compendium_io.py    shared helpers: write story files and upsert a collection in index.json
 tools/tag_stories.py      culture + theme tags → public/compendium/tags.json (rules + OVERRIDES)
@@ -92,7 +93,7 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 745 stories, 23 collections, ~7 MB
+failures throw `DataError` (`kind: network | http | invalid`). 795 stories, 28 collections, ~8 MB
 of story JSON and ~31 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -116,7 +117,7 @@ is `advanced` or it runs over 20 minutes.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-14 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+15 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman` and Tages `etruscan`) and 18 themes (`gods-heroes` comes from
 the `MYTH_COLLECTIONS` rule). Regenerate with `python3 tools/tag_stories.py` after any data change.
 
@@ -247,13 +248,14 @@ fine)`.
   attach to AI-written text). Edit `tools/simplified/*.md`, then run
   `python3 tools/build_simplified.py && python3 tools/tag_stories.py`; never hand-edit the JSON.
   A retelling inherits its original's `flags` unless its front matter sets `flags:` (e.g. `none`
-  for an Orpheus that leaves out his violent death). Retellings go in `myths-greek` or
-  `myths-roman` by file-name prefix; their end note credits the original's author, or its
-  translator for a collection whose contributor is "Translated by …" (Hesiod and the Hymns,
-  and Claude's own translations).
+  for an Orpheus that leaves out his violent death). Retellings go in `myths-greek`,
+  `myths-roman` or `myths-norse` by file-name prefix; their end note credits the original's
+  author, or its translator for a collection whose contributor is "Translated by …" (Hesiod and
+  the Hymns, the two Eddas, and Claude's own translations).
 - Where no public-domain English source exists, Claude translates the ancient passages itself
-  (`tools/translations/*.md`, from the Perseus Digital Library's Greek and Latin texts; the
-  editions are named in each story's end note). Rebuild with
+  (`tools/translations/*.md`, from the Perseus Digital Library's Greek and Latin texts and the
+  heimskringla.no Old Norse texts in the Classical Language Toolkit corpus; the editions are
+  named in each story's end note). Rebuild with
   `python3 tools/build_translations.py && python3 tools/build_simplified.py && python3 tools/tag_stories.py`
   (translations first: rebuilding a collection drops the `simplifiedId` links until
   `build_simplified.py` runs again).

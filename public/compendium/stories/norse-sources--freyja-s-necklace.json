@@ -1,0 +1,81 @@
+{
+ "id": "norse-sources--freyja-s-necklace",
+ "collectionId": "norse-sources",
+ "order": 3,
+ "title": "Freyja's Necklace",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "No single old story tells the whole tale of Brisingamen, Freyja's necklace. These are the passages that mention it, with what Snorri says about Heimdall, who won it back."
+  },
+  {
+   "type": "heading",
+   "text": "Snorri Sturluson, Gylfaginning (\"The Tricking of Gylfi\")"
+  },
+  {
+   "type": "p",
+   "text": "Freyja is the highest in rank, with Frigg. She married the man called Od. Their daughter is Hnoss. She is so beautiful that from her name things that are lovely and precious are called \"hnossir\", treasures. Od went away on long journeys, and Freyja weeps for him, and her tears are red gold. Freyja has many names, and the reason is that she gave herself different names as she travelled among strange peoples looking for Od. She is called Mardoll and Horn, Gefn and Syr. Freyja owned Brisingamen. She is also called the Lady of the Vanir."
+  },
+  {
+   "type": "p",
+   "text": "One god is called Heimdall. He is called the white god. He is great and holy. Nine maidens bore him as their son, and all of them were sisters. He is also called Hallinskidi and Gullintanni, Golden Teeth, for his teeth were made of gold. His horse is called Gulltopp. He lives at the place called Himinbjorg, beside Bifrost. He is the watchman of the gods, and sits there at the edge of heaven to guard the bridge against the mountain giants. He needs less sleep than a bird. He can see a hundred leagues away, as well by night as by day. He can hear the grass growing on the earth and the wool on the sheep, and everything that makes a louder sound than that. He has the trumpet called Gjallarhorn, and its blast is heard in all the worlds."
+  },
+  {
+   "type": "heading",
+   "text": "Snorri Sturluson, Skáldskaparmál (\"The Language of Poetry\")"
+  },
+  {
+   "type": "p",
+   "text": "Heimdall is the owner of Gulltopp. He is also the visitor of Vagasker and Singastein; there he fought with Loki over Brisingamen. Ulf Uggason made a long passage about that story in his poem Husdrapa, and it is said there that they were in the shape of seals."
+  },
+  {
+   "type": "p",
+   "text": "How shall Loki be named in poetry? By calling him the son of Farbauti and Laufey … the father of Vanargand, that is the Fenris Wolf, and of Jormungand, that is the Midgard Serpent, and of Hel … the thief of the giants, of the goat, of Brisingamen and of Idunn's apples … the cunning god, the slanderer and cheat of the gods … the quarreller with Heimdall and Skadi. As Ulf Uggason says:"
+  },
+  {
+   "type": "note",
+   "text": "Skaldic poems speak in riddles. \"The guardian of the gods' road\" is Heimdall, who watches the rainbow bridge; \"Farbauti's son\" is Loki; \"the son of eight mothers and one\" is Heimdall again; and \"the sea-kidney\" is probably the jewel."
+  },
+  {
+   "type": "p",
+   "text": "\"The famous guardian of the gods' road, wise in counsel, goes to Singastein against Farbauti's most cunning son. The mighty son of eight mothers and one is first to win the lovely sea-kidney. I make it known in strands of praise.\""
+  },
+  {
+   "type": "heading",
+   "text": "The Lay of Thrym, stanzas 13 and 15"
+  },
+  {
+   "type": "note",
+   "text": "The giant Thrym has stolen Thor's hammer and will give it back only if Freyja marries him. Thor and Loki ask Freyja to put on a bride's veil."
+  },
+  {
+   "type": "p",
+   "text": "Freyja was angry and snorted, so that the whole hall of the gods shook beneath her, and the great necklace of the Brisings burst apart. \"You would think me the most man-crazy of women,\" she said, \"if I drove with you to Giantland.\""
+  },
+  {
+   "type": "note",
+   "text": "The gods meet to decide what to do, and Heimdall, the whitest of the gods, who could see what was to come, says that Thor himself must go, dressed as the bride:"
+  },
+  {
+   "type": "p",
+   "text": "\"Let us dress Thor in a bridal veil, and let him wear the great necklace of the Brisings.\""
+  },
+  {
+   "type": "note",
+   "text": "Translated by Claude (Anthropic), 2026, from the Old Norse texts of Snorri's Edda and the Lay of Thrym published by heimskringla.no (as collected in the Classical Language Toolkit's Old Norse corpus)."
+  }
+ ],
+ "workId": "norse-brisingamen",
+ "wordCount": 644,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 5.7,
+  "avgSentenceWords": 14.4,
+  "band": "middle"
+ },
+ "simplifiedId": "myths-norse--freyja-s-necklace"
+}

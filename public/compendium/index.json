@@ -276,6 +276,66 @@
    "author": "Cicero and Ovid",
    "originalLanguage": "la",
    "storyCount": 1
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "thorpe-elder-edda",
+   "title": "The Elder Edda",
+   "author": "Traditional (Old Norse poems)",
+   "contributor": "Translated by Benjamin Thorpe",
+   "firstPublished": 1866,
+   "source": "https://www.gutenberg.org/ebooks/14726",
+   "originalLanguage": "is",
+   "storyCount": 8
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "blackwell-prose-edda",
+   "title": "The Prose Edda",
+   "author": "Snorri Sturluson",
+   "contributor": "Translated by I. A. Blackwell",
+   "firstPublished": 1847,
+   "source": "https://www.gutenberg.org/ebooks/14726",
+   "originalLanguage": "is",
+   "storyCount": 14
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "lang-red",
+   "title": "The Red Fairy Book",
+   "author": "Various",
+   "contributor": "Edited by Andrew Lang",
+   "firstPublished": 1890,
+   "source": "https://www.gutenberg.org/ebooks/540",
+   "originalLanguage": "en",
+   "storyCount": 1
+  },
+  {
+   "contributor": "Translated by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/translations",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "norse-sources",
+   "title": "Myths from the Norse Writers",
+   "author": "Snorri Sturluson and the Eddic poets",
+   "originalLanguage": "is",
+   "storyCount": 3
+  },
+  {
+   "id": "myths-norse",
+   "title": "Norse Myths, Simply Told",
+   "author": "Traditional (Old Norse)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 24
   }
  ],
  "stories": [
@@ -9818,6 +9878,914 @@
     "band": "middle"
    },
    "simplifiedId": "myths-roman--tages-the-child-from-the-furrow"
+  },
+  {
+   "id": "thorpe-elder-edda--the-vala-s-prophecy",
+   "collectionId": "thorpe-elder-edda",
+   "order": 1,
+   "title": "The Vala's Prophecy",
+   "wordCount": 1812,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-voluspa",
+   "readingLevel": {
+    "fkGrade": 6.5,
+    "avgSentenceWords": 17.5,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--what-the-wise-woman-saw"
+  },
+  {
+   "id": "thorpe-elder-edda--odin-s-rune-song",
+   "collectionId": "thorpe-elder-edda",
+   "order": 2,
+   "title": "Odin's Rune-Song",
+   "wordCount": 850,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-odin-runes",
+   "readingLevel": {
+    "fkGrade": 6.1,
+    "avgSentenceWords": 18.6,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--how-odin-won-the-runes"
+  },
+  {
+   "id": "thorpe-elder-edda--the-lay-of-hymir",
+   "collectionId": "thorpe-elder-edda",
+   "order": 3,
+   "title": "The Lay of Hymir",
+   "wordCount": 1102,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-hymir-cauldron",
+   "readingLevel": {
+    "fkGrade": 6.5,
+    "avgSentenceWords": 17.4,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--thor-and-the-giant-s-cauldron"
+  },
+  {
+   "id": "thorpe-elder-edda--the-lay-of-thrym",
+   "collectionId": "thorpe-elder-edda",
+   "order": 4,
+   "title": "The Lay of Thrym",
+   "wordCount": 883,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-thor-thrym",
+   "readingLevel": {
+    "fkGrade": 6.4,
+    "avgSentenceWords": 18.0,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--thor-gets-his-hammer-back"
+  },
+  {
+   "id": "thorpe-elder-edda--the-lay-of-alvis",
+   "collectionId": "thorpe-elder-edda",
+   "order": 5,
+   "title": "The Lay of Alvis",
+   "wordCount": 910,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-alviss",
+   "readingLevel": {
+    "fkGrade": 5.6,
+    "avgSentenceWords": 14.2,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--thor-and-the-clever-dwarf"
+  },
+  {
+   "id": "thorpe-elder-edda--the-journey-of-skirnir",
+   "collectionId": "thorpe-elder-edda",
+   "order": 6,
+   "title": "The Journey of Skirnir",
+   "wordCount": 1292,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "norse-frey-gerd",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 15.7,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--frey-gives-away-his-sword"
+  },
+  {
+   "id": "thorpe-elder-edda--baldr-s-dreams",
+   "collectionId": "thorpe-elder-edda",
+   "order": 7,
+   "title": "Baldr's Dreams",
+   "wordCount": 578,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-baldr-dreams",
+   "readingLevel": {
+    "fkGrade": 5.7,
+    "avgSentenceWords": 15.1,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--odin-rides-to-the-land-of-the-dead"
+  },
+  {
+   "id": "thorpe-elder-edda--the-lay-of-fafnir",
+   "collectionId": "thorpe-elder-edda",
+   "order": 8,
+   "title": "The Lay of Fafnir",
+   "wordCount": 1590,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sigurd-fafnir",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 14.1,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--sigurd-and-the-dragon"
+  },
+  {
+   "id": "blackwell-prose-edda--the-beginning-of-the-world",
+   "collectionId": "blackwell-prose-edda",
+   "order": 1,
+   "title": "The Beginning of the World",
+   "wordCount": 1598,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-creation",
+   "readingLevel": {
+    "fkGrade": 8.3,
+    "avgSentenceWords": 22.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--the-beginning-of-the-world"
+  },
+  {
+   "id": "blackwell-prose-edda--night-and-day-sun-and-moon",
+   "collectionId": "blackwell-prose-edda",
+   "order": 2,
+   "title": "Night and Day, Sun and Moon",
+   "wordCount": 633,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sun-moon",
+   "readingLevel": {
+    "fkGrade": 9.7,
+    "avgSentenceWords": 25.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--the-sun-and-moon-chased-by-wolves"
+  },
+  {
+   "id": "blackwell-prose-edda--the-ash-yggdrasil",
+   "collectionId": "blackwell-prose-edda",
+   "order": 3,
+   "title": "The Ash Yggdrasil",
+   "wordCount": 1670,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-yggdrasil",
+   "readingLevel": {
+    "fkGrade": 7.9,
+    "avgSentenceWords": 20.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--yggdrasil-and-odin-s-eye"
+  },
+  {
+   "id": "blackwell-prose-edda--the-binding-of-the-wolf-fenrir",
+   "collectionId": "blackwell-prose-edda",
+   "order": 4,
+   "title": "The Binding of the Wolf Fenrir",
+   "wordCount": 1451,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-fenrir",
+   "readingLevel": {
+    "fkGrade": 11.3,
+    "avgSentenceWords": 28.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--the-binding-of-fenrir"
+  },
+  {
+   "id": "blackwell-prose-edda--frey-and-gerda",
+   "collectionId": "blackwell-prose-edda",
+   "order": 5,
+   "title": "Frey and Gerda",
+   "wordCount": 516,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-frey-gerd",
+   "readingLevel": {
+    "fkGrade": 12.0,
+    "avgSentenceWords": 30.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--frey-gives-away-his-sword"
+  },
+  {
+   "id": "blackwell-prose-edda--the-horse-sleipnir",
+   "collectionId": "blackwell-prose-edda",
+   "order": 6,
+   "title": "The Horse Sleipnir",
+   "wordCount": 697,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-asgard-wall",
+   "readingLevel": {
+    "fkGrade": 13.9,
+    "avgSentenceWords": 33.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--the-giant-who-built-the-wall"
+  },
+  {
+   "id": "blackwell-prose-edda--thor-s-journey-to-the-land-of-the-giants",
+   "collectionId": "blackwell-prose-edda",
+   "order": 7,
+   "title": "Thor's Journey to the Land of the Giants",
+   "wordCount": 3623,
+   "readingMinutes": 20,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-thor-utgard",
+   "readingLevel": {
+    "fkGrade": 10.8,
+    "avgSentenceWords": 28.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--thor-in-the-land-of-the-giants"
+  },
+  {
+   "id": "blackwell-prose-edda--how-thor-went-fishing-for-the-midgard-serpent",
+   "collectionId": "blackwell-prose-edda",
+   "order": 8,
+   "title": "How Thor Went Fishing for the Midgard Serpent",
+   "wordCount": 789,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-thor-fishing",
+   "readingLevel": {
+    "fkGrade": 12.0,
+    "avgSentenceWords": 33.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--thor-goes-fishing"
+  },
+  {
+   "id": "blackwell-prose-edda--the-death-of-baldur",
+   "collectionId": "blackwell-prose-edda",
+   "order": 9,
+   "title": "The Death of Baldur",
+   "wordCount": 1503,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-baldr",
+   "readingLevel": {
+    "fkGrade": 10.4,
+    "avgSentenceWords": 26.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--the-death-of-baldur"
+  },
+  {
+   "id": "blackwell-prose-edda--the-punishment-of-loki",
+   "collectionId": "blackwell-prose-edda",
+   "order": 10,
+   "title": "The Punishment of Loki",
+   "wordCount": 663,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "norse-loki-bound",
+   "readingLevel": {
+    "fkGrade": 10.0,
+    "avgSentenceWords": 24.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--loki-is-punished"
+  },
+  {
+   "id": "blackwell-prose-edda--ragnarok",
+   "collectionId": "blackwell-prose-edda",
+   "order": 11,
+   "title": "Ragnarok",
+   "wordCount": 1389,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-ragnarok",
+   "readingLevel": {
+    "fkGrade": 8.8,
+    "avgSentenceWords": 21.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--ragnarok-and-the-green-world-after"
+  },
+  {
+   "id": "blackwell-prose-edda--iduna-and-her-apples",
+   "collectionId": "blackwell-prose-edda",
+   "order": 12,
+   "title": "Iduna and Her Apples",
+   "wordCount": 591,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-idun",
+   "readingLevel": {
+    "fkGrade": 17.6,
+    "avgSentenceWords": 42.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--idun-s-golden-apples"
+  },
+  {
+   "id": "blackwell-prose-edda--skadi-chooses-a-husband",
+   "collectionId": "blackwell-prose-edda",
+   "order": 13,
+   "title": "Skadi Chooses a Husband",
+   "wordCount": 513,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-skadi",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 24.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--skadi-chooses-a-husband"
+  },
+  {
+   "id": "blackwell-prose-edda--the-origin-of-poetry",
+   "collectionId": "blackwell-prose-edda",
+   "order": 14,
+   "title": "The Origin of Poetry",
+   "wordCount": 808,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "norse-mead",
+   "readingLevel": {
+    "fkGrade": 14.3,
+    "avgSentenceWords": 34.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--the-mead-of-poetry"
+  },
+  {
+   "id": "lang-red--the-story-of-sigurd",
+   "collectionId": "lang-red",
+   "order": 1,
+   "title": "The Story of Sigurd",
+   "wordCount": 3139,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "norse-sigurd-fafnir",
+   "readingLevel": {
+    "fkGrade": 7.7,
+    "avgSentenceWords": 23.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--sigurd-and-the-dragon"
+  },
+  {
+   "id": "norse-sources--sif-s-golden-hair",
+   "collectionId": "norse-sources",
+   "order": 1,
+   "title": "Sif's Golden Hair",
+   "wordCount": 876,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sif-hair",
+   "readingLevel": {
+    "fkGrade": 7.6,
+    "avgSentenceWords": 23.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-norse--sif-s-golden-hair"
+  },
+  {
+   "id": "norse-sources--thor-and-hrungnir",
+   "collectionId": "norse-sources",
+   "order": 2,
+   "title": "Thor and Hrungnir",
+   "wordCount": 1258,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-hrungnir",
+   "readingLevel": {
+    "fkGrade": 6.0,
+    "avgSentenceWords": 18.4,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--thor-and-the-stone-giant"
+  },
+  {
+   "id": "norse-sources--freyja-s-necklace",
+   "collectionId": "norse-sources",
+   "order": 3,
+   "title": "Freyja's Necklace",
+   "wordCount": 644,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-brisingamen",
+   "readingLevel": {
+    "fkGrade": 5.7,
+    "avgSentenceWords": 14.4,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-norse--freyja-s-necklace"
+  },
+  {
+   "id": "myths-norse--the-beginning-of-the-world",
+   "collectionId": "myths-norse",
+   "order": 1,
+   "title": "The Beginning of the World",
+   "wordCount": 726,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-creation",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 13.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--the-beginning-of-the-world"
+  },
+  {
+   "id": "myths-norse--yggdrasil-and-odin-s-eye",
+   "collectionId": "myths-norse",
+   "order": 2,
+   "title": "Yggdrasil and Odin's Eye",
+   "wordCount": 712,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-yggdrasil",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 14.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--the-ash-yggdrasil"
+  },
+  {
+   "id": "myths-norse--the-sun-and-moon-chased-by-wolves",
+   "collectionId": "myths-norse",
+   "order": 3,
+   "title": "The Sun and Moon Chased by Wolves",
+   "wordCount": 502,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sun-moon",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 15.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--night-and-day-sun-and-moon"
+  },
+  {
+   "id": "myths-norse--how-odin-won-the-runes",
+   "collectionId": "myths-norse",
+   "order": 4,
+   "title": "How Odin Won the Runes",
+   "wordCount": 634,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-odin-runes",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 13.3,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--odin-s-rune-song"
+  },
+  {
+   "id": "myths-norse--the-mead-of-poetry",
+   "collectionId": "myths-norse",
+   "order": 5,
+   "title": "The Mead of Poetry",
+   "wordCount": 719,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-mead",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 13.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--the-origin-of-poetry"
+  },
+  {
+   "id": "myths-norse--the-giant-who-built-the-wall",
+   "collectionId": "myths-norse",
+   "order": 6,
+   "title": "The Giant Who Built the Wall",
+   "wordCount": 589,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-asgard-wall",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 10.5,
+    "band": "early"
+   },
+   "adaptedFrom": "blackwell-prose-edda--the-horse-sleipnir"
+  },
+  {
+   "id": "myths-norse--sif-s-golden-hair",
+   "collectionId": "myths-norse",
+   "order": 7,
+   "title": "Sif's Golden Hair",
+   "wordCount": 861,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sif-hair",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 12.1,
+    "band": "early"
+   },
+   "adaptedFrom": "norse-sources--sif-s-golden-hair"
+  },
+  {
+   "id": "myths-norse--thor-gets-his-hammer-back",
+   "collectionId": "myths-norse",
+   "order": 8,
+   "title": "Thor Gets His Hammer Back",
+   "wordCount": 797,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-thor-thrym",
+   "readingLevel": {
+    "fkGrade": 2.5,
+    "avgSentenceWords": 9.0,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--the-lay-of-thrym"
+  },
+  {
+   "id": "myths-norse--thor-in-the-land-of-the-giants",
+   "collectionId": "myths-norse",
+   "order": 9,
+   "title": "Thor in the Land of the Giants",
+   "wordCount": 1291,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-thor-utgard",
+   "readingLevel": {
+    "fkGrade": 2.6,
+    "avgSentenceWords": 9.7,
+    "band": "early"
+   },
+   "adaptedFrom": "blackwell-prose-edda--thor-s-journey-to-the-land-of-the-giants"
+  },
+  {
+   "id": "myths-norse--thor-goes-fishing",
+   "collectionId": "myths-norse",
+   "order": 10,
+   "title": "Thor Goes Fishing",
+   "wordCount": 681,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-thor-fishing",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 11.6,
+    "band": "early"
+   },
+   "adaptedFrom": "blackwell-prose-edda--how-thor-went-fishing-for-the-midgard-serpent"
+  },
+  {
+   "id": "myths-norse--thor-and-the-giant-s-cauldron",
+   "collectionId": "myths-norse",
+   "order": 11,
+   "title": "Thor and the Giant's Cauldron",
+   "wordCount": 1168,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-hymir-cauldron",
+   "readingLevel": {
+    "fkGrade": 3.1,
+    "avgSentenceWords": 12.4,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--the-lay-of-hymir"
+  },
+  {
+   "id": "myths-norse--thor-and-the-clever-dwarf",
+   "collectionId": "myths-norse",
+   "order": 12,
+   "title": "Thor and the Clever Dwarf",
+   "wordCount": 633,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-alviss",
+   "readingLevel": {
+    "fkGrade": 1.8,
+    "avgSentenceWords": 8.7,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--the-lay-of-alvis"
+  },
+  {
+   "id": "myths-norse--thor-and-the-stone-giant",
+   "collectionId": "myths-norse",
+   "order": 13,
+   "title": "Thor and the Stone Giant",
+   "wordCount": 1059,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-hrungnir",
+   "readingLevel": {
+    "fkGrade": 3.1,
+    "avgSentenceWords": 11.4,
+    "band": "early"
+   },
+   "adaptedFrom": "norse-sources--thor-and-hrungnir"
+  },
+  {
+   "id": "myths-norse--the-binding-of-fenrir",
+   "collectionId": "myths-norse",
+   "order": 14,
+   "title": "The Binding of Fenrir",
+   "wordCount": 930,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-fenrir",
+   "readingLevel": {
+    "fkGrade": 2.5,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "blackwell-prose-edda--the-binding-of-the-wolf-fenrir"
+  },
+  {
+   "id": "myths-norse--idun-s-golden-apples",
+   "collectionId": "myths-norse",
+   "order": 15,
+   "title": "Idun's Golden Apples",
+   "wordCount": 686,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-idun",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 10.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--iduna-and-her-apples"
+  },
+  {
+   "id": "myths-norse--skadi-chooses-a-husband",
+   "collectionId": "myths-norse",
+   "order": 16,
+   "title": "Skadi Chooses a Husband",
+   "wordCount": 497,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-skadi",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 11.7,
+    "band": "early"
+   },
+   "adaptedFrom": "blackwell-prose-edda--skadi-chooses-a-husband"
+  },
+  {
+   "id": "myths-norse--frey-gives-away-his-sword",
+   "collectionId": "myths-norse",
+   "order": 17,
+   "title": "Frey Gives Away His Sword",
+   "wordCount": 508,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-frey-gerd",
+   "readingLevel": {
+    "fkGrade": 2.3,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "blackwell-prose-edda--frey-and-gerda"
+  },
+  {
+   "id": "myths-norse--freyja-s-necklace",
+   "collectionId": "myths-norse",
+   "order": 18,
+   "title": "Freyja's Necklace",
+   "wordCount": 523,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-brisingamen",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 11.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "norse-sources--freyja-s-necklace"
+  },
+  {
+   "id": "myths-norse--odin-rides-to-the-land-of-the-dead",
+   "collectionId": "myths-norse",
+   "order": 19,
+   "title": "Odin Rides to the Land of the Dead",
+   "wordCount": 680,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-baldr-dreams",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--baldr-s-dreams"
+  },
+  {
+   "id": "myths-norse--the-death-of-baldur",
+   "collectionId": "myths-norse",
+   "order": 20,
+   "title": "The Death of Baldur",
+   "wordCount": 865,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-baldr",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 10.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--the-death-of-baldur"
+  },
+  {
+   "id": "myths-norse--loki-is-punished",
+   "collectionId": "myths-norse",
+   "order": 21,
+   "title": "Loki Is Punished",
+   "wordCount": 570,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-loki-bound",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 14.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--the-punishment-of-loki"
+  },
+  {
+   "id": "myths-norse--ragnarok-and-the-green-world-after",
+   "collectionId": "myths-norse",
+   "order": 22,
+   "title": "Ragnarok and the Green World After",
+   "wordCount": 770,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-ragnarok",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 14.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "blackwell-prose-edda--ragnarok"
+  },
+  {
+   "id": "myths-norse--what-the-wise-woman-saw",
+   "collectionId": "myths-norse",
+   "order": 23,
+   "title": "What the Wise Woman Saw",
+   "wordCount": 1627,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-voluspa",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.8,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--the-vala-s-prophecy"
+  },
+  {
+   "id": "myths-norse--sigurd-and-the-dragon",
+   "collectionId": "myths-norse",
+   "order": 24,
+   "title": "Sigurd and the Dragon",
+   "wordCount": 1271,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sigurd-fafnir",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "lang-red--the-story-of-sigurd"
   }
  ]
 }

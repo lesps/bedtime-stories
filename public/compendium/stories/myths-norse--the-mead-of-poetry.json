@@ -1,0 +1,83 @@
+{
+ "id": "myths-norse--the-mead-of-poetry",
+ "collectionId": "myths-norse",
+ "order": 5,
+ "title": "The Mead of Poetry",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago there were two families of gods, the Aesir and the Vanir, and they fought a long war. At last they decided to make peace. To seal their promise, all the gods on both sides spat into one big jar. And out of that jar, the gods made a man. His name was Kvasir, and he was so wise that no one could ask him a question he could not answer."
+  },
+  {
+   "type": "p",
+   "text": "Kvasir traveled all over the world, teaching people to be wise. But two wicked dwarfs, named Fjalar and Galar, wanted his wisdom for themselves. They invited him home and did away with him. Then they made a magic drink, mixing honey with what they had taken from him. And whoever drank that mead became a poet, able to make beautiful songs and poems."
+  },
+  {
+   "type": "p",
+   "text": "When the gods asked what had happened to Kvasir, the dwarfs said, \"Oh, he choked on all his wisdom. There was nobody clever enough to ask him enough questions.\""
+  },
+  {
+   "type": "p",
+   "text": "Those dwarfs went on to make trouble for a giant family too. So a giant named Suttung caught them and put them on a rock far out at sea, where the tide would come in and cover them. \"Spare us!\" begged the dwarfs. \"We'll give you our magic mead!\" So Suttung took the mead home and hid it deep inside a mountain, and set his daughter Gunnlod to guard it."
+  },
+  {
+   "type": "p",
+   "text": "Odin wanted that mead, so that the gods could have the gift of poetry. He went to Giantland in disguise, calling himself Bolverk."
+  },
+  {
+   "type": "p",
+   "text": "On the way, he came to a meadow where nine servants were cutting hay with scythes. Odin took out a whetstone and sharpened their blades, and they cut so well that the servants all wanted to buy the stone. So Odin tossed it up in the air. All nine of them jumped for it at once, and in the scramble they got so tangled up with their sharp scythes that not one of them could ever work again."
+  },
+  {
+   "type": "p",
+   "text": "Those servants belonged to Suttung's brother, Baugi. That night, Odin stayed at Baugi's house. \"I have no one left to help me on my farm,\" Baugi grumbled."
+  },
+  {
+   "type": "p",
+   "text": "\"I can do the work of nine men,\" said Odin. \"And all I want for pay is one drink of your brother Suttung's mead.\""
+  },
+  {
+   "type": "p",
+   "text": "So Odin worked for Baugi all summer long. But when winter came and they asked Suttung for the mead, Suttung would not give them a single drop."
+  },
+  {
+   "type": "p",
+   "text": "So Odin got Baugi to drill a hole right through the side of the mountain. When the hole was made, Odin changed himself into a snake and wriggled through it, into the cave inside. There he changed back into himself, and there sat Gunnlod, guarding the mead."
+  },
+  {
+   "type": "p",
+   "text": "Odin stayed with Gunnlod for three days, and was so charming that she grew very fond of him. At last she said he could have three sips of the mead, one from each of its three jars. But Odin's sips were very big ones. With his first sip he emptied the first jar. With the second, the second. With the third, the third. Not a drop was left!"
+  },
+  {
+   "type": "p",
+   "text": "Then Odin changed himself into an eagle and flew away as fast as he could. But Suttung saw him go. He changed himself into an eagle too, and came flapping after him."
+  },
+  {
+   "type": "p",
+   "text": "When the gods saw the two eagles coming, they set out all the jars and pots they could find in the courtyard of Asgard. Odin flew over and spat the mead out of his beak, into the jars. But Suttung was so close behind him that a few drops slipped out the other end, as you might say, and fell to the ground. Nobody bothered to pick those up. Anyone can have them. And that, the old story says, is where bad poetry comes from!"
+  },
+  {
+   "type": "p",
+   "text": "But the mead in the jars the gods kept for themselves, and for anyone with the wit to use it well. And when someone makes a really good poem or song, the people of the North used to say that they had been given a drink of Odin's mead."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Origin of Poetry” in The Prose Edda, translated by I. A. Blackwell (1847). The original is listed under Other versions."
+  }
+ ],
+ "workId": "norse-mead",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "blackwell-prose-edda--the-origin-of-poetry",
+ "wordCount": 719,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 4.1,
+  "avgSentenceWords": 13.3,
+  "band": "middle"
+ }
+}

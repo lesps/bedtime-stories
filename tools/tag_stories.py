@@ -18,6 +18,7 @@ CULTURES = [
     ("greek", "Ancient Greek"),
     ("roman", "Ancient Roman"),
     ("etruscan", "Etruscan"),
+    ("norse", "Old Norse"),
     ("german", "German"),
     ("danish", "Danish"),
     ("french", "French"),
@@ -75,6 +76,11 @@ COLLECTION_CULTURE = {
     "myths-roman": "roman",
     "greek-sources": "greek",
     "latin-sources": "roman",
+    "thorpe-elder-edda": "norse",
+    "blackwell-prose-edda": "norse",
+    "lang-red": "norse",
+    "norse-sources": "norse",
+    "myths-norse": "norse",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, and the
@@ -101,6 +107,11 @@ MYTH_COLLECTIONS = {
     "myths-roman",
     "greek-sources",
     "latin-sources",
+    "thorpe-elder-edda",
+    "blackwell-prose-edda",
+    "lang-red",
+    "norse-sources",
+    "myths-norse",
 }
 
 ORIGIN_CULTURE = [
@@ -240,6 +251,26 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-greek--sisyphus-and-tantalus": {"add": ["tricksters"]},
     "latin-sources--tages": {"add": ["how-things-began"], "remove": ["tricksters", "fools"]},
     "myths-roman--tages-the-child-from-the-furrow": {"add": ["how-things-began"]},
+    # Norse (part 5): creation myths, tricksters, and corrections to the word counts.
+    "blackwell-prose-edda--the-beginning-of-the-world": {"add": ["how-things-began"], "remove": ["quests"]},
+    "myths-norse--the-beginning-of-the-world": {"add": ["how-things-began"], "remove": ["quests"]},
+    "blackwell-prose-edda--the-ash-yggdrasil": {"add": ["how-things-began"]},
+    "myths-norse--yggdrasil-and-odin-s-eye": {"add": ["how-things-began"], "remove": ["quests"]},
+    "blackwell-prose-edda--night-and-day-sun-and-moon": {"add": ["how-things-began"]},
+    "myths-norse--the-sun-and-moon-chased-by-wolves": {"add": ["how-things-began"], "remove": ["quests"]},
+    "myths-norse--the-giant-who-built-the-wall": {"add": ["tricksters"], "remove": ["quests"]},
+    "blackwell-prose-edda--the-horse-sleipnir": {"add": ["tricksters"], "remove": ["kindness", "wishes"]},
+    "norse-sources--sif-s-golden-hair": {"add": ["tricksters", "magic"]},
+    "myths-norse--sif-s-golden-hair": {"add": ["tricksters"], "remove": ["gentle"]},
+    "thorpe-elder-edda--the-lay-of-alvis": {"add": ["tricksters"], "remove": ["quests"]},
+    "myths-norse--thor-and-the-clever-dwarf": {"remove": ["quests", "wishes"]},
+    "myths-norse--skadi-chooses-a-husband": {"remove": ["fools"]},
+    "blackwell-prose-edda--frey-and-gerda": {"remove": ["wishes"]},
+    "myths-norse--the-death-of-baldur": {"remove": ["wishes"]},
+    "blackwell-prose-edda--how-thor-went-fishing-for-the-midgard-serpent": {"remove": ["how-things-began"]},
+    "blackwell-prose-edda--the-punishment-of-loki": {"add": ["tricksters"]},
+    "thorpe-elder-edda--the-vala-s-prophecy": {"add": ["how-things-began"], "remove": ["ghosts"]},
+    "myths-norse--what-the-wise-woman-saw": {"add": ["how-things-began"], "remove": ["quests"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

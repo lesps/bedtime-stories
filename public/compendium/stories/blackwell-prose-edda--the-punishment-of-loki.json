@@ -1,0 +1,35 @@
+{
+ "id": "blackwell-prose-edda--the-punishment-of-loki",
+ "collectionId": "blackwell-prose-edda",
+ "order": 10,
+ "title": "The Punishment of Loki",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "\"Evil are the deeds of Loki truly,\" said Gangler; \"first of all in his having caused Baldur to be slain, and then preventing him from being delivered out of Hel. But was he not punished for these crimes?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Ay,\" replied Har, \"and in such a manner that he will long repent having committed them. When he perceived how exasperated the gods were, he fled and hid himself in the mountains. There he built him a dwelling with four doors, so that he could see everything that passed around him. Often in the daytime he assumed the likeness of a salmon, and concealed himself under the waters of a cascade called Franangursfors, where he employed himself in divining and circumventing whatever stratagems the Æsir might have recourse to in order to catch him. One day, as he sat in his dwelling, he took flax and yarn, and worked them into meshes in the manner that nets have since been made by fishermen. Odin, however, had descried his retreat out of Hlidskjalf, and Loki becoming aware that the gods were approaching, threw his net into the fire, and ran to conceal himself in the river. When the gods entered the house, Kvasir, who was the most distinguished among them all for his quickness and penetration, traced out in the hot embers the vestiges of the net which had been burnt, and told Odin that it must be an invention to catch fish. Whereupon they set to work and wove a net after the model they saw imprinted in the ashes. This net, when finished, they threw into the river in which Loki had hidden himself. Thor held one end of the net, and all the other gods laid hold of the other end, thus jointly drawing it along the stream. Notwithstanding all their precautions the net passed over Loki, who had crept between two stones, and the gods only perceived that some living thing had touched the meshes. They therefore cast their net a second time, hanging so great a weight to it that it everywhere raked the bed of the river. But Loki, perceiving that he had but a short distance from the sea, swam onwards and leapt over the net into the waterfall. The Æsir instantly followed him, and divided themselves into two bands. Thor, wading along in mid-stream, followed the net, whilst the others dragged it along towards the sea. Loki then perceived that he had only two chances of escape, either to swim out to sea, or to leap again over the net. He chose the latter, but as he took a tremendous leap Thor caught him in his hand. Being, however, extremely slippery, he would have escaped had not Thor held him fast by the tail, and this is the reason why salmons have had their tails ever since so fine and thin."
+  },
+  {
+   "type": "p",
+   "text": "\"The gods having thus captured Loki, dragged him without commiseration into a cavern, wherein they placed three sharp-pointed rocks, boring a hole through each of them. Having also seized Loki's children, Vali and Nari, they changed the former into a wolf, and in this likeness he tore his brother to pieces and devoured him. The gods then made cords of his intestines, with which they bound Loki on the points of the rocks, one cord passing under his shoulders, another under his loins, and a third under his hams, and afterwards transformed these cords into thongs of iron. Skadi then suspended a serpent over him in such a manner that the venom should fall on his face, drop by drop. But Siguna, his wife, stands by him and receives the drops as they fall in a cup, which she empties as often as it is filled. But while she is doing this, venom falls upon Loki, which makes him howl with horror, and twist his body about so violently that the whole earth shakes, and this produces what men call earthquakes. There will Loki lie until Ragnarok.\""
+  }
+ ],
+ "workId": "norse-loki-bound",
+ "wordCount": 663,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 10.0,
+  "avgSentenceWords": 24.6,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--loki-is-punished"
+}

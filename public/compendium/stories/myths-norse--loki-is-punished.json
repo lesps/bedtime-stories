@@ -1,0 +1,79 @@
+{
+ "id": "myths-norse--loki-is-punished",
+ "collectionId": "myths-norse",
+ "order": 21,
+ "title": "Loki Is Punished",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "After Baldur died, and after Loki spoiled the gods' chance to bring him home, the gods were very angry with Loki. And Loki knew it. So he ran away and hid in the mountains."
+  },
+  {
+   "type": "p",
+   "text": "There he built himself a house with four doors, one on each side, so that he could watch in every direction and see anyone coming. And in the daytime, he often changed himself into a salmon and hid in a waterfall nearby, where nobody would think to look for him."
+  },
+  {
+   "type": "p",
+   "text": "One day, while he was sitting in his house, Loki had an idea. He took some string and began knotting it into a mesh, the way fishermen make nets today. In fact, Loki was the very first person ever to make a net."
+  },
+  {
+   "type": "p",
+   "text": "But Odin, from his high seat, had seen where Loki was hiding. And Loki saw the gods coming. Quickly he threw his net into the fire, ran down to the river, and changed himself into a salmon."
+  },
+  {
+   "type": "p",
+   "text": "When the gods came into the empty house, the wisest of them looked into the fire. In the hot ashes he could still see the pattern of the burned net. \"This must be something for catching fish,\" he said."
+  },
+  {
+   "type": "p",
+   "text": "So the gods made a net of their own, just like the pattern in the ashes, and they threw it into the river. Thor held one end, and all the other gods held the other end, and they dragged it along the river."
+  },
+  {
+   "type": "p",
+   "text": "But the clever salmon squeezed down between two stones, and the net passed right over him. So the gods tied heavy weights to the net, so that it scraped along the bottom, and tried again. This time Loki swam ahead of the net and leaped right over it, back up the waterfall."
+  },
+  {
+   "type": "p",
+   "text": "The gods split into two groups. Thor waded in the middle of the river, and the others dragged the net toward the sea. Now Loki could either swim out into the open sea, or try to leap over the net again. He leaped. But Thor was waiting. He grabbed the salmon in midair! The fish wriggled and slipped through his hand, but Thor held on tight to its tail. And that, they say, is why salmon have such thin, narrow tails, from where Thor squeezed them."
+  },
+  {
+   "type": "p",
+   "text": "So Loki was caught at last."
+  },
+  {
+   "type": "p",
+   "text": "The gods took him to a deep cave, and they tied him to three sharp rocks with cords that could never be broken. They turned the cords into iron, so that he could never escape."
+  },
+  {
+   "type": "p",
+   "text": "Then the giantess Skadi hung a snake above Loki's head, so that its poison would drip down onto his face, drop by drop."
+  },
+  {
+   "type": "p",
+   "text": "But Loki's wife, Sigyn, did not leave him. She stays beside him in the cave, holding up a bowl to catch the drops of poison before they can fall on him. Only when the bowl is full, and she has to go and empty it, does a drop fall on Loki's face. Then he shudders and twists so violently that the whole earth shakes. That, the people of the North said, is what an earthquake is."
+  },
+  {
+   "type": "p",
+   "text": "And there Loki lies, and there he will lie, until the end of the world."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Punishment of Loki” in The Prose Edda, translated by I. A. Blackwell (1847). The original is listed under Other versions. Blackwell spells Loki's wife's name “Siguna.”"
+  }
+ ],
+ "workId": "norse-loki-bound",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "blackwell-prose-edda--the-punishment-of-loki",
+ "wordCount": 570,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 4.7,
+  "avgSentenceWords": 14.6,
+  "band": "middle"
+ }
+}

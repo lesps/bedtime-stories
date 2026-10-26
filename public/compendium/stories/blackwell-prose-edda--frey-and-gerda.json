@@ -1,0 +1,41 @@
+{
+ "id": "blackwell-prose-edda--frey-and-gerda",
+ "collectionId": "blackwell-prose-edda",
+ "order": 5,
+ "title": "Frey and Gerda",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "\"There was a man,\" continued Har, \"named Gymir, who had for wife Aurboda, of the race of the Mountain-giants. Their daughter is Gerda, who is the most beautiful of all women. One day Frey having placed himself in Hlidskjalf, to take a view of the whole universe, perceived, as he looked towards the north, a large and stately mansion which a woman was going to enter, and as she lifted up the latch of the door so great a radiancy was thrown from her hand that the air and waters, and all worlds were illuminated by it. At this sight, Frey, as a just punishment for his audacity in mounting on that sacred throne, was struck with sudden sadness, insomuch so, that on his return home he could neither speak, nor sleep, nor drink, nor did any one dare to inquire the cause of his affliction; but Njord, at last, sent for Skirnir, the messenger of Frey, and charged him to demand of his master why he thus refused to speak to any one. Skirnir promised to do this, though with great reluctance, fearing that all he had to expect was a severe reprimand. He, however, went to Frey, and asked him boldly why he was so sad and silent. Frey answered, that he had seen a maiden of such surpassing beauty that if he could not possess her he should not live much longer, and that this was what rendered him so melancholy. 'Go, therefore,' he added, 'and ask her hand for me, and bring her here whether her father be willing or not, and I will amply reward thee.' Skirnir undertook to perform the task, provided he might be previously put in possession of Frey's sword, which was of such excellent quality that it would of itself strew a field with carnage whenever the owner ordered it. Frey, impatient of delay, immediately made him a present of the sword, and Skirnir set out on his journey and obtained the maiden's promise, that within nine nights she would come to a place called Barey, and there wed Frey. Skirnir having reported the success of his message, Frey exclaimed,"
+  },
+  {
+   "type": "verse",
+   "text": "\"'Long is one night,\nLong are two nights,\nBut how shall I hold out three?\nShorter hath seemed\nA month to me oft\nThan of this longing-time the half.'"
+  },
+  {
+   "type": "p",
+   "text": "\"Frey having thus given away his sword, found himself without arms when he fought with Beli, and hence it was that he slew him with a stag's antlers.\""
+  },
+  {
+   "type": "p",
+   "text": "\"But it seems very astonishing,\" interrupted Gangler, \"that such a brave hero as Frey should give away his sword without keeping another equally good for himself. He must have been in a very bad plight when he encountered Beli, and methinks must have mightily repented him of the gift.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That combat,\" replied Har, \"was a trifling affair. Frey could have killed Beli with a blow of his fist had he felt inclined: but the time will come when the sons of Muspell shall issue forth to the fight, and then, indeed, will Frey truly regret having parted with his falchion.\""
+  }
+ ],
+ "workId": "norse-frey-gerd",
+ "wordCount": 516,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 12.0,
+  "avgSentenceWords": 30.5,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--frey-gives-away-his-sword"
+}

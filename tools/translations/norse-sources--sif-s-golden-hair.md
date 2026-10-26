@@ -1,0 +1,24 @@
+---
+title: Sif's Golden Hair
+order: 1
+workId: norse-sif-hair
+sources: the Old Norse text of Snorri's Edda published by heimskringla.no (as collected in the Classical Language Toolkit's Old Norse corpus)
+---
+
+## Snorri Sturluson, Skáldskaparmál ("The Language of Poetry")
+
+Note: Snorri explains why poets call gold "Sif's hair".
+
+Why is gold called Sif's hair? Loki Laufeyjarson, out of mischief, had cut off all of Sif's hair. When Thor found out, he seized Loki and would have broken every bone in his body, until Loki swore that he would get the Black Elves to make Sif a head of hair out of gold, which would grow like any other hair. After that Loki went to the dwarves called the sons of Ivaldi, and they made the hair, and the ship Skidbladnir, and the spear that Odin owned, called Gungnir.
+
+Then Loki bet his head with a dwarf called Brokk that Brokk's brother Sindri could not make three treasures as good as these. When they came to the smithy, Sindri laid a pigskin in the forge, and told Brokk to work the bellows and not to stop until he had taken out what he had put in. As soon as Sindri had gone out of the smithy, while Brokk was blowing, a fly landed on his hand and bit him. But he kept blowing as before, until the smith took the thing out of the forge, and it was a boar with bristles of gold.
+
+Next Sindri put gold in the forge, and told Brokk to blow and not to stop until he came back, and went out. Then the fly came and landed on Brokk's neck and bit twice as hard as before, but he kept blowing until the smith took out of the forge the gold ring called Draupnir. Then Sindri put iron in the forge and told him to blow, and said that everything would be ruined if the blowing stopped. Then the fly landed between Brokk's eyes and bit his eyelids, and when the blood ran into his eyes so that he could not see, he snatched at it with his hand as quick as he could, while the bellows sank down, and swept the fly away. Then the smith came back and said that it had very nearly ruined everything in the forge. Then he took a hammer out of the forge. He put all the treasures into the hands of his brother Brokk and told him to go with them to Asgard and settle the bet.
+
+When Loki and Brokk brought out their treasures, the gods sat down on their judgement seats, and whatever Odin, Thor and Frey decided was to stand. Loki gave Odin the spear Gungnir, and Thor the hair that Sif was to have, and Frey Skidbladnir, and he explained all the treasures. The spear never stopped in its thrust. The hair grew fast to the skin as soon as it touched Sif's head. And Skidbladnir had a fair wind as soon as its sail was raised, wherever it was going, but it could be folded up like a cloth and carried in a pouch if one wished.
+
+Then Brokk brought out his treasures. He gave Odin the ring, and said that every ninth night eight rings as heavy as itself would drip from it. To Frey he gave the boar, and said that it could run through the air and over the sea, night and day, faster than any horse, and that it was never so dark at night, or in the worlds of darkness, that there was not light enough wherever it went, so brightly did its bristles shine. Then he gave Thor the hammer, and said that he could strike as hard as he liked at anything in front of him and the hammer would never fail; that if he threw it, it would never miss, and never fly so far that it would not come back to his hand; and that if he wished, it was so small that he could carry it inside his shirt. But it had one fault: the handle was rather short.
+
+The gods' verdict was that the hammer was the best of all the treasures and the best defence against the frost giants, and they judged that the dwarf had won the bet. Then Loki offered to buy back his head, but the dwarf said there was no chance of that.
+
+"Catch me, then," said Loki. But when the dwarf went to catch him, he was far away, for Loki had shoes in which he could run through the air and over the sea. Then the dwarf asked Thor to catch him, and Thor did. Then the dwarf wanted to cut off his head, but Loki said the head was the dwarf's, but not the neck. So the dwarf took a thong and a knife, and meant to make holes in Loki's lips and sew his mouth shut, but the knife would not cut. Then he said it would be better to have his brother's awl, and as soon as he named it, the awl was there, and it pierced the lips. He sewed the lips together, and Loki tore the thong out through the holes. The thong that Loki's mouth was sewn with is called Vartari.

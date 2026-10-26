@@ -1,0 +1,29 @@
+{
+ "id": "blackwell-prose-edda--how-thor-went-fishing-for-the-midgard-serpent",
+ "collectionId": "blackwell-prose-edda",
+ "order": 8,
+ "title": "How Thor Went Fishing for the Midgard Serpent",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "\"I find by your account,\" said Gangler, \"that Utgard-Loki possesses great might in himself, though he has recourse to spells and illusions; but his power may be seen by his followers, being in every respect so skillful and dexterous. But tell me, did Thor ever avenge this affront?\""
+  },
+  {
+   "type": "p",
+   "text": "\"It is not unknown,\" replied Har, \"though nobody has talked of it, that Thor was determined to make amends for the journey just spoken of, and he had not been long at home ere he set out again so hastily that he had neither his car nor his goats, nor any followers with him. He went out of Midgard under the semblance of a young man, and came at dusk to the dwelling of a giant called Hymir. Here Thor passed the night, but at break of day, when he perceived that Hymir was making his boat ready for fishing, he arose and dressed himself, and begged the giant would let him row out to sea with him. Hymir answered, that a puny stripling like he was could be of no great use to him. 'Besides,' he added, 'thou wilt catch thy death of cold if I go so far out and remain so long as I am accustomed to do.' Thor said, that for all that, he would row as far from the land as Hymir had a mind, and was not sure which of them would be the first who might wish to row back again. At the same time he was so enraged that he felt sorely inclined to let his mallet ring on the giant's skull without further delay, but intending to try his strength elsewhere, he stifled his wrath, and asked Hymir what he meant to bait with. Hymir told him to look out for a bait himself. Thor instantly went up to a herd of oxen that belonged to the giant, and seizing the largest bull, that bore the name of Himinbrjot, wrung off his head, and returning with it to the boat, put out to sea with Hymir. Thor rowed aft with two oars, and with such force that Hymir, who rowed at the prow, saw with surprise, how swiftly the boat was driven forward. He then observed that they were come to the place where he was wont to angle for flat fish, but Thor assured him that they had better go on a good way further. They accordingly continued to ply their oars, until Hymir cried out that if they did not stop they would be in danger from the great Midgard serpent. Notwithstanding this, Thor persisted in rowing further, and in spite of Hymir's remonstrances was a great while before he would lay down his oars. He then took out a fishing-line, extremely strong, furnished with an equally strong hook, on which he fixed the bull's head, and cast his line into the sea. The bait soon reached the bottom, and it may be truly said that Thor then deceived the Midgard serpent not a whit less than Utgard-Loki had deceived Thor when he obliged him to lift up the serpent in his hand: for the monster greedily caught at the bait, and the hook stuck fast in his palate. Stung with the pain, the serpent tugged at the hook so violently, that Thor was obliged to hold fast with both hands by the pegs that bear against the oars. But his wrath now waxed high, and assuming all his divine power, he pulled so hard at the line that his feet forced their way through the boat and went down to the bottom of the sea, whilst with his hands he drew up the serpent to the side of the vessel. It is impossible to express by words the dreadful scene that now took place. Thor, on one hand, darting looks of ire on the serpent, whilst the monster, rearing his head, spouted out floods of venom upon him. It is said that when the giant Hymir beheld the serpent, he turned pale and trembled with fright and seeing, moreover, that the water was entering his boat on all sides, he took out his knife, just as Thor raised his mallet aloft, and cut the line, on which the serpent sunk again under the water. Thor, however, launched his mallet at him, and there are some who say that it struck off the monster's head at the bottom of the sea, but one may assert with more certainty that he still lives and lies in the ocean. Thor then struck Hymir such a blow with his fist, nigh the ear, that the giant fell headlong into the water, and Thor, wading with rapid strides, soon came to the land again.\""
+  }
+ ],
+ "workId": "norse-thor-fishing",
+ "wordCount": 789,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 12.0,
+  "avgSentenceWords": 33.0,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--thor-goes-fishing"
+}
