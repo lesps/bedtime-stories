@@ -1,0 +1,57 @@
+{
+ "id": "myths-greek--hero-and-leander",
+ "collectionId": "myths-greek",
+ "order": 21,
+ "title": "Hero and Leander",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, a narrow strip of sea called the Hellespont separated two lands. On one side lived a young man named Leander. On the other side, in a tall tower by the water, lived a young woman named Hero, who served in the temple of Aphrodite."
+  },
+  {
+   "type": "p",
+   "text": "Hero and Leander loved each other. But the sea lay between them."
+  },
+  {
+   "type": "p",
+   "text": "So every night, Hero lit a lamp at the top of her tower. And every night, Leander jumped into the dark water and swam all the way across the sea to her, following the light. The water was cold and the current was strong. It was almost a mile across. But he swam it every night, because he loved her."
+  },
+  {
+   "type": "p",
+   "text": "Then, one night, a storm blew up. The wind roared, and the waves grew huge and wild. The wind blew out Hero's lamp."
+  },
+  {
+   "type": "p",
+   "text": "Leander was already in the water. He swam and swam, but he could not see the tower anymore. The waves were too strong. At last his strength ran out, and the sea carried him away."
+  },
+  {
+   "type": "p",
+   "text": "In the morning, the waves washed him up on the shore below Hero's tower. When Hero saw him, her heart broke. She went down into the sea to be with him, and the waves carried them both away together."
+  },
+  {
+   "type": "p",
+   "text": "For a very long time, people said that no one could really swim across the Hellespont. They thought Leander's story must be made up. Then, about two hundred years ago, a famous English poet named Lord Byron decided to try. He swam all the way across, just as Leander had. Since then, many other swimmers have done it too, in memory of Leander."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Hero and Leander” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls Aphrodite by her Roman name, Venus."
+  }
+ ],
+ "workId": "greek-hero-leander",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--hero-and-leander",
+ "wordCount": 308,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 4.0,
+  "avgSentenceWords": 11.1,
+  "band": "middle"
+ }
+}

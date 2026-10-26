@@ -1,0 +1,53 @@
+{
+ "id": "bulfinch-fable--aurora-and-tithonus",
+ "collectionId": "bulfinch-fable",
+ "order": 21,
+ "title": "Aurora and Tithonus",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The goddess of the Dawn, like her sister the Moon, was at times inspired with the love of mortals. Her greatest favorite was Tithonus, son of Laomedon, king of Troy. She stole him away, and prevailed on Jupiter to grant him immortality; but, forgetting to have youth joined in the gift, after some time she began to discern, to her great mortification, that he was growing old. When his hair was quite white she left his society; but he still had the range of her palace, lived on ambrosial food, and was clad in celestial raiment. At length he lost the power of using his limbs, and then she shut him up in his chamber, whence his feeble voice might at times be heard. Finally she turned him into a grasshopper."
+  },
+  {
+   "type": "p",
+   "text": "Memnon was the son of Aurora and Tithonus. He was king of the Aethiopians, and dwelt in the extreme east, on the shore of Ocean. He came with his warriors to assist the kindred of his father in the war of Troy. King Priam received him with great honors, and listened with admiration to his narrative of the wonders of the ocean shore."
+  },
+  {
+   "type": "p",
+   "text": "The very day after his arrival, Memnon, impatient of repose, led his troops to the field. Antilochus, the brave son of Nestor, fell by his hand, and the Greeks were put to flight, when Achilles appeared and restored the battle. A long and doubtful contest ensued between him and the son of Aurora; at length victory declared for Achilles, Memnon fell, and the Trojans fled in dismay."
+  },
+  {
+   "type": "p",
+   "text": "Aurora, who from her station in the sky had viewed with apprehension the danger of her son, when she saw him fall, directed his brothers, the Winds, to convey his body to the banks of the river Esepus in Paphlagonia. In the evening Aurora came, accompanied by the Hours and the Pleiads, and wept and lamented over her son. Night, in sympathy with her grief, spread the heaven with clouds; all nature mourned for the offspring of the Dawn. The Aethiopians raised his tomb on the banks of the stream in the grove of the Nymphs, and Jupiter caused the sparks and cinders of his funeral pile to be turned into birds, which, dividing into two flocks, fought over the pile till they fell into the flame. Every year at the anniversary of his death they return and celebrate his obsequies in like manner. Aurora remains inconsolable for the loss of her son. Her tears still flow, and may be seen at early morning in the form of dew-drops on the grass."
+  },
+  {
+   "type": "p",
+   "text": "Unlike most of the marvels of ancient mythology, there still exist some memorials of this. On the banks of the river Nile, in Egypt, are two colossal statues, one of which is said to be the statue of Memnon. Ancient writers record that when the first rays of the rising sun fall upon this statue a sound is heard to issue from it, which they compare to the snapping of a harp-string. There is some doubt about the identification of the existing statue with the one described by the ancients, and the mysterious sounds are still more doubtful. Yet there are not wanting some modern testimonies to their being still audible. It has been suggested that sounds produced by confined air making its escape from crevices or caverns in the rocks may have given some ground for the story. Sir Gardner Wilkinson, a late traveller, of the highest authority, examined the statue itself, and discovered that it was hollow, and that \"in the lap of the statue is a stone, which on being struck emits a metallic sound, that might still be made use of to deceive a visitor who was predisposed to believe its powers.\""
+  },
+  {
+   "type": "p",
+   "text": "The vocal statue of Memnon is a favorite subject of allusion with the poets. Darwin, in his \"Botanic Garden,\" says:"
+  },
+  {
+   "type": "verse",
+   "text": "\"So to the sacred Sun in Memnon's fane\n Spontaneous concords choired the matin strain;\n Touched by his orient beam responsive rings\n The living lyre and vibrates all its strings;\n Accordant aisles the tender tones prolong,\n And holy echoes swell the adoring song.\""
+  },
+  {
+   "type": "p",
+   "text": "Book I., 1., 182."
+  }
+ ],
+ "workId": "greek-tithonus",
+ "wordCount": 695,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 10.1,
+  "avgSentenceWords": 23.2,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-greek--eos-and-tithonus"
+}

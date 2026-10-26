@@ -1,0 +1,115 @@
+{
+ "id": "myths-greek--king-midas",
+ "collectionId": "myths-greek",
+ "order": 15,
+ "title": "King Midas",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "One day, Dionysus, the god of the grape harvest, noticed that his old teacher, Silenus, was missing. The old man had wandered off and got lost. Some farmers found him and brought him to their king, whose name was Midas."
+  },
+  {
+   "type": "p",
+   "text": "King Midas knew who Silenus was, and he was very kind to him. He gave him the best food and let him stay for ten days. Then he took him safely home to Dionysus."
+  },
+  {
+   "type": "p",
+   "text": "Dionysus was so grateful that he said, \"Midas, I will give you anything you wish for.\""
+  },
+  {
+   "type": "p",
+   "text": "Midas thought for a moment. Then he said, \"I wish that everything I touch would turn to gold.\""
+  },
+  {
+   "type": "p",
+   "text": "Dionysus frowned. He wished Midas had asked for something better. But a promise is a promise. \"Very well,\" he said. \"Your wish is granted.\""
+  },
+  {
+   "type": "p",
+   "text": "Midas hurried away, hardly able to believe it. He touched a twig on an oak tree, and it turned to gold. He picked up a stone, and it turned to gold. He picked an apple from a tree, and it became a golden apple. \"I'm the richest king in the world!\" he laughed."
+  },
+  {
+   "type": "p",
+   "text": "When he got home, he was hungry. His servants set out a feast. Midas picked up a piece of bread, and it turned hard and yellow in his hand. He put a grape in his mouth, and it turned into a little gold ball against his teeth. He poured a cup of water, and it ran down his throat like melted gold."
+  },
+  {
+   "type": "p",
+   "text": "Midas stared at his golden dinner. He could not eat. He could not drink. He was the richest king in the world, and he was going to starve."
+  },
+  {
+   "type": "p",
+   "text": "Now Midas hated his wish. He lifted his golden arms to the sky. \"Dionysus, please!\" he begged. \"Take this gift away!\""
+  },
+  {
+   "type": "p",
+   "text": "Dionysus was kind, and he heard him. \"Go to the river Pactolus,\" he said. \"Follow it up into the mountains, to the place where it begins. Then dip yourself in the water, and wash your wish away.\""
+  },
+  {
+   "type": "p",
+   "text": "Midas did. As soon as he touched the water, the golden power flowed out of him and into the river. The sand at the bottom of the river turned to gold. You can still find gold in that river's sand today."
+  },
+  {
+   "type": "p",
+   "text": "After that, Midas didn't care about gold anymore. He went to live in the countryside, and he became a follower of Pan, the god of the fields, who played music on his reed pipes."
+  },
+  {
+   "type": "p",
+   "text": "One day Pan boasted that his music was better than Apollo's. Apollo was the god of music, so this was a bold thing to say. They agreed to have a contest, and the old mountain god Tmolus would be the judge."
+  },
+  {
+   "type": "p",
+   "text": "Pan played first. His tune was cheerful and simple, and Midas loved it."
+  },
+  {
+   "type": "p",
+   "text": "Then Apollo played his golden lyre. His music was so beautiful that the trees on the mountainside leaned in to listen."
+  },
+  {
+   "type": "p",
+   "text": "\"Apollo wins,\" said Tmolus. Everyone agreed, except Midas."
+  },
+  {
+   "type": "p",
+   "text": "\"No!\" said Midas. \"Pan's music was better!\""
+  },
+  {
+   "type": "p",
+   "text": "Apollo looked at him. \"Anyone who can't hear the difference,\" he said, \"must have the ears of a donkey.\" And just like that, Midas's ears grew long and gray and furry, and they twitched on top of his head. They were donkey ears."
+  },
+  {
+   "type": "p",
+   "text": "Midas was so embarrassed. He hid his ears under a big turban and never took it off. But his barber had to know. \"Don't tell anyone,\" said Midas, \"or you'll be in terrible trouble.\""
+  },
+  {
+   "type": "p",
+   "text": "The barber promised. But the secret was so big that he felt he would burst if he didn't tell someone. So he went out into a meadow, dug a little hole, and whispered into it: \"King Midas has donkey ears!\" Then he filled the hole back in."
+  },
+  {
+   "type": "p",
+   "text": "Before long, a patch of reeds grew up in that very spot. And whenever the wind blew through them, the reeds whispered the secret to everyone who passed by."
+  },
+  {
+   "type": "p",
+   "text": "\"King Midas has donkey ears. King Midas has donkey ears.\""
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Midas” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls Dionysus by his Roman name, Bacchus."
+  }
+ ],
+ "workId": "greek-midas",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-fable--midas",
+ "wordCount": 689,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 3.2,
+  "avgSentenceWords": 9.2,
+  "band": "early"
+ }
+}

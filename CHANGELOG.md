@@ -7,6 +7,12 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 2 (data only): 21 myths from Bulfinch's _The Age of Fable_ (1855): creation,
+  Prometheus and Pandora, Phaeton, Midas, Arachne, Orpheus and others, with footnotes as `note`
+  blocks. Twenty get simplified retellings in _Greek Myths, Simply Told_ (grade 2–4, 1–5 min);
+  Arion already reads at middle level and keeps its original only. Six originals and four
+  retellings are `mature-themes`; retellings can override their original's flags in front
+  matter. New tool `extract_bulfinch.py`.
 - Mythology, part 1 (data only): Hawthorne's _Tanglewood Tales_ (6 Greek myths) and _Greek
   Myths, Simply Told_, a simplified retelling of each for young readers (grade 2–3, 6–10 min
   against 40–73 min). Each pair shares a `workId`, so the reader links them under Other
