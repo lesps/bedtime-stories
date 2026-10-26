@@ -1,0 +1,71 @@
+---
+title: Siegfried and the Nibelung Treasure
+adaptedFrom: baldwin-siegfried--in-nibelungen-land
+order: 6
+---
+
+Everyone in Brunhild's castle was grateful to Siegfried. They gave him the best rooms and servants to look after him, and they all begged him to stay forever. So Siegfried stayed for six months, and every day was a party. But he kept thinking of his father and mother at home, and he grew tired of doing nothing all day.
+
+One morning, as he sat by the sea, Odin's two ravens landed beside him.
+
+"Brunhild slept for a hundred years," said the first raven. "Why should Siegfried sleep? The world is waiting for him."
+
+The second raven said nothing. But Siegfried remembered his father's wise words, and his mother's hopes, and the great deeds of his family long ago. He jumped up. "Goodbye, easy life!" he cried. "I will go where I am needed."
+
+Then Greyfell came galloping up the beach, shining like a thousand sunbeams, and a ship with white sails and a golden dragon on its front came speeding over the waves. Siegfried and Greyfell leaped on board. The sailors rowed without a sound, as if they were only ghosts made of sea breezes. The mermaids stopped combing their hair to watch the ship go by. Even Aegir, the old king of the sea, stopped brewing in his great kettle to look.
+
+That evening they came to a strange land. It seemed to float on the waves like a cloud, and it was covered in thick, dark mist. Siegfried and Greyfell jumped ashore, and when they looked back, the ship had vanished. All night they stood still in the darkness, waiting for morning.
+
+In the morning Siegfried climbed onto Greyfell. Sunbeams flashed from Greyfell's mane and from Siegfried's armor, and the mist fled away up the mountains. This was the Land of the Nibelungs. Elves and fairies hid behind every tree and every blade of grass, and clever dwarfs lurked under every rock.
+
+Siegfried rode on until he came to a cave in the side of a mountain. There sat two young princes, thin and pale with hunger, with wild, tired eyes. All around them lay great heaps of gold and jewels, more than a hundred wagons could carry. Neither prince would leave the treasure to eat, or close his eyes to sleep, in case the other took some of it. They had been watching each other like that for days and days.
+
+"Stranger, stop!" they called. "Help us divide our treasure!"
+
+"Who are you?" asked Siegfried.
+
+"We are Schilbung and Niblung, the sons of the old king of this misty land," they said weakly. "Our father brought this treasure here not long ago, but nobody knows quite how he got it. Some say it is the treasure of the dwarf Andvari, the one the dragon Fafnir guarded on the Glittering Heath, until a hero killed him and left the gold behind. Nobody dared touch it because of the curse on it, until our father took it. The dwarf Alberich kept it safe for him, with ten thousand elves and the twelve giants you see standing on the mountaintops. Now our father is dead, and we cannot agree how to share it."
+
+"What will you give me if I divide it for you?" asked Siegfried.
+
+"Whatever you like."
+
+"Give me that sword lying on the pile."
+
+"Gladly," said Niblung. "It's no use to us. It turns against us whenever we try to use it. They say our father found it on the Glittering Heath, in the pit where Fafnir was killed."
+
+Siegfried took the sword. It was his own sword, Balmung, that he had lost so long ago!
+
+Then he divided the treasure. He put one piece of gold next to Niblung, and a piece just as good next to Schilbung, again and again, until all the gold was gone. Then he did the same with the jewels. The two brothers hugged their treasure and thanked him. But there was one thing left over. It was a ring shaped like a snake, with its tail in its mouth and cold red ruby eyes.
+
+"What shall I do with this ring?" asked Siegfried.
+
+"Give it to me!" cried Niblung.
+
+"Give it to me!" cried Schilbung.
+
+They both tried to grab it. But they were too weak from hunger. They fell down, each on his own pile of treasure. "My dear, dear gold," whispered Niblung, hugging it. "Nobody shall take you from me." And Schilbung kissed his jewels and laughed a strange laugh. "You are mine, all mine!" And there, on their heaps of gold and jewels, the two greedy brothers died.
+
+It was a strange and sad sight: all that treasure, and the two starved princes lying on it. Some stories say Siegfried killed them. But it was not Siegfried. It was their greed for gold.
+
+"Oh, gold!" said Siegfried sadly. "You bring nothing but trouble."
+
+But there was no time to think. The twelve giants were rushing down the mountainside, roaring, to drive him out of their land! Siegfried jumped onto Greyfell, with Balmung in his hand, and rode to meet them. The sunbeams from Greyfell's mane dazzled the giants, who were not used to the daylight. They thought every tree and every rock was an enemy, and that a whole army was coming at them. One by one they dropped their heavy clubs and stood there trembling. Siegfried made each one promise to serve him faithfully, and sent them back to stand guard on the mountaintops.
+
+Then the dwarf Alberich came out of his cave. He saw the two princes lying dead, and he thought Siegfried had killed them. He blew a little silver horn, and thousands and thousands of little brown elves came pouring out of every crack and cranny in the mountain. They stood in rows around the treasure, with little golden shields and sharp little spears, as thick as the grass in a meadow.
+
+While Siegfried was looking at them, Alberich suddenly disappeared.
+
+"Ah, Alberich!" cried Siegfried. "I know your tricks. You have put on your magic cloak, the Tarnkappe, which makes you invisible and as strong as twelve men. Come on, then, brave dwarf!"
+
+Bang! Something hit him so hard that he nearly fell off his horse. Siegfried jumped down and waited, listening. For a long time there was silence. Then he felt a little breath of wind on his face, and another blow. Quick as a flash, Siegfried grabbed at the air, and he caught the invisible dwarf! He pulled off the magic cloak, and there was Alberich, wriggling in his hands.
+
+"Now," said Siegfried, "the magic cloak is mine. What will you give me for your freedom?"
+
+"You have beaten me fairly," said Alberich. "I and all my elves, and all this treasure, belong to you now. We will obey you."
+
+"Promise it," said Siegfried, "and you shall be the keeper of my treasure."
+
+So Alberich and all his ten thousand elves knelt down, and laid down their shields and spears, and promised that Siegfried was their master and the king of the Land of the Nibelungs.
+
+The elves carried the treasure back into the cave and guarded it faithfully. Messengers went all over the land to say that Siegfried was the new king. And wherever Siegfried rode on his shining horse, people came out to welcome him with music and dancing. The light from Greyfell's mane and from Siegfried's brave, good heart lifted the mists that had hidden the land for so long, and let in the warm, bright light of summer.

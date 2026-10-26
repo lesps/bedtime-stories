@@ -13,6 +13,10 @@ Each Markdown file is one story, named `<storyId>.md`, with a small front matter
     ---
     Paragraphs, separated by blank lines.
 
+A legend with no public-domain text to work from (marked ‡ in the expansion plan) has no
+original: its front matter gives `basedOn` (what it was retold from) and `workId` instead of
+`adaptedFrom`, and its end note says that no source text was used.
+
 The story inherits `workId` from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
 and `readingLevel`, and ends with a note naming the original. The original gets
 `simplifiedId` pointing back, and so does every story in `alsoSimplifies` (which must share the
@@ -64,6 +68,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-german": {
+        "id": "myths-german",
+        "title": "German Legends, Simply Told",
+        "author": "Traditional (German)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
 }
 
 
@@ -84,6 +99,26 @@ def flags_of(meta, orig):
     return [] if value == "none" else [f.strip() for f in value.split(",")]
 
 
+def unsourced(sid, cid, meta, paras):
+    """A retelling with no public-domain original to link to (‡ in the expansion plan)."""
+    note = (f"Retold by {ADAPTED_BY}, from {meta['basedOn']}. No public-domain text of this "
+            "legend could be used, so there is no original to compare it with.")
+    return {
+        "id": sid,
+        "collectionId": cid,
+        "order": int(meta["order"]),
+        "title": meta["title"],
+        "origin": None,
+        "excluded": False,
+        "flags": flags_of(meta, {"flags": []}),
+        "moral": None,
+        "blocks": [{"type": "p", "text": p} for p in paras] + [{"type": "note", "text": note}],
+        "workId": meta["workId"],
+        "adaptation": "retold",
+        "adaptedBy": ADAPTED_BY,
+    }
+
+
 def main():
     index = load_index()
     by_collection = {cid: [] for cid in COLLECTIONS}
@@ -94,6 +129,9 @@ def main():
         if cid not in COLLECTIONS:
             raise SystemExit(f"{path.name}: unknown collection {cid}")
         meta, paras = parse(path)
+        if "adaptedFrom" not in meta:
+            by_collection[cid].append(finish(unsourced(sid, cid, meta, paras)))
+            continue
         orig = load_story(meta["adaptedFrom"])
         coll = next(c for c in index["collections"] if c["id"] == orig["collectionId"])
         credit = f"{coll['author']}'s “{orig['title']}” in {coll['title']}"

@@ -336,6 +336,66 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 24
+  },
+  {
+   "author": "James Baldwin",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "baldwin-siegfried",
+   "title": "The Story of Siegfried",
+   "contributor": "Retold from the Nibelungenlied, the Völsunga saga and the Eddas",
+   "firstPublished": 1882,
+   "source": "https://www.gutenberg.org/ebooks/6866",
+   "originalLanguage": "de",
+   "storyCount": 9
+  },
+  {
+   "author": "James Baldwin",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "baldwin-fifty-famous",
+   "title": "Fifty Famous Stories Retold",
+   "contributor": null,
+   "firstPublished": 1896,
+   "source": "https://www.gutenberg.org/ebooks/18442",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "id": "browning-pied-piper",
+   "title": "The Pied Piper of Hamelin",
+   "author": "Robert Browning",
+   "contributor": "Illustrated by Kate Greenaway",
+   "firstPublished": 1888,
+   "source": "https://www.gutenberg.org/ebooks/18343",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 1
+  },
+  {
+   "contributor": "Translated by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/translations",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "german-sources",
+   "title": "Legends from the German Poets",
+   "author": "Clemens Brentano, Heinrich Heine and Gottfried August Bürger",
+   "originalLanguage": "de",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-german",
+   "title": "German Legends, Simply Told",
+   "author": "Traditional (German)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 13
   }
  ],
  "stories": [
@@ -10786,6 +10846,495 @@
     "band": "middle"
    },
    "adaptedFrom": "lang-red--the-story-of-sigurd"
+  },
+  {
+   "id": "baldwin-siegfried--mimer-the-master",
+   "collectionId": "baldwin-siegfried",
+   "order": 1,
+   "title": "Mimer, the Master",
+   "wordCount": 4751,
+   "readingMinutes": 26,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-siegfried-sword",
+   "readingLevel": {
+    "fkGrade": 8.7,
+    "avgSentenceWords": 24.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--siegfried-forges-a-sword"
+  },
+  {
+   "id": "baldwin-siegfried--greyfell",
+   "collectionId": "baldwin-siegfried",
+   "order": 2,
+   "title": "Greyfell",
+   "wordCount": 3998,
+   "readingMinutes": 22,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-siegfried-greyfell",
+   "readingLevel": {
+    "fkGrade": 7.2,
+    "avgSentenceWords": 20.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--siegfried-and-the-horse-greyfell"
+  },
+  {
+   "id": "baldwin-siegfried--the-curse-of-gold",
+   "collectionId": "baldwin-siegfried",
+   "order": 3,
+   "title": "The Curse of Gold",
+   "wordCount": 5107,
+   "readingMinutes": 28,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-andvari-gold",
+   "readingLevel": {
+    "fkGrade": 8.2,
+    "avgSentenceWords": 22.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--the-curse-of-the-dwarf-s-gold"
+  },
+  {
+   "id": "baldwin-siegfried--fafnir-the-dragon",
+   "collectionId": "baldwin-siegfried",
+   "order": 4,
+   "title": "Fafnir, the Dragon",
+   "wordCount": 3306,
+   "readingMinutes": 18,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sigurd-fafnir",
+   "readingLevel": {
+    "fkGrade": 7.2,
+    "avgSentenceWords": 20.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--siegfried-and-the-dragon-fafnir"
+  },
+  {
+   "id": "baldwin-siegfried--brunhild",
+   "collectionId": "baldwin-siegfried",
+   "order": 5,
+   "title": "Brunhild",
+   "wordCount": 2313,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-siegfried-brunhild",
+   "readingLevel": {
+    "fkGrade": 9.1,
+    "avgSentenceWords": 24.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--siegfried-wakes-brunhild"
+  },
+  {
+   "id": "baldwin-siegfried--in-nibelungen-land",
+   "collectionId": "baldwin-siegfried",
+   "order": 6,
+   "title": "In Nibelungen Land",
+   "wordCount": 3324,
+   "readingMinutes": 18,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-nibelung-hoard",
+   "readingLevel": {
+    "fkGrade": 7.0,
+    "avgSentenceWords": 19.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--siegfried-and-the-nibelung-treasure"
+  },
+  {
+   "id": "baldwin-siegfried--how-gunther-outwitted-brunhild",
+   "collectionId": "baldwin-siegfried",
+   "order": 7,
+   "title": "How Gunther Outwitted Brunhild",
+   "wordCount": 3947,
+   "readingMinutes": 22,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-gunther-brunhild",
+   "readingLevel": {
+    "fkGrade": 8.0,
+    "avgSentenceWords": 21.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--siegfried-helps-king-gunther"
+  },
+  {
+   "id": "baldwin-siegfried--how-they-hunted-in-the-odenwald",
+   "collectionId": "baldwin-siegfried",
+   "order": 8,
+   "title": "How They Hunted in the Odenwald",
+   "wordCount": 3640,
+   "readingMinutes": 20,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "german-siegfried-death",
+   "readingLevel": {
+    "fkGrade": 7.6,
+    "avgSentenceWords": 21.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--the-death-of-siegfried"
+  },
+  {
+   "id": "baldwin-siegfried--how-the-hoard-was-brought-to-burgundy",
+   "collectionId": "baldwin-siegfried",
+   "order": 9,
+   "title": "How the Hoard Was Brought to Burgundy",
+   "wordCount": 2209,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-nibelung-rhine",
+   "readingLevel": {
+    "fkGrade": 9.4,
+    "avgSentenceWords": 24.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--the-treasure-in-the-rhine"
+  },
+  {
+   "id": "baldwin-fifty-famous--the-story-of-william-tell",
+   "collectionId": "baldwin-fifty-famous",
+   "order": 1,
+   "title": "The Story of William Tell",
+   "wordCount": 442,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "swiss-william-tell",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.7,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "baldwin-fifty-famous--arnold-winkelried",
+   "collectionId": "baldwin-fifty-famous",
+   "order": 2,
+   "title": "Arnold Winkelried",
+   "wordCount": 468,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "swiss-winkelried",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   }
+  },
+  {
+   "id": "browning-pied-piper--the-pied-piper-of-hamelin",
+   "collectionId": "browning-pied-piper",
+   "order": 1,
+   "title": "The Pied Piper of Hamelin",
+   "wordCount": 2089,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "german-pied-piper",
+   "readingLevel": {
+    "fkGrade": 10.7,
+    "avgSentenceWords": 28.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-german--the-pied-piper-of-hamelin"
+  },
+  {
+   "id": "german-sources--the-lorelei",
+   "collectionId": "german-sources",
+   "order": 1,
+   "title": "The Lorelei",
+   "wordCount": 809,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "german-lorelei",
+   "readingLevel": {
+    "fkGrade": 5.2,
+    "avgSentenceWords": 16.7,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-german--the-lorelei"
+  },
+  {
+   "id": "german-sources--the-wild-huntsman",
+   "collectionId": "german-sources",
+   "order": 2,
+   "title": "The Wild Huntsman",
+   "wordCount": 1617,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "german-wild-hunt",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 12.9,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-german--the-wild-huntsman"
+  },
+  {
+   "id": "myths-german--siegfried-forges-a-sword",
+   "collectionId": "myths-german",
+   "order": 1,
+   "title": "Siegfried Forges a Sword",
+   "wordCount": 1097,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-siegfried-sword",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 11.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "baldwin-siegfried--mimer-the-master"
+  },
+  {
+   "id": "myths-german--siegfried-and-the-horse-greyfell",
+   "collectionId": "myths-german",
+   "order": 2,
+   "title": "Siegfried and the Horse Greyfell",
+   "wordCount": 1211,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-siegfried-greyfell",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.0,
+    "band": "early"
+   },
+   "adaptedFrom": "baldwin-siegfried--greyfell"
+  },
+  {
+   "id": "myths-german--the-curse-of-the-dwarf-s-gold",
+   "collectionId": "myths-german",
+   "order": 3,
+   "title": "The Curse of the Dwarf's Gold",
+   "wordCount": 1178,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-andvari-gold",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.8,
+    "band": "early"
+   },
+   "adaptedFrom": "baldwin-siegfried--the-curse-of-gold"
+  },
+  {
+   "id": "myths-german--siegfried-and-the-dragon-fafnir",
+   "collectionId": "myths-german",
+   "order": 4,
+   "title": "Siegfried and the Dragon Fafnir",
+   "wordCount": 1453,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-sigurd-fafnir",
+   "readingLevel": {
+    "fkGrade": 3.1,
+    "avgSentenceWords": 10.3,
+    "band": "early"
+   },
+   "adaptedFrom": "baldwin-siegfried--fafnir-the-dragon"
+  },
+  {
+   "id": "myths-german--siegfried-wakes-brunhild",
+   "collectionId": "myths-german",
+   "order": 5,
+   "title": "Siegfried Wakes Brunhild",
+   "wordCount": 1074,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-siegfried-brunhild",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 11.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "baldwin-siegfried--brunhild"
+  },
+  {
+   "id": "myths-german--siegfried-and-the-nibelung-treasure",
+   "collectionId": "myths-german",
+   "order": 6,
+   "title": "Siegfried and the Nibelung Treasure",
+   "wordCount": 1274,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-nibelung-hoard",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 10.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "baldwin-siegfried--in-nibelungen-land"
+  },
+  {
+   "id": "myths-german--siegfried-helps-king-gunther",
+   "collectionId": "myths-german",
+   "order": 7,
+   "title": "Siegfried Helps King Gunther",
+   "wordCount": 1070,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-gunther-brunhild",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 10.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "baldwin-siegfried--how-gunther-outwitted-brunhild"
+  },
+  {
+   "id": "myths-german--the-death-of-siegfried",
+   "collectionId": "myths-german",
+   "order": 8,
+   "title": "The Death of Siegfried",
+   "wordCount": 972,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-siegfried-death",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 11.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "baldwin-siegfried--how-they-hunted-in-the-odenwald"
+  },
+  {
+   "id": "myths-german--the-treasure-in-the-rhine",
+   "collectionId": "myths-german",
+   "order": 9,
+   "title": "The Treasure in the Rhine",
+   "wordCount": 802,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-nibelung-rhine",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 12.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "baldwin-siegfried--how-the-hoard-was-brought-to-burgundy"
+  },
+  {
+   "id": "myths-german--the-lorelei",
+   "collectionId": "myths-german",
+   "order": 10,
+   "title": "The Lorelei",
+   "wordCount": 591,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-lorelei",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.8,
+    "band": "early"
+   },
+   "adaptedFrom": "german-sources--the-lorelei"
+  },
+  {
+   "id": "myths-german--the-wild-huntsman",
+   "collectionId": "myths-german",
+   "order": 11,
+   "title": "The Wild Huntsman",
+   "wordCount": 863,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-wild-hunt",
+   "readingLevel": {
+    "fkGrade": 2.3,
+    "avgSentenceWords": 9.3,
+    "band": "early"
+   },
+   "adaptedFrom": "german-sources--the-wild-huntsman"
+  },
+  {
+   "id": "myths-german--rubezahl-spirit-of-the-mountains",
+   "collectionId": "myths-german",
+   "order": 12,
+   "title": "Rübezahl, Spirit of the Mountains",
+   "wordCount": 764,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-rubezahl",
+   "readingLevel": {
+    "fkGrade": 4.9,
+    "avgSentenceWords": 13.6,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-german--the-pied-piper-of-hamelin",
+   "collectionId": "myths-german",
+   "order": 13,
+   "title": "The Pied Piper of Hamelin",
+   "wordCount": 1212,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "german-pied-piper",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   },
+   "adaptedFrom": "browning-pied-piper--the-pied-piper-of-hamelin"
   }
  ]
 }

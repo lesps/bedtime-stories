@@ -1,0 +1,179 @@
+{
+ "id": "german-sources--the-wild-huntsman",
+ "collectionId": "german-sources",
+ "order": 2,
+ "title": "The Wild Huntsman",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "All over Germany people told of the Wild Hunt: a ghostly hunter who rides through the sky on stormy nights with his hounds, and who must never be greeted or watched. Some said he was the old god Wodan, some a cruel lord named Hackelberg who loved hunting more than heaven. The poet Gottfried August Bürger made the legend into this ballad, which Walter Scott translated as \"The Wild Huntsman\". A Wildgrave and Rhinegrave was a German count, a lord of the forests and of the Rhine."
+  },
+  {
+   "type": "heading",
+   "text": "Gottfried August Bürger, \"The Wild Huntsman\""
+  },
+  {
+   "type": "verse",
+   "text": "The Wildgrave and Rhinegrave blew his horn:\n\"Halloo, halloo, on foot and horse!\"\nHis stallion reared up neighing;\nwith a great clatter his followers rushed after him;\nloud yelped and bayed the hounds, loosed from the leash,\nthrough corn and thorn, through heath and stubble."
+  },
+  {
+   "type": "verse",
+   "text": "The dome of the high cathedral\nshone in the light of Sunday morning.\nDeep and clear, the solemn ringing of the bells\ncalled the people to High Mass.\nFar off, sweetly, came the hymns\nof the faithful Christian crowd."
+  },
+  {
+   "type": "verse",
+   "text": "Pell-mell they crossed the crossroads,\nwith \"Horrido!\" and \"Hussasa!\"\nLook there! Look there! Came, right and left,\na rider here, a rider there!\nThe right one's horse was shining silver;\na fire-colored horse carried the left."
+  },
+  {
+   "type": "verse",
+   "text": "Who were the riders, left and right?\nI can guess, but I do not know.\nBright as light the rider on the right appeared,\nwith a gentle face like spring.\nGrim and sallow, the knight on the left\nshot lightning from his eye like a storm."
+  },
+  {
+   "type": "verse",
+   "text": "\"Welcome here, and just in time,\nwelcome to the noble hunt!\nOn earth or in heaven there is\nno sport that pleases more.\"\nSo he cried, and slapped his thigh,\nand swung his hat up in the air."
+  },
+  {
+   "type": "verse",
+   "text": "\"Your horn's sound goes badly,\"\nsaid the one on the right, gently,\n\"with the Sunday bells and the choir.\nTurn back! You will hunt nothing good today.\nLet your good angel warn you,\nand do not let the evil one ensnare you!\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Hunt on, hunt on, my noble lord!\"\nthe knight on the left broke in quickly.\n\"What bells? What bawling of choirs?\nThe joy of the hunt will please you far better!\nLet me teach you what is fit for a prince,\nand do not let that one fool you!\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Yes! Well spoken, man on the left!\nYou are a hero after my own heart.\nWhoever cannot love the hunt,\nlet him go off to his prayers!\nIt may vex you, you pious fool,\nbut I will have my pleasure all the same!\""
+  },
+  {
+   "type": "verse",
+   "text": "And hurry, hurry, on they went,\nin and out of the fields, down hill and up.\nStill the riders rode, right and left,\nbeside him on either side.\nFar off a white stag leaped up,\nwith sixteen points on its antlers."
+  },
+  {
+   "type": "verse",
+   "text": "And louder the count blew his horn,\nand faster they flew, on foot and horse;\nand look! now behind and now in front,\none of his followers fell down dead.\n\"Let them fall! Let them fall to hell!\nThat must not spoil a prince's pleasure.\""
+  },
+  {
+   "type": "verse",
+   "text": "The stag crouches in a field of corn\nand hopes to find a safe place there.\nLook there! A poor farmer\ncomes forward, pitiful to see.\n\"Mercy, dear lord, mercy!\nSpare the poor man's bitter sweat!\""
+  },
+  {
+   "type": "verse",
+   "text": "The knight on the right gallops up\nand warns the count, gently and kindly.\nBut the man on the left urges him all the more\nto cruel, gloating mischief.\nThe count scorns the warning of the right\nand lets the left one ensnare him."
+  },
+  {
+   "type": "verse",
+   "text": "\"Away, you dog!\" the count snorts\nterribly at the poor ploughman,\n\"or, by the devil, I will hunt you myself!\nHalloo, comrades, at him, at him!\nTo show that I have sworn in earnest,\ncrack your whips about his ears!\""
+  },
+  {
+   "type": "verse",
+   "text": "No sooner said than done! The Wildgrave leaped\nover the hedge ahead of them all,\nand after him, with crack and clang,\ncame the train of hound and horse and man;\nand hound and man and horse trampled\nthe corn until the field steamed."
+  },
+  {
+   "type": "verse",
+   "text": "Startled up by the noise nearby,\nin and out of the fields, down hill and up,\nchased and pursued but never caught,\nthe stag reaches the open meadow\nand slyly mingles with the tame herds,\nso as to be spared."
+  },
+  {
+   "type": "verse",
+   "text": "But here and there, through field and wood,\nand there and here, through wood and field,\nthe swift hounds follow and soon scent\nits trail.\nThe herdsman, full of fear for his herd,\nthrows himself on the ground before the count."
+  },
+  {
+   "type": "verse",
+   "text": "\"Mercy, lord, mercy! Leave\nmy poor quiet cattle in peace!\nThink, dear lord, here grazes\nmany a poor widow's cow.\nSpare the poor their one and only!\nMercy, dear lord, mercy!\""
+  },
+  {
+   "type": "verse",
+   "text": "The knight on the right gallops up\nand warns the count, gently and kindly.\nBut the man on the left urges him all the more\nto cruel, gloating mischief.\nThe count scorns the warning of the right\nand lets the left one ensnare him."
+  },
+  {
+   "type": "verse",
+   "text": "\"You bold dog, to stand in my way!\nHa, if only you were grown fast\nto your best cow,\nand every old woman with you!\nIt would delight my heart\nto hunt you all straight into heaven."
+  },
+  {
+   "type": "verse",
+   "text": "Halloo, comrades, at them, at them!\nYo! Doho! Hussasa!\"\nAnd every hound attacked in fury\nwhatever it saw before it.\nDripping with blood the herdsman sank to the ground,\nand, dripping with blood, his herd, head by head."
+  },
+  {
+   "type": "verse",
+   "text": "From the murderous tumult the stag\nbarely escapes, running ever more weakly.\nSpattered with blood and covered with foam,\nit is taken in by the night of the forest.\nDeep in the heart of the forest it hides,\nin a hermit's chapel."
+  },
+  {
+   "type": "verse",
+   "text": "On without rest, with crack of whip,\nwith \"Horrido!\" and \"Hussasa!\",\nand yelp and bay and blare of horns,\nthe wild swarm follows it there too.\nThe pious hermit steps out of his hut\nto meet them with a gentle plea."
+  },
+  {
+   "type": "verse",
+   "text": "\"Leave off, leave off this trail!\nDo not profane God's sanctuary!\nThe creature groans to heaven\nand asks God to judge you.\nFor the last time, be warned,\nor ruin will ensnare you!\""
+  },
+  {
+   "type": "verse",
+   "text": "The rider on the right gallops up in alarm\nand warns the count, gently and kindly.\nBut the man on the left urges him all the more\nto cruel, gloating mischief.\nAnd woe! For all the warning of the right,\nhe lets the left one ensnare him!"
+  },
+  {
+   "type": "verse",
+   "text": "\"Ruin here, ruin there!\nThat,\" he cries, \"scares me very little.\nAnd if it reached the third heaven,\nI would not care a bat for it.\nIt may vex God and you, you fool,\nbut I will have my pleasure all the same!\""
+  },
+  {
+   "type": "verse",
+   "text": "He swings his whip and blows his horn:\n\"Halloo, comrades, at it, at it!\"\nWhoosh! Hermit and hut vanish in front of him,\nand behind him horse and man vanish;\nand crack and clang and the roar of the hunt\nare swallowed at once by a deathly silence."
+  },
+  {
+   "type": "verse",
+   "text": "Terrified, the count looks round;\nhe blows his horn, and it makes no sound;\nhe shouts, and cannot hear himself;\nhis whip swings without a whistle;\nhe digs his spurs into his horse\nand can ride neither forward nor back."
+  },
+  {
+   "type": "verse",
+   "text": "Then it grows dark around him,\nand darker still, like a grave.\nThere is a dull roaring like a faraway sea.\nFrom high above his head\na voice of thunder, as fierce as a storm,\ncalls out this terrible judgment:"
+  },
+  {
+   "type": "verse",
+   "text": "\"You tyrant, devilish by nature,\ncruel to God and man and beast!\nThe cries and grief of the creatures,\nand your crimes against them,\nhave called you loudly to the judgment seat,\nwhere the torch of vengeance blazes high."
+  },
+  {
+   "type": "verse",
+   "text": "Flee, monster, flee, and from now on,\nfrom now until the end of time,\nbe hunted by hell and the devil himself,\na terror to the princes of every age\nwho, to serve their wicked pleasure,\nspare neither the Creator nor His creatures!\""
+  },
+  {
+   "type": "verse",
+   "text": "A sulphur-yellow flash of lightning\nruns round the leaves of the forest.\nFear trickles through his marrow and bones;\nhe feels so stifled, so dull and deaf!\nCold horror blows against him,\nand a roaring storm follows at his neck."
+  },
+  {
+   "type": "verse",
+   "text": "The horror blows, the storm roars,\nand up out of the earth, whoo!\ncomes a huge black fist;\nit opens wide, it clenches like a claw;\nwhoo! it reaches to seize him by the head;\nwhoo! his face is twisted round to his back."
+  },
+  {
+   "type": "verse",
+   "text": "It flickers and flames all round him,\nwith green and blue and red glow;\na sea of fire surges round him,\nswarming with the brood of hell.\nSuddenly a thousand hounds of hell\nrush up from the pit, loudly urged on."
+  },
+  {
+   "type": "verse",
+   "text": "He tears himself away through wood and field\nand flees, howling with grief and woe;\nbut through the whole wide world\nhell rushes barking after him,\nby day deep through the clefts of the earth,\nat midnight high through the air."
+  },
+  {
+   "type": "verse",
+   "text": "His face stays twisted to his back,\nhowever fast his flight pulls him on.\nHe must watch the monsters,\nloudly urged on by the evil spirit;\nhe must watch the gnashing and the gaping\nof the jaws that snap at him."
+  },
+  {
+   "type": "verse",
+   "text": "This is the hunt of the Wild Host,\nwhich will last until the Day of Judgment,\nand often still rushes past a wicked man\nat night, to his terror and dread.\nMany a huntsman could tell of it,\nif he did not have to keep silent."
+  },
+  {
+   "type": "note",
+   "text": "Translated by Claude (Anthropic), 2026, from the German of Gottfried August Bürger's ballad \"Der wilde Jäger\" (late 18th century), as published in the TextGrid Digital Library and collected in the German Poetry Corpus (Deutsches Lyrik Korpus)."
+  }
+ ],
+ "workId": "german-wild-hunt",
+ "wordCount": 1617,
+ "readingMinutes": 9,
+ "readingLevel": {
+  "fkGrade": 3.6,
+  "avgSentenceWords": 12.9,
+  "band": "middle"
+ },
+ "simplifiedId": "myths-german--the-wild-huntsman"
+}
