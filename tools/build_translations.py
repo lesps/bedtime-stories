@@ -13,6 +13,8 @@ story, named `<storyId>.md`; the collection is the id's prefix:
     ---
     ## Cicero, On Divination 2.50–51      -> heading block naming the passage
     Note: context for the passage         -> note block
+    > a line of verse                     -> verse block (every line of the paragraph starts
+    > and the next line                      with "> "; line breaks are kept)
     Paragraphs of translation, separated by blank lines.
 
 The story ends with a note naming the translator and the editions translated from. Run before
@@ -58,6 +60,13 @@ COLLECTIONS = {
         "author": "Snorri Sturluson and the Eddic poets",
         "originalLanguage": "is",
     },
+    "german-sources": {
+        **COMMON,
+        "id": "german-sources",
+        "title": "Legends from the German Poets",
+        "author": "Clemens Brentano, Heinrich Heine and Gottfried August Bürger",
+        "originalLanguage": "de",
+    },
 }
 
 
@@ -68,6 +77,10 @@ def parse(path):
     meta = dict(line.split(": ", 1) for line in m.group(1).splitlines() if line.strip())
     blocks = []
     for para in re.split(r"\n\s*\n", m.group(2)):
+        lines = [line.strip() for line in para.strip().splitlines()]
+        if lines and all(line.startswith(">") for line in lines):
+            blocks.append({"type": "verse", "text": "\n".join(line[1:].strip() for line in lines)})
+            continue
         text = re.sub(r"\s*\n\s*", " ", para).strip()
         if not text:
             continue

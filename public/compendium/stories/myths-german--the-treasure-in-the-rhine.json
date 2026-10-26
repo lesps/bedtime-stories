@@ -1,0 +1,103 @@
+{
+ "id": "myths-german--the-treasure-in-the-rhine",
+ "collectionId": "myths-german",
+ "order": 9,
+ "title": "The Treasure in the Rhine",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Kriemhild's sorrow for Siegfried was too great to tell. Peace never came back to Burgundy again."
+  },
+  {
+   "type": "p",
+   "text": "The old stories say that the people built a great fire out in the meadows by the river. They covered it with shining shields and golden helmets, with silks and furs and jewels, and sweet spices. Then they laid Siegfried on it, with his sword Balmung beside him. And the noblest of his friends lit the fire, and the flames leaped up to the sky, and everyone cried out to the gods in their sorrow. Some stories say that Queen Brunhild died then too, of a broken heart, and was laid beside Siegfried. Other stories say that Siegfried was buried in the ground, and the whole Rhineland wept for him."
+  },
+  {
+   "type": "p",
+   "text": "People in the city of Worms, where the kings of Burgundy lived, remember Siegfried to this day. For many years the city's flag had a picture of the dragon he killed. There is a meadow near the town called Kriemhild's Rose Garden. And not far away is a hill called Drachenfels, the Dragon's Rock, where some people say Siegfried fought Fafnir."
+  },
+  {
+   "type": "p",
+   "text": "But what happened to the dwarf's treasure?"
+  },
+  {
+   "type": "p",
+   "text": "Kriemhild wanted to go home to the Land of the Nibelungs. But her old mother, Queen Ute, begged her to stay, and so did her two kind brothers, Gernot and Giselher. So she stayed. But for three years she would not speak one word to King Gunther. And she hated Hagen more than words can say. But Hagen did not care. \"It wasn't me,\" he said. \"It was the Norns, who decided what would happen.\""
+  },
+  {
+   "type": "p",
+   "text": "King Gunther was very unhappy. He had terrible dreams every night. \"Help me, Hagen,\" he said, \"or I will go mad with sadness.\""
+  },
+  {
+   "type": "p",
+   "text": "\"There is one thing that could make us happy again,\" said Hagen. \"Siegfried's treasure, the treasure of the Nibelungs. It belongs to Kriemhild now. If you could only make friends with her, I am sure she would let you bring it here.\""
+  },
+  {
+   "type": "p",
+   "text": "So Gunther asked his brothers to speak to Kriemhild for him. At last she agreed to see him. And when she saw how thin and grey and sorry he was, she forgave him. Gunther promised never to hurt her again."
+  },
+  {
+   "type": "p",
+   "text": "A long time afterwards, he said, \"Dear sister, why don't we bring the treasure here, where it will be useful to you?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Do what you think best,\" said Kriemhild. \"Only remember your promise.\""
+  },
+  {
+   "type": "p",
+   "text": "So eight thousand men sailed across the sea to the Land of the Nibelungs, with Gernot and Giselher leading them. They showed the people there Kriemhild's ring, and the people welcomed them, because they loved Kriemhild."
+  },
+  {
+   "type": "p",
+   "text": "But Alberich the dwarf, who still guarded the treasure in his mountain, was sad to give it up. \"If only we still had our magic cloak, which Siegfried took from us,\" he said, \"the treasure would never leave us. But it is the queen's command, and we must obey.\" So he gave them the keys."
+  },
+  {
+   "type": "p",
+   "text": "For four days and four nights they carried the treasure down to the sea in great wagons. Then they sailed home to Worms. Many of Alberich's little elves came too, because they could not bear to be apart from their treasure. And people say that hidden among the gold and jewels was a magic Wishing Rod, which could make whoever owned it the master of the whole world."
+  },
+  {
+   "type": "p",
+   "text": "Kriemhild kept the keys herself. And she gave the gold away to everyone who needed it. She fed the hungry, and gave clothes to the poor, and took care of the sick, and everybody loved her."
+  },
+  {
+   "type": "p",
+   "text": "But Hagen whispered to Gunther, \"It's dangerous to let your sister have so much gold. The people all love her more than you. One day she will take your kingdom.\""
+  },
+  {
+   "type": "p",
+   "text": "\"No,\" said Gunther. \"I have done enough wrong already. And I promised never to hurt her again.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Then let it be my fault,\" said Hagen. And he went and took the keys from Kriemhild by force."
+  },
+  {
+   "type": "p",
+   "text": "When Gernot and Giselher heard about it, they were very angry, and they promised to help their sister get her treasure back. But while they were away, Hagen had all the treasure carried down to the river Rhine, and he sank it deep, deep under the water. Then he ran away and hid in the mountains in the south, because he was afraid of what would happen to him."
+  },
+  {
+   "type": "p",
+   "text": "And that was the end of the dwarf Andvari's treasure, with the curse on it, that had brought so much trouble to everyone who owned it. Some people say it is still lying at the bottom of the Rhine."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of James Baldwin's “How the Hoard Was Brought to Burgundy” in The Story of Siegfried (1882). The original is listed under Other versions."
+  }
+ ],
+ "workId": "german-nibelung-rhine",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "baldwin-siegfried--how-the-hoard-was-brought-to-burgundy",
+ "wordCount": 802,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 4.7,
+  "avgSentenceWords": 12.7,
+  "band": "middle"
+ }
+}

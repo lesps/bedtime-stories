@@ -1,0 +1,171 @@
+{
+ "id": "german-sources--the-lorelei",
+ "collectionId": "german-sources",
+ "order": 1,
+ "title": "The Lorelei",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "The Lorelei is not an old folk tale. The poet Clemens Brentano made her up for a ballad in his novel Godwi (1801), naming her after the Lorelei, a tall rock above a narrow, dangerous bend of the Rhine where many boats were wrecked. About twenty years later Heinrich Heine wrote the poem that made her famous, and people began to tell her story as if it were a very old legend."
+  },
+  {
+   "type": "heading",
+   "text": "Clemens Brentano, \"At Bacharach on the Rhine\" (1801)"
+  },
+  {
+   "type": "verse",
+   "text": "At Bacharach on the Rhine\nthere lived a sorceress;\nshe was so fair and lovely\nand carried many hearts away."
+  },
+  {
+   "type": "verse",
+   "text": "She brought to ruin many\nof the men for miles around;\nfrom the bonds of love she wove\nthere was no escape again."
+  },
+  {
+   "type": "verse",
+   "text": "The bishop had her summoned\nbefore the court of the church,\nand had to grant her mercy,\nso lovely was her form."
+  },
+  {
+   "type": "verse",
+   "text": "He spoke to her, much moved:\n\"You poor Lore Lay!\nWho was it led you astray\ninto wicked sorcery?\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Lord Bishop, let me die;\nI am weary of my life,\nfor every man must come to ruin\nwho looks into my eyes."
+  },
+  {
+   "type": "verse",
+   "text": "My eyes are two flames,\nmy arm a magic staff;\noh, lay me in the flames!\nOh, break the staff on me!\""
+  },
+  {
+   "type": "note",
+   "text": "In old German courts, a judge broke a staff in two when he sentenced someone to death."
+  },
+  {
+   "type": "verse",
+   "text": "\"I cannot condemn you\nuntil you first confess to me\nwhy in these same flames\nmy own heart burns already."
+  },
+  {
+   "type": "verse",
+   "text": "I cannot break the staff,\nyou lovely Lore Lay!\nFor then I would have to break\nmy own heart in two.\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Lord Bishop, do not mock\npoor me so cruelly,\nbut pray instead for mercy\nfor me from our dear God."
+  },
+  {
+   "type": "verse",
+   "text": "I may not live any longer,\nI love no one any more;\nyou are to give me death,\nand that is why I came to you."
+  },
+  {
+   "type": "verse",
+   "text": "My sweetheart has betrayed me,\nhas turned away from me,\nhas gone away from here,\naway to a foreign land."
+  },
+  {
+   "type": "verse",
+   "text": "Eyes gentle and wild,\ncheeks red and white,\nwords quiet and mild:\nthat is my magic circle."
+  },
+  {
+   "type": "verse",
+   "text": "I myself must perish in it;\nmy heart aches so;\nI could die of the pain\nwhen I see my own face."
+  },
+  {
+   "type": "verse",
+   "text": "So let me have my justice,\nlet me die as a Christian;\nfor everything must vanish,\nbecause he is not with me.\""
+  },
+  {
+   "type": "verse",
+   "text": "He sends for three knights:\n\"Take her to the convent.\nGo, Lore! To God I commend\nyour bewitched mind."
+  },
+  {
+   "type": "verse",
+   "text": "You shall become a little nun,\na little nun in black and white;\nprepare yourself on earth\nfor your journey into death.\""
+  },
+  {
+   "type": "verse",
+   "text": "So to the convent they rode,\nthe knights, all three,\nand sad, there in the middle,\nthe lovely Lore Lay."
+  },
+  {
+   "type": "verse",
+   "text": "\"O knights, let me climb\nup onto this great rock;\nI want to look once more\ntoward my beloved's castle."
+  },
+  {
+   "type": "verse",
+   "text": "I want to look once more\ndown into the deep Rhine,\nand then go to the convent\nand be a maiden of God.\""
+  },
+  {
+   "type": "verse",
+   "text": "The rock is so sheer,\nso steep is its face,\nyet she climbs up and up\nuntil she stood on top."
+  },
+  {
+   "type": "verse",
+   "text": "The three knights tie\ntheir horses down below\nand climb on and on,\nup onto the rock as well."
+  },
+  {
+   "type": "verse",
+   "text": "The maiden said: \"There goes\na little boat upon the Rhine;\nthe one who stands in the little boat,\nhe must be my beloved."
+  },
+  {
+   "type": "verse",
+   "text": "My heart grows so glad,\nhe must be my beloved!\"\nThen she leans far over\nand falls into the Rhine."
+  },
+  {
+   "type": "verse",
+   "text": "The knights had to die;\nthey could not get down;\nthey all had to perish,\nwith no priest and no grave."
+  },
+  {
+   "type": "verse",
+   "text": "Who sang this song?\nA boatman on the Rhine,\nand always it has echoed\nfrom the Three Knights' Rock:"
+  },
+  {
+   "type": "verse",
+   "text": "Lore Lay!\nLore Lay!\nLore Lay!"
+  },
+  {
+   "type": "heading",
+   "text": "Heinrich Heine, \"The Lorelei\" (1824)"
+  },
+  {
+   "type": "verse",
+   "text": "I do not know what it means\nthat I am so sad;\na tale from olden times\nwill not leave my mind."
+  },
+  {
+   "type": "verse",
+   "text": "The air is cool and darkening,\nand quietly flows the Rhine;\nthe peak of the mountain sparkles\nin the evening sun."
+  },
+  {
+   "type": "verse",
+   "text": "The fairest of maidens is sitting\nup there, wonderful to see;\nher golden jewels are glittering,\nshe combs her golden hair."
+  },
+  {
+   "type": "verse",
+   "text": "She combs it with a golden comb\nand sings a song as she combs,\na song that has a wondrous,\nmighty melody."
+  },
+  {
+   "type": "verse",
+   "text": "The boatman in his little boat\nis seized with a wild ache;\nhe does not see the rocky reefs,\nhe only looks up to the heights."
+  },
+  {
+   "type": "verse",
+   "text": "I think the waves will swallow\nthe boatman and his boat at last;\nand that, with her singing,\nis what the Lorelei has done."
+  },
+  {
+   "type": "note",
+   "text": "Translated by Claude (Anthropic), 2026, from the German of Clemens Brentano's ballad in his novel Godwi (1801) and Heinrich Heine's \"Die Lore-Ley\" (1824), as published in the TextGrid Digital Library and collected in the German Poetry Corpus (Deutsches Lyrik Korpus)."
+  }
+ ],
+ "workId": "german-lorelei",
+ "wordCount": 809,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 5.2,
+  "avgSentenceWords": 16.7,
+  "band": "middle"
+ },
+ "simplifiedId": "myths-german--the-lorelei"
+}

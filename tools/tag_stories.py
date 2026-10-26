@@ -20,6 +20,7 @@ CULTURES = [
     ("etruscan", "Etruscan"),
     ("norse", "Old Norse"),
     ("german", "German"),
+    ("swiss", "Swiss"),
     ("danish", "Danish"),
     ("french", "French"),
     ("norwegian", "Norwegian"),
@@ -81,6 +82,11 @@ COLLECTION_CULTURE = {
     "lang-red": "norse",
     "norse-sources": "norse",
     "myths-norse": "norse",
+    "baldwin-siegfried": "german",
+    "browning-pied-piper": "german",
+    "german-sources": "german",
+    "myths-german": "german",
+    "baldwin-fifty-famous": "english",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, and the
@@ -92,6 +98,8 @@ STORY_CULTURE = {
     "bulfinch-fable--vertumnus-and-pomona": "roman",
     "bulfinch-fable--cupid-and-psyche": "roman",
     "bulfinch-fable--the-sibyl": "roman",
+    "baldwin-fifty-famous--the-story-of-william-tell": "swiss",
+    "baldwin-fifty-famous--arnold-winkelried": "swiss",
 }
 
 # Myth collections: every story gets the gods-heroes theme.
@@ -112,6 +120,7 @@ MYTH_COLLECTIONS = {
     "lang-red",
     "norse-sources",
     "myths-norse",
+    "baldwin-siegfried",
 }
 
 ORIGIN_CULTURE = [
@@ -271,6 +280,27 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "blackwell-prose-edda--the-punishment-of-loki": {"add": ["tricksters"]},
     "thorpe-elder-edda--the-vala-s-prophecy": {"add": ["how-things-began"], "remove": ["ghosts"]},
     "myths-norse--what-the-wise-woman-saw": {"add": ["how-things-began"], "remove": ["quests"]},
+    # German shelf: the Siegfried retellings are hero legends; Baldwin's chapters get gods-heroes
+    # from MYTH_COLLECTIONS.
+    "myths-german--siegfried-forges-a-sword": {"add": ["gods-heroes"]},
+    "myths-german--siegfried-and-the-horse-greyfell": {"add": ["gods-heroes"]},
+    "myths-german--the-curse-of-the-dwarf-s-gold": {"add": ["gods-heroes"]},
+    "myths-german--siegfried-and-the-dragon-fafnir": {"add": ["gods-heroes"]},
+    "myths-german--siegfried-wakes-brunhild": {"add": ["gods-heroes"]},
+    "myths-german--siegfried-and-the-nibelung-treasure": {"add": ["gods-heroes"]},
+    "myths-german--the-death-of-siegfried": {"add": ["gods-heroes"]},
+    "myths-german--siegfried-helps-king-gunther": {"add": ["gods-heroes"], "remove": ["gentle"]},
+    "myths-german--the-treasure-in-the-rhine": {"add": ["gods-heroes", "greed-pride"]},
+    "baldwin-siegfried--how-gunther-outwitted-brunhild": {"remove": ["how-things-began"]},
+    "baldwin-siegfried--how-they-hunted-in-the-odenwald": {"remove": ["how-things-began"]},
+    "baldwin-siegfried--how-the-hoard-was-brought-to-burgundy": {"add": ["greed-pride"], "remove": ["how-things-began"]},
+    "german-sources--the-wild-huntsman": {"add": ["ghosts", "greed-pride"], "remove": ["fools"]},
+    "myths-german--the-wild-huntsman": {"add": ["ghosts", "greed-pride"], "remove": ["gentle", "quests"]},
+    "myths-german--rubezahl-spirit-of-the-mountains": {"remove": ["monsters", "quests"]},
+    "browning-pied-piper--the-pied-piper-of-hamelin": {"add": ["magic", "greed-pride"]},
+    "myths-german--the-pied-piper-of-hamelin": {"add": ["magic", "greed-pride"], "remove": ["gentle"]},
+    "baldwin-fifty-famous--the-story-of-william-tell": {"add": ["underdogs"]},
+    "baldwin-fifty-famous--arnold-winkelried": {"add": ["underdogs"], "remove": ["gentle", "greed-pride"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

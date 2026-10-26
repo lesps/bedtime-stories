@@ -7,6 +7,24 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 6 (data only): the German and Swiss shelf. James Baldwin's _The Story of
+  Siegfried_ (1882): nine of its twenty Adventures (the forging of Balmung, Greyfell, the curse of
+  Andvari's gold, Fafnir, Brunhild, the Nibelung hoard, the wooing of Brunhild for Gunther,
+  Siegfried's death, and the hoard sunk in the Rhine with Baldwin's After Word), with note blocks
+  bridging the chapters left out; the death is `mature-themes`. Robert Browning's "The Pied Piper
+  of Hamelin" with Kate Greenaway's 1888 pictures (35 images). "The Story of William Tell" and
+  "Arnold Winkelried" from Baldwin's _Fifty Famous Stories Retold_ (1896), with the Tell picture;
+  both read at early/middle level and get no retelling. Claude's own verse translations, from the
+  TextGrid texts in the German Poetry Corpus, of Brentano's Lore Lay ballad and Heine's "Lorelei"
+  (labelled as a literary legend) and of Bürger's "The Wild Huntsman"; both are `mature-themes`.
+  Thirteen retellings in the new _German Legends, Simply Told_ (grade 2.3–4.9), including the two
+  ballads (retold because their originals are hidden by default) and Rübezahl, which has no
+  public-domain text available here, so it is retold from the legend as Musäus told it and has
+  no original (`adaptation: "retold"`, no `adaptedFrom`). Baldwin's Fafnir chapter and its
+  retelling share `norse-sigurd-fafnir` with Lang's Sigurd. New culture `swiss` (16 in all). New
+  tools `extract_baldwin.py` and `extract_browning.py`; `build_translations.py` gains
+  `german-sources` and verse blocks; `build_simplified.py` gains `myths-german` and unsourced
+  retellings (`basedOn` front matter).
 - Mythology, part 5 (data only): the Norse shelf. Benjamin Thorpe's _Elder Edda_ (1866): the
   Völuspá, Odin's Rune-Song, and the lays of Hymir, Thrym, Alvis, Skirnir, Baldr's dreams and
   Fafnir. I. A. Blackwell's _Prose Edda_ (1847): fourteen stories from creation and Yggdrasil to

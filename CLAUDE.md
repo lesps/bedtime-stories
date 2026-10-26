@@ -47,12 +47,15 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           extract_bulfinch.py: The Age of Fable; extract_kingsley.py: The Heroes;
                           extract_hesiod.py: Theogony + Homeric Hymns; extract_church.py: Stories
                           from Virgil and Stories from Livy; extract_macaulay.py: "Horatius";
-                          extract_eddas.py: Thorpe's Elder Edda, Blackwell's Prose Edda, Lang's Sigurd)
+                          extract_eddas.py: Thorpe's Elder Edda, Blackwell's Prose Edda, Lang's Sigurd;
+                          extract_baldwin.py: The Story of Siegfried and Fifty Famous Stories Retold;
+                          extract_browning.py: "The Pied Piper of Hamelin" with Greenaway's pictures)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
                           source (one story per file; `## Author, Work ref` headings per passage)
-tools/build_translations.py builds the `greek-sources` / `latin-sources` / `norse-sources` collections
+tools/build_translations.py builds the `greek-sources` / `latin-sources` / `norse-sources` /
+                          `german-sources` collections (`> ` lines become verse blocks)
 tools/readability.py      Flesch-Kincaid grade, words per sentence, reading band
 tools/compendium_io.py    shared helpers: write story files and upsert a collection in index.json
 tools/tag_stories.py      culture + theme tags → public/compendium/tags.json (rules + OVERRIDES)
@@ -93,8 +96,8 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 795 stories, 28 collections, ~8 MB
-of story JSON and ~31 MB of illustrations. Tests derive counts from `index.json`; never hardcode
+failures throw `DataError` (`kind: network | http | invalid`). 822 stories, 33 collections, ~8 MB
+of story JSON and ~32 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
 **Fields in the data that the app doesn't read yet.** zod strips unknown keys, so these are safe to
@@ -108,7 +111,9 @@ ship ahead of the code; they appear on story files and, where marked, on index e
 - `adaptedFrom` (index + story), on a retelling: the original's id. Story files also carry
   `adaptation: "simplified"` and `adaptedBy`. Original and retelling share a `workId`, so today
   the reader already links them under Other versions, and the retelling ends with a `note` block
-  naming the original.
+  naming the original. A retelling of a legend with no usable public-domain text (Rübezahl;
+  ‡ in the expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end note says
+  what it was retold from.
 
 Intended behaviour, not yet built: the library, search, collections and the picker show the
 retelling and hide any story with a `simplifiedId`; the reader of a retelling offers "Read the
@@ -117,9 +122,9 @@ is `advanced` or it runs over 20 minutes.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-15 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
-Bulfinch's Roman sections `roman` and Tages `etruscan`) and 18 themes (`gods-heroes` comes from
-the `MYTH_COLLECTIONS` rule). Regenerate with `python3 tools/tag_stories.py` after any data change.
+16 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+Bulfinch's Roman sections `roman`, Tages `etruscan` and Baldwin's Tell and Winkelried `swiss`)
+and 18 themes (`gods-heroes` comes from the `MYTH_COLLECTIONS` rule). Regenerate with `python3 tools/tag_stories.py` after any data change.
 
 ## Behaviour rules
 
@@ -249,13 +254,14 @@ fine)`.
   `python3 tools/build_simplified.py && python3 tools/tag_stories.py`; never hand-edit the JSON.
   A retelling inherits its original's `flags` unless its front matter sets `flags:` (e.g. `none`
   for an Orpheus that leaves out his violent death). Retellings go in `myths-greek`,
-  `myths-roman` or `myths-norse` by file-name prefix; their end note credits the original's
-  author, or its translator for a collection whose contributor is "Translated by …" (Hesiod and
-  the Hymns, the two Eddas, and Claude's own translations).
+  `myths-roman`, `myths-norse` or `myths-german` by file-name prefix; their end note credits the
+  original's author, or its translator for a collection whose contributor is "Translated by …"
+  (Hesiod and the Hymns, the two Eddas, and Claude's own translations).
 - Where no public-domain English source exists, Claude translates the ancient passages itself
-  (`tools/translations/*.md`, from the Perseus Digital Library's Greek and Latin texts and the
-  heimskringla.no Old Norse texts in the Classical Language Toolkit corpus; the editions are
-  named in each story's end note). Rebuild with
+  (`tools/translations/*.md`, from the Perseus Digital Library's Greek and Latin texts, the
+  heimskringla.no Old Norse texts in the Classical Language Toolkit corpus, and the TextGrid
+  German poems in the German Poetry Corpus, github.com/tnhaider/DLK; the editions are named in
+  each story's end note). Rebuild with
   `python3 tools/build_translations.py && python3 tools/build_simplified.py && python3 tools/tag_stories.py`
   (translations first: rebuilding a collection drops the `simplifiedId` links until
   `build_simplified.py` runs again).
