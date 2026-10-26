@@ -1,0 +1,69 @@
+{
+ "id": "blackwell-prose-edda--night-and-day-sun-and-moon",
+ "collectionId": "blackwell-prose-edda",
+ "order": 2,
+ "title": "Night and Day, Sun and Moon",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "Of Night and Day"
+  },
+  {
+   "type": "p",
+   "text": "\"A giant called Njorvi,\" continued Har, \"who dwelt in Jotunheim, had a daughter called Night (Nott) who, like all her race, was of a dark and swarthy complexion. She was first wedded to a man called Naglfari, and had by him a son named Aud, and afterwards to another man called Annar, by whom she had a daughter called Earth (Jord). She then espoused Delling, of the Æsir race, and their son was Day, (Dagr) a child light and beauteous like his father. Then took All-father, Night, and Day, her son, and gave them two horses and two cars, and set them up in the heavens that they might drive successively one after the other, each in twelve hours' time, round the world. Night rides first on her horse called Hrimfaxi, that every morn, as he ends his course, bedews the earth with the foam that falls from his bit. The horse made use of by Day is named Skinfaxi, from whose mane is shed light over the earth and the heavens.\""
+  },
+  {
+   "type": "heading",
+   "text": "Of the Sun and Moon"
+  },
+  {
+   "type": "p",
+   "text": "\"How doth All-father regulate the course of the sun and moon?\" asked Gangler."
+  },
+  {
+   "type": "p",
+   "text": "\"There was formerly a man,\" replied Har, \"named Mundilfari, who had two children so lovely and graceful that he called the male, Mani (moon), and the female, Sol (sun), who espoused the man named Glenur. But the gods being incensed at Mundilfari's presumption, took his children and placed them in the heavens, and let Sol drive the horses that draw the car of the sun, which the gods had made to give light to the world out of the sparks that flew from Muspellheim. These horses are called Arvak and Alsvid, and under their withers the gods placed two skins filled with air to cool and refresh them, or, according to some ancient traditions, a refrigerant substance called isarnkul. Mani was set to guide the moon in his course, and regulate his increasing and waning aspect. One day he carried off from the earth two children, named Bil and Hjuki, as they were returning from the spring called Byrgir, carrying between them the bucket called Saegr, on the pole Simul. Vidfinn was the father of these children, who always follow Mani (the moon), as we may easily observe even from the earth.\""
+  },
+  {
+   "type": "heading",
+   "text": "Of the Wolves That Pursue the Sun and Moon"
+  },
+  {
+   "type": "p",
+   "text": "\"But the sun,\" said Gangler, speeds at such a rate as if she feared that some one was pursuing her for her destruction.\""
+  },
+  {
+   "type": "p",
+   "text": "\"And well she may,\" replied Har, \"for he that seeks her is not far behind, and she has no way to escape than to run before him.\""
+  },
+  {
+   "type": "p",
+   "text": "\"But who is he,\" asked Gangler, \"that causes her this anxiety?\""
+  },
+  {
+   "type": "p",
+   "text": "\"There are two wolves,\" answered Har; \"the one called Skoll pursues the sun, and it is he that she fears, for he shall one day overtake and devour her; the other, called Hati, the son of Hrodvitnir, runs before her, and as eagerly pursues the moon that will one day be caught by him.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Whence come these wolves?\" asked Gangler."
+  },
+  {
+   "type": "p",
+   "text": "\"A hag,\" replied Har, \"dwells in a wood, to the eastward of Midgard, called Jarnvid, (the Iron Wood,) which is the abode of a race of witches called Jarnvidjur. This old hag is the mother of many gigantic sons, who are all of them shaped like wolves, two of whom are the wolves thou askest about. There is one of that race, who is said to be the most formidable of all, called Managarm: he will be filled with the life-blood of men who draw near their end, and will swallow up the moon, and stain the heavens and the earth with blood. Then shall the sun grow dim, and the winds howl tumultuously to and fro.\""
+  }
+ ],
+ "workId": "norse-sun-moon",
+ "wordCount": 633,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 9.7,
+  "avgSentenceWords": 25.8,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--the-sun-and-moon-chased-by-wolves"
+}

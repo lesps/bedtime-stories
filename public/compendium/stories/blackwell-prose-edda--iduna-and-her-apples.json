@@ -1,0 +1,29 @@
+{
+ "id": "blackwell-prose-edda--iduna-and-her-apples",
+ "collectionId": "blackwell-prose-edda",
+ "order": 12,
+ "title": "Iduna and Her Apples",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "\"Once,\" he said, \"when Odin, Loki, and Hoenir went on a journey, they came to a valley where a herd of oxen were grazing, and being sadly in want of provisions did not scruple to kill one for their supper. Vain, however, were their efforts to boil the flesh; they found it, every time they took off the lid of the kettle, as raw as when first put in. While they were endeavouring to account for this singular circumstance a noise was heard above them, and on looking up they beheld an enormous eagle perched on the branch of an oak tree. 'If ye are willing to let me have my share of the flesh,' said the eagle, 'it shall soon be boiled;' and on their assenting to this proposal, it flew down and snatched up a leg and two shoulders of the ox—a proceeding which so incensed Loki, that he laid hold of a large stock, and made it fall pretty heavily on the eagle's back. It was, however, not an eagle that Loki struck, but the renowned giant Thjassi, clad in his eagle plumage. Loki soon found this out to his cost, for while one end of the stock stuck fast to the eagle's back, he was unable to let go his hold of the other end, and was consequently trailed by the eagle-clad giant over rocks and forests, until he was almost torn to pieces. Loki in this predicament began to sue for peace, but Thjassi told him that he should never be released from his hold until he bound himself by a solemn oath to bring Iduna and her apples out of Asgard. Loki very willingly gave his oath to effect this object, and went back in a piteous plight to his companions."
+  },
+  {
+   "type": "p",
+   "text": "\"On his return to Asgard, Loki told Iduna that, in a forest at a short distance from the celestial residence, he had found apples growing which he thought were of a much better quality than her own, and that at all events it was worth while making a comparison between them. Iduna, deceived by his words, took her apples, and went with him into the forest, but they had no sooner entered it than Thjassi, clad in his eagle-plumage, flew rapidly towards them, and catching up Iduna, carried her treasure off with him to Jotunheim. The gods being thus deprived of their renovating apples, soon became wrinkled and grey; old age was creeping fast upon them, when they discovered that Loki had been, as usual, the contriver of all the mischief that had befallen them. They therefore threatened him with condign punishment if he did not instantly hit upon some expedient for bringing back Iduna and her apples to Asgard. Loki having borrowed from Freyja her falcon-plumage, flew to Jotunheim, and finding that Thjassi was out at sea fishing, lost no time in changing Iduna into a sparrow and flying off with her; but when Thjassi returned and became aware of what had happened, he donned his eagle-plumage, and flew after them. When the Æsir saw Loki approaching, holding Iduna transformed into a sparrow between his claws, and Thjassi with his outspread eagle wings ready to overtake him, they placed on the walls of Asgard bundles of chips, which they set fire to the instant that Loki had flown over them; and as Thjassi could not stop his flight, the fire caught his plumage, and he thus fell into the power of the Æsir, who slew him within the portals of the celestial residence."
+  }
+ ],
+ "workId": "norse-idun",
+ "wordCount": 591,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 17.6,
+  "avgSentenceWords": 42.6,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--idun-s-golden-apples"
+}

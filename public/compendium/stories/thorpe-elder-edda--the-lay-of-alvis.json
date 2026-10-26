@@ -1,0 +1,165 @@
+{
+ "id": "thorpe-elder-edda--the-lay-of-alvis",
+ "collectionId": "thorpe-elder-edda",
+ "order": 5,
+ "title": "The Lay of Alvis",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Alvis: The benches they are decking, now shall the bride with me bend her way home. That beyond my strength I have hurried will to every one appear: at home naught shall disturb my quiet."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: What man is this? Why about the nose art thou so pale? Hast thou last night with corpses lain? To me thou seemst to bear resemblance to the Thursar. Thou art not born to carry off a bride."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Alvis I am named, beneath the earth I dwell, under the rock I own a place. The lord of chariots I am come to visit. A promise once confirmed let no one break."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: I will break it; for o'er the maid I have, as father, greatest power. I was from home when the promise was given thee. Among the gods I the sole giver am."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: What man is this, who lays claim to power over that fair, bright maiden? For far-reaching shafts few will know thee. Who has decked thee with bracelets?"
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Vingthor I am named, wide I have wandered; I am Sidgrani's son: with my dissent thou shalt not that young maiden have, nor that union obtain."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Thy consent I fain would have, and that union obtain. Rather would I possess than be without that snow-white maiden."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: The maiden's love shall not, wise guest! be unto thee denied, if thou of every world canst tell all I desire to know."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Vingthor! thou canst try, as thou art desirous the knowledge of the dwarf to prove. All the nine worlds I have travelled over, and every being known."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis!—for all men's concerns I presume thee, dwarf, to know—how the earth is called, which lies before the sons of men, in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Jord among men 'tis called, but with the Æsir fold; the Vanir call it vega, the Jotuns igroen, the Alfar groandi, the powers supreme aur."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis, etc. how the heaven is called, which is perceptible in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Himinn 'tis called by men; but hlyrnir with the gods; vindofni the Vanir call it, uppheimr the Jotuns, the Alfar fagraræfr, the dwarfs driupansal."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the moon is called, which men see in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Mani 'tis called by men, but mylinn with the gods, hverfanda hvel in Hel they call it, skyndi the Jotuns, but the dwarfs skin; the Alfar name it artali."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the sun is called, which men's sons see in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Sol among men 'tis called, but with the gods sunna, the dwarfs call it Dvalinn's leika, the Jotuns eyglo, the Alfar fagrahvel, the Æsir's sons alskir."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis, etc., how the clouds are called, which with showers are mingled in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Sky they are called by men, but skurvan by the gods; the Vanir call them vindflot, the Jotuns urvan, the Alfar vedrmegin; in Hel they are called hialm hulids."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the wind is called, which widely passes over every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Windr 'tis called by men, but vavudr by the gods, the wide-ruling powers call it gneggiud, the Jotuns oepir, the Alfar dynfari, in Hel they call it hvidudr."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the calm is called, which has to rest in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Logn 'tis called by men, but lægi by the gods, the Vanir call it vindslot, the Jotuns ofhly, the Alfar dagsevi, the Dwarfs call it dags vera."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., what the sea is called, which men row over in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Sær 'tis called by men, but silægia with the gods; the vanir call it vagr, the Jotuns alheimr, the Alfar lagastafr, the Dwarfs call it diupan mar."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the fire is called, which burns before men's sons in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Eldr 'tis called by men, but by the Æsir funi; the Vanir call it vagr, the Jotuns frekr, but the Dwarfs forbrennir; in Hel they call it hrodudr."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the forest is called, which grows for the sons of men in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Vidr 'tis called by men, but vallarfax by the gods, Hel's inmates call it hlidthangr, the Jotuns eldi, the Alfar fagrlimi; the Vanir call it vondr."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the night is called, that Norvi's daughter hight, in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Nott it is called by men, but by the gods niol; the wide-ruling powers call it grima, the Jotuns olios, the Alfar svefngaman; the Dwarfs call it draumniorunn."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the seed is called, which the sons of men sow in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Bygg it is called by men, but by the gods barr, the Vanir call it vaxtr, the Jotuns æti, the Alfar lagastafr; in Hel 'tis hnipinn called."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: Tell me, Alvis! etc., how the beer is called, which the sons of men drink in every world."
+  },
+  {
+   "type": "p",
+   "text": "Alvis: Ol it is called by men, but by the Æsir biorr, the Vanir call it veig, hreina logr the Jotuns, but in Hel 'tis called miodr: Suttung's sons call it sumbl."
+  },
+  {
+   "type": "p",
+   "text": "Vingthor: In one breast I have never found more ancient lore. By great wiles thou hast, I tell thee, been deluded. Thou art above ground, dwarf! at dawn; already in the hall the sun is shining!"
+  }
+ ],
+ "workId": "norse-alviss",
+ "wordCount": 910,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 5.6,
+  "avgSentenceWords": 14.2,
+  "band": "middle"
+ },
+ "simplifiedId": "myths-norse--thor-and-the-clever-dwarf"
+}

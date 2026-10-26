@@ -1,0 +1,161 @@
+{
+ "id": "blackwell-prose-edda--the-ash-yggdrasil",
+ "collectionId": "blackwell-prose-edda",
+ "order": 3,
+ "title": "The Ash Yggdrasil",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "Of the Way That Leads to Heaven"
+  },
+  {
+   "type": "p",
+   "text": "\"I must now ask,\" said Gangler, \"which is the path leading from earth to heaven?\""
+  },
+  {
+   "type": "p",
+   "text": "\"That is a senseless question,\" replied Har, with a smile of derision. \"Hast thou not been told that the gods made a bridge from earth to heaven, and called it Bifrost? Thou must surely have seen it; but, perhaps, thou callest it the rainbow. It is of three hues, and is constructed with more art than any other work. But, strong though it be, it will be broken to pieces when the sons of Muspell, after having traversed great rivers, shall ride over it.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Methinks,\" said Gangler, \"the gods could not have been in earnest to erect a bridge so liable to be broken down, since it is in their power to make whatever they please.\""
+  },
+  {
+   "type": "p",
+   "text": "\"The gods,\" replied Har, \"are not to be blamed on that account; Bifrost is of itself a very good bridge, but there is nothing in nature that can hope to make resistance when the sons of Muspell sally forth to the great combat.\""
+  },
+  {
+   "type": "heading",
+   "text": "The Golden Age"
+  },
+  {
+   "type": "p",
+   "text": "\"What did All-father do after Asgard was made?\" demanded Gangler."
+  },
+  {
+   "type": "p",
+   "text": "\"In the beginning,\" answered Har, \"he appointed rulers, and bade them judge with him the fate of men, and regulate the government of the celestial city. They met for this purpose in a place called Idavoll, which is in the centre of the divine abode. Their first work was to erect a court or hall wherein are twelve seats for themselves, besides the throne which is occupied by All-father. This hall is the largest and most magnificent in the universe, being resplendent on all sides, both within and without, with the finest gold. Its name is Gladsheim. They also erected another hall for the sanctuary of the goddesses. It is a very fair structure, and called by men Vingolf. Lastly they built a smithy, and furnished it with hammers, tongs, and anvils, and with these made all the other requisite instruments, with which they worked in metal, stone and wood, and composed so large a quantity of the metal called gold that they made all their moveables of it. Hence that age was named the Golden Age. This was the age that lasted until the arrival of the women out of Jotunheim, who corrupted it.\""
+  },
+  {
+   "type": "heading",
+   "text": "Origin of the Dwarfs"
+  },
+  {
+   "type": "p",
+   "text": "\"Then the gods, seating themselves upon their thrones, distributed justice, and bethought them how the dwarfs had been bred in the mould of the earth, just as worms are in a dead body. It was, in fact, in Ymir's flesh that the dwarfs were engendered, and began to move and live. At first they were only maggots, but by the will of the gods they at length partook both of human shape and understanding, although they always dwell in rocks and caverns."
+  },
+  {
+   "type": "p",
+   "text": "\"Modsognir and Durin are the principal ones. As it is said in the Voluspa—"
+  },
+  {
+   "type": "verse",
+   "text": "\"'Then went the rulers there,\nAll gods most holy,\nTo their seats aloft,\nAnd counsel together took,\nWho should of dwarfs\nThe race then fashion,\nFrom the livid bones\nAnd blood of the giant."
+  },
+  {
+   "type": "verse",
+   "text": "Modsognir, chief\nOf the dwarfish race,\nAnd Durin too\nWere then created.\nAnd like to men\nDwarfs in the earth\nWere formed in numbers\nAs Durin ordered.'\""
+  },
+  {
+   "type": "heading",
+   "text": "Of the Ash Yggdrasill, Mimir's Well, and the Norns or Destinies"
+  },
+  {
+   "type": "p",
+   "text": "\"Where,\" asked Gangler, \"is the chief or holiest seat of the gods?\""
+  },
+  {
+   "type": "p",
+   "text": "\"It is under the ash Yggdrasill,\" replied Har, \"where the gods assemble every day in council.\""
+  },
+  {
+   "type": "p",
+   "text": "\"What is there remarkable in regard to that place?\" said Gangler."
+  },
+  {
+   "type": "p",
+   "text": "\"That ash,\" answered Jafnhar, \"is the greatest and best of all trees. Its branches spread over the whole world, and even reach above heaven. It has three roots very wide asunder. One of them extends to the Æsir, another to the Frost-giants in that very place where was formerly Ginnungagap, and the third stands over Nifelheim, and under this root, which is constantly gnawed by Nidhogg, is Hvergelmir. But under the root that stretches out towards the Frost-giants there is Mimir's well, in which wisdom and wit lie hidden. The owner of this well is called Mimir. He is full of wisdom, because he drinks the waters of the well from the horn Gjoll every morning. One day All-father came and begged a draught of this water, which he obtained, but was obliged to leave one of his eyes as a pledge for it."
+  },
+  {
+   "type": "p",
+   "text": "\"The third root of the ash is in heaven, and under it is the holy Urdar-fount. 'Tis here that the gods sit in judgment. Every day they ride up hither on horseback over Bifrost, which is called the Æsir Bridge. These are the names of the horses of the Æsir. Sleipnir is the best of them; he has eight legs, and belongs to Odin. The others are Gladr, Gyllir, Glær, Skeidbrimir, Silfrintoppr, Synir, Gils, Falhofnir, Gulltoppr, and Lettfeti. Baldur's horse was burnt with his master's body. As for Thor, he goes on foot, and is obliged every day to wade the rivers called Kormt and OErmt, and two others called Kerlaung."
+  },
+  {
+   "type": "p",
+   "text": "\"Through these shall Thor wade every day, as he fares to the doomstead under Yggdrasill's ash, else the Æsir Bridge would be in flames, and boiling hot would become the holy waters.\" \"But tell me,\" said Gangler, \"does fire burn over Bifrost?\""
+  },
+  {
+   "type": "p",
+   "text": "\"That,\" replied Har, \"which thou seest red in the bow, is burning fire; for the Frost-giants and the Mountain-giants would go up to heaven by that bridge if it were easy for every one to walk over it. There are in heaven many goodly homesteads, and none without a celestial ward. Near the fountain, which is under the ash, stands a very beauteous dwelling, out of which go three maidens, named Urd, Verdandi, and Skuld. These maidens fix the lifetime of all men, and are called Norns. But there are, indeed, many other Norns, for, when a man is born, there is a Norn to determine his fate. Some are known to be of heavenly origin, but others belong to the races of the elves and dwarfs; as it is said—"
+  },
+  {
+   "type": "p",
+   "text": "\"'Methinks the Norns were born far asunder, for they are not of the same race. Some belong to the Æsir, some to the Elves, and some are Dvalin's daughters.\""
+  },
+  {
+   "type": "p",
+   "text": "\"But if these Norns dispense the destinies of men,\" said Gangler, \"they are, methinks, very unequal in their distribution; for some men are fortunate and wealthy, others acquire neither riches nor honours, some live to a good old age, while others are cut off in their prime.\""
+  },
+  {
+   "type": "p",
+   "text": "\"The Norns,\" replied Har, \"who are of a good origin, are good themselves, and dispense good destinies. But those men to whom misfortunes happen ought to ascribe them to the evil Norns.\""
+  },
+  {
+   "type": "p",
+   "text": "\"What more wonders hast thou to tell me,\" said Gangler, \"concerning the ash?\""
+  },
+  {
+   "type": "p",
+   "text": "\"What I have further to say respecting it,\" replied Har, \"is, that there is an eagle perched upon its branches who knows many things: between his eyes sits the hawk called Vedurfolnir. The squirrel named Ratatosk runs up and down the ash, and seeks to cause strife between the eagle and Nidhogg. Four harts run across the branches of the tree, and bite the buds. They are called Dainn, Divalinn, Duneyr, and Durathror. But there are so many snakes with Nidhogg in Hvergelmir that no tongue can recount them.\""
+  },
+  {
+   "type": "p",
+   "text": "\"It is also said that the Norns who dwell by the Urdar-fount draw every day water from the spring, and with it and the clay that lies around the fount sprinkle the ash, in order that its branches may not rot and wither away. This water is so holy that everything placed in the spring becomes as white as the film, within an eggshell. As it is said in the Voluspa—"
+  },
+  {
+   "type": "verse",
+   "text": "\"'An Ash know I standing,\nNamed Yggdrasill,\nA stately tree sprinkled\nWith water the purest;"
+  },
+  {
+   "type": "verse",
+   "text": "Thence come the dewdrops\nThat fall in the dales;\nEver blooming, it stands\nO'er the Urdar-fountain.\"'"
+  },
+  {
+   "type": "p",
+   "text": "\"The dew that falls thence on the earth men call honey-dew, and it is the food of the bees. Two fowls are fed in the Urdar-fount; they are called swans, and from them are descended all the birds of this species.\""
+  },
+  {
+   "type": "heading",
+   "text": "Of the Various Celestial Regions"
+  },
+  {
+   "type": "p",
+   "text": "\"Thou tellest me many wonderful things of heaven,\" said Gangler, \"but what other homesteads are to be seen there?\""
+  },
+  {
+   "type": "p",
+   "text": "\"There are many other fair homesteads there,\" replied Har; \"one of them is named Elf-home (Alfheim), wherein dwell the beings called the Elves of Light; but the Elves of Darkness live under the earth, and differ from the others still more in their actions than in their appearance. The Elves of Light are fairer than the sun, but the Elves of Darkness blacker than pitch. There is also a mansion called Breidablik, which is not inferior to any other in beauty; and another named Glitnir, the wall, columns and beams of which are of ruddy gold, and the roof of silver. There is also the stead called Himinbjorg, that stands on the borders where Bifrost touches heaven, and the stately mansion belonging to Odin, called Valaskjalf, which was built by the gods, and roofed with pure silver, and in which is the throne called Hlidskjalf. When All-father is seated on this throne, he can see over the whole world. On the southern edge of heaven is the most beautiful homestead of all, brighter than the sun itself. It is called Gimli, and shall stand when both heaven and earth have passed away, and good and righteous men shall dwell therein for everlasting ages.\""
+  },
+  {
+   "type": "p",
+   "text": "\"But what will preserve this abode when Surtur's fire consumes heaven and earth?\" asked Gangler."
+  },
+  {
+   "type": "p",
+   "text": "\"We are told,\" replied Har, \"that towards the south there is another heaven above this called Andlang, and again above this a third heaven called Vidblain. In this last, we think Gimli must be seated, but we deem that the Elves of Light abide in it now.\""
+  }
+ ],
+ "workId": "norse-yggdrasil",
+ "wordCount": 1670,
+ "readingMinutes": 9,
+ "readingLevel": {
+  "fkGrade": 7.9,
+  "avgSentenceWords": 20.2,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--yggdrasil-and-odin-s-eye"
+}

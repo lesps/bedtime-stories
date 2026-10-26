@@ -1,0 +1,85 @@
+{
+ "id": "blackwell-prose-edda--the-binding-of-the-wolf-fenrir",
+ "collectionId": "blackwell-prose-edda",
+ "order": 4,
+ "title": "The Binding of the Wolf Fenrir",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "Of Loki and His Progeny"
+  },
+  {
+   "type": "p",
+   "text": "\"There is another deity,\" continued Har, \"reckoned in the number of the Æsir, whom some call the calumniator of the gods, the contriver of all fraud and mischief, and the disgrace of gods and men. His name is Loki or Loptur. He is the son of the giant Farbauti. His mother is Laufey or Nal; his brothers are Byleist and Helblindi. Loki is handsome and well made, but of a very fickle mood, and most evil disposition. He surpasses all beings in those arts called Cunning and Perfidy. Many a time has he exposed the gods to very great perils, and often extricated them again by his artifices. His wife is called Siguna, and their son Nari."
+  },
+  {
+   "type": "p",
+   "text": "\"Loki,\" continued Har, \"has likewise had three children by Angurbodi, a giantess of Jotunheim. The first is the wolf Fenrir; the second Jormungand, the Midgard serpent; the third Hela (Death). The gods were not long ignorant that these monsters continued to be bred up in Jotunheim, and, having had recourse to divination, became aware of all the evils they would have to suffer from them; their being sprung from such a mother was a bad presage, and from such a sire was still worse. All-father therefore deemed it advisable to send one of the gods to bring them to him. When they came he threw the serpent into that deep ocean by which the earth is engirdled. But the monster has grown to such an enormous size that, holding his tail in his mouth, he encircles the whole earth. Hela he cast into Nifelheim, and gave her power over nine worlds (regions), into which she distributes those who are sent to her, that is to say, all who die through sickness or old age. Here she possesses a habitation protected by exceedingly high walls and strongly barred gates. Her hall is called Elvidnir; Hunger is her table; Starvation, her knife; Delay, her man; Slowness, her maid; Precipice, her threshold; Care, her bed; and Burning Anguish forms the hangings of her apartments. The one half of her body is livid, the other half the colour of human flesh. She may therefore easily be recognized; the more so, as she has a dreadfully stern and grim countenance."
+  },
+  {
+   "type": "p",
+   "text": "\"The wolf Fenrir was bred up among the gods; but Tyr alone had the daring to go and feed him. Nevertheless, when the gods perceived that he every day increased prodigiously in size, and that the oracles warned them that he would one day become fatal to them, they determined to make a very strong iron fetter for him, which they called Læding. Taking this fetter to the wolf, they bade him try his strength on it. Fenrir, perceiving that the enterprise would not be very difficult for him, let them do what they pleased, and then, by great muscular exertion, burst the chain and set himself at liberty. The gods, having seen this, made another fetter, half as strong again as the former, which they called Dromi, and prevailed on the wolf to put it on, assuring him that, by breaking this, he would give an undeniable proof of his vigour."
+  },
+  {
+   "type": "p",
+   "text": "\"The wolf saw well enough that it would not be so easy to break this fetter, but finding at the same time that his strength had increased since he broke Læding, and thinking that he could never become famous without running some risk, voluntarily submitted to be chained. When the gods told him that they had finished their task, Fenrir shook himself violently, stretched his limbs, rolled on the ground, and at last burst his chains, which flew in pieces all around him. He then freed himself from Dromi, which gave rise to the proverb, 'to get loose out of Læding, or to dash out of Dromi,' when anything is to be accomplished by strong efforts."
+  },
+  {
+   "type": "heading",
+   "text": "Binding the Wolf Fenir"
+  },
+  {
+   "type": "p",
+   "text": "\"After this, the gods despaired of ever being able to bind the wolf; wherefore All-father sent Skirnir, the messenger of Frey, into the country of the Dark Elves (Svartalfaheim) to engage certain dwarfs to make the fetter called Gleipnir. It was fashioned out of six things; to wit, the noise made by the footfall of a cat; the beards of women; the roots of stones; the sinews of bears; the breath of fish; and the spittle of birds. Though thou mayest not have heard of these things before, thou mayest easily convince thyself that we have not been telling thee lies. Thou must have seen that women have no beards, that cats make no noise when they run, and that there are no roots under stones. Now I know what has been told thee to be equally true, although there may be some things thou art not able to furnish a proof of.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I believe what thou hast told me to be true,\" replied Gangler, \"for what thou hast adduced in corroboration of thy statement is conceivable. But how was the fetter smithied?\""
+  },
+  {
+   "type": "p",
+   "text": "\"This can I tell thee,\" replied Har, \"that the fetter was as smooth and soft as a silken string, and yet, as thou wilt presently hear, of very great strength. When it was brought to the gods, they were profuse in their thanks to the messenger for the trouble he had given himself; and taking the wolf with them to the island called Lyngvi, in the Lake Amsvartnir, they showed him the cord, and expressed their wish that he would try to break it, assuring him at the same time that it was somewhat stronger than its thinness would warrant a person in supposing it to be. They took it themselves, one after another, in their hands, and after attempting in vain to break it, said, 'Thou alone, Fenrir, art able to accomplish such a feat.'"
+  },
+  {
+   "type": "p",
+   "text": "\"'Methinks,' replied the wolf, 'that I shall acquire no fame in breaking such a slender cord; but if any artifice has been employed in making it, slender though it seems, it shall never come on my feet.'"
+  },
+  {
+   "type": "p",
+   "text": "\"The gods assured him that he would easily break a limber silken cord, since he had already burst asunder iron fetters of the most solid construction. 'But if thou shouldst not succeed in breaking it,' they added, 'thou wilt show that thou art too weak to cause the gods any fear, and we will not hesitate to set thee at liberty without delay.'"
+  },
+  {
+   "type": "p",
+   "text": "\"'I fear me much,' replied he wolf, 'that if ye once bind me so fast that I shall be unable to free myself by my own efforts, ye will be in no haste to unloose me. Loath am I, therefore, to have this cord wound round me; but in order that ye may not doubt my courage, I will consent, provided one of you put his hand into my mouth as a pledge that ye intend me no deceit.'"
+  },
+  {
+   "type": "p",
+   "text": "\"The gods wistfully looked at each other, and found that they had only the choice of two evils, until Tyr stepped forward and intrepidly put his right hand between the monster's jaws. Hereupon the gods, having tied up the wolf, he forcibly stretched himself as he had formerly done, and used all his might to disengage himself, but the more efforts he made the tighter became the cord, until all the gods, except Tyr, who lost his hand, burst into laughter at the sight."
+  },
+  {
+   "type": "p",
+   "text": "\"When the gods saw that the wolf was effectually bound, they took the chain called Gelgja, which was fixed to the fetter, and drew it through the middle of a large rock named Gjoll, which they sank very deep into the earth; afterwards, to make it still more secure, they fastened the end of the cord to a massive stone called Thviti, which they sank still deeper. The wolf made in vain the most violent efforts to break loose, and opening his tremendous jaws endeavoured to bite them. The gods seeing this, thrust a sword into his mouth, which pierced his under-jaw to the hilt, so that the point touched the palate. He then began to howl horribly, and since that time the foam flows continually from his mouth in such abundance that it forms the river called Von. There will he remain until Ragnarok.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Verily,\" said Gangler, \"an evil progeny is that of Loki, yet most mighty and powerful; but since the gods have so much to fear from the wolf, why did they not slay him?\""
+  },
+  {
+   "type": "p",
+   "text": "\"The gods have so much respect for the sanctity of their peace-steads,\" replied Har, \"that they would not stain them with the blood of the wolf, although prophecy had intimated to them that he must one day become the bane of Odin.\""
+  }
+ ],
+ "workId": "norse-fenrir",
+ "wordCount": 1451,
+ "readingMinutes": 8,
+ "readingLevel": {
+  "fkGrade": 11.3,
+  "avgSentenceWords": 28.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--the-binding-of-fenrir"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "blackwell-prose-edda--skadi-chooses-a-husband",
+ "collectionId": "blackwell-prose-edda",
+ "order": 13,
+ "title": "Skadi Chooses a Husband",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "When these tidings came to Thjassi's daughter, Skadi, she put on her armour and went to Asgard, fully determined to avenge her father's death; but the Æsir having declared their willingness to atone for the deed, an amicable arrangement was entered into. Skadi was to choose a husband in Asgard, and the Æsir were to make her laugh, a feat which she flattered herself it would be impossible for any one to accomplish. Her choice of a husband was to be determined by a mere inspection of the feet of the gods, it being stipulated that the feet should be the only part of their persons visible until she had made known her determination. In inspecting the row of feet placed before her, Skadi took a fancy to a pair which she flattered herself, from their fine proportions, must be those of Baldur. They were however Njord's, and Njord was accordingly given her for a husband, and as Loki managed to make her laugh, by playing some diverting antics with a goat, the atonement was fully effected. It is even said that Odin did more than had been stipulated, by taking out Thjassi's eyes, and placing them to shine as stars in the firmament."
+  },
+  {
+   "type": "heading",
+   "text": "Of Njord"
+  },
+  {
+   "type": "p",
+   "text": "\"The third god,\" continued Har, \"is Njord, who dwells in the heavenly region called Noatun. He rules over the winds, and checks the fury of the sea and of fire, and is therefore invoked by sea-farers and fishermen. He is so wealthy that he can give possessions and treasures to those who call on him for them. Yet Njord is not of the lineage of the Æsir, for he was born and bred in Vanaheim. But the Vanir gave him as hostage to the Æsir, receiving from them in his stead Hoenir. By this means was peace re-established between the Æsir and Vanir. Njord took to wife Skadi, the daughter of the giant Thjassi. She preferred dwelling in the abode formerly belonging to her father, which is situated among rocky mountains, in the region called Thrymheim, but Njord loved to reside near the sea. They at last agreed that they should pass together nine nights in Thrymheim, and then three in Noatun. One day, when Njord came back from the mountains to Noatun, he thus sang—"
+  },
+  {
+   "type": "verse",
+   "text": "\"'Of mountains I'm weary,\nNot long was I there,\nNot more than nine nights;"
+  },
+  {
+   "type": "verse",
+   "text": "But the howl of the wolf\nMethought sounded ill\nTo the song of the swan-bird.'"
+  },
+  {
+   "type": "p",
+   "text": "\"To which Skadi sang in reply—"
+  },
+  {
+   "type": "verse",
+   "text": "\"'Ne'er can I sleep\nIn my couch on the strand,\nFor the screams of the sea-fowl,\nThe mew as he comes\nEvery morn from the main\nIs sure to awake me.'"
+  },
+  {
+   "type": "p",
+   "text": "\"Skadi then returned to the rocky mountains, and abode in Thrymheim. There, fastening on her snow-skates and taking her bow, she passes her time in the chase of savage beasts, and is called the Ondur goddess, or Ondurdis. As it is said—"
+  },
+  {
+   "type": "verse",
+   "text": "\"'Thrymheim's the land\nWhere Thjassi abode\nThat mightiest of giants.\nBut snow-skating Skadi\nNow dwells there, I trow,\nIn her father's old mansion.'\""
+  }
+ ],
+ "workId": "norse-skadi",
+ "wordCount": 513,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 9.9,
+  "avgSentenceWords": 24.6,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-norse--skadi-chooses-a-husband"
+}

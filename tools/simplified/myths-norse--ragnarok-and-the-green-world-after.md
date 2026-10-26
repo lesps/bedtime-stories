@@ -1,0 +1,37 @@
+---
+title: Ragnarok and the Green World After
+adaptedFrom: blackwell-prose-edda--ragnarok
+order: 20
+alsoSimplifies: thorpe-elder-edda--the-vala-s-prophecy
+namesNote: Blackwell spells the names “Ragnarok,” “Baldur,” “Hodur” and “Fenir.”
+---
+
+The old stories of the North tell of a day that has not come yet. It is the end of the world, and it is called Ragnarok, the Doom of the Gods. This is how they say it will happen.
+
+First will come a winter called the Great Winter. Snow will blow from every direction. The frost will be bitter and the winds sharp, and the sun will give no warmth. Three of these winters will come one after another, with no summer in between. And people all over the world will quarrel and fight.
+
+Then the wolf who has chased the sun for so long will catch it at last and swallow it. The other wolf will catch the moon. The stars will fall from the sky. The earth and the mountains will shake so hard that the trees are pulled up by their roots, and every chain and every rope will break.
+
+And the wolf Fenrir will break free from his magic ribbon. He will come running with his mouth open so wide that his upper jaw touches the sky and his lower jaw touches the earth. The Midgard Serpent will rise up out of the sea, spitting poison, and the sea will flood over the land.
+
+A ship called Naglfar will come sailing, a ship made of the fingernails and toenails of dead people. (That is why, the old stories say, you should always keep your nails cut, so that the ship will take a long time to build.) And Loki will break free, too.
+
+Then the sky will split open, and the fire giants will come riding out of the land of fire, led by Surt, with his sword blazing brighter than the sun. As they ride over the rainbow bridge, Bifrost, it will break beneath them.
+
+Then Heimdall, the watchman, will stand up and blow his great horn, Gjallarhorn, so loudly that all the gods wake up. Odin will ride to Mimir's Well for advice. The great ash tree Yggdrasil will tremble, and nothing in heaven or on earth will be free from fear.
+
+The gods and all their heroes will put on their armor and ride out to the last battle.
+
+Odin will ride first, in his golden helmet, with his spear, against the wolf Fenrir. Thor will fight his old enemy, the Midgard Serpent. Frey will fight Surt, the fire giant. Frey will fight bravely, but he will miss the sword he gave away so long ago. Tyr will fight a monstrous hound. Heimdall will fight Loki.
+
+It will be a terrible battle, and many will fall. Thor will defeat the Midgard Serpent at last, but he will be able to walk only nine steps before the serpent's poison overcomes him. Fenrir will swallow Odin. But Odin's son Vidar will stride up to the wolf, wearing a great thick shoe, made from all the leftover scraps of leather that people have ever cut off their shoes. With that shoe he will step on the wolf's lower jaw, grab the upper jaw with his hand, and tear the wolf's mouth apart. And that will be the end of Fenrir.
+
+Then Surt will throw fire over the whole earth, and the whole world will burn.
+
+But that is not the end of the story.
+
+After the fire, a new earth will rise up out of the sea, green and lovely. Fields will grow there without anyone planting them. Some of the gods will still be alive. Odin's sons Vidar and Vali will be there, and Thor's sons Modi and Magni, who will have their father's hammer. And Baldur and his brother Hodur will come back from the land of the dead. They will all sit together in the green grass, and talk about the old times. And there in the grass they will find the golden game pieces that the gods used to play with, long ago.
+
+And two people will survive, too: a woman named Lif and a man named Lifthrasir. They will have hidden in a wood during the fire, and lived on the morning dew. From them, a whole new family of people will grow, and fill the new world.
+
+And before the old sun was swallowed by the wolf, she had a daughter, just as bright and beautiful as she was. And the daughter will ride across the sky in her mother's path, and shine on the new green world.

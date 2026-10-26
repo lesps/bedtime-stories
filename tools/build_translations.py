@@ -51,6 +51,13 @@ COLLECTIONS = {
         "author": "Cicero and Ovid",
         "originalLanguage": "la",
     },
+    "norse-sources": {
+        **COMMON,
+        "id": "norse-sources",
+        "title": "Myths from the Norse Writers",
+        "author": "Snorri Sturluson and the Eddic poets",
+        "originalLanguage": "is",
+    },
 }
 
 

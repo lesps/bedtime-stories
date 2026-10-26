@@ -7,6 +7,21 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 5 (data only): the Norse shelf. Benjamin Thorpe's _Elder Edda_ (1866): the
+  Völuspá, Odin's Rune-Song, and the lays of Hymir, Thrym, Alvis, Skirnir, Baldr's dreams and
+  Fafnir. I. A. Blackwell's _Prose Edda_ (1847): fourteen stories from creation and Yggdrasil to
+  Baldur's death and Ragnarok, with Idun and Skadi cut from one section (Skadi's story goes on in
+  "Of Njord"). Lang's "The Story of Sigurd" from _The Red Fairy Book_ (1890). Claude's own
+  translations from Snorri's Old Norse, where no free English version exists: Sif's golden hair
+  and the dwarves' treasures, Thor and Hrungnir, and the passages about Freyja's necklace.
+  Twenty-one retellings in the new _Norse Myths, Simply Told_ (grade 1.8–4.8), covering every
+  Norse entry in the expansion plan; Odin's eye is part of the Yggdrasil story. Thorpe's poems
+  read at middle level by the formula, but the verse is archaic, so the three that are the only
+  source for their myth (the runes, Thrym, Alvis) get retellings, and the other five are linked
+  to the Prose Edda retellings with `alsoSimplifies`. Four originals are `mature-themes` (Skirnir's
+  threats, Loki's punishment, the mead of poetry, and Sigurd's death in Lang); no retelling is.
+  New culture `norse` (15 in all). New tool `extract_eddas.py`; `build_translations.py` gains
+  `norse-sources`.
 - Mythology, part 4b (data only): the three Greco-Roman myths with no public-domain English
   source, in Claude's own translations from the Greek and Latin texts of the Perseus Digital
   Library. _Myths from the Greek Writers_: Hephaestus and the golden throne (Pausanias 1.20.3;
