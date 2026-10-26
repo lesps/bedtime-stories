@@ -1,0 +1,79 @@
+{
+ "id": "myths-english--brutus-comes-to-albion",
+ "collectionId": "myths-english",
+ "order": 1,
+ "title": "Brutus Comes to Albion",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, before it was called Britain, the island was called Albion. Some old stories said it was named after a giant called Albion, a son of the sea god Neptune, who once ruled there. But the story most people told, for hundreds of years, was the story of Brutus."
+  },
+  {
+   "type": "p",
+   "text": "Brutus was the great-grandson of Aeneas, the Trojan hero who escaped from burning Troy and sailed to Italy. When Brutus was fifteen, he went hunting with his father. And by a terrible accident, an arrow he shot went astray and killed his father. His family sent him away in sorrow, and Brutus wandered far from home."
+  },
+  {
+   "type": "p",
+   "text": "He came at last to Greece. Living there were many people whose families had come from Troy long ago, and they were treated like slaves by the Greek king, Pandrasus. They welcomed Brutus, and he grew up so brave and so good that they chose him as their leader."
+  },
+  {
+   "type": "p",
+   "text": "So Brutus led them away into the woods and hills, and sent a message to the king. \"We Trojans will not be slaves in a foreign land. We would rather live wild in the woods. If you don't like that, then let us leave, and go to some other country.\""
+  },
+  {
+   "type": "p",
+   "text": "King Pandrasus was furious, and he came after them with an army. But Brutus beat the king's army beside a river and took the king prisoner. And to win his freedom, the king had to give the Trojans everything they asked for: ships and money and food for the journey, and his daughter Imogen to be Brutus's wife."
+  },
+  {
+   "type": "p",
+   "text": "So the Trojans set sail in three hundred and twenty ships. On the third day they came to an island where nobody lived. Among the ruins there stood an old temple of the goddess Diana. Brutus prayed to her there. \"Goddess of the moon and of the hunt,\" he said, \"tell me where to go. Show me a land where my people can live, and where we can build temples to you forever.\""
+  },
+  {
+   "type": "p",
+   "text": "That night, as he slept in front of the altar, Diana came to him in a dream. \"Brutus,\" she said, \"far away to the west, past the land of Gaul, there is an island in the ocean. Giants lived there once, but now it is empty, and it is waiting for your people. Sail there, and there you will build a new Troy. And kings will be born from your family whose power will be known all over the world.\""
+  },
+  {
+   "type": "p",
+   "text": "So Brutus sailed west. On the way, near Italy, he met more Trojans, led by a great warrior named Corineus, and they all sailed on together. They tried to land in Gaul, but the people there attacked them, so they put out to sea again. At last they came to the coast of the island, at the place now called Devon. And Brutus knew that this was the land Diana had promised."
+  },
+  {
+   "type": "p",
+   "text": "The island was wild and empty, except for the last of the giants, who lived in caves among the rocks. The Trojans fought them and drove them out. Corineus was the bravest of all in fighting the giants, and the land at the far western end of the island, where the biggest giants lived, was given to him. It was named Cornwall after him."
+  },
+  {
+   "type": "p",
+   "text": "Then Brutus built a great city beside a river, and he called it New Troy. Its name changed over the years, and today it is called London."
+  },
+  {
+   "type": "p",
+   "text": "Brutus ruled the island for twenty-four years, and it was named Britain after him. When he died, he left three sons. Locrine ruled the middle of the island. Camber ruled the west, which was called Cambria after him, and is now called Wales. And Albanact ruled the north, which was called Albania, and is now called Scotland."
+  },
+  {
+   "type": "p",
+   "text": "Locrine married Guendolen, the daughter of Corineus. But he loved another woman, Estrildis, and they had a little daughter named Sabra. When Guendolen found out, she was so angry that she went to war against Locrine, and he was killed. And she drove Estrildis and little Sabra into a great river."
+  },
+  {
+   "type": "p",
+   "text": "But the poet John Milton tells it this way. The water nymphs who played at the bottom of the river held up their arms and caught Sabra, and carried her to the old god of the sea. He was so sorry for her that he made her the goddess of the river. And the river was named Sabrina after her. Today we call it the Severn."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Thomas Bulfinch's “Brutus and the Founding of Britain” in The Age of Chivalry (1858). The original is listed under Other versions."
+  }
+ ],
+ "workId": "english-brutus",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "bulfinch-chivalry--brutus-and-the-founding-of-britain",
+ "wordCount": 778,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 5.4,
+  "avgSentenceWords": 14.2,
+  "band": "middle"
+ }
+}

@@ -87,6 +87,11 @@ COLLECTION_CULTURE = {
     "german-sources": "german",
     "myths-german": "german",
     "baldwin-fifty-famous": "english",
+    "bulfinch-chivalry": "english",
+    "pyle-robin-hood": "english",
+    "marshall-english-literature": "english",
+    "quiller-couch-cornwall": "english",
+    "myths-english": "english",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, and the
@@ -100,6 +105,8 @@ STORY_CULTURE = {
     "bulfinch-fable--the-sibyl": "roman",
     "baldwin-fifty-famous--the-story-of-william-tell": "swiss",
     "baldwin-fifty-famous--arnold-winkelried": "swiss",
+    "latin-sources--saint-george-and-the-dragon": "english",
+    "thorpe-elder-edda--the-lay-of-volund": "norse",
 }
 
 # Myth collections: every story gets the gods-heroes theme.
@@ -121,6 +128,10 @@ MYTH_COLLECTIONS = {
     "norse-sources",
     "myths-norse",
     "baldwin-siegfried",
+    "bulfinch-chivalry",
+    "pyle-robin-hood",
+    "marshall-english-literature",
+    "quiller-couch-cornwall",
 }
 
 ORIGIN_CULTURE = [
@@ -301,6 +312,31 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-german--the-pied-piper-of-hamelin": {"add": ["magic", "greed-pride"], "remove": ["gentle"]},
     "baldwin-fifty-famous--the-story-of-william-tell": {"add": ["underdogs"]},
     "baldwin-fifty-famous--arnold-winkelried": {"add": ["underdogs"], "remove": ["gentle", "greed-pride"]},
+    # English shelf. Retellings of hero legends get gods-heroes by hand (the originals' collections
+    # are in MYTH_COLLECTIONS); the Green Children are not a hero legend.
+    "myths-english--brutus-comes-to-albion": {"add": ["gods-heroes", "how-things-began"]},
+    "bulfinch-chivalry--brutus-and-the-founding-of-britain": {"add": ["how-things-began"]},
+    "myths-english--corineus-and-the-giant-gogmagog": {"add": ["gods-heroes", "how-things-began"]},
+    "myths-english--king-leir-and-his-three-daughters": {"add": ["gods-heroes"], "remove": ["quests"]},
+    "bulfinch-chivalry--king-leir-and-his-daughters": {"remove": ["quests"]},
+    "thorpe-elder-edda--the-lay-of-volund": {"add": ["magic", "greed-pride"]},
+    "myths-english--wayland-the-smith": {"add": ["gods-heroes", "magic", "greed-pride"], "remove": ["gentle"]},
+    "myths-english--the-green-children-of-woolpit": {"add": ["magic", "family"], "remove": ["animals"]},
+    "pyle-robin-hood--how-robin-hood-came-to-be-an-outlaw": {"add": ["underdogs"], "remove": ["how-things-began"]},
+    "myths-english--how-robin-hood-became-an-outlaw": {"add": ["gods-heroes", "underdogs"], "remove": ["how-things-began"]},
+    "pyle-robin-hood--the-shooting-match-at-nottingham-town": {"add": ["tricksters"]},
+    "myths-english--robin-hood-and-the-golden-arrow": {"add": ["gods-heroes", "tricksters"]},
+    "pyle-robin-hood--robin-hood-and-allan-a-dale": {"add": ["kindness"]},
+    "myths-english--robin-hood-and-allan-a-dale": {"add": ["gods-heroes"], "remove": ["legends"]},
+    "pyle-robin-hood--robin-hood-seeks-the-curtal-friar": {"add": ["tricksters"], "remove": ["gentle"]},
+    "myths-english--robin-hood-and-friar-tuck": {"add": ["gods-heroes"], "remove": ["gentle"]},
+    "pyle-robin-hood--robin-hood-compasses-a-marriage": {"add": ["kindness", "tricksters"], "remove": ["legends"]},
+    "myths-english--robin-hood-and-the-wedding": {"add": ["gods-heroes", "kindness", "tricksters"], "remove": ["legends"]},
+    "pyle-robin-hood--king-richard-comes-to-sherwood-forest": {"add": ["tricksters"]},
+    "myths-english--robin-hood-and-king-richard": {"add": ["gods-heroes", "tricksters"]},
+    "pyle-robin-hood--epilogue-the-death-of-robin-hood": {"add": ["kindness"], "remove": ["quests"]},
+    "myths-english--the-last-arrow-of-robin-hood": {"add": ["gods-heroes", "kindness"]},
+    "myths-english--saint-george-and-the-dragon": {"add": ["gods-heroes"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

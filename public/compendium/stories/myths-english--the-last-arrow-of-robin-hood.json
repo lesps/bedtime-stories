@@ -1,0 +1,107 @@
+{
+ "id": "myths-english--the-last-arrow-of-robin-hood",
+ "collectionId": "myths-english",
+ "order": 13,
+ "title": "The Last Arrow of Robin Hood",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Robin Hood went to London with King Richard, and it was many years before he saw Sherwood Forest again."
+  },
+  {
+   "type": "p",
+   "text": "Little John came home after a year or two, and became famous as the best fighter with a staff in all England. Will Scarlet went back to his own home. The rest of the band took good care of the King's deer as royal rangers. But Robin became the King's favorite, and the King made him the Earl of Huntingdon, and Robin went with him to the wars far away. Allan a Dale and his wife, Ellen, went with Robin wherever he went."
+  },
+  {
+   "type": "p",
+   "text": "Then King Richard died, bravely, as a lion-hearted king should. And Robin came home to England. It was springtime, and the leaves were green, and the little birds were singing, just as they used to sing in Sherwood. And Robin longed to see the forest again. So he asked the new king, King John, if he might visit Sherwood for three days."
+  },
+  {
+   "type": "p",
+   "text": "He and Allan rode slowly through the forest, and Robin seemed to know every stick and stone. There was the path where he used to walk in the evenings with Little John, and there was the one, now overgrown with brambles, where he had gone to look for Friar Tuck. At last they came to the great greenwood tree. Where there used to be so many merry men, now it was quiet and empty. And Robin's eyes filled with tears."
+  },
+  {
+   "type": "p",
+   "text": "He lifted his old bugle horn and blew it. \"Tirila, lirila,\" the clear notes went echoing down the forest paths."
+  },
+  {
+   "type": "p",
+   "text": "Now that very morning, Little John was walking in the forest. When he heard that horn, he leaped like a deer. He gave a great cry and crashed through the thorns and brambles, not caring how they scratched him, until he burst out into the clearing and threw himself at Robin's feet, sobbing for joy. Then came Will Stutely and the other old friends, all running, for they had heard the horn too, and they kissed Robin's hands and wept."
+  },
+  {
+   "type": "p",
+   "text": "\"I swear,\" said Robin, \"that I will never leave these woods again. I am not the Earl of Huntingdon any more. I am Robin Hood again.\""
+  },
+  {
+   "type": "p",
+   "text": "But when King John heard this, he was furious, and he sent soldiers to catch Robin. There was a great fight in the forest, and many brave men fell, and Robin's men won. But Robin was not the same man he had been. The fighting weighed heavy on his heart, and he fell ill with a fever."
+  },
+  {
+   "type": "p",
+   "text": "\"I will go to my cousin,\" he told Little John. \"She is the head of the nuns at Kirklees, and she knows about medicine. She will make me well.\""
+  },
+  {
+   "type": "p",
+   "text": "But Robin's cousin was afraid that King John would be angry with her for helping Robin. So, instead of making him well, she did a wicked thing. She took Robin up to a room at the top of a tall tower, and she did not let Little John come in. She pretended to treat him, but she made him weaker instead. Then she locked the door and left him alone."
+  },
+  {
+   "type": "p",
+   "text": "All day Robin grew weaker and weaker. He called for help, but no one came. At last, leaning against the wall, he reached his bugle horn and blew it three times, faintly."
+  },
+  {
+   "type": "p",
+   "text": "Little John was lying in a little clearing nearby, watching the tower like a faithful dog. When he heard the horn, he came running. The great oak door was locked and barred. So Little John picked up a huge stone, so heavy that three men could not lift it today, and he hurled it at the door, and the door burst open. He ran up the winding stairs and broke open the locked room. And there was his dear master, white and weak, leaning against the wall."
+  },
+  {
+   "type": "p",
+   "text": "Little John picked him up gently, as a mother picks up her child, and laid him on the bed. The frightened cousin came and bandaged Robin's arm, and then Little John sent her away."
+  },
+  {
+   "type": "p",
+   "text": "\"Don't worry,\" said Little John, trying to laugh. \"In a week you'll be roaming the woods as boldly as ever.\""
+  },
+  {
+   "type": "p",
+   "text": "But Robin smiled and shook his head. \"My own dear Little John,\" he whispered. \"We will never roam the woods together again.\""
+  },
+  {
+   "type": "p",
+   "text": "Little John was so angry with the nuns that he wanted to burn their house down. But Robin held his big rough hand and said gently, \"Since when has Little John wanted to hurt women, even to punish them?\" And at last Little John promised to do no harm."
+  },
+  {
+   "type": "p",
+   "text": "The sun went down, and the whole sky glowed red. \"Lift me up,\" said Robin, \"so I can see the woods once more.\" So Little John lifted him, and Robin laid his head on his friend's shoulder and looked out at the forest for a long time. Then he said, \"String my bow for me, Little John, and give me an arrow.\""
+  },
+  {
+   "type": "p",
+   "text": "Little John did. Robin held his good bow lovingly, and smiled. \"Little John,\" he said, \"my dearest friend, watch where this arrow lands, and make my grave there. And keep it green.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Robin sat up, as strong as ever for a moment, and drew the bowstring back to his ear, and shot the arrow out of the open window, far away into the green woods. And as the arrow flew, Robin sank back into Little John's arms. Something had flown away from Robin, just as the arrow flew from his bow."
+  },
+  {
+   "type": "p",
+   "text": "So Robin Hood died, with kindness in his heart even for those who had hurt him, as he had always been kind to the weak and the poor all his life. His merry men buried him where his last arrow fell. And they lived on in peace, and told these stories to their children, and their children's children, and that is how they have come down to us."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Howard Pyle's “Epilogue: The Death of Robin Hood” in The Merry Adventures of Robin Hood (1883). The original is listed under Other versions."
+  }
+ ],
+ "workId": "english-robin-death",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "pyle-robin-hood--epilogue-the-death-of-robin-hood",
+ "wordCount": 1019,
+ "readingMinutes": 6,
+ "readingLevel": {
+  "fkGrade": 4.7,
+  "avgSentenceWords": 14.2,
+  "band": "middle"
+ }
+}

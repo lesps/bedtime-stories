@@ -273,9 +273,9 @@
    "language": "en",
    "id": "latin-sources",
    "title": "Myths from the Latin Writers",
-   "author": "Cicero and Ovid",
+   "author": "Cicero, Ovid and Jacobus de Voragine",
    "originalLanguage": "la",
-   "storyCount": 1
+   "storyCount": 2
   },
   {
    "license": "Public domain in the USA",
@@ -287,7 +287,7 @@
    "firstPublished": 1866,
    "source": "https://www.gutenberg.org/ebooks/14726",
    "originalLanguage": "is",
-   "storyCount": 8
+   "storyCount": 9
   },
   {
    "license": "Public domain in the USA",
@@ -389,6 +389,66 @@
    "id": "myths-german",
    "title": "German Legends, Simply Told",
    "author": "Traditional (German)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 13
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "id": "pyle-robin-hood",
+   "title": "The Merry Adventures of Robin Hood",
+   "author": "Howard Pyle",
+   "contributor": null,
+   "firstPublished": 1883,
+   "source": "https://www.gutenberg.org/ebooks/10148",
+   "storyCount": 7
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "id": "marshall-english-literature",
+   "title": "English Literature for Boys and Girls",
+   "author": "H. E. Marshall",
+   "contributor": null,
+   "firstPublished": 1909,
+   "source": "https://www.gutenberg.org/ebooks/5725",
+   "storyCount": 1
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "id": "quiller-couch-cornwall",
+   "title": "Cornwall's Wonderland",
+   "author": "Mabel Quiller-Couch",
+   "contributor": null,
+   "firstPublished": 1914,
+   "source": "https://www.gutenberg.org/ebooks/26755",
+   "storyCount": 1
+  },
+  {
+   "id": "bulfinch-chivalry",
+   "title": "The Age of Chivalry",
+   "author": "Thomas Bulfinch",
+   "contributor": null,
+   "firstPublished": 1858,
+   "source": "https://www.gutenberg.org/ebooks/4928",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-english",
+   "title": "English Legends, Simply Told",
+   "author": "Traditional (English)",
    "contributor": "Simplified retellings by Claude (Anthropic), 2026",
    "firstPublished": null,
    "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
@@ -9940,6 +10000,24 @@
    "simplifiedId": "myths-roman--tages-the-child-from-the-furrow"
   },
   {
+   "id": "latin-sources--saint-george-and-the-dragon",
+   "collectionId": "latin-sources",
+   "order": 2,
+   "title": "Saint George and the Dragon",
+   "wordCount": 1114,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-saint-george",
+   "readingLevel": {
+    "fkGrade": 6.9,
+    "avgSentenceWords": 20.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--saint-george-and-the-dragon"
+  },
+  {
    "id": "thorpe-elder-edda--the-vala-s-prophecy",
    "collectionId": "thorpe-elder-edda",
    "order": 1,
@@ -10068,9 +10146,29 @@
    "simplifiedId": "myths-norse--odin-rides-to-the-land-of-the-dead"
   },
   {
-   "id": "thorpe-elder-edda--the-lay-of-fafnir",
+   "id": "thorpe-elder-edda--the-lay-of-volund",
    "collectionId": "thorpe-elder-edda",
    "order": 8,
+   "title": "The Lay of Völund",
+   "wordCount": 1441,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "norse-wayland-smith",
+   "readingLevel": {
+    "fkGrade": 5.6,
+    "avgSentenceWords": 16.4,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-english--wayland-the-smith"
+  },
+  {
+   "id": "thorpe-elder-edda--the-lay-of-fafnir",
+   "collectionId": "thorpe-elder-edda",
+   "order": 9,
    "title": "The Lay of Fafnir",
    "wordCount": 1590,
    "readingMinutes": 9,
@@ -11335,6 +11433,440 @@
     "band": "early"
    },
    "adaptedFrom": "browning-pied-piper--the-pied-piper-of-hamelin"
+  },
+  {
+   "id": "pyle-robin-hood--how-robin-hood-came-to-be-an-outlaw",
+   "collectionId": "pyle-robin-hood",
+   "order": 1,
+   "title": "How Robin Hood Came to Be an Outlaw",
+   "wordCount": 4494,
+   "readingMinutes": 25,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-outlaw",
+   "readingLevel": {
+    "fkGrade": 8.4,
+    "avgSentenceWords": 23.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--how-robin-hood-became-an-outlaw"
+  },
+  {
+   "id": "pyle-robin-hood--the-shooting-match-at-nottingham-town",
+   "collectionId": "pyle-robin-hood",
+   "order": 2,
+   "title": "The Shooting Match at Nottingham Town",
+   "wordCount": 4244,
+   "readingMinutes": 24,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-shooting-match",
+   "readingLevel": {
+    "fkGrade": 8.6,
+    "avgSentenceWords": 24.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--robin-hood-and-the-golden-arrow"
+  },
+  {
+   "id": "pyle-robin-hood--robin-hood-and-allan-a-dale",
+   "collectionId": "pyle-robin-hood",
+   "order": 3,
+   "title": "Robin Hood and Allan a Dale",
+   "wordCount": 4446,
+   "readingMinutes": 25,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-allan-a-dale",
+   "readingLevel": {
+    "fkGrade": 6.6,
+    "avgSentenceWords": 19.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--robin-hood-and-allan-a-dale"
+  },
+  {
+   "id": "pyle-robin-hood--robin-hood-seeks-the-curtal-friar",
+   "collectionId": "pyle-robin-hood",
+   "order": 4,
+   "title": "Robin Hood Seeks the Curtal Friar",
+   "wordCount": 5445,
+   "readingMinutes": 30,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-friar-tuck",
+   "readingLevel": {
+    "fkGrade": 6.7,
+    "avgSentenceWords": 19.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--robin-hood-and-friar-tuck"
+  },
+  {
+   "id": "pyle-robin-hood--robin-hood-compasses-a-marriage",
+   "collectionId": "pyle-robin-hood",
+   "order": 5,
+   "title": "Robin Hood Compasses a Marriage",
+   "wordCount": 4309,
+   "readingMinutes": 24,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-wedding",
+   "readingLevel": {
+    "fkGrade": 8.0,
+    "avgSentenceWords": 22.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--robin-hood-and-the-wedding"
+  },
+  {
+   "id": "pyle-robin-hood--king-richard-comes-to-sherwood-forest",
+   "collectionId": "pyle-robin-hood",
+   "order": 6,
+   "title": "King Richard Comes to Sherwood Forest",
+   "wordCount": 6386,
+   "readingMinutes": 35,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-king-richard",
+   "readingLevel": {
+    "fkGrade": 7.6,
+    "avgSentenceWords": 21.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--robin-hood-and-king-richard"
+  },
+  {
+   "id": "pyle-robin-hood--epilogue-the-death-of-robin-hood",
+   "collectionId": "pyle-robin-hood",
+   "order": 7,
+   "title": "Epilogue: The Death of Robin Hood",
+   "wordCount": 3859,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "english-robin-death",
+   "readingLevel": {
+    "fkGrade": 10.7,
+    "avgSentenceWords": 29.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--the-last-arrow-of-robin-hood"
+  },
+  {
+   "id": "marshall-english-literature--the-story-of-beowulf",
+   "collectionId": "marshall-english-literature",
+   "order": 1,
+   "title": "The Story of Beowulf",
+   "wordCount": 1670,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-beowulf",
+   "readingLevel": {
+    "fkGrade": 5.6,
+    "avgSentenceWords": 16.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "quiller-couch-cornwall--how-corineus-fought-the-chief-of-the-giants",
+   "collectionId": "quiller-couch-cornwall",
+   "order": 1,
+   "title": "How Corineus Fought the Chief of the Giants",
+   "wordCount": 1724,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "english-gogmagog",
+   "readingLevel": {
+    "fkGrade": 13.4,
+    "avgSentenceWords": 34.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--corineus-and-the-giant-gogmagog"
+  },
+  {
+   "id": "bulfinch-chivalry--brutus-and-the-founding-of-britain",
+   "collectionId": "bulfinch-chivalry",
+   "order": 1,
+   "title": "Brutus and the Founding of Britain",
+   "wordCount": 1448,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-brutus",
+   "readingLevel": {
+    "fkGrade": 16.3,
+    "avgSentenceWords": 38.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--brutus-comes-to-albion"
+  },
+  {
+   "id": "bulfinch-chivalry--king-leir-and-his-daughters",
+   "collectionId": "bulfinch-chivalry",
+   "order": 2,
+   "title": "King Leir and His Daughters",
+   "wordCount": 670,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-king-leir",
+   "readingLevel": {
+    "fkGrade": 11.7,
+    "avgSentenceWords": 28.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-english--king-leir-and-his-three-daughters"
+  },
+  {
+   "id": "myths-english--brutus-comes-to-albion",
+   "collectionId": "myths-english",
+   "order": 1,
+   "title": "Brutus Comes to Albion",
+   "wordCount": 778,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-brutus",
+   "readingLevel": {
+    "fkGrade": 5.4,
+    "avgSentenceWords": 14.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-chivalry--brutus-and-the-founding-of-britain"
+  },
+  {
+   "id": "myths-english--corineus-and-the-giant-gogmagog",
+   "collectionId": "myths-english",
+   "order": 2,
+   "title": "Corineus and the Giant Gogmagog",
+   "wordCount": 798,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-gogmagog",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 14.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "quiller-couch-cornwall--how-corineus-fought-the-chief-of-the-giants"
+  },
+  {
+   "id": "myths-english--king-leir-and-his-three-daughters",
+   "collectionId": "myths-english",
+   "order": 3,
+   "title": "King Leir and His Three Daughters",
+   "wordCount": 618,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-king-leir",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "bulfinch-chivalry--king-leir-and-his-daughters"
+  },
+  {
+   "id": "myths-english--wayland-the-smith",
+   "collectionId": "myths-english",
+   "order": 4,
+   "title": "Wayland the Smith",
+   "wordCount": 715,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-wayland-smith",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 15.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "thorpe-elder-edda--the-lay-of-volund"
+  },
+  {
+   "id": "myths-english--saint-george-and-the-dragon",
+   "collectionId": "myths-english",
+   "order": 5,
+   "title": "Saint George and the Dragon",
+   "wordCount": 821,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-saint-george",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 11.3,
+    "band": "early"
+   },
+   "adaptedFrom": "latin-sources--saint-george-and-the-dragon"
+  },
+  {
+   "id": "myths-english--the-green-children-of-woolpit",
+   "collectionId": "myths-english",
+   "order": 6,
+   "title": "The Green Children of Woolpit",
+   "wordCount": 608,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-green-children",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-english--how-robin-hood-became-an-outlaw",
+   "collectionId": "myths-english",
+   "order": 7,
+   "title": "How Robin Hood Became an Outlaw",
+   "wordCount": 1251,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-outlaw",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 10.5,
+    "band": "early"
+   },
+   "adaptedFrom": "pyle-robin-hood--how-robin-hood-came-to-be-an-outlaw"
+  },
+  {
+   "id": "myths-english--robin-hood-and-the-golden-arrow",
+   "collectionId": "myths-english",
+   "order": 8,
+   "title": "Robin Hood and the Golden Arrow",
+   "wordCount": 1193,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-shooting-match",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 10.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "pyle-robin-hood--the-shooting-match-at-nottingham-town"
+  },
+  {
+   "id": "myths-english--robin-hood-and-allan-a-dale",
+   "collectionId": "myths-english",
+   "order": 9,
+   "title": "Robin Hood and Allan a Dale",
+   "wordCount": 1126,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-allan-a-dale",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   },
+   "adaptedFrom": "pyle-robin-hood--robin-hood-and-allan-a-dale"
+  },
+  {
+   "id": "myths-english--robin-hood-and-friar-tuck",
+   "collectionId": "myths-english",
+   "order": 10,
+   "title": "Robin Hood and Friar Tuck",
+   "wordCount": 1510,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-friar-tuck",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 10.4,
+    "band": "early"
+   },
+   "adaptedFrom": "pyle-robin-hood--robin-hood-seeks-the-curtal-friar"
+  },
+  {
+   "id": "myths-english--robin-hood-and-the-wedding",
+   "collectionId": "myths-english",
+   "order": 11,
+   "title": "Robin Hood and the Wedding",
+   "wordCount": 1640,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-wedding",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "pyle-robin-hood--robin-hood-compasses-a-marriage"
+  },
+  {
+   "id": "myths-english--robin-hood-and-king-richard",
+   "collectionId": "myths-english",
+   "order": 12,
+   "title": "Robin Hood and King Richard",
+   "wordCount": 1477,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-king-richard",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 11.0,
+    "band": "early"
+   },
+   "adaptedFrom": "pyle-robin-hood--king-richard-comes-to-sherwood-forest"
+  },
+  {
+   "id": "myths-english--the-last-arrow-of-robin-hood",
+   "collectionId": "myths-english",
+   "order": 13,
+   "title": "The Last Arrow of Robin Hood",
+   "wordCount": 1019,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "english-robin-death",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 14.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "pyle-robin-hood--epilogue-the-death-of-robin-hood"
   }
  ]
 }

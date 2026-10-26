@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Myths from Bulfinch's The Age of Fable (1855), from the Gutenberg mirror (plain text).
+"""Myths from Bulfinch's The Age of Fable (1855) and The Age of Chivalry (1858), from the Gutenberg mirror.
 
     git clone --depth 1 https://github.com/GITenberg/Bulfinch-s-Mythology_4928.git src/Bulfinch-s-Mythology_4928
     python3 tools/extract_bulfinch.py src
 
 Bulfinch groups several myths per chapter under all-caps headings. Each entry in SECTIONS names
 the heading a story starts at; it runs to the next heading or chapter. Indented lines are verse
-(Bulfinch quotes Milton, Byron and others). Only The Age of Fable is read, not the Age of
-Chivalry or the Charlemagne legends that share the ebook. Writes the `bulfinch-fable` collection.
+(Bulfinch quotes Milton, Byron and others). Writes `bulfinch-fable` from The Age of Fable and
+`bulfinch-chivalry` from The Age of Chivalry (so far only the legendary kings of Britain in
+"The Mythical History of England"); the Charlemagne legends that share the ebook are not read.
 """
 import re
 import sys
@@ -17,6 +18,17 @@ sys.path.insert(0, str(Path(__file__).parent))
 from build_compendium import title_case  # noqa: E402
 from compendium_io import finish, load_index, save_index, upsert_collection  # noqa: E402
 
+CHIVALRY = {
+    "id": "bulfinch-chivalry",
+    "title": "The Age of Chivalry",
+    "author": "Thomas Bulfinch",
+    "contributor": None,
+    "firstPublished": 1858,
+    "source": "https://www.gutenberg.org/ebooks/4928",
+    "license": "Public domain in the USA",
+    "language": "en",
+    "originalLanguage": "en",
+}
 COLLECTION = {
     "id": "bulfinch-fable",
     "title": "The Age of Fable",
@@ -86,6 +98,13 @@ HEADING = re.compile(r"^[A-Z][A-Z ,;:.'-]{3,}$")
 INLINE_NOTE = re.compile(r"\s*\[Footnote(?: \d+)?:\s*([^\]]*?)\s*\]")
 
 
+# The Age of Chivalry: the legendary kings of Britain from "The Mythical History of England".
+CHIVALRY_SECTIONS = [
+    ("THE MYTHICAL HISTORY OF ENGLAND", "Brutus and the Founding of Britain", "english-brutus", []),
+    ("LEIR", "King Leir and His Daughters", "english-king-leir", []),
+]
+
+
 def strip_xref(note):
     return re.sub(r"\s*See Proverbial Expressions\.?$", "", note).strip()
 
@@ -95,6 +114,15 @@ def fable_lines(path):
     start = next(i for i, l in enumerate(lines) if l.strip() == "CHAPTER I")
     # The Age of Chivalry restarts the numbering at CHAPTER I.
     end = next(i for i, l in enumerate(lines) if i > start and l.strip() == "CHAPTER I")
+    return lines[start:end]
+
+
+def chivalry_lines(path):
+    """The Age of Chivalry: from its CHAPTER I to the Legends of Charlemagne."""
+    lines = path.read_text(encoding="utf-8", errors="replace").replace("\r", "").split("\n")
+    first = next(i for i, l in enumerate(lines) if l.strip() == "CHAPTER I")
+    start = next(i for i, l in enumerate(lines) if i > first and l.strip() == "CHAPTER I")
+    end = max(i for i, l in enumerate(lines) if l.strip() == "LEGENDS OF CHARLEMAGNE")
     return lines[start:end]
 
 
@@ -149,6 +177,11 @@ def blocks_of(body):
         if all(l.startswith("  ") for l in p):
             indent = min(len(l) - len(l.lstrip()) for l in p)
             verse = "\n".join(l[indent:] for l in p)
+            if in_note and verse.endswith("]") and "\n" not in verse and blocks[-1]["type"] == "note":
+                # a one-line reference closing a footnote ("Book III, Canto IX., 38.]")
+                in_note = False
+                blocks[-1]["text"] += " " + verse[:-1]
+                continue
             if in_note and verse.endswith("]"):  # a footnote can close on its quoted poem
                 in_note, verse = False, verse[:-1]
             blocks.append({"type": "verse", "text": verse})
@@ -173,14 +206,13 @@ def blocks_of(body):
     return blocks
 
 
-def main(src):
-    lines = fable_lines(Path(src) / "Bulfinch-s-Mythology_4928" / "4928.txt")
+def build(col, lines, sections):
     stories = []
-    for order, (heading, title, work_id, flags, *last) in enumerate(SECTIONS, 1):
+    for order, (heading, title, work_id, flags, *last) in enumerate(sections, 1):
         slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
         story = {
-            "id": f"{COLLECTION['id']}--{slug}",
-            "collectionId": COLLECTION["id"],
+            "id": f"{col['id']}--{slug}",
+            "collectionId": col["id"],
             "order": order,
             "title": title,
             "origin": None,
@@ -192,14 +224,22 @@ def main(src):
             "workId": work_id,
         }
         stories.append(finish(story))
+    return stories
+
+
+def main(src):
+    path = Path(src) / "Bulfinch-s-Mythology_4928" / "4928.txt"
     index = load_index()
-    upsert_collection(index, COLLECTION, stories)
+    for col, lines, sections in ((COLLECTION, fable_lines(path), SECTIONS),
+                                 (CHIVALRY, chivalry_lines(path), CHIVALRY_SECTIONS)):
+        stories = build(col, lines, sections)
+        upsert_collection(index, col, stories)
+        for st in stories:
+            b = st["blocks"]
+            print(f"{st['id']:42} {st['wordCount']:5}w {st['readingMinutes']:3}m "
+                  f"{st['readingLevel']['fkGrade']:5} {st['readingLevel']['band']:8} "
+                  f"verse={sum(x['type'] == 'verse' for x in b)}")
     save_index(index)
-    for st in stories:
-        b = st["blocks"]
-        print(f"{st['id']:42} {st['wordCount']:5}w {st['readingMinutes']:3}m "
-              f"{st['readingLevel']['fkGrade']:5} {st['readingLevel']['band']:8} "
-              f"verse={sum(x['type'] == 'verse' for x in b)}")
 
 
 if __name__ == "__main__":

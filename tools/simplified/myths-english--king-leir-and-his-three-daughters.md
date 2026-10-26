@@ -1,0 +1,37 @@
+---
+title: King Leir and His Three Daughters
+adaptedFrom: bulfinch-chivalry--king-leir-and-his-daughters
+order: 3
+---
+
+Long ago, a king named Leir ruled over Britain. He built the city of Leicester and named it after himself. King Leir had no sons, but he had three daughters: Goneril, Regan and Cordelia.
+
+When Leir grew old, he decided to divide his kingdom among his daughters. But first he wanted to find out which of them loved him best. So he called them to him, one by one.
+
+"How much do you love me?" he asked Goneril, the eldest.
+
+Goneril knew that her father liked to be flattered. "I love you more than my own soul," she said.
+
+The old king was very pleased. "Since you honor me so much," he said, "I will give you and your husband a third of my kingdom."
+
+Regan, the second daughter, saw how well that had worked. "I love you more than all the rest of the world," she said. And she got a third of the kingdom too.
+
+Then it was Cordelia's turn. She was the youngest, and until then she had been her father's favorite. She knew that a few sweet words would win her a third of the kingdom too. But she would not say anything that was not true.
+
+"Father," she said, "I love you as much as a daughter should. Anyone who says more than that is only flattering you."
+
+The king was sorry to hear this, and he asked her again. But Cordelia would not change her words.
+
+Then King Leir flew into a rage. "Since you do not honor your old father the way your sisters do," he said, "you shall have no share of my kingdom at all!" And he divided the whole kingdom between Goneril and Regan and their husbands, the Duke of Albany and the Duke of Cornwall. Cordelia married the king of France, and went away to live there.
+
+Leir went to live with his eldest daughter, Goneril, and he brought along a hundred knights to serve him. But soon Goneril complained that his knights were too many and too noisy, and she would only let him keep thirty.
+
+Leir was offended, and he went to live with Regan instead. But Regan took her sister's side, and she said he could only bring five knights. So he went back to Goneril, and now she said he could only keep one.
+
+Then the old king remembered Cordelia, the daughter he had sent away with nothing. He set off for France to find her. He did not hope that she would be kind to him, after the way he had treated her. He only wanted to tell her that he was sorry.
+
+But when Cordelia heard that her father was coming, and how poor and sad he was, she cried. She did not want anyone to see him like that, so she sent a trusted servant to meet him secretly. The servant took him to a comfortable house and gave him everything a king should have. Then Cordelia and her husband, the king of France, went to welcome him with great honor.
+
+And Cordelia went back to Britain with an army, to give her father back his throne. They defeated the wicked sisters and their husbands, and King Leir wore his crown again for three more years. When he died, Cordelia became queen.
+
+Many years later, the great playwright William Shakespeare made this old story into a play called King Lear. But in Shakespeare's play, the old king goes mad with grief, and Cordelia does not manage to save him, and the story ends much more sadly.

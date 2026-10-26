@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 822 public-domain children's stories in 33 collections — Aesop
+A calm, offline-capable reader for 848 public-domain children's stories in 38 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -10,10 +10,14 @@ Kingsley's The Heroes, 40 sections of Bulfinch's The Age of Fable, Church's Stor
 Stories from Livy, and Macaulay's "Horatius". Norse: Thorpe's Elder Edda, Blackwell's Prose Edda
 and Lang's "Story of Sigurd". German and Swiss: Baldwin's The Story of Siegfried, Browning's "The
 Pied Piper of Hamelin" with Kate Greenaway's pictures, and William Tell and Arnold Winkelried from
-Baldwin's Fifty Famous Stories Retold. Where no free English version exists, Claude's own
-translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, and the Lorelei and
-Wild Huntsman ballads of Brentano, Heine and Bürger. Simplified retellings for young readers in
-Greek, Roman and Norse Myths, Simply Told, and German Legends, Simply Told.
+Baldwin's Fifty Famous Stories Retold. English: Brutus and King Leir from Bulfinch's The Age of
+Chivalry, Corineus and the giant from Quiller-Couch's Cornwall's Wonderland, Beowulf from
+Marshall's English Literature for Boys and Girls, seven chapters of Pyle's The Merry Adventures of
+Robin Hood, and Thorpe's Lay of Völund (Wayland). Where no free English version exists, Claude's
+own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
+Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger.
+Simplified retellings for young readers in Greek, Roman, Norse, German and English collections
+"Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
