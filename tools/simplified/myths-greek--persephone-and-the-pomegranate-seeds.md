@@ -3,6 +3,7 @@ title: Persephone and the Pomegranate Seeds
 adaptedFrom: hawthorne-tanglewood--the-pomegranate-seeds
 order: 5
 namesNote: Hawthorne uses the Roman names: Ceres for Demeter, Proserpina for Persephone, Pluto for Hades, Phoebus for Apollo and Quicksilver for Hermes.
+alsoSimplifies: hesiod-hymns--hymn-to-demeter
 ---
 
 Demeter was the goddess who made everything grow. She made the wheat grow tall and the apples grow sweet. She took care of every field and garden in the whole world.

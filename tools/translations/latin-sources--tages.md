@@ -1,0 +1,28 @@
+---
+title: Tages
+order: 1
+workId: etruscan-tages
+sources: the Latin of Cicero (ed. Müller, Teubner, 1915) and Ovid (ed. Magnus, Gotha, 1892), as published by the Perseus Digital Library
+---
+
+## Cicero, On Divination 2.50–51
+
+Note: Cicero is arguing that the haruspices, the Etruscan priests who read the future in lightning and in the insides of sacrificed animals, deserve no belief. He turns to the story of how their art began.
+
+But why say more? Let us look at how the art of the haruspices began. That is the easiest way to judge how much authority it has.
+
+They say that one Tages, in the fields of Tarquinii, when the land was being ploughed and the furrow had been cut deeper than usual, suddenly rose up out of it and spoke to the man who was ploughing. This Tages, as the books of the Etruscans tell, looked like a child, but had the wisdom of an old man. The ploughman was stunned at the sight of him and cried out loudly in amazement. A crowd gathered, and in a short time all Etruria came together at that spot. Then Tages spoke at length, with many people listening, and they took down all his words and wrote them in books. His whole speech was the teaching in which the art of the haruspices is contained. Afterwards that art grew, as new things were learned and referred back to the same first principles.
+
+This is what we have been told by the Etruscans themselves. This is what their writings preserve. This is the fountainhead of their art.
+
+Do we really need a philosopher like Carneades or Epicurus to refute this? Is anyone so foolish as to believe that someone was ploughed up out of the ground, whether we are to call him a god or a man? If he was a god, why had he hidden himself in the earth, against nature, so as to see the light only when a plough uncovered him? Could that same god not have handed his teaching to people from somewhere higher up? But if Tages was a man, how could he live buried under the earth? And where could he himself have learned the things he taught others?
+
+But I am being more foolish than the people who believe these things, to argue against them for so long. There is a clever old saying of Cato's: he said he wondered how one haruspex could keep from laughing when he saw another.
+
+## Ovid, Metamorphoses 15.547–559
+
+Note: King Numa of Rome has died, and the nymph Egeria, who loved him, cannot stop weeping for him.
+
+Yet the misfortunes of others could not lighten Egeria's grief. Lying at the very foot of the mountain, she melted into tears, until Diana, the sister of Phoebus, moved by her loving sorrow, made a cool spring of her body and thinned her limbs into ever-flowing water.
+
+The nymphs were touched by this strange new thing, and the son of the Amazon was just as amazed as the Etruscan ploughman was when he saw, in the middle of his fields, a clod of earth that held a fate. First it moved by itself, with no one stirring it. Then it took on the shape of a man, and lost the shape of earth, and opened its new-made mouth to tell of the fates to come. The people of that land called him Tages. He was the first to teach the Etruscan people how to uncover what will happen.

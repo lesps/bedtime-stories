@@ -37,11 +37,11 @@ describe('SettingsPage', () => {
     const box = await screen.findByRole('checkbox', { name: /Include illustrations/ });
     expect(box).toBeChecked();
     expect(
-      screen.getByRole('button', { name: /available offline \(about 36 MB\)/ }),
+      screen.getByRole('button', { name: /available offline \(about 38 MB\)/ }),
     ).toBeInTheDocument();
     await userEvent.click(box);
     expect(
-      screen.getByRole('button', { name: /available offline \(about 5 MB\)/ }),
+      screen.getByRole('button', { name: /available offline \(about 7 MB\)/ }),
     ).toBeInTheDocument();
   });
 

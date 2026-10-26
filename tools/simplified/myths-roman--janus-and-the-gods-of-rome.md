@@ -1,0 +1,33 @@
+---
+title: Janus and the Gods of Rome
+adaptedFrom: bulfinch-fable--the-roman-gods
+order: 1
+---
+
+The people of ancient Rome believed in the same great gods as the Greeks, but they called them by different names. Zeus, the king of the gods, they called Jupiter. His wife Hera they called Juno. Aphrodite, the goddess of love, was Venus, and Poseidon, the god of the sea, was Neptune.
+
+But the Romans also had gods of their very own, who lived only in Italy. These are some of them.
+
+The oldest was Saturn. Long ago, the story goes, Saturn was the king of the gods. But his son Jupiter took his throne, and Saturn ran away to Italy. There he became king, and he was such a kind and gentle king that his time was called the Golden Age. Everyone had enough, and everyone was treated the same.
+
+The Romans never forgot it. Every winter they held a festival for Saturn called the Saturnalia. For those days, nobody went to work and nobody went to court. Friends gave each other presents. And the strangest thing of all: the servants sat down at the table, and their masters served them dinner! It was a way of remembering the Golden Age, when everyone was equal.
+
+Saturn's grandson was Faunus, the god of fields and shepherds. He could tell the future, too. The Romans also told stories about fauns, playful forest spirits who loved to dance.
+
+Terminus was the god of boundaries. You could not see him, but you could see his sign: a rough stone or a wooden post stuck in the ground to show where one farmer's field ended and the next one began. Moving one was a very bad thing to do.
+
+There was Pales, who looked after cattle and sheep and their meadows. There was Pomona, who looked after fruit trees, and Flora, the goddess of flowers. There was Bellona, a goddess of war, and Quirinus, a god of war, who the Romans said was really Romulus, the man who founded Rome, taken up into the sky to become a god.
+
+Vesta was the goddess of the fire in the hearth, the fireplace at the heart of every home. In her temple in Rome a sacred fire burned day and night, and six priestesses called the Vestal Virgins took care of it. The Romans believed that as long as Vesta's fire burned, Rome would be safe. If it ever went out, it could not be lit again with an ordinary flame. It had to be lit from the rays of the sun.
+
+Every family had its own little household gods, too. The Penates looked after the pantry and made sure there was always food in the house. The Lares were the spirits of the family's grandparents and great-grandparents, who watched over their children's children. And the Romans believed that every man had a guardian spirit of his own, called his Genius, and every woman had one called her Juno. On their birthdays, people gave gifts to their guardian spirits.
+
+But the most unusual Roman god of all was Janus.
+
+Janus was the doorkeeper of heaven, and the god of doors and gates. Because a door faces two ways, both in and out, Janus had two faces. One looked forward, and one looked back.
+
+Janus was also the god of beginnings. He opens the year. The very first month, January, is named after him, because it looks back at the old year and forward to the new one.
+
+In the middle of Rome stood the temple of Janus, with two great gates. And there was a rule about those gates. Whenever Rome was at war, the gates stood open. Only when Rome was at peace were the gates closed.
+
+But the Romans fought so many wars that the gates almost always stood open. In more than six hundred years, from the days of a good king named Numa until the days of the emperor Augustus, they were shut only once.

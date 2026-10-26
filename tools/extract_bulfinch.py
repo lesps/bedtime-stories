@@ -30,8 +30,9 @@ COLLECTION = {
 }
 
 M = ["mature-themes"]
-# (heading in the text, story title, workId, flags[, last heading]), in book order. With a last
-# heading, the story runs through that section too, and the inner headings become heading blocks.
+# (heading in the text, story title, workId, flags[, last heading]): the Greek myths in book order,
+# then the Roman sections. With a last heading, the story runs through that section too, and the
+# inner headings become heading blocks.
 SECTIONS = [
     ("PROMETHEUS AND PANDORA", "Prometheus and Pandora", "greek-prometheus-pandora", []),
     ("APOLLO AND DAPHNE", "Apollo and Daphne", "greek-apollo-daphne", []),
@@ -70,9 +71,23 @@ SECTIONS = [
     ("SCYLLA AND CHARYBDIS", "Scylla and Charybdis", "greek-odysseus-sirens", []),
     ("THE PHAEACIANS", "The Phaeacians", "greek-odysseus-nausicaa", []),
     ("FATE OF THE SUITORS", "Fate of the Suitors", "greek-odysseus-homecoming", M),
+    # Roman (tagged roman in tools/tag_stories.py)
+    ("ROMAN DIVINITIES", "The Roman Gods", "roman-gods", []),
+    ("VERTUMNUS AND POMONA", "Vertumnus and Pomona", "roman-vertumnus-pomona", M),
+    ("CUPID AND PSYCHE", "Cupid and Psyche", "roman-cupid-psyche", M),
+    ("THE SIBYL", "The Sibyl", "roman-sibyl", []),
 ]
+# Paragraphs left out: Bulfinch's notes on pronouncing names.
+DROP = ("N.B.--",)
 
 HEADING = re.compile(r"^[A-Z][A-Z ,;:.'-]{3,}$")
+
+
+INLINE_NOTE = re.compile(r"\s*\[Footnote(?: \d+)?:\s*([^\]]*?)\s*\]")
+
+
+def strip_xref(note):
+    return re.sub(r"\s*See Proverbial Expressions\.?$", "", note).strip()
 
 
 def fable_lines(path):
@@ -142,13 +157,19 @@ def blocks_of(body):
         # A footnote runs from "[Footnote:" to the paragraph ending in "]", sometimes several.
         if text.startswith("[Footnote"):
             in_note = True
-            text = re.sub(r"^\[Footnote:?\s*", "Note: ", text)
+            text = re.sub(r"^\[Footnote(?: \d+)?:?\s*", "Note: ", text)
         if in_note:
             if text.endswith("]"):
                 in_note, text = False, text[:-1]
-            blocks.append({"type": "note", "text": text})
+            if strip_xref(text) != "Note:":
+                blocks.append({"type": "note", "text": strip_xref(text)})
         else:
+            # Footnotes inside a paragraph follow it as notes; cross-references to the book's
+            # appendix of proverbial expressions (not taken) are dropped.
+            notes = [n for n in map(strip_xref, INLINE_NOTE.findall(text)) if n]
+            text = re.sub(r"\s+([,.;:!?])", r"\1", INLINE_NOTE.sub("", text)).strip()
             blocks.append({"type": "p", "text": text})
+            blocks.extend({"type": "note", "text": f"Note: {n}"} for n in notes)
     return blocks
 
 
@@ -166,7 +187,8 @@ def main(src):
             "excluded": False,
             "flags": list(flags),
             "moral": None,
-            "blocks": blocks_of(section(lines, heading, *last)),
+            "blocks": [b for b in blocks_of(section(lines, heading, *last))
+                       if not b["text"].startswith(DROP)],
             "workId": work_id,
         }
         stories.append(finish(story))
