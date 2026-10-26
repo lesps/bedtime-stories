@@ -7,6 +7,13 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 1 (data only): Hawthorne's _Tanglewood Tales_ (6 Greek myths) and _Greek
+  Myths, Simply Told_, a simplified retelling of each for young readers (grade 2–3, 6–10 min
+  against 40–73 min). Each pair shares a `workId`, so the reader links them under Other
+  versions. New `Gods & heroes` theme. New data fields `readingLevel`, `simplifiedId` and
+  `adaptedFrom`, not yet used by the app (see CLAUDE.md). New tools: `extract_hawthorne.py`,
+  `build_simplified.py`, `readability.py`, `compendium_io.py`.
+
 - Desktop layout: from 1024px the tab bar becomes a sidebar, pages widen with two-column story
   lists, three-column collection cards and side-by-side Settings cards; the highlight sheet is a
   centred dialog and the Notes panel docks on the right. Phones and tablets are unchanged.

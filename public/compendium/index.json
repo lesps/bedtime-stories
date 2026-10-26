@@ -144,6 +144,30 @@
    "source": "https://www.gutenberg.org/ebooks/28847",
    "license": "Public domain in the USA",
    "storyCount": 1
+  },
+  {
+   "id": "hawthorne-tanglewood",
+   "title": "Tanglewood Tales",
+   "author": "Nathaniel Hawthorne",
+   "contributor": null,
+   "firstPublished": 1853,
+   "source": "https://www.gutenberg.org/ebooks/976",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 6
+  },
+  {
+   "id": "myths-greek",
+   "title": "Greek Myths, Simply Told",
+   "author": "Traditional (ancient Greek)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 6
   }
  ],
  "stories": [
@@ -7275,6 +7299,222 @@
     "mature-themes"
    ],
    "hasImages": true
+  },
+  {
+   "id": "hawthorne-tanglewood--the-minotaur",
+   "collectionId": "hawthorne-tanglewood",
+   "order": 1,
+   "title": "The Minotaur",
+   "wordCount": 10245,
+   "readingMinutes": 57,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-theseus",
+   "readingLevel": {
+    "fkGrade": 9.4,
+    "avgSentenceWords": 23.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--theseus-and-the-minotaur"
+  },
+  {
+   "id": "hawthorne-tanglewood--the-pygmies",
+   "collectionId": "hawthorne-tanglewood",
+   "order": 2,
+   "title": "The Pygmies",
+   "wordCount": 7184,
+   "readingMinutes": 40,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-heracles-antaeus",
+   "readingLevel": {
+    "fkGrade": 10.4,
+    "avgSentenceWords": 25.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--heracles-and-the-pygmies"
+  },
+  {
+   "id": "hawthorne-tanglewood--the-dragon-s-teeth",
+   "collectionId": "hawthorne-tanglewood",
+   "order": 3,
+   "title": "The Dragon's Teeth",
+   "wordCount": 10577,
+   "readingMinutes": 59,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-cadmus",
+   "readingLevel": {
+    "fkGrade": 9.5,
+    "avgSentenceWords": 23.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--cadmus-and-the-dragon-s-teeth"
+  },
+  {
+   "id": "hawthorne-tanglewood--circe-s-palace",
+   "collectionId": "hawthorne-tanglewood",
+   "order": 4,
+   "title": "Circe's Palace",
+   "wordCount": 10563,
+   "readingMinutes": 59,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-circe",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 24.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--odysseus-and-circe"
+  },
+  {
+   "id": "hawthorne-tanglewood--the-pomegranate-seeds",
+   "collectionId": "hawthorne-tanglewood",
+   "order": 5,
+   "title": "The Pomegranate Seeds",
+   "wordCount": 11573,
+   "readingMinutes": 64,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-persephone",
+   "readingLevel": {
+    "fkGrade": 8.9,
+    "avgSentenceWords": 22.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--persephone-and-the-pomegranate-seeds"
+  },
+  {
+   "id": "hawthorne-tanglewood--the-golden-fleece",
+   "collectionId": "hawthorne-tanglewood",
+   "order": 6,
+   "title": "The Golden Fleece",
+   "wordCount": 13057,
+   "readingMinutes": 73,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-jason",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 24.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-greek--jason-and-the-golden-fleece"
+  },
+  {
+   "id": "myths-greek--theseus-and-the-minotaur",
+   "collectionId": "myths-greek",
+   "order": 1,
+   "title": "Theseus and the Minotaur",
+   "wordCount": 1410,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-theseus",
+   "readingLevel": {
+    "fkGrade": 2.7,
+    "avgSentenceWords": 9.2,
+    "band": "early"
+   },
+   "adaptedFrom": "hawthorne-tanglewood--the-minotaur"
+  },
+  {
+   "id": "myths-greek--heracles-and-the-pygmies",
+   "collectionId": "myths-greek",
+   "order": 2,
+   "title": "Heracles and the Pygmies",
+   "wordCount": 1136,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-heracles-antaeus",
+   "readingLevel": {
+    "fkGrade": 2.6,
+    "avgSentenceWords": 8.4,
+    "band": "early"
+   },
+   "adaptedFrom": "hawthorne-tanglewood--the-pygmies"
+  },
+  {
+   "id": "myths-greek--cadmus-and-the-dragon-s-teeth",
+   "collectionId": "myths-greek",
+   "order": 3,
+   "title": "Cadmus and the Dragon's Teeth",
+   "wordCount": 1489,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-cadmus",
+   "readingLevel": {
+    "fkGrade": 2.5,
+    "avgSentenceWords": 9.5,
+    "band": "early"
+   },
+   "adaptedFrom": "hawthorne-tanglewood--the-dragon-s-teeth"
+  },
+  {
+   "id": "myths-greek--odysseus-and-circe",
+   "collectionId": "myths-greek",
+   "order": 4,
+   "title": "Odysseus and Circe",
+   "wordCount": 1412,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-odysseus-circe",
+   "readingLevel": {
+    "fkGrade": 2.2,
+    "avgSentenceWords": 8.3,
+    "band": "early"
+   },
+   "adaptedFrom": "hawthorne-tanglewood--circe-s-palace"
+  },
+  {
+   "id": "myths-greek--persephone-and-the-pomegranate-seeds",
+   "collectionId": "myths-greek",
+   "order": 5,
+   "title": "Persephone and the Pomegranate Seeds",
+   "wordCount": 1590,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-persephone",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 9.6,
+    "band": "early"
+   },
+   "adaptedFrom": "hawthorne-tanglewood--the-pomegranate-seeds"
+  },
+  {
+   "id": "myths-greek--jason-and-the-golden-fleece",
+   "collectionId": "myths-greek",
+   "order": 6,
+   "title": "Jason and the Golden Fleece",
+   "wordCount": 1741,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "greek-jason",
+   "readingLevel": {
+    "fkGrade": 2.5,
+    "avgSentenceWords": 9.3,
+    "band": "early"
+   },
+   "adaptedFrom": "hawthorne-tanglewood--the-golden-fleece"
   }
  ]
 }

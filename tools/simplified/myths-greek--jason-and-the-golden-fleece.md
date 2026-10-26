@@ -1,0 +1,122 @@
+---
+title: Jason and the Golden Fleece
+adaptedFrom: hawthorne-tanglewood--the-golden-fleece
+order: 6
+namesNote: Hawthorne uses Roman names in places: Hercules for Heracles, Neptune for Poseidon, Vulcan for Hephaestus and Mars for Ares.
+---
+
+When Jason was a baby, a wicked man named Pelias took his father's throne. To keep him safe, Jason was sent to live in a cave in the mountains with the strangest teacher in the world. His name was Chiron, and he was a centaur. From the waist up he was a wise old man, and from the waist down he was a white horse.
+
+Chiron taught Jason to play the harp, to ride, to fight with a spear, and to heal wounds with herbs. He let his pupils ride on his back. Jason lived in the cave until he was grown up.
+
+Then Jason said, "It is time for me to take back my father's kingdom."
+
+He put a leopard skin over his shoulders, took a spear in each hand, and tied on his father's fine sandals with their golden laces. Off he went.
+
+Soon he came to a river, wild and roaring from the melting snow. It was too deep to wade and too rough to swim.
+
+"Poor boy," said a croaky voice beside him. "Doesn't he know how to cross a little stream?"
+
+Jason turned. An old woman in a ragged cloak stood there, leaning on a stick carved like a cuckoo. A peacock stood beside her. She was wrinkled and bent, but her big brown eyes were beautiful.
+
+"Carry me across, there's a good boy," she said. "My peacock and I have business on the other side."
+
+"I'm going to take a throne back from a wicked king," said Jason. "That is more important than your business. Besides, the river might sweep us both away."
+
+"If you're not strong enough to carry an old woman," she said, "you're not strong enough to beat a king. What are kings for, if not to help people who need help?"
+
+Jason felt ashamed. "You're right," he said. "Climb on my back."
+
+So she put her arms around his neck, the peacock hopped onto her shoulder, and Jason waded into the rushing water. The current pushed hard against him. Rocks rolled under his feet. But the strange thing was, the farther he went, the stronger he felt. Halfway across, his foot got stuck between two rocks, and when he pulled it free, one of his golden sandals was gone.
+
+"Oh no!" said Jason. "Now I'll have one bare foot when I meet the king."
+
+"Don't worry," said the old woman. "Losing that sandal is the luckiest thing that ever happened to you."
+
+On the other side, he set her down. "Remember me when you are king," she said with a smile, and she hobbled away. As she went, she somehow looked as grand as a queen. Some say she really was a queen: Hera, the queen of all the gods, whose bird is the peacock.
+
+Jason came to the city of Iolchos. A big crowd was gathered around King Pelias. When they saw Jason, everyone stared at his feet.
+
+"Look!" they whispered. "One sandal! The man with one sandal is here!"
+
+King Pelias went pale. Long ago, a magic talking oak tree had told him that a man with one sandal would take his throne. He had been afraid of one-sandaled men ever since.
+
+The king thought of a trick. He smiled a fake smile. "Welcome, young man," he said. "Let me ask you a question. If you met a man who was going to ruin you, what would you do with him?"
+
+Jason knew it was a trick. But he would not tell a lie. "I would send him to fetch the Golden Fleece," he said.
+
+The Golden Fleece was the golden wool of a magic ram. It hung on a tree in a faraway land called Colchis, guarded by a dragon. No one who went to get it ever came back.
+
+The king smiled a real smile now, a nasty one. "Good answer!" he said. "Then you go and get the Golden Fleece. If you bring it back, you can have my crown."
+
+So Jason went to the magic talking oak tree. "How can I win the Golden Fleece?" he asked.
+
+The leaves rustled. "Ask Argus the shipbuilder to build a ship with fifty oars," said the tree.
+
+Argus built the biggest ship anyone had ever seen. They named it the Argo. Then the oak tree spoke again. "Cut off one of my branches," it said, "and carve it into the figure for the front of your ship."
+
+Jason did. The carving turned out to be a beautiful lady with a calm, wise face. And she could talk! Because she was made from the magic oak, she gave the best advice in the world.
+
+"Where can I find fifty brave people to row my ship?" Jason asked her.
+
+"Call all the heroes of Greece," said the wooden lady.
+
+And they came. Mighty Heracles came, the strongest man alive. Theseus came, who had beaten the Minotaur. Castor and Pollux came, the twin brothers. Orpheus came with his harp, whose music could make trees dance. Atalanta came, the fastest runner in the world, who could skip from wave to wave without getting wet. Lynceus came, whose eyes were so sharp he could see a whole day's sail away. And two winged brothers came, the sons of the North Wind. They called themselves the Argonauts.
+
+But the ship was so big and heavy that all fifty heroes together could not push it into the sea.
+
+"Sit down, hold your oars, and let Orpheus play," said the wooden lady.
+
+Orpheus played his harp, and at the very first note, the great ship began to move. It slid down the beach and into the waves all by itself.
+
+The Argonauts had many adventures. They helped a kind king fight giants with six arms each. They found a poor blind king whose food was always stolen by Harpies, awful bird-women with sharp claws. The winged sons of the North Wind chased them away. On one island, a flock of birds shot feathers as sharp as arrows at them.
+
+"What do we do?" Jason asked the wooden lady.
+
+"Bang on your shields," she said. So the heroes banged their swords on their shields, making a terrible racket, and the birds flew away.
+
+At last they reached Colchis. Its king, Aeetes, had a stern, cruel face.
+
+"You want my Golden Fleece?" he said. "First you must tame my two bulls. They have feet of brass, and fire in their bellies, and they breathe out flames. Then you must use them to plow a field and plant dragon's teeth, the same kind that Cadmus planted. Soldiers will grow from them and attack you. Then you may face the dragon."
+
+"I will do it," said Jason.
+
+Behind the king's throne stood his daughter, Medea. She had dark, deep eyes, and she knew magic. When Jason left the room, she followed him.
+
+"I can help you," she said. "Rub this magic cream on your skin, and the fire won't burn you. Meet me tonight."
+
+At midnight Medea led Jason to the field. In the dark corner, he saw four jets of red fire. It was the two bulls, breathing flames. When they saw Jason, they charged, with fire roaring out of their noses.
+
+The flames wrapped around Jason, but thanks to the magic cream, they did not burn him. As the bulls came at him, he grabbed one by the horn and the other by the tail and held on tight. They pulled and bucked, but Jason was stronger. At last they stood still. He put them in a yoke and plowed the field. Then he planted the dragon's teeth.
+
+In the moonlight, shiny spearheads poked up out of the ground. Then helmets, then faces. A whole army grew up and rushed at Jason with their swords.
+
+"Throw a stone!" said Medea.
+
+Jason threw a stone. It bounced off one soldier's helmet and hit another. Each soldier thought his neighbor had hit him, so they began to fight each other. They fought until every one of them had fallen.
+
+Medea laughed. But Jason was sad. "It makes me sad to see them," he said. "The Golden Fleece doesn't seem so wonderful now."
+
+In the morning Jason told the king, "I have tamed the bulls, plowed the field and planted the teeth. Now let me face the dragon."
+
+But King Aeetes was furious. "My daughter helped you with her magic," he said. "You will never have the Golden Fleece!"
+
+That evening Medea found Jason. "My father plans to burn your ship tonight," she whispered. "Come with me, quickly."
+
+They crept through the dark. The two brass bulls came trotting up and nuzzled Jason like friendly cows, wanting their noses scratched. Then Medea led him into a forest of giant oak trees. Far ahead, something glowed, like the light of the setting sun.
+
+"There it is," whispered Medea. "The Golden Fleece."
+
+It hung from a branch, shining with its own golden light. Jason was so happy that he forgot all about the dragon. Then a deer came running toward the glow, and with a horrible hiss, a huge black head shot out of the trees and swallowed the deer in one gulp.
+
+Jason drew his sword. "Wait," said Medea. "Your sword is no use. I have something better."
+
+The dragon's head came swooping toward them again, its forked tongue flicking. Medea threw a magic potion right into its open mouth. The dragon thrashed its tail so hard that it snapped the tops off the trees. Then it went limp and began to snore.
+
+"It's only asleep," said Medea. "Quick! Take the Fleece!"
+
+Jason snatched the Golden Fleece from the tree and ran. Its golden light lit up the dark forest as he went. On the path ahead stood the old woman with the peacock. She clapped her hands for joy and waved him on. Then she was gone.
+
+"Hurry, Jason!" called the wooden lady on the front of the ship. "Hurry!"
+
+Jason leaped on board. When the heroes saw the Golden Fleece shining in his arms, they gave a mighty cheer. Orpheus played a happy song on his harp, and the Argo flew over the waves toward home, as if it had wings.
