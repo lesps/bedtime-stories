@@ -1,7 +1,7 @@
 ---
 title: Loki Is Punished
 adaptedFrom: blackwell-prose-edda--the-punishment-of-loki
-order: 19
+order: 21
 flags: none
 namesNote: Blackwell spells Loki's wife's name “Siguna.”
 ---

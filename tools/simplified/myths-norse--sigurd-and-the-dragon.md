@@ -1,7 +1,7 @@
 ---
 title: Sigurd and the Dragon
 adaptedFrom: lang-red--the-story-of-sigurd
-order: 21
+order: 24
 alsoSimplifies: thorpe-elder-edda--the-lay-of-fafnir
 flags: none
 ---

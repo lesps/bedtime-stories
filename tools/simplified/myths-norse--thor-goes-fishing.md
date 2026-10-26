@@ -2,7 +2,6 @@
 title: Thor Goes Fishing
 adaptedFrom: blackwell-prose-edda--how-thor-went-fishing-for-the-midgard-serpent
 order: 10
-alsoSimplifies: thorpe-elder-edda--the-lay-of-hymir
 ---
 
 After his trip to Utgard, Thor could not stop thinking about that grey cat that he could not lift, the one that was really the Midgard Serpent. The Midgard Serpent was the biggest snake there ever was. It lay at the bottom of the sea, all the way around the world, with its tail in its mouth. Thor wanted another chance at it.

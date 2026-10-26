@@ -1,0 +1,99 @@
+{
+ "id": "myths-norse--odin-rides-to-the-land-of-the-dead",
+ "collectionId": "myths-norse",
+ "order": 19,
+ "title": "Odin Rides to the Land of the Dead",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Baldur, the son of Odin and Frigg, was the best loved of all the gods. But one night he began to have bad dreams, dark, heavy dreams that would not let him rest. All the gods and goddesses met together to talk about it. What could Baldur's dreams mean?"
+  },
+  {
+   "type": "p",
+   "text": "Nobody knew. So Odin decided to find out for himself."
+  },
+  {
+   "type": "p",
+   "text": "He got up and put the saddle on his eight-legged horse, Sleipnir. Then he rode away, down and down, to the misty world below, where the dead live. On the way, a great fierce dog came out to meet him from the land of the dead. It bared its teeth and barked at Odin, and it howled and howled."
+  },
+  {
+   "type": "p",
+   "text": "But Odin rode on, and the ground rumbled under Sleipnir's hooves, until he came to the high hall of Hel, the queen of the dead. Then he rode around to the eastern gate. There, he knew, was the grave of a wise woman who could see what was going to happen."
+  },
+  {
+   "type": "p",
+   "text": "Odin knew magic songs. He turned to face the north, and he sang his songs and spoke his spells, until the wise woman had to rise up out of her grave and answer him. Her voice was the voice of someone long dead."
+  },
+  {
+   "type": "p",
+   "text": "\"Who is this stranger,\" she said, \"who has made me travel this hard road? I have been covered with snow, and beaten by the rain, and soaked with the dew. I have been dead a long time.\""
+  },
+  {
+   "type": "p",
+   "text": "Odin did not want her to know who he was. So he gave a made-up name. \"My name is Vegtam, which means Wanderer,\" he said. \"Tell me the news from the land of the dead, and I will tell you the news from the world above. Who are these benches covered with rings for? Who are these beds covered with gold for?\""
+  },
+  {
+   "type": "p",
+   "text": "\"This mead has been brewed for Baldur,\" said the wise woman. \"It stands here waiting for him, with a shield laid over it. And the gods will be full of sorrow. I did not want to speak. Now I will be silent.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Do not be silent, wise woman,\" said Odin. \"I will keep asking until I know everything. Who will take Baldur's life?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Hodur will,\" said the wise woman. \"His own brother will send him here. I did not want to speak. Now I will be silent.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Do not be silent, wise woman,\" said Odin. \"I will keep asking until I know everything. Who will pay Hodur back for what he has done?\""
+  },
+  {
+   "type": "p",
+   "text": "\"A woman named Rind will have a son in the halls of the west,\" said the wise woman. \"His name will be Vali, and when he is only one night old he will be ready to fight. He will not wash his hands, or comb his hair, until he has paid Hodur back for Baldur's death. I did not want to speak. Now I will be silent.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Do not be silent, wise woman,\" said Odin. \"I will keep asking until I know everything. Who are the maidens who weep whenever they please, and toss their veils up toward the sky?\""
+  },
+  {
+   "type": "p",
+   "text": "That was a riddle, and only Odin asked riddles like that. (Many people think the maidens are the waves of the sea, tossing their white spray into the air.)"
+  },
+  {
+   "type": "p",
+   "text": "\"You are not Vegtam at all, as I thought,\" said the wise woman. \"You are Odin!\""
+  },
+  {
+   "type": "p",
+   "text": "\"And you are no wise woman,\" said Odin. \"You are the mother of three giants!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Ride home, Odin, and be proud of yourself,\" said the wise woman. \"No one will ever wake me like this again, not until Loki breaks free from his chains and Ragnarok comes, the end of the world.\""
+  },
+  {
+   "type": "p",
+   "text": "And she sank back into her grave, and Odin rode home. Now he knew what Baldur's dreams meant. And everything the wise woman said came true, as another story tells."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Baldr's Dreams” in The Elder Edda, translated by Benjamin Thorpe (1866). The original is listed under Other versions. Thorpe spells the names “Baldr” and “Hödr.”"
+  }
+ ],
+ "workId": "norse-baldr-dreams",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "thorpe-elder-edda--baldr-s-dreams",
+ "wordCount": 680,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 2.9,
+  "avgSentenceWords": 11.1,
+  "band": "early"
+ }
+}

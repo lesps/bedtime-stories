@@ -1,7 +1,7 @@
 ---
 title: Thor and the Stone Giant
 adaptedFrom: norse-sources--thor-and-hrungnir
-order: 12
+order: 13
 ---
 
 One day, while Thor was away fighting trolls in the east, Odin went riding into Giantland on his eight-legged horse, Sleipnir. There he met a giant named Hrungnir.

@@ -63,13 +63,13 @@ LANG_RED = {
 }
 # (start of the <h2> text, title, workId, flags)
 POEMS = [
-    ("VÖLUSPÂ", "The Vala's Prophecy", "norse-ragnarok", []),
+    ("VÖLUSPÂ", "The Vala's Prophecy", "norse-voluspa", []),
     ("ODIN'S RUNE-SONG", "Odin's Rune-Song", "norse-odin-runes", []),
-    ("THE LAY OF HYMIR", "The Lay of Hymir", "norse-thor-fishing", []),
+    ("THE LAY OF HYMIR", "The Lay of Hymir", "norse-hymir-cauldron", []),
     ("THE LAY OF THRYM", "The Lay of Thrym", "norse-thor-thrym", []),
     ("THE LAY OF THE DWARF ALVIS", "The Lay of Alvis", "norse-alviss", []),
     ("THE JOURNEY OR LAY OF SKIRNIR", "The Journey of Skirnir", "norse-frey-gerd", M),
-    ("THE LAY OF VEGTAM", "Baldr's Dreams", "norse-baldr", []),
+    ("THE LAY OF VEGTAM", "Baldr's Dreams", "norse-baldr-dreams", []),
     ("THE LAY OF FAFNIR", "The Lay of Fafnir", "norse-sigurd-fafnir", []),
 ]
 # (first <h4>, last <h4> or None, title, workId, flags[, start phrase, stop phrase, [more <h4>s]])

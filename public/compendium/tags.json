@@ -784,6 +784,7 @@
 "myths-norse--thor-gets-his-hammer-back": {"cultures": ["norse"], "themes": ["tricksters", "monsters", "legends", "gods-heroes"]},
 "myths-norse--thor-in-the-land-of-the-giants": {"cultures": ["norse"], "themes": ["monsters", "quests", "gods-heroes"]},
 "myths-norse--thor-goes-fishing": {"cultures": ["norse"], "themes": ["animals", "monsters", "quests", "gods-heroes"]},
+"myths-norse--thor-and-the-giant-s-cauldron": {"cultures": ["norse"], "themes": ["monsters", "quests", "legends", "gods-heroes"]},
 "myths-norse--thor-and-the-clever-dwarf": {"cultures": ["norse"], "themes": ["tricksters", "monsters", "legends", "gods-heroes"]},
 "myths-norse--thor-and-the-stone-giant": {"cultures": ["norse"], "themes": ["greed-pride", "monsters", "gods-heroes"]},
 "myths-norse--the-binding-of-fenrir": {"cultures": ["norse"], "themes": ["animals", "tricksters", "magic", "quests", "legends", "gods-heroes"]},
@@ -791,9 +792,11 @@
 "myths-norse--skadi-chooses-a-husband": {"cultures": ["norse"], "themes": ["tricksters", "monsters", "family", "legends", "gods-heroes"]},
 "myths-norse--frey-gives-away-his-sword": {"cultures": ["norse"], "themes": ["magic", "monsters", "quests", "legends", "gods-heroes"]},
 "myths-norse--freyja-s-necklace": {"cultures": ["norse"], "themes": ["tricksters", "monsters", "quests", "gods-heroes"]},
+"myths-norse--odin-rides-to-the-land-of-the-dead": {"cultures": ["norse"], "themes": ["magic", "quests", "legends", "gods-heroes"]},
 "myths-norse--the-death-of-baldur": {"cultures": ["norse"], "themes": ["magic", "quests", "legends", "gods-heroes"]},
 "myths-norse--loki-is-punished": {"cultures": ["norse"], "themes": ["tricksters", "legends", "gods-heroes"]},
 "myths-norse--ragnarok-and-the-green-world-after": {"cultures": ["norse"], "themes": ["animals", "monsters", "quests", "legends", "gods-heroes"]},
+"myths-norse--what-the-wise-woman-saw": {"cultures": ["norse"], "themes": ["monsters", "how-things-began", "legends", "gods-heroes"]},
 "myths-norse--sigurd-and-the-dragon": {"cultures": ["norse"], "themes": ["magic", "monsters", "gods-heroes"]}
 }
 }

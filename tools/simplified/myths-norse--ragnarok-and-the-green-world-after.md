@@ -1,8 +1,7 @@
 ---
 title: Ragnarok and the Green World After
 adaptedFrom: blackwell-prose-edda--ragnarok
-order: 20
-alsoSimplifies: thorpe-elder-edda--the-vala-s-prophecy
+order: 22
 namesNote: Blackwell spells the names “Ragnarok,” “Baldur,” “Hodur” and “Fenir.”
 ---
 

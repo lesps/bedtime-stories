@@ -1,7 +1,7 @@
 ---
 title: The Binding of Fenrir
 adaptedFrom: blackwell-prose-edda--the-binding-of-the-wolf-fenrir
-order: 13
+order: 14
 namesNote: Blackwell spells Fenrir “Fenir” in places, and calls Odin “All-father.”
 ---
 

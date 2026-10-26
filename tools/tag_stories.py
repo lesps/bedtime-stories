@@ -270,6 +270,7 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "blackwell-prose-edda--how-thor-went-fishing-for-the-midgard-serpent": {"remove": ["how-things-began"]},
     "blackwell-prose-edda--the-punishment-of-loki": {"add": ["tricksters"]},
     "thorpe-elder-edda--the-vala-s-prophecy": {"add": ["how-things-began"], "remove": ["ghosts"]},
+    "myths-norse--what-the-wise-woman-saw": {"add": ["how-things-began"], "remove": ["quests"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

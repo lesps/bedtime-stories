@@ -93,7 +93,7 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 792 stories, 28 collections, ~8 MB
+failures throw `DataError` (`kind: network | http | invalid`). 795 stories, 28 collections, ~8 MB
 of story JSON and ~31 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 

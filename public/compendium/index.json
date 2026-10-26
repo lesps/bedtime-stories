@@ -335,7 +335,7 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 21
+   "storyCount": 24
   }
  ],
  "stories": [
@@ -9889,13 +9889,13 @@
    "excluded": false,
    "flags": [],
    "hasImages": false,
-   "workId": "norse-ragnarok",
+   "workId": "norse-voluspa",
    "readingLevel": {
     "fkGrade": 6.5,
     "avgSentenceWords": 17.5,
     "band": "middle"
    },
-   "simplifiedId": "myths-norse--ragnarok-and-the-green-world-after"
+   "simplifiedId": "myths-norse--what-the-wise-woman-saw"
   },
   {
    "id": "thorpe-elder-edda--odin-s-rune-song",
@@ -9925,13 +9925,13 @@
    "excluded": false,
    "flags": [],
    "hasImages": false,
-   "workId": "norse-thor-fishing",
+   "workId": "norse-hymir-cauldron",
    "readingLevel": {
     "fkGrade": 6.5,
     "avgSentenceWords": 17.4,
     "band": "middle"
    },
-   "simplifiedId": "myths-norse--thor-goes-fishing"
+   "simplifiedId": "myths-norse--thor-and-the-giant-s-cauldron"
   },
   {
    "id": "thorpe-elder-edda--the-lay-of-thrym",
@@ -9999,13 +9999,13 @@
    "excluded": false,
    "flags": [],
    "hasImages": false,
-   "workId": "norse-baldr",
+   "workId": "norse-baldr-dreams",
    "readingLevel": {
     "fkGrade": 5.7,
     "avgSentenceWords": 15.1,
     "band": "middle"
    },
-   "simplifiedId": "myths-norse--the-death-of-baldur"
+   "simplifiedId": "myths-norse--odin-rides-to-the-land-of-the-dead"
   },
   {
    "id": "thorpe-elder-edda--the-lay-of-fafnir",
@@ -10536,9 +10536,27 @@
    "adaptedFrom": "blackwell-prose-edda--how-thor-went-fishing-for-the-midgard-serpent"
   },
   {
-   "id": "myths-norse--thor-and-the-clever-dwarf",
+   "id": "myths-norse--thor-and-the-giant-s-cauldron",
    "collectionId": "myths-norse",
    "order": 11,
+   "title": "Thor and the Giant's Cauldron",
+   "wordCount": 1168,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-hymir-cauldron",
+   "readingLevel": {
+    "fkGrade": 3.1,
+    "avgSentenceWords": 12.4,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--the-lay-of-hymir"
+  },
+  {
+   "id": "myths-norse--thor-and-the-clever-dwarf",
+   "collectionId": "myths-norse",
+   "order": 12,
    "title": "Thor and the Clever Dwarf",
    "wordCount": 633,
    "readingMinutes": 4,
@@ -10556,7 +10574,7 @@
   {
    "id": "myths-norse--thor-and-the-stone-giant",
    "collectionId": "myths-norse",
-   "order": 12,
+   "order": 13,
    "title": "Thor and the Stone Giant",
    "wordCount": 1059,
    "readingMinutes": 6,
@@ -10574,7 +10592,7 @@
   {
    "id": "myths-norse--the-binding-of-fenrir",
    "collectionId": "myths-norse",
-   "order": 13,
+   "order": 14,
    "title": "The Binding of Fenrir",
    "wordCount": 930,
    "readingMinutes": 5,
@@ -10592,7 +10610,7 @@
   {
    "id": "myths-norse--idun-s-golden-apples",
    "collectionId": "myths-norse",
-   "order": 14,
+   "order": 15,
    "title": "Idun's Golden Apples",
    "wordCount": 686,
    "readingMinutes": 4,
@@ -10610,7 +10628,7 @@
   {
    "id": "myths-norse--skadi-chooses-a-husband",
    "collectionId": "myths-norse",
-   "order": 15,
+   "order": 16,
    "title": "Skadi Chooses a Husband",
    "wordCount": 497,
    "readingMinutes": 3,
@@ -10628,7 +10646,7 @@
   {
    "id": "myths-norse--frey-gives-away-his-sword",
    "collectionId": "myths-norse",
-   "order": 16,
+   "order": 17,
    "title": "Frey Gives Away His Sword",
    "wordCount": 508,
    "readingMinutes": 3,
@@ -10646,7 +10664,7 @@
   {
    "id": "myths-norse--freyja-s-necklace",
    "collectionId": "myths-norse",
-   "order": 17,
+   "order": 18,
    "title": "Freyja's Necklace",
    "wordCount": 523,
    "readingMinutes": 3,
@@ -10662,9 +10680,27 @@
    "adaptedFrom": "norse-sources--freyja-s-necklace"
   },
   {
+   "id": "myths-norse--odin-rides-to-the-land-of-the-dead",
+   "collectionId": "myths-norse",
+   "order": 19,
+   "title": "Odin Rides to the Land of the Dead",
+   "wordCount": 680,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-baldr-dreams",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--baldr-s-dreams"
+  },
+  {
    "id": "myths-norse--the-death-of-baldur",
    "collectionId": "myths-norse",
-   "order": 18,
+   "order": 20,
    "title": "The Death of Baldur",
    "wordCount": 865,
    "readingMinutes": 5,
@@ -10682,7 +10718,7 @@
   {
    "id": "myths-norse--loki-is-punished",
    "collectionId": "myths-norse",
-   "order": 19,
+   "order": 21,
    "title": "Loki Is Punished",
    "wordCount": 570,
    "readingMinutes": 3,
@@ -10700,7 +10736,7 @@
   {
    "id": "myths-norse--ragnarok-and-the-green-world-after",
    "collectionId": "myths-norse",
-   "order": 20,
+   "order": 22,
    "title": "Ragnarok and the Green World After",
    "wordCount": 770,
    "readingMinutes": 4,
@@ -10716,9 +10752,27 @@
    "adaptedFrom": "blackwell-prose-edda--ragnarok"
   },
   {
+   "id": "myths-norse--what-the-wise-woman-saw",
+   "collectionId": "myths-norse",
+   "order": 23,
+   "title": "What the Wise Woman Saw",
+   "wordCount": 1627,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "norse-voluspa",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.8,
+    "band": "early"
+   },
+   "adaptedFrom": "thorpe-elder-edda--the-vala-s-prophecy"
+  },
+  {
    "id": "myths-norse--sigurd-and-the-dragon",
    "collectionId": "myths-norse",
-   "order": 21,
+   "order": 24,
    "title": "Sigurd and the Dragon",
    "wordCount": 1271,
    "readingMinutes": 7,

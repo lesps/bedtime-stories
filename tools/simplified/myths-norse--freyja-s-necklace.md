@@ -1,7 +1,7 @@
 ---
 title: Freyja's Necklace
 adaptedFrom: norse-sources--freyja-s-necklace
-order: 17
+order: 18
 ---
 
 Freyja was one of the greatest of all the goddesses, as great as Frigg, the wife of Odin.

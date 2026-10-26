@@ -1,8 +1,7 @@
 ---
 title: The Death of Baldur
 adaptedFrom: blackwell-prose-edda--the-death-of-baldur
-order: 18
-alsoSimplifies: thorpe-elder-edda--baldr-s-dreams
+order: 20
 namesNote: Blackwell spells the names “Baldur,” “Hodur” and “Frigga.”
 ---
 

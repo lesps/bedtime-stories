@@ -1,7 +1,7 @@
 ---
 title: Idun's Golden Apples
 adaptedFrom: blackwell-prose-edda--iduna-and-her-apples
-order: 14
+order: 15
 namesNote: Blackwell spells Idun's name “Iduna” and the giant's name “Thjassi.”
 ---
 

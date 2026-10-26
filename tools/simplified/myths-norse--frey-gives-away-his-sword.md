@@ -1,7 +1,7 @@
 ---
 title: Frey Gives Away His Sword
 adaptedFrom: blackwell-prose-edda--frey-and-gerda
-order: 16
+order: 17
 alsoSimplifies: thorpe-elder-edda--the-journey-of-skirnir
 namesNote: Blackwell spells Gerd's name “Gerda.”
 ---

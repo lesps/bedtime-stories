@@ -1,7 +1,7 @@
 ---
 title: Skadi Chooses a Husband
 adaptedFrom: blackwell-prose-edda--skadi-chooses-a-husband
-order: 15
+order: 16
 namesNote: Blackwell spells the giant's name “Thjassi.”
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Thor and the Clever Dwarf
 adaptedFrom: thorpe-elder-edda--the-lay-of-alvis
-order: 11
+order: 12
 namesNote: Thorpe calls Thor by his poetic name Vingthor and spells the dwarf's name “Alvis.”
 ---
 

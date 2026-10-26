@@ -14,11 +14,13 @@ versioning: [SemVer](https://semver.org/).
   "Of Njord"). Lang's "The Story of Sigurd" from _The Red Fairy Book_ (1890). Claude's own
   translations from Snorri's Old Norse, where no free English version exists: Sif's golden hair
   and the dwarves' treasures, Thor and Hrungnir, and the passages about Freyja's necklace.
-  Twenty-one retellings in the new _Norse Myths, Simply Told_ (grade 1.8–4.8), covering every
+  Twenty-four retellings in the new _Norse Myths, Simply Told_ (grade 1.8–4.8), covering every
   Norse entry in the expansion plan; Odin's eye is part of the Yggdrasil story. Thorpe's poems
-  read at middle level by the formula, but the verse is archaic, so the three that are the only
-  source for their myth (the runes, Thrym, Alvis) get retellings, and the other five are linked
-  to the Prose Edda retellings with `alsoSimplifies`. Four originals are `mature-themes` (Skirnir's
+  read at middle level by the formula, but the verse is archaic, so six get their own retellings:
+  the runes, Thrym and Alvis, plus Hymir's cauldron, Odin's ride to the dead seeress (Baldr's
+  dreams) and the whole Völuspá, which tell more than the Prose Edda versions and so have their
+  own `workId`s. Skirnir and Fafnir are linked to the Frey and Sigurd retellings with
+  `alsoSimplifies`; the Frey retelling leaves out Skirnir's threats on purpose. Four originals are `mature-themes` (Skirnir's
   threats, Loki's punishment, the mead of poetry, and Sigurd's death in Lang); no retelling is.
   New culture `norse` (15 in all). New tool `extract_eddas.py`; `build_translations.py` gains
   `norse-sources`.
