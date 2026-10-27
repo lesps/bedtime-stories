@@ -1,0 +1,30 @@
+---
+title: The Cailleach, Queen of Winter
+basedOn: the Highland folk legends of the Cailleach, the old woman of winter, told in many parts of the Highlands and gathered by folklorists such as Donald A. Mackenzie (1917)
+workId: scottish-cailleach
+order: 1
+---
+
+In the Highlands of Scotland, the old people used to tell stories about the Cailleach. Her name means "the old woman", and she was the queen of winter.
+
+She was a giant, and very, very old. Her skin was dark blue, and her hair was as white as frost. Some people say she had only one eye, right in the middle of her forehead. She carried a magic staff, and wherever she struck the ground with it, the ground froze hard.
+
+The Cailleach made many of the mountains of Scotland. She carried great rocks about in a creel, a big basket on her back, and she used a hammer to shape the hills and valleys. Sometimes, as she strode across the land, rocks spilled out of her creel, and wherever they fell, a new hill or mountain was made. Some say she even set down hills on purpose, to use as stepping stones.
+
+The Cailleach loved the wild places. She looked after the deer on the mountains, as a farmer looks after his cattle, and they were her herds.
+
+When autumn came to an end, the Cailleach went down to the sea on the west coast, to the great whirlpool of Corryvreckan, between the islands of Jura and Scarba. There she washed her enormous plaid, the great woollen cloak that she wrapped around herself. It took her three whole days, and the whirlpool roared so loudly that people could hear it far away. And when she lifted her plaid out of the water, it was pure white. She spread it out over the land, and that was the snow. Then everyone knew that winter had come.
+
+All through the winter the Cailleach ruled. She sent the frost and the snow, and the wild storms of wind and sleet. Ben Nevis, the highest mountain of all, was her throne.
+
+There is another story about the Cailleach, which is told around Loch Awe. Long ago, they say, there was no loch there at all, only a green valley full of fields and farms. High up on the top of the mountain called Ben Cruachan there was a spring of water, and the Cailleach was its keeper. Every evening at sunset she had to cover the spring with a great flat stone, and every morning at sunrise she took the stone away again.
+
+But one evening the Cailleach was very tired, and she sat down beside the spring and fell fast asleep. The sun set, and the stone was not put back. All night long the water flowed out of the spring, and rushed down the mountainside. It burst through the mountains at the Pass of Brander, and it filled the valley below. And when the Cailleach woke up in the morning, the green valley was gone, and there was Loch Awe, which is still there today. Some say she was so horrified at what she had done that she turned into stone.
+
+But the Cailleach could not rule for ever. As the days grew longer, her power grew weaker. Some tellers say that the Cailleach kept the lovely Bride, the maiden of spring, a prisoner in the mountains all winter. But Angus, the young king of summer, set her free. The Cailleach sent storm after storm to stop them, but she could not.
+
+So when winter ended, the Cailleach gave up. She threw her magic staff under a holly bush, or under a gorse bush. And she turned herself into a grey stone, and stood quite still on the hillside all through the spring and summer.
+
+But when autumn comes round again, the grey stone wakes up. The Cailleach picks up her staff and her creel, and goes down to the sea at Corryvreckan, to wash her great plaid once more. And some say that every year she visits the Well of Youth, far away, and drinks its magic water, and grows younger again.
+
+So if you are ever in the Highlands, and you hear the whirlpool roaring, and see the first snow on the mountain tops, you will know that the Cailleach is awake again.

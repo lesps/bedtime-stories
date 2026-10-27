@@ -552,6 +552,42 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 10
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "id": "grierson-scottish",
+   "title": "The Scottish Fairy Book",
+   "author": "Elizabeth W. Grierson",
+   "contributor": "Illustrated by Morris Meredith Williams",
+   "firstPublished": 1910,
+   "source": "https://www.gutenberg.org/ebooks/37532",
+   "storyCount": 3
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "id": "morrison-manx",
+   "title": "Manx Fairy Tales",
+   "author": "Sophia Morrison",
+   "contributor": null,
+   "firstPublished": 1911,
+   "source": "https://www.gutenberg.org/ebooks/51762",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-celtic",
+   "title": "Scottish, Manx and Breton Legends, Simply Told",
+   "author": "Traditional (Scottish, Manx and Breton)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 7
   }
  ],
  "stories": [
@@ -12831,6 +12867,220 @@
    "readingLevel": {
     "fkGrade": 5.4,
     "avgSentenceWords": 16.4,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "grierson-scottish--thomas-the-rhymer",
+   "collectionId": "grierson-scottish",
+   "order": 1,
+   "title": "Thomas the Rhymer",
+   "wordCount": 3384,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "scottish-thomas-rhymer",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 26.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-celtic--thomas-the-rhymer"
+  },
+  {
+   "id": "grierson-scottish--the-seal-catcher-and-the-merman",
+   "collectionId": "grierson-scottish",
+   "order": 2,
+   "title": "The Seal Catcher and the Merman",
+   "wordCount": 2062,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "scottish-selkie",
+   "readingLevel": {
+    "fkGrade": 10.9,
+    "avgSentenceWords": 30.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-celtic--the-seal-catcher-and-the-merman"
+  },
+  {
+   "id": "grierson-scottish--assipattle-and-the-mester-stoorworm",
+   "collectionId": "grierson-scottish",
+   "order": 3,
+   "title": "Assipattle and the Mester Stoorworm",
+   "wordCount": 5744,
+   "readingMinutes": 32,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "scottish-stoorworm",
+   "readingLevel": {
+    "fkGrade": 9.7,
+    "avgSentenceWords": 26.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-celtic--assipattle-and-the-stoorworm"
+  },
+  {
+   "id": "morrison-manx--the-making-of-mann",
+   "collectionId": "morrison-manx",
+   "order": 1,
+   "title": "The Making of Mann",
+   "wordCount": 716,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "manx-making-of-mann",
+   "readingLevel": {
+    "fkGrade": 9.0,
+    "avgSentenceWords": 25.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-celtic--the-making-of-mann"
+  },
+  {
+   "id": "morrison-manx--the-coming-of-saint-patrick",
+   "collectionId": "morrison-manx",
+   "order": 2,
+   "title": "The Coming of Saint Patrick",
+   "wordCount": 727,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "manx-manannan-mist",
+   "readingLevel": {
+    "fkGrade": 7.6,
+    "avgSentenceWords": 23.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-celtic--saint-patrick-and-manannans-mist"
+  },
+  {
+   "id": "myths-celtic--the-cailleach-queen-of-winter",
+   "collectionId": "myths-celtic",
+   "order": 1,
+   "title": "The Cailleach, Queen of Winter",
+   "wordCount": 737,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "scottish-cailleach",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 15.9,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-celtic--thomas-the-rhymer",
+   "collectionId": "myths-celtic",
+   "order": 2,
+   "title": "Thomas the Rhymer",
+   "wordCount": 1482,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "scottish-thomas-rhymer",
+   "readingLevel": {
+    "fkGrade": 4.9,
+    "avgSentenceWords": 14.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "grierson-scottish--thomas-the-rhymer"
+  },
+  {
+   "id": "myths-celtic--the-seal-catcher-and-the-merman",
+   "collectionId": "myths-celtic",
+   "order": 3,
+   "title": "The Seal Catcher and the Merman",
+   "wordCount": 1466,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "scottish-selkie",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 14.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "grierson-scottish--the-seal-catcher-and-the-merman"
+  },
+  {
+   "id": "myths-celtic--assipattle-and-the-stoorworm",
+   "collectionId": "myths-celtic",
+   "order": 4,
+   "title": "Assipattle and the Stoorworm",
+   "wordCount": 2451,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "scottish-stoorworm",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 13.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "grierson-scottish--assipattle-and-the-mester-stoorworm"
+  },
+  {
+   "id": "myths-celtic--the-making-of-mann",
+   "collectionId": "myths-celtic",
+   "order": 5,
+   "title": "The Making of Mann",
+   "wordCount": 702,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "manx-making-of-mann",
+   "readingLevel": {
+    "fkGrade": 6.3,
+    "avgSentenceWords": 17.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "morrison-manx--the-making-of-mann"
+  },
+  {
+   "id": "myths-celtic--saint-patrick-and-manannans-mist",
+   "collectionId": "myths-celtic",
+   "order": 6,
+   "title": "Saint Patrick and Manannan's Mist",
+   "wordCount": 722,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "manx-manannan-mist",
+   "readingLevel": {
+    "fkGrade": 5.0,
+    "avgSentenceWords": 15.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "morrison-manx--the-coming-of-saint-patrick"
+  },
+  {
+   "id": "myths-celtic--the-drowned-city-of-ys",
+   "collectionId": "myths-celtic",
+   "order": 7,
+   "title": "The Drowned City of Ys",
+   "wordCount": 747,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "breton-ys",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 13.1,
     "band": "middle"
    }
   }

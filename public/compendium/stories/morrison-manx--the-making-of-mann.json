@@ -1,0 +1,45 @@
+{
+ "id": "morrison-manx--the-making-of-mann",
+ "collectionId": "morrison-manx",
+ "order": 1,
+ "title": "The Making of Mann",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Thousands of years ago, at the time of the Battles of the Giants in Ireland, Finn Mac Cooil was fighting with a great, red-haired Scotch giant who had come over to challenge him. He beat him and chased him eastwards towards the sea. But the Scotch giant was a faster runner and began to get ahead of him, so Finn, who was afraid that he would jump into the sea and escape, stooped down and clutched a great handful of the soil of Ireland to throw at him. He cast it, but he missed his enemy, and the great lump of earth fell into the midst of the Irish Sea. It is the Isle of Mann, and the great hole which Finn made, where he tore it up, is Lough Neagh."
+  },
+  {
+   "type": "p",
+   "text": "There were men, too, in Ireland in those days as well as giants, and to some of them it seemed to happen in a different way. Men do not always understand the doings of giants, because men live, it may be said, in the footprints of the giants. It seems that at this time the Irish tribes were gathered in two great forces getting ready to meet the plunderers who had left Scotland and were at work on their own coast. Their blood got too hot and they went into each other in downright earnest, to show how they would do with the rascals when they came. To their confusion, for they lost hold over themselves, they got into boggy ground and were in great danger. The leaders, seeing that it was going to mean a big loss of life, got all their men together on a big patch of dry ground that happened to be in the bog-land, when all of a sudden a darkness came overhead and the ground began to shake and tremble with the weight of the people and the stir there was at them, and then it disappeared, people and all. Some said that it took plunge and sank into the bog with the people on it. Others said that it was lifted up, and the people on it dropped off into the swamp. No doubt the darkness that was caused by the hand of Finn made it hard to see just how it happened. However that may be, a while after this they said the sea was surging dreadful, and the men in the boats had to hold to the sides, or it’s out they’d have been thrown. And behold ye, a few days after this there was land seen in the middle of the sea, where no man ever saw the like before."
+  },
+  {
+   "type": "p",
+   "text": "You may know that this story is true because the Irish have always looked on the Isle of Mann as a parcel of their own land. They say that when Saint Patrick put the blessing of God on the soil of Ireland and all creatures that might live upon it, the power of that blessing was felt at the same time in the Island."
+  },
+  {
+   "type": "verse",
+   "text": "Saint Patrick was a mighty man,\nHe was a Saint so clever,\nHe gave the snakes and toads a twisht!\nAnd banished them for ever."
+  },
+  {
+   "type": "p",
+   "text": "And there is proof of the truth of the saying to this day, for while such nasty things do live in England they cannot breathe freely on the blessed soil."
+  },
+  {
+   "type": "p",
+   "text": "The island was much larger then than it is now, but the magician who for a time ruled over it, as a revenge on one of his enemies, raised a furious wind in the air and in the bosom of the earth. This wind tore several pieces off the land and cast them into the sea. They floated about and were changed into the dangerous rocks which are now so much feared by ships. The smaller pieces became the shifting sands which wave round the coast, and are sometimes seen and sometimes disappear. Later the island was known as Ellan Sheaynt, the Isle of Peace, or the Holy Island. It was a place where there was always sunshine, and the singing of birds, the scent of sweet flowers, and apple-trees blossoming the whole year round. There was always enough there to eat and drink, and the horses of that place were fine and the women beautiful."
+  }
+ ],
+ "workId": "manx-making-of-mann",
+ "wordCount": 716,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 9.0,
+  "avgSentenceWords": 25.7,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-celtic--the-making-of-mann"
+}
