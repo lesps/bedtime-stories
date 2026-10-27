@@ -114,14 +114,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “The Wild Huntsman” in Legends from the German Poets, translated by Claude (Anthropic), 2026. The original is listed under Other versions."
+   "text": "A simplified retelling of “The Wild Huntsman” in Legends from the German Poets, translated by Claude (Anthropic), 2026. The original is listed under Other versions only when “Show stories with mature themes” is on in Settings."
   }
  ],
  "workId": "german-wild-hunt",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "german-sources--the-wild-huntsman",
- "wordCount": 863,
+ "wordCount": 874,
  "readingMinutes": 5,
  "readingLevel": {
   "fkGrade": 2.3,

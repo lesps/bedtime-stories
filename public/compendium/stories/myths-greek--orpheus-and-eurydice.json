@@ -74,14 +74,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “Orpheus and Eurydice” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch uses the Roman names Pluto for Hades and Proserpine for Persephone."
+   "text": "A simplified retelling of Thomas Bulfinch's “Orpheus and Eurydice” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Bulfinch uses the Roman names Pluto for Hades and Proserpine for Persephone."
   }
  ],
  "workId": "greek-orpheus",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--orpheus-and-eurydice",
- "wordCount": 650,
+ "wordCount": 661,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 3.2,

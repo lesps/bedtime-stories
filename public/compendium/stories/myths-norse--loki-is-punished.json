@@ -62,14 +62,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “The Punishment of Loki” in The Prose Edda, translated by I. A. Blackwell (1847). The original is listed under Other versions. Blackwell spells Loki's wife's name “Siguna.”"
+   "text": "A simplified retelling of “The Punishment of Loki” in The Prose Edda, translated by I. A. Blackwell (1847). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Blackwell spells Loki's wife's name “Siguna.”"
   }
  ],
  "workId": "norse-loki-bound",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "blackwell-prose-edda--the-punishment-of-loki",
- "wordCount": 570,
+ "wordCount": 581,
  "readingMinutes": 3,
  "readingLevel": {
   "fkGrade": 4.7,

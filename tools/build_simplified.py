@@ -18,7 +18,8 @@ original: its front matter gives `basedOn` (what it was retold from) and `workId
 `adaptedFrom`, and its end note says that no source text was used.
 
 The story inherits `workId` from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
-and `readingLevel`, and ends with a note naming the original. The original gets
+and `readingLevel`, and ends with a note naming the original (and, if the original is hidden by default, the setting
+that shows it). The original gets
 `simplifiedId` pointing back, and so does every story in `alsoSimplifies` (which must share the
 workId, or have none yet, in which case it is given this one). Edit the .md files, never the generated JSON, then run:
 
@@ -33,6 +34,9 @@ from compendium_io import finish, load_index, load_story, save_index, sync_entry
 
 SRC = Path(__file__).parent / "simplified"
 ADAPTED_BY = "Claude (Anthropic), 2026"
+# Settings labels (src/pages/SettingsPage.tsx) for the flags that hide a story by default.
+# Retellings inherit `excluded`, so only a flag the retelling drops can hide its original.
+SETTING_FOR_FLAG = {"mature-themes": "Show stories with mature themes"}
 
 COLLECTIONS = {
     "myths-greek": {
@@ -190,7 +194,16 @@ def main():
                 credit += ", edited by " + coll["contributor"].removeprefix("Edited by ")
         if coll.get("firstPublished"):
             credit += f" ({coll['firstPublished']})"
-        note = f"A simplified retelling of {credit}. The original is listed under Other versions."
+        flags = flags_of(meta, orig)
+        # Other versions lists only visible stories: name the setting that shows a hidden original.
+        hidden_by = [label for flag, label in SETTING_FOR_FLAG.items()
+                     if flag in orig["flags"] and flag not in flags]
+        if hidden_by:
+            note = (f"A simplified retelling of {credit}. The original is listed under Other versions "
+                    "only when " + " and ".join(f"“{label}” is on" for label in hidden_by)
+                    + " in Settings.")
+        else:
+            note = f"A simplified retelling of {credit}. The original is listed under Other versions."
         if meta.get("namesNote"):
             note += " " + meta["namesNote"]
         story = {
@@ -200,7 +213,7 @@ def main():
             "title": meta["title"],
             "origin": None,
             "excluded": orig["excluded"],
-            "flags": flags_of(meta, orig),
+            "flags": flags,
             "moral": None,
             "blocks": [{"type": "p", "text": p} for p in paras] + [{"type": "note", "text": note}],
             "workId": orig["workId"],

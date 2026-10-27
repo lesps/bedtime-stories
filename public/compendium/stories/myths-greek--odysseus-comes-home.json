@@ -86,14 +86,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “Fate of the Suitors” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls Odysseus by his Latin name, Ulysses, and Athena by her Roman name, Minerva."
+   "text": "A simplified retelling of Thomas Bulfinch's “Fate of the Suitors” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Bulfinch calls Odysseus by his Latin name, Ulysses, and Athena by her Roman name, Minerva."
   }
  ],
  "workId": "greek-odysseus-homecoming",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--fate-of-the-suitors",
- "wordCount": 662,
+ "wordCount": 673,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 3.3,

@@ -74,14 +74,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “Vertumnus and Pomona” in The Age of Fable (1855). The original is listed under Other versions."
+   "text": "A simplified retelling of Thomas Bulfinch's “Vertumnus and Pomona” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings."
   }
  ],
  "workId": "roman-vertumnus-pomona",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--vertumnus-and-pomona",
- "wordCount": 740,
+ "wordCount": 751,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 4.1,

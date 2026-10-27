@@ -258,15 +258,15 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of P. W. Joyce's “The Pursuit of Dermat and Grania” in Old Celtic Romances (1879). The original is listed under Other versions. Joyce spells the names Dermat O'Dyna and Grania; in Irish they are Diarmuid Ua Duibhne and Gráinne. He calls Fionn \"Finn\"."
+   "text": "A simplified retelling of P. W. Joyce's “The Pursuit of Dermat and Grania” in Old Celtic Romances (1879). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Joyce spells the names Dermat O'Dyna and Grania; in Irish they are Diarmuid Ua Duibhne and Gráinne. He calls Fionn \"Finn\"."
   }
  ],
  "workId": "irish-diarmuid-grainne",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "joyce-celtic-romances--the-pursuit-of-dermat-and-grania",
- "wordCount": 2605,
- "readingMinutes": 14,
+ "wordCount": 2616,
+ "readingMinutes": 15,
  "readingLevel": {
   "fkGrade": 3.4,
   "avgSentenceWords": 11.8,

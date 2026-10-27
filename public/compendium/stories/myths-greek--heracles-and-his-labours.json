@@ -70,14 +70,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “Hercules” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls the hero by his Roman name, Hercules, and uses Jupiter for Zeus, Juno for Hera and Pluto for Hades."
+   "text": "A simplified retelling of Thomas Bulfinch's “Hercules” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Bulfinch calls the hero by his Roman name, Hercules, and uses Jupiter for Zeus, Juno for Hera and Pluto for Hades."
   }
  ],
  "workId": "greek-heracles-labours",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--hercules",
- "wordCount": 846,
+ "wordCount": 857,
  "readingMinutes": 5,
  "readingLevel": {
   "fkGrade": 5.0,

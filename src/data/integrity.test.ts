@@ -33,6 +33,32 @@ describe('compendium integrity', () => {
     for (const t of [...tags.cultures, ...tags.themes]) expect(used.has(t.id), t.id).toBe(true);
   });
 
+  it('ends each retelling with a note that says where to find its original', () => {
+    type RawEntry = { id: string; adaptedFrom?: string; excluded: boolean; flags: string[] };
+    const raw = JSON.parse(readFileSync(join(root, 'index.json'), 'utf8')) as {
+      stories: RawEntry[];
+    };
+    const byId = new Map(raw.stories.map((s) => [s.id, s]));
+    const hiddenBy = (s: RawEntry) =>
+      [
+        s.flags.includes('mature-themes') && 'Show stories with mature themes',
+        s.excluded && 'Show stories excluded for offensive language',
+      ].filter((x): x is string => Boolean(x));
+    for (const r of raw.stories.filter((s) => s.adaptedFrom)) {
+      const orig = byId.get(r.adaptedFrom!);
+      expect(orig, `${r.id}: original ${r.adaptedFrom}`).toBeDefined();
+      const story = JSON.parse(readFileSync(join(root, 'stories', `${r.id}.json`), 'utf8')) as {
+        blocks: { type: string; text?: string }[];
+      };
+      const note = story.blocks.at(-1);
+      expect(note?.type, r.id).toBe('note');
+      const ownSettings = new Set(hiddenBy(r));
+      const needed = hiddenBy(orig!).filter((label) => !ownSettings.has(label));
+      if (needed.length === 0) expect(note?.text, r.id).toContain('listed under Other versions.');
+      for (const label of needed) expect(note?.text, r.id).toContain(`“${label}”`);
+    }
+  });
+
   it('has unique story ids and at least one story per collection', () => {
     expect(new Set(index.stories.map((s) => s.id)).size).toBe(index.stories.length);
     for (const c of index.collections) expect(c.storyCount, c.id).toBeGreaterThan(0);

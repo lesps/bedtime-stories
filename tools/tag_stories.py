@@ -277,6 +277,7 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     # Greek gods (part 4): creation myths, and corrections to the word counts.
     "hesiod-hymns--the-theogony": {"add": ["how-things-began", "monsters"]},
     "myths-greek--zeus-and-the-titans": {"add": ["how-things-began", "monsters"], "remove": ["gentle"]},
+    "myths-greek--odysseus-comes-home": {"add": ["royalty"]},  # king and queen of Ithaca; sits at the threshold
     "myths-greek--apollo-is-born": {"add": ["how-things-began"]},
     "hesiod-hymns--hymn-to-dionysus": {"add": ["magic", "animals"], "remove": ["quests"]},
     "myths-greek--dionysus-and-the-pirates": {"add": ["magic", "animals"], "remove": ["fools"]},

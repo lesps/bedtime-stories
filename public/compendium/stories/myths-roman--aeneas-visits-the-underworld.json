@@ -142,14 +142,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Alfred J. Church's “The Sibyl and the Dwellings of the Dead” in Stories from Virgil (1879). The original is listed under Other versions. Church spells the hero's name “Æneas” and calls Hades “hell.”"
+   "text": "A simplified retelling of Alfred J. Church's “The Sibyl and the Dwellings of the Dead” in Stories from Virgil (1879). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Church spells the hero's name “Æneas” and calls Hades “hell.”"
   }
  ],
  "workId": "roman-aeneas-underworld",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "church-virgil--the-sibyl-and-the-dwellings-of-the-dead",
- "wordCount": 1667,
+ "wordCount": 1678,
  "readingMinutes": 9,
  "readingLevel": {
   "fkGrade": 3.8,

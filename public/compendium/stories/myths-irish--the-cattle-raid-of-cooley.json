@@ -178,14 +178,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Eleanor Hull's “The Cattle Raid of Cooley” in Cuchulain, the Hound of Ulster (1909). The original is listed under Other versions. Hull spells the queen's name Meave; in Irish it is Medb, or Maeve. Ferdia is Fer Diad, and Ailill is her husband, the king of Connaught."
+   "text": "A simplified retelling of Eleanor Hull's “The Cattle Raid of Cooley” in Cuchulain, the Hound of Ulster (1909). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Hull spells the queen's name Meave; in Irish it is Medb, or Maeve. Ferdia is Fer Diad, and Ailill is her husband, the king of Connaught."
   }
  ],
  "workId": "irish-tain",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "hull-cuchulain--the-cattle-raid-of-cooley",
- "wordCount": 2046,
+ "wordCount": 2057,
  "readingMinutes": 11,
  "readingLevel": {
   "fkGrade": 4.1,

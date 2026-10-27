@@ -150,14 +150,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “Branwen the Daughter of Llyr” in The Mabinogion, translated by Lady Charlotte Guest (1849). The original is listed under Other versions. Guest calls Bran the Blessed by his Welsh name, Bendigeid Vran, and spells Efnisien and Nisien as Evnissyen and Nissyen."
+   "text": "A simplified retelling of “Branwen the Daughter of Llyr” in The Mabinogion, translated by Lady Charlotte Guest (1849). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Guest calls Bran the Blessed by his Welsh name, Bendigeid Vran, and spells Efnisien and Nisien as Evnissyen and Nissyen."
   }
  ],
  "workId": "welsh-branwen",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "guest-mabinogion--branwen-the-daughter-of-llyr",
- "wordCount": 1861,
+ "wordCount": 1872,
  "readingMinutes": 10,
  "readingLevel": {
   "fkGrade": 4.8,
