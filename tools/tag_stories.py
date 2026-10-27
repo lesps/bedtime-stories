@@ -30,6 +30,7 @@ CULTURES = [
     ("welsh", "Welsh"),
     ("manx", "Manx"),
     ("breton", "Breton"),
+    ("arthurian", "Arthurian"),
     ("arabian", "Arabian Nights"),
     ("turkish", "Turkish"),
     ("estonian", "Estonian"),
@@ -106,6 +107,10 @@ COLLECTION_CULTURE = {
     "grierson-scottish": "scottish",
     "morrison-manx": "manx",
     "myths-celtic": "scottish",
+    # Only the Arthurian tales are taken from Lang's Book of Romance and Geoffrey so far.
+    "lang-romance": "arthurian",
+    "geoffrey-british-history": "arthurian",
+    "myths-arthurian": "arthurian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -155,6 +160,9 @@ MYTH_COLLECTIONS = {
     "myths-irish",
     "guest-mabinogion",
     "myths-welsh",
+    "lang-romance",
+    "geoffrey-british-history",
+    "myths-arthurian",
 }
 
 ORIGIN_CULTURE = [
@@ -424,6 +432,21 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-celtic--saint-patrick-and-manannans-mist": {"add": ["gods-heroes", "magic", "legends"]},
     "myths-celtic--the-cailleach-queen-of-winter": {"add": ["gods-heroes", "magic", "how-things-began"], "remove": ["royalty"]},
     "myths-celtic--the-drowned-city-of-ys": {"add": ["legends", "royalty", "greed-pride"], "remove": ["gentle"]},
+    # Arthurian shelf.
+    "lang-romance--the-drawing-of-the-sword": {"add": ["royalty", "magic", "underdogs"]},
+    "myths-arthurian--the-sword-in-the-stone": {"add": ["magic", "underdogs"], "remove": ["legends"]},
+    "lang-romance--the-sword-excalibur": {"add": ["magic", "wishes"]},
+    "myths-arthurian--excalibur-and-the-lady-of-the-lake": {"add": ["magic", "royalty"]},
+    "myths-arthurian--the-round-table": {"add": ["how-things-began"]},
+    "lang-romance--what-beaumains-asked-of-the-king": {"add": ["underdogs", "quests"]},
+    "myths-arthurian--gareth-the-kitchen-knight": {"add": ["underdogs", "quests"]},
+    "lang-romance--the-quest-of-the-holy-graal": {"add": ["magic"]},
+    "myths-arthurian--galahad-and-the-holy-grail": {"add": ["magic"], "remove": ["underdogs"]},
+    "lang-romance--the-end-of-it-all": {"add": ["magic"]},
+    "myths-arthurian--the-passing-of-arthur": {"add": ["magic"], "remove": ["tricksters"]},
+    "geoffrey-british-history--merlin-and-vortigern-s-tower": {"add": ["magic"], "remove": ["ghosts"]},
+    "myths-arthurian--merlin-and-the-two-dragons": {"add": ["magic"], "remove": ["family"]},
+    "myths-arthurian--gawain-and-the-green-knight": {"add": ["magic", "monsters"], "remove": ["legends"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

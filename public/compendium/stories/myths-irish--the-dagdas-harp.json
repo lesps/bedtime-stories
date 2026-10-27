@@ -74,13 +74,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the Second Battle of Moytura (Cath Maige Tuired), a medieval Irish book that preserves much older stories. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the Second Battle of Moytura (Cath Maige Tuired), a medieval Irish book that preserves much older stories. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "irish-dagda-harp",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 612,
+ "wordCount": 609,
  "readingMinutes": 3,
  "readingLevel": {
   "fkGrade": 4.8,

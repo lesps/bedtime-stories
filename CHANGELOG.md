@@ -5,6 +5,12 @@ versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+- The end note of a retelling with no original now says "There is no public-domain text of this
+  legend in the app to compare it with", instead of saying no text could be used: some of these
+  legends have public-domain versions that this project couldn't reach.
+
 ### Fixed
 
 - A retelling's end note said its original was "listed under Other versions" even when the
@@ -14,6 +20,18 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 11 (data only): the Arthurian shelf. Pyle's Arthur books, Weston's _Gawain_
+  and Lanier's _Boy's King Arthur_ are past the end of the Gutenberg mirrors this project can
+  reach, so the tales come from _The Book of Romance_ (1902), edited by Andrew Lang and written by
+  Mrs. Lang from Malory, in a new `lang-romance` collection with eleven of H. J. Ford's pictures:
+  the drawing of the sword, Excalibur, how the Round Table began, Beaumains (Gareth), the Quest of
+  the Holy Graal and the end of Arthur (the last two `mature-themes`). Merlin and the dragons
+  under Vortigern's tower comes from Geoffrey of Monmouth's _British History_ in Thompson's
+  translation as revised by Giles (1848), cut after the prophecy of the boar of Cornwall
+  (`mature-themes`), in `geoffrey-british-history`. All seven read at advanced level, so the new
+  _Arthurian Legends, Simply Told_ has a retelling of each (grade 3.2–4.9), plus Gawain and the
+  Green Knight, retold from the poem without an original in the app. New culture `arthurian` (20
+  in all). New tool `extract_arthurian.py`.
 - Mythology, part 10 (data only): the Scottish, Manx and Breton shelf. From Elizabeth W.
   Grierson's _The Scottish Fairy Book_ (1910), a new `grierson-scottish` collection: Thomas the
   Rhymer, the Seal Catcher and the Merman, and Assipattle and the Mester Stoorworm, with five of

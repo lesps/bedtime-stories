@@ -58,13 +58,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the legend as Johann Karl August Musäus told it in his Volksmärchen der Deutschen (1783), and later folk tales of the Giant Mountains. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the legend as Johann Karl August Musäus told it in his Volksmärchen der Deutschen (1783), and later folk tales of the Giant Mountains. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "german-rubezahl",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 764,
+ "wordCount": 761,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 4.9,

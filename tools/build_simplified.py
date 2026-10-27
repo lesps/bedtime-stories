@@ -15,7 +15,7 @@ Each Markdown file is one story, named `<storyId>.md`, with a small front matter
 
 A legend with no public-domain text to work from (marked ‡ in the expansion plan) has no
 original: its front matter gives `basedOn` (what it was retold from) and `workId` instead of
-`adaptedFrom`, and its end note says that no source text was used.
+`adaptedFrom`, and its end note says there is no original in the app to compare it with.
 
 The story inherits `workId` from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
 and `readingLevel`, and ends with a note naming the original (and, if the original is hidden by default, the setting
@@ -116,6 +116,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-arthurian": {
+        "id": "myths-arthurian",
+        "title": "Arthurian Legends, Simply Told",
+        "author": "Traditional (Arthurian)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-celtic": {
         "id": "myths-celtic",
         "title": "Scottish, Manx and Breton Legends, Simply Told",
@@ -149,8 +160,8 @@ def flags_of(meta, orig):
 
 def unsourced(sid, cid, meta, paras):
     """A retelling with no public-domain original to link to (‡ in the expansion plan)."""
-    note = (f"Retold by {ADAPTED_BY}, from {meta['basedOn']}. No public-domain text of this "
-            "legend could be used, so there is no original to compare it with.")
+    note = (f"Retold by {ADAPTED_BY}, from {meta['basedOn']}. There is no public-domain text "
+            "of this legend in the app to compare it with.")
     return {
         "id": sid,
         "collectionId": cid,
