@@ -60,7 +60,9 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           with Morris Meredith Williams's pictures, and two tales from Morrison's
                           Manx Fairy Tales; extract_arthurian.py: Mrs. Lang's Arthurian tales from
                           Lang's Book of Romance, with H. J. Ford's pictures, and Merlin and
-                          Vortigern's tower from Geoffrey's British History)
+                          Vortigern's tower from Geoffrey's British History; extract_finnic.py:
+                          Eivind's Finnish Legends for English Children (a prose Kalevala) and three
+                          cantos of Kirby's prose Kalevipoeg in The Hero of Esthonia)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
@@ -107,7 +109,7 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 923 stories, 52 collections, ~9.9 MB
+failures throw `DataError` (`kind: network | http | invalid`). 943 stories, 55 collections, ~10 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -136,9 +138,10 @@ is `advanced` or it runs over 20 minutes.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-20 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+21 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`, and
-the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`; the Arthurian legends
+the Manx and Breton retellings in `myths-celtic` as `manx` and `breton` and the Estonian ones in
+`myths-finnic` as `estonian`; the Arthurian legends
 are their own culture, `arthurian`)
 and 18 themes (`gods-heroes` comes from the `MYTH_COLLECTIONS` rule). Regenerate with `python3 tools/tag_stories.py` after any data change.
 
@@ -271,7 +274,8 @@ fine)`.
   A retelling inherits its original's `flags` unless its front matter sets `flags:` (e.g. `none`
   for an Orpheus that leaves out his violent death). Retellings go in `myths-greek`,
   `myths-roman`, `myths-norse`, `myths-german`, `myths-english`, `myths-irish`, `myths-welsh`,
-  `myths-celtic` (Scottish, Manx and Breton) or `myths-arthurian` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian` or `myths-finnic` (Finnish and
+  Estonian) by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).

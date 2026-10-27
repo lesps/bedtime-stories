@@ -5,7 +5,7 @@ export const STORY_CACHE = 'stories';
 export const IMAGE_CACHE = 'images';
 
 /** Approximate download sizes in MB; integrity.test.ts fails if these drift from the data. */
-export const OFFLINE_MB = { stories: 9, images: 31 };
+export const OFFLINE_MB = { stories: 10, images: 35 };
 
 export const offlineSupported = () => typeof caches !== 'undefined';
 

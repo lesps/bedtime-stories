@@ -7,6 +7,9 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
+- The offline download is now advertised as about 10 MB of text (45 MB with illustrations), up
+  from 9 and 40, to keep up with the mythology shelves.
+
 - The end note of a retelling with no original now says "There is no public-domain text of this
   legend in the app to compare it with", instead of saying no text could be used: some of these
   legends have public-domain versions that this project couldn't reach.
@@ -20,6 +23,17 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 12 (data only): the Finnish and Estonian shelf. From R. Eivind's _Finnish
+  Legends for English Children_ (1893), a prose Kalevala for children, a new `eivind-finnish`
+  collection: the world made from the duck's eggs, the singing contest, the forging of the Sampo,
+  Lemminkainen's death and his mother's rake (`mature-themes`), the first kantele, the capture of
+  the Sampo and the stolen sun and moon, with bridging notes where a story starts mid-saga and the
+  storyteller's frame left out. From W. F. Kirby's prose Kalevipoeg in _The Hero of Esthonia_
+  (1895), `kirby-esthonia`: the death of Kalev (Linda builds Tallinn's hill and weeps Lake
+  Ülemiste), the brothers' stone-throwing contest, and the hero's end at the brook and his watch
+  at the gates of the underworld (`mature-themes`). All ten read at advanced level, so the new
+  _Finnish and Estonian Legends, Simply Told_ has a retelling of each (grade 4.2–5.9), using modern
+  spellings. New culture `finnish` (21 in all). New tool `extract_finnic.py`.
 - Mythology, part 11 (data only): the Arthurian shelf. Pyle's Arthur books, Weston's _Gawain_
   and Lanier's _Boy's King Arthur_ are past the end of the Gutenberg mirrors this project can
   reach, so the tales come from _The Book of Romance_ (1902), edited by Andrew Lang and written by

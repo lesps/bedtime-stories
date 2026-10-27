@@ -1,0 +1,63 @@
+{
+ "id": "myths-finnic--linda-and-the-hill-of-tallinn",
+ "collectionId": "myths-finnic",
+ "order": 8,
+ "title": "Linda and the Hill of Tallinn",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the land of Estonia was ruled by a mighty hero called Kalev, and his wife was called Linda. They lived very happily together, and had many children. But their country was small, and when the children grew up, most of them went off into the world to seek their fortunes. For Kalev had decided that only one of his sons would rule after him."
+  },
+  {
+   "type": "p",
+   "text": "At last Kalev grew old, and felt that his end was near. Two of his younger sons were still little boys at home. And his youngest son of all had not even been born yet. Kalev told Linda that this last son would be the greatest of them all, and that he would be king after him. And soon afterwards, Kalev fell very ill."
+  },
+  {
+   "type": "p",
+   "text": "Linda tried to find help for him. She spun her brooch round on a thread, and sent a little beetle flying off to fetch the wise men who knew magic and medicine. The beetle flew north for seven days, and met the Moon, and asked him for help. But the Moon only looked at him sadly, and went on his way. Next the beetle met the Evening Star, but the Evening Star would not answer either. Then the beetle met the rising Sun, but the Sun did not answer. At last, on its fourth journey, the beetle found the wise men. But they all said the same thing: \"What the drought has dried up, and the moonlight has faded, and the stars have withered, can never bloom again.\" And before the beetle came home, mighty Kalev had died."
+  },
+  {
+   "type": "p",
+   "text": "Linda sat weeping by his bed for seven days and seven nights, without eating or sleeping. Then she washed him, first with her own tears, then with water from the sea, then with rainwater from the clouds, and last of all with water from a spring. She combed his hair with a golden comb, and dressed him in a silk shirt and a fine robe, with a silver belt. And she dug his grave herself, deep in the ground. Soon grass and flowers began to grow on it."
+  },
+  {
+   "type": "p",
+   "text": "Linda mourned for Kalev month after month. And over his grave she built a great mound of stones. She carried the stones herself, one by one, until the mound became a hill. That hill is still there today, in the city of Tallinn, and a great cathedral stands on top of it."
+  },
+  {
+   "type": "p",
+   "text": "One day, Linda was carrying an enormous stone to the grave. But she was too tired, and she dropped it. She sat down on the stone and cried and cried about her sad life. And her tears made a lake. It is called Lake Ülemiste, the Upper Lake, and it is still there beside Tallinn today. And the great stone is still there beside the lake."
+  },
+  {
+   "type": "p",
+   "text": "Soon after that, Linda's baby was born, Kalev's youngest son. He was called the son of Kalev, Kalevipoeg. One day Linda was sitting by his cradle, singing him to sleep, when he began to scream. He screamed day and night for a whole month, until he burst out of his baby clothes, and smashed his cradle to pieces, and crawled off across the floor."
+  },
+  {
+   "type": "p",
+   "text": "He grew up big and strong, like a young oak tree. He learned to look after the cattle, and then to plough the fields. When he played games, he threw the wooden blocks so far that they landed all over the country, and some of them even landed in the sea. Sometimes he went down to the beach and skimmed huge rocks across the waves, and they bounced along for more than half a mile, while he stood on his head to watch them. And at other times he sat quietly at home, carving ice skates or weaving baskets. And so he grew up into a man."
+  },
+  {
+   "type": "p",
+   "text": "After Kalev died, many men wanted to marry Linda, because she was rich. But she said no to all of them. The last of them was a powerful wizard from Finland, who could command the winds. When Linda said no to him too, he swore to take his revenge. But Linda only laughed at him. \"I have three young eagles growing up in my house,\" she said, \"with sharp claws, who will look after their mother.\""
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Death of Kalev” in The Hero of Esthonia, translated by W. F. Kirby (1895). The original is listed under Other versions. Kirby calls Tallinn by its old name, Revel, and calls Kalevipoeg the Kalevide."
+  }
+ ],
+ "workId": "estonian-linda",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "kirby-esthonia--the-death-of-kalev",
+ "wordCount": 760,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 4.9,
+  "avgSentenceWords": 14.7,
+  "band": "middle"
+ }
+}
