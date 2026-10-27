@@ -118,14 +118,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Alfred J. Church's “The War in Latium” in Stories from Virgil (1879). The original is listed under Other versions. Church spells the hero's name “Æneas” and calls Ascanius “Iülus.”"
+   "text": "A simplified retelling of Alfred J. Church's “The War in Latium” in Stories from Virgil (1879). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Church spells the hero's name “Æneas” and calls Ascanius “Iülus.”"
   }
  ],
  "workId": "roman-aeneas-war",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "church-virgil--the-war-in-latium",
- "wordCount": 1518,
+ "wordCount": 1529,
  "readingMinutes": 8,
  "readingLevel": {
   "fkGrade": 3.7,

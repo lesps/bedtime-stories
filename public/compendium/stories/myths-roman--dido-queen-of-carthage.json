@@ -146,14 +146,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Alfred J. Church's “Dido, Queen of Carthage” in Stories from Virgil (1879). The original is listed under Other versions. Church spells the hero's name “Æneas” and calls Cupid “Love.”"
+   "text": "A simplified retelling of Alfred J. Church's “Dido, Queen of Carthage” in Stories from Virgil (1879). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Church spells the hero's name “Æneas” and calls Cupid “Love.”"
   }
  ],
  "workId": "roman-dido",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "church-virgil--dido-queen-of-carthage",
- "wordCount": 1552,
+ "wordCount": 1563,
  "readingMinutes": 9,
  "readingLevel": {
   "fkGrade": 3.8,

@@ -90,14 +90,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Howard Pyle's “Epilogue: The Death of Robin Hood” in The Merry Adventures of Robin Hood (1883). The original is listed under Other versions."
+   "text": "A simplified retelling of Howard Pyle's “Epilogue: The Death of Robin Hood” in The Merry Adventures of Robin Hood (1883). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings."
   }
  ],
  "workId": "english-robin-death",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "pyle-robin-hood--epilogue-the-death-of-robin-hood",
- "wordCount": 1019,
+ "wordCount": 1030,
  "readingMinutes": 6,
  "readingLevel": {
   "fkGrade": 4.7,

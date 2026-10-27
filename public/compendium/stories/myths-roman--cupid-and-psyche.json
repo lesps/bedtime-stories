@@ -186,14 +186,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “Cupid and Psyche” in The Age of Fable (1855). The original is listed under Other versions."
+   "text": "A simplified retelling of Thomas Bulfinch's “Cupid and Psyche” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings."
   }
  ],
  "workId": "roman-cupid-psyche",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--cupid-and-psyche",
- "wordCount": 1732,
+ "wordCount": 1743,
  "readingMinutes": 10,
  "readingLevel": {
   "fkGrade": 3.5,

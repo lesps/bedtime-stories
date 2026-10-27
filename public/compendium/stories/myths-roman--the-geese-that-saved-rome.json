@@ -106,14 +106,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Alfred J. Church's “Rome and the Gauls” in Stories from Livy (1883). The original is listed under Other versions."
+   "text": "A simplified retelling of Alfred J. Church's “Rome and the Gauls” in Stories from Livy (1883). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings."
   }
  ],
  "workId": "roman-gauls-capitol",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "church-livy--rome-and-the-gauls",
- "wordCount": 1207,
+ "wordCount": 1218,
  "readingMinutes": 7,
  "readingLevel": {
   "fkGrade": 4.5,

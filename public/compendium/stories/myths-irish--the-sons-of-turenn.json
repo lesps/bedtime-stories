@@ -254,14 +254,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of P. W. Joyce's “The Fate of the Children of Turenn” in Old Celtic Romances (1879). The original is listed under Other versions. Joyce calls Lugh \"Luga of the Long Arms\" and spells Cian as Kian. In Irish, Ur and Urcar are Iuchar and Iucharba."
+   "text": "A simplified retelling of P. W. Joyce's “The Fate of the Children of Turenn” in Old Celtic Romances (1879). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Joyce calls Lugh \"Luga of the Long Arms\" and spells Cian as Kian. In Irish, Ur and Urcar are Iuchar and Iucharba."
   }
  ],
  "workId": "irish-children-of-turenn",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "joyce-celtic-romances--the-fate-of-the-children-of-turenn",
- "wordCount": 2812,
+ "wordCount": 2823,
  "readingMinutes": 16,
  "readingLevel": {
   "fkGrade": 3.5,

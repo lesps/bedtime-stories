@@ -126,14 +126,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “The Theogony” in Hesiod and the Homeric Hymns, translated by Hugh G. Evelyn-White (1914). The original is listed under Other versions. Evelyn-White calls Gaia and Uranus by their English names, Earth and Heaven, and spells Cronus “Cronos.”"
+   "text": "A simplified retelling of “The Theogony” in Hesiod and the Homeric Hymns, translated by Hugh G. Evelyn-White (1914). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Evelyn-White calls Gaia and Uranus by their English names, Earth and Heaven, and spells Cronus “Cronos.”"
   }
  ],
  "workId": "greek-theogony",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "hesiod-hymns--the-theogony",
- "wordCount": 1183,
+ "wordCount": 1194,
  "readingMinutes": 7,
  "readingLevel": {
   "fkGrade": 3.5,

@@ -120,7 +120,9 @@ ship ahead of the code; they appear on story files and, where marked, on index e
 - `adaptedFrom` (index + story), on a retelling: the original's id. Story files also carry
   `adaptation: "simplified"` and `adaptedBy`. Original and retelling share a `workId`, so today
   the reader already links them under Other versions, and the retelling ends with a `note` block
-  naming the original. A retelling of a legend with no usable public-domain text (Rübezahl,
+  naming the original. Other versions lists only visible stories, so when the original is hidden by
+  default (a `mature-themes` original with an unflagged retelling) the note names the Settings
+  toggle that shows it; the integrity test checks every note. A retelling of a legend with no usable public-domain text (Rübezahl,
   the Green Children of Woolpit, seven of the Irish myths, the drowned Welsh land of Cantre'r
   Gwaelod, the Cailleach and the Breton city of Ys; ‡ in the expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
   note says what it was retold from.

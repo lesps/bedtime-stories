@@ -114,14 +114,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “The Trojan War” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch uses the Roman names Juno for Hera, Venus for Aphrodite, Minerva for Athena, Jupiter for Zeus and Vulcan for Hephaestus, and calls Odysseus Ulysses."
+   "text": "A simplified retelling of Thomas Bulfinch's “The Trojan War” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Bulfinch uses the Roman names Juno for Hera, Venus for Aphrodite, Minerva for Athena, Jupiter for Zeus and Vulcan for Hephaestus, and calls Odysseus Ulysses."
   }
  ],
  "workId": "greek-trojan-war",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--the-trojan-war",
- "wordCount": 897,
+ "wordCount": 908,
  "readingMinutes": 5,
  "readingLevel": {
   "fkGrade": 4.3,

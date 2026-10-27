@@ -82,14 +82,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “Minerva and Arachne” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch uses the Roman names Minerva for Athena, Neptune for Poseidon and Jupiter for Zeus."
+   "text": "A simplified retelling of Thomas Bulfinch's “Minerva and Arachne” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Bulfinch uses the Roman names Minerva for Athena, Neptune for Poseidon and Jupiter for Zeus."
   }
  ],
  "workId": "greek-arachne",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--minerva-and-arachne",
- "wordCount": 603,
+ "wordCount": 614,
  "readingMinutes": 3,
  "readingLevel": {
   "fkGrade": 3.8,

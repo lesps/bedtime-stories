@@ -114,14 +114,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of James Baldwin's “How They Hunted in the Odenwald” in The Story of Siegfried (1882). The original is listed under Other versions."
+   "text": "A simplified retelling of James Baldwin's “How They Hunted in the Odenwald” in The Story of Siegfried (1882). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings."
   }
  ],
  "workId": "german-siegfried-death",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "baldwin-siegfried--how-they-hunted-in-the-odenwald",
- "wordCount": 972,
+ "wordCount": 983,
  "readingMinutes": 5,
  "readingLevel": {
   "fkGrade": 3.9,

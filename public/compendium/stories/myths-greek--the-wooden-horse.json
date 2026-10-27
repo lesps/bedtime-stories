@@ -94,14 +94,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Thomas Bulfinch's “The Fall of Troy” in The Age of Fable (1855). The original is listed under Other versions. Bulfinch calls Odysseus by his Latin name, Ulysses, and uses Minerva for Athena and Neptune for Poseidon."
+   "text": "A simplified retelling of Thomas Bulfinch's “The Fall of Troy” in The Age of Fable (1855). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Bulfinch calls Odysseus by his Latin name, Ulysses, and uses Minerva for Athena and Neptune for Poseidon."
   }
  ],
  "workId": "greek-wooden-horse",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "bulfinch-fable--the-fall-of-troy",
- "wordCount": 686,
+ "wordCount": 697,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 2.8,

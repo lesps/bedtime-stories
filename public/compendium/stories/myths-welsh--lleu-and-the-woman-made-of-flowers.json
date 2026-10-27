@@ -234,14 +234,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “Math the Son of Mathonwy” in The Mabinogion, translated by Lady Charlotte Guest (1849). The original is listed under Other versions. Guest spells Lleu as Llew, and takes the name to mean \"lion\"; most scholars now read it as \"bright\". He spells Arianrhod as Arianrod. The story leaves out how the tale begins in Guest, with the war against Pryderi."
+   "text": "A simplified retelling of “Math the Son of Mathonwy” in The Mabinogion, translated by Lady Charlotte Guest (1849). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Guest spells Lleu as Llew, and takes the name to mean \"lion\"; most scholars now read it as \"bright\". He spells Arianrhod as Arianrod. The story leaves out how the tale begins in Guest, with the war against Pryderi."
   }
  ],
  "workId": "welsh-math",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "guest-mabinogion--math-the-son-of-mathonwy",
- "wordCount": 1824,
+ "wordCount": 1835,
  "readingMinutes": 10,
  "readingLevel": {
   "fkGrade": 3.4,

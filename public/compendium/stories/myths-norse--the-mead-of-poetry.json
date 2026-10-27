@@ -66,14 +66,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “The Origin of Poetry” in The Prose Edda, translated by I. A. Blackwell (1847). The original is listed under Other versions."
+   "text": "A simplified retelling of “The Origin of Poetry” in The Prose Edda, translated by I. A. Blackwell (1847). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings."
   }
  ],
  "workId": "norse-mead",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "blackwell-prose-edda--the-origin-of-poetry",
- "wordCount": 719,
+ "wordCount": 730,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 4.1,

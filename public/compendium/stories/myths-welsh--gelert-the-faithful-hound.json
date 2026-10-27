@@ -54,14 +54,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “Beth Gellert” in Celtic Fairy Tales, edited by Joseph Jacobs (1892). The original is listed under Other versions. Jacobs spells the hound's name Gellert. The story was first told about Beddgelert around 1800, though the tale of a faithful dog wrongly killed is far older."
+   "text": "A simplified retelling of “Beth Gellert” in Celtic Fairy Tales, edited by Joseph Jacobs (1892). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Jacobs spells the hound's name Gellert. The story was first told about Beddgelert around 1800, though the tale of a faithful dog wrongly killed is far older."
   }
  ],
  "workId": "welsh-gelert",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "jacobs-celtic--beth-gellert",
- "wordCount": 525,
+ "wordCount": 536,
  "readingMinutes": 3,
  "readingLevel": {
   "fkGrade": 4.5,

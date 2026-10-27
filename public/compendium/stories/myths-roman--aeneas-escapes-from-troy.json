@@ -126,14 +126,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Alfred J. Church's “The Fall of Troy” in Stories from Virgil (1879). The original is listed under Other versions. Church spells the hero's name “Æneas.”"
+   "text": "A simplified retelling of Alfred J. Church's “The Fall of Troy” in Stories from Virgil (1879). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Church spells the hero's name “Æneas.”"
   }
  ],
  "workId": "roman-aeneas-troy",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "church-virgil--the-fall-of-troy",
- "wordCount": 1176,
+ "wordCount": 1187,
  "readingMinutes": 7,
  "readingLevel": {
   "fkGrade": 3.8,

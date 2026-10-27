@@ -174,14 +174,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of P. W. Joyce's “The Fate of the Sons of Usna” in Old Celtic Romances (1879). The original is listed under Other versions. Joyce spells Conchobar as Concobar, and Scotland as Alban, its old Irish name."
+   "text": "A simplified retelling of P. W. Joyce's “The Fate of the Sons of Usna” in Old Celtic Romances (1879). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Joyce spells Conchobar as Concobar, and Scotland as Alban, its old Irish name."
   }
  ],
  "workId": "irish-deirdre",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "joyce-celtic-romances--the-fate-of-the-sons-of-usna",
- "wordCount": 1808,
+ "wordCount": 1819,
  "readingMinutes": 10,
  "readingLevel": {
   "fkGrade": 3.4,

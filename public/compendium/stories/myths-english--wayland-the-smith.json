@@ -66,14 +66,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of “The Lay of Völund” in The Elder Edda, translated by Benjamin Thorpe (1866). The original is listed under Other versions. The Norse poem calls him “Volund”; the English called him Wayland."
+   "text": "A simplified retelling of “The Lay of Völund” in The Elder Edda, translated by Benjamin Thorpe (1866). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. The Norse poem calls him “Volund”; the English called him Wayland."
   }
  ],
  "workId": "norse-wayland-smith",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "thorpe-elder-edda--the-lay-of-volund",
- "wordCount": 715,
+ "wordCount": 726,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 5.1,

@@ -5,6 +5,13 @@ versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+
+- A retelling's end note said its original was "listed under Other versions" even when the
+  original is hidden by default. For the 32 retellings of `mature-themes` originals, the note now
+  says the original appears there only when "Show stories with mature themes" is on; the integrity
+  test checks every retelling's note.
+
 ### Added
 
 - Mythology, part 10 (data only): the Scottish, Manx and Breton shelf. From Elizabeth W.
