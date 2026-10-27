@@ -1,0 +1,134 @@
+---
+title: Culhwch and Olwen
+adaptedFrom: guest-mabinogion--kilhwch-and-olwen
+order: 7
+namesNote: Guest spells Culhwch as Kilhwch, Cai as Kai, and the giant as Yspaddaden Penkawr ("Chief Giant").
+---
+
+Long ago, a prince of Wales had a son called Culhwch, who was a cousin of the great King Arthur. When Culhwch's mother died, his father married again. And Culhwch's new stepmother said to him, "It's time you had a wife. But I put this fate upon you: you will never marry anyone except Olwen, the daughter of Ysbaddaden, Chief of the Giants."
+
+Culhwch had never seen Olwen. But as soon as he heard her name, he fell in love with her.
+
+"That will be easy," said his father. "Arthur is your cousin. Go to his court and ask him to help you."
+
+So Culhwch set off on a fine grey horse with a golden bridle and saddle. He carried two silver spears and a golden sword, and two white greyhounds bounded about him like swallows. His horse stepped so lightly that not a blade of grass bent beneath it.
+
+When he came to Arthur's gate, the gatekeeper said, "You can't come in. There's a feast going on, and nobody comes in now except the son of a king or a master craftsman."
+
+"Open the gate," said Culhwch, "or I'll give three shouts so terrible that they'll be heard from Cornwall to Scotland to Ireland!"
+
+The gatekeeper went in to Arthur. "In all my travels," he said, "I have never seen a man as fine as the one at the gate."
+
+"Then let him in," said Arthur. "It isn't right to leave such a man out in the wind and the rain."
+
+Culhwch rode straight into the hall on his horse. "Greetings, king of this island," he said.
+
+"Greetings to you too," said Arthur. "Sit down and feast with us."
+
+"I didn't come to eat and drink," said Culhwch. "I came to ask a favour."
+
+"Whatever you ask, you shall have," said Arthur, "as far as the wind dries and the rain falls and the sun goes round and the sea surrounds and the earth stretches, except for my ship, my cloak, my sword, my spear, my shield, my dagger, and my wife."
+
+"Then first," said Culhwch, "trim my hair."
+
+So Arthur took a golden comb and silver scissors and combed his hair. "My heart warms to you," he said. "I think you are one of my family. Who are you?"
+
+"I am Culhwch, your cousin," he said.
+
+"Then whatever you ask for, you shall have."
+
+"I want you to win me Olwen, the daughter of Ysbaddaden, Chief of the Giants," said Culhwch. "And I ask the same of all your warriors." And then he named them, every one: Cai and Bedwyr, Gwalchmai and Taliesin, Manawydan, and all the rest. There were hundreds of them, and many of them had wonderful gifts. There was Drem, who could see a gnat getting up in the morning a whole kingdom away. There was Clust, who could hear an ant leaving its nest fifty miles off, even if he was buried in the ground. There was Medyr, who could shoot an arrow through both legs of a wren in Ireland, all the way from Cornwall. And there was Sgilti Lightfoot, who never needed a path through a wood, because he simply ran along the tops of the trees.
+
+Arthur had never heard of Olwen. He sent out messengers for a whole year to look for her, but they found no trace of her. "Then I'll go myself," said Culhwch, "and you will be disgraced."
+
+"Don't you insult Arthur!" said Cai. "Come with us, and we will not stop until we find her, or until you admit that there is no such person."
+
+So Arthur sent six of his best men with Culhwch. There was Cai, who could hold his breath under water for nine days and nights, and make himself as tall as the tallest tree. He was so hot that in the heaviest rain, whatever he carried stayed dry, and on cold nights his friends could light their fire from him. There was Bedwyr, who was faster than anyone except Arthur. There was a guide who could find his way through any land, even one he had never seen. There was Gwrhyr, who could speak every language, even the languages of animals and birds. There was Gwalchmai, Arthur's nephew, who never came home without finishing his adventure. And there was Menw, who could make them all invisible.
+
+They travelled until they came to a great plain with a huge castle on it. They rode towards it all day, but in the evening it was no nearer than it had been in the morning. It took them three days to reach it. And in front of it was a shepherd, with a dog as big as a horse, whose breath burned up every dead tree on the plain.
+
+"Whose castle is that?" they asked.
+
+"Everyone in the world knows that," said the shepherd. "It is the castle of Ysbaddaden, Chief of the Giants. And I am his brother, Custennin. He has taken away everything I had."
+
+"We have come for Olwen, the giant's daughter," they said.
+
+"Oh, don't!" said Custennin. "Nobody who ever came here for that has gone away alive."
+
+But Custennin's wife was Culhwch's aunt, and she welcomed them into her house. She opened a stone chest by the fire, and out jumped a young man with curly yellow hair. "He is my only son left," she said. "The giant has killed my other twenty-three. I have to hide him."
+
+"Let him come with me," said Cai. "Nobody will harm him while I live." His name was Goreu.
+
+"Does Olwen ever come here?" they asked.
+
+"Every Saturday, to wash her hair," said Custennin's wife. "I'll send for her, if you promise not to harm her."
+
+So they sent for Olwen, and she came. She wore a dress of flame-coloured silk and a gold collar set with emeralds and rubies. Her hair was more yellow than the flowers of the broom, her skin was whiter than the foam of the waves, and her cheeks were redder than the reddest roses. And wherever she walked, four white clovers sprang up in her footsteps. That is why she was called Olwen, which means White Footprint.
+
+As soon as Culhwch saw her, he knew her. "I have loved you for a long time," he said. "Come away with me."
+
+"I can't," said Olwen. "I promised my father I would never go without his permission. It is his fate that he will only live until I marry. But I will tell you what to do. Go and ask my father for me. Whatever he asks of you, say yes, and you will win me. But if you refuse him anything, you won't, and you will be lucky to escape with your life."
+
+So they went to the giant's castle and into his hall. "Greetings, Ysbaddaden, Chief of the Giants," they said. "We have come to ask for your daughter, Olwen, for Culhwch."
+
+"Where are my servants?" said the giant. "Lift up the forks under my eyebrows, which have fallen over my eyes, so that I can see what my son-in-law looks like." So his servants lifted up his huge eyebrows with forks. "Come back tomorrow," he said, "and I'll give you an answer."
+
+As they turned to go, the giant picked up a poisoned spear and threw it at them. But Bedwyr caught it and threw it back, and hit the giant in the knee. "Ow!" roared the giant. "What a rude son-in-law! I'll limp for the rest of my life!"
+
+The next day the same thing happened, and the giant was hit in the chest. And the third day it happened again, and Culhwch caught the spear and threw it back, and hit the giant in the eye. "Ow!" roared the giant. "Now my eyes will water whenever I walk into the wind!"
+
+On the fourth day the giant said, "Is it you who wants my daughter? Very well. But first, you must get me some things."
+
+"Name them," said Culhwch.
+
+"Do you see that great hill? I want it cleared, and ploughed, and sown, and harvested, all in one day, to make bread and drink for your wedding feast."
+
+"That will be easy for me," said Culhwch, "though you may think it won't."
+
+"Though you get that, there is something you won't get," said the giant. And so it went on. He asked for nearly forty impossible things. He asked for nine bushels of flax seed that had been sown long ago and never come up. He asked for a magic basket that would give everyone whatever food they wanted, and a harp that played by itself, and a magic cauldron from Ireland. "And I must shave my beard for the wedding," he said. "But my hair is so tough that the only comb and scissors and razor that will do are the ones between the ears of the great wild boar Twrch Trwyth. And to hunt him, you will need the hound Drudwyn. And the only one who can hunt with that hound is Mabon, the son of Modron, who was stolen from his mother when he was three nights old, and nobody knows where he is, or if he is alive or dead."
+
+To every one of them, Culhwch answered, "That will be easy for me, though you may think it won't."
+
+"Then go," said the giant. "And when you have got all these things, you shall have my daughter."
+
+"My cousin Arthur will help me," said Culhwch. "I will win your daughter, and you will lose your life."
+
+So they went back to Arthur, and Arthur and all his warriors set about getting all the wonders the giant had asked for.
+
+First they had to find Mabon. Nobody knew where he was. So Gwrhyr, who could speak to animals, went to ask the oldest creatures in the world.
+
+First he went to the Blackbird of Cilgwri. "When I first came here," said the Blackbird, "there was a blacksmith's anvil here, and I was a young bird. Nobody has used it since, except that I have pecked my beak on it every evening, and now there is not so much as a nut's worth of it left. But I have never heard of Mabon. There is an animal older than me, though. I'll take you to him."
+
+So she took them to the Stag of Rhedynfre. "When I first came here," said the Stag, "there was only one little oak tree on this plain. It grew into a great oak with a hundred branches, and then it died, and now there is only a stump. But I have never heard of Mabon. I'll take you to someone older."
+
+So the Stag took them to the Owl of Cwm Cawlwyd. "When I first came here," said the Owl, "this valley was a wooded glen. Then men came and cut it down, and a second wood grew, and now this is the third. And look at my wings: they are just worn-out stumps. But I have never heard of Mabon. I'll take you to the oldest creature in the world, the one who has travelled furthest: the Eagle of Gwernabwy."
+
+"When I first came here," said the Eagle, "there was a great rock here, and from the top of it I could peck at the stars every evening. Now it is not even a hand high. And I have never heard of Mabon. But once, when I went hunting at Llyn Llyw, I caught a salmon, and he dragged me down into the deep water, and I hardly escaped. Then we made peace, and I pulled fifty fishing spears out of his back. If he doesn't know where Mabon is, nobody does."
+
+So the Eagle took them to the Salmon of Llyn Llyw. "I'll tell you what I know," said the Salmon. "I swim up the river with every tide, as far as the walls of Gloucester. And there I have heard such sorrow as I never heard anywhere else. Climb on my shoulders, and I'll show you."
+
+So Cai and Gwrhyr rode on the Salmon's shoulders up the river to the walls of Gloucester. And from inside the walls they heard someone weeping. "Who is crying in this house of stone?" called Gwrhyr.
+
+"I am Mabon, the son of Modron," said a voice. "Nobody was ever kept in such a terrible prison as I am."
+
+So they went back and told Arthur. And Arthur and his warriors attacked the castle at Gloucester, and while the battle went on, Cai and Bedwyr rode the Salmon up the river again. Cai broke through the wall, and carried Mabon out on his back. And Mabon was free.
+
+One day, one of Arthur's men was walking over a mountain when he heard a wailing. It came from an anthill that was about to be burned up by a fire. He cut the anthill away from the fire with his sword, and saved it. "Thank you," said the ants. "We will give you something that no man can give you." And they went and fetched all nine bushels of the lost flax seed that the giant wanted, every single seed, except one. And that last seed was brought in before nightfall by a little lame ant.
+
+And so, one by one, Arthur and his men won all the wonders.
+
+Last of all they hunted the great boar, Twrch Trwyth. He had once been a king, but he had been turned into a boar for his wickedness, and he had seven fierce young boars with him, and the comb and scissors and razor were between his ears. Arthur and his men hunted him all over Ireland and across the sea and right across the south of Wales, and many good men and hounds were lost. At last they drove him into the River Severn. There Mabon, riding a horse as fast as the waves, snatched the razor from between his ears, and another warrior snatched the scissors. But before they could get the comb, the boar scrambled out of the river and ran all the way to Cornwall. And there, after more trouble than all the rest put together, they got the comb as well. Then the boar was chased into the deep sea, and nobody ever knew where he went.
+
+So now they had everything the giant had asked for. And Culhwch and Goreu and all the giant's enemies went to his castle, taking all the wonders with them. And there the giant was shaved.
+
+"Are you shaved, man?" asked Culhwch.
+
+"I am," said the giant.
+
+"Is your daughter mine now?"
+
+"She is yours," said the giant. "But don't thank me. Thank Arthur. If it had been up to me, you would never have had her. For now I must lose my life."
+
+Then Goreu, whose twenty-three brothers the giant had killed, took his revenge, and that was the end of Ysbaddaden, Chief of the Giants.
+
+And that night Olwen and Culhwch were married, and she was his wife for the rest of her life. And all Arthur's warriors went home, each to his own country.

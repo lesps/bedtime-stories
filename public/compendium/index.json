@@ -516,6 +516,42 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 18
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "guest-mabinogion",
+   "title": "The Mabinogion",
+   "author": "Traditional (medieval Welsh)",
+   "contributor": "Translated by Lady Charlotte Guest",
+   "firstPublished": 1849,
+   "source": "https://www.gutenberg.org/ebooks/5160",
+   "originalLanguage": "cy",
+   "storyCount": 7
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "jacobs-celtic",
+   "title": "Celtic Fairy Tales",
+   "author": "Various (collected)",
+   "contributor": "Edited by Joseph Jacobs",
+   "firstPublished": 1892,
+   "source": "https://www.gutenberg.org/ebooks/7885",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-welsh",
+   "title": "Welsh Legends, Simply Told",
+   "author": "Traditional (Welsh)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 10
   }
  ],
  "stories": [
@@ -12448,6 +12484,353 @@
    "readingLevel": {
     "fkGrade": 4.7,
     "avgSentenceWords": 15.0,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "guest-mabinogion--pwyll-prince-of-dyved",
+   "collectionId": "guest-mabinogion",
+   "order": 1,
+   "title": "Pwyll Prince of Dyved",
+   "wordCount": 8000,
+   "readingMinutes": 44,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-pwyll",
+   "readingLevel": {
+    "fkGrade": 6.0,
+    "avgSentenceWords": 18.4,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-welsh--pwyll-and-rhiannon"
+  },
+  {
+   "id": "guest-mabinogion--branwen-the-daughter-of-llyr",
+   "collectionId": "guest-mabinogion",
+   "order": 2,
+   "title": "Branwen the Daughter of Llyr",
+   "wordCount": 5775,
+   "readingMinutes": 32,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "welsh-branwen",
+   "readingLevel": {
+    "fkGrade": 7.8,
+    "avgSentenceWords": 21.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-welsh--branwen-and-bran-the-blessed"
+  },
+  {
+   "id": "guest-mabinogion--manawyddan-the-son-of-llyr",
+   "collectionId": "guest-mabinogion",
+   "order": 3,
+   "title": "Manawyddan the Son of Llyr",
+   "wordCount": 5114,
+   "readingMinutes": 28,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-manawydan",
+   "readingLevel": {
+    "fkGrade": 5.4,
+    "avgSentenceWords": 15.9,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-welsh--manawydan-and-the-enchanted-land"
+  },
+  {
+   "id": "guest-mabinogion--math-the-son-of-mathonwy",
+   "collectionId": "guest-mabinogion",
+   "order": 4,
+   "title": "Math the Son of Mathonwy",
+   "wordCount": 7521,
+   "readingMinutes": 42,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "welsh-math",
+   "readingLevel": {
+    "fkGrade": 5.2,
+    "avgSentenceWords": 15.6,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-welsh--lleu-and-the-woman-made-of-flowers"
+  },
+  {
+   "id": "guest-mabinogion--the-story-of-lludd-and-llevelys",
+   "collectionId": "guest-mabinogion",
+   "order": 5,
+   "title": "The Story of Lludd and Llevelys",
+   "wordCount": 2087,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-lludd-llefelys",
+   "readingLevel": {
+    "fkGrade": 8.0,
+    "avgSentenceWords": 22.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-welsh--lludd-and-llefelys"
+  },
+  {
+   "id": "guest-mabinogion--taliesin",
+   "collectionId": "guest-mabinogion",
+   "order": 6,
+   "title": "Taliesin",
+   "wordCount": 7019,
+   "readingMinutes": 39,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-taliesin",
+   "readingLevel": {
+    "fkGrade": 11.6,
+    "avgSentenceWords": 30.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-welsh--the-birth-of-taliesin"
+  },
+  {
+   "id": "guest-mabinogion--kilhwch-and-olwen",
+   "collectionId": "guest-mabinogion",
+   "order": 7,
+   "title": "Kilhwch and Olwen",
+   "wordCount": 15740,
+   "readingMinutes": 87,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-culhwch-olwen",
+   "readingLevel": {
+    "fkGrade": 6.9,
+    "avgSentenceWords": 19.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-welsh--culhwch-and-olwen"
+  },
+  {
+   "id": "jacobs-celtic--the-shepherd-of-myddvai",
+   "collectionId": "jacobs-celtic",
+   "order": 1,
+   "title": "The Shepherd of Myddvai",
+   "wordCount": 753,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-myddfai",
+   "readingLevel": {
+    "fkGrade": 7.7,
+    "avgSentenceWords": 22.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-welsh--the-lady-of-the-lake"
+  },
+  {
+   "id": "jacobs-celtic--beth-gellert",
+   "collectionId": "jacobs-celtic",
+   "order": 2,
+   "title": "Beth Gellert",
+   "wordCount": 522,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "welsh-gelert",
+   "readingLevel": {
+    "fkGrade": 7.5,
+    "avgSentenceWords": 20.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-welsh--gelert-the-faithful-hound"
+  },
+  {
+   "id": "myths-welsh--pwyll-and-rhiannon",
+   "collectionId": "myths-welsh",
+   "order": 1,
+   "title": "Pwyll and Rhiannon",
+   "wordCount": 2221,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-pwyll",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 12.1,
+    "band": "early"
+   },
+   "adaptedFrom": "guest-mabinogion--pwyll-prince-of-dyved"
+  },
+  {
+   "id": "myths-welsh--branwen-and-bran-the-blessed",
+   "collectionId": "myths-welsh",
+   "order": 2,
+   "title": "Branwen and Bran the Blessed",
+   "wordCount": 1861,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-branwen",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 14.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "guest-mabinogion--branwen-the-daughter-of-llyr"
+  },
+  {
+   "id": "myths-welsh--manawydan-and-the-enchanted-land",
+   "collectionId": "myths-welsh",
+   "order": 3,
+   "title": "Manawydan and the Enchanted Land",
+   "wordCount": 1764,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-manawydan",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 10.6,
+    "band": "early"
+   },
+   "adaptedFrom": "guest-mabinogion--manawyddan-the-son-of-llyr"
+  },
+  {
+   "id": "myths-welsh--lleu-and-the-woman-made-of-flowers",
+   "collectionId": "myths-welsh",
+   "order": 4,
+   "title": "Lleu and the Woman Made of Flowers",
+   "wordCount": 1824,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-math",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.5,
+    "band": "early"
+   },
+   "adaptedFrom": "guest-mabinogion--math-the-son-of-mathonwy"
+  },
+  {
+   "id": "myths-welsh--lludd-and-llefelys",
+   "collectionId": "myths-welsh",
+   "order": 5,
+   "title": "Lludd and Llefelys",
+   "wordCount": 1118,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-lludd-llefelys",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 13.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "guest-mabinogion--the-story-of-lludd-and-llevelys"
+  },
+  {
+   "id": "myths-welsh--the-birth-of-taliesin",
+   "collectionId": "myths-welsh",
+   "order": 6,
+   "title": "The Birth of Taliesin",
+   "wordCount": 1697,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-taliesin",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 12.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "guest-mabinogion--taliesin"
+  },
+  {
+   "id": "myths-welsh--culhwch-and-olwen",
+   "collectionId": "myths-welsh",
+   "order": 7,
+   "title": "Culhwch and Olwen",
+   "wordCount": 2567,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-culhwch-olwen",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 12.1,
+    "band": "early"
+   },
+   "adaptedFrom": "guest-mabinogion--kilhwch-and-olwen"
+  },
+  {
+   "id": "myths-welsh--the-lady-of-the-lake",
+   "collectionId": "myths-welsh",
+   "order": 8,
+   "title": "The Shepherd and the Lady of the Lake",
+   "wordCount": 797,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-myddfai",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.9,
+    "band": "early"
+   },
+   "adaptedFrom": "jacobs-celtic--the-shepherd-of-myddvai"
+  },
+  {
+   "id": "myths-welsh--gelert-the-faithful-hound",
+   "collectionId": "myths-welsh",
+   "order": 9,
+   "title": "Gelert the Faithful Hound",
+   "wordCount": 525,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-gelert",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 12.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "jacobs-celtic--beth-gellert"
+  },
+  {
+   "id": "myths-welsh--the-drowned-land",
+   "collectionId": "myths-welsh",
+   "order": 10,
+   "title": "The Drowned Land of Cantre'r Gwaelod",
+   "wordCount": 611,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "welsh-cantref-gwaelod",
+   "readingLevel": {
+    "fkGrade": 5.4,
+    "avgSentenceWords": 16.4,
     "band": "middle"
    }
   }

@@ -1,0 +1,71 @@
+{
+ "id": "myths-welsh--gelert-the-faithful-hound",
+ "collectionId": "myths-welsh",
+ "order": 9,
+ "title": "Gelert the Faithful Hound",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, in the mountains of North Wales, there lived a prince called Llywelyn. He had a favourite hound called Gelert, which had been given to him by King John of England. Gelert was as gentle as a lamb at home, but as brave as a lion when he went hunting. And he was the fastest and boldest of all the prince's hounds."
+  },
+  {
+   "type": "p",
+   "text": "Prince Llywelyn had a baby son, just a year old, and Gelert loved to play with him."
+  },
+  {
+   "type": "p",
+   "text": "One day, Llywelyn set off to go hunting. He blew his horn in front of his castle, and all his hounds came running, all except Gelert. He blew his horn again, louder, and called \"Gelert!\" But still Gelert did not come. At last the prince could wait no longer, and he went off hunting without him. But he caught very little that day, because his best hound was not with him."
+  },
+  {
+   "type": "p",
+   "text": "He came home in a bad temper. And as he came to the castle gate, there was Gelert, bounding out to meet him. But as the hound came closer, the prince saw with a shock that his mouth was all covered in blood. Gelert crouched down at his master's feet, as if he was puzzled by the way Llywelyn was looking at him."
+  },
+  {
+   "type": "p",
+   "text": "Then a terrible thought came into the prince's mind. He rushed to his little son's room. And the nearer he got, the more blood he saw, and the more things knocked over. When he got there, the cradle was turned upside down, and there was blood on it."
+  },
+  {
+   "type": "p",
+   "text": "Llywelyn searched everywhere for his son, but he could not find him. There were only signs of a terrible fight. And at last he was sure that Gelert had killed his child."
+  },
+  {
+   "type": "p",
+   "text": "\"You monster!\" he cried. And in his rage and grief, he drew his sword and struck Gelert. And the faithful hound fell down with a great cry, still looking up into his master's eyes."
+  },
+  {
+   "type": "p",
+   "text": "And as Gelert cried out, a little baby's cry answered him from under the cradle. Llywelyn turned the cradle over. And there was his son, safe and unhurt, just waking up from his sleep. And beside him lay a huge, fierce wolf, dead."
+  },
+  {
+   "type": "p",
+   "text": "Then, too late, Llywelyn understood what had happened. Gelert had stayed behind to guard the baby. And when the wolf crept in to attack the child, Gelert had fought it and killed it, and saved the little boy's life."
+  },
+  {
+   "type": "p",
+   "text": "Llywelyn was filled with sorrow. But nothing he could do would bring his faithful hound back to life. So he buried Gelert outside the castle walls, where he could see the great mountain of Snowdon, and piled a great heap of stones over his grave, so that everyone who passed by would see it."
+  },
+  {
+   "type": "p",
+   "text": "And the village there is still called Beddgelert, which means Gelert's Grave."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Beth Gellert” in Celtic Fairy Tales, edited by Joseph Jacobs (1892). The original is listed under Other versions. Jacobs spells the hound's name Gellert. The story was first told about Beddgelert around 1800, though the tale of a faithful dog wrongly killed is far older."
+  }
+ ],
+ "workId": "welsh-gelert",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "jacobs-celtic--beth-gellert",
+ "wordCount": 525,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 4.5,
+  "avgSentenceWords": 12.9,
+  "band": "middle"
+ }
+}

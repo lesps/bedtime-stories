@@ -7,6 +7,15 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 9 (data only): the Welsh shelf. From Lady Charlotte Guest's _Mabinogion_ (1849), a
+  new `guest-mabinogion` collection: the Four Branches (Pwyll, Branwen, Manawyddan and Math;
+  Branwen and Math are `mature-themes`), Lludd and Llevelys, Taliesin and Kilhwch and Olwen, with
+  the englyns and Taliesin's songs as verse and a few transcription errors corrected. From Joseph
+  Jacobs's _Celtic Fairy Tales_ (1892), `jacobs-celtic`: "The Shepherd of Myddvai" and "Beth
+  Gellert" (`mature-themes`; its end note says the legend is no older than about 1800 at
+  Beddgelert). All nine get retellings in the new _Welsh Legends, Simply Told_ (grade 3.3–5.4),
+  plus the drowned land of Cantre'r Gwaelod, retold without an original. New culture `welsh` (17
+  in all). New tool `extract_welsh.py`; retellings from Jacobs credit the book and its editor.
 - Mythology, part 8 (data only): the Irish shelf. From P. W. Joyce's _Old Celtic Romances_ (1879),
   a new `joyce-celtic-romances` collection: the Children of Lir, the Children of Turenn, the Voyage
   of Maildun, the Pursuit of Dermat and Grania, Oisin in Tirnanoge and the Sons of Usna (Turenn,
