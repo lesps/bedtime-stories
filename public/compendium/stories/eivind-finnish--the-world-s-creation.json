@@ -1,0 +1,45 @@
+{
+ "id": "eivind-finnish--the-world-s-creation",
+ "collectionId": "eivind-finnish",
+ "order": 1,
+ "title": "The World's Creation",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long, long ago, before this world was made, there lived a lovely maiden called Ilmatar, the daughter of the Ether. She lived in the air—there were only air and water then—but at length she grew tired of always being in the air, and came down and floated on the surface of the water. Suddenly, as she lay there, there came a mighty storm-wind, and poor Ilmatar was tossed about helplessly on the waves, until at length the wind died down and the waves became still, and Ilmatar, worn out by the violence of the tempest, sank beneath the waters."
+  },
+  {
+   "type": "p",
+   "text": "Then a magic spell overpowered her, and she swam on and on vainly seeking to rise above the waters, but always unable to do so. Seven hundred long weary years she swam thus, until one day she could not bear it any longer, and cried out: 'Woe is me that I have fallen from my happy home in the air, and cannot now rise above the surface of the waters. O great Ukko, ruler of the skies, come and aid me in my sorrow!'"
+  },
+  {
+   "type": "p",
+   "text": "No sooner had she ended her appeal to Ukko than a lovely duck flew down out of the sky, and hovered over the waters looking for a place to alight; but it found none. Then Ilmatar raised her knees above the water, so that the duck might rest upon them; and no sooner did the duck spy them than it flew towards them and, without even stopping to rest, began to build a nest upon them."
+  },
+  {
+   "type": "p",
+   "text": "When the nest was finished, the duck laid in it six golden eggs, and a seventh of iron, and sat upon them to hatch them. Three days the duck sat on the eggs, and all the while the water around Ilmatar's knees grew hotter and hotter, and her knees began to burn as if they were on fire. The pain was so great that it caused her to tremble all over, and her quivering shook the nest off her knees, and the eggs all fell to the bottom of the ocean and broke in pieces. But these pieces came together into two parts and grew to a huge size, and the upper one became the arched heavens above us, and the lower one our world itself. From the white part of the egg came the moonbeams, and from the yolk the bright sunshine."
+  },
+  {
+   "type": "p",
+   "text": "At last the unfortunate Ilmatar was able to raise her head out of the waters, and she then began to create the land. Wherever she put her hand there arose a lovely hill, and where she stepped she made a lake. Where she dived below the surface are the deep places of the ocean, where she turned her head towards the land there grew deep bays and inlets, and where she floated on her back she made the hidden rocks and reefs where so many ships and lives have been lost. Thus the islands and the rocks and the firm land were created."
+  },
+  {
+   "type": "p",
+   "text": "After the land was made Wainamoinen was born, but he was not born a child, but a full-grown man, full of wisdom and magic power. For seven whole years he swam about in the ocean, and in the eighth he left the water and stepped upon the dry land. Thus was the birth of Wainamoinen, the wonderful magician."
+  }
+ ],
+ "workId": "finnish-creation",
+ "wordCount": 563,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 10.4,
+  "avgSentenceWords": 28.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-finnic--how-the-world-was-made"
+}

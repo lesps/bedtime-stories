@@ -624,6 +624,42 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 8
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "eivind-finnish",
+   "title": "Finnish Legends for English Children",
+   "author": "R. Eivind",
+   "contributor": "Retold from the Kalevala",
+   "firstPublished": 1893,
+   "source": "https://www.gutenberg.org/ebooks/24948",
+   "originalLanguage": "fi",
+   "storyCount": 7
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "kirby-esthonia",
+   "title": "The Hero of Esthonia",
+   "author": "Friedrich Reinhold Kreutzwald",
+   "contributor": "Translated by W. F. Kirby",
+   "firstPublished": 1895,
+   "source": "https://www.gutenberg.org/ebooks/19438",
+   "originalLanguage": "et",
+   "storyCount": 3
+  },
+  {
+   "id": "myths-finnic",
+   "title": "Finnish and Estonian Legends, Simply Told",
+   "author": "Traditional (Finnish and Estonian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 10
   }
  ],
  "stories": [
@@ -13394,6 +13430,370 @@
     "band": "middle"
    },
    "adaptedFrom": "lang-romance--the-end-of-it-all"
+  },
+  {
+   "id": "eivind-finnish--the-world-s-creation",
+   "collectionId": "eivind-finnish",
+   "order": 1,
+   "title": "The World's Creation",
+   "wordCount": 563,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-creation",
+   "readingLevel": {
+    "fkGrade": 10.4,
+    "avgSentenceWords": 28.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--how-the-world-was-made"
+  },
+  {
+   "id": "eivind-finnish--wainamoinen-and-youkahainen",
+   "collectionId": "eivind-finnish",
+   "order": 2,
+   "title": "Wainamoinen and Youkahainen",
+   "wordCount": 1023,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-singing-contest",
+   "readingLevel": {
+    "fkGrade": 11.8,
+    "avgSentenceWords": 29.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--the-singing-contest"
+  },
+  {
+   "id": "eivind-finnish--ilmarinen-forges-the-sampo",
+   "collectionId": "eivind-finnish",
+   "order": 3,
+   "title": "Ilmarinen Forges the Sampo",
+   "wordCount": 1796,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-sampo-forged",
+   "readingLevel": {
+    "fkGrade": 9.3,
+    "avgSentenceWords": 25.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--the-forging-of-the-sampo"
+  },
+  {
+   "id": "eivind-finnish--lemminkainen-s-death-and-restoration",
+   "collectionId": "eivind-finnish",
+   "order": 4,
+   "title": "Lemminkainen's Death and Restoration",
+   "wordCount": 2085,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "finnish-lemminkainen",
+   "readingLevel": {
+    "fkGrade": 10.1,
+    "avgSentenceWords": 26.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--lemminkainen-and-his-mother"
+  },
+  {
+   "id": "eivind-finnish--the-birth-of-the-kantele",
+   "collectionId": "eivind-finnish",
+   "order": 5,
+   "title": "The Birth of the Kantele",
+   "wordCount": 1563,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-kantele",
+   "readingLevel": {
+    "fkGrade": 8.9,
+    "avgSentenceWords": 23.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--the-first-kantele"
+  },
+  {
+   "id": "eivind-finnish--the-capture-of-the-sampo",
+   "collectionId": "eivind-finnish",
+   "order": 6,
+   "title": "The Capture of the Sampo",
+   "wordCount": 1778,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-sampo-stolen",
+   "readingLevel": {
+    "fkGrade": 11.2,
+    "avgSentenceWords": 28.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--the-capture-of-the-sampo"
+  },
+  {
+   "id": "eivind-finnish--louhi-steals-the-sun-and-moon",
+   "collectionId": "eivind-finnish",
+   "order": 7,
+   "title": "Louhi Steals the Sun and Moon",
+   "wordCount": 2210,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-sun-and-moon",
+   "readingLevel": {
+    "fkGrade": 9.3,
+    "avgSentenceWords": 24.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--the-stolen-sun-and-moon"
+  },
+  {
+   "id": "kirby-esthonia--the-death-of-kalev",
+   "collectionId": "kirby-esthonia",
+   "order": 1,
+   "title": "The Death of Kalev",
+   "wordCount": 971,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "estonian-linda",
+   "readingLevel": {
+    "fkGrade": 10.5,
+    "avgSentenceWords": 27.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--linda-and-the-hill-of-tallinn"
+  },
+  {
+   "id": "kirby-esthonia--the-contest-and-parting-of-the-brothers",
+   "collectionId": "kirby-esthonia",
+   "order": 2,
+   "title": "The Contest and Parting of the Brothers",
+   "wordCount": 977,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "estonian-kalevipoeg-king",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 25.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--how-kalevipoeg-became-king"
+  },
+  {
+   "id": "kirby-esthonia--armageddon",
+   "collectionId": "kirby-esthonia",
+   "order": 3,
+   "title": "Armageddon",
+   "wordCount": 1691,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "estonian-kalevipoeg-end",
+   "readingLevel": {
+    "fkGrade": 10.7,
+    "avgSentenceWords": 27.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-finnic--kalevipoeg-at-the-gates"
+  },
+  {
+   "id": "myths-finnic--how-the-world-was-made",
+   "collectionId": "myths-finnic",
+   "order": 1,
+   "title": "How the World Was Made",
+   "wordCount": 535,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-creation",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 14.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "eivind-finnish--the-world-s-creation"
+  },
+  {
+   "id": "myths-finnic--the-singing-contest",
+   "collectionId": "myths-finnic",
+   "order": 2,
+   "title": "The Singing Contest",
+   "wordCount": 882,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-singing-contest",
+   "readingLevel": {
+    "fkGrade": 5.6,
+    "avgSentenceWords": 15.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "eivind-finnish--wainamoinen-and-youkahainen"
+  },
+  {
+   "id": "myths-finnic--the-forging-of-the-sampo",
+   "collectionId": "myths-finnic",
+   "order": 3,
+   "title": "The Forging of the Sampo",
+   "wordCount": 1268,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-sampo-forged",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 13.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "eivind-finnish--ilmarinen-forges-the-sampo"
+  },
+  {
+   "id": "myths-finnic--lemminkainen-and-his-mother",
+   "collectionId": "myths-finnic",
+   "order": 4,
+   "title": "Lemminkäinen and His Mother",
+   "wordCount": 1178,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-lemminkainen",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 14.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "eivind-finnish--lemminkainen-s-death-and-restoration"
+  },
+  {
+   "id": "myths-finnic--the-first-kantele",
+   "collectionId": "myths-finnic",
+   "order": 5,
+   "title": "The First Kantele",
+   "wordCount": 1041,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-kantele",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 13.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "eivind-finnish--the-birth-of-the-kantele"
+  },
+  {
+   "id": "myths-finnic--the-capture-of-the-sampo",
+   "collectionId": "myths-finnic",
+   "order": 6,
+   "title": "The Capture of the Sampo",
+   "wordCount": 1236,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-sampo-stolen",
+   "readingLevel": {
+    "fkGrade": 5.4,
+    "avgSentenceWords": 15.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "eivind-finnish--the-capture-of-the-sampo"
+  },
+  {
+   "id": "myths-finnic--the-stolen-sun-and-moon",
+   "collectionId": "myths-finnic",
+   "order": 7,
+   "title": "The Stolen Sun and Moon",
+   "wordCount": 1423,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "finnish-sun-and-moon",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 15.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "eivind-finnish--louhi-steals-the-sun-and-moon"
+  },
+  {
+   "id": "myths-finnic--linda-and-the-hill-of-tallinn",
+   "collectionId": "myths-finnic",
+   "order": 8,
+   "title": "Linda and the Hill of Tallinn",
+   "wordCount": 760,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "estonian-linda",
+   "readingLevel": {
+    "fkGrade": 4.9,
+    "avgSentenceWords": 14.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "kirby-esthonia--the-death-of-kalev"
+  },
+  {
+   "id": "myths-finnic--how-kalevipoeg-became-king",
+   "collectionId": "myths-finnic",
+   "order": 9,
+   "title": "How Kalevipoeg Became King",
+   "wordCount": 756,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "estonian-kalevipoeg-king",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 15.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "kirby-esthonia--the-contest-and-parting-of-the-brothers"
+  },
+  {
+   "id": "myths-finnic--kalevipoeg-at-the-gates",
+   "collectionId": "myths-finnic",
+   "order": 10,
+   "title": "Kalevipoeg at the Gates",
+   "wordCount": 794,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "estonian-kalevipoeg-end",
+   "readingLevel": {
+    "fkGrade": 5.9,
+    "avgSentenceWords": 16.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "kirby-esthonia--armageddon"
   }
  ]
 }

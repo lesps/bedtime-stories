@@ -1,0 +1,69 @@
+{
+ "id": "eivind-finnish--wainamoinen-and-youkahainen",
+ "collectionId": "eivind-finnish",
+ "order": 2,
+ "title": "Wainamoinen and Youkahainen",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Thus Wainamoinen finished his labours and began to lead a happy life on the plains of Kalevala. He passed his evenings singing of the deeds of days gone by and stories of the creation, until his fame as a great singer spread far and wide in all directions."
+  },
+  {
+   "type": "p",
+   "text": "At this time, far off in the dismal Northland, there lived a young and famous singer and magician named Youkahainen. He was sitting one day at a feast with his friends, when some one came and told about the famous singer Wainamoinen, and how he was a sweeter singer and a more powerful magician than any one else in the world. This filled Youkahainen's heart with envy, and he vowed to hasten off to the south and to enter into a contest with Wainamoinen to see if he could not beat him."
+  },
+  {
+   "type": "p",
+   "text": "His mother tried to persuade him not to go, but in vain, and he made ready for the journey, declaring that he would sing such magic songs as would turn old Wainamoinen into stone. Then he brought out his noble steed and harnessed him to a golden sledge, and then jumping in, he gave the steed a cut with his pearl-handled whip, and dashed off towards Kalevala. On the evening of the third day he drew near to Wainamoinen's home, and there he met Wainamoinen himself driving along the highway."
+  },
+  {
+   "type": "p",
+   "text": "Now Youkahainen was too proud to turn out of the road for any one, and so their sledges dashed together and were smashed to pieces, and the harnesses became all twisted up together. Then Wainamoinen said: 'Who art thou, O foolish youth, that thou drivest so badly that thou hast run into my sledge and broken it to pieces?' And Youkahainen answered proudly: 'I am Youkahainen, and have come hither to beat the old magician Wainamoinen in singing and in magic.'"
+  },
+  {
+   "type": "p",
+   "text": "Wainamoinen then told him who he was, and accepted the challenge, and so the contest began. But Youkahainen soon found that he was no match for his opponent, and at length he cried out in anger: 'If I cannot beat thee at singing and in magic, at least I can conquer thee with my bright sword.'"
+  },
+  {
+   "type": "p",
+   "text": "Wainamoinen answered that he would not fight so weak an opponent, and then Youkahainen declared that he was a coward and afraid to fight. At last these taunts made Wainamoinen so angry that he could not restrain himself any longer, and he began to sing. He sang such wondrous spells that the mountains and the rocks began to tremble, and the sea was upheaved as if by a great storm. Youkahainen stood transfixed, and as Wainamoinen went on singing his sledge was changed to brushwood and the reins to willow branches, the pearl-handled whip became a reed, and his steed was transformed into a rock in the water, and all the harness into seaweed. And still the old magician sang his magic spells, and Youkahainen's gaily-painted bow became a rainbow in the sky, his feathered arrows flew away as hawks and eagles, and his dog was turned to a stone at his feet. His cap turned into a curling mist, his clothing into white clouds, and his jewel-set girdle into stars."
+  },
+  {
+   "type": "p",
+   "text": "And at length the spell began to take effect on Youkahainen himself. Slowly, slowly he felt himself sinking into a quicksand, and all his struggles to escape were in vain. When he had sunk up to his waist he began to beg for mercy, and cried out: 'O great Wainamoinen, thou art the greatest of all magicians. Release me, I beg, from this quicksand, and I will give thee two magic bows. One is so strong that only the very strongest men can draw it, and the other a child can shoot.'"
+  },
+  {
+   "type": "p",
+   "text": "But Wainamoinen refused the bows and sank Youkahainen still deeper. And as he sank, Youkahainen kept begging for mercy, and offering first two magic boats, and then two magic steeds that could carry any burden, and finally all his gold and silver and his harvests, but Wainamoinen would not even listen to him. At length Youkahainen had sunk so far that his mouth began to be filled with water and mud, and he cried out as a last hope: 'O mighty Wainamoinen, if thou wilt release me I will give thee my sister Aino as thy bride.'"
+  },
+  {
+   "type": "p",
+   "text": "This was the ransom that Wainamoinen had been waiting for, for Aino was famous for her beauty and loveliness of character, and so he released poor Youkahainen and gave him back his sledge and everything just as it had been before. And when it was all ready Youkahainen jumped into it and drove off home without saying a word."
+  },
+  {
+   "type": "p",
+   "text": "When he reached home he drove so carelessly that his sledge was broken to pieces against the gate-posts, and he left the broken sledge there and walked straight into the house with hanging head, and at first would not answer any of his family's questions. At length he said: 'Dearest mother, there is cause enough for my grief, for I have had to promise the aged Wainamoinen my dear sister Aino as his bride.' But his mother arose joyfully and clapped her hands and said: 'That is no reason to be sad, my dear son, for I have longed for many years that this very thing should happen—that Aino should have so brave and wise a husband as Wainamoinen.'"
+  },
+  {
+   "type": "p",
+   "text": "So the mother told the news to Aino, but when she heard it she wept for three whole days and nights and refused to be comforted, saying to her mother: 'Why should this great sorrow come to me, dear mother, for now I shall no longer be able to adorn my golden hair with jewels, but must hide it all beneath the ugly cap that wives have to wear. All the golden sunshine and the silver moonlight will go from my life.'"
+  },
+  {
+   "type": "p",
+   "text": "But her mother tried to comfort her by telling her that the sun and moon would shine even more brightly in her new home than in her old, and that Kalevala was a land of flowers."
+  }
+ ],
+ "workId": "finnish-singing-contest",
+ "wordCount": 1023,
+ "readingMinutes": 6,
+ "readingLevel": {
+  "fkGrade": 11.8,
+  "avgSentenceWords": 29.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-finnic--the-singing-contest"
+}

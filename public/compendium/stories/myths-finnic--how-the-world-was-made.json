@@ -1,0 +1,59 @@
+{
+ "id": "myths-finnic--how-the-world-was-made",
+ "collectionId": "myths-finnic",
+ "order": 1,
+ "title": "How the World Was Made",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long, long ago, before the world was made, there was nothing but air and water. And in the air there lived a lovely maiden called Ilmatar, the daughter of the sky."
+  },
+  {
+   "type": "p",
+   "text": "After a long time, Ilmatar grew tired of always being up in the air. So she came down, and floated on top of the water. But suddenly a great storm wind blew up, and tossed her about on the waves, until at last the wind died down, and Ilmatar was so tired that she sank down under the water."
+  },
+  {
+   "type": "p",
+   "text": "Then a magic spell came over her. She swam on and on, but she could never get back up above the water. For seven hundred long years she swam like that. At last she could not bear it any longer, and she called out, \"Oh, great Ukko, ruler of the sky, please come and help me!\""
+  },
+  {
+   "type": "p",
+   "text": "As soon as she had spoken, a beautiful duck flew down out of the sky. It flew to and fro over the water, looking for somewhere to land, but there was nowhere at all. So Ilmatar lifted her knees up out of the water, for the duck to rest on. And as soon as the duck saw them, it flew down and began to build a nest on them."
+  },
+  {
+   "type": "p",
+   "text": "When the nest was finished, the duck laid six golden eggs in it, and a seventh egg of iron, and sat on them to keep them warm. For three days it sat there. And all that time, the water around Ilmatar's knees grew hotter and hotter, until her knees felt as if they were on fire. It hurt so much that she began to tremble all over, and her trembling shook the nest off her knees. The eggs fell down to the bottom of the sea and broke into pieces."
+  },
+  {
+   "type": "p",
+   "text": "But the pieces did not stay broken. They came together into two great halves, and grew and grew. The top half became the sky above us, and the bottom half became the earth. From the white of the eggs came the moonlight, and from the yolk came the bright sunshine."
+  },
+  {
+   "type": "p",
+   "text": "At last Ilmatar was able to lift her head out of the water. And she began to make the land. Wherever she put her hand, a hill rose up. Wherever she stepped, she made a lake. Where she dived down, the sea became deep. Where she turned her head towards the land, bays and inlets were made. And where she floated on her back, she made the hidden rocks under the sea. And so the islands and the rocks and the solid land were made."
+  },
+  {
+   "type": "p",
+   "text": "When the land was made, Väinämöinen was born. But he was not born as a baby. He was born a grown man, full of wisdom and magic. For seven whole years he swam about in the sea, and in the eighth year he climbed out of the water and stepped onto dry land. And that is how Väinämöinen, the great magician and singer, came into the world."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of R. Eivind's “The World's Creation” in Finnish Legends for English Children (1893). The original is listed under Other versions. Eivind spells Väinämöinen as Wainamoinen."
+  }
+ ],
+ "workId": "finnish-creation",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "eivind-finnish--the-world-s-creation",
+ "wordCount": 535,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 4.3,
+  "avgSentenceWords": 14.7,
+  "band": "middle"
+ }
+}

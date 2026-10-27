@@ -33,6 +33,7 @@ CULTURES = [
     ("arthurian", "Arthurian"),
     ("arabian", "Arabian Nights"),
     ("turkish", "Turkish"),
+    ("finnish", "Finnish"),
     ("estonian", "Estonian"),
     ("japanese", "Japanese"),
 ]
@@ -111,10 +112,14 @@ COLLECTION_CULTURE = {
     "lang-romance": "arthurian",
     "geoffrey-british-history": "arthurian",
     "myths-arthurian": "arthurian",
+    "eivind-finnish": "finnish",
+    "kirby-esthonia": "estonian",
+    "myths-finnic": "finnish",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
-# Etruscan Tages, known only from Roman writers, and the Manx and Breton retellings in `myths-celtic`.
+# Etruscan Tages, known only from Roman writers, the Manx and Breton retellings in `myths-celtic`,
+# and the Estonian ones in `myths-finnic`.
 STORY_CULTURE = {
     "latin-sources--tages": "etruscan",
     "myths-roman--tages-the-child-from-the-furrow": "etruscan",
@@ -129,6 +134,9 @@ STORY_CULTURE = {
     "myths-celtic--the-making-of-mann": "manx",
     "myths-celtic--saint-patrick-and-manannans-mist": "manx",
     "myths-celtic--the-drowned-city-of-ys": "breton",
+    "myths-finnic--linda-and-the-hill-of-tallinn": "estonian",
+    "myths-finnic--how-kalevipoeg-became-king": "estonian",
+    "myths-finnic--kalevipoeg-at-the-gates": "estonian",
 }
 
 # Myth collections: every story gets the gods-heroes theme.
@@ -163,6 +171,9 @@ MYTH_COLLECTIONS = {
     "lang-romance",
     "geoffrey-british-history",
     "myths-arthurian",
+    "eivind-finnish",
+    "kirby-esthonia",
+    "myths-finnic",
 }
 
 ORIGIN_CULTURE = [
@@ -447,6 +458,26 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "geoffrey-british-history--merlin-and-vortigern-s-tower": {"add": ["magic"], "remove": ["ghosts"]},
     "myths-arthurian--merlin-and-the-two-dragons": {"add": ["magic"], "remove": ["family"]},
     "myths-arthurian--gawain-and-the-green-knight": {"add": ["magic", "monsters"], "remove": ["legends"]},
+    # Finnish and Estonian shelf.
+    "eivind-finnish--the-world-s-creation": {"add": ["how-things-began"], "remove": ["quests"]},
+    "myths-finnic--how-the-world-was-made": {"remove": ["quests"]},
+    "eivind-finnish--wainamoinen-and-youkahainen": {"remove": ["gentle"]},
+    "myths-finnic--the-singing-contest": {"remove": ["gentle", "family", "quests"]},
+    "eivind-finnish--ilmarinen-forges-the-sampo": {"add": ["tricksters"]},
+    "myths-finnic--the-forging-of-the-sampo": {"add": ["tricksters", "wishes"]},
+    "eivind-finnish--lemminkainen-s-death-and-restoration": {"add": ["family", "quests"]},
+    "myths-finnic--lemminkainen-and-his-mother": {"remove": ["legends"]},
+    "eivind-finnish--the-birth-of-the-kantele": {"add": ["animals", "how-things-began"]},
+    "myths-finnic--the-first-kantele": {"add": ["animals", "how-things-began"], "remove": ["gentle"]},
+    "eivind-finnish--the-capture-of-the-sampo": {"add": ["quests", "monsters"]},
+    "myths-finnic--the-capture-of-the-sampo": {"add": ["quests"], "remove": ["legends"]},
+    "eivind-finnish--louhi-steals-the-sun-and-moon": {"add": ["tricksters"]},
+    "myths-finnic--the-stolen-sun-and-moon": {"add": ["tricksters", "quests"], "remove": ["legends"]},
+    "kirby-esthonia--the-death-of-kalev": {"add": ["family", "how-things-began"], "remove": ["quests", "underdogs"]},
+    "myths-finnic--linda-and-the-hill-of-tallinn": {"add": ["family", "how-things-began"], "remove": ["quests", "underdogs"]},
+    "kirby-esthonia--the-contest-and-parting-of-the-brothers": {"add": ["royalty", "how-things-began"], "remove": ["quests"]},
+    "myths-finnic--how-kalevipoeg-became-king": {"remove": ["legends", "quests"]},
+    "kirby-esthonia--armageddon": {"add": ["magic", "monsters"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

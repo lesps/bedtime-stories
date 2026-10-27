@@ -1,6 +1,6 @@
 {
 "schemaVersion": 1,
-"cultures": [{"id": "greek", "label": "Ancient Greek"}, {"id": "roman", "label": "Ancient Roman"}, {"id": "etruscan", "label": "Etruscan"}, {"id": "norse", "label": "Old Norse"}, {"id": "german", "label": "German"}, {"id": "swiss", "label": "Swiss"}, {"id": "danish", "label": "Danish"}, {"id": "french", "label": "French"}, {"id": "norwegian", "label": "Norwegian"}, {"id": "english", "label": "English"}, {"id": "scottish", "label": "Scottish"}, {"id": "irish", "label": "Irish"}, {"id": "welsh", "label": "Welsh"}, {"id": "manx", "label": "Manx"}, {"id": "breton", "label": "Breton"}, {"id": "arthurian", "label": "Arthurian"}, {"id": "arabian", "label": "Arabian Nights"}, {"id": "turkish", "label": "Turkish"}, {"id": "estonian", "label": "Estonian"}, {"id": "japanese", "label": "Japanese"}],
+"cultures": [{"id": "greek", "label": "Ancient Greek"}, {"id": "roman", "label": "Ancient Roman"}, {"id": "etruscan", "label": "Etruscan"}, {"id": "norse", "label": "Old Norse"}, {"id": "german", "label": "German"}, {"id": "swiss", "label": "Swiss"}, {"id": "danish", "label": "Danish"}, {"id": "french", "label": "French"}, {"id": "norwegian", "label": "Norwegian"}, {"id": "english", "label": "English"}, {"id": "scottish", "label": "Scottish"}, {"id": "irish", "label": "Irish"}, {"id": "welsh", "label": "Welsh"}, {"id": "manx", "label": "Manx"}, {"id": "breton", "label": "Breton"}, {"id": "arthurian", "label": "Arthurian"}, {"id": "arabian", "label": "Arabian Nights"}, {"id": "turkish", "label": "Turkish"}, {"id": "finnish", "label": "Finnish"}, {"id": "estonian", "label": "Estonian"}, {"id": "japanese", "label": "Japanese"}],
 "themes": [{"id": "animals", "label": "Animals"}, {"id": "fables", "label": "Fables with a moral"}, {"id": "tricksters", "label": "Tricksters & clever escapes"}, {"id": "kindness", "label": "Kindness rewarded"}, {"id": "greed-pride", "label": "Greed & pride punished"}, {"id": "royalty", "label": "Kings, queens & castles"}, {"id": "magic", "label": "Magic & enchantment"}, {"id": "monsters", "label": "Giants, witches & monsters"}, {"id": "family", "label": "Brothers, sisters & family"}, {"id": "how-things-began", "label": "How things came to be"}, {"id": "fools", "label": "Fools & silly folk"}, {"id": "quests", "label": "Journeys & quests"}, {"id": "wishes", "label": "Wishes & bargains"}, {"id": "underdogs", "label": "Youngest & underdogs"}, {"id": "legends", "label": "Faith & legends"}, {"id": "ghosts", "label": "Ghosts & spirits"}, {"id": "gentle", "label": "Gentle & cosy"}, {"id": "gods-heroes", "label": "Gods & heroes"}],
 "stories": {
 "aesop--the-wolf-and-the-kid": {"cultures": ["greek"], "themes": ["animals", "fables", "fools", "gentle"]},
@@ -925,6 +925,26 @@
 "myths-arthurian--gareth-the-kitchen-knight": {"cultures": ["arthurian"], "themes": ["royalty", "quests", "underdogs", "gods-heroes"]},
 "myths-arthurian--gawain-and-the-green-knight": {"cultures": ["arthurian"], "themes": ["royalty", "magic", "monsters", "wishes", "gods-heroes"]},
 "myths-arthurian--galahad-and-the-holy-grail": {"cultures": ["arthurian"], "themes": ["magic", "quests", "legends", "gods-heroes"]},
-"myths-arthurian--the-passing-of-arthur": {"cultures": ["arthurian"], "themes": ["royalty", "magic", "gods-heroes"]}
+"myths-arthurian--the-passing-of-arthur": {"cultures": ["arthurian"], "themes": ["royalty", "magic", "gods-heroes"]},
+"eivind-finnish--the-world-s-creation": {"cultures": ["finnish"], "themes": ["magic", "how-things-began", "gods-heroes"]},
+"eivind-finnish--wainamoinen-and-youkahainen": {"cultures": ["finnish"], "themes": ["greed-pride", "magic", "gods-heroes"]},
+"eivind-finnish--ilmarinen-forges-the-sampo": {"cultures": ["finnish"], "themes": ["tricksters", "magic", "wishes", "gods-heroes"]},
+"eivind-finnish--lemminkainen-s-death-and-restoration": {"cultures": ["finnish"], "themes": ["animals", "magic", "family", "quests", "gods-heroes"]},
+"eivind-finnish--the-birth-of-the-kantele": {"cultures": ["finnish"], "themes": ["animals", "magic", "monsters", "how-things-began", "gods-heroes"]},
+"eivind-finnish--the-capture-of-the-sampo": {"cultures": ["finnish"], "themes": ["magic", "monsters", "quests", "gods-heroes"]},
+"eivind-finnish--louhi-steals-the-sun-and-moon": {"cultures": ["finnish"], "themes": ["tricksters", "magic", "quests", "gods-heroes"]},
+"kirby-esthonia--the-death-of-kalev": {"cultures": ["estonian"], "themes": ["family", "how-things-began", "gods-heroes"]},
+"kirby-esthonia--the-contest-and-parting-of-the-brothers": {"cultures": ["estonian"], "themes": ["animals", "royalty", "family", "how-things-began", "underdogs", "gods-heroes"]},
+"kirby-esthonia--armageddon": {"cultures": ["estonian"], "themes": ["magic", "monsters", "legends", "gods-heroes"]},
+"myths-finnic--how-the-world-was-made": {"cultures": ["finnish"], "themes": ["magic", "how-things-began", "gods-heroes"]},
+"myths-finnic--the-singing-contest": {"cultures": ["finnish"], "themes": ["greed-pride", "magic", "gods-heroes"]},
+"myths-finnic--the-forging-of-the-sampo": {"cultures": ["finnish"], "themes": ["tricksters", "magic", "wishes", "gods-heroes"]},
+"myths-finnic--lemminkainen-and-his-mother": {"cultures": ["finnish"], "themes": ["animals", "magic", "family", "quests", "ghosts", "gods-heroes"]},
+"myths-finnic--the-first-kantele": {"cultures": ["finnish"], "themes": ["animals", "magic", "how-things-began", "gods-heroes"]},
+"myths-finnic--the-capture-of-the-sampo": {"cultures": ["finnish"], "themes": ["magic", "monsters", "quests", "gods-heroes"]},
+"myths-finnic--the-stolen-sun-and-moon": {"cultures": ["finnish"], "themes": ["tricksters", "magic", "quests", "gods-heroes"]},
+"myths-finnic--linda-and-the-hill-of-tallinn": {"cultures": ["estonian"], "themes": ["family", "how-things-began", "gods-heroes"]},
+"myths-finnic--how-kalevipoeg-became-king": {"cultures": ["estonian"], "themes": ["animals", "royalty", "family", "how-things-began", "underdogs", "gods-heroes"]},
+"myths-finnic--kalevipoeg-at-the-gates": {"cultures": ["estonian"], "themes": ["magic", "monsters", "legends", "gods-heroes"]}
 }
 }

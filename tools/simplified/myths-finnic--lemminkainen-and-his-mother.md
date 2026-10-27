@@ -1,0 +1,55 @@
+---
+title: Lemminkäinen and His Mother
+adaptedFrom: eivind-finnish--lemminkainen-s-death-and-restoration
+order: 4
+flags: none
+namesNote: Eivind spells Lemminkäinen as Lemminkainen, and the demon Hiisi as Hisi.
+---
+
+Lemminkäinen was a handsome young hero, full of courage and full of boasting. One day he went to the Northland, to ask the old witch Louhi for one of her daughters to be his wife. "You may not ask me again," said Louhi, "until you bring me the reindeer of Hiisi." This was a magic reindeer that the evil spirit Hiisi had made, so that nobody could ever catch it.
+
+Lemminkäinen chased that reindeer all over the world, until his snowshoes broke. For a long time he sat and wondered whether to give up and go home. But then he sang a magic song that mended his snowshoes, and set off again.
+
+This time he went to the palace of Tapio, the god of the forest. It had windows of gold and walls of ivory. He sang to Tapio and his wife Mielikki, and begged them to help him, and promised them gold and silver. And Mielikki and her daughters drove whole herds of reindeer into the palace courtyard, and among them was the reindeer of Hiisi. So Lemminkäinen caught it, and paid Mielikki the gold and silver he had promised, and took the reindeer to Louhi.
+
+But Louhi said, "Now bring me the fiery horse of Hiisi, which breathes smoke and flames from its mouth and nose."
+
+So Lemminkäinen set out again, with a golden bridle. On the third day he climbed a high mountain, and saw the fiery horse on the plain below, breathing out smoke and flames. Lemminkäinen prayed to Ukko, the god of the sky, to send down a shower of icy hail on the horse. And down came a great hailstorm, with every hailstone bigger than a man's head. When it was over, Lemminkäinen gently slipped the golden bridle over the horse's head, and they galloped off like the wind to Louhi's house.
+
+"Now may I have your daughter?" asked Lemminkäinen.
+
+"Not until you have shot the swan that swims on the river of Tuonela," said Louhi. That was the black river that flows between the land of the living and the land of the dead.
+
+So Lemminkäinen set out bravely to find the swan. But by the black river, an old blind shepherd from the Northland was waiting for him. He could not see Lemminkäinen, but he heard his footsteps, and he sent a snake out of the river. The snake bit Lemminkäinen, and he fell down, and only had time to call out to his mother before he died. And his body was swept away down the black river, to Tuonela, the land of the dead.
+
+At home, Lemminkäinen's mother was growing worried, because he had been away so long. Then one day, his wife Kyllikki looked at his hairbrush, and saw drops of blood coming from it. She ran to tell his mother, and his mother cried out, "Something terrible has happened to my son!"
+
+She hurried straight to Louhi's house. "Where is my son?" she asked.
+
+"I don't know," said Louhi. "Perhaps the wolves or the bears have eaten him."
+
+"You're lying," said Lemminkäinen's mother. "No wolf or bear could hurt him. He would sing them to sleep. Tell me the truth, or I'll break your storehouses, and your Sampo too!"
+
+"Perhaps he was drowned in the river rapids," said Louhi.
+
+"You're still lying! Tell me the truth!"
+
+So at last Louhi told her the truth: that she had sent Lemminkäinen to shoot the swan on the river of Tuonela.
+
+At once his mother set off to look for him. Over hills and valleys, through marshes and forests and across wide waters she went, but she could not find him. She asked the Trees if they had seen him. But they said, "We have our own troubles. People cut us down with axes and burn us, and nobody feels sorry for us." She asked the Paths, but they said, "We have our own troubles. We are trodden on by people and animals." She asked the Moon, but the Moon said, "I have my own troubles. I have to wander all alone every night, and never rest."
+
+Then she asked the Sun. And the Sun was kinder than the rest, and told her that her son had died in the black river of Tuonela.
+
+So she hurried to Ilmarinen the smith, and asked him to make her an enormous rake out of copper, with teeth a hundred fathoms long. And she took it to the black river. The Sun came and sat in a birch tree beside the river, and shone into the land of the dead until all the spirits there fell fast asleep.
+
+Then Lemminkäinen's mother waded into the river, deeper and deeper, and raked and raked. First she found his jacket, and then the rest of his clothes. And at last she found her son, and gathered him all together, every part of him. Then she prayed to the goddess of the veins, and to the maiden of the sky, to mend him and make him whole. And she prayed to great Ukko to help them. And Ukko did, and Lemminkäinen lived again.
+
+But he could not see, or hear, or speak. So his mother called a little bee, and sent it to fetch honey from the healing flowers in the meadows. She rubbed the honey on her son, and he could see again. Then she sent the bee across seven seas to an enchanted island, to fetch magic honey. She rubbed that on her son, and he could hear again. Then she sent the bee right up into the seventh heaven, where Ukko lives. On the first day it rested on the moon, and on the second day on the shoulders of the Great Bear, and on the third day it reached Ukko's home. There were three golden pots there, and the honey in the third pot gave life. The bee brought some of it back, and Lemminkäinen's mother rubbed it on her son. And he woke up.
+
+"I must have been asleep for a long time," he said. "But it was a sweet sleep."
+
+When he told his mother what had happened, she scolded him for not knowing the magic words that protect you from snakes, and she taught them to him. And he was wiser and more handsome than ever before. But he was still sad, because he still wanted to marry Louhi's daughter, and he still had not shot the swan.
+
+"Forget about the swan, and forget about Louhi's daughters," said his mother. "Come home with me to Kalevala, and thank Ukko that you have been saved. For I could never have saved you from the land of the dead on my own."
+
+So Lemminkäinen went home with his mother, back to his happy home in Kalevala.
