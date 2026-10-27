@@ -651,15 +651,27 @@
   },
   {
    "id": "myths-finnic",
-   "title": "Finnish and Estonian Legends, Simply Told",
-   "author": "Traditional (Finnish and Estonian)",
+   "title": "Finnish, Estonian and Sámi Legends, Simply Told",
+   "author": "Traditional (Finnish, Estonian and Sámi)",
    "contributor": "Simplified retellings by Claude (Anthropic), 2026",
    "firstPublished": null,
    "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 10
+   "storyCount": 11
+  },
+  {
+   "id": "myths-baltic",
+   "title": "Lithuanian and Latvian Legends, Simply Told",
+   "author": "Traditional (Lithuanian and Latvian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 4
   }
  ],
  "stories": [
@@ -13794,6 +13806,91 @@
     "band": "middle"
    },
    "adaptedFrom": "kirby-esthonia--armageddon"
+  },
+  {
+   "id": "myths-finnic--the-son-of-the-sun",
+   "collectionId": "myths-finnic",
+   "order": 11,
+   "title": "The Son of the Sun and the Giant's Daughter",
+   "wordCount": 801,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "sami-son-of-sun",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 13.3,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-baltic--egle-queen-of-serpents",
+   "collectionId": "myths-baltic",
+   "order": 1,
+   "title": "Eglė, Queen of Serpents",
+   "wordCount": 1039,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "lithuanian-egle",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 11.8,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-baltic--jurate-and-kastytis",
+   "collectionId": "myths-baltic",
+   "order": 2,
+   "title": "Jūratė and Kastytis",
+   "wordCount": 374,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "lithuanian-jurate",
+   "readingLevel": {
+    "fkGrade": 6.3,
+    "avgSentenceWords": 17.3,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-baltic--the-sun-and-the-moon",
+   "collectionId": "myths-baltic",
+   "order": 3,
+   "title": "The Sun, the Moon and the Morning Star",
+   "wordCount": 451,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "baltic-sun-moon",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 13.5,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-baltic--perkunas-and-the-devil",
+   "collectionId": "myths-baltic",
+   "order": 4,
+   "title": "Perkūnas and the Devil",
+   "wordCount": 449,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "lithuanian-perkunas",
+   "readingLevel": {
+    "fkGrade": 6.1,
+    "avgSentenceWords": 17.2,
+    "band": "middle"
+   }
   }
  ]
 }
