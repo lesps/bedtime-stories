@@ -1,0 +1,131 @@
+---
+title: Dermat and Grania
+adaptedFrom: joyce-celtic-romances--the-pursuit-of-dermat-and-grania
+order: 15
+flags: none
+namesNote: Joyce spells the names Dermat O'Dyna and Grania; in Irish they are Diarmuid Ua Duibhne and Gráinne. He calls Fionn "Finn".
+---
+
+Fionn, the great captain of the Fianna, had grown old, and his wife had died, and he was lonely. "I know a wife for you," said one of his men. "Grania, the daughter of Cormac, the High King. She is the most beautiful and the wisest young woman in Ireland."
+
+So Fionn sent his son, Oisin, to ask for her. Grania had refused every prince in Ireland. But this time, without thinking much about it, she said, "If he's good enough for my father, why shouldn't he be good enough for me?" So the king invited Fionn to come to Tara in two weeks' time, to claim his bride.
+
+When the day came, Fionn arrived at Tara with the chief men of the Fianna, and there was a great feast. Grania sat beside her mother. Next to her sat one of Fionn's druids, and they talked.
+
+"Why has Fionn come here?" Grania asked him.
+
+The druid was astonished. "Don't you know? He has come to marry you."
+
+Grania was silent for a long time. "If he wanted me for his son Oisin, or his grandson Oscar, I wouldn't be surprised," she said at last. "But he is older than my father!" Then she looked around the hall. "Who is that warrior with the black curly hair and the kind, handsome face?"
+
+"That is Dermat O'Dyna," said the druid. "All the Fianna love him, because he is so brave and generous."
+
+Then Grania sent her maid to fetch a great golden drinking horn. She filled it, and had it passed to Fionn, and to her father, and to her mother, and to everybody else she chose. And all of them, one after another, fell into a deep sleep.
+
+Then Grania went and sat down beside Dermat. "Dermat," she said quietly, "will you love me if I love you?"
+
+Dermat's heart leaped. But he remembered that he was Fionn's man. "I will not love the woman who is promised to Fionn," he said coldly. "And even if I did, I wouldn't dare."
+
+"I know it's your duty speaking, and not your heart," said Grania. "I first saw you long ago, from my window, playing in a hurling match on the green at Tara. Your side was losing, and you jumped up and ran into the game and scored three goals. I have loved you ever since. Fionn is old, and I don't love him. Save me from this marriage."
+
+"There is nowhere in Ireland we could hide from Fionn," said Dermat.
+
+Then Grania put him under a geis. A geis was a solemn bond, and no true hero would ever break one. "I put this geis on you," she said: "that you take me away from here before Fionn wakes up." And she went out through a little gate.
+
+Dermat didn't know what to do. He asked his friends who were still awake. "Go with her," said Oisin. "No one could blame you for keeping a geis." Oscar said the same, and so did the others. So Dermat said goodbye to them with tears in his eyes, for he knew it would be a long time before he saw them again. He went out to the great wall of Tara, planted his two spears in the ground, and vaulted right over the wall and the ditch on them. Grania was waiting for him on the other side.
+
+"Go back, Grania," he said. "Nothing but trouble will come of this."
+
+"I will never go back," she said. "I will never leave you until I die."
+
+Then at last Dermat stopped pretending. "I will be your husband," he said, "and I will guard you to the death." And they promised to be true to each other for ever.
+
+When Fionn woke up and found them gone, he was mad with jealousy. He sent his trackers after them, and followed with the Fianna. Dermat and Grania had hidden in a thick wood, and Dermat had built a fence around their hut, with seven narrow doors.
+
+But Oisin and Oscar were Dermat's friends, and they wanted to warn him. So Oscar whispered to Fionn's own hound, Bran, who loved Dermat almost as much as his master. Bran ran off through the woods, found Dermat asleep, and pushed his head against Dermat's chest to wake him. "Fionn's hound has come to warn me," said Dermat.
+
+But Dermat would not run away. Fionn's men surrounded the fence, a band at every door. Grania wept with fear.
+
+Then Dermat's foster father came to help him. He was Angus, a lord of the magical Dedannans, who lived at the Boyne, and he loved Dermat like a son. He came flying on the cool east wind, and nobody saw him come. "Come under my cloak, both of you," he said, "and I will carry you away."
+
+"Take Grania," said Dermat. "I will find my own way out."
+
+So Angus wrapped Grania in his cloak and carried her away unseen. Then Dermat went from door to door. At each one, he asked who was outside. At the first, it was Oisin and Oscar. "Come out here, and no one will dare touch you," they said. But Dermat wouldn't go out by their door, because he didn't want to get his friends into trouble with Fionn. And so it was at the next door, and the next. At last he came to the door where Fionn himself was waiting. "This is the door I've been looking for!" said Dermat. And he leaned on his spears, and sprang high over the fence, and was gone before anyone could catch him.
+
+He found Angus and Grania far away in a warm hut, with supper roasting on the fire. In the morning Angus gave him some advice. "Never hide in a tree with only one trunk, or a cave with only one way out. Never eat where you cook, and never sleep where you eat. And where you sleep tonight, don't sleep tomorrow night."
+
+So Dermat and Grania fled all over Ireland, for a long, long time. For a while a big, gentle young man called Modan travelled with them, who caught salmon for them and carried Grania across the rivers. Once Fionn sent three terrible hounds after them, hounds that fire could not burn nor water drown nor weapons wound. But Modan took a tiny puppy out of his belt and set it on his hand, and when the first hound came charging, the puppy jumped down its throat and was the end of it, and then jumped back onto Modan's hand. And Dermat dealt with the other two.
+
+Then they came to a wood where a magic rowan tree grew. Its berries tasted of honey, and if a man of a hundred ate three of them, he became thirty again. The tree was guarded by a giant called Sharvan, who had one red eye in the middle of his forehead, and who could not be hurt by fire or water or weapons. Dermat asked the giant if he might hunt in the wood, and the giant said yes, so long as he never touched the berries. So Dermat and Grania lived there in peace for a while.
+
+But then Grania longed for the berries. She said she would die if she didn't taste them. So Dermat went and asked the giant, politely, for a few. "Not if it would save your wife's life," growled the giant, and he swung his huge iron club. But Dermat seized the giant, threw him to the ground, and struck him three times with his own club, the only way he could be beaten. Then Dermat and Grania went to live in the giant's hut, high up in the branches of the magic tree.
+
+When Fionn heard what had happened, he came to the tree with the Fianna. They ate the berries, and then they sat down in the shade. "Dermat is up in that tree," said Fionn.
+
+"Your jealousy has made you blind," said Oisin. "Dermat would never be so foolish as to wait for you up a tree."
+
+Fionn said nothing, but called for a chessboard, and he and Oisin sat down to play under the tree. Fionn was winning. At last Oisin had only one move left to win the game, but he couldn't see what it was.
+
+Up in the branches, Dermat was watching. "What a pity I can't tell Oisin which piece to move," he said.
+
+"Never mind the game," whispered Grania. "The whole Fianna is down there waiting to kill you!"
+
+But Dermat picked a berry and dropped it, and it landed right on the piece that Oisin should move. So Oisin moved it, and won! They played again, and again Oisin was stuck, and again a berry fell on just the right piece. And a third time the same thing happened. Then all the Fianna gave a great shout.
+
+"No wonder you won, Oisin," said Fionn, "when Dermat was helping you. Isn't that right, Dermat?"
+
+"You were never wrong yet, Fionn," Dermat called down from the tree. "Grania and I are here."
+
+Fionn ordered his men to surround the tree and hold hands so there was no gap. But Angus came again and carried Grania away to safety. Then Dermat called down, "I'll come down now, Fionn. I have always fought for you and the Fianna. I was always first into battle and last to leave it. But since you won't let me live in peace, I'll fight."
+
+"He speaks the truth," said Oscar. "Forgive him, Fionn. He has suffered enough."
+
+"Never," said Fionn.
+
+"Then I take Dermat under my protection," said Oscar. "Come down, Dermat. No one will harm you while I live." And Dermat ran along a branch and leaped far out over the ring of men, and Oscar stood beside him, scowling, so that nobody dared to follow them. And the two friends went off together to the Boyne, where Grania was waiting.
+
+At last Angus made peace between them all. Fionn was tired of the quarrel, and so was the king. They gave Dermat his father's lands, and other lands besides, and forgave him everything. And Dermat and Grania built a house far away from Tara, and lived there happily for many years, and had four sons and a daughter.
+
+But one day Grania said, "It isn't right that my father and Fionn have never visited us. Let's invite them to a feast, and be friends again." And Dermat agreed.
+
+The king and Fionn came with all their people, and stayed for a whole year. Then, one night, Dermat heard a hound barking in the darkness. Three times he heard it. In the morning he went out to see what it was. "Take your strongest sword and your strongest spear," said Grania, uneasily. But Dermat laughed and took his lighter ones.
+
+On the mountain of Ben Bulben he found Fionn, alone. "My men are hunting a wild boar," said Fionn. "It is the wild boar of Ben Bulben, and it has killed many men and hounds. It's coming this way. Let's go."
+
+"I'm not afraid of a boar," said Dermat.
+
+"But you are forbidden ever to hunt a boar," said Fionn. "Don't you know why?" And he told him. When Dermat was a small child, living with Angus at the Boyne, a magician had turned a boy into a wild boar, without ears or tail. And the magician had said that the boar and Dermat would live exactly as long as each other, and that in the end the boar would be Dermat's death. That was why Angus had forbidden Dermat ever to hunt a boar. "And this is that same boar," said Fionn. And he went away and left Dermat alone on the hill.
+
+Then the great boar came charging up the hill. Dermat's hound ran away from it. Dermat threw his spear, but it bounced off the boar's head without harming a single bristle. He struck it with his sword, but the sword broke in pieces. And the boar knocked him down and wounded him terribly. But Dermat threw the hilt of his broken sword with all his strength, and the boar fell dead.
+
+When Fionn and the Fianna came up, Dermat was lying on the ground, dying.
+
+"Fionn," said Dermat, "you can heal me if you want to. When you ate the Salmon of Knowledge, you were given a gift: anyone who drinks water from your hands is healed, even if he is dying."
+
+"Why should I heal you?" said Fionn. "You took Grania from me."
+
+"Grania put me under a geis," said Dermat. "And all my friends told me to go. Remember how many times I saved your life. Once, when your enemies set fire to the hall where you were feasting, I went out and put out the fire and drove them away. Another time, you and your men were held fast by magic in an enchanted palace, and I fought at the ford and broke the spell and set you free. If I had asked you for a drink then, you would gladly have given it."
+
+"Bring him water, Fionn," said Oscar, with tears in his eyes. "I won't let him die when a drink from your hands could save him."
+
+"There's no well on this mountain," said Fionn.
+
+"There is," said Dermat. "Nine steps from you, under that bush."
+
+So Fionn went to the well, and scooped up water in his two hands. But on the way back, he let it trickle away through his fingers. "I couldn't carry it so far," he said.
+
+"You let it fall on purpose," said Dermat. "Hurry, Fionn, I'm dying."
+
+Fionn went back to the well and filled his hands again. But as he walked back, he thought of Grania, and he let the water fall again. And Dermat gave a sad, sad sigh.
+
+"Fionn," said Oscar, "if you don't bring that water, only one of us will leave this hill alive!"
+
+So Fionn filled his hands a third time and hurried back. But before he was halfway there, Dermat's head fell back, and he died.
+
+All the Fianna gave three great cries of sorrow. Oscar and Oisin wept, and they laid their cloaks over their friend.
+
+Grania was waiting on the wall of her house. When she saw Fionn coming back leading Dermat's hound, she knew at once that Dermat was dead, and she fainted. When she woke, her cries of sorrow rang out over all the glens around.
+
+Angus came on the wind to the mountain, and stood over Dermat's body, grieving. "Why did I leave you, even for one night, my son?" he said. "I have kept you safe since you were a little child, until last night." Then he said, "I cannot bring you back to life. But I will take you home with me to the Boyne, and keep you there as if you were only sleeping. And every day, for a little while, I will breathe a spirit into you, so that you can talk with me."
+
+So Dermat was laid on a golden bier, with his spears beside him, and Angus carried him away to his home at the Boyne. And when Grania heard, she was comforted a little, because she knew how much Angus loved him.

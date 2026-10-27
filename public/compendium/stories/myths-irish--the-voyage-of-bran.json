@@ -1,0 +1,110 @@
+{
+ "id": "myths-irish--the-voyage-of-bran",
+ "collectionId": "myths-irish",
+ "order": 8,
+ "title": "The Voyage of Bran",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "One day, long ago, a king called Bran, the son of Febal, was walking alone near his fortress when he heard music behind him. He turned round, but there was nobody there. He walked on, and the music was still behind him. Every time he turned round, it was behind him again. It was so sweet that at last he lay down on the grass and fell asleep."
+  },
+  {
+   "type": "p",
+   "text": "When he woke up, there was a branch lying beside him. It was a branch of silver, covered in white blossoms, and it was hard to tell where the silver ended and the blossoms began. Bran picked it up and carried it home to his hall."
+  },
+  {
+   "type": "p",
+   "text": "That evening, when the hall was full of people, a woman appeared among them, dressed in strange clothes. Nobody knew where she had come from. And she began to sing:"
+  },
+  {
+   "type": "p",
+   "text": "\"I have brought a branch from the apple tree of Emain, from a faraway island, with twigs of white silver and blossoms like crystal."
+  },
+  {
+   "type": "p",
+   "text": "\"There is an island far away, with the white horses of the sea glittering all around it. It stands on four legs of shining bronze. There is no sadness there, no sickness, and no death. There is no harsh voice and no weeping. Music fills the air all day long. The plains are covered with flowers of every colour. Golden chariots race across them."
+  },
+  {
+   "type": "p",
+   "text": "\"There are thousands of women there, of many colours, and the clear sea is all around. Do not lie down in idleness, Bran. Begin a voyage across the clear sea, and perhaps you will come to the Land of Women.\""
+  },
+  {
+   "type": "p",
+   "text": "Then the silver branch leaped out of Bran's hand into hers, and she disappeared. And nobody knew where she had gone."
+  },
+  {
+   "type": "p",
+   "text": "The next day, Bran set out to sea, with twenty-seven men in three boats."
+  },
+  {
+   "type": "p",
+   "text": "When they had been sailing for two days and two nights, they saw a man coming towards them over the sea, driving a chariot. It was Manannan, the son of Lir, the lord of the sea. And as he came near, he sang to Bran:"
+  },
+  {
+   "type": "p",
+   "text": "\"To you, Bran, in your little boat, this is the clear sea. But to me, in my chariot, it is a flowery plain. Where you see waves, I see a meadow of flowers. The speckled salmon that leap out of the sea are my calves and my lambs. Row on, Bran, row on, and you will come to the Land of Women before the sun goes down.\""
+  },
+  {
+   "type": "p",
+   "text": "So Bran and his men rowed on. Soon they came to an island where a great crowd of people stood on the shore, all staring and laughing, laughing, laughing. Bran sent one of his men ashore to find out about them. But as soon as he stepped onto the island, he began to stare and laugh just like all the rest, and he would not come back to the boat. So they had to leave him there."
+  },
+  {
+   "type": "p",
+   "text": "Then, not long afterwards, they came to the Land of Women. A woman stood waiting at the harbour. \"Come ashore, Bran, son of Febal!\" she called. \"Your coming is welcome!\""
+  },
+  {
+   "type": "p",
+   "text": "But Bran did not dare to land. So the woman threw a ball of thread straight towards him. Bran put up his hand and caught it, and it stuck to his palm. And the woman, holding the other end of the thread, pulled the boat gently into the harbour."
+  },
+  {
+   "type": "p",
+   "text": "Then she led them all into a great house, where there was a soft bed for every one of them. And there was food on every plate that never ran out, however much they ate. They stayed there, happy, for what seemed to them like a year. But it was really many, many years."
+  },
+  {
+   "type": "p",
+   "text": "Then one of Bran's men, Nechtan, began to feel homesick. He begged Bran to take them home to Ireland, and the others begged too."
+  },
+  {
+   "type": "p",
+   "text": "\"You will be sorry if you go,\" said the woman. But she let them go. \"Pick up your friend from the Island of Laughter on the way,\" she said. \"And whatever you do, don't let any of you touch the land.\""
+  },
+  {
+   "type": "p",
+   "text": "So they sailed back to Ireland. As they came near to the shore, a crowd of people gathered there to see who they were."
+  },
+  {
+   "type": "p",
+   "text": "\"I am Bran, the son of Febal,\" Bran called out from the boat."
+  },
+  {
+   "type": "p",
+   "text": "\"We don't know anyone of that name,\" the people said. \"But the Voyage of Bran is one of our oldest stories.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Nechtan could wait no longer. He leaped out of the boat onto the shore. And the moment his feet touched the land of Ireland, he crumbled into dust, as if he had been dead and buried for hundreds of years."
+  },
+  {
+   "type": "p",
+   "text": "So Bran knew that he could never come home. He stayed in the boat, and told the people everything that had happened on his voyage. Then he said goodbye to them, and sailed away over the sea. And from that day to this, nobody knows where he went."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Voyage of Bran (Immram Brain), an Irish tale first written down more than a thousand years ago. No public-domain text of this legend could be used, so there is no original to compare it with."
+  }
+ ],
+ "workId": "irish-bran",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "wordCount": 883,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 3.8,
+  "avgSentenceWords": 12.6,
+  "band": "middle"
+ }
+}

@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 848 public-domain children's stories in 38 collections — Aesop
+A calm, offline-capable reader for 877 public-domain children's stories in 43 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -13,11 +13,14 @@ Pied Piper of Hamelin" with Kate Greenaway's pictures, and William Tell and Arno
 Baldwin's Fifty Famous Stories Retold. English: Brutus and King Leir from Bulfinch's The Age of
 Chivalry, Corineus and the giant from Quiller-Couch's Cornwall's Wonderland, Beowulf from
 Marshall's English Literature for Boys and Girls, seven chapters of Pyle's The Merry Adventures of
-Robin Hood, and Thorpe's Lay of Völund (Wayland). Where no free English version exists, Claude's
+Robin Hood, and Thorpe's Lay of Völund (Wayland). Irish: six romances from Joyce's Old Celtic
+Romances (Lir, Turenn, Maildun, Dermat and Grania, Oisin, the Sons of Usna), Tuan mac Cairill and
+the boyhood of Fionn from Stephens's Irish Fairy Tales, two chapters of Hull's Cuchulain, the Hound
+of Ulster, and Carleton's "A Legend of Knockmany". Where no free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger.
-Simplified retellings for young readers in Greek, Roman, Norse, German and English collections
-"Simply Told".
+Simplified retellings for young readers in Greek, Roman, Norse, German, English and Irish
+collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -44,8 +47,8 @@ Simplified retellings for young readers in Greek, Roman, Norse, German and Engli
 - Works on phones, tablets and desktops: a bottom tab bar on small screens, a sidebar with wider,
   multi-column pages on desktop; keyboard-friendly dialogs (Escape closes), hover actions with a
   mouse, and Back returns to where you were in a list.
-- Installable PWA that works offline; one tap in Settings saves every story (~38 MB with
-  illustrations, ~7 MB text only).
+- Installable PWA that works offline; one tap in Settings saves every story (~40 MB with
+  illustrations, ~9 MB text only).
 - Tales told in more than one translation link to each other ("Other versions").
 - Child-safe defaults: stories flagged for mature themes or offensive language are hidden until a
   grown-up turns them on in Settings.
@@ -84,8 +87,9 @@ trademarks on Peter Rabbit and other Potter characters, so don't use them in the
 or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
 
-The simplified retellings (`myths-greek`, `myths-roman`, `myths-norse`) were written by Claude (Anthropic) from
-public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt into story JSON by
-`tools/build_simplified.py`. Each one links to its original. Likewise, the three "Myths from the
-Greek/Latin/Norse Writers" collections are Claude's translations of ancient passages, edited in
-`tools/translations/*.md` and built by `tools/build_translations.py`.
+The simplified retellings (the six "Simply Told" collections, `myths-*`) were written by Claude
+(Anthropic) from public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt
+into story JSON by `tools/build_simplified.py`. Each one links to its original, except the few
+legends with no public-domain text available, whose end note says what they were retold from.
+Likewise, the Greek, Latin, Norse and German "sources" collections are Claude's translations of
+old passages, edited in `tools/translations/*.md` and built by `tools/build_translations.py`.

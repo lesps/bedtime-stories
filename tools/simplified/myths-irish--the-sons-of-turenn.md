@@ -1,0 +1,129 @@
+---
+title: The Sons of Turenn
+adaptedFrom: joyce-celtic-romances--the-fate-of-the-children-of-turenn
+order: 4
+flags: none
+namesNote: Joyce calls Lugh "Luga of the Long Arms" and spells Cian as Kian. In Irish, Ur and Urcar are Iuchar and Iucharba.
+---
+
+Long ago, when the magical people called the Dedannans ruled Ireland, their king was Nuada of the Silver Hand. But they were not free. A fierce sea-people called the Fomorians, who lived far to the north, made them pay a heavy tax every year. If anyone did not pay, the Fomorians cut off his nose.
+
+One year, when the Dedannans were gathered on the Hill of Usna, a band of riders came towards them on white horses. At their head rode a young warrior whose face shone like the setting sun. He was Lugh of the Long Arms. He rode the magic horse of the sea god Manannan, which could gallop over the sea as easily as over land. He wore Manannan's armour, which no weapon could pierce, and at his side hung Manannan's sword, called the Answerer.
+
+Just then, the Fomorian tax collectors arrived, grim and scowling. And the king and all the Dedannans stood up before them, trembling.
+
+"Why do you stand up for these ugly fellows," asked Lugh, "when you didn't stand up for us?"
+
+"We don't dare do anything else," said the king.
+
+Lugh was quiet for a moment. Then he said, "You have been bullied long enough!" And he rushed at the tax collectors, and none of them escaped him except nine, who ran and crouched beside the king for protection. Lugh sent those nine home to tell their king what had happened.
+
+The Fomorian king was Balor of the Evil Eye, and he was Lugh's own grandfather. When he heard the news, he sent his son Bres with a great army to fight Lugh and to tie Ireland to the back of his ships and drag it away to the north.
+
+When Lugh heard that the Fomorians had landed, he met his father, Kian, and Kian's two brothers. "Go all over Ireland," Lugh told them, "and call the Fairy Host to help me." So the three brothers rode off in different directions.
+
+Kian rode north. On a wide plain, he saw three warriors coming towards him. They were Brian, Ur and Urcar, the three sons of Turenn. Their family and Kian's had an old quarrel, and whenever they met, there was a fight.
+
+"I can't fight three at once," thought Kian. Nearby there was a herd of pigs. So he struck himself with a magic wand, turned himself into a pig, and hid among them.
+
+But Brian had seen him. "That warrior has turned himself into a pig," he said. And he struck his two brothers with his own magic wand and turned them into two swift hounds. They sniffed out the magic pig at once, and when it ran for the trees, Brian threw his spear and wounded it.
+
+"You've done a wicked thing," cried the pig. "You know who I am. I am Kian. Spare me!"
+
+Ur and Urcar were sorry, and wanted to let him go. But Brian would not.
+
+"Then let me turn back into a man first," said Kian. And when he had, he said, "Now I have tricked you. If you had killed a pig, you would only have to pay the price of a pig. But now you must pay the price of a man. And no man was ever killed for whom a greater price will be paid than you will pay for me. My son will make you pay it."
+
+But Brian would not listen, and the three brothers killed him. They buried him in the earth. But the earth would not keep him. Six times they buried him, and six times the earth pushed him back up. Only the seventh time did it keep him. And as they walked away, they seemed to hear a faint voice from under the ground: "The wrong you have done will follow you until your doom comes."
+
+Meanwhile, Lugh and the Fairy Host fought a great battle against the Fomorians, and won. Bres begged for his life, and Lugh spared him and sent him home.
+
+But when the battle was over, Lugh looked around for his father. "He isn't here," he said. "If he were alive, he would have come to help me." And he went to look for him. When he came to the plain where Kian had died, the very stones of the earth spoke to him: "Here your father lies, Lugh. The sons of Turenn killed him."
+
+Lugh wept over his father, and buried him again, and raised a stone over him with his name carved on it. Then he went to the king's palace at Tara. There, among the champions in the great hall, sat the three sons of Turenn.
+
+Lugh stood up and asked for silence. "I have a question for all of you," he said. "What would you do to someone who killed your father on purpose?"
+
+Everyone gasped. "Punish him terribly," they all said, and the sons of Turenn said it too.
+
+"The men who killed my father are here," said Lugh. "But I will not ask for their lives. I will ask them to pay a fine instead."
+
+Brian and his brothers whispered together. "He knows," said Ur and Urcar. "It's better to own up." So Brian said, "We will pay the fine."
+
+"Then here it is," said Lugh. "Three apples. The skin of a pig. A spear. Two horses and a chariot. Seven pigs. A puppy. A cooking spit. And three shouts on a hill."
+
+"That doesn't sound like very much," said Brian suspiciously.
+
+"I promise before everyone here that I will ask no more than that," said Lugh. "And you must promise to pay every bit of it." So they all promised, with the king and the Dedannans as witnesses.
+
+Then Lugh told them what the fine really meant. "The apples must be the golden apples from the Garden of Hisberna, in the east of the world. They taste of honey, and they heal any wound. The pig skin belongs to the king of Greece, and it heals anyone who touches it. The spear belongs to the king of Persia. Its head blazes with fire, so it has to be kept in a cauldron of water, or it would burn down the palace. The horses and chariot belong to the king of Sigar, and they can gallop over the sea. The seven pigs belong to King Asal of the Golden Pillars: you can cook them and eat them one day, and they are alive again the next. The puppy belongs to the king of Iroda, and every wild beast that sees him falls down helpless. The cooking spit belongs to the warrior women of the island of Fincara. And the three shouts must be given on the Hill of Midkena, in the far north, which Midkena and his sons guard day and night, and never let anyone shout on it. They loved my father. They will not forgive you."
+
+The sons of Turenn could not say a word. They went home to their father, Turenn, and told him.
+
+"It is a hard fine," said Turenn, "but it is a fair one, because killing Kian was a wicked deed. You will never manage it without help. Ask Lugh to lend you Manannan's magic boat, the Wave-Sweeper."
+
+Lugh lent them the boat. Their sister, Ethnea, came to see them off, and she wept. When Brian first climbed in, he grumbled that it was too small for more than two. "Don't grumble," said Ethnea. "It will be big enough when you try it." And it was, for whatever you put into it, the Wave-Sweeper always had room.
+
+"Wave-Sweeper," said Brian, "take us to the Garden of Hisberna!" And the boat skimmed away over the sea, faster than the cold March wind.
+
+The Garden of Hisberna was guarded by the king's best warriors. So Brian turned himself and his brothers into three hawks. They circled over the trees while the guards threw spears at them, and they dodged every one. When the guards had thrown all their spears, the hawks swooped down. Ur and Urcar each grabbed an apple, and Brian grabbed two, one in his claws and one in his beak, and away they flew.
+
+But the king's three daughters were enchantresses. They turned themselves into three griffins and flew after them, shooting flames from their eyes and beaks, until the hawks were scorched. Quickly Brian turned them all into swans, and they dropped down onto the sea. The griffins couldn't see the hawks any more, so they gave up the chase. And the brothers swam back to their boat with the apples.
+
+Next they sailed to Greece. "Let's go to the king's palace dressed as poets from Ireland," said Brian, "because poets are welcome everywhere."
+
+"But we don't know any poems!" said his brothers.
+
+"I'll do the poem," said Brian.
+
+So they tied up their hair the way poets did and went to the palace, and the king welcomed them to his feast. When the king's poets had finished, Brian stood up and recited a poem of his own. It praised the king, but it ended by asking for the pig skin as a reward.
+
+"A good poem," said the king, "except for the part about my pig skin. I won't give you that. But I'll give you as much gold as the skin will hold, three times over."
+
+"Thank you, O king," said Brian, "but let me watch while your servants measure the gold, so I know I'm not cheated." And when the servant brought out the pig skin to measure the gold, Brian snatched it and threw it over his shoulders. There was a great fight in the king's hall, and the sons of Turenn won it, and they sailed away with the skin.
+
+In Persia they did the same thing. Brian recited a poem praising the king and asking for his spear. The king was so angry that he drew his sword, and there was another great fight. Brian threw one of the golden apples, and it struck the king down, and then flew straight back into Brian's hand. The brothers found the blazing spear with its head in a hissing cauldron of water, and Brian pulled it out and took it away.
+
+In Sigar, they pretended to be soldiers from Ireland looking for work, and the king took them into his guard. They served him for six weeks, but they never saw the magic horses. So at last they said they would leave unless the king showed them the horses. "Of course you can see them," said the king, and he had them harnessed to the chariot. "We would like these as our wages," said Brian. The king was furious and ordered his men to seize them. But Brian leaped into the chariot, and the brothers won the fight, and drove away over the sea.
+
+When they came to the land of King Asal of the Golden Pillars, the king met them on the shore with all his men armed. "Are you the three champions from Ireland who have fought so many kings?" he asked.
+
+"Don't be angry with us," said Brian. "We have to pay this fine, and we promised. If the kings had given us what we asked, we would have gone away in peace. Will you give us your seven pigs in friendship? If not, we must fight for them."
+
+King Asal talked it over with his people, and they decided to give the pigs in peace. The brothers were overjoyed, because nowhere else had they got anything without a fight. The king gave them a feast and soft beds, and they had a good rest at last.
+
+"I will come with you to Iroda," said Asal, "for my daughter is married to the king there, and perhaps he will give you the puppy in peace." But the king of Iroda refused, and there was a battle. Brian fought his way to the king. But instead of killing him, he picked him right up in his arms and carried him to Asal. "Here is your son-in-law," he said. "It would have been easier to kill him three times than to bring him to you once!" So peace was made, and the king gave them the puppy, and they all parted friends.
+
+Now Lugh knew by his magic that the sons of Turenn had everything he needed for his next great battle against the Fomorians. So he sent a spell after them that made them forget the rest of the fine, and long to go home. They sailed back to Ireland, with all the wonderful things they had gathered, and gave them to the king for Lugh.
+
+Lugh looked at it all. "This is a great fine indeed," he said. "But a fine must be paid in full, every last bit of it. I see the apples, and the skin, and the spear, and the chariot, and the pigs, and the puppy. But where is the cooking spit? And I haven't heard that you gave the three shouts on Midkena's Hill."
+
+The brothers almost fainted. They went home to their father and sister, and the next day they set sail again. But this time they did not have the Wave-Sweeper.
+
+For three months they sailed the wide sea, looking for the island of Fincara, but nobody had ever heard of it. At last they met a very old man. "When I was young," he said, "I heard that the island of Fincara is not on top of the sea, but at the bottom of it. It sank under the waves by magic long ago."
+
+So Brian put on his water-suit and his helmet of clear crystal, and jumped over the side of the ship. For two weeks he walked about on the bottom of the green sea, until he found the island. In the biggest house, a crowd of beautiful women were sitting sewing, and on the table in the middle lay a long, bright cooking spit.
+
+Brian walked straight to the table, picked up the spit, and turned to go. The women burst out laughing. "That was a bold thing to do, son of Turenn," said their leader. "There are a hundred and fifty of us, and the weakest of us could have stopped you. But since you are so brave, you may take it. We have plenty of others."
+
+So Brian thanked them and walked back to the ship, where his brothers had almost given him up for lost.
+
+Then they sailed to the Hill of Midkena. Midkena came running down to meet them. "You killed my friend Kian!" he cried. "Now fight!" And there was the fiercest battle of all. Midkena and his sons fell. But the three sons of Turenn were terribly wounded.
+
+They lay on the grass, too weak to move. At last Brian lifted his head. "Brothers," he said, "let's give the three shouts while we still can." But his brothers could not get up. So Brian stood up, and lifted one brother in each arm, and the three of them gave three feeble shouts on Midkena's Hill.
+
+Then Brian carried them to the ship and they sailed for home. "If only we could see Ireland once more," said Ur, "I think we would get better." So Brian held their heads against his chest so they could look at the green hills of home as the ship drew near.
+
+When they reached their father's house, Brian said, "Father, take the cooking spit to Lugh, and tell him we have given the three shouts. The fine is paid. Ask him to lend us the golden apples to heal our wounds, or we will die."
+
+Turenn ran to Tara and gave Lugh the spit. "My sons have paid the whole fine," he said. "Now please, give me the apples to heal them."
+
+But Lugh turned away.
+
+Then Brian himself was carried to Tara, and he begged Lugh for the apples.
+
+"I will not give them to you," said Lugh. "Not if you gave me all the gold in the world. You killed my father without mercy, and now you must pay for it with your lives."
+
+So Brian went back and lay down between his two brothers, and the three sons of Turenn died together. Their father and their sister stood hand in hand beside them and wept, and soon they died of sorrow too, and they were all buried in one grave.
+
+That is the story of the sons of Turenn. The Irish storytellers called it one of the Three Sorrows of Storytelling.

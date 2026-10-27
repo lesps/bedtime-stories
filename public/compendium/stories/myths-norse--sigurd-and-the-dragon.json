@@ -114,14 +114,14 @@
   },
   {
    "type": "note",
-   "text": "A simplified retelling of Various's “The Story of Sigurd” in The Red Fairy Book (1890). The original is listed under Other versions."
+   "text": "A simplified retelling of “The Story of Sigurd” in The Red Fairy Book, edited by Andrew Lang (1890). The original is listed under Other versions."
   }
  ],
  "workId": "norse-sigurd-fafnir",
  "adaptation": "simplified",
  "adaptedBy": "Claude (Anthropic), 2026",
  "adaptedFrom": "lang-red--the-story-of-sigurd",
- "wordCount": 1271,
+ "wordCount": 1274,
  "readingMinutes": 7,
  "readingLevel": {
   "fkGrade": 4.4,

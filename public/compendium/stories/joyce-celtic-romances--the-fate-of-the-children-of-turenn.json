@@ -1,0 +1,1383 @@
+{
+ "id": "joyce-celtic-romances--the-fate-of-the-children-of-turenn",
+ "collectionId": "joyce-celtic-romances",
+ "order": 2,
+ "title": "The Fate of the Children of Turenn",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "verse",
+   "text": "For the blood that we spilled,\nFor the hero we killed,\nToil and woe, toil and woe, till the doom is fulfilled!"
+  },
+  {
+   "type": "heading",
+   "text": "The Lochlanns Invade Erin"
+  },
+  {
+   "type": "p",
+   "text": "When the Dedannans held sway in Erin, a prosperous free-born king ruled over them, whose name was Nuada of the Silver Hand."
+  },
+  {
+   "type": "p",
+   "text": "In the time of this king, the Fomorians, from Lochlann, in the north, oppressed the Dedannans, and forced them to pay heavy tributes; namely, a tax on kneading-troughs, a tax on querns, and a tax on baking flags; and besides all this, an ounce of gold for each man of the Dedannans. These tributes had to be paid every year at the Hill of Usna; and if any one refused or neglected to pay his part, his nose was cut off by the Fomorian tyrants."
+  },
+  {
+   "type": "p",
+   "text": "At this time a great fair-meeting was held by the king of Ireland, Nuada of the Silver Hand, on the Hill of Usna. Not long had the people been assembled, when they saw a stately band of warriors, all mounted on white steeds, coming towards them from the east; and at their head, high in command over all, rode a young champion, tall and comely, with a countenance as bright and glorious as the setting sun."
+  },
+  {
+   "type": "p",
+   "text": "This young warrior was Luga of the Long Arms. He was accompanied by his foster brothers, namely, the sons of Mannanan Mac Lir; and the troop he led was the Fairy Host from the Land of Promise."
+  },
+  {
+   "type": "p",
+   "text": "Now in this manner was he arrayed. He rode the steed of Mannanan Mac Lir, namely, Enbarr of the Flowing Mane: no warrior was ever killed on the back of this steed, for she was as swift as the clear, cold wind of spring, and she travelled with equal ease on land and on sea. He wore Mannanan's coat of mail: no one could be wounded through it, or above it, or below it. He had on his breast Mannanan's breast-plate, which no weapon could pierce. His helmet had two glittering precious stones set in front, and one behind; and whenever he took it off, his face shone like the sun on a dry day in summer. Mannanan's sword, The Answerer, hung at his left side: no one ever recovered from its wound; and those who were opposed to it in the battle-field were so terrified by looking at it, that their strength left them till they became weaker than a woman in deadly sickness."
+  },
+  {
+   "type": "p",
+   "text": "This troop came forward to where the king of Erin sat surrounded by the Dedannans, and both parties exchanged friendly greetings."
+  },
+  {
+   "type": "p",
+   "text": "A short time after this they saw another company approaching, quite unlike the first, for they were grim and fierce and surly looking; namely, the tax-gatherers of the Fomorians, to the number of nine nines, who were coming to demand their yearly tribute from the men of Erin. When they reached the place where the king sat, the entire assembly—the king himself among the rest—rose up before them. For the whole Dedannan race stood in great dread of these Fomorian tax-collectors; so much so that no man dared even to chastise his own son without first seeking their consent."
+  },
+  {
+   "type": "p",
+   "text": "Then Luga of the Long Arms spoke to the king and said, \"Why have ye stood up before this hateful-looking company, when ye did not stand up for us?\""
+  },
+  {
+   "type": "p",
+   "text": "\"We durst not do otherwise,\" replied the king; \"for if even an infant of a month old remained seated before them, they would deem it cause enough for killing us all.\""
+  },
+  {
+   "type": "p",
+   "text": "When Luga heard this he brooded in silence for a little while, and then he said, \"Of a truth, I feel a great desire to kill all these men!\""
+  },
+  {
+   "type": "p",
+   "text": "Then he mused again, and after a time, said, \"I am strongly urged to kill these men!\""
+  },
+  {
+   "type": "p",
+   "text": "\"That deed would doubtless bring great evil on us,\" said the king, \"for then the Fomorians would be sure to send an army to destroy us all.\""
+  },
+  {
+   "type": "p",
+   "text": "But Luga, after another pause, started up, exclaiming, \"Long have ye been oppressed in this manner!\" and so saying, he attacked the Fomorians, dealing red slaughter among them. Neither did he hold his hand till he had slain them all except nine. These he spared, because they ran with all speed and sat nigh the king, that he might protect them from Luga's wrath."
+  },
+  {
+   "type": "p",
+   "text": "Then Luga put his sword back into its scabbard, and said, \"I would slay you also, only that I wish you to go and tell your king, and the foreigners in general, what you have seen.\""
+  },
+  {
+   "type": "p",
+   "text": "These nine men accordingly returned to their own country, and they told their tale to the Fomorian people from beginning to end—how the strange, noble-faced youth had slain all the tax-collectors except nine, whom he spared that they might bring home the story."
+  },
+  {
+   "type": "p",
+   "text": "When they had ended speaking, the king, Balor of the Mighty Blows and of the Evil Eye, asked the chiefs, \"Do ye know who this youth is?\""
+  },
+  {
+   "type": "p",
+   "text": "And when they answered, \"No,\" Kethlenda, Balor's queen, said—"
+  },
+  {
+   "type": "p",
+   "text": "\"I know well who the youth is: he is the Ildana, Luga of the Long Arms, the son of your daughter and mine; and it has been long foretold that when he should appear in Erin, our sway over the Dedannans should come to an end.\""
+  },
+  {
+   "type": "p",
+   "text": "Then the chief people of the Fomorians held council; namely, Balor of the Mighty Blows, and his twelve sons, and his queen Kethlenda of the Crooked Teeth; Ebb and Sencab, the grandsons of Neid; Sotal of the Large Heels; Luath the Long-bodied; Luath the Story-teller; Tinna the Mighty, of Triscadal; Loskenn of the Bare Knees; Lobas, the druid; besides the nine prophetic poets and philosophers of the Fomorians."
+  },
+  {
+   "type": "p",
+   "text": "After they had debated the matter for some time, Bres, the son of Balor, arose and said, \"I will go to Erin with seven great battalions of the Fomorian army, and I will give battle to the Ildana, and I will bring his head to you to our palace of Berva.\""
+  },
+  {
+   "type": "p",
+   "text": "The Fomorian chiefs thought well of this proposal, and it was agreed to."
+  },
+  {
+   "type": "p",
+   "text": "So the ships were got ready for Bres; abundant food and drink and war stores were put into them, their seams were calked with pitch, and they were filled with sweet-smelling frankincense. Meantime the two Luaths, that is to say, Luath the Story-teller and Luath of the Long Body, were sent all over Lochlann to summon the army. And when all the fighting men were gathered together, they arrayed themselves in their battle-dresses, prepared their arms, and set out for Erin."
+  },
+  {
+   "type": "p",
+   "text": "Balor went with them to the harbour where they were to embark, and when they were about to go on board, he said to them—"
+  },
+  {
+   "type": "p",
+   "text": "\"Give battle to the Ildana, and cut off his head. And after ye have overcome him and his people, put your cables round this island of Erin, which gives us so much trouble, and tie it at the sterns of your ships: then sail home, bringing the island with you, and place it on the north side of Lochlann, whither none of the Dedannans will ever follow it.\""
+  },
+  {
+   "type": "p",
+   "text": "Then, having hoisted their many-coloured sails and loosed their moorings, they sailed forth from the harbour into the great sea, and never slackened speed or turned aside from their course till they reached the harbour of Eas-Dara. And as soon as they landed, they sent forth an army through West Connaught, which wasted and spoiled the whole province."
+  },
+  {
+   "type": "heading",
+   "text": "The Murder of Kian"
+  },
+  {
+   "type": "p",
+   "text": "Now the king of Connaught at that time was Bove Derg, the son of the Dagda, a friend to Luga of the Long Arms. It chanced that Luga was then at Tara, and news was brought to him that the Fomorians had landed at Eas-Dara, and were spoiling and wasting the province. He immediately got ready his steed, Enbarr of the Flowing Mane; and early in the morning, when the point of night met the day, he went to the king and told him that the foreigners had landed, and that they had wasted and plundered the province of Bove Derg."
+  },
+  {
+   "type": "p",
+   "text": "\"I shall give them battle,\" said Luga; \"and I wish to get from thee some help of men and arms.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I will give no help,\" said the king; \"for I do not wish to avenge a deed that has not been done against myself.\""
+  },
+  {
+   "type": "p",
+   "text": "When Luga heard this reply he was wroth, and departing straightway from Tara, he rode westward. He had not travelled long when he saw at a distance three warriors, fully armed, riding towards him. Now these were three brothers, the sons of Canta; namely, Kian and Cu and Kethen; and Kian was Luga's father. And they saluted each other, and conversed together for a time."
+  },
+  {
+   "type": "p",
+   "text": "\"Why art thou abroad so early?\" said they."
+  },
+  {
+   "type": "p",
+   "text": "\"Cause enough have I,\" replied Luga; \"for the Fomorians have landed in Erin, and have wasted the province of Bove Derg, the son of the Dagda. It is well indeed that I have met you, for I am about to give them battle, and I wish now to know what aid I shall get from you.\""
+  },
+  {
+   "type": "p",
+   "text": "\"We will go into the battle with you,\" said they; \"and each of us will ward off from you a hundred of the Fomorian warriors.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That, indeed, is good help,\" said Luga; \"but, for the present, I wish you to go to the several places throughout Erin where the Fairy Host are abiding, and summon them all to me.\""
+  },
+  {
+   "type": "p",
+   "text": "The three brothers accordingly separated, Cu and Kethen going south, while Luga's father, Kian, turned his face northwards, and rode on till he came to Moy Murthemna. He had not been long travelling over the plain when he saw three warriors, clad in armour and fully armed, coming towards him. These were three Dedannan chiefs, the sons of Turenn, and their names were Brian, Ur, and Urcar. Now these three and the three sons of Canta were at deadly feud with each other, on account of an old quarrel, and whenever they met there was sure to be a fight for life or death."
+  },
+  {
+   "type": "p",
+   "text": "As soon as Kian saw these three, he said, \"If my two brothers were now with me, we should have a brave fight; but as they are not, and as I am only one against three, it is better to avoid the combat.\" So saying, he looked round, and seeing near him a herd of swine he struck himself with a golden druidical wand, and changed himself into a pig; and he quickly joined the herd."
+  },
+  {
+   "type": "p",
+   "text": "No sooner had he done so than Brian, the eldest of the sons of Turenn, said to his brothers, \"Tell me, my brothers, do you know what has become of the warrior that we saw just now approaching us on the plain?\""
+  },
+  {
+   "type": "p",
+   "text": "\"We saw him,\" said they, \"but we know not whither he has gone.\""
+  },
+  {
+   "type": "p",
+   "text": "\"You deserve great blame,\" said he, \"that you are not more watchful while traversing the country during this time of war. Now I know what has happened to this warrior; he has changed himself, by a druidical spell, into a pig; and he is now among yonder herd. And whoever he may be, of this be sure—he is no friend of ours.\""
+  },
+  {
+   "type": "p",
+   "text": "\"This is an unlucky matter,\" said they; \"for as these pigs belong to one of the Dedannans, it would be wrong for us to kill them; and even if we should do so, the enchanted pig might escape after all.\""
+  },
+  {
+   "type": "p",
+   "text": "\"But,\" answered Brian, \"I think I can manage to distinguish any druidical beast from a natural one; and if you had attended well to your learning, you would be able to do the same.\""
+  },
+  {
+   "type": "p",
+   "text": "Saying this, he struck his brothers one after the other with his golden druidical wand, and turned them into two fleet, slender, sharp-nosed hounds. The moment he had done so they put their noses to the earth, and, yelping eagerly, set off towards the herd on the trail of their enemy. When they had come near, the druidical pig fell out from the herd, and made towards a thick grove that grew hard by; but Brian was there before him, and drove his spear through his chest."
+  },
+  {
+   "type": "p",
+   "text": "The pig screamed and said, \"You have done an ill deed to cast your spear at me, for you know well who I am.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Your voice, methinks, is the voice of a man,\" said Brian; \"but I know not who you are.\""
+  },
+  {
+   "type": "p",
+   "text": "And the pig answered, \"I am Kian, the son of Canta; and now I ask you to give me quarter.\""
+  },
+  {
+   "type": "p",
+   "text": "Ur and Urcar, who had regained their shape and come up, said, \"We will give you quarter indeed, and we are sorry for what has happened to you.\""
+  },
+  {
+   "type": "p",
+   "text": "But Brian, on the other hand, said, \"I swear by the gods of the air, that if your life returned to you seven times, I would take it from you seven times.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Then,\" said Kian, \"as you will not grant me quarter, allow me first to return to my own shape.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That we will grant you,\" said Brian; \"for I often feel it easier to kill a man than to kill a pig.\""
+  },
+  {
+   "type": "p",
+   "text": "Kian accordingly took his own shape; and then he said, \"You indeed, ye sons of Turenn, are now about to slay me; but even so, I have outwitted you. For if you had slain me in the shape of a pig, you would have to pay only the eric-fine for a pig; whereas, now that I am in my own shape, you shall pay the full fine for a man. And there never yet was killed, and there never shall be killed, a man for whom a greater fine shall be paid, than you will have to pay for me. The weapons with which I am slain shall tell the deed to my son; and he will exact the fine from you.\""
+  },
+  {
+   "type": "p",
+   "text": "\"You shall not be slain with the weapons of a warrior,\" said Brian; and so saying, he and his brothers laid aside their arms, and smote him fiercely and rudely with the round stones of the earth, till they had reduced his body to a disfigured mass; and in this manner they slew him."
+  },
+  {
+   "type": "p",
+   "text": "They then buried him a man's height in the earth; but the earth, being angry at the fratricide, refused to receive the body, and cast it up on the surface. They buried him a second time, and again the body was thrown up from beneath the clay. Six times the sons of Turenn buried the body of Kian a man's height in the earth, and six times did the earth cast it up, refusing to receive it. But when they had buried him the seventh time, the earth refused no longer, and the body remained in the grave."
+  },
+  {
+   "type": "p",
+   "text": "Then the sons of Turenn prepared to go forward after Luga of the Long Arms to the battle. But as they were leaving the grave, they thought they heard a faint, muffled voice coming up from the ground beneath their feet—"
+  },
+  {
+   "type": "verse",
+   "text": "The blood you have spilled,\nThe hero you've killed,\nShall follow your steps till your doom be fulfilled!"
+  },
+  {
+   "type": "heading",
+   "text": "Defeat and Flight of the Lochlanns"
+  },
+  {
+   "type": "p",
+   "text": "Now as to Luga. After parting from his father, he journeyed westward till he reached Ath-Luan, thence to Ros-Coman, and over Moy-Lurg to the Curlieu Hills, and to the mountain of Kesh-Corran, till he reached the \"Great Plain of the Assembly,\" where the foreigners were encamped, with the spoils of Connaught around them."
+  },
+  {
+   "type": "p",
+   "text": "As he drew nigh to the Fomorian encampment, Bres, the son of Balor, arose and said—"
+  },
+  {
+   "type": "p",
+   "text": "\"A wonderful thing has come to pass this day; for the sun, it seems to me, has risen in the west.\""
+  },
+  {
+   "type": "p",
+   "text": "\"It would be better that it were so,\" said the druids, \"than that matters should be as they are.\""
+  },
+  {
+   "type": "p",
+   "text": "\"What else can it be, then?\" asked Bres."
+  },
+  {
+   "type": "p",
+   "text": "\"The light you see,\" replied the druids, \"is the brightness of the face, and the flashing of the weapons of Luga of the Long Arms, our deadly enemy, he who slew our tax-gatherers, and who now approaches.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Luga came up peacefully and saluted them."
+  },
+  {
+   "type": "p",
+   "text": "\"How does it come to pass that you salute us,\" said they, \"since you are, as we know well, our enemy?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I have good cause for saluting you,\" answered Luga; \"for only one half of my blood is Dedannan; the other half comes from you; for I am the son of the daughter of Balor of the Mighty Blows, your king. And now I come in peace, to ask you to give back to the men of Connaught all the milch cows you have taken from them.\""
+  },
+  {
+   "type": "p",
+   "text": "\"May ill luck follow thee,\" said one of the Fomorian leaders, in a voice loud and wrathful, \"until thou get one of them, either a milch cow or a dry cow!\""
+  },
+  {
+   "type": "p",
+   "text": "And the others spoke in a like strain."
+  },
+  {
+   "type": "p",
+   "text": "Then Luga put a druidical spell upon the plundered cattle; and he sent all the milch cows home, each to the door of her owner's house, throughout all that part of Connaught that had been plundered. But the dry cows he left, so that the Fomorians might be cumbered, and that they might not leave their encampment till the Fairy Host should arrive to give them battle."
+  },
+  {
+   "type": "p",
+   "text": "Luga tarried three days and three nights near them, and at the end of that time the Fairy Host arrived, and placed themselves under his command. They encamped near the Fomorians, and in a little time Bove Derg, son of the Dagda, joined them with twenty-nine hundred men."
+  },
+  {
+   "type": "p",
+   "text": "Then they made ready for the fight. The Ildana put on Mannanan's coat of mail and his breast-plate; he took also his helmet, which was called Cannbarr, and it glittered in the sun with dazzling brightness; he slung his broad, dark-blue shield from his shoulder at one side; his long, keen-edged sword hung at his thigh; and lastly, he took his two long, heavy-handled spears, which had been tempered in the poisonous blood of adders. The other kings and chiefs of the men of Erin arrayed their men in battle ranks; hedges of glittering spears rose high above their heads; and their shields, placed edge to edge, formed a firm fence around them."
+  },
+  {
+   "type": "p",
+   "text": "Then at the signal they attacked the Fomorians, and the Fomorians, in no degree dismayed, answered their onset. At first a cloud of whizzing javelins flew from rank to rank across the open space, and as the warriors rushed together in closer conflict, their spears were shivered in their hands. Then they drew their gold-hilted swords, and fought foot to foot and shield to shield, so that a forest of bright flashes rose high above their helmets, from the clashing of their keen-tempered weapons."
+  },
+  {
+   "type": "p",
+   "text": "In the midst of the fight, Luga looked round, and seeing at some distance, Bres, surrounded by his Fomorian warriors, dealing havoc and death among the Dedannans, he rushed through the press of battle, and attacked first Bres's guards so fiercely that in a few moments twenty of them fell beneath his blows."
+  },
+  {
+   "type": "p",
+   "text": "Then he struck at Bres himself, who, unable to withstand his furious onset, cried aloud—"
+  },
+  {
+   "type": "p",
+   "text": "\"Why should we be enemies, since thou art of my kin? Let there be peace between us, for nothing can withstand thy blows. Let there be peace, and I will undertake to bring my Fomorians to assist thee at Moytura, and I will promise never again to come to fight against thee.\""
+  },
+  {
+   "type": "p",
+   "text": "And Bres swore by the sun and the moon, by the sea and land, and by all the elements, to fulfil his engagement; and on these conditions Luga granted him his life."
+  },
+  {
+   "type": "p",
+   "text": "Then the Fomorians, seeing their chief overcome, dropped their arms, and sued for quarter. The Fomorian druids and men of learning next came to Luga to ask him to spare their lives; and Luga answered them—"
+  },
+  {
+   "type": "p",
+   "text": "\"So far am I from wishing to slay you, that in truth, if you had taken the whole Fomorian race under your protection, I would have spared them.\""
+  },
+  {
+   "type": "p",
+   "text": "And after this, Bres, the son of Balor, returned to his own country with his druids, and with those of his army who had escaped from the battle."
+  },
+  {
+   "type": "heading",
+   "text": "The Eric-Fine on the Sons of Turenn for the Slaying of Kian"
+  },
+  {
+   "type": "p",
+   "text": "Towards the close of the day, when the battle was ended, Luga espied two of his near friends; and he asked them if they had seen his father, Kian, in the fight. And when they answered, \"No,\" Luga said—"
+  },
+  {
+   "type": "p",
+   "text": "\"My father is not alive; for if he lived he would surely have come to help me in the battle. And now I swear that neither food nor drink will I take till I have found out who has slain him, and the manner of his death.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Luga set out with a small chosen band of the Fairy Host, and he halted not till he reached the place where he had parted from his father. And from that he travelled on to the plain of Murthemna, where Kian had been forced to take the shape of a pig to avoid the sons of Turenn, and where they had slain him."
+  },
+  {
+   "type": "p",
+   "text": "When he had come near to the very spot, he walked some little way before his companions, and the stones of the earth spoke beneath his feet, and said—"
+  },
+  {
+   "type": "p",
+   "text": "\"Here thy father lies, O Luga. Grievous was Kian's strait when he was forced to take the shape of a pig on seeing the three sons of Turenn; and here they slew him in his own shape!\""
+  },
+  {
+   "type": "verse",
+   "text": "The blood that they spilled,\nThe hero they killed,\nShall darken their lives till their doom be fulfilled!"
+  },
+  {
+   "type": "p",
+   "text": "Luga stood for a while silent, pondering on these words. But as his companions came up, he told them what had happened; and having pointed out the spot from which the voice came, he caused the ground to be dug up. There they found the body, and raised it to the surface; and when they had examined it, they saw that it was covered all over with gory wounds and bruises."
+  },
+  {
+   "type": "p",
+   "text": "Then Luga spoke after a long silence, \"A cruel and merciless death has my beloved father suffered at the hands of the sons of Turenn!\""
+  },
+  {
+   "type": "p",
+   "text": "He kissed his father's face three times, and again spoke, grieving, \"Ill fare the day on which my father was slain! Woful is this deed to me, for my eyes see not, my ears hear not, and my heart's pulse has ceased to beat, for grief. Why, O ye gods whom I worship, why was I not present when this deed was done? Alas! an evil thing has happened, for the Dedannans have slain their brother Dedannan. Ill shall they fare of this fratricide, for its consequences shall follow them, and long shall the crime of brother against brother continue to be committed in Erin!\""
+  },
+  {
+   "type": "p",
+   "text": "And he spoke this speech—"
+  },
+  {
+   "type": "verse",
+   "text": "A dreadful doom my father found\nOn that ill-omened even-tide;\nAnd here I mourn beside the mound,\nWhere, whelmed by numbers, Kian died,—\nThis lonely mound of evil fame,\nThat long shall bear the hero's name!"
+  },
+  {
+   "type": "verse",
+   "text": "Alas! an evil deed is done,\nAnd long shall Erin rue the day:\nThere shall be strife 'twixt sire and son,\nAnd brothers shall their brothers slay;\nVengeance shall smite the murderers too,\nAnd vengeance all their race pursue!"
+  },
+  {
+   "type": "verse",
+   "text": "The light has faded from mine eyes;\nMy youthful strength and power have fled\nWeary my heart with ceaseless sighs;\nAmbition, hope, and joy are dead;\nAnd all the world is draped in gloom—\nThe shadow of my father's tomb!"
+  },
+  {
+   "type": "p",
+   "text": "Then they placed the hero again in the grave, and they raised a tomb over him with his name graved in Ogam; after which his lamentation lays were sung, and his funeral games were performed."
+  },
+  {
+   "type": "p",
+   "text": "When these rites were ended, Luga said to his people, \"Go ye now to Tara, where the king of Erin sits on his throne with the Dedannans around him; but do not make these things known till I myself have told them.\""
+  },
+  {
+   "type": "p",
+   "text": "So Luga's people went straightway to Tara, as he had bade them; but of the murder of Kian they said naught. Luga himself arrived some time after, and was received with great honour, being put to sit high over the others, at the king's side; for the fame of his mighty deeds at the battle of the Assembly Plain had been noised over the whole country, and had come to the ears of the king."
+  },
+  {
+   "type": "p",
+   "text": "After he was seated, he looked round the hall, and saw the sons of Turenn in the assembly. Now these three sons of Turenn exceeded all the champions in Tara, in comeliness of person, in swiftness of foot, and in feats of arms; and, next to Luga himself, they were the best and bravest in the battles against the Fomorians; wherefore they were honoured by the king beyond most others."
+  },
+  {
+   "type": "p",
+   "text": "Luga asked the king that the chain of silence should be shaken; and when it was shaken, and when all were listening in silence, he stood up and spoke—"
+  },
+  {
+   "type": "p",
+   "text": "\"I perceive, ye nobles of the Dedannan race, that you have given me your attention, and now I have a question to put to each man here present: What vengeance would you take of the man who should knowingly and of design kill your father?\""
+  },
+  {
+   "type": "p",
+   "text": "They were all struck with amazement on hearing this, and the king of Erin said—"
+  },
+  {
+   "type": "p",
+   "text": "\"What does this mean? For that your father has not been killed, this we all know well!\""
+  },
+  {
+   "type": "p",
+   "text": "\"My father has indeed been killed,\" answered Luga; \"and I see now here in this hall those who slew him. And furthermore, I know the manner in which they put him to death, even as they know it themselves.\""
+  },
+  {
+   "type": "p",
+   "text": "The sons of Turenn, hearing all this, said nothing; but the king spoke aloud and said—"
+  },
+  {
+   "type": "p",
+   "text": "\"If any man should wilfully slay my father, it is not in one hour or in one day I would have him put to death; but I would lop off one of his members each day, till I saw him die in torment under my hands!\""
+  },
+  {
+   "type": "p",
+   "text": "All the nobles said the same, and the sons of Turenn in like manner."
+  },
+  {
+   "type": "p",
+   "text": "\"The persons who slew my father are here present, and are joining with the rest in this judgment,\" said Luga; \"and as the Dedannans are all now here to witness, I claim that the three who have done this evil deed shall pay me a fitting eric-fine for my father. Should they refuse, I shall not indeed transgress the king's law nor violate his protection; but of a certainty they shall not leave this hall of Micorta till the matter is settled.\""
+  },
+  {
+   "type": "p",
+   "text": "And the king of Erin said, \"If I had killed your father, I should be well content if you were willing to accept an eric-fine from me.\""
+  },
+  {
+   "type": "p",
+   "text": "Now the sons of Turenn spoke among themselves; and Ur and Urcar said, \"It is of us Luga speaks this speech. He has doubtless found out that we slew his father; and it is better that we now acknowledge the deed, for it will avail us naught to hide it.\""
+  },
+  {
+   "type": "p",
+   "text": "Brian, however, at first set his face against this, saying that he feared Luga only wanted an acknowledgment from them in presence of the other Dedannans, and that afterwards he might not accept a fine. But the other two were earnest in pressing him, so that he consented, and then he spoke to Luga—"
+  },
+  {
+   "type": "p",
+   "text": "\"It is of us thou speakest all these things, Luga; for it has been said that we three have been at enmity with the three sons of Canta. Now, as to the slaying of thy father Kian, let that matter rest; but we are willing to pay an eric-fine for him, even as if we had killed him.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I shall accept an eric-fine from you,\" said Luga, \"though ye indeed fear I shall not. I shall now name before this assembly the fine I ask, and if you think it too much, I shall take off a part of it."
+  },
+  {
+   "type": "p",
+   "text": "\"The first part of my eric-fine is three apples; the second part is the skin of a pig; the third is a spear; the fourth, two steeds and a chariot; the fifth, seven pigs; the sixth, a hound-whelp; the seventh, a cooking-spit; and the eighth, three shouts on a hill. That is my eric,\" said Luga; \"and if ye think it too much, say so now, that I may remit a part; but if not, then it will be well that ye set about paying it.\""
+  },
+  {
+   "type": "p",
+   "text": "\"So far,\" said Brian, \"we do not deem it too great. It seems, indeed, so small that we fear there is some hidden snare in what you ask, which may work us mischief.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I do not deem my eric too small,\" said Luga; \"and now I engage here, before the assembled Dedannans, that I will ask no more, and that I will seek no further vengeance for my father's death. But, as I have made myself answerable to them for the faithful fulfilment of my promise, I demand the same guarantee from you, that you also be faithful to me.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Alas that you should doubt our plighted word!\" said the sons of Turenn. \"Are we not ourselves sufficient guarantee for the payment of an eric-fine greater even than this?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I do not deem your word sufficient guarantee,\" answered Luga; \"for often have we known great warriors like you to promise a fine before all the people, and afterwards to go back of their promise.\""
+  },
+  {
+   "type": "p",
+   "text": "And the sons of Turenn consented, though unwillingly, for they grieved that their word should be doubted. So they bound themselves on either side—Luga not to increase his claims; and the sons of Turenn, on their part, to pay him the full fine. And the king of Erin and Bove Derg, son of the Dagda, and the nobles of the Dedannans in general, were witnesses and sureties of this bond."
+  },
+  {
+   "type": "p",
+   "text": "Then Luga stood up and said, \"It is now time that I give you a full knowledge of this eric-fine."
+  },
+  {
+   "type": "p",
+   "text": "\"The three apples I ask are the apples of the Garden of Hisberna, in the east of the world, and none others will I have. There are no apples in the rest of the world like them, for their beauty and for the secret virtues they possess. Their colour is the colour of burnished gold; they have the taste of honey; and if a wounded warrior or a man in deadly sickness eat of them, he is cured immediately. And they are never lessened by being eaten, being as large and perfect at the end as at the beginning. Moreover any champion that possesses one of them may perform with it whatsoever feat he pleases, by casting it from his hand, and the apple will return to him of itself. And though you are three brave warriors, ye sons of Turenn, methinks you will not find it easy to bring away these apples; for it has been long foretold that three young champions from the Island of the West would come to take them by force, so that the king has set guards to watch for your coming."
+  },
+  {
+   "type": "p",
+   "text": "\"The pig's skin I seek from you belongs to Tuis, the king of Greece. When the pig was alive, every stream of water through which she walked was turned into wine for nine days, and all sick and wounded people that touched her skin were at once cured, if only the breath of life remained. Now the king's druids told him that the virtue lay, not in the pig herself, but in her skin; so the king had her killed and skinned, and he has her skin now. This, too, ye valiant champions, is a part of my eric-fine which you will find it hard to get, either by force or by friendship."
+  },
+  {
+   "type": "p",
+   "text": "\"The spear I demand from you is the venomed spear of Pezar, king of Persia. Its name is Slaughterer. In time of peace, its blazing, fiery head is always kept in a great caldron of water, to prevent it from burning down the king's palace; and in time of war, the champion who bears it to the battle-field can perform any deed he pleases with it. And it will be no easy matter to get this spear from the king of Persia."
+  },
+  {
+   "type": "p",
+   "text": "\"The two steeds and the chariot belong to Dobar, king of Sigar. The chariot exceeds all the chariots in the world for beauty of shape and goodliness of workmanship. The two noble steeds have no equal for strength and fleetness, and they travel with as much ease on sea as on land."
+  },
+  {
+   "type": "p",
+   "text": "\"The seven pigs I demand are the pigs of Asal, the king of the Golden Pillars. Whoever eats a part of them shall not suffer from ill health or disease; and even though they should be killed and eaten to-day, they will be alive and well to-morrow."
+  },
+  {
+   "type": "p",
+   "text": "\"The hound-whelp belongs to the king of Iroda, and his name is Failinis. He shines as brightly as the sun in a summer sky; and every wild beast of the forest that sees him falls down to the earth powerless before him."
+  },
+  {
+   "type": "p",
+   "text": "\"The cooking-spit belongs to the warlike women of the island of Fincara. They are thrice fifty in number, and woe to the champion who approaches their house; for each of them is a match for three good warriors in single combat; and they never yet gave a cooking-spit to any one without being overcome in battle."
+  },
+  {
+   "type": "p",
+   "text": "\"The hill on which I require you to give three shouts is the Hill of Midkena, in the north of Lochlann. Midkena and his sons are always guarding this hill, for they are under gesa not to allow any one to shout on it. Moreover, it was they that instructed my father in championship and feats of arms, and they loved him very much; so that even if I should forgive you his death they would not. And, though you should be able to procure all the rest of the eric-fine, you will not, I think, succeed in this, for they will be sure to avenge on you my father's death."
+  },
+  {
+   "type": "p",
+   "text": "\"And this, ye sons of Turenn, is the eric-fine I demand from you!\""
+  },
+  {
+   "type": "heading",
+   "text": "The Sons of Turenn Obtain Mannanan's Canoe, \"the Wave-Sweeper.\""
+  },
+  {
+   "type": "p",
+   "text": "The sons of Turenn were so astounded on hearing this eric-fine that they spoke not one word; but rising up, they left the meeting, and repaired to the house of their father Turenn."
+  },
+  {
+   "type": "p",
+   "text": "He heard their story to the end, and then said, \"Your tidings are bad, my sons, and I fear me you are doomed to meet your death in seeking what the Ildana asks. But the doom is a just one, for it was an evil thing to kill Kian. Now as to this eric-fine: it cannot be obtained by any living man without the help of either Luga himself or of Mannanan Mac Lir; but if Luga wishes to aid you, ye shall be able to get it. Go ye now, therefore, and ask him to lend you Mannanan's steed, Enbarr of the Flowing Mane. If he wishes you to get the full eric-fine, he will lend you the steed; otherwise he will refuse, saying that she does not belong to him, and that he cannot lend what he himself has got on loan. Then, if ye obtain not the steed, ask him for the loan of Mannanan's canoe, the Wave-sweeper, which would be better for you than the steed; and he will lend you that, for he is forbidden to refuse a second request.\""
+  },
+  {
+   "type": "p",
+   "text": "So the sons of Turenn returned to Luga, and having saluted him, they said—"
+  },
+  {
+   "type": "p",
+   "text": "\"It is not in the power of any man to obtain this eric-fine without thy own aid, O Luga; we ask thee, therefore, to lend us Mannanan's steed, Enbarr of the Flowing Mane.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That steed is not my own,\" said Luga; \"and I cannot lend that which I have myself obtained on loan.\""
+  },
+  {
+   "type": "p",
+   "text": "\"If that be so,\" said Brian, \"then I pray thee lend us Mannanan's canoe, the Wave-sweeper.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I shall lend you that,\" replied Luga; \"it lies at Bruga of the Boyne; and ye have my consent to take it.\""
+  },
+  {
+   "type": "p",
+   "text": "So they came again to their father, and this time Ethnea, their sister, was with him; and they told them that Luga had given them the canoe."
+  },
+  {
+   "type": "p",
+   "text": "\"I have much fear,\" said Turenn, \"that it will avail you little against the dangers of your quest. Nevertheless, Luga desires to obtain that part of the eric that will be useful to him at the battle of Moytura, and so far he will help you. But in seeking that which is of no advantage to him, namely, the cooking-spit, and the three shouts on Midkena's Hill, therein he will give you no aid, and he will be glad if ye perish in your attempts to obtain it.\""
+  },
+  {
+   "type": "p",
+   "text": "They then set out for Bruga of the Boyne, accompanied by their sister Ethnea, leaving Turenn lamenting after them. The canoe they found lying in the river; and Brian went into it and said—"
+  },
+  {
+   "type": "p",
+   "text": "\"It seems to me that only one other person can sit here along with me;\" and he began to complain very bitterly of its smallness. He ceased, however, at the bidding of Ethnea, who told him that the canoe would turn out large enough when they came to try it, and that it was under strict command not to let any one grumble at its smallness. And she went on to say—"
+  },
+  {
+   "type": "p",
+   "text": "\"Alas, my beloved brothers, it was an evil deed to slay the father of Luga of the Long Arms! and I fear you will suffer much woe and hardship on account of it.\""
+  },
+  {
+   "type": "verse",
+   "text": "Ethnea."
+  },
+  {
+   "type": "verse",
+   "text": "The deed was a dark one, a deed full of woe,\nYour brother Dedannan to slay;\nAnd hard and relentless the heart of your foe,\nThe bright-faced Ildana, that forced you to go,\nThis eric of vengeance to pay!"
+  },
+  {
+   "type": "verse",
+   "text": "The Brothers."
+  },
+  {
+   "type": "verse",
+   "text": "Oh, cease, sister Ethnea, cease thy sad wail;\nWhy yield to this terror and gloom?\nLong, long shall the poets remember the tale,\nFor our courage and valour and swords shall prevail,\nOr win us a glorious tomb!"
+  },
+  {
+   "type": "verse",
+   "text": "Ethnea."
+  },
+  {
+   "type": "verse",
+   "text": "Then search ye, my brothers, go search land and sea;\nGo search ye the isles of the East.—\nAlas, that the cruel Ildana's decree\nHas banished my three gentle brothers from me,\nOn this fearful and perilous quest!"
+  },
+  {
+   "type": "heading",
+   "text": "The Apples of the Garden of Hisberna"
+  },
+  {
+   "type": "p",
+   "text": "After this the three brothers entered the canoe, which they now found large enough to hold themselves and their arms, and whatsoever else they wished to bring; for this was one of its secret gifts. They then bade their sister farewell, and, leaving her weeping on the shore, they rowed swiftly till they had got beyond the beautiful shores and bright harbours of Erin, out on the open sea."
+  },
+  {
+   "type": "p",
+   "text": "Then the two younger brothers said, \"Now our quest begins: what course shall we take?\""
+  },
+  {
+   "type": "p",
+   "text": "Brian answered, \"As the apples are the first part of the fine, we shall seek them first.\""
+  },
+  {
+   "type": "p",
+   "text": "And then he spoke to the canoe, \"Thou canoe of Mannanan, thou Sweeper of the waves, we ask thee and we command thee, that thou sail straightway to the Garden of Hisberna!\""
+  },
+  {
+   "type": "p",
+   "text": "The canoe was not unmindful of the voice of its master, and obeyed the command without delay, according to its wont. It took the shortest way across the deep sea-chasms, and, gliding over the green-sided waves more swiftly than the clear, cold wind of March, it stayed not in its course till it reached the harbour near the land of Hisberna."
+  },
+  {
+   "type": "p",
+   "text": "Brian now spoke to his brothers, \"Be sure that this quest is a perilous one, since we know that the best champions of the country, with the king at their head, are always guarding the apples. And now in what manner, think you, is it best for us to approach the garden?\""
+  },
+  {
+   "type": "p",
+   "text": "\"It seems to us,\" answered his brothers, \"that we had better go straight and attack these champions, and either bring away the apples, or fall fighting for them. For we cannot escape the dangers that lie before us; and if we are doomed to fall in one of these adventures, it may, perchance, be better for us to die here than to prolong our hardships.\""
+  },
+  {
+   "type": "p",
+   "text": "But Brian answered, \"Not so, my brothers; for it becomes a warrior to be prudent and wary as well as brave. We should now act so that the fame of our skill and valour may live after us, and that future men may not say, 'These sons of Turenn did not deserve to be called brave champions, for they were senseless and rash, and sought their own death by their folly.' In the present case, then, what I counsel is this: Let us take the shape of strong, swift hawks; and as we approach the garden, have ye care of the light, sharp lances of the guards, which they will certainly hurl at us: avoid them actively and cunningly, and when the men have thrown all, let us swoop down and bring away an apple each.\""
+  },
+  {
+   "type": "p",
+   "text": "They approved this counsel; and Brian, striking his two brothers and himself with a druidical magic wand, all three were changed into three beautiful hawks. Then, flying swiftly to the garden, they began to descend in circles towards the tops of the trees; but the sharp-eyed guards perceived them, and with a great shout they threw showers of venomous darts at them. The hawks, however, mindful of Brian's warning, watched the spears with keen glances, and escaped them every one, until the guards had thrown all their light weapons. Then, swooping suddenly down on the trees, the two younger brothers carried off an apple each, and Brian two, one between his talons and the other in his beak; and the three rose again into the air without wound or hurt of any kind. Then, directing their course westward, they flew over the wide sea with the speed of an arrow."
+  },
+  {
+   "type": "p",
+   "text": "The news spread quickly through the city, how three beautiful hawks had carried off the apples; and the king and his people were in great wrath. Now the king had three daughters, very skilful in magic and cunning in counsel; and they forthwith transformed themselves into three swift-winged, sharp-taloned griffins, and pursued the hawks over the sea. But the hawks, when they saw they were pursued, increased their speed, and flew like the wind, and left their pursuers so far behind that they appeared to the griffins like three specks on the sky. Then the angry griffins let fly from their eyes, and from their open beaks, bright flashes of flame straight forward, which overtook and blinded the hawks, and scorched them, so that they could bear the heat no longer."
+  },
+  {
+   "type": "p",
+   "text": "\"Evil is our state now,\" said Ur and Urcar, \"for these sheets of flame are burning us, and we shall perish if we do not get relief.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I will try whether I cannot relieve you,\" said Brian; and with that he struck his brothers and himself with his golden druidical wand; and all three were instantly turned into swans. The swans dropped down on the sea; and when the griffins saw the hawks no longer straight before them, they gave up the chase. And the sons of Turenn went safely to their canoe, bringing the apples with them."
+  },
+  {
+   "type": "heading",
+   "text": "The Gifted Skin of the Pig"
+  },
+  {
+   "type": "p",
+   "text": "After resting a little while, they held council as to their next journey; and what they resolved on was to go to Greece, to seek the skin of the pig, and to bring it away, either by consent or by force. So they went into the canoe, and Brian spoke—"
+  },
+  {
+   "type": "p",
+   "text": "\"Thou canoe of Mannanan, thou Sweeper of the Waves, we ask thee and we command thee that thou sail with us straightway to Greece!\""
+  },
+  {
+   "type": "p",
+   "text": "And the canoe, obeying as before, glided swiftly and smoothly over the waves, till the sons of Turenn landed near the palace of the king of Greece."
+  },
+  {
+   "type": "p",
+   "text": "\"In what shape, think you, should we go to this court?\" said Brian."
+  },
+  {
+   "type": "p",
+   "text": "\"We think it best,\" answered the others, \"to go in our own shapes; that is to say, as three bold champions.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Not so,\" said Brian. \"It seems best to me that we should go in the guise of learned poets from Erin; for poets are held in much honour and respect by the great nobles of Greece.\""
+  },
+  {
+   "type": "p",
+   "text": "\"It is, indeed, hard for us to do that,\" answered his brothers, \"for as to poems, we neither have any, nor do we know how to compose them.\""
+  },
+  {
+   "type": "p",
+   "text": "However, as Brian would have it so, they consented, though unwillingly; and, tying up their hair after the manner of poets, they knocked at the door of the palace. The door-keeper asked who was there."
+  },
+  {
+   "type": "p",
+   "text": "\"We are skilful poets from Erin,\" said Brian, \"and we have come to Greece with a poem for the king.\""
+  },
+  {
+   "type": "p",
+   "text": "The door-keeper went and gave the message."
+  },
+  {
+   "type": "p",
+   "text": "\"Let them be brought in,\" said the king, \"for it is to seek a good and bountiful master whom they may serve faithfully that they have come so far from Erin.\""
+  },
+  {
+   "type": "p",
+   "text": "The sons of Turenn were accordingly led in to the banquet hall, where sat the king surrounded by his nobles; and, bowing low, they saluted him; and he saluted them in return, and welcomed them. They sat at the table among the company, and joined the feast at once, drinking and making merry like the others; and they thought they had never seen a banquet hall so grand, or a household so numerous and mirthful."
+  },
+  {
+   "type": "p",
+   "text": "At the proper time the king's poets arose, according to custom, to recite their poems and their lays for the company. And when they had come to an end, Brian, speaking low, said to his brothers—"
+  },
+  {
+   "type": "p",
+   "text": "\"As we have come here as poets, it is meet that we should practise the poetic art like the others; therefore now arise, and recite a poem for the king.\""
+  },
+  {
+   "type": "p",
+   "text": "\"We have no poems,\" they replied, \"and we do not wish to practise any art except the art we have learned and practised from our youth, namely, to fight like brave champions, and to take by valour and force of arms that which we want, if we be stronger than our enemies, or to fall in battle if they be the stronger.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That is not a pleasant way of making poetry,\" said Brian; and with that he arose and requested attention for his poem. And when they sat listening, he said—"
+  },
+  {
+   "type": "verse",
+   "text": "To praise thee, O Tuis, we've come to this land:\nLike an oak among shrubs, over kings thou dost stand:\nThy bounty, great monarch, shall gladden the bard;\nAnd the Imnocta-fessa I claim as reward."
+  },
+  {
+   "type": "verse",
+   "text": "Two neighbours shall war, with an O to an O;\nA bard unrequited—how dreadful a foe!\nThy bounty shall add to thy wealth and thy fame;\nAnd the Imnocta-fessa is all that I claim."
+  },
+  {
+   "type": "p",
+   "text": "\"Your poem would doubtless be thought a very good one,\" said the king, \"if we were able to judge of it; but it is unlike all other poems I have ever heard, for I do not in the least understand its sense.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I will unfold its sense,\" said Brian."
+  },
+  {
+   "type": "verse",
+   "text": "To praise thee, O Tuis, we've come to this land:\nLike an oak among shrubs, over kings thou dost stand:"
+  },
+  {
+   "type": "p",
+   "text": "\"This means that as the oak excels all the other trees of the forest, so dost thou excel all the other kings of the world for greatness, nobility, and generosity."
+  },
+  {
+   "type": "p",
+   "text": "\"'Imnocta-fessa.' Imnocta means 'skin,' and fessa 'a pig.' That is to say; thou hast, O king, the skin of a pig, which I desire to get from thee as a guerdon for my poetry."
+  },
+  {
+   "type": "verse",
+   "text": "Two neighbours shall war, with an O to an O;\nA bard unrequited—how dreadful a foe!"
+  },
+  {
+   "type": "p",
+   "text": "\"O means 'an ear;' that is to say, thou and I shall be ear to ear fighting with each other for the skin, if thou give it not of thy own free will."
+  },
+  {
+   "type": "p",
+   "text": "\"And that, O king, is the sense of my poem.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Thy poem would have been a very good one,\" said the king, \"and I would have given it due meed of praise if my pig's skin had not been mentioned in it. But it is a foolish request of thine, O ferdana, to ask for that skin; for, even though all the poets and men of science of Erin, and all the nobles of the whole world were to demand it from me, I would refuse it. Nevertheless, thou shalt not pass unrewarded, for I will give thee thrice the full of the skin of red gold—one for thyself, and one for each of thy brothers.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Thy ransom is a good one, O king,\" said Brian; \"but I am a near-hearted and suspicious man, and I pray thee let me see with my eyes thy servants measure the gold, lest they deal unfairly with me.\""
+  },
+  {
+   "type": "p",
+   "text": "The king agreed to this; so his servants went with the three sons of Turenn to the treasure-room, and one of them drew forth the skin from its place, to measure the gold. As soon as Brian caught sight of it, he sprang suddenly towards the servant, and, dashing him to the ground with his right hand, he snatched the skin with his left, and bound it hastily over his shoulders."
+  },
+  {
+   "type": "p",
+   "text": "Then the three drew their keen swords, and rushed into the banquet hall. The king's nobles, seeing how matters stood, surrounded and attacked them; but the sons of Turenn, nothing daunted by the number of their foes, hewed down the foremost and scattered the rest, so that scarce one of the whole party escaped death or deadly wounds."
+  },
+  {
+   "type": "p",
+   "text": "Then at last Brian and the king met face to face, nor was either slow to answer the challenge of the other. They fought as great champions fight, and it was long doubtful which should prevail; but the end of the combat was, that the king of Greece fell by the overpowering valour of Brian, the son of Turenn."
+  },
+  {
+   "type": "p",
+   "text": "After this victory, the three brothers rested in the palace till they had regained their strength, and healed up their wounds by means of the apples and the pig's skin; and at the end of three days and three nights they found themselves able to undertake the next adventure."
+  },
+  {
+   "type": "heading",
+   "text": "The Blazing Spear of the King of Persia"
+  },
+  {
+   "type": "p",
+   "text": "So, after holding council, they resolved to go to seek the spear of the king of Persia; and Brian reminded his brothers that now, as they had the apples and the skin to aid them, it would be all the easier to get the spear, as well as the rest of the fine."
+  },
+  {
+   "type": "p",
+   "text": "Leaving now the shores of Greece with all its blue streams, they went on board the canoe, which, at Brian's command, flew across the wide seas; and soon they made land near the palace of Pezar, king of Persia. And seeing how they had fared so well in their last undertaking, they resolved to put on the guise of poets this time also."
+  },
+  {
+   "type": "p",
+   "text": "And so they put the poet's tie on their hair, and, passing through the outer gate, they knocked at the door of the palace. The door-keeper asked who they were, and from what country they had come."
+  },
+  {
+   "type": "p",
+   "text": "\"We are poets from Erin,\" answered Brian; \"and we have brought a poem for the king.\""
+  },
+  {
+   "type": "p",
+   "text": "So they were admitted and brought to the presence of the king, who seated them among the nobles of his household; and they joined in the drinking and the feasting and the revelry."
+  },
+  {
+   "type": "p",
+   "text": "The king's poets now arose, and chanted their songs for the king and his guests. And when the applause had ceased, Brian, speaking softly, said to his brothers—"
+  },
+  {
+   "type": "p",
+   "text": "\"Arise, now, and chant a poem for the king.\""
+  },
+  {
+   "type": "p",
+   "text": "But they answered, \"Ask us not to do that which we are unable to do; but if you wish us to exercise the art we have learned from our youth, we shall do so, namely, the art of fighting and overcoming our foes.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That would be an unusual way of reciting poetry,\" said Brian; \"but I have a poem for the king, and I shall now chant it for him.\""
+  },
+  {
+   "type": "p",
+   "text": "So saying, he stood up; and when there was silence, he recited this poem—"
+  },
+  {
+   "type": "verse",
+   "text": "In royal state may Pezar ever reign,\nLike some vast yew tree, monarch of the plain;\nMay Pezar's mystic javelin, long and bright,\nBring slaughter to his foes in every fight!"
+  },
+  {
+   "type": "verse",
+   "text": "When Pezar fights and shakes his dreadful spear,\nWhole armies fly and heroes quake with fear:\nWhat shielded foe, what champion can withstand,\nThe blazing spear in mighty Pezar's hand!"
+  },
+  {
+   "type": "p",
+   "text": "\"Your poem is a good one,\" said the king; \"but one thing in it I do not understand, namely, why you make mention of my spear.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Because,\" answered Brian, \"I wish to get that spear as a reward for my poem.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That is a very foolish request,\" said the king, \"for no man ever escaped punishment who asked me for my spear. And as to your poetry, the highest reward I could now bestow on you, and the greatest favour these nobles could obtain for you, is that I should spare your life.\""
+  },
+  {
+   "type": "p",
+   "text": "Thereupon Brian and his brothers started up in great wrath and drew their swords, and the king and his chiefs drew their swords in like manner; and they fought a deadly fight. But Brian at last, drawing forth one of his apples, and taking sure aim, cast it at the king and struck him on the forehead; so that Pezar fell, pierced through the brain."
+  },
+  {
+   "type": "p",
+   "text": "After this Brian fought on more fiercely than before, dealing destruction everywhere around him; but when the chiefs saw that their king had fallen, they lost heart and fled through the doors, till at length none remained in the banquet hall but the three sons of Turenn."
+  },
+  {
+   "type": "p",
+   "text": "Then they went to the room where the spear was kept; and they found it with its head down deep in a great caldron of water, which hissed and bubbled round it. And Brian, seizing it boldly in his hand, drew it forth; after which the three brothers left the palace and went to their canoe."
+  },
+  {
+   "type": "heading",
+   "text": "The Chariot and Steeds of the King of Sigar"
+  },
+  {
+   "type": "p",
+   "text": "Resting now for some days from their toil, they resolved to seek the steeds and chariot of the king of Sigar; for this was the next part of the Ildana's eric-fine. So they commanded the canoe, and the canoe, obedient to their behest, glided swiftly and smoothly over the green waves till they landed in Sigar. Brian bore the great, heavy, venomed spear in his hand; and the three brothers were of good heart, seeing how they had succeeded in their last quest, and that they had now three parts of the fine."
+  },
+  {
+   "type": "p",
+   "text": "\"In what shape think you we should go to this court?\" said Brian."
+  },
+  {
+   "type": "p",
+   "text": "\"How should we go,\" answered the others, \"but in our own shapes, namely, as three hostile champions, who have come to get the chariot and steeds, either by force or by good will?\""
+  },
+  {
+   "type": "p",
+   "text": "\"That is not what seems best to me,\" said Brian. \"My counsel is, that we go as soldiers from Erin, willing to serve for pay; and should the king take us into his service, it is likely we shall find out where the chariot and steeds are kept.\""
+  },
+  {
+   "type": "p",
+   "text": "His brothers having agreed to this, the three set out for the palace."
+  },
+  {
+   "type": "p",
+   "text": "It happened that the king was holding a fair-meeting on the broad, level green before the palace; and when the three warriors came near, the people made way for them. They bowed low to the king; and he asked them who they were, and from what part of the world they had come."
+  },
+  {
+   "type": "p",
+   "text": "\"We are valiant soldiers from Erin,\" they answered, \"seeking for service and pay among the great kings of the world.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Do you wish to enter my service?\" asked the king: and they answered, \"Yes.\" So they made a covenant with each other—the king to place them in a post of honour and trust, and they to serve him faithfully, and to name their own reward. Whereupon the brothers entered the ranks of the king's body-guard."
+  },
+  {
+   "type": "p",
+   "text": "They remained in the palace for a month and a fortnight, looking round and carefully noting everything; but they saw nothing of the chariot and steeds. At the end of that time Brian said to his brothers—"
+  },
+  {
+   "type": "p",
+   "text": "\"It fares ill with us here, my brothers; for we know nothing of the chariot and steeds at this hour, more than when we first came hither.\""
+  },
+  {
+   "type": "p",
+   "text": "The others said this was quite true, and asked if he meant to do anything in the matter."
+  },
+  {
+   "type": "p",
+   "text": "\"This is what I think we should do,\" answered Brian. \"Let us put on our travelling array, and take our arms of valour in our hands; and in this fashion let us go before the king, and tell him that unless he shows us the chariot and steeds, we shall leave his service.\""
+  },
+  {
+   "type": "p",
+   "text": "This they did without delay; and when they had come before the king, he asked them why they came to his presence so armed and in travelling gear."
+  },
+  {
+   "type": "p",
+   "text": "\"We will tell thee of that, O king,\" answered Brian. \"We are valiant soldiers from Erin, and into whatsoever lands we have travelled, we have been trusted with the secret counsels of the kings who have taken us into their service; and we have been made the guardians of their rarest jewels and of all their gifted arms of victory. But as to thee, O king, thou hast not so treated us since we came hither; for thou hast a chariot and two steeds, which exceed all the chariots and steeds in the world, and yet we have never seen them.\""
+  },
+  {
+   "type": "p",
+   "text": "\"A small thing it is that has caused you to prepare for departure,\" said the king; \"and there is, moreover, no need that you should leave my service; for I would have shown you those steeds the day you came, had I only known that you wished it. But ye shall see them now; for I have never had in my service soldiers from a distant land, in whom I and my people have placed greater trust than we have placed in you.\""
+  },
+  {
+   "type": "p",
+   "text": "He then sent for the steeds, and had them yoked to the chariot—those steeds that were as fleet as the clear, cold wind of March, and which travelled with equal speed on land and on sea."
+  },
+  {
+   "type": "p",
+   "text": "Brian, viewing them narrowly, said aloud, \"Hear me, O king of Sicily. We have served thee faithfully up to this time; and now we wish to name our own pay, according to the covenant thou hast made with us. The guerdon we demand is yonder chariot and steeds; these we mean to have, and we shall ask for nothing more.\""
+  },
+  {
+   "type": "p",
+   "text": "But the king, in great wrath, said, \"Foolish and luckless men! Ye shall certainly die because you have dared to ask for my steeds!\""
+  },
+  {
+   "type": "p",
+   "text": "And the king and his warriors drew their swords, and rushed towards the sons of Turenn to seize them."
+  },
+  {
+   "type": "p",
+   "text": "They, on the other hand, were not taken unaware; and a sore fight began. And Brian, watching his opportunity, sprang with a sudden bound into the chariot, and, dashing the charioteer to the ground, he seized the reins in his left hand; then, raising the venomed spear of Pezar in his right, he smote the king with its fiery point in the breast, so that he fell dead. And the three brothers dealt red slaughter among the king's guards, till those who were not slain scattered and fled in all directions. So they fared in this undertaking."
+  },
+  {
+   "type": "heading",
+   "text": "The Seven Pigs of the King of the Golden Pillars"
+  },
+  {
+   "type": "p",
+   "text": "After resting till their wounds were healed, Ur and Urcar asked where they should go next."
+  },
+  {
+   "type": "p",
+   "text": "\"We shall go,\" said Brian, \"to Asal, the king of the Golden Pillars, to ask him for his seven pigs; for this is the next part of the Ildana's eric-fine.\""
+  },
+  {
+   "type": "p",
+   "text": "So they set out; and the canoe brought them straightway to the land of the Golden Pillars, without delay and without mishap. As they drew nigh to the harbour, they saw the shore lined with men all armed. For the fame of the deeds of these great champions had begun to be noised through many lands; how they had been forced to leave Erin by the hard sentence of the Ildana; and how they were seeking and bearing away the most precious and gifted jewels of the world to pay the fine. Wherefore the king of the Golden Pillars had armed his people, and had sent them to guard the harbours."
+  },
+  {
+   "type": "p",
+   "text": "The king himself came down to the beach to meet them. As soon as they had come within speaking distance, he bade them stay their course; and then he asked them, in an angry and chiding tone, if they were the three champions from Erin, who had overcome and slain so many kings."
+  },
+  {
+   "type": "p",
+   "text": "Brian answered, \"Be not displeased with us, O king for in all this matter we are not to blame. The Ildana has demanded a fine which we perforce must pay; for we have promised, and the Dedannans are our guarantee. If the kings to whom he sent us had given us peaceably the precious things we demanded, we would gladly have departed in peace; but as they did not, we fought against them, unwillingly indeed and overthrew them; for no one has as yet been able to withstand us.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Tell me now,\" said the king, \"what has brought you to my country?\""
+  },
+  {
+   "type": "p",
+   "text": "\"We have come for thy seven pigs,\" answered Brian; \"for they are a part of the fine.\""
+  },
+  {
+   "type": "p",
+   "text": "\"And in what manner do you think ye shall get them?\" asked the king."
+  },
+  {
+   "type": "p",
+   "text": "Brian answered, \"Thou hast heard, O king, how the Ildana has brought us to these straits, and we must pay him the fine, every jot, or else we shall die at the hands of our people. Thou, perchance, wilt have pity on our hardships, and give us these pigs in token of kindness and friendship, and if so we shall be thankful; but if not, then we will fight for them, and either bring them away by force, after slaying thee and thy people or fall ourselves in the attempt.\""
+  },
+  {
+   "type": "p",
+   "text": "Hearing this, the king and his people went into council; and after debating the matter at full length, they thought it best to give the pigs peaceably, seeing that no king, however powerful, had as yet been able to withstand the sons of Turenn."
+  },
+  {
+   "type": "p",
+   "text": "The three champions wondered greatly when this was told to them; for in no other country had they been able to get any part of the fine without battle and hardship, and without leaving much of their blood behind them. So they were now very glad; and thanked Asal and his people."
+  },
+  {
+   "type": "p",
+   "text": "The king then brought them to his palace, and gave them a kind welcome; and they were supplied with food and drink to their hearts' desire, and slept on soft, downy beds. So they rested after all their weary journeys and toils."
+  },
+  {
+   "type": "p",
+   "text": "When they arose next morning, they were brought to the king's presence, and the pigs were given to them; and Brian addressed the king in these words—"
+  },
+  {
+   "type": "verse",
+   "text": "The prizes we've brought to this land,\nWe have won them in conflict and blood;\nBut the gift we have sought at thy hand,\nThat gift thou hast freely bestowed."
+  },
+  {
+   "type": "verse",
+   "text": "The red spear rewarded our deeds,\nWhen Pezar the mighty we slew;\nAnd the fight for the chariot and steeds,\nAh, long shall the Sigarites rue!"
+  },
+  {
+   "type": "verse",
+   "text": "Great Asal! in happier days,\nWhen our deeds bring us glory and fame,\nGreen Erin shall echo thy praise,\nAnd her poets shall honour thy name!"
+  },
+  {
+   "type": "heading",
+   "text": "The Hound-Whelp of the King of Iroda"
+  },
+  {
+   "type": "p",
+   "text": "\"Whither do you go next, ye sons of Turenn?\" asked Asal."
+  },
+  {
+   "type": "p",
+   "text": "\"We go,\" answered Brian, \"to Iroda, for Failinis, the king's hound-whelp.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Then grant me this boon,\" said the king, \"namely, that ye let me go with you to Iroda. For my daughter is the king's wife; and I will try to prevail on him that he give you the hound-whelp freely and without battle.\""
+  },
+  {
+   "type": "p",
+   "text": "This they agreed to. But the king wished that they should go in his own ship; so it was got ready, and they went on board with all their wealth; and it is not told how they fared till they reached the borders of Iroda. The shores were covered with fierce, armed men, who were there by orders of the king to guard the harbour; and these men shouted at the crew, warning them to come no farther; for they knew the sons of Turenn, and well they knew what they came for."
+  },
+  {
+   "type": "p",
+   "text": "Asal then requested the three champions to remain where they were for a time, while he went on shore to talk with his son-in-law. Accordingly he landed, and went to the king, who, after he had welcomed him, asked what had brought the sons of Turenn to his country."
+  },
+  {
+   "type": "p",
+   "text": "\"They have come for your hound-whelp,\" answered Asal."
+  },
+  {
+   "type": "p",
+   "text": "And the king of Iroda said, \"It was an evil counsel you followed, when you came with these men to my shores; for to no three champions in the world have the gods given such strength or such good luck as that they can get my hound-whelp, either by force or by my own free will.\""
+  },
+  {
+   "type": "p",
+   "text": "\"It will be unwise to refuse them,\" replied Asal. \"They have overpowered and slain many great kings; for they have gifted arms that no warrior, however powerful, can withstand; and behold, I have come hither to tell you what manner of men these are, that you might be advised by me, and give them your hound-whelp in peace.\""
+  },
+  {
+   "type": "p",
+   "text": "So he pressed him earnestly; but his words were only thrown away on the king of Iroda, who spoke scornfully of the sons of Turenn, and refused Asal's request with wrathful words."
+  },
+  {
+   "type": "p",
+   "text": "Asal, much troubled at this, went and told the sons of Turenn how matters stood. And they, having without delay put on their battle-dress, and taken their arms in their hands, challenged the king of Iroda and his people. Then began a very fierce and bloody battle; for though nothing could stand before the sons of Turenn, yet the warriors of Iroda were many and very brave. So they fought till the two younger brothers became separated from Brian, and he was quite surrounded. But as he wielded the dreadful spear of Pezar, with its blazing, fiery point, his enemies fell back dismayed, and the ranks were broken before him, so that those who crossed his path stood in a gap of danger."
+  },
+  {
+   "type": "p",
+   "text": "At length he espied the king of Iroda, where he fought hedged round by spears; and he rushed through the thick of the battle straight towards him, striking down spears and swords and men as he went. And now these two valiant warriors fought hand to hand a stout and watchful and fierce battle—for the others fell back by the king's command; and it was long before any advantage was gained on either side. But though to those who looked on, Brian seemed the more wrathful of the two, yet he held back his hand, so as not to slay his foe; and this it was, indeed, that prolonged the combat, for he sought to tire out the king. At length, watching his opportunity, Brian closed suddenly, and, seizing the king in his strong arms, he lifted him clean off the ground, and bore him to where Asal stood. Then, setting him down, he said—"
+  },
+  {
+   "type": "p",
+   "text": "\"Behold thy son-in-law; it would have been easier to kill him three times over than to bring him to thee once!\""
+  },
+  {
+   "type": "p",
+   "text": "When the people saw their king a prisoner, they ceased fighting; and the end of all was that peace was made, and the hound-whelp was given over to the sons of Turenn. Then they took their leave, and left the shores of Iroda in friendship with the king and with Asal his father-in-law."
+  },
+  {
+   "type": "heading",
+   "text": "Return of the Sons of Turenn, with Part of the Eric-Fine"
+  },
+  {
+   "type": "p",
+   "text": "Now we shall speak of Luga of the Long Arms. It was revealed to him that the sons of Turenn had obtained all those parts of the fine which he wanted for the battle of Moytura; but that they had not yet got the cooking-spit, or given the three shouts on Midkena's Hill. So he sent after them a druidical spell, which, falling on them soon after they had left Iroda, caused them to forget the remaining part of the fine, and filled them with a longing desire to return to their native home. Accordingly they went on board their canoe, bringing with them every part of the fine they had gotten already; and the canoe glided swiftly over the waves to Erin."
+  },
+  {
+   "type": "p",
+   "text": "At this time Luga was with the king at a fair-meeting on the plain before Tara; and it was made known to him secretly that the sons of Turenn had landed at Bruga of the Boyne. He left the assembly anon, telling no one; and he went direct to Caher-Crofinn at Tara, and, closing the gates and doors after him, he put on his battle array, namely, the smooth Greek armour of Mannanan Mac Lir, and the enchanted mantle of the daughter of Flidas."
+  },
+  {
+   "type": "p",
+   "text": "Soon after, the sons of Turenn were seen approaching; and as they came forward, the multitude flocked out to meet them, gazing with wonder at the many marvellous things they had brought. When the three champions had come to the royal tent, they were joyfully welcomed by the king and by the Dedannans in general; and then the king spoke kindly to them, and asked if they had brought the eric-fine."
+  },
+  {
+   "type": "p",
+   "text": "\"We have obtained it after much hardship and danger,\" they replied; \"and now we wish to know where Luga is, that we may hand it over to him.\""
+  },
+  {
+   "type": "p",
+   "text": "The king told them that Luga was at the assembly; but when they sent to search for him, he was nowhere to be found."
+  },
+  {
+   "type": "p",
+   "text": "\"I can tell where he is,\" said Brian. \"It has been made known to him that we have arrived in Erin, bringing with us gifted arms that none can withstand; and he has gone to one of the strongholds of Tara, to avoid us, fearing we might use these venomed weapons against himself.\""
+  },
+  {
+   "type": "p",
+   "text": "Messengers were then sent to Luga to tell him that the sons of Turenn had arrived, and to ask him to come forth to the meeting, that they might give him the fine."
+  },
+  {
+   "type": "p",
+   "text": "But he answered, \"I will not come to the meeting yet; but go ye back, and tell the sons of Turenn to give the fine to the king for me.\""
+  },
+  {
+   "type": "p",
+   "text": "The messengers returned with this answer; and the sons of Turenn gave to the king for Luga all the wonderful things they had brought, keeping, however their own arms; after which the whole company went into the palace."
+  },
+  {
+   "type": "p",
+   "text": "When Luga was told how matters stood, he came to where the king and all the others were; and the king gave him the fine. Then Luga, looking narrowly at everything that had been given up to him, said—"
+  },
+  {
+   "type": "p",
+   "text": "\"Here, indeed, is an eric enough to pay for any one that ever yet was slain, or that shall be slain to the end of time. But yet there is one kind of fine that must be paid to the last farthing, namely, an eric-fine; for of this it is not lawful to hold back even the smallest part. And moreover, O king, thou and the Dedannans whom I see here present, are guarantees for the full payment of my eric-fine. Now I see here the three apples, and the skin of the pig, and the fiery-headed spear, and the chariot and steeds, and the seven pigs, and the hound-whelp; but where, ye sons of Turenn, is the cooking-spit of the women of Fincara? And I have not heard that ye have given the three shouts on Midkena's Hill.\""
+  },
+  {
+   "type": "p",
+   "text": "On hearing this, the sons of Turenn fell into a faintness like the faintness before death. And when they had recovered they answered not one word, but left the assembly and went to their father's house. To him and their sister Ethnea they told all that had befallen them; and how they should set out on another quest, as they had forgotten part of the eric-fine through the spells of Luga."
+  },
+  {
+   "type": "p",
+   "text": "At this Turenn was overwhelmed with grief; and Ethnea wept in great fear and sorrow. And so they passed that night. Next day, they went down to the shore, and their father and sister went with them to their ship, and bade them farewell."
+  },
+  {
+   "type": "heading",
+   "text": "The Cooking-Spit of the Women of Fincara"
+  },
+  {
+   "type": "p",
+   "text": "Then they went on board their ship—for they had Mannanan's canoe no longer—and they sailed forth on the green billowy sea to search for the Island of Fincara. For a whole quarter of a year they wandered hither and thither over the wide ocean, landing on many shores and inquiring of all they met; yet they were not able to get the least tidings of the island."
+  },
+  {
+   "type": "p",
+   "text": "At last, they came across one very old man, who told them that he had heard of the Island of Fincara in the days of his youth; and that it lay not on the surface, but down deep in the waters, for it was sunk beneath the waves by a spell in times long past."
+  },
+  {
+   "type": "p",
+   "text": "Then Brian put on his water-dress, with his helmet of transparent crystal on his head, and, telling his brothers to await his return, he leaped over the side of the ship, and sank at once out of sight. He walked about for a fortnight down in the green salt sea, seeking for the Island of Fincara; and at last he found it."
+  },
+  {
+   "type": "p",
+   "text": "There were many houses on the island; but one he saw larger and grander than the rest. To this he straightway bent his steps, and found it open. On entering, he saw in one large room a great number of beautiful ladies, busily employed at all sorts of embroidery and needlework; and in their midst was a long, bright cooking-spit lying on a table."
+  },
+  {
+   "type": "p",
+   "text": "Without speaking a word, he walked straight to the table, and, seizing the spit in one hand, he turned round and walked towards the door. The women neither spoke nor moved, but each had her eyes fixed on him from the moment he entered, admiring his manly form, his beauty, and his fearlessness; but when they saw him about to walk off with the spit, they all burst out laughing; and one, who seemed chief among them, said—"
+  },
+  {
+   "type": "p",
+   "text": "\"Thou hast attempted a bold deed, O son of Turenn! Know that there are thrice fifty warlike women here, and that the weakest among us would be able of herself to prevent thee taking this cooking-spit, even if thy two brothers were here to help thee. But thou art a brave and courageous champion, else thou wouldst not have attempted, unaided, to take it by force, knowing the danger. And for thy boldness and valour, and for the comeliness of thy person, we will let thee take this one, for we have many others besides.\""
+  },
+  {
+   "type": "p",
+   "text": "So Brian, after thanking them, brought away the spit joyfully, and sought his ship."
+  },
+  {
+   "type": "p",
+   "text": "Ur and Urcar waited for Brian in the same spot the whole time, and when he came not, they began to fear that he would return no more. With these thoughts they were at last about to leave the place, when they saw the glitter of his crystal helmet down deep in the water, and immediately after he came to the surface with the cooking-spit in his hand. They brought him on board, and now all felt very joyful and courageous of heart."
+  },
+  {
+   "type": "heading",
+   "text": "The Three Shouts on Midkena's Hill"
+  },
+  {
+   "type": "p",
+   "text": "The three brothers next sailed away towards the north of Lochlann, and never abated speed till they moored their vessel near the Hill of Midkena, which rose smooth and green over the sea-shore. When Midkena saw them approaching, he knew them at once, and, coming towards them armed for battle, he addressed them aloud—"
+  },
+  {
+   "type": "p",
+   "text": "\"You it was that slew Kian, my friend and pupil; and now come forth and fight, for you shall not leave these shores till you answer for his death.\""
+  },
+  {
+   "type": "p",
+   "text": "Brian, in no degree daunted by the fierce look and threatening speech of Midkena, sprang ashore, and the two heroes attacked each other with great fury. When the three sons of Midkena heard the clash of arms, they came forth, and, seeing how matters stood, they rushed down to aid their father; but just as they arrived at the shore, Midkena fell dead, cloven through helmet and head by the heavy sword of Brian."
+  },
+  {
+   "type": "p",
+   "text": "And now a fight began, three on each side; and if men were afar off, even in the land of Hisberna, in the east of the world, they would willingly come the whole way to see this battle, so fierce and haughty were the minds of those mighty champions, so skilful and active were they in the use of their weapons, so numerous and heavy were their blows, and so long did they continue to fight without either party giving way. The three sons of Turenn were at last dreadfully wounded—wounded almost to death. But neither fear nor weakness did this cause them, for their valour and their fury arose all the more for their wounds, and with one mighty onset they drove their spears through the bodies of their foes; and the sons of Midkena fell before them into the long sleep of death."
+  },
+  {
+   "type": "p",
+   "text": "But now that the fight was ended, and the battle-fury of the victors had passed off—now it was that they began to feel the effects of their wounds. They threw themselves full length on the blood-stained sward, and long they remained without moving or speaking a word, as if they were dead; and a heavy curtain of darkness fell over their eyes."
+  },
+  {
+   "type": "p",
+   "text": "At last Brian, raising his head, spoke to his brothers to know if they lived, and when they answered him feebly, he said—"
+  },
+  {
+   "type": "p",
+   "text": "\"My dear brothers, let us now arise and give the three shouts on the hill while there is time, for I feel the signs of death.\""
+  },
+  {
+   "type": "p",
+   "text": "But they were not able to rise."
+  },
+  {
+   "type": "p",
+   "text": "Then Brian, gathering all his remaining strength, stood up and lifted one with each hand, while his own blood flowed plentifully; and then they raised three feeble shouts on Midkena's Hill."
+  },
+  {
+   "type": "heading",
+   "text": "Return and Death of the Sons of Turenn"
+  },
+  {
+   "type": "p",
+   "text": "Making no further delay, he led them to their ship, and they set sail for Erin. While they were yet far off, Brian, gazing over the sea towards the west, suddenly cried out—"
+  },
+  {
+   "type": "p",
+   "text": "\"Lo, I see Ben Edar yonder, rising over the waters; and I see also Dun Turenn farther towards the north.\""
+  },
+  {
+   "type": "p",
+   "text": "And Ur answered from where he reclined with Urcar on the deck, \"If we could but get one sight of Ben Edar methinks we should regain our health and strength; and as thou lovest us, and as thou lovest thy own renown, my brother, come and raise our heads and rest them on thy breast, that we may see Erin once more. After that, we shall welcome either life or death.\""
+  },
+  {
+   "type": "verse",
+   "text": "Ur."
+  },
+  {
+   "type": "verse",
+   "text": "O brother, torch of valour, strong of hand,\nCome, place our weary heads upon thy breast;\nAnd let us look upon our native land,\nBefore we sink to everlasting rest!"
+  },
+  {
+   "type": "verse",
+   "text": "Brian."
+  },
+  {
+   "type": "verse",
+   "text": "Belovèd sons of Turenn, woe is me!\nMy wounds are deep, my day of strength is past;\nYet not for this I grieve, but that I see\nYour lives, my noble brothers, ebbing fast!"
+  },
+  {
+   "type": "verse",
+   "text": "Ur."
+  },
+  {
+   "type": "verse",
+   "text": "Would we could give our lives to purchase thine;\nAh, gladly would we die to ease thy pain!\nFor art thou not the pride of Turenn's line,\nThe noblest champion of green Erin's plain?"
+  },
+  {
+   "type": "verse",
+   "text": "Brian."
+  },
+  {
+   "type": "verse",
+   "text": "That mighty Dannan healer, Dianket;\nOr Midac, who excelled his sire in skill;\nThe maiden-leech, Armedda, mightier yet,\nWho knew the herbs to cure, the herbs to kill:"
+  },
+  {
+   "type": "verse",
+   "text": "Oh, were they here; or had we now at hand\nThose gifted apples from the distant East;\nThen might we hope to reach our native land,\nAnd live again in joy and peace and rest!"
+  },
+  {
+   "type": "verse",
+   "text": "Ur."
+  },
+  {
+   "type": "verse",
+   "text": "Brother, methinks could we but see once more\nBen Edar's slopes, or Bregia's dewy plain,\nTailltenn, or Bruga's mystic mansion hoar,\nOur blood would course in health and strength again."
+  },
+  {
+   "type": "verse",
+   "text": "Or let us once behold our father's home,\nOr winding Liffey down by Ahaclee,\nOld Frevan's hill, or Tara's regal dome;\nThen welcome death or life, whiche'er may be!"
+  },
+  {
+   "type": "p",
+   "text": "So Brian raised their heads and rested them on his breast, and they gazed on the rocky cliffs and green slopes of Ben Edar while the ship wafted slowly towards land."
+  },
+  {
+   "type": "p",
+   "text": "Soon after this they landed on the north side of Ben Edar, from which they made their way slowly to Dun Turenn. And when they had reached the green in front of the house, Brian cried out—"
+  },
+  {
+   "type": "p",
+   "text": "\"Father, dear father, come forth to thy children!\""
+  },
+  {
+   "type": "p",
+   "text": "Turenn came forth and saw his sons all wounded and pale and feeble."
+  },
+  {
+   "type": "p",
+   "text": "And Brian said, \"Go, beloved father—go quick to Tara, and quickly return. Bring this cooking-spit to Luga, and tell him that we have given the three shouts on Midkena's Hill. Say that we have now paid the full eric-fine, and bring back from him the apples of the Garden of Hisberna, to heal our wounds, else we die.\""
+  },
+  {
+   "type": "verse",
+   "text": "Brian."
+  },
+  {
+   "type": "verse",
+   "text": "Father, our wounds are deadly; nought can save\nThy children's lives but Luga's friendly hand:\nGo, seek him, father—fare thee fast—and crave\nThe healing apples from Hisberna's land!"
+  },
+  {
+   "type": "verse",
+   "text": "Turenn."
+  },
+  {
+   "type": "verse",
+   "text": "In vain, my sons, ye seek to fly your doom;\nThe stern Ildana's mind too well I know:\nAlas! far liefer would he see your tomb,\nThan all the treasures all this world could show!"
+  },
+  {
+   "type": "verse",
+   "text": "Brian."
+  },
+  {
+   "type": "verse",
+   "text": "But he is just; and though his sire we slew,\nHave we not paid full eric for the deed?\nThe great Ildana is our kinsman too,\nAnd will relent in this our time of need."
+  },
+  {
+   "type": "verse",
+   "text": "Then go, my father, thou art swift and strong;\nSpeed like the wind—why linger here to mourn?\nGo straight to Luga's home, nor tarry long;\nOr, father, we shall die ere thou return!"
+  },
+  {
+   "type": "p",
+   "text": "Turenn set out and travelled like the wind till he reached Tara, where he found Luga."
+  },
+  {
+   "type": "p",
+   "text": "He gave him the cooking-spit, and said, \"Behold, my three sons have now paid thee the full eric-fine, for they have given the three shouts on Midkena's Hill. But they are wounded even unto death; and now give me, I pray thee, the apples from the Garden of Hisberna, to cure them, else they die.\""
+  },
+  {
+   "type": "p",
+   "text": "But Luga refused, and turned away from Turenn."
+  },
+  {
+   "type": "p",
+   "text": "Turenn hastened back to his sons with a sorrowful heart, and told them that he had failed to get the apples."
+  },
+  {
+   "type": "p",
+   "text": "Then Brian said, \"Take me with thee to Tara. I will see him, and perchance he may have pity on us, and give us the apples.\""
+  },
+  {
+   "type": "p",
+   "text": "And it was done so. But when Brian begged for the apples, Luga said—"
+  },
+  {
+   "type": "p",
+   "text": "\"I will not give them to thee. If thou shouldst offer me the full of the whole earth of gold, I would not give them to thee. Thou and thy brothers committed a wicked and pitiless deed when you slew my father. For that deed you must suffer, and with nothing short of your death shall I be content.\""
+  },
+  {
+   "type": "verse",
+   "text": "For the blood that you spilled,\nFor the hero you killed—\nThe deed is avenged, and your doom is fulfilled!"
+  },
+  {
+   "type": "p",
+   "text": "Brian turned away and went back to his brothers, and, lying down between them, his life departed; and his brothers died at the same moment."
+  },
+  {
+   "type": "p",
+   "text": "Then their father and their sister stood hand in hand over their bodies, lamenting. And Turenn spoke this lay—"
+  },
+  {
+   "type": "verse",
+   "text": "Oh, pulseless is my heart this woful hour,\nMy strength is gone, my joy for ever fled;\nThree noble champions, Erin's pride and power,\nMy three fair youths, my children, cold and dead!"
+  },
+  {
+   "type": "verse",
+   "text": "Mild Ur, the fair-haired; Urcar, straight and tall;\nThe kings of Banba worthy both to be;\nAnd Brian, bravest, noblest, best of all,\nWho conquered many lands beyond the sea:"
+  },
+  {
+   "type": "verse",
+   "text": "Lo, I am Turenn, your unhappy sire,\nMourning with feeble voice above your grave;\nNo life, no wealth, no honours I desire;\nA place beside my sons is all I crave!"
+  },
+  {
+   "type": "p",
+   "text": "After this Turenn and Ethnea fell on the bodies of the three young heroes and died."
+  },
+  {
+   "type": "p",
+   "text": "And they were all buried in one grave."
+  },
+  {
+   "type": "p",
+   "text": "This is the story of the Fate of the Children of Turenn."
+  }
+ ],
+ "workId": "irish-children-of-turenn",
+ "wordCount": 14256,
+ "readingMinutes": 79,
+ "readingLevel": {
+  "fkGrade": 9.8,
+  "avgSentenceWords": 27.0,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-irish--the-sons-of-turenn"
+}
