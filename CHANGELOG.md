@@ -7,6 +7,20 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 8 (data only): the Irish shelf. From P. W. Joyce's _Old Celtic Romances_ (1879),
+  a new `joyce-celtic-romances` collection: the Children of Lir, the Children of Turenn, the Voyage
+  of Maildun, the Pursuit of Dermat and Grania, Oisin in Tirnanoge and the Sons of Usna (Turenn,
+  Dermat and Grania and Usna are `mature-themes`). From James Stephens's _Irish Fairy Tales_
+  (1920): Tuan mac Cairill and the Boyhood of Fionn (with the Salmon of Knowledge). From Eleanor
+  Hull's _Cuchulain, the Hound of Ulster_ (1909): how Cuchulain got his name, and the Cattle Raid
+  of Cooley in four chapters with bridging notes (`mature-themes`). William Carleton's "A Legend of
+  Knockmany" from Yeats's _Fairy and Folk Tales of the Irish Peasantry_ (1888), labelled as a later
+  folk legend. All eleven read at advanced level, so eighteen retellings make up the new _Irish
+  Legends, Simply Told_ (grade 3.0–4.8): one for each original, plus seven with no public-domain
+  text available here, retold without an original like Rübezahl: Lugh of all the skills (the four
+  treasures, Nuada's silver hand, Lugh at the door of Tara, Balor), the Dagda's harp, Boann and
+  the Boyne, Midir and Etain, the Voyage of Bran, Cuchulain and the beheading game, and Saint
+  Brendan's voyage. New tool `extract_irish.py`.
 - Mythology, part 7 (data only): the English and Anglo-Saxon shelf. From Bulfinch's _The Age of
   Chivalry_ (1858), a new `bulfinch-chivalry` collection: Brutus and the founding of Britain, and
   King Leir. Mabel Quiller-Couch's "How Corineus Fought the Chief of the Giants" from _Cornwall's
@@ -138,7 +152,7 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
-- The text-only offline download is now advertised as about 7 MB (38 MB with illustrations), to
+- The text-only offline download is now advertised as about 9 MB (40 MB with illustrations), to
   match the larger compendium.
 - Bulfinch footnotes inside a paragraph now follow it as `note` blocks instead of sitting
   mid-sentence in brackets, and cross-references to the book's appendix are dropped.
@@ -171,6 +185,8 @@ versioning: [SemVer](https://semver.org/).
 
 ### Fixed
 
+- Retellings of stories from an anthology credit the book and its editor instead of "Various's"
+  (Lang's "Story of Sigurd").
 - Escape didn't close the highlight sheet unless focus was inside it, so it could stay open behind
   the Notes panel.
 - Keyboard focus rings on story rows were clipped.

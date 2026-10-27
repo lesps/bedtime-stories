@@ -1,0 +1,20 @@
+---
+title: Boann and the River Boyne
+basedOn: the Dindshenchas, the medieval Irish lore of how places got their names
+workId: irish-boann
+order: 6
+---
+
+In Ireland, people used to tell a story about how every hill and lake and river got its name. This is the story of the River Boyne.
+
+Long ago, when the magical Tuatha Dé Danann lived in Ireland, there was a lord called Nechtan. Inside his fairy hill there was a secret well. Around it grew hazel trees, and their nuts fell into the water. It was a well of wisdom and of great power. But it was also very dangerous. Nobody was allowed to go near it except Nechtan himself and his three cupbearers. Anyone else who went to the well and looked into it would be blinded.
+
+Nechtan's wife was called Boann. She was proud, and she did not believe that the well could hurt her. "My power is as great as the power of any well," she said. "I will go and see for myself."
+
+So one day she went to the secret well. And to show that she was not afraid of it, she walked around it three times, the wrong way round, against the path of the sun.
+
+At once the water of the well rose up. Three great waves burst out of it and broke over Boann. She turned and ran. And the water poured out of the well and rushed after her. Out of the fairy hill she ran, across the fields, over the plains, and still the water came roaring after her, making a deep bed for itself in the land as it went. She ran all the way to the sea. And there, at the very edge of the sea, the water caught her and swept her away, and she was never seen again.
+
+But the water never went back into the well. It went on flowing, from the secret well inside Nechtan's hill, all the way across Ireland to the sea, just as it had followed Boann. And it is flowing still. That is the River Boyne, and it was named after her.
+
+Many famous places stand beside the River Boyne. There is Brugh na Bóinne, where Angus, the son of the Dagda, had his great house. And the hazelnuts of wisdom still came down the river from the secret well. That is why, long afterwards, the poet Finegas sat on the bank of the Boyne for seven years, fishing for the Salmon of Knowledge.

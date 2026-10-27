@@ -90,6 +90,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-irish": {
+        "id": "myths-irish",
+        "title": "Irish Legends, Simply Told",
+        "author": "Traditional (Irish)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
 }
 
 
@@ -150,6 +161,11 @@ def main():
             # The collection title names the poets; credit the translator instead.
             translator = coll["contributor"].removeprefix("Translated by ")
             credit = f"“{orig['title']}” in {coll['title']}, translated by {translator}"
+        elif coll["author"] == "Various":
+            # An anthology: name the book and its editor; the original's own note names the author.
+            credit = f"“{orig['title']}” in {coll['title']}"
+            if (coll.get("contributor") or "").startswith("Edited by "):
+                credit += ", edited by " + coll["contributor"].removeprefix("Edited by ")
         if coll.get("firstPublished"):
             credit += f" ({coll['firstPublished']})"
         note = f"A simplified retelling of {credit}. The original is listed under Other versions."

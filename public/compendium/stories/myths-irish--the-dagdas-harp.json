@@ -1,0 +1,90 @@
+{
+ "id": "myths-irish--the-dagdas-harp",
+ "collectionId": "myths-irish",
+ "order": 3,
+ "title": "The Dagda's Harp",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The Dagda was the great father of the Tuatha Dé Danann, the magical people who once ruled Ireland. His name means \"the good god\". He was enormous and strong, and very wise. He had a cauldron that never ran out of food. He had a great club. And he had a magic harp, made of oak, which would play only for him."
+  },
+  {
+   "type": "p",
+   "text": "Before the second great battle of Moytura, when the Tuatha Dé Danann were getting ready to fight the fierce Fomorians, Lugh sent the Dagda to visit the Fomorian camp, to find out what they were planning and to keep them talking while the Tuatha Dé Danann got ready."
+  },
+  {
+   "type": "p",
+   "text": "Now everybody knew that the Dagda loved porridge. So the Fomorians decided to play a trick on him. They took their king's cauldron, which was as deep as five men's fists, and filled it with eighty gallons of milk, and the same of oatmeal, and lots of fat. They put whole goats and sheep and pigs into it, and boiled it all up together. Then they dug a big hole in the ground and poured it all in."
+  },
+  {
+   "type": "p",
+   "text": "\"Eat it all up,\" they told the Dagda, \"or we'll kill you. We don't want you going home and telling everyone that the Fomorians didn't feed you.\""
+  },
+  {
+   "type": "p",
+   "text": "The Dagda took a ladle so big that a man and a woman could have lain down together in it. And he began to eat. He ate, and he ate, and he ate, until the porridge was all gone. Then he scraped up the last bits from the gravel at the bottom of the hole with his finger. And then he lay down and went to sleep, with his belly as big as a cauldron. And the Fomorians laughed and laughed at him."
+  },
+  {
+   "type": "p",
+   "text": "But the Dagda got up and went home in the end, and in the great battle the Tuatha Dé Danann beat the Fomorians and drove them back to the sea."
+  },
+  {
+   "type": "p",
+   "text": "As the Fomorians fled, though, they carried off something precious: the Dagda's harp."
+  },
+  {
+   "type": "p",
+   "text": "So the Dagda, and Lugh, and the champion Ogma went after them. They followed them all the way to the great hall where the Fomorian chiefs were feasting. And there, hanging on the wall, was the Dagda's harp."
+  },
+  {
+   "type": "p",
+   "text": "The Fomorians thought it was theirs now. But the Dagda had put his music into that harp, so that it would never play for anyone until he called it. And now he called it:"
+  },
+  {
+   "type": "p",
+   "text": "\"Come, Oak of Two Greens! Come, Four-Cornered Music! Come, summer! Come, winter! Mouths of harps and bags and pipes!\""
+  },
+  {
+   "type": "p",
+   "text": "At once the harp jumped down from the wall and came flying across the hall, knocking down everyone who got in its way, and landed in the Dagda's hands."
+  },
+  {
+   "type": "p",
+   "text": "Then the Dagda played the three kinds of music that every great harper knows."
+  },
+  {
+   "type": "p",
+   "text": "First he played the music of sorrow. And all the Fomorian women began to weep."
+  },
+  {
+   "type": "p",
+   "text": "Then he played the music of laughter. And all the Fomorian women and children began to laugh."
+  },
+  {
+   "type": "p",
+   "text": "And last of all he played the music of sleep. And every single Fomorian in the hall closed his eyes and fell fast asleep."
+  },
+  {
+   "type": "p",
+   "text": "Then the Dagda and Lugh and Ogma walked quietly out of the hall, past all the sleeping Fomorians, and went home, with the Dagda's harp safe in his arms. And not one of the Fomorians woke up to stop them."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Second Battle of Moytura (Cath Maige Tuired), a medieval Irish book that preserves much older stories. No public-domain text of this legend could be used, so there is no original to compare it with."
+  }
+ ],
+ "workId": "irish-dagda-harp",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "wordCount": 612,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 4.8,
+  "avgSentenceWords": 13.6,
+  "band": "middle"
+ }
+}

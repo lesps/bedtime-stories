@@ -456,6 +456,66 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 13
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "ga",
+   "id": "joyce-celtic-romances",
+   "title": "Old Celtic Romances",
+   "author": "P. W. Joyce",
+   "contributor": "Translated from the Gaelic",
+   "firstPublished": 1879,
+   "source": "https://www.gutenberg.org/ebooks/38041",
+   "storyCount": 6
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "ga",
+   "id": "stephens-irish-fairy-tales",
+   "title": "Irish Fairy Tales",
+   "author": "James Stephens",
+   "contributor": null,
+   "firstPublished": 1920,
+   "source": "https://www.gutenberg.org/ebooks/2892",
+   "storyCount": 2
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "ga",
+   "id": "hull-cuchulain",
+   "title": "Cuchulain, the Hound of Ulster",
+   "author": "Eleanor Hull",
+   "contributor": null,
+   "firstPublished": 1909,
+   "source": "https://www.gutenberg.org/ebooks/52963",
+   "storyCount": 2
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "id": "yeats-irish-folk",
+   "title": "Fairy and Folk Tales of the Irish Peasantry",
+   "author": "Various",
+   "contributor": "Edited by W. B. Yeats",
+   "firstPublished": 1888,
+   "source": "https://www.gutenberg.org/ebooks/33887",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-irish",
+   "title": "Irish Legends, Simply Told",
+   "author": "Traditional (Irish)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 18
   }
  ],
  "stories": [
@@ -10932,7 +10992,7 @@
    "collectionId": "myths-norse",
    "order": 24,
    "title": "Sigurd and the Dragon",
-   "wordCount": 1271,
+   "wordCount": 1274,
    "readingMinutes": 7,
    "excluded": false,
    "flags": [],
@@ -11867,6 +11927,529 @@
     "band": "middle"
    },
    "adaptedFrom": "pyle-robin-hood--epilogue-the-death-of-robin-hood"
+  },
+  {
+   "id": "joyce-celtic-romances--the-fate-of-the-children-of-lir",
+   "collectionId": "joyce-celtic-romances",
+   "order": 1,
+   "title": "The Fate of the Children of Lir",
+   "wordCount": 8098,
+   "readingMinutes": 45,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-children-of-lir",
+   "readingLevel": {
+    "fkGrade": 10.4,
+    "avgSentenceWords": 28.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--the-children-of-lir"
+  },
+  {
+   "id": "joyce-celtic-romances--the-fate-of-the-children-of-turenn",
+   "collectionId": "joyce-celtic-romances",
+   "order": 2,
+   "title": "The Fate of the Children of Turenn",
+   "wordCount": 14256,
+   "readingMinutes": 79,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "irish-children-of-turenn",
+   "readingLevel": {
+    "fkGrade": 9.8,
+    "avgSentenceWords": 27.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--the-sons-of-turenn"
+  },
+  {
+   "id": "joyce-celtic-romances--the-voyage-of-maildun",
+   "collectionId": "joyce-celtic-romances",
+   "order": 3,
+   "title": "The Voyage of Maildun",
+   "wordCount": 15157,
+   "readingMinutes": 84,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-maeldun",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 27.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--the-voyage-of-maildun"
+  },
+  {
+   "id": "joyce-celtic-romances--the-pursuit-of-dermat-and-grania",
+   "collectionId": "joyce-celtic-romances",
+   "order": 4,
+   "title": "The Pursuit of Dermat and Grania",
+   "wordCount": 19309,
+   "readingMinutes": 107,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "irish-diarmuid-grainne",
+   "readingLevel": {
+    "fkGrade": 9.1,
+    "avgSentenceWords": 25.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--dermat-and-grania"
+  },
+  {
+   "id": "joyce-celtic-romances--oisin-in-tirnanoge",
+   "collectionId": "joyce-celtic-romances",
+   "order": 5,
+   "title": "Oisin in Tirnanoge",
+   "wordCount": 3758,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-oisin",
+   "readingLevel": {
+    "fkGrade": 10.2,
+    "avgSentenceWords": 28.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--oisin-in-the-land-of-youth"
+  },
+  {
+   "id": "joyce-celtic-romances--the-fate-of-the-sons-of-usna",
+   "collectionId": "joyce-celtic-romances",
+   "order": 6,
+   "title": "The Fate of the Sons of Usna",
+   "wordCount": 6222,
+   "readingMinutes": 35,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "irish-deirdre",
+   "readingLevel": {
+    "fkGrade": 11.0,
+    "avgSentenceWords": 29.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--deirdre"
+  },
+  {
+   "id": "stephens-irish-fairy-tales--the-story-of-tuan-mac-cairill",
+   "collectionId": "stephens-irish-fairy-tales",
+   "order": 1,
+   "title": "The Story of Tuan mac Cairill",
+   "wordCount": 5947,
+   "readingMinutes": 33,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-tuan",
+   "readingLevel": {
+    "fkGrade": 7.3,
+    "avgSentenceWords": 20.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--tuan-the-oldest-man-in-ireland"
+  },
+  {
+   "id": "stephens-irish-fairy-tales--the-boyhood-of-fionn",
+   "collectionId": "stephens-irish-fairy-tales",
+   "order": 2,
+   "title": "The Boyhood of Fionn",
+   "wordCount": 13112,
+   "readingMinutes": 73,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-fionn-boyhood",
+   "readingLevel": {
+    "fkGrade": 7.4,
+    "avgSentenceWords": 20.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--fionn-and-the-salmon-of-knowledge"
+  },
+  {
+   "id": "hull-cuchulain--how-cuchulain-got-his-name",
+   "collectionId": "hull-cuchulain",
+   "order": 1,
+   "title": "How Cuchulain Got His Name",
+   "wordCount": 2139,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-cuchulain-name",
+   "readingLevel": {
+    "fkGrade": 9.8,
+    "avgSentenceWords": 27.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--how-cuchulain-got-his-name"
+  },
+  {
+   "id": "hull-cuchulain--the-cattle-raid-of-cooley",
+   "collectionId": "hull-cuchulain",
+   "order": 2,
+   "title": "The Cattle Raid of Cooley",
+   "wordCount": 11267,
+   "readingMinutes": 63,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "irish-tain",
+   "readingLevel": {
+    "fkGrade": 10.4,
+    "avgSentenceWords": 28.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--the-cattle-raid-of-cooley"
+  },
+  {
+   "id": "yeats-irish-folk--a-legend-of-knockmany",
+   "collectionId": "yeats-irish-folk",
+   "order": 1,
+   "title": "A Legend of Knockmany",
+   "wordCount": 4808,
+   "readingMinutes": 27,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-fionn-causeway",
+   "readingLevel": {
+    "fkGrade": 9.2,
+    "avgSentenceWords": 24.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-irish--fin-mccool-and-the-giant"
+  },
+  {
+   "id": "myths-irish--tuan-the-oldest-man-in-ireland",
+   "collectionId": "myths-irish",
+   "order": 1,
+   "title": "Tuan, the Oldest Man in Ireland",
+   "wordCount": 1769,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-tuan",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 12.1,
+    "band": "early"
+   },
+   "adaptedFrom": "stephens-irish-fairy-tales--the-story-of-tuan-mac-cairill"
+  },
+  {
+   "id": "myths-irish--lugh-of-all-the-skills",
+   "collectionId": "myths-irish",
+   "order": 2,
+   "title": "Lugh of All the Skills",
+   "wordCount": 1422,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-moytura",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 12.0,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-irish--the-dagdas-harp",
+   "collectionId": "myths-irish",
+   "order": 3,
+   "title": "The Dagda's Harp",
+   "wordCount": 612,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-dagda-harp",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 13.6,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-irish--the-sons-of-turenn",
+   "collectionId": "myths-irish",
+   "order": 4,
+   "title": "The Sons of Turenn",
+   "wordCount": 2812,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-children-of-turenn",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 12.4,
+    "band": "early"
+   },
+   "adaptedFrom": "joyce-celtic-romances--the-fate-of-the-children-of-turenn"
+  },
+  {
+   "id": "myths-irish--the-children-of-lir",
+   "collectionId": "myths-irish",
+   "order": 5,
+   "title": "The Children of Lir",
+   "wordCount": 2160,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-children-of-lir",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 13.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "joyce-celtic-romances--the-fate-of-the-children-of-lir"
+  },
+  {
+   "id": "myths-irish--boann-and-the-river-boyne",
+   "collectionId": "myths-irish",
+   "order": 6,
+   "title": "Boann and the River Boyne",
+   "wordCount": 431,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-boann",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.2,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-irish--midir-and-etain",
+   "collectionId": "myths-irish",
+   "order": 7,
+   "title": "Midir and Etain",
+   "wordCount": 1142,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-etain",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 12.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-irish--the-voyage-of-bran",
+   "collectionId": "myths-irish",
+   "order": 8,
+   "title": "The Voyage of Bran",
+   "wordCount": 883,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-bran",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.6,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-irish--how-cuchulain-got-his-name",
+   "collectionId": "myths-irish",
+   "order": 9,
+   "title": "How Cuchulain Got His Name",
+   "wordCount": 1167,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-cuchulain-name",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 11.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "hull-cuchulain--how-cuchulain-got-his-name"
+  },
+  {
+   "id": "myths-irish--cuchulain-and-the-beheading-game",
+   "collectionId": "myths-irish",
+   "order": 10,
+   "title": "Cuchulain and the Beheading Game",
+   "wordCount": 946,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-bricriu",
+   "readingLevel": {
+    "fkGrade": 3.0,
+    "avgSentenceWords": 10.4,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-irish--the-cattle-raid-of-cooley",
+   "collectionId": "myths-irish",
+   "order": 11,
+   "title": "The Cattle Raid of Cooley",
+   "wordCount": 2046,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-tain",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 13.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "hull-cuchulain--the-cattle-raid-of-cooley"
+  },
+  {
+   "id": "myths-irish--deirdre",
+   "collectionId": "myths-irish",
+   "order": 12,
+   "title": "Deirdre",
+   "wordCount": 1808,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-deirdre",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 12.0,
+    "band": "early"
+   },
+   "adaptedFrom": "joyce-celtic-romances--the-fate-of-the-sons-of-usna"
+  },
+  {
+   "id": "myths-irish--fionn-and-the-salmon-of-knowledge",
+   "collectionId": "myths-irish",
+   "order": 13,
+   "title": "Fionn and the Salmon of Knowledge",
+   "wordCount": 2064,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-fionn-boyhood",
+   "readingLevel": {
+    "fkGrade": 3.0,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "stephens-irish-fairy-tales--the-boyhood-of-fionn"
+  },
+  {
+   "id": "myths-irish--fin-mccool-and-the-giant",
+   "collectionId": "myths-irish",
+   "order": 14,
+   "title": "Fin McCool and the Giant",
+   "wordCount": 1694,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-fionn-causeway",
+   "readingLevel": {
+    "fkGrade": 3.0,
+    "avgSentenceWords": 9.9,
+    "band": "early"
+   },
+   "adaptedFrom": "yeats-irish-folk--a-legend-of-knockmany"
+  },
+  {
+   "id": "myths-irish--dermat-and-grania",
+   "collectionId": "myths-irish",
+   "order": 15,
+   "title": "Dermat and Grania",
+   "wordCount": 2605,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-diarmuid-grainne",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.8,
+    "band": "early"
+   },
+   "adaptedFrom": "joyce-celtic-romances--the-pursuit-of-dermat-and-grania"
+  },
+  {
+   "id": "myths-irish--oisin-in-the-land-of-youth",
+   "collectionId": "myths-irish",
+   "order": 16,
+   "title": "Oisin in the Land of Youth",
+   "wordCount": 1614,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-oisin",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 13.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "joyce-celtic-romances--oisin-in-tirnanoge"
+  },
+  {
+   "id": "myths-irish--the-voyage-of-maildun",
+   "collectionId": "myths-irish",
+   "order": 17,
+   "title": "The Voyage of Maildun",
+   "wordCount": 2315,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-maeldun",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 13.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "joyce-celtic-romances--the-voyage-of-maildun"
+  },
+  {
+   "id": "myths-irish--saint-brendans-voyage",
+   "collectionId": "myths-irish",
+   "order": 18,
+   "title": "Saint Brendan's Voyage",
+   "wordCount": 1234,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "irish-brendan",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 15.0,
+    "band": "middle"
+   }
   }
  ]
 }

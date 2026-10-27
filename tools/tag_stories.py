@@ -92,6 +92,11 @@ COLLECTION_CULTURE = {
     "marshall-english-literature": "english",
     "quiller-couch-cornwall": "english",
     "myths-english": "english",
+    "joyce-celtic-romances": "irish",
+    "stephens-irish-fairy-tales": "irish",
+    "hull-cuchulain": "irish",
+    "yeats-irish-folk": "irish",
+    "myths-irish": "irish",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, and the
@@ -132,6 +137,10 @@ MYTH_COLLECTIONS = {
     "pyle-robin-hood",
     "marshall-english-literature",
     "quiller-couch-cornwall",
+    "joyce-celtic-romances",
+    "stephens-irish-fairy-tales",
+    "hull-cuchulain",
+    "myths-irish",
 }
 
 ORIGIN_CULTURE = [
@@ -337,6 +346,33 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "pyle-robin-hood--epilogue-the-death-of-robin-hood": {"add": ["kindness"], "remove": ["quests"]},
     "myths-english--the-last-arrow-of-robin-hood": {"add": ["gods-heroes", "kindness"]},
     "myths-english--saint-george-and-the-dragon": {"add": ["gods-heroes"]},
+    # Irish shelf. Carleton's Fin McCool is a folk tale, so its collection is not in
+    # MYTH_COLLECTIONS, but he is still the hero Fionn; Saint Brendan is a saint's legend.
+    "joyce-celtic-romances--the-fate-of-the-children-of-lir": {"add": ["family"]},
+    "myths-irish--the-children-of-lir": {"add": ["family"], "remove": ["royalty"]},
+    "joyce-celtic-romances--the-fate-of-the-children-of-turenn": {"add": ["magic"]},
+    "myths-irish--the-sons-of-turenn": {"add": ["quests"]},
+    "joyce-celtic-romances--the-voyage-of-maildun": {"add": ["quests", "magic", "monsters"]},
+    "myths-irish--the-voyage-of-maildun": {"add": ["quests", "magic"], "remove": ["family"]},
+    "joyce-celtic-romances--the-pursuit-of-dermat-and-grania": {"add": ["magic", "monsters"]},
+    "joyce-celtic-romances--oisin-in-tirnanoge": {"add": ["magic"], "remove": ["kindness"]},
+    "myths-irish--oisin-in-the-land-of-youth": {"add": ["magic", "quests"]},
+    "joyce-celtic-romances--the-fate-of-the-sons-of-usna": {"add": ["royalty"]},
+    "myths-irish--deirdre": {"remove": ["kindness"]},
+    "stephens-irish-fairy-tales--the-story-of-tuan-mac-cairill": {"add": ["magic", "animals", "how-things-began"]},
+    "myths-irish--tuan-the-oldest-man-in-ireland": {"add": ["magic", "animals", "how-things-began", "legends"]},
+    "stephens-irish-fairy-tales--the-boyhood-of-fionn": {"add": ["magic", "quests", "monsters"]},
+    "myths-irish--fionn-and-the-salmon-of-knowledge": {"add": ["magic", "monsters"]},
+    "hull-cuchulain--how-cuchulain-got-his-name": {"add": ["animals"], "remove": ["royalty"]},
+    "myths-irish--how-cuchulain-got-his-name": {"remove": ["royalty", "quests"]},
+    "hull-cuchulain--the-cattle-raid-of-cooley": {"add": ["animals", "greed-pride"]},
+    "yeats-irish-folk--a-legend-of-knockmany": {"add": ["tricksters", "gods-heroes"]},
+    "myths-irish--fin-mccool-and-the-giant": {"add": ["tricksters"], "remove": ["kindness"]},
+    "myths-irish--lugh-of-all-the-skills": {"add": ["magic"], "remove": ["gentle"]},
+    "myths-irish--boann-and-the-river-boyne": {"add": ["how-things-began"], "remove": ["gentle"]},
+    "myths-irish--the-voyage-of-bran": {"add": ["quests", "magic"]},
+    "myths-irish--cuchulain-and-the-beheading-game": {"add": ["wishes"]},
+    "myths-irish--saint-brendans-voyage": {"add": ["quests", "animals"], "remove": ["gods-heroes"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

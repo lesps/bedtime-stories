@@ -1,0 +1,1373 @@
+{
+ "id": "joyce-celtic-romances--the-voyage-of-maildun",
+ "collectionId": "joyce-celtic-romances",
+ "order": 3,
+ "title": "The Voyage of Maildun",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "An Account of the Adventures of Maildun and His Crew, and of the Wonderful Things They Saw During Their Voyage of Three Years and Seven Months, in Their Curragh, on the Western Sea"
+  },
+  {
+   "type": "heading",
+   "text": "Maildun's Childhood and Youth. He Begins His Voyage in Quest of the Plunderers Who Slew His Father"
+  },
+  {
+   "type": "p",
+   "text": "There was once an illustrious man of the tribe of Owenaght of Ninus, Allil Ocar Aga by name, a goodly hero, and lord of his own tribe and territory. One time, when he was in his house unguarded, a fleet of plunderers landed on the coast, and spoiled his territory. The chief fled for refuge to the church of Dooclone; but the spoilers followed him thither, slew him, and burned the church over his head."
+  },
+  {
+   "type": "p",
+   "text": "Not long after Allil's death, a son was born to him. The child's mother gave him the name of Maildun; and, wishing to conceal his birth, she brought him to the queen of that country, who was her dear friend. The queen took him to her, and gave out that he was her own child, and he was brought up with the king's sons, slept in the same cradle with them, and was fed from the same breast and from the same cup. He was a very lovely child; and the people who saw him thought it doubtful if there was any other child living at the time equally beautiful."
+  },
+  {
+   "type": "p",
+   "text": "As he grew up to be a young man, the noble qualities of his mind gradually unfolded themselves. He was high-spirited and generous, and he loved all sorts of manly exercises. In ball-playing, in running and leaping, in throwing the stone, in chess-playing, in rowing, and in horse-racing, he surpassed all the youths that came to the king's palace, and won the palm in every contest."
+  },
+  {
+   "type": "p",
+   "text": "One day, when the young men were at their games, a certain youth among them grew envious of Maildun; and he said, in an angry and haughty tone of voice—"
+  },
+  {
+   "type": "p",
+   "text": "\"It is a cause of much shame to us that we have to yield in every game, whether of skill or of strength, whether on land or on water, to an obscure youth, of whom no one can tell who is his father or his mother, or what race or tribe he belongs to.\""
+  },
+  {
+   "type": "p",
+   "text": "On hearing this, Maildun ceased at once from play; for until that moment he believed that he was the son of the king of the Owenaght, and of the queen who had nursed him. And going anon to the queen, he told her what had happened; and he said to her—"
+  },
+  {
+   "type": "p",
+   "text": "\"If I am not thy son, I will neither eat nor drink till thou tell me who my father and mother are.\""
+  },
+  {
+   "type": "p",
+   "text": "She tried to soothe him, and said, \"Why do you worry yourself searching after this matter? Give no heed to the words of this envious youth. Am I not a mother to you? And in all this country, is there any mother who loves her son better than I love you?\""
+  },
+  {
+   "type": "p",
+   "text": "He answered, \"All this is quite true; yet I pray thee let me know who my parents are.\""
+  },
+  {
+   "type": "p",
+   "text": "The queen then, seeing that he would not be put off, brought him to his mother, and put him into her hands. And when he had spoken with her, he asked her to tell him who his father was."
+  },
+  {
+   "type": "p",
+   "text": "\"You are bent on a foolish quest, my child,\" she said; \"for even if you knew all about your father, the knowledge would bring neither advantage nor happiness to you; for he died before you were born.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Even so,\" he replied, \"I wish to know who he was.\""
+  },
+  {
+   "type": "p",
+   "text": "So his mother told him the truth, saying, \"Your father was Allil Ocar Aga, of the tribe of Owenaght of Ninus.\""
+  },
+  {
+   "type": "p",
+   "text": "Maildun then set out for his father's territory; and his three foster brothers, namely, the king's three sons, who were noble and handsome youths like himself, went with him. When the people of his tribe found out that the strange youth was the son of their chief, whom the plunderers had slain years before, and when they were told that the three others were the king's sons, they gave them all a joyful welcome, feasting them, and showing them much honour; so that Maildun was made quite happy, and soon forgot all the abasement and trouble he had undergone."
+  },
+  {
+   "type": "p",
+   "text": "Some time after this, it happened that a number of young people were in the churchyard of Dooclone—the same church in which Maildun's father had been slain—exercising themselves in casting a hand-stone. The game was to throw the stone clear over the charred roof of the church that had been burned; and Maildun was there contending among the others. A foul-tongued fellow named Brickna, a servant of the people who owned the church, was standing by; and he said to Maildun—"
+  },
+  {
+   "type": "p",
+   "text": "\"It would better become you to avenge the man who was burned to death here, than to be amusing yourself casting a stone over his bare, burnt bones.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Who was he?\" inquired Maildun."
+  },
+  {
+   "type": "p",
+   "text": "\"Allil Ocar Aga, your father,\" replied the other."
+  },
+  {
+   "type": "p",
+   "text": "\"Who slew him?\" asked Maildun."
+  },
+  {
+   "type": "p",
+   "text": "\"Plunderers from a fleet slew him and burned him in this church,\" replied Brickna; \"and the same plunderers are still sailing in the same fleet.\""
+  },
+  {
+   "type": "p",
+   "text": "Maildun was disturbed and sad after hearing this. He dropped the stone that he held in his hand, folded his cloak round him, and buckled on his shield. And he left the company, and began to inquire of all he met, the road to the plunderers' ships. For a long time he could get no tidings of them; but at last some persons, who knew where the fleet lay, told him that it was a long way off, and that there was no reaching it except by sea."
+  },
+  {
+   "type": "p",
+   "text": "Now Maildun was resolved to find out these plunderers, and to avenge on them the death of his father. So he went without delay into Corcomroe, to the druid Nuca, to seek his advice about building a curragh, and to ask also for a charm to protect him, both while building it, and while sailing on the sea afterwards."
+  },
+  {
+   "type": "p",
+   "text": "The druid gave him full instructions. He told him the day he should begin to build his curragh, and the exact day on which he was to set out on his voyage; and he was very particular about the number of the crew, which, he said, was to be sixty chosen men, neither more nor less."
+  },
+  {
+   "type": "p",
+   "text": "So Maildun built a large triple-hide curragh, following the druid's directions in every particular, chose his crew of sixty, among whom were his two friends, Germane and Diuran Lekerd; and on the day appointed put out to sea."
+  },
+  {
+   "type": "p",
+   "text": "When he had got only a very little way from the land, he saw his three foster brothers running down to the shore, signalling and calling out to him to return and take them on board; for they said they wished to go with him."
+  },
+  {
+   "type": "p",
+   "text": "\"We shall not turn back,\" said Maildun; \"and you cannot come with us; for we have already got our exact number.\""
+  },
+  {
+   "type": "p",
+   "text": "\"We will swim after you in the sea till we are drowned, if you do not return for us,\" replied they; and so saying, the three plunged in and swam after the curragh."
+  },
+  {
+   "type": "p",
+   "text": "When Maildun saw this, he turned his vessel towards them, and took them on board rather than let them be drowned."
+  },
+  {
+   "type": "heading",
+   "text": "The First Island. Tidings of the Plunderers"
+  },
+  {
+   "type": "p",
+   "text": "They sailed that day and night, as well as the whole of next day, till darkness came on again; and at midnight they saw two small bare islands, with two great houses on them near the shore. When they drew near, they heard the sounds of merriment and laughter, and the shouts of revellers intermingled with the loud voices of warriors boasting of their deeds. And listening to catch the conversation, they heard one warrior say to another—"
+  },
+  {
+   "type": "p",
+   "text": "\"Stand off from me, for I am a better warrior than thou; it was I who slew Allil Ocar Aga, and burned Dooclone over his head; and no one has ever dared to avenge it on me. Thou hast never done a great deed like that!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Now surely,\" said Germane and Diuran to Maildun, \"Heaven has guided our ship to this place! Here is an easy victory. Let us now sack this house, since God has revealed our enemies to us, and delivered them into our hands!\""
+  },
+  {
+   "type": "p",
+   "text": "While they were yet speaking, the wind arose, and a great tempest suddenly broke on them. And they were driven violently before the storm, all that night and a part of next day, into the great and boundless ocean; so that they saw neither the islands they had left nor any other land; and they knew not whither they were going."
+  },
+  {
+   "type": "p",
+   "text": "Then Maildun said, \"Take down your sail and put by your oars, and let the curragh drift before the wind in whatsoever direction it pleases God to lead us;\" which was done."
+  },
+  {
+   "type": "p",
+   "text": "He then turned to his foster brothers, and said to them, \"This evil has befallen us because we took you into the curragh, thereby violating the druid's directions; for he forbade me to go to sea with more than sixty men for my crew, and we had that number before you joined us. Of a surety more evil will come of it.\""
+  },
+  {
+   "type": "p",
+   "text": "His foster brothers answered nothing to this, but remained silent."
+  },
+  {
+   "type": "heading",
+   "text": "The Island of the Monstrous Ants"
+  },
+  {
+   "type": "p",
+   "text": "For three days and three nights they saw no land. On the morning of the fourth day, while it was yet dark, they heard a sound to the north-east; and Germane said—"
+  },
+  {
+   "type": "p",
+   "text": "\"This is the voice of the waves breaking on the shore.\""
+  },
+  {
+   "type": "p",
+   "text": "As soon as it was light they saw land and made towards it. While they were casting lots to know who should go and explore the country, they saw great flocks of ants coming down to the beach, each of them as large as a foal. The people judged by their numbers, and by their eager and hungry look, that they were bent on eating both ship and crew; so they turned their vessel round and sailed quickly away."
+  },
+  {
+   "type": "verse",
+   "text": "Their multitudes countless, prodigious their size;\nWere never such ants seen or heard of before.\nThey struggled and tumbled and plunged for the prize,\nAnd fiercely the famine-fire blazed from their eyes,\nAs they ground with their teeth the red sand of the shore!"
+  },
+  {
+   "type": "heading",
+   "text": "The Terraced Isle of Birds"
+  },
+  {
+   "type": "p",
+   "text": "Again for three days and three nights they saw no land. But on the morning of the fourth day they heard the murmur of the waves on the beach; and as the day dawned, they saw a large high island, with terraces all round it, rising one behind another. On the terraces grew rows of tall trees, on which were perched great numbers of large, bright-coloured birds."
+  },
+  {
+   "type": "p",
+   "text": "When the crew were about to hold council as to who should visit the island and see whether the birds were tame, Maildun himself offered to go. So he went with a few companions; and they viewed the island warily, but found nothing to hurt or alarm them; after which they caught great numbers of the birds and brought them to their ship."
+  },
+  {
+   "type": "verse",
+   "text": "A shield-shaped island, with terraces crowned,\nAnd great trees circling round and round:\nFrom the summit down to the wave-washed rocks,\nThere are bright-coloured birds in myriad flocks—\nTheir plumes are radiant; but hunger is keen;\nSo the birds are killed,\nTill the curragh is filled,\nAnd the sailors embark on the ocean green!"
+  },
+  {
+   "type": "heading",
+   "text": "A Monster"
+  },
+  {
+   "type": "p",
+   "text": "They sailed from this, and on the fourth day discovered a large, sandy island, on which, when they came near, they saw a huge, fearful animal standing on the beach, and looking at them very attentively. He was somewhat like a horse in shape; but his legs were like the legs of a dog; and he had great, sharp claws of a blue colour."
+  },
+  {
+   "type": "p",
+   "text": "Maildun, having viewed this monster for some time, liked not his look; and, telling his companions to watch him closely, for that he seemed bent on mischief, he bade the oarsmen row very slowly towards land."
+  },
+  {
+   "type": "p",
+   "text": "The monster seemed much delighted when the ship drew nigh the shore, and gambolled and pranced about with joy on the beach, before the eyes of the voyagers; for he intended to eat the whole of them the moment they landed."
+  },
+  {
+   "type": "p",
+   "text": "\"He seems not at all sorry to see us coming,\" said Maildun; \"but we must avoid him and put back from the shore.\""
+  },
+  {
+   "type": "p",
+   "text": "This was done. And when the animal observed them drawing off, he ran down in a great rage to the very water's edge, and digging up large, round pebbles with his sharp claws, he began to fling them at the vessel; but the crew soon got beyond his reach, and sailed into the open sea."
+  },
+  {
+   "type": "verse",
+   "text": "A horrible monster, with blazing eyes,\nIn shape like a horse and tremendous in size,\nAwaiting the curragh, they saw;\nWith big bony jaws\nAnd murderous claws,\nThat filled them with terror and awe:\nHow gleeful he dances,\nAnd bellows and prances,\nAs near to the island they draw;\nExpecting a feast—\nThe bloodthirsty beast—\nWith his teeth like edge of a saw:\nThen he ran to the shore,\nWith a deafening roar,\nIntending to swallow them raw:\nBut the crew, with a shout,\nPut their vessel about,\nAnd escaped from his ravenous maw!"
+  },
+  {
+   "type": "heading",
+   "text": "The Demon Horse-Race"
+  },
+  {
+   "type": "p",
+   "text": "After sailing a long distance, they came in view of a broad, flat island. It fell to the lot of Germane to go and examine it, and he did not think the task a pleasant one. Then his friend Diuran said to him—"
+  },
+  {
+   "type": "p",
+   "text": "\"I will go with you this time; and when next it falls to my lot to visit an island, you shall come with me.\" So both went together."
+  },
+  {
+   "type": "p",
+   "text": "They found the island very large; and some distance from the shore they came to a broad green race-course, in which they saw immense hoof-marks, the size of a ship's sail, or of a large dining-table. They found nut-shells, as large as helmets, scattered about; and although they could see no one, they observed all the marks and tokens that people of huge size were lately employed there at sundry kinds of work."
+  },
+  {
+   "type": "p",
+   "text": "Seeing these strange signs, they became alarmed, and went and called their companions from the boat to view them. But the others, when they had seen them, were also struck with fear, and all quickly retired from the place and went on board their curragh."
+  },
+  {
+   "type": "p",
+   "text": "When they had got a little way from the land, they saw dimly, as it were through a mist, a vast multitude of people on the sea, of gigantic size and demoniac look, rushing along the crests of the waves with great outcry. As soon as this shadowy host had landed, they went to the green, where they arranged a horse-race."
+  },
+  {
+   "type": "p",
+   "text": "The horses were swifter than the wind; and as they pressed forward in the race, the multitudes raised a mighty shout like thunder, which reached the crew as if it were beside them. Maildun and his men, as they sat in their curragh, heard the strokes of the whips and the cries of the riders; and though the race was far off, they could distinguish the eager words of the spectators:—\"Observe the grey horse!\" \"See that chestnut horse!\" \"Watch the horse with the white spots!\" \"My horse leaps better than yours!\""
+  },
+  {
+   "type": "p",
+   "text": "After seeing and hearing these things, the crew sailed away from the island as quickly as they were able, into the open ocean, for they felt quite sure that the multitude they saw was a gathering of demons."
+  },
+  {
+   "type": "verse",
+   "text": "A spacious isle of meadowy plains, with a broad and sandy shore:\nTwo bold and trusty spies are sent, its wonders to explore.\nMysterious signs, strange, awful sights, now meet the wanderers' eyes:\nVast hoof-marks, and the traces dire of men of monstrous size:\nAnd lo! on the sea, in countless hosts, their shadowy forms expand;\nThey pass the affrighted sailors by, and like demons they rush to land;\nThey mount their steeds, and the race is run, in the midst of hell's uproar:\nThen the wanderers quickly raise their sails, and leave the accursèd shore."
+  },
+  {
+   "type": "heading",
+   "text": "The Palace of Solitude"
+  },
+  {
+   "type": "p",
+   "text": "They suffered much from hunger and thirst this time, for they sailed a whole week without making land; but at the end of that time they came in sight of a high island, with a large and very splendid house on the beach near the water's edge. There were two doors—one turned inland, and the other facing the sea; and the door that looked towards the sea was closed with a great flat stone. In this stone was an opening, through which the waves, as they beat against the door every day, threw numbers of salmon into the house."
+  },
+  {
+   "type": "p",
+   "text": "The voyagers landed, and went through the whole house without meeting any one. But they saw in one large room an ornamented couch, intended for the head of the house, and in each of the other rooms was a larger one for three members of the family: and there was a cup of crystal on a little table before each couch. They found abundance of food and ale, and they ate and drank till they were satisfied, thanking God for having relieved them from hunger and thirst."
+  },
+  {
+   "type": "verse",
+   "text": "Aloft, high towering o'er the ocean's foam,\nThe spacious mansion rears its glittering dome.\nEach day the billows, through the marble door,\nShoot living salmon floundering on the floor.\nCouches that lure the sailors to recline,\nAbundant food, brown ale, and sparkling wine;\nTables and chairs in order duly placed,\nWith crystal cups and golden goblets graced.\nBut not a living soul the wanderers found;\n'Twas silence all and solitude profound.\nThey eat and drink, give thanks, then hoist their sail,\nAnd skim the deep once more, obedient to the gale."
+  },
+  {
+   "type": "heading",
+   "text": "The Island of the Wonderful Apple Tree"
+  },
+  {
+   "type": "p",
+   "text": "After leaving this, they suffered again from hunger, till they came to an island with a high hill round it on every side. A single apple tree grew in the middle, very tall and slender, and all its branches were in like manner exceedingly slender, and of wonderful length, so that they grew over the hill and down to the sea."
+  },
+  {
+   "type": "p",
+   "text": "When the ship came near the island, Maildun caught one of the branches in his hand. For three days and three nights the ship coasted the island, and during all this time he held the branch, letting it slide through his hand, till on the third day he found a cluster of seven apples on the very end. Each of these apples supplied the travellers with food and drink for forty days and forty nights."
+  },
+  {
+   "type": "heading",
+   "text": "The Island of Bloodthirsty Quadrupeds"
+  },
+  {
+   "type": "p",
+   "text": "A beautiful island next came in view, in which they saw, at a distance, multitudes of large animals shaped like horses. The voyagers, as they drew near, viewed them attentively, and soon observed that one of them opened his mouth and bit a great piece out of the side of the animal that stood next him, bringing away skin and flesh. Immediately after, another did the same to the nearest of his fellows. And, in short, the voyagers saw that all the animals in the island kept worrying and tearing each other from time to time in this manner; so that the ground was covered far and wide with the blood that streamed from their sides."
+  },
+  {
+   "type": "verse",
+   "text": "In needless strife they oft contend,\nA cruel, mutual-mangling brood;\nTheir flesh with gory tusks they rend,\nAnd crimson all the isle with blood."
+  },
+  {
+   "type": "heading",
+   "text": "An Extraordinary Monster"
+  },
+  {
+   "type": "p",
+   "text": "The next island had a wall all round it. When they came near the shore, an animal of vast size, with a thick, rough skin, started up inside the wall, and ran round the island with the swiftness of the wind. When he had ended his race, he went to a high point, and standing on a large, flat stone, began to exercise himself according to his daily custom, in the following manner. He kept turning himself completely round and round in his skin, the bones and flesh moving, while the skin remained at rest."
+  },
+  {
+   "type": "p",
+   "text": "When he was tired of this exercise, he rested a little; and he then began turning his skin continually round his body, down at one side and up at the other like a mill-wheel; but the bones and flesh did not move."
+  },
+  {
+   "type": "p",
+   "text": "After spending some time at this sort of work, he started and ran round the island as at first, as if to refresh himself. He then went back to the same spot, and this time, while the skin that covered the lower part of his body remained without motion, he whirled the skin of the upper part round and round like the movement of a flat-lying millstone. And it was in this manner that he spent most of his time on the island."
+  },
+  {
+   "type": "p",
+   "text": "Maildun and his people, after they had seen these strange doings, thought it better not to venture nearer. So they put out to sea in great haste. The monster, observing them about to fly, ran down to the beach to seize the ship; but finding that they had got out of his reach, he began to fling round stones at them with great force and an excellent aim. One of them struck Maildun's shield and went quite through it, lodging in the keel of the curragh; after which the voyagers got beyond his range and sailed away."
+  },
+  {
+   "type": "verse",
+   "text": "In a wall-circled isle a big monster they found,\nWith a hide like an elephant, leathery and bare;\nHe threw up his heels with a wonderful bound,\nAnd ran round the isle with the speed of a hare."
+  },
+  {
+   "type": "verse",
+   "text": "But a feat more astounding has yet to be told:\nHe turned round and round in his leathery skin;\nHis bones and his flesh and his sinews he rolled—\nHe was resting outside while he twisted within!"
+  },
+  {
+   "type": "verse",
+   "text": "Then, changing his practice with marvellous skill,\nHis carcase stood rigid and round went his hide;\nIt whirled round his bones like the wheel of a mill—\nHe was resting within while he twisted outside!"
+  },
+  {
+   "type": "verse",
+   "text": "Next, standing quite near on a green little hill,\nAfter galloping round in the very same track,\nWhile the skin of his belly stood perfectly still,\nLike a millstone he twisted the skin of his back!"
+  },
+  {
+   "type": "verse",
+   "text": "But Maildun and his men put to sea in their boat,\nFor they saw his two eyes looking over the wall;\nAnd they knew by the way that he opened his throat,\nHe intended to swallow them, curragh and all!"
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of Red-Hot Animals"
+  },
+  {
+   "type": "p",
+   "text": "Not daring to land on this island, they turned away hurriedly, much disheartened, not knowing whither to turn or where to find a resting-place. They sailed for a long time, suffering much from hunger and thirst, and praying fervently to be relieved from their distress. At last, when they were beginning to sink into a state of despondency, being quite worn out with toil and hardship of every kind, they sighted land."
+  },
+  {
+   "type": "p",
+   "text": "It was a large and beautiful island, with innumerable fruit trees scattered over its surface, bearing abundance of gold-coloured apples. Under the trees they saw herds of short, stout animals, of a bright red colour, shaped somewhat like pigs; but coming nearer, and looking more closely, they perceived with astonishment that the animals were all fiery, and that their bright colour was caused by the red flames which penetrated and lighted up their bodies."
+  },
+  {
+   "type": "p",
+   "text": "The voyagers now observed several of them approach one of the trees in a body, and striking the trunk all together with their hind legs, they shook down some of the apples and ate them. In this manner the animals employed themselves every day, from early morning till the setting of the sun when they retired into deep caves, and were seen no more till next morning."
+  },
+  {
+   "type": "p",
+   "text": "Numerous flocks of birds were swimming on the sea, all round the island. From morning till noon, they continued to swim away from the land, farther and farther out to sea; but at noon they turned round, and from that to sunset they swam back towards the shore. A little after sunset, when the animals had retired to their caves, the birds flocked in on the island, and spread themselves over it, plucking the apples from the trees and eating them."
+  },
+  {
+   "type": "p",
+   "text": "Maildun proposed that they should land on the island, and gather some of the fruit, saying that it was not harder or more dangerous for them than for the birds; so two of the men were sent beforehand to examine the place. They found the ground hot under their feet, for the fiery animals, as they lay at rest, heated the earth all around and above their caves; but the two scouts persevered notwithstanding, and brought away some of the apples."
+  },
+  {
+   "type": "p",
+   "text": "When morning dawned, the birds left the island and swam out to sea; and the fiery animals, coming forth from their caves, went among the trees as usual, and ate the apples till evening. The crew remained in their curragh all day; and as soon as the animals had gone into their caves for the night, and the birds had taken their place, Maildun landed with all his men. And they plucked the apples till morning, and brought them on board, till they had gathered as much as they could stow into their vessel."
+  },
+  {
+   "type": "heading",
+   "text": "The Palace of the Little Cat"
+  },
+  {
+   "type": "p",
+   "text": "After rowing for a long time, their store of apples failed them, and they had nothing to eat or drink; so that they suffered sorely under a hot sun, and their mouths and nostrils were filled with the briny smell of the sea. At last they came in sight of land—a little island with a large palace on it. Around the palace was a wall, white all over, without stain or flaw, as if it had been built of burnt lime, or carved out of one unbroken rock of chalk; and where it looked towards the sea it was so lofty that it seemed almost to reach the clouds."
+  },
+  {
+   "type": "p",
+   "text": "The gate of this outer wall was open, and a number of fine houses, all snowy white, were ranged round on the inside, enclosing a level court in the middle, on which all the houses opened. Maildun and his people entered the largest of them, and walked through several rooms without meeting with any one. But on reaching the principal apartment, they saw in it a small cat, playing among a number of low, square, marble pillars, which stood ranged in a row; and his play was, leaping continually from the top of one pillar to the top of another. When the men entered the room, the cat looked at them for a moment, but returned to his play anon, and took no further notice of them."
+  },
+  {
+   "type": "p",
+   "text": "Looking now to the room itself, they saw three rows of precious jewels ranged round the wall from one door-jamb to the other. The first was a row of brooches of gold and silver, with their pins fixed in the wall, and their heads outwards; the second, a row of torques of gold and silver; and the third, a row of great swords, with hilts of gold and silver."
+  },
+  {
+   "type": "p",
+   "text": "Round the room were arranged a number of couches, all pure white and richly ornamented. Abundant food of various kinds was spread on tables, among which they observed a boiled ox and a roast hog; and there were many large drinking-horns, full of good, intoxicating ale."
+  },
+  {
+   "type": "p",
+   "text": "\"Is it for us that this food has been prepared?\" said Maildun to the cat."
+  },
+  {
+   "type": "p",
+   "text": "The cat, on hearing the question, ceased from playing, and looked at him; but he recommenced his play immediately. Whereupon Maildun told his people that the dinner was meant for them; and they all sat down, and ate and drank till they were satisfied, after which they rested and slept on the couches."
+  },
+  {
+   "type": "p",
+   "text": "When they awoke, they poured what was left of the ale into one vessel; and they gathered the remnants of the food to bring them away. As they were about to go, Maildun's eldest foster brother asked him—"
+  },
+  {
+   "type": "p",
+   "text": "\"Shall I bring one of those large torques away with me?\""
+  },
+  {
+   "type": "p",
+   "text": "\"By no means,\" said Maildun; \"it is well that we have got food and rest. Bring nothing away, for it is certain that this house is not left without some one to guard it.\""
+  },
+  {
+   "type": "p",
+   "text": "The young man, however, disregarding Maildun's advice, took down one of the torques and brought it away. But the cat followed him, and overtook him in the middle of the court, and, springing on him like a blazing, fiery arrow, he went through his body, and reduced it in a moment to a heap of ashes. He then returned to the room, and, leaping up on one of the pillars, sat upon it."
+  },
+  {
+   "type": "p",
+   "text": "Maildun turned back, bringing the torque with him, and, approaching the cat, spoke some soothing words; after which he put the torque back to the place from which it had been taken. Having done this, he collected the ashes of his foster brother, and, bringing them to the shore, cast them into the sea. They all then went on board the curragh, and continued their voyage, grieving for their lost companion, but thanking God for His many mercies to them."
+  },
+  {
+   "type": "heading",
+   "text": "An Island That Dyed Black and White"
+  },
+  {
+   "type": "p",
+   "text": "On the morning of the third day, they came to another island, which was divided into two parts by a wall of brass running across the middle. They saw two great flocks of sheep, one on each side of the wall; and all those at one side were black, while those at the other side were white."
+  },
+  {
+   "type": "p",
+   "text": "A very large man was employed in dividing and arranging the sheep; and he often took up a sheep and threw it with much ease over the wall from one side to the other. When he threw over a white sheep among the black ones, it became black immediately; and in like manner, when he threw a black sheep over, it was instantly changed to white."
+  },
+  {
+   "type": "p",
+   "text": "The travellers were very much alarmed on witnessing these doings and Maildun said—"
+  },
+  {
+   "type": "p",
+   "text": "\"It is very well that we know so far. Let us now throw something on shore, to see whether it also will change colour; if it does, we shall avoid the island.\""
+  },
+  {
+   "type": "p",
+   "text": "So they took a branch with black-coloured bark and threw it towards the white sheep, and no sooner did it touch the ground than it became white. They then threw a white-coloured branch on the side of the black sheep, and in a moment it turned black."
+  },
+  {
+   "type": "p",
+   "text": "\"It is very lucky for us,\" said Maildun, \"that we did not land on the island, for doubtless our colour would have changed like the colour of the branches.\""
+  },
+  {
+   "type": "p",
+   "text": "So they put about with much fear, and sailed away."
+  },
+  {
+   "type": "heading",
+   "text": "The Island of the Burning River"
+  },
+  {
+   "type": "p",
+   "text": "On the third day, they came in view of a large, broad island, on which they saw a herd of gracefully shaped swine; and they killed one small porkling for food. Towards the centre rose a high mountain, which they resolved to ascend, in order to view the island; and Germane and Diuran Lekerd were chosen for this task."
+  },
+  {
+   "type": "p",
+   "text": "When they had advanced some distance towards the mountain, they came to a broad, shallow river; and sitting down on the bank to rest, Germane dipped the point of his lance into the water, which instantly burned off the top, as if the lance had been thrust into a furnace. So they went no farther."
+  },
+  {
+   "type": "p",
+   "text": "On the opposite side of the river, they saw a herd of animals like great hornless oxen, all lying down; and a man of gigantic size near them: and Germane began to strike his spear against his shield, in order to rouse the cattle."
+  },
+  {
+   "type": "p",
+   "text": "\"Why are you frightening the poor young calves in that manner?\" demanded the big shepherd, in a tremendous voice."
+  },
+  {
+   "type": "p",
+   "text": "Germane, astonished to find that such large animals were nothing more than calves, instead of answering the question, asked the big man where the mothers of those calves were."
+  },
+  {
+   "type": "p",
+   "text": "\"They are on the side of yonder mountain,\" he replied."
+  },
+  {
+   "type": "p",
+   "text": "Germane and Diuran waited to hear no more; but, returning to their companions, told them all they had seen and heard; after which the crew embarked and left the island."
+  },
+  {
+   "type": "heading",
+   "text": "The Miller of Hell"
+  },
+  {
+   "type": "p",
+   "text": "The next island they came to, which was not far off from the last, had a large mill on it; and near the door stood the miller, a huge-bodied, strong, burly man. They saw numberless crowds of men and horses laden with corn, coming towards the mill; and when their corn was ground they went away towards the west. Great herds of all kinds of cattle covered the plain as far as the eye could reach, and among them many wagons laden with every kind of wealth that is produced on the ridge of the world. All these the miller put into the mouth of his mill to be ground; and all, as they came forth, went westwards."
+  },
+  {
+   "type": "p",
+   "text": "Maildun and his people now spoke to the miller, and asked him the name of the mill, and the meaning of all they had seen on the island. And he, turning quickly towards them, replied in few words—"
+  },
+  {
+   "type": "p",
+   "text": "\"This mill is called the Mill of Inver-tre-Kenand, and I am the miller of hell. All the corn and all the riches of the world that men are dissatisfied with, or which they complain of in any way, are sent here to be ground; and also every precious article, and every kind of wealth, which men try to conceal from God. All these I grind in the Mill of Inver-tre-Kenand, and send them afterwards away to the west.\""
+  },
+  {
+   "type": "p",
+   "text": "He spoke no more, but turned round and busied himself again with his mill. And the voyagers, with much wonder and awe in their hearts, went to their curragh and sailed away."
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of Weeping"
+  },
+  {
+   "type": "p",
+   "text": "After leaving this, they had not been long sailing when they discovered another large island, with a great multitude of people on it. They were all black, both skin and clothes, with black head-dresses also; and they kept walking about, sighing and weeping and wringing their hands, without the least pause or rest."
+  },
+  {
+   "type": "p",
+   "text": "It fell to the lot of Maildun's second foster brother to go and examine the island. And when he went among the people, he also grew sorrowful, and fell to weeping and wringing his hands, with the others. Two of the crew were sent to bring him back; but they were unable to find him among the mourners; and, what was worse, in a little time they joined the crowd, and began to weep and lament like all the rest."
+  },
+  {
+   "type": "p",
+   "text": "Maildun then chose four men to go and bring back the others by force, and he put arms in their hands, and gave them these directions—"
+  },
+  {
+   "type": "p",
+   "text": "\"When you land on the island, fold your mantles round your faces, so as to cover your mouths and noses, that you may not breathe the air of the country; and look neither to the right nor to the left, neither at the earth nor at the sky, but fix your eyes on your own men till you have laid hands on them.\""
+  },
+  {
+   "type": "p",
+   "text": "They did exactly as they were told, and having come up with their two companions, namely, those who had been sent after Maildun's foster brother, they seized them and brought them back by force. But the other they could not find. When these two were asked what they had seen on the island, and why they began to weep, their only reply was—"
+  },
+  {
+   "type": "p",
+   "text": "\"We cannot tell; we only know that we did what we saw the others doing.\""
+  },
+  {
+   "type": "p",
+   "text": "And after this the voyagers sailed away from the island, leaving Maildun's second foster brother behind."
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of the Four Precious Walls"
+  },
+  {
+   "type": "p",
+   "text": "The next was a high island, divided into four parts by four walls meeting in the centre. The first was a wall of gold; the second, a wall of silver; the third, a wall of copper; and the fourth, a wall of crystal. In the first of the four divisions were kings; in the second, queens; in the third, youths; and in the fourth, young maidens."
+  },
+  {
+   "type": "p",
+   "text": "When the voyagers landed, one of the maidens came to meet them, and leading them forward to a house, gave them food. This food, which she dealt out to them from a small vessel, looked like cheese, and whatever taste pleased each person best, that was the taste he found on it. And after they had eaten till they were satisfied, they slept in a sweet sleep, as if gently intoxicated, for three days and three nights. When they awoke on the third day, they found themselves in their curragh on the open sea; and there was no appearance in any direction either of the maiden or of the island."
+  },
+  {
+   "type": "heading",
+   "text": "The Palace of the Crystal Bridge"
+  },
+  {
+   "type": "p",
+   "text": "They came now to a small island, with a palace on it, having a copper chain in front, hung all over with a number of little silver bells. Straight before the door there was a fountain, spanned by a bridge of crystal, which led to the palace. They walked towards the bridge, meaning to cross it, but every time they stepped on it they fell backwards flat on the ground."
+  },
+  {
+   "type": "p",
+   "text": "After some time, they saw a very beautiful young woman coming out of the palace, with a pail in her hand; and she lifted a crystal slab from the bridge, and, having filled her vessel from the fountain, she went back into the palace."
+  },
+  {
+   "type": "p",
+   "text": "\"This woman has been sent to keep house for Maildun,\" said Germane."
+  },
+  {
+   "type": "p",
+   "text": "\"Maildun indeed!\" said she, as she shut the door after her."
+  },
+  {
+   "type": "p",
+   "text": "After this they began to shake the copper chain, and the tinkling of the silver bells was so soft and melodious that the voyagers gradually fell into a gentle, tranquil sleep, and slept so till next morning. When they awoke, they saw the same young woman coming forth from the palace, with the pail in her hand; and she lifted the crystal slab as before, filled her vessel, and returned into the palace."
+  },
+  {
+   "type": "p",
+   "text": "\"This woman has certainly been sent to keep house for Maildun,\" said Germane."
+  },
+  {
+   "type": "p",
+   "text": "\"Wonderful are the powers of Maildun!\" said she, as she shut the door of the court behind her."
+  },
+  {
+   "type": "p",
+   "text": "They stayed in this place for three days and three nights, and each morning the maiden came forth in the same manner, and filled her pail. On the fourth day, she came towards them, splendidly and beautifully dressed, with her bright yellow hair bound by a circlet of gold, and wearing silver-work shoes on her small, white feet. She had a white mantle over her shoulders, which was fastened in front by a silver brooch studded with gold; and under all, next her soft, snow-white skin, was a garment of fine white silk."
+  },
+  {
+   "type": "p",
+   "text": "\"My love to you, Maildun, and to your companions,\" she said; and she mentioned them all, one after another, calling each by his own proper name. \"My love to you,\" said she. \"We knew well that you were coming to our island, for your arrival has long been foretold to us.\""
+  },
+  {
+   "type": "p",
+   "text": "Then she led them to a large house standing by the sea, and she caused the curragh to be drawn high up on the beach. They found in the house a number of couches, one of which was intended for Maildun alone, and each of the others for three of his people. The woman then gave them, from one vessel, food which was like cheese; first of all ministering to Maildun, and then giving a triple share to every three of his companions; and whatever taste each man wished for, that was the taste he found on it. She then lifted the crystal slab at the bridge, filled her pail, and dealt out drink to them; and she knew exactly how much to give, both of food and of drink, so that each had enough and no more."
+  },
+  {
+   "type": "p",
+   "text": "\"This woman would make a fit wife for Maildun,\" said his people. But while they spoke, she went from them with her pail in her hand."
+  },
+  {
+   "type": "p",
+   "text": "When she was gone, Maildun's companions said to him, \"Shall we ask this maiden to become thy wife?\""
+  },
+  {
+   "type": "p",
+   "text": "He answered, \"What advantage will it be to you to ask her?\""
+  },
+  {
+   "type": "p",
+   "text": "She came next morning, and they said to her, \"Why dost thou not stay here with us? Wilt thou make friendship with Maildun; and wilt thou take him for thy husband?\""
+  },
+  {
+   "type": "p",
+   "text": "She replied that she and all those that lived on the island were forbidden to marry with the sons of men; and she told them that she could not disobey, as she knew not what sin or transgression was."
+  },
+  {
+   "type": "p",
+   "text": "She then went from them to her house; and on the next morning, when she returned, and after she had ministered to them as usual, till they were satisfied with food and drink, and were become cheerful, they spoke the same words to her."
+  },
+  {
+   "type": "p",
+   "text": "\"To-morrow,\" she replied, \"you will get an answer to your question;\" and so saying, she walked towards her house, and they went to sleep on their couches."
+  },
+  {
+   "type": "p",
+   "text": "When they awoke next morning, they found themselves lying in their curragh on the sea, beside a great high rock; and when they looked about, they saw neither the woman, nor the palace of the crystal bridge, nor any trace of the island where they had been sojourning."
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of Speaking Birds"
+  },
+  {
+   "type": "p",
+   "text": "One night, soon after leaving this, they heard in the distance, towards the north-east, a confused murmur of voices, as if from a great number of persons singing psalms. They followed the direction of the sound, in order to learn from what it proceeded; and at noon the next day, they came in view of an island, very hilly and lofty. It was full of birds, some black, some brown, and some speckled, who were all shouting and speaking with human voices; and it was from them that the great clamour came."
+  },
+  {
+   "type": "heading",
+   "text": "The Aged Hermit, and the Human Souls"
+  },
+  {
+   "type": "p",
+   "text": "At a little distance from this they found another small island, with many trees on it, some standing singly, and some in clusters, on which were perched great numbers of birds. They also saw an aged man on the island, who was covered thickly all over with long, white hair, and wore no other dress. And when they landed, they spoke to him, and asked him who he was and what race he belonged to."
+  },
+  {
+   "type": "p",
+   "text": "\"I am one of the men of Erin,\" he replied. \"On a certain day, a long, long time ago, I embarked in a small curragh, and put out to sea on a pilgrimage; but I had got only a little way from shore, when my curragh became very unsteady, as if it were about to overturn. So I returned to land, and, in order to steady my boat, I placed under my feet at the bottom, a number of green surface sods, cut from one of the grassy fields of my own country, and began my voyage anew. Under the guidance of God, I arrived at this spot; and He fixed the sods in the sea for me, so that they formed a little island. At first I had barely room to stand; but every year, from that time to the present, the Lord has added one foot to the length and breadth of my island, till in the long lapse of ages it has grown to its present size. And on one day in each year, He has caused a single tree to spring up, till the island has become covered with trees. Moreover, I am so old that my body, as you see, has become covered with long, white hair, so that I need no other dress."
+  },
+  {
+   "type": "p",
+   "text": "\"And the birds that ye see on the trees,\" he continued, \"these are the souls of my children, and of all my descendants, both men and women, who are sent to this little island to abide with me according as they die in Erin. God has caused a well of ale to spring up for us on the island: and every morning the angels bring me half a cake, a slice of fish, and a cup of ale from the well; and in the evening the same allowance of food and ale is dealt out to each man and woman of my people. And it is in this manner that we live, and shall continue to live till the end of the world; for we are all awaiting here the day of judgment.\""
+  },
+  {
+   "type": "p",
+   "text": "Maildun and his companions were treated hospitably on the island by the old pilgrim for three days and three nights; and when they were taking leave of him, he told them that they should all reach their own country except one man."
+  },
+  {
+   "type": "heading",
+   "text": "The Island of the Big Blacksmiths"
+  },
+  {
+   "type": "p",
+   "text": "When they had been for a long time tossed about on the waters, they saw land in the distance. On approaching the shore, they heard the roaring of a great bellows, and the thundering sound of smiths' hammers striking a large glowing mass of iron on an anvil; and every blow seemed to Maildun as loud as if a dozen men had brought down their sledges all together."
+  },
+  {
+   "type": "p",
+   "text": "When they had come a little nearer, they heard the big voices of the smiths in eager talk."
+  },
+  {
+   "type": "p",
+   "text": "\"Are they near?\" asked one."
+  },
+  {
+   "type": "p",
+   "text": "\"Hush! silence!\" says another."
+  },
+  {
+   "type": "p",
+   "text": "\"Who are they that you say are coming?\" inquired a third."
+  },
+  {
+   "type": "p",
+   "text": "\"Little fellows, that are rowing towards our shore in a pigmy boat,\" says the first."
+  },
+  {
+   "type": "p",
+   "text": "When Maildun heard this, he hastily addressed the crew—"
+  },
+  {
+   "type": "p",
+   "text": "\"Put back at once, but do not turn the curragh: reverse the sweep of your oars, and let her move stern forward, so that those giants may not perceive that we are flying!\""
+  },
+  {
+   "type": "p",
+   "text": "The crew at once obey, and the boat begins to move away from the shore, stern forward, as he had commanded."
+  },
+  {
+   "type": "p",
+   "text": "The first smith again spoke. \"Are they near enough to the shore?\" said he to the man who was watching."
+  },
+  {
+   "type": "p",
+   "text": "\"They seem to be at rest,\" answered the other; \"for I cannot perceive that they are coming closer, and they have not turned their little boat to go back.\""
+  },
+  {
+   "type": "p",
+   "text": "In a short time the first smith asks again, \"What are they doing now?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I think,\" said the watcher, \"they are flying; for it seems to me that they are now farther off than they were a while ago.\""
+  },
+  {
+   "type": "p",
+   "text": "At this the first smith rushed out of the forge—a huge, burly giant—holding, in the tongs which he grasped in his right hand, a vast mass of iron sparkling and glowing from the furnace; and, running down to the shore with long, heavy strides, he flung the red-hot mass with all his might after the curragh. It fell a little short, and plunged down just near the prow, causing the whole sea to hiss and boil and heave up around the boat. But they plied their oars, so that they quickly got beyond his reach, and sailed out into the open ocean."
+  },
+  {
+   "type": "heading",
+   "text": "The Crystal Sea"
+  },
+  {
+   "type": "p",
+   "text": "After a time, they came to a sea like green crystal. It was so calm and transparent that they could see the sand at the bottom quite clearly, sparkling in the sunlight. And in this sea they saw neither monsters, nor ugly animals, nor rough rocks; nothing but the clear water and the sunshine and the bright sand. For a whole day they sailed over it, admiring its splendour and beauty."
+  },
+  {
+   "type": "heading",
+   "text": "A Lovely Country Beneath the Waves"
+  },
+  {
+   "type": "p",
+   "text": "After leaving this they entered on another sea, which seemed like a clear, thin cloud; and it was so transparent, and appeared so light, that they thought at first it would not bear up the weight of the curragh."
+  },
+  {
+   "type": "p",
+   "text": "Looking down, they could see, beneath the clear water, a beautiful country, with many mansions surrounded by groves and woods. In one place was a single tree; and, standing on its branches, they saw an animal fierce and terrible to look upon."
+  },
+  {
+   "type": "p",
+   "text": "Round about the tree was a great herd of oxen grazing, and a man stood near to guard them, armed with shield and spear and sword; but when he looked up and saw the animal on the tree, he turned anon and fled with the utmost speed. Then the monster stretched forth his neck, and, darting his head downward, plunged his fangs into the back of the largest ox of the whole herd, lifted him off the ground into the tree, and swallowed him down in the twinkling of an eye; whereupon the whole herd took to flight."
+  },
+  {
+   "type": "p",
+   "text": "When Maildun and his people saw this, they were seized with great terror; for they feared they should not be able to cross the sea over the monster, on account of the extreme mist-like thinness of the water; but after much difficulty and danger they got across it safely."
+  },
+  {
+   "type": "heading",
+   "text": "An Island Guarded by a Wall of Water"
+  },
+  {
+   "type": "p",
+   "text": "When they came to the next island, they observed with astonishment that the sea rose up over it on every side, steep and high, standing, as it were, like a wall all round it. When the people of the island saw the voyagers, they rushed hither and thither, shouting, \"There they are, surely! There they come again for another spoil!\""
+  },
+  {
+   "type": "p",
+   "text": "Then Maildun's people saw great numbers of men and women, all shouting and driving vast herds of horses, cows, and sheep. A woman began to pelt the crew from below with large nuts; she flung them so that they alighted on the waves round the boat, where they remained floating; and the crew gathered great quantities of them and kept them for eating."
+  },
+  {
+   "type": "p",
+   "text": "When they turned to go away, the shouting ceased: and they heard one man calling aloud, \"Where are they now?\" and another answering him, \"They are gone away!\""
+  },
+  {
+   "type": "p",
+   "text": "From what Maildun saw and heard at this island, it is likely that it had been foretold to the people that their country should some day be spoiled by certain marauders; and that they thought Maildun and his men were the enemies they expected."
+  },
+  {
+   "type": "heading",
+   "text": "A Water-Arch in the Air"
+  },
+  {
+   "type": "p",
+   "text": "On the next island they saw a very wonderful thing, namely, a great stream of water which, gushing up out of the strand, rose into the air in the form of a rainbow, till it crossed the whole island and came down on the strand at the other side. They walked under it without getting wet; and they hooked down from it many large salmon. Great quantities of salmon of a very great size fell also out of the water over their heads down on the ground; so that the whole island smelled of fish, and it became troublesome to gather them on account of their abundance."
+  },
+  {
+   "type": "p",
+   "text": "From the evening of Sunday till the evening of Monday, the stream never ceased to flow, and never changed its place, but remained spanning the island like a solid arch of water. Then the voyagers gathered the largest of the salmon, till they had as much as the curragh would hold; after which they sailed out into the great sea."
+  },
+  {
+   "type": "heading",
+   "text": "The Silver Pillar of the Sea"
+  },
+  {
+   "type": "p",
+   "text": "The next thing they found after this was an immense silver pillar standing in the sea. It had eight sides, each of which was the width of an oar-stroke of the curragh, so that its whole circumference was eight oar-strokes. It rose out of the sea without any land or earth about it, nothing but the boundless ocean; and they could not see its base deep down in the water, neither were they able to see the top on account of its vast height."
+  },
+  {
+   "type": "p",
+   "text": "A silver net hung from the top down to the very water, extending far out at one side of the pillar; and the meshes were so large that the curragh in full sail went through one of them. When they were passing through it, Diuran struck the mesh with the edge of his spear, and with the blow cut a large piece off it."
+  },
+  {
+   "type": "p",
+   "text": "\"Do not destroy the net,\" said Maildun; \"for what we see is the work of great men.\""
+  },
+  {
+   "type": "p",
+   "text": "\"What I have done,\" answered Diuran, \"is for the honour of my God, and in order that the story of our adventures may be more readily believed; and I shall lay this silver as an offering on the altar of Armagh, if I ever reach Erin.\""
+  },
+  {
+   "type": "p",
+   "text": "That piece of silver weighed two ounces and a half, as it was reckoned afterwards by the people of the church of Armagh."
+  },
+  {
+   "type": "p",
+   "text": "After this they heard some one speaking on the top of the pillar, in a loud, clear, glad voice; but they knew neither what he said, nor in what language he spoke."
+  },
+  {
+   "type": "heading",
+   "text": "An Island Standing on One Pillar"
+  },
+  {
+   "type": "p",
+   "text": "The island they saw after this was named Encos; and it was so called because it was supported by a single pillar in the middle. They rowed all round it, seeking how they might get into it; but could find no landing-place. At the foot of the pillar, however, down deep in the water, they saw a door securely closed and locked, and they judged that this was the way into the island. They called aloud, to find out if any persons were living there; but they got no reply. So they left it, and put out to sea once more."
+  },
+  {
+   "type": "heading",
+   "text": "The Island Queen Detains Them with Her Magic Thread-Clew"
+  },
+  {
+   "type": "p",
+   "text": "The next island they reached was very large. On one side rose a lofty, smooth, heath-clad mountain, and all the rest of the island was a grassy plain. Near the sea-shore stood a great high palace, adorned with carvings and precious stones, and strongly fortified with a high rampart all round. After landing, they went towards the palace, and sat to rest on the bench before the gateway leading through the outer rampart; and, looking in through the open door, they saw a number of beautiful young maidens in the court."
+  },
+  {
+   "type": "p",
+   "text": "After they had sat for some time, a rider appeared at a distance, coming swiftly towards the palace; and on a near approach, the travellers perceived that it was a lady, young and beautiful and richly dressed. She wore a blue, rustling silk head-dress; a silver-fringed purple cloak hung from her shoulders; her gloves were embroidered with gold thread; and her feet were laced becomingly in close-fitting scarlet sandals. One of the maidens came out and held her horse, while she dismounted and entered the palace; and soon after she had gone in, another of the maidens came towards Maildun and his companions and said—"
+  },
+  {
+   "type": "p",
+   "text": "\"You are welcome to this island. Come into the palace; the queen has sent me to invite you, and is waiting to receive you.\""
+  },
+  {
+   "type": "p",
+   "text": "They followed the maiden into the palace; and the queen bade them welcome, and received them kindly. Then, leading them into a large hall in which a plentiful dinner was laid out, she bade them sit down and eat. A dish of choice food and a crystal goblet of wine were placed before Maildun; while a single dish and a single drinking-bowl, with a triple quantity of meat and drink, were laid before each three of his companions. And having eaten and drunk till they were satisfied, they went to sleep on soft couches till morning."
+  },
+  {
+   "type": "p",
+   "text": "Next day, the queen addressed Maildun and his companions—"
+  },
+  {
+   "type": "p",
+   "text": "\"Stay now in this country, and do not go a-wandering any longer over the wide ocean from island to island. Old age or sickness shall never come upon you; but you shall be always as young as you are at present, and you shall live for ever a life of ease and pleasure.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Tell us,\" said Maildun, \"how you pass your life here.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That is no hard matter,\" answered the queen. \"The good king who formerly ruled over this island was my husband, and these fair young maidens that you see are our children. He died after a long reign, and as he left no son, I now reign, the sole ruler of the island. And every day I go to the Great Plain, to administer justice and to decide causes among my people.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Wilt thou go from us to-day?\" asked Maildun."
+  },
+  {
+   "type": "p",
+   "text": "\"I must needs go even now,\" she replied, \"to give judgments among the people; but as to you, you will all stay in this house till I return in the evening, and you need not trouble yourselves with any labour or care.\""
+  },
+  {
+   "type": "p",
+   "text": "They remained in that island during the three months of winter. And these three months appeared to Maildun's companions as long as three years, for they began to have an earnest desire to return to their native land. At the end of that time, one of them said to Maildun—"
+  },
+  {
+   "type": "p",
+   "text": "\"We have been a long time here; why do we not return to our own country?\""
+  },
+  {
+   "type": "p",
+   "text": "\"What you say is neither good nor sensible,\" answered Maildun, \"for we shall not find in our own country anything better than we have here.\""
+  },
+  {
+   "type": "p",
+   "text": "But this did not satisfy his companions, and they began to murmur loudly. \"It is quite clear,\" said they, \"that Maildun loves the queen of this island; and as this is so, let him stay here; but as for us, we will return to our own country.\""
+  },
+  {
+   "type": "p",
+   "text": "Maildun, however, would not consent to remain after them, and he told them that he would go away with them."
+  },
+  {
+   "type": "p",
+   "text": "Now, on a certain day, not long after this conversation, as soon as the queen had gone to the Great Plain to administer justice, according to her daily custom, they got their curragh ready and put out to sea. They had not gone very far from land when the queen came riding towards the shore; and, seeing how matters stood, she went into the palace and soon returned with a ball of thread in her hand."
+  },
+  {
+   "type": "p",
+   "text": "Walking down to the water's edge, she flung the ball after the curragh, but held the end of the thread in her hand. Maildun caught the ball as it was passing, and it clung to his hand; and the queen, gently pulling the thread towards her, drew back the curragh to the very spot from which they had started in the little harbour. And when they had landed, she made them promise that if ever this happened again, some one should always stand up in the boat and catch the ball."
+  },
+  {
+   "type": "p",
+   "text": "The voyagers abode on the island, much against their will, for nine months longer. For every time they attempted to escape, the queen brought them back by means of the clew, as she had done at first, Maildun always catching the ball."
+  },
+  {
+   "type": "p",
+   "text": "At the end of the nine months, the men held council, and this is what they said—"
+  },
+  {
+   "type": "p",
+   "text": "\"We know now that Maildun does not wish to leave the island; for he loves this queen very much, and he catches the ball whenever we try to escape, in order that we may be brought back to the palace.\""
+  },
+  {
+   "type": "p",
+   "text": "Maildun replied, \"Let some one else attend to the ball next time, and let us try whether it will cling to his hand.\""
+  },
+  {
+   "type": "p",
+   "text": "They agreed to this, and, watching their opportunity, they again put off towards the open sea. The queen arrived, as usual, before they had gone very far and flung the ball after them as before. Another man of the crew caught it, and it clung as firmly to his hand as to Maildun's; and the queen began to draw the curragh towards the shore. But Diuran, drawing his sword, cut off the man's hand, which fell with the ball into the sea; and the men gladly plying their oars, the curragh resumed her outward voyage."
+  },
+  {
+   "type": "p",
+   "text": "When the queen saw this, she began to weep and lament, wringing her hands and tearing her hair with grief; and her maidens also began to weep and cry aloud and clap their hands, so that the whole palace was full of grief and lamentation. But none the less did the men bend to their oars, and the curragh sailed away; and it was in this manner that the voyagers made their escape from the island."
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of Intoxicating Wine-Fruits"
+  },
+  {
+   "type": "p",
+   "text": "They were now a long time tossed about on the great billows, when at length they came in view of an island with many trees on it. These trees were somewhat like hazels, and they were laden with a kind of fruit which the voyagers had not seen before, extremely large, and not very different in appearance from apples, except that they had a rough, berry-like rind."
+  },
+  {
+   "type": "p",
+   "text": "After the crew had plucked all the fruit off one small tree, they cast lots who should try them, and the lot fell on Maildun. So he took some of them, and, squeezing the juice into a vessel, drank it. It threw him into a sleep of intoxication so deep that he seemed to be in a trance rather than in a natural slumber, without breath or motion, and with the red foam on his lips. And from that hour till the same hour next day, no one could tell whether he was living or dead."
+  },
+  {
+   "type": "p",
+   "text": "When he awoke next day, he bade his people to gather as much of the fruit as they could bring away with them; for the world, as he told them, never produced anything of such surpassing goodness. They pressed out the juice of the fruit till they had filled all their vessels; and so powerful was it to produce intoxication and sleep, that, before drinking it, they had to mix a large quantity of water with it to moderate its strength."
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of the Mystic Lake"
+  },
+  {
+   "type": "p",
+   "text": "The island they came to next was larger than most of those they had seen. On one side grew a wood of yew trees and great oaks; and on the other side was a grassy plain, with one small lake in the midst. A noble-looking house stood on the near part of the plain, with a small church not far off; and numerous flocks of sheep browsed over the whole island."
+  },
+  {
+   "type": "p",
+   "text": "The travellers went to the church, and found in it a hermit, with snow-white beard and hair, and all the other marks of great old age. Maildun asked who he was, and whence he had come."
+  },
+  {
+   "type": "p",
+   "text": "He replied, \"I am one of the fifteen people, who, following the example of our master, Brendan of Birra, sailed on a pilgrimage out into the great ocean. After many wanderings, we settled on this island, where we lived for a long time; but my companions died one after another, and of all who came hither, I alone am left.\""
+  },
+  {
+   "type": "p",
+   "text": "The old pilgrim then showed them Brendan's satchel, which he and his companions had brought with them on their pilgrimage; and Maildun kissed it, and all bowed down in veneration before it. And he told them that as long as they remained there, they might eat of the sheep and of the other food of the island; but to waste nothing."
+  },
+  {
+   "type": "p",
+   "text": "One day, as they were seated on a hill, gazing out over the sea, they saw what they took to be a black cloud coming towards them from the south-west. They continued to view it very closely as it came nearer and nearer; and at last they perceived with amazement that it was an immense bird, for they saw quite plainly the slow, heavy flapping of his wings. When he reached the island, he alighted on a little hillock over the lake; and they felt no small alarm, for they thought, on account of his vast size, that if he saw them, he might seize them in his talons, and carry them off over the sea. So they hid themselves under trees and in the crannies of rocks; but they never lost sight of the bird, for they were bent on watching his movements."
+  },
+  {
+   "type": "p",
+   "text": "He appeared very old, and he held in one claw a branch of a tree, which he had brought with him over the sea, larger and heavier than the largest full-grown oak. It was covered with fresh, green leaves, and was heavily laden with clusters of fruit, red and rich-looking like grapes, but much larger."
+  },
+  {
+   "type": "p",
+   "text": "He remained resting for a time on the hill, being much wearied after his flight, and at last he began to eat the fruit off the branch. After watching him for some time longer, Maildun ventured warily towards the hillock, to see whether he was inclined to mischief; but the bird showed no disposition to harm him. This emboldened the others, and they all followed their chief."
+  },
+  {
+   "type": "p",
+   "text": "The whole crew now marched in a body round the bird, headed by Maildun, with their shields raised; and as he still made no stir, one of the men, by Maildun's directions, went straight in front of him, and brought away some of the fruit from the branch which he still held in his talons. But the bird went on plucking and eating his fruit, and never took the least notice."
+  },
+  {
+   "type": "p",
+   "text": "On the evening of that same day, as the men sat looking over the sea to the south-west, where the great bird first appeared to them, they saw in the distance two others, quite as large, coming slowly towards them from the very same point. On they came, flying at a vast height, nearer and nearer, till at last they swooped down and alighted on the hillock in front of the first bird, one on each side."
+  },
+  {
+   "type": "p",
+   "text": "Although they were plainly much younger than the other, they seemed very tired, and took a long rest. Then, shaking their wings, they began picking the old bird all over, body, wings, and head, plucking out the old feathers and the decayed quill points, and smoothing down his plumage with their great beaks. After this had gone on for some time, the three began plucking the fruit off the branch, and they ate till they were satisfied."
+  },
+  {
+   "type": "p",
+   "text": "Next morning, the two birds began at the very same work, picking and arranging the feathers of the old bird as before; and at midday they ceased, and began again to eat the fruit, throwing the stones and what they did not eat of the pulp, into the lake, till the water became red like wine. After this the old bird plunged into the lake and remained in it, washing himself, till evening, when he again flew up on the hillock, but perched on a different part of it, to avoid touching and defiling himself with the old feathers and the other traces of age and decay, which the younger birds had removed from him."
+  },
+  {
+   "type": "p",
+   "text": "On the morning of the third day, the two younger birds set about arranging his feathers for the third time; and on this occasion they applied themselves to their task in a manner much more careful and particular than before, smoothing the plumes with the nicest touches, and arranging them in beautiful lines and glossy tufts and ridges. And so they continued without the least pause till midday, when they ceased. Then, after resting for a little while, they opened their great wings, rose into the air, and flew away swiftly towards the south-west, till the men lost sight of them in the distance."
+  },
+  {
+   "type": "p",
+   "text": "Meantime the old bird, after the others had left, continued to smooth and plume his feathers till evening; then, shaking his wings, he rose up, and flew three times round the island, as if to try his strength. And now the men observed that he had lost all the appearances of old age: his feathers were thick and glossy, his head was erect and his eye bright, and he flew with quite as much power and swiftness as the others. Alighting for the last time on the hillock, after resting a little, he rose again, and turning his flight after the other two, to the point from which he had come, he was soon lost to view, and the voyagers saw no more of him."
+  },
+  {
+   "type": "p",
+   "text": "It now appeared very clear to Maildun and his companions that this bird had undergone a renewal of youth from old age, according to the word of the prophet, which says, \"Thy youth shall be renewed as the eagle.\" Diuran, seeing this great wonder, said to his companions—"
+  },
+  {
+   "type": "p",
+   "text": "\"Let us also bathe in the lake, and we shall obtain a renewal of youth like the bird.\""
+  },
+  {
+   "type": "p",
+   "text": "But they said, \"Not so, for the bird has left the poison of his old age and decay in the water.\""
+  },
+  {
+   "type": "p",
+   "text": "Diuran, however, would have his own way; and he told them he was resolved to try the virtue of the water, and that they might follow his example or not, whichever they pleased. So he plunged in and swam about for some time, after which he took a little of the water and mixed it in his mouth; and in the end he swallowed a small quantity. He then came out perfectly sound and whole; and he remained so ever after, for as long as he lived he never lost a tooth or had a grey hair, and he suffered not from disease or bodily weakness of any kind. But none of the others ventured in."
+  },
+  {
+   "type": "p",
+   "text": "The voyagers, having remained long enough on this island, stored in their curragh a large quantity of the flesh of the sheep; and after bidding farewell to the ancient cleric, they sought the ocean once more."
+  },
+  {
+   "type": "verse",
+   "text": "Now once again, when winds and tide combine,\nThe flying curragh cleaves the crested brine.\nFar to the west an island rose to view,\nWith verdant plains, clear streams, and mountains blue.\nAn aged hermit, bred in Erin's land,\nWelcomed and blessed the chieftain and his band;\nBrought food and drink, and bade them rest awhile,\nAnd view the wonders of that lovely isle.\nLo, from the sea, three birds of monstrous size,\nWith vast wings slowly moving, cleave the skies;\nAnd as they nearer drew, the sailors saw\nOne held a fruit branch firmly in his claw.\nDown by the dear, mysterious lake they light,\nEat from the branch, and rest them from their flight."
+  },
+  {
+   "type": "verse",
+   "text": "The aged bird, with plumes decayed and thin,\nPaused on the brink awhile, then, plunging in,\nHe bath'd and smooth'd his feathers o'er and o'er,\nShook his great wings and rested on the shore.\nNow while the other two his plumes arrange,\nThrough all his frame appears a wondrous change:\nHis eyes grow bright, his head erect and bold,\nHis glossy plumage shines like burnished gold;\nFree from old age, his glorious form expands;\nIn radiant youth and beauty proud he stands!\nSuch was the gift that lake of wonder gave;\nSuch was the virtue of its mystic wave."
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of Laughing"
+  },
+  {
+   "type": "p",
+   "text": "They next came to an island with a great plain extending over its whole surface. They saw a vast multitude of people on it, engaged in sundry youthful games, and all continually laughing. The voyagers cast lots who should go to examine the island; and the lot fell upon Maildun's third foster brother."
+  },
+  {
+   "type": "p",
+   "text": "The moment he landed he went among the others and joined in their pastimes and in their laughter, as if he had been among them all his life. His companions waited for him a very long time, but were afraid to venture to land after him; and at last, as there seemed no chance of his returning, they left him and sailed away."
+  },
+  {
+   "type": "heading",
+   "text": "The Isle of the Blest"
+  },
+  {
+   "type": "p",
+   "text": "They came now to a small island with a high rampart of fire all round it; and that rampart revolved continually round the island. There was one large open door in the rampart; and whenever the door, in its involution, came in front of them, they could see almost the whole island through it, and all that was therein."
+  },
+  {
+   "type": "p",
+   "text": "And this is what they saw: A great number of people, beautiful and glorious-looking, wearing rich garments adorned and radiant all over, feasting joyously, and drinking from embossed vessels of red gold which they held in their hands. The voyagers heard also their cheerful, festive songs; and they marvelled greatly, and their hearts were full of gladness at all the happiness they saw and heard. But they did not venture to land."
+  },
+  {
+   "type": "heading",
+   "text": "The Hermit of the Sea-Rock"
+  },
+  {
+   "type": "p",
+   "text": "A little time after leaving this, they saw something a long way off towards the south, which at first they took to be a large white bird floating on the sea, and rising and falling with the waves; but on turning their curragh towards it for a nearer view, they found that it was a man. He was very old, so old that he was covered all over with long, white hair, which grew from his body; and he was standing on a broad, bare rock, and kept continually throwing himself on his knees, and never ceased praying."
+  },
+  {
+   "type": "p",
+   "text": "When they saw that he was a holy man, they asked and received his blessing; after which they began to converse with him; and they inquired who he was, and how he had come to that rock. Then the old man gave them the following account:—"
+  },
+  {
+   "type": "p",
+   "text": "\"I was born and bred in the island of Tory. When I grew up to be a man, I was cook to the brotherhood of the monastery; and a wicked cook I was; for every day I sold part of the food intrusted to me, and secretly bought many choice and rare things with the money. Worse even than this I did; I made secret passages underground into the church and into the houses belonging to it, and I stole from time to time great quantities of golden vestments, book-covers adorned with brass and gold, and other holy and precious things."
+  },
+  {
+   "type": "p",
+   "text": "\"I soon became very rich, and had my rooms filled with costly couches, with clothes of every colour, both linen and woollen, with brazen pitchers and caldrons, and with brooches and armlets of gold. Nothing was wanting in my house, of furniture and ornament, that a person in a high rank of life might be expected to have; and I became very proud and overbearing."
+  },
+  {
+   "type": "p",
+   "text": "\"One day, I was sent to dig a grave for the body of a rustic that had been brought from the mainland to be buried on the island. I went and fixed on a spot in the little graveyard; but as soon as I had set to work, I heard a voice speaking down deep in the earth beneath my feet—"
+  },
+  {
+   "type": "p",
+   "text": "\"'Do not dig this grave!'"
+  },
+  {
+   "type": "p",
+   "text": "\"I paused for a moment, startled; but, recovering myself, I gave no further heed to the mysterious words, and again I began to dig. The moment I did so, I heard the same voice, even more plainly than before—"
+  },
+  {
+   "type": "p",
+   "text": "\"'Do not dig this grave! I am a devout and holy person, and my body is lean and light; do not put the heavy, pampered body of that sinner down upon me!'"
+  },
+  {
+   "type": "p",
+   "text": "\"But I answered, in the excess of my pride and obstinacy, 'I will certainly dig this grave; and I will bury this body down on you!'"
+  },
+  {
+   "type": "p",
+   "text": "\"'If you put that body down on me, the flesh will fall off your bones, and you will die, and be sent to the infernal pit at the end of three days; and, moreover, the body will not remain where you put it.'"
+  },
+  {
+   "type": "p",
+   "text": "\"'What will you give me,' I asked, 'if I do not bury the corpse on you?'"
+  },
+  {
+   "type": "p",
+   "text": "\"'Everlasting life in heaven,' replied the voice."
+  },
+  {
+   "type": "p",
+   "text": "\"'How do you know this; and how am I to be sure of it?' I inquired."
+  },
+  {
+   "type": "p",
+   "text": "\"And the voice answered me, 'The grave you are digging is clay. Observe now whether it will remain so, and then you will know the truth of what I tell you. And you will see that what I say will come to pass, and that you cannot bury that man on me, even if you should try to do so.'"
+  },
+  {
+   "type": "p",
+   "text": "\"These words were scarce ended, when the grave was turned into a mass of white sand before my face. And when I saw this, I brought the body away, and buried it elsewhere."
+  },
+  {
+   "type": "p",
+   "text": "\"It happened, some time after, that I got a new curragh made, with the hides painted red all over; and I went to sea in it. As I sailed by the shores and islands, I was so pleased with the view of the land and sea from my curragh that I resolved to live altogether in it for some time; and I brought on board all my treasures—silver cups, gold bracelets, and ornamented drinking-horns, and everything else, from the largest to the smallest article."
+  },
+  {
+   "type": "p",
+   "text": "\"I enjoyed myself for a time, while the air was clear and the sea calm and smooth. But one day, the winds suddenly arose and a storm burst upon me, which carried me out to sea, so that I quite lost sight of land, and I knew not in what direction the curragh was drifting. After a time, the wind abated to a gentle gale, the sea became smooth, and the curragh sailed on as before, with a quiet, pleasant movement."
+  },
+  {
+   "type": "p",
+   "text": "\"But suddenly, though the breeze continued to blow, I thought I could perceive that the curragh ceased moving, and, standing up to find out the cause, I saw with great surprise an old man not far off, sitting on the crest of a wave."
+  },
+  {
+   "type": "p",
+   "text": "\"He spoke to me; and, as soon as I heard his voice, I knew it at once, but I could not at the moment call to mind where I had heard it before. And I became greatly troubled, and began to tremble, I knew not why."
+  },
+  {
+   "type": "p",
+   "text": "\"'Whither art thou going?' he asked."
+  },
+  {
+   "type": "p",
+   "text": "\"'I know not,' I replied; 'but this I know, I am pleased with the smooth, gentle motion of my curragh over the waves.'"
+  },
+  {
+   "type": "p",
+   "text": "\"'You would not be pleased,' replied the old man, 'if you could see the troops that are at this moment around you.'"
+  },
+  {
+   "type": "p",
+   "text": "\"'What troops do you speak of?' I asked. And he answered—"
+  },
+  {
+   "type": "p",
+   "text": "\"'All the space round about you, as far as your view reaches over the sea, and upwards to the clouds, is one great towering mass of demons, on account of your avarice, your thefts, your pride, and your other crimes and vices.'"
+  },
+  {
+   "type": "p",
+   "text": "\"He then asked, 'Do you know why your curragh has stopped?'"
+  },
+  {
+   "type": "p",
+   "text": "\"I answered, 'No;' and he said, 'It has been stopped by me; and it will never move from that spot till you promise me to do what I shall ask of you.'"
+  },
+  {
+   "type": "p",
+   "text": "\"I replied that perhaps it was not in my power to grant his demand."
+  },
+  {
+   "type": "p",
+   "text": "\"'It is in your power,' he answered; 'and if you refuse me, the torments of hell shall be your doom.'"
+  },
+  {
+   "type": "p",
+   "text": "\"He then came close to the curragh, and, laying his hands on me, he made me swear to do what he demanded."
+  },
+  {
+   "type": "p",
+   "text": "\"'What I ask is this,' said he; 'that you throw into the sea this moment all the ill-gotten treasures you have in the curragh.'"
+  },
+  {
+   "type": "p",
+   "text": "\"This grieved me very much, and I replied, 'It is a pity that all these costly things should be lost.'"
+  },
+  {
+   "type": "p",
+   "text": "\"To which he answered, 'They will not go to loss; a person will be sent to take charge of them. Now do as I say.'"
+  },
+  {
+   "type": "p",
+   "text": "\"So, greatly against my wishes, I threw all the beautiful precious articles overboard, keeping only a small wooden cup to drink from."
+  },
+  {
+   "type": "p",
+   "text": "\"'You will now continue your voyage,' he said; 'and the first solid ground your curragh reaches, there you are to stay.'"
+  },
+  {
+   "type": "p",
+   "text": "\"He then gave me seven cakes and a cup of watery whey as food for my voyage; after which the curragh moved on, and I soon lost sight of him. And now I all at once recollected that the old man's voice was the same as the voice that I had heard come from the ground, when I was about to dig the grave for the body of the rustic. I was so astonished and troubled at this discovery, and so disturbed at the loss of all my wealth, that I threw aside my oars, and gave myself up altogether to the winds and currents, not caring whither I went; and for a long time I was tossed about on the waves, I knew not in what direction."
+  },
+  {
+   "type": "p",
+   "text": "\"At last it seemed to me that my curragh ceased to move; but I was not sure about it, for I could see no sign of land. Mindful, however, of what the old man had told me, that I was to stay wherever my curragh stopped, I looked round more carefully; and at last I saw, very near me, a small rock level with the surface, over which the waves were gently laughing and tumbling. I stepped on to the rock; and the moment I did so, the waves seemed to spring back, and the rock rose high over the level of the water; while the curragh drifted by and quickly disappeared, so that I never saw it after. This rock has been my abode from that time to the present day."
+  },
+  {
+   "type": "p",
+   "text": "\"For the first seven years, I lived on the seven cakes and the cup of whey given me by the man who had sent me to the rock. At the end of that time the cakes were all gone; and for three days I fasted, with nothing but the whey to wet my mouth. Late in the evening of the third day, an otter brought me a salmon out of the sea; but though I suffered much from hunger, I could not bring myself to eat the fish raw, and it was washed back again into the waves."
+  },
+  {
+   "type": "p",
+   "text": "\"I remained without food for three days longer; and in the afternoon of the third day, the otter returned with the salmon. And I saw another otter bring firewood; and when he had piled it up on the rock, he blew it with his breath till it took fire and lighted up. And then I broiled the salmon and ate till I had satisfied my hunger."
+  },
+  {
+   "type": "p",
+   "text": "\"The otter continued to bring me a salmon every day, and in this manner I lived for seven years longer. The rock also grew larger and larger daily, till it became the size you now see it. At the end of seven years, the otter ceased to bring me my salmon, and I fasted for three days. But at the end of the third day, I was sent half a cake of fine wheaten flour and a slice of fish; and on the same day my cup of watery whey fell into the sea, and a cup of the same size, filled with good ale, was placed on the rock for me."
+  },
+  {
+   "type": "p",
+   "text": "\"And so I have lived, praying and doing penance for my sins to this hour. Each day my drinking-vessel is filled with ale, and I am sent half a wheat-flour cake and a slice of fish; and neither rain nor wind, nor heat, nor cold, is allowed to molest me on this rock.\""
+  },
+  {
+   "type": "p",
+   "text": "This was the end of the old man's history. In the evening of that day, each man of the crew received the same quantity of food that was sent to the old hermit himself, namely, half a cake and a slice of fish; and they found in the vessel as much good ale as served them all."
+  },
+  {
+   "type": "p",
+   "text": "The next morning he said to them, \"You shall all reach your own country in safety. And you, Maildun, you shall find in an island on your way, the very man that slew your father; but you are neither to kill him nor take revenge on him in any way. As God has delivered you from the many dangers you have passed through, though you were very guilty, and well deserved death at His hands; so you forgive your enemy the crime he committed against you.\""
+  },
+  {
+   "type": "p",
+   "text": "After this they took leave of the old man and sailed away."
+  },
+  {
+   "type": "heading",
+   "text": "The Old Hermit's Story"
+  },
+  {
+   "type": "verse",
+   "text": "The storms may roar and the seas may rage,\nBut here, on this bare, brown rock,\nI pray and repent and I tell my beads,\nSecure from the hurricane's shock."
+  },
+  {
+   "type": "verse",
+   "text": "For the good, kind God, in pity to me,\nHolds out His protecting hand;\nAnd cold nor heat nor storm nor sleet,\nCan molest me where I stand."
+  },
+  {
+   "type": "verse",
+   "text": "I robbed the churches and wronged the poor,\nAnd grew richer day by day;\nBut now on this bare, brown ocean rock,\nA heavy penance I pay."
+  },
+  {
+   "type": "verse",
+   "text": "A bloated sinner died unshrived,\nAnd they brought his corse to me—\n\"Go, dig the grave and bury the dead,\nAnd pray for the soul set free.\""
+  },
+  {
+   "type": "verse",
+   "text": "I dug the grave, but my hands were stayed\nBy a solemn and fearful sound,\nFor the feeble tones of a dead man's voice\nCame up from the hollow ground!"
+  },
+  {
+   "type": "p",
+   "text": "The dead monk speaks up from the grave—"
+  },
+  {
+   "type": "verse",
+   "text": "Place not that pampered corse on mine,\nFor my bones are weak and thin;\nI cannot bear the heavy weight\nOf a body defiled by sin."
+  },
+  {
+   "type": "verse",
+   "text": "I was a meek and holy man;\nI fasted and watched and prayed;\nA sinner's corse would defile the clay\nWhere my wasted body is laid."
+  },
+  {
+   "type": "p",
+   "text": "The old hermit continues his story—"
+  },
+  {
+   "type": "verse",
+   "text": "The voice then ceased, and I heard no more\nIts hollow, beseeching tone;\nThen I closed the grave, and left the old monk\nTo rest in his coffin alone."
+  },
+  {
+   "type": "verse",
+   "text": "My curragh sailed on the western main,\nAnd I saw, as I viewed the sea,\nA withered old man upon a wave;\nAnd he fixed his eyes on me."
+  },
+  {
+   "type": "verse",
+   "text": "He spoke, and his voice my heart's blood froze,\nAnd I shook with horror and fear:\n'Twas the very voice of the dead old monk\nThat sounded in mine ear!"
+  },
+  {
+   "type": "p",
+   "text": "The dead monk speaks again—"
+  },
+  {
+   "type": "verse",
+   "text": "Far from my grave the sinner's corse\nIn unhallowed clay lies deep;\nAnd now in my coffin, undefiled,\nFor ever in peace I sleep."
+  },
+  {
+   "type": "verse",
+   "text": "Go, live and pray on the bare, brown rock,\nFar out in the stormy sea;\nA heavy penance for heavy crimes,\nAnd heaven at last for thee!"
+  },
+  {
+   "type": "p",
+   "text": "The old hermit ends his story—"
+  },
+  {
+   "type": "verse",
+   "text": "And here I live from age to age;\nI pray and repent and fast;\nAn otter brings me food each day,\nAnd I hope for heaven at last."
+  },
+  {
+   "type": "verse",
+   "text": "The tempests roar and the billows rage,\nBut God holds forth His hand,\nAnd cold nor heat nor storm nor sleet,\nCan harm me where I stand."
+  },
+  {
+   "type": "heading",
+   "text": "Signs of Home"
+  },
+  {
+   "type": "p",
+   "text": "Soon after they saw a beautiful verdant island, with herds of oxen, cows, and sheep browsing all over its hills and valleys; but no houses nor inhabitants were to be seen. And they rested for some time on this island, and ate the flesh of the cows and sheep."
+  },
+  {
+   "type": "p",
+   "text": "One day, while they were standing on a hill, a large falcon flew by; and two of the crew, who happened to look closely at him, cried out, in the hearing of Maildun—"
+  },
+  {
+   "type": "p",
+   "text": "\"See that falcon! he is surely like the falcons of Erin!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Watch him closely,\" cried Maildun; \"and observe exactly in what direction he is flying!\""
+  },
+  {
+   "type": "p",
+   "text": "And they saw that he flew to the south-east, without turning or wavering."
+  },
+  {
+   "type": "p",
+   "text": "They went on board at once; and, having unmoored, they sailed to the south-east after the falcon. After rowing the whole day, they sighted land in the dusk of the evening, which seemed to them like the land of Erin."
+  },
+  {
+   "type": "heading",
+   "text": "Maildun Meets His Enemy, and Arrives Home"
+  },
+  {
+   "type": "p",
+   "text": "On a near approach, they found it was a small island; and now they recognised it as the very same island they had seen in the beginning of their voyage, in which they had heard the man in the great house boast that he had slain Maildun's father, and from which the storm had driven them out into the great ocean."
+  },
+  {
+   "type": "p",
+   "text": "They turned the prow of their vessel to the shore, landed, and went towards the house. It happened that at this very time the people of the house were seated at their evening meal; and Maildun and his companions, as they stood outside, heard a part of their conversation."
+  },
+  {
+   "type": "p",
+   "text": "Said one to another, \"It would not be well for us if we were now to see Maildun.\""
+  },
+  {
+   "type": "p",
+   "text": "\"As to Maildun,\" answered another, \"it is very well known that he was drowned long ago in the great ocean.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Do not be sure,\" observed a third; \"perchance he is the very man that may waken you up some morning from your sleep.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Supposing he came now,\" asks another, \"what should we do?\""
+  },
+  {
+   "type": "p",
+   "text": "The head of the house now spoke in reply to the last question; and Maildun at once knew his voice—"
+  },
+  {
+   "type": "p",
+   "text": "\"I can easily answer that,\" said he. \"Maildun has been for a long time suffering great afflictions and hardships; and if he were to come now, though we were enemies once, I should certainly give him a welcome and a kind reception.\""
+  },
+  {
+   "type": "p",
+   "text": "When Maildun heard this he knocked at the door, and the door-keeper asked who was there; to which Maildun made answer—"
+  },
+  {
+   "type": "p",
+   "text": "\"It is I, Maildun, returned safely from all my wanderings.\""
+  },
+  {
+   "type": "p",
+   "text": "The chief of the house then ordered the door to be opened; and he went to meet Maildun, and brought himself and his companions into the house. They were joyfully welcomed by the whole household; new garments were given to them; and they feasted and rested, till they forgot their weariness and their hardships."
+  },
+  {
+   "type": "p",
+   "text": "They related all the wonders God had revealed to them in the course of their voyage, according to the word of the sage who says, \"It will be a source of pleasure to remember these things at a future time.\""
+  },
+  {
+   "type": "p",
+   "text": "After they had remained here for some days, Maildun returned to his own country. And Diuran Lekerd took the five half-ounces of silver he had cut down from the great net at the Silver Pillar, and laid it, according to his promise, on the high altar of Armagh."
+  }
+ ],
+ "workId": "irish-maeldun",
+ "wordCount": 15157,
+ "readingMinutes": 84,
+ "readingLevel": {
+  "fkGrade": 9.9,
+  "avgSentenceWords": 27.0,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-irish--the-voyage-of-maildun"
+}
