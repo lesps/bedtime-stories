@@ -202,13 +202,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the Second Battle of Moytura (Cath Maige Tuired) and the Book of Invasions (Lebor Gabála Érenn), medieval Irish books that preserve much older stories. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the Second Battle of Moytura (Cath Maige Tuired) and the Book of Invasions (Lebor Gabála Érenn), medieval Irish books that preserve much older stories. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "irish-moytura",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 1422,
+ "wordCount": 1419,
  "readingMinutes": 8,
  "readingLevel": {
   "fkGrade": 3.9,

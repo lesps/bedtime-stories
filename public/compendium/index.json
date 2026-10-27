@@ -588,6 +588,42 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 7
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "lang-romance",
+   "title": "The Book of Romance",
+   "author": "Leonora Blanche Lang",
+   "contributor": "Edited by Andrew Lang, illustrated by H. J. Ford",
+   "firstPublished": 1902,
+   "source": "https://www.gutenberg.org/ebooks/26646",
+   "originalLanguage": "en",
+   "storyCount": 6
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "geoffrey-british-history",
+   "title": "The British History",
+   "author": "Geoffrey of Monmouth",
+   "contributor": "Translated by Aaron Thompson, revised by J. A. Giles",
+   "firstPublished": 1848,
+   "source": "https://www.gutenberg.org/ebooks/37848",
+   "originalLanguage": "la",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-arthurian",
+   "title": "Arthurian Legends, Simply Told",
+   "author": "Traditional (Arthurian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 8
   }
  ],
  "stories": [
@@ -11536,7 +11572,7 @@
    "collectionId": "myths-german",
    "order": 12,
    "title": "Rübezahl, Spirit of the Mountains",
-   "wordCount": 764,
+   "wordCount": 761,
    "readingMinutes": 4,
    "excluded": false,
    "flags": [],
@@ -11862,7 +11898,7 @@
    "collectionId": "myths-english",
    "order": 6,
    "title": "The Green Children of Woolpit",
-   "wordCount": 608,
+   "wordCount": 605,
    "readingMinutes": 3,
    "excluded": false,
    "flags": [],
@@ -12229,7 +12265,7 @@
    "collectionId": "myths-irish",
    "order": 2,
    "title": "Lugh of All the Skills",
-   "wordCount": 1422,
+   "wordCount": 1419,
    "readingMinutes": 8,
    "excluded": false,
    "flags": [],
@@ -12246,7 +12282,7 @@
    "collectionId": "myths-irish",
    "order": 3,
    "title": "The Dagda's Harp",
-   "wordCount": 612,
+   "wordCount": 609,
    "readingMinutes": 3,
    "excluded": false,
    "flags": [],
@@ -12299,7 +12335,7 @@
    "collectionId": "myths-irish",
    "order": 6,
    "title": "Boann and the River Boyne",
-   "wordCount": 431,
+   "wordCount": 428,
    "readingMinutes": 2,
    "excluded": false,
    "flags": [],
@@ -12316,7 +12352,7 @@
    "collectionId": "myths-irish",
    "order": 7,
    "title": "Midir and Etain",
-   "wordCount": 1142,
+   "wordCount": 1139,
    "readingMinutes": 6,
    "excluded": false,
    "flags": [],
@@ -12333,7 +12369,7 @@
    "collectionId": "myths-irish",
    "order": 8,
    "title": "The Voyage of Bran",
-   "wordCount": 883,
+   "wordCount": 880,
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
@@ -12368,7 +12404,7 @@
    "collectionId": "myths-irish",
    "order": 10,
    "title": "Cuchulain and the Beheading Game",
-   "wordCount": 946,
+   "wordCount": 943,
    "readingMinutes": 5,
    "excluded": false,
    "flags": [],
@@ -12511,7 +12547,7 @@
    "collectionId": "myths-irish",
    "order": 18,
    "title": "Saint Brendan's Voyage",
-   "wordCount": 1234,
+   "wordCount": 1231,
    "readingMinutes": 7,
    "excluded": false,
    "flags": [],
@@ -12858,7 +12894,7 @@
    "collectionId": "myths-welsh",
    "order": 10,
    "title": "The Drowned Land of Cantre'r Gwaelod",
-   "wordCount": 611,
+   "wordCount": 608,
    "readingMinutes": 3,
    "excluded": false,
    "flags": [],
@@ -12965,7 +13001,7 @@
    "collectionId": "myths-celtic",
    "order": 1,
    "title": "The Cailleach, Queen of Winter",
-   "wordCount": 737,
+   "wordCount": 734,
    "readingMinutes": 4,
    "excluded": false,
    "flags": [],
@@ -13072,7 +13108,7 @@
    "collectionId": "myths-celtic",
    "order": 7,
    "title": "The Drowned City of Ys",
-   "wordCount": 747,
+   "wordCount": 744,
    "readingMinutes": 4,
    "excluded": false,
    "flags": [],
@@ -13083,6 +13119,281 @@
     "avgSentenceWords": 13.1,
     "band": "middle"
    }
+  },
+  {
+   "id": "lang-romance--the-drawing-of-the-sword",
+   "collectionId": "lang-romance",
+   "order": 1,
+   "title": "The Drawing of the Sword",
+   "wordCount": 1259,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "arthurian-sword-in-stone",
+   "readingLevel": {
+    "fkGrade": 7.7,
+    "avgSentenceWords": 23.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-arthurian--the-sword-in-the-stone"
+  },
+  {
+   "id": "lang-romance--the-sword-excalibur",
+   "collectionId": "lang-romance",
+   "order": 2,
+   "title": "The Sword Excalibur",
+   "wordCount": 460,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "arthurian-excalibur",
+   "readingLevel": {
+    "fkGrade": 7.1,
+    "avgSentenceWords": 21.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-arthurian--excalibur-and-the-lady-of-the-lake"
+  },
+  {
+   "id": "lang-romance--how-the-round-table-began",
+   "collectionId": "lang-romance",
+   "order": 3,
+   "title": "How the Round Table Began",
+   "wordCount": 1053,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-round-table",
+   "readingLevel": {
+    "fkGrade": 7.4,
+    "avgSentenceWords": 21.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-arthurian--the-round-table"
+  },
+  {
+   "id": "lang-romance--what-beaumains-asked-of-the-king",
+   "collectionId": "lang-romance",
+   "order": 4,
+   "title": "What Beaumains Asked of the King",
+   "wordCount": 7138,
+   "readingMinutes": 40,
+   "excluded": false,
+   "flags": [],
+   "hasImages": true,
+   "workId": "arthurian-gareth",
+   "readingLevel": {
+    "fkGrade": 7.8,
+    "avgSentenceWords": 23.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-arthurian--gareth-the-kitchen-knight"
+  },
+  {
+   "id": "lang-romance--the-quest-of-the-holy-graal",
+   "collectionId": "lang-romance",
+   "order": 5,
+   "title": "The Quest of the Holy Graal",
+   "wordCount": 8965,
+   "readingMinutes": 50,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": true,
+   "workId": "arthurian-grail",
+   "readingLevel": {
+    "fkGrade": 9.1,
+    "avgSentenceWords": 25.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-arthurian--galahad-and-the-holy-grail"
+  },
+  {
+   "id": "lang-romance--the-end-of-it-all",
+   "collectionId": "lang-romance",
+   "order": 6,
+   "title": "The End of It All",
+   "wordCount": 3866,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": true,
+   "workId": "arthurian-passing",
+   "readingLevel": {
+    "fkGrade": 9.5,
+    "avgSentenceWords": 27.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-arthurian--the-passing-of-arthur"
+  },
+  {
+   "id": "geoffrey-british-history--merlin-and-vortigern-s-tower",
+   "collectionId": "geoffrey-british-history",
+   "order": 1,
+   "title": "Merlin and Vortigern's Tower",
+   "wordCount": 1389,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "arthurian-merlin-vortigern",
+   "readingLevel": {
+    "fkGrade": 10.3,
+    "avgSentenceWords": 25.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-arthurian--merlin-and-the-two-dragons"
+  },
+  {
+   "id": "myths-arthurian--merlin-and-the-two-dragons",
+   "collectionId": "myths-arthurian",
+   "order": 1,
+   "title": "Merlin and the Two Dragons",
+   "wordCount": 1120,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-merlin-vortigern",
+   "readingLevel": {
+    "fkGrade": 4.6,
+    "avgSentenceWords": 13.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "geoffrey-british-history--merlin-and-vortigern-s-tower"
+  },
+  {
+   "id": "myths-arthurian--the-sword-in-the-stone",
+   "collectionId": "myths-arthurian",
+   "order": 2,
+   "title": "The Sword in the Stone",
+   "wordCount": 937,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-sword-in-stone",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 13.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "lang-romance--the-drawing-of-the-sword"
+  },
+  {
+   "id": "myths-arthurian--excalibur-and-the-lady-of-the-lake",
+   "collectionId": "myths-arthurian",
+   "order": 3,
+   "title": "Excalibur and the Lady of the Lake",
+   "wordCount": 473,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-excalibur",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "lang-romance--the-sword-excalibur"
+  },
+  {
+   "id": "myths-arthurian--the-round-table",
+   "collectionId": "myths-arthurian",
+   "order": 4,
+   "title": "The Round Table",
+   "wordCount": 776,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-round-table",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "lang-romance--how-the-round-table-began"
+  },
+  {
+   "id": "myths-arthurian--gareth-the-kitchen-knight",
+   "collectionId": "myths-arthurian",
+   "order": 5,
+   "title": "Gareth, the Kitchen Knight",
+   "wordCount": 2520,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-gareth",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 11.6,
+    "band": "early"
+   },
+   "adaptedFrom": "lang-romance--what-beaumains-asked-of-the-king"
+  },
+  {
+   "id": "myths-arthurian--gawain-and-the-green-knight",
+   "collectionId": "myths-arthurian",
+   "order": 6,
+   "title": "Gawain and the Green Knight",
+   "wordCount": 1649,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-green-knight",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 12.2,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-arthurian--galahad-and-the-holy-grail",
+   "collectionId": "myths-arthurian",
+   "order": 7,
+   "title": "Galahad and the Holy Grail",
+   "wordCount": 1808,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-grail",
+   "readingLevel": {
+    "fkGrade": 4.9,
+    "avgSentenceWords": 14.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "lang-romance--the-quest-of-the-holy-graal"
+  },
+  {
+   "id": "myths-arthurian--the-passing-of-arthur",
+   "collectionId": "myths-arthurian",
+   "order": 8,
+   "title": "The Passing of Arthur",
+   "wordCount": 1330,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "arthurian-passing",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 14.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "lang-romance--the-end-of-it-all"
   }
  ]
 }

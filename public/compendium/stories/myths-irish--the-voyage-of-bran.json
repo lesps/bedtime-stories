@@ -94,13 +94,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the Voyage of Bran (Immram Brain), an Irish tale first written down more than a thousand years ago. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the Voyage of Bran (Immram Brain), an Irish tale first written down more than a thousand years ago. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "irish-bran",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 883,
+ "wordCount": 880,
  "readingMinutes": 5,
  "readingLevel": {
   "fkGrade": 3.8,

@@ -1,0 +1,139 @@
+{
+ "id": "myths-arthurian--the-round-table",
+ "collectionId": "myths-arthurian",
+ "order": 4,
+ "title": "The Round Table",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "After King Arthur had beaten all his enemies, his lords kept telling him that it was time he got married."
+  },
+  {
+   "type": "p",
+   "text": "\"My lords give me no rest,\" Arthur said to Merlin, who was always his wisest friend. \"They want me to choose a wife. But I told them I would not choose anyone unless you thought it was right.\""
+  },
+  {
+   "type": "p",
+   "text": "\"It is right that you should have a wife,\" said Merlin. \"Is there anyone you love more than all the rest?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Yes,\" said Arthur. \"I love Guinevere, the daughter of King Leodegrance of Cameliard. My father gave King Leodegrance a great Round Table, and it is in his castle now. Guinevere is the most beautiful lady I have ever seen, or ever will see.\""
+  },
+  {
+   "type": "p",
+   "text": "\"She is certainly beautiful,\" said Merlin. \"But once a man has set his heart on someone, there's no use trying to change his mind.\""
+  },
+  {
+   "type": "p",
+   "text": "So Merlin took a company of knights and rode to the castle of Cameliard, and told King Leodegrance that King Arthur wanted to marry his daughter."
+  },
+  {
+   "type": "p",
+   "text": "\"That is the best news I have ever had!\" said King Leodegrance. \"Arthur has plenty of lands already, so I won't give him lands. I will give him something that will please him much more: the Round Table that his father gave me. A hundred and fifty knights can sit at it at once. I have a hundred good knights who can sit at it, but I am fifty short, because so many have been lost in the wars.\""
+  },
+  {
+   "type": "p",
+   "text": "So Merlin set off back to London, and the Round Table came with him, and King Leodegrance's knights. When Arthur heard that they were coming, he was overjoyed. \"I have loved this lady for a long time,\" he said, \"and the Round Table means more to me than great riches.\" He sent Sir Lancelot to bring Guinevere to him, and he made everything ready for the wedding."
+  },
+  {
+   "type": "p",
+   "text": "\"Now, Merlin,\" said Arthur, \"go all over my kingdom, and find fifty of the bravest and best knights in the land, to fill up the Round Table.\""
+  },
+  {
+   "type": "p",
+   "text": "But Merlin could only find twenty-eight knights good enough. Arthur had to be content with those. The Bishop of Canterbury blessed the seats around the Round Table, and the knights sat down in them."
+  },
+  {
+   "type": "p",
+   "text": "\"Now stand up, all of you,\" said Merlin, \"and kneel to your king.\""
+  },
+  {
+   "type": "p",
+   "text": "So the knights stood up. And there, on every seat, in letters of gold, was the name of the knight who had sat in it. But two seats were still empty."
+  },
+  {
+   "type": "p",
+   "text": "Then Arthur's young nephew Gawain came to him. \"Please, uncle,\" he said, \"will you make me a knight on the day you marry Guinevere?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I will, gladly,\" said Arthur, \"for you are my sister's son.\""
+  },
+  {
+   "type": "p",
+   "text": "Just then a poor man came into the hall, bringing a young man of about eighteen, riding a thin mare. \"Where is King Arthur?\" the man asked. The knights pointed to the king, and the man went and bowed low in front of him."
+  },
+  {
+   "type": "p",
+   "text": "\"King Arthur,\" he said, \"I have heard that when you marry, you will give anybody whatever they ask for.\""
+  },
+  {
+   "type": "p",
+   "text": "\"That is true,\" said Arthur, \"as long as it does no harm to anyone else, or to my kingdom.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Then please,\" said the man, \"will you make my son a knight?\""
+  },
+  {
+   "type": "p",
+   "text": "\"That is a great thing to ask,\" said the king. \"What is your name?\""
+  },
+  {
+   "type": "p",
+   "text": "\"My name is Aries the cowherd,\" said the man. \"I have thirteen sons. The others all look after the cows and work in the fields when I tell them to. But this boy won't do anything but shoot arrows and throw spears, and go to watch knights fighting. Every day he begs me to bring him to you, so that he can be a knight too.\""
+  },
+  {
+   "type": "p",
+   "text": "\"What is your name?\" Arthur asked the young man."
+  },
+  {
+   "type": "p",
+   "text": "\"My name is Tor, sir.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Where is your sword?\" asked the king."
+  },
+  {
+   "type": "p",
+   "text": "\"Here, my lord.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Take it out, and ask me to make you a knight,\" said Arthur."
+  },
+  {
+   "type": "p",
+   "text": "So Tor jumped down from his mare and drew his sword, and knelt in front of the king, and asked to be made a knight, and a knight of the Round Table."
+  },
+  {
+   "type": "p",
+   "text": "Arthur tapped him on the neck with the sword. \"A knight I will make you,\" he said, \"and if you prove worthy, you shall sit at the Round Table too.\""
+  },
+  {
+   "type": "p",
+   "text": "And the next day, he made Gawain a knight as well."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Leonora Blanche Lang's “How the Round Table Began” in The Book of Romance (1902). The original is listed under Other versions. Lang spells Guinevere as Guenevere and Gawain as Gawaine."
+  }
+ ],
+ "workId": "arthurian-round-table",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "lang-romance--how-the-round-table-began",
+ "wordCount": 776,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 3.8,
+  "avgSentenceWords": 12.6,
+  "band": "middle"
+ }
+}

@@ -58,13 +58,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the Highland folk legends of the Cailleach, the old woman of winter, told in many parts of the Highlands and gathered by folklorists such as Donald A. Mackenzie (1917). No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the Highland folk legends of the Cailleach, the old woman of winter, told in many parts of the Highlands and gathered by folklorists such as Donald A. Mackenzie (1917). There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "scottish-cailleach",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 737,
+ "wordCount": 734,
  "readingMinutes": 4,
  "readingLevel": {
   "fkGrade": 5.5,

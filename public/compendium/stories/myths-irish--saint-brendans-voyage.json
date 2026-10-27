@@ -94,13 +94,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the Voyage of Saint Brendan the Abbot (Navigatio Sancti Brendani Abbatis), written in Latin in Ireland more than a thousand years ago. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the Voyage of Saint Brendan the Abbot (Navigatio Sancti Brendani Abbatis), written in Latin in Ireland more than a thousand years ago. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "irish-brendan",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 1234,
+ "wordCount": 1231,
  "readingMinutes": 7,
  "readingLevel": {
   "fkGrade": 4.7,

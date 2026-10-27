@@ -1,0 +1,123 @@
+{
+ "id": "myths-arthurian--the-sword-in-the-stone",
+ "collectionId": "myths-arthurian",
+ "order": 2,
+ "title": "The Sword in the Stone",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long, long ago, after King Uther Pendragon died, there was no king in Britain. Every knight wanted to grab the crown for himself, and nobody kept the laws. The corn that should have made bread for the poor was trampled in the fields, and there was nobody to punish the wrongdoers."
+  },
+  {
+   "type": "p",
+   "text": "When things were at their very worst, Merlin the magician rode to see the Archbishop of Canterbury. Together they made a plan. All the lords and knights of Britain were to come to London on Christmas Day, and meet in the great church."
+  },
+  {
+   "type": "p",
+   "text": "So they came. And on Christmas morning, as they left the church, they saw something strange in the churchyard. There was a big stone, and on top of it a block of steel, and stuck in the steel was a sword. Around it, in letters of gold, were the words: \"Whoever pulls this sword out of the stone is the rightful King of England.\""
+  },
+  {
+   "type": "p",
+   "text": "All the knights who wanted to be king rushed forward, and they tugged and pulled at the sword with all their might. But it would not move. \"The man who will pull out that sword is not here,\" said the Archbishop, \"and I do not know where to find him.\" And he chose two good knights to guard the sword night and day."
+  },
+  {
+   "type": "p",
+   "text": "The lords decided to hold a great tournament on New Year's Day, so that every knight could have a chance to try."
+  },
+  {
+   "type": "p",
+   "text": "Among the knights who came to the tournament was a brave knight called Sir Ector. With him came his son, Sir Kay, and Arthur, who had grown up with Kay as his brother."
+  },
+  {
+   "type": "p",
+   "text": "Now Kay had taken off his sword the night before, and in his hurry to get to the tournament he had left it behind. So he asked Arthur to ride back and fetch it. But when Arthur got to the house, the door was locked, because everyone had gone out to watch the tournament. He couldn't get in."
+  },
+  {
+   "type": "p",
+   "text": "Arthur was cross. \"Kay shall not be without a sword today,\" he said to himself. \"I'll take the sword from the churchyard, and give him that.\" So he galloped to the churchyard, tied up his horse, ran up to the stone, took hold of the sword, and pulled it out. It came out easily. Then he rode back and gave it to Kay."
+  },
+  {
+   "type": "p",
+   "text": "As soon as Kay saw the sword, he knew it was the sword from the stone. He ran to his father. \"Father, look!\" he said. \"This is the sword from the stone, so I must be the king!\""
+  },
+  {
+   "type": "p",
+   "text": "Sir Ector said nothing. He took Kay and Arthur back to the church, and made Kay swear on a holy book to tell the truth about where he had got the sword."
+  },
+  {
+   "type": "p",
+   "text": "\"My brother Arthur gave it to me,\" said Kay."
+  },
+  {
+   "type": "p",
+   "text": "\"And how did you get it?\" Sir Ector asked Arthur."
+  },
+  {
+   "type": "p",
+   "text": "\"I couldn't get Kay's own sword,\" said Arthur, \"so I thought of the sword in the stone, and I pulled it out.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Then you are the rightful king of this land,\" said Sir Ector. \"Put the sword back in the stone, and let me see you take it out again.\""
+  },
+  {
+   "type": "p",
+   "text": "So Arthur put the sword back. Sir Ector tried to pull it out, but he couldn't. Kay tried too, pulling with all his strength, but he couldn't either. Then Arthur took hold of it, and it slid out as easily as if it had been lying in its sheath."
+  },
+  {
+   "type": "p",
+   "text": "At once Sir Ector and Sir Kay knelt down in front of him."
+  },
+  {
+   "type": "p",
+   "text": "\"Father, brother, why are you kneeling to me?\" asked Arthur."
+  },
+  {
+   "type": "p",
+   "text": "\"I am not your father,\" said Sir Ector gently. \"I didn't know who your father was until today. You are the son of King Uther Pendragon. Merlin brought you to me when you were a baby, and he promised that one day I would find out who you really were.\""
+  },
+  {
+   "type": "p",
+   "text": "When Arthur heard that Sir Ector was not his father, he cried and cried. \"If I am king,\" he said at last, \"ask me for anything you want, and you shall have it. You and my mother have done more for me than anyone in the world, for she loved me as if I were her own son.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I only ask one thing,\" said Sir Ector. \"Make your brother Kay the steward of all your lands.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I will,\" said Arthur, \"and nobody else shall have that job as long as we both live.\""
+  },
+  {
+   "type": "p",
+   "text": "But when the lords and knights saw that the king was to be a boy they had never heard of, many of them were angry. \"We will never have a boy for our king, whose family is no better than ours!\" they said. So they waited, and Arthur pulled out the sword again on Twelfth Day, and again at Candlemas, and again at Easter. And nobody else could do it."
+  },
+  {
+   "type": "p",
+   "text": "At last, at Pentecost, when the ordinary people saw Arthur pull out the sword once more, they all shouted together, \"Arthur is our king! We will have no other king but him!\" Then everyone, rich and poor, knelt down in front of him."
+  },
+  {
+   "type": "p",
+   "text": "Arthur laid the sword on the altar in front of the Archbishop. He was made a knight, and the crown was put on his head. And he promised all his people that he would be a true king, and treat them fairly, all the days of his life."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Leonora Blanche Lang's “The Drawing of the Sword” in The Book of Romance (1902). The original is listed under Other versions."
+  }
+ ],
+ "workId": "arthurian-sword-in-stone",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "lang-romance--the-drawing-of-the-sword",
+ "wordCount": 937,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 3.7,
+  "avgSentenceWords": 13.4,
+  "band": "middle"
+ }
+}

@@ -126,13 +126,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from Bricriu's Feast (Fled Bricrenn), an Irish tale preserved in the Book of the Dun Cow, written down around the year 1100. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from Bricriu's Feast (Fled Bricrenn), an Irish tale preserved in the Book of the Dun Cow, written down around the year 1100. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "irish-bricriu",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 946,
+ "wordCount": 943,
  "readingMinutes": 5,
  "readingLevel": {
   "fkGrade": 3.0,

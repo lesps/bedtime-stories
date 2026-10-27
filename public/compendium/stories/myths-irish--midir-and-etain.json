@@ -134,13 +134,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the Wooing of Etain (Tochmarc Étaíne), an Irish tale preserved in manuscripts from the 1100s onwards. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the Wooing of Etain (Tochmarc Étaíne), an Irish tale preserved in manuscripts from the 1100s onwards. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "irish-etain",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 1142,
+ "wordCount": 1139,
  "readingMinutes": 6,
  "readingLevel": {
   "fkGrade": 4.3,

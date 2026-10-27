@@ -58,7 +58,9 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           Gellert from Jacobs's Celtic Fairy Tales; extract_scottish.py: Thomas the
                           Rhymer, the Seal Catcher and Assipattle from Grierson's Scottish Fairy Book,
                           with Morris Meredith Williams's pictures, and two tales from Morrison's
-                          Manx Fairy Tales)
+                          Manx Fairy Tales; extract_arthurian.py: Mrs. Lang's Arthurian tales from
+                          Lang's Book of Romance, with H. J. Ford's pictures, and Merlin and
+                          Vortigern's tower from Geoffrey's British History)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
@@ -105,8 +107,8 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 908 stories, 49 collections, ~9.7 MB
-of story JSON and ~34 MB of illustrations. Tests derive counts from `index.json`; never hardcode
+failures throw `DataError` (`kind: network | http | invalid`). 923 stories, 52 collections, ~9.9 MB
+of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
 **Fields in the data that the app doesn't read yet.** zod strips unknown keys, so these are safe to
@@ -124,7 +126,7 @@ ship ahead of the code; they appear on story files and, where marked, on index e
   default (a `mature-themes` original with an unflagged retelling) the note names the Settings
   toggle that shows it; the integrity test checks every note. A retelling of a legend with no usable public-domain text (Rübezahl,
   the Green Children of Woolpit, seven of the Irish myths, the drowned Welsh land of Cantre'r
-  Gwaelod, the Cailleach and the Breton city of Ys; ‡ in the expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
+  Gwaelod, the Cailleach, the Breton city of Ys, and Gawain and the Green Knight; ‡ in the expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
   note says what it was retold from.
 
 Intended behaviour, not yet built: the library, search, collections and the picker show the
@@ -134,9 +136,10 @@ is `advanced` or it runs over 20 minutes.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-19 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+20 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`, and
-the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`)
+the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`; the Arthurian legends
+are their own culture, `arthurian`)
 and 18 themes (`gods-heroes` comes from the `MYTH_COLLECTIONS` rule). Regenerate with `python3 tools/tag_stories.py` after any data change.
 
 ## Behaviour rules
@@ -267,8 +270,8 @@ fine)`.
   `python3 tools/build_simplified.py && python3 tools/tag_stories.py`; never hand-edit the JSON.
   A retelling inherits its original's `flags` unless its front matter sets `flags:` (e.g. `none`
   for an Orpheus that leaves out his violent death). Retellings go in `myths-greek`,
-  `myths-roman`, `myths-norse`, `myths-german`, `myths-english`, `myths-irish`, `myths-welsh`
-  or `myths-celtic` (Scottish, Manx and Breton) by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  `myths-roman`, `myths-norse`, `myths-german`, `myths-english`, `myths-irish`, `myths-welsh`,
+  `myths-celtic` (Scottish, Manx and Breton) or `myths-arthurian` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).

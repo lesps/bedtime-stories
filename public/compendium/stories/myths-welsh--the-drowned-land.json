@@ -50,13 +50,13 @@
   },
   {
    "type": "note",
-   "text": "Retold by Claude (Anthropic), 2026, from the Welsh legend of the Lowland Hundred, first found in a poem in the Black Book of Carmarthen (written in the 1200s) and told along Cardigan Bay ever since. No public-domain text of this legend could be used, so there is no original to compare it with."
+   "text": "Retold by Claude (Anthropic), 2026, from the Welsh legend of the Lowland Hundred, first found in a poem in the Black Book of Carmarthen (written in the 1200s) and told along Cardigan Bay ever since. There is no public-domain text of this legend in the app to compare it with."
   }
  ],
  "workId": "welsh-cantref-gwaelod",
  "adaptation": "retold",
  "adaptedBy": "Claude (Anthropic), 2026",
- "wordCount": 611,
+ "wordCount": 608,
  "readingMinutes": 3,
  "readingLevel": {
   "fkGrade": 5.4,

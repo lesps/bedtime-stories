@@ -1,0 +1,150 @@
+---
+title: Gareth, the Kitchen Knight
+adaptedFrom: lang-romance--what-beaumains-asked-of-the-king
+order: 5
+namesNote: Lang spells Gawain as Gawaine.
+---
+
+Every year, at the feast of Pentecost, King Arthur would not eat his dinner until he had seen or heard of some great wonder. One Pentecost, as the knights of the Round Table sat waiting, two richly dressed men came into the hall. Between them, leaning on their shoulders, was the most handsome young man anyone had ever seen. He was much taller than the other two, and broad and strong, but he seemed ashamed of being so tall, and so he leaned on his friends.
+
+The young man stood up straight in front of the king. "King Arthur," he said, "I have come to ask you for three gifts. They will do no harm to you or to anyone."
+
+"Ask," said Arthur, "and you shall have them."
+
+"For my first gift, give me food and drink for a year. I will ask for the other two gifts later."
+
+"You shall have food and drink enough," said the king. "I give that to anybody, friend or enemy. But tell me your name."
+
+"I cannot tell you that," said the young man.
+
+Arthur thought this was strange, but he liked the look of him. He told his steward, Sir Kay, to give the young man the best of everything, as if he were a lord's son.
+
+But Sir Kay sneered. "If he came from a good family," he said, "he would have asked for a horse and armour, not for food. He has no name, so I'll give him one. I'll call him Beaumains, which means Fair Hands. He can sit in the kitchen and eat soup, and by the end of the year he'll be as fat as a pig."
+
+Sir Lancelot and Sir Gawain were angry with Kay, and told him to stop mocking the young man. They asked Beaumains to come and eat with them instead. But he said no. The king had put him in Sir Kay's care, and he would do as Kay said. So he ate and slept in the kitchen with the kitchen boys for a whole year. And all that time he was gentle and patient, and never said an unkind word to anyone. Only, whenever the knights held a tournament, he would slip out to watch. Lancelot and Gawain gave him money and clothes. And at the games, nobody could throw a bar or a stone as far as Beaumains.
+
+At the next Pentecost, a young lady came riding into King Arthur's hall. "Please help us," she said. "My sister is a great lady, and a cruel knight has shut her up in her castle, and will not let her out. He is called the Red Knight of the Red Lawns."
+
+"I know him," said Sir Gawain. "He is one of the most dangerous knights in the world. They say he has the strength of seven men."
+
+"Then I will not send any of my knights," said King Arthur, "unless you tell us your sister's name, and where her castle is."
+
+But before the lady could answer, Beaumains came up to the king. "Sir," he said, "thank you for feeding me for a year. Now I will ask you for my other two gifts. First, let me go on this adventure. And second, let Sir Lancelot make me a knight, for I will not be knighted by anyone else."
+
+"You shall have both," said the king.
+
+"What!" cried the lady. "Is a kitchen boy all you will give me?" And she stormed out of the hall, jumped on her horse, and rode away.
+
+Then, to everyone's surprise, a dwarf arrived with a fine horse and splendid armour for Beaumains. When he was dressed in it, there were few men as handsome as he. He said goodbye to the king, asked Sir Lancelot to follow him, and rode off after the lady.
+
+Sir Kay laughed. "I'll ride after my kitchen boy," he said, "and see if he still knows who his master is." Lancelot and Gawain told him to stay at home, but he would not listen. When he caught up, he charged at Beaumains with his spear. But Beaumains knocked the spear aside with his sword and struck Kay down off his horse, badly hurt. Then he took Kay's shield and spear, and rode on.
+
+Sir Lancelot had followed too, and Beaumains asked him if they could try their strength against each other. They crashed together so hard that both horses fell. Then they fought on foot for a whole hour, and Lancelot was amazed at how strong the young man was.
+
+"We don't have to fight so hard," said Lancelot at last. "We have no quarrel."
+
+"That's true," said Beaumains, putting down his sword. "But it does me good to feel your strength, my lord."
+
+"I promise you," said Lancelot, "I had a hard job not to be beaten. You need not fear any other knight."
+
+"Then please," said Beaumains, "make me a knight."
+
+"First you must tell me your name," said Lancelot.
+
+"Will you keep it secret?"
+
+"I will."
+
+"Then my name is Gareth," said the young man, "and Sir Gawain is my brother."
+
+"I'm gladder of that than of anything," said Lancelot. "I was sure you came from a noble family." And he made him a knight.
+
+Then Gareth rode after the lady. She was not pleased to see him. "What are you doing here?" she said. "You smell of the kitchen! Go back to King Arthur's kitchen, where you belong, you turner of roasting spits!"
+
+"Lady," said Gareth, "you can say what you like. I promised King Arthur to rescue your sister, and I will not leave you until I have done it."
+
+So they rode on. In the forest, a man came galloping towards them. "Help!" he cried. "Six thieves have tied up my master in a thicket!" Gareth rode to the rescue, and fought the six thieves and beat them all, and set the knight free. The knight thanked him, and invited them both to stay the night at his castle. But at supper, when the knight gave Gareth the place of honour, the lady was furious. "How can you seat a kitchen boy above me?" she cried. So the knight, ashamed, moved Gareth to another table and sat with him there.
+
+The next morning they came to a river, with two knights guarding the crossing. "Well?" said the lady. "Will you fight them, or turn back?"
+
+"I wouldn't turn back if there were six of them," said Gareth. And he fought them both, and beat them both.
+
+"Even a kitchen boy can be lucky," said the lady. "The first one's horse stumbled. And you crept up on the other from behind."
+
+"Say what you like," said Gareth. "I don't care, as long as I can rescue your sister."
+
+All day she scolded him, and gave him no rest. That evening they came to a black lawn, with a black hawthorn tree, and a black banner, and a black shield. There sat a knight in black armour on a black horse.
+
+"Is this your champion from King Arthur's court?" the Black Knight asked the lady.
+
+"No," she said. "He's only a kitchen boy. He follows me about, and I can't get rid of him. I wish you would."
+
+"I'll just knock him off his horse and take his armour, then," said the Black Knight.
+
+"You'll only get my horse and armour if you win them fairly," said Gareth. "I am as well born as you, and I'll prove it."
+
+They fought for an hour and a half, and at last Gareth knocked the Black Knight from his horse, and the Black Knight never rose again.
+
+Next came the Black Knight's brother, a knight dressed all in green. He blew a horn, and two ladies came and armed him in green armour, with a green shield and a green spear. He and Gareth fought long and hard, until at last Gareth threw him to the ground.
+
+"Mercy!" cried the Green Knight. "Spare my life, and I will serve you for ever, and so will thirty of my knights."
+
+"I will spare you," said Gareth, "only if this lady asks me to."
+
+"Never!" said the lady. But when Gareth stepped forward as if to strike, she cried, "Stop! Don't kill him!"
+
+"Lady," said Gareth, "I am happy to do as you wish." And he let the Green Knight go.
+
+The Green Knight took them home for the night, and he told the lady she was wrong. "He is the noblest knight who ever held a spear," he said. "One day you will find out that he is the son of some great king."
+
+After that, Gareth beat the third brother, the Red Knight, who promised him sixty knights, and again he spared his enemy's life when the lady asked.
+
+Next they came to a great knight called Sir Persant of Inde. And this time, the lady begged Gareth to turn back and save himself, because he and his horse were so tired. She was beginning to change her mind about him. "Who are you?" she asked, wondering. "No woman ever treated a knight as badly as I have treated you. And you have always been gentle and polite to me. Only someone of noble blood could behave like that."
+
+"Lady," said Gareth, "your hard words only made me fight harder. And whether I am a gentleman or not, I have done you a gentleman's service."
+
+"Forgive me, fair Beaumains," she said, "for everything I have said and done against you."
+
+"With all my heart," said Gareth. "And now that you speak kindly to me, I feel strong enough to fight any knight alive."
+
+So Gareth fought Sir Persant, and beat him, and Sir Persant gave him a hundred knights to serve him. Then Sir Persant told them about the knight who was besieging the castle. "He is the most dangerous knight alive," he said. "Is this lady's name Linet?"
+
+"Yes," said the lady, "and my sister is the Lady Lyonesse."
+
+Then Gareth told them his real name, Sir Gareth of Orkney, and asked them to keep it secret.
+
+When they came near the castle, they saw a horn hanging on a great sycamore tree. Whoever wanted to fight the Red Knight of the Red Lawns had to blow it.
+
+"Wait until noon," said Linet. "In the hours before noon, his strength grows until he has the strength of seven men. But after noon, he is only as strong as one."
+
+"For shame!" said Gareth. "I will fight him as he is, or not at all." And he blew the horn so loudly that it rang through the whole castle.
+
+The Red Knight of the Red Lawns put on his armour and came out. It was a terrible fight, and Gareth could hardly hold on until noon. But after noon, the Red Knight grew weaker, and at last he gave in. His lords begged for his life, and Gareth spared him, and sent him to King Arthur's court to tell the king everything that had happened. And Linet bound up both their wounds.
+
+Before the fight, Gareth had looked up at the castle windows, and seen the face of the Lady Lyonesse, and thought it was the most beautiful face in the world. Now he hurried into the castle, and she welcomed him. He told her that he loved her, and she did not say no. But she wanted to wait a while.
+
+So, with Gareth's help, she made a plan. She asked King Arthur to hold a great tournament, and promised that the best knight there could marry her, if he was not married already. King Arthur agreed, and knights came from all over the land. But Gareth asked everyone at the castle to keep his name a secret.
+
+Before the tournament, the Lady Lyonesse gave him a magic ring. "Give it back to me afterwards," she said. "It makes green look red and blue look white, and whoever wears it will not lose a drop of blood, however badly he is hurt."
+
+So Gareth rode into the tournament wearing the ring, and his armour kept changing colour, sometimes green and sometimes white, and nobody could tell who he was. He knocked down every knight he rode against. "That knight of many colours is a good knight," said King Arthur, and he asked Sir Lancelot to fight him. But Lancelot said no. "He has fought so well today that the honour should be his," he said.
+
+Later in the day, Gareth took off the ring and gave it to his dwarf to keep safe while he stopped for a drink. And then he forgot to take it back. The dwarf was pleased, because he wanted everyone to know who Gareth was. When Gareth rode back into the tournament, his armour shone gold, and a herald rode up close and read the words written on his helmet in golden letters: "This helmet belongs to Sir Gareth of Orkney."
+
+"It's Sir Gareth!" cried the herald, and everyone crowded round to see him. Gareth galloped away into the forest, and sent the ring back to the Lady Lyonesse, with a message to say he loved her and would come back when he could.
+
+In the forest, he had many more adventures. And one day he met a knight in armour, and without a word they began to fight. They fought for two hours. Then Linet came riding by, and recognised them both. "Sir Gawain! Sir Gawain!" she cried. "Stop fighting! That is your brother, Sir Gareth!"
+
+Gawain threw down his sword and shield and ran to Gareth and hugged him. Then Gareth took off his helmet, and the two brothers hugged each other again. "In this one year," said Gawain, "you have sent King Arthur more knights than any six of the best knights of the Round Table!"
+
+Linet rode to fetch King Arthur, and when the king saw his two nephews sitting together on the hillside, he was so happy that he fainted. Their mother, the Queen of Orkney, was there too.
+
+Then the Lady Lyonesse came to the court. "Nephew," said King Arthur, "will you have this lady for your wife?"
+
+"You know I love her more than anyone in the world," said Gareth.
+
+"And what do you say, lady?" asked the king.
+
+"I would rather have Sir Gareth for my husband than any king or prince in the world," said the Lady Lyonesse. "He is my first love, and he will be my last."
+
+So at Michaelmas, Sir Gareth and the Lady Lyonesse were married. And at the same time, Sir Gawain married Linet. All the knights Gareth had beaten came to the wedding to honour him, and the Green Knight and the Red Knight asked to serve him at the feast. And there was music and games, and a great tournament that lasted for three days.
