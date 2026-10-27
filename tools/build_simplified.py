@@ -68,6 +68,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-english": {
+        "id": "myths-english",
+        "title": "English Legends, Simply Told",
+        "author": "Traditional (English)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-german": {
         "id": "myths-german",
         "title": "German Legends, Simply Told",

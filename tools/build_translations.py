@@ -50,7 +50,7 @@ COLLECTIONS = {
         **COMMON,
         "id": "latin-sources",
         "title": "Myths from the Latin Writers",
-        "author": "Cicero and Ovid",
+        "author": "Cicero, Ovid and Jacobus de Voragine",
         "originalLanguage": "la",
     },
     "norse-sources": {

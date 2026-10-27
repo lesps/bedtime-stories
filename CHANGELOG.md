@@ -7,6 +7,20 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 7 (data only): the English and Anglo-Saxon shelf. From Bulfinch's _The Age of
+  Chivalry_ (1858), a new `bulfinch-chivalry` collection: Brutus and the founding of Britain, and
+  King Leir. Mabel Quiller-Couch's "How Corineus Fought the Chief of the Giants" from _Cornwall's
+  Wonderland_ (1914; `mature-themes` for its bloody end). "The Story of Beowulf" from H. E.
+  Marshall's _English Literature for Boys and Girls_ (1909; middle level, no retelling). Seven
+  chapters of Howard Pyle's _The Merry Adventures of Robin Hood_ (1883): the outlaw and Little
+  John, the golden arrow, Allan a Dale, Friar Tuck, Allan's wedding, King Richard and the Epilogue
+  (`mature-themes`), with Pyle's songs as verse. Thorpe's Lay of Völund joins `thorpe-elder-edda`
+  (`mature-themes`) as the source for Wayland. Claude's own translation of the Golden Legend's
+  Saint George from the Latin joins `latin-sources`. Fourteen retellings in the new _English
+  Legends, Simply Told_ (grade 2.8–5.4), including the Green Children of Woolpit, which, like
+  Rübezahl, has no public-domain text available here and is retold without an original.
+  `extract_bulfinch.py` reads the Age of Chivalry too and folds one-line footnote references into
+  their note; new tool `extract_english.py`.
 - Mythology, part 6 (data only): the German and Swiss shelf. James Baldwin's _The Story of
   Siegfried_ (1882): nine of its twenty Adventures (the forging of Balmung, Greyfell, the curse of
   Andvari's gold, Fafnir, Brunhild, the Nibelung hoard, the wooing of Brunhild for Gunther,

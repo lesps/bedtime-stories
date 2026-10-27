@@ -70,6 +70,7 @@ POEMS = [
     ("THE LAY OF THE DWARF ALVIS", "The Lay of Alvis", "norse-alviss", []),
     ("THE JOURNEY OR LAY OF SKIRNIR", "The Journey of Skirnir", "norse-frey-gerd", M),
     ("THE LAY OF VEGTAM", "Baldr's Dreams", "norse-baldr-dreams", []),
+    ("THE LAY OF VOLUND", "The Lay of Völund", "norse-wayland-smith", M),
     ("THE LAY OF FAFNIR", "The Lay of Fafnir", "norse-sigurd-fafnir", []),
 ]
 # (first <h4>, last <h4> or None, title, workId, flags[, start phrase, stop phrase, [more <h4>s]])
