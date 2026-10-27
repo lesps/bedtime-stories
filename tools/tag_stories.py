@@ -28,6 +28,8 @@ CULTURES = [
     ("scottish", "Scottish"),
     ("irish", "Irish"),
     ("welsh", "Welsh"),
+    ("manx", "Manx"),
+    ("breton", "Breton"),
     ("arabian", "Arabian Nights"),
     ("turkish", "Turkish"),
     ("estonian", "Estonian"),
@@ -101,10 +103,13 @@ COLLECTION_CULTURE = {
     "guest-mabinogion": "welsh",
     "jacobs-celtic": "welsh",
     "myths-welsh": "welsh",
+    "grierson-scottish": "scottish",
+    "morrison-manx": "manx",
+    "myths-celtic": "scottish",
 }
 
-# Stories whose culture differs from their collection's: Bulfinch's Roman sections, and the
-# Etruscan Tages, known only from Roman writers.
+# Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
+# Etruscan Tages, known only from Roman writers, and the Manx and Breton retellings in `myths-celtic`.
 STORY_CULTURE = {
     "latin-sources--tages": "etruscan",
     "myths-roman--tages-the-child-from-the-furrow": "etruscan",
@@ -116,6 +121,9 @@ STORY_CULTURE = {
     "baldwin-fifty-famous--arnold-winkelried": "swiss",
     "latin-sources--saint-george-and-the-dragon": "english",
     "thorpe-elder-edda--the-lay-of-volund": "norse",
+    "myths-celtic--the-making-of-mann": "manx",
+    "myths-celtic--saint-patrick-and-manannans-mist": "manx",
+    "myths-celtic--the-drowned-city-of-ys": "breton",
 }
 
 # Myth collections: every story gets the gods-heroes theme.
@@ -400,6 +408,21 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "jacobs-celtic--beth-gellert": {"add": ["legends"], "remove": ["greed-pride"]},
     "myths-welsh--gelert-the-faithful-hound": {"add": ["legends"], "remove": ["magic", "gods-heroes"]},
     "myths-welsh--the-drowned-land": {"add": ["legends", "how-things-began"], "remove": ["gentle", "gods-heroes"]},
+    # Scottish, Manx and Breton shelf. Grierson's and Morrison's books are fairy books, so neither
+    # they nor `myths-celtic` are in MYTH_COLLECTIONS; the Cailleach, Assipattle, Finn and
+    # Manannan get gods-heroes by hand.
+    "grierson-scottish--thomas-the-rhymer": {"add": ["magic", "legends"]},
+    "myths-celtic--thomas-the-rhymer": {"add": ["magic", "legends"]},
+    "grierson-scottish--the-seal-catcher-and-the-merman": {"add": ["animals", "kindness", "wishes"]},
+    "myths-celtic--the-seal-catcher-and-the-merman": {"add": ["animals", "kindness", "wishes"], "remove": ["gentle"]},
+    "grierson-scottish--assipattle-and-the-mester-stoorworm": {"add": ["gods-heroes", "underdogs", "monsters", "tricksters", "how-things-began"]},
+    "myths-celtic--assipattle-and-the-stoorworm": {"add": ["gods-heroes", "underdogs", "monsters", "tricksters", "how-things-began"]},
+    "morrison-manx--the-making-of-mann": {"add": ["gods-heroes", "monsters", "how-things-began"], "remove": ["tricksters"]},
+    "myths-celtic--the-making-of-mann": {"add": ["gods-heroes", "monsters", "how-things-began"], "remove": ["tricksters"]},
+    "morrison-manx--the-coming-of-saint-patrick": {"add": ["gods-heroes", "magic", "legends"]},
+    "myths-celtic--saint-patrick-and-manannans-mist": {"add": ["gods-heroes", "magic", "legends"]},
+    "myths-celtic--the-cailleach-queen-of-winter": {"add": ["gods-heroes", "magic", "how-things-began"], "remove": ["royalty"]},
+    "myths-celtic--the-drowned-city-of-ys": {"add": ["legends", "royalty", "greed-pride"], "remove": ["gentle"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

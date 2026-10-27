@@ -7,6 +7,15 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 10 (data only): the Scottish, Manx and Breton shelf. From Elizabeth W.
+  Grierson's _The Scottish Fairy Book_ (1910), a new `grierson-scottish` collection: Thomas the
+  Rhymer, the Seal Catcher and the Merman, and Assipattle and the Mester Stoorworm, with five of
+  Morris Meredith Williams's pictures. From Sophia Morrison's _Manx Fairy Tales_ (1911),
+  `morrison-manx`: "The Making of Mann" and "The Coming of Saint Patrick" (Manannan's mist and the
+  three-legged men). All five read at advanced level and get retellings in the new _Scottish, Manx
+  and Breton Legends, Simply Told_ (grade 3.8–6.3), plus two retold without an original: the
+  Cailleach, queen of winter, and the drowned Breton city of Ys. New cultures `manx` and `breton`
+  (19 in all). New tool `extract_scottish.py`.
 - Mythology, part 9 (data only): the Welsh shelf. From Lady Charlotte Guest's _Mabinogion_ (1849), a
   new `guest-mabinogion` collection: the Four Branches (Pwyll, Branwen, Manawyddan and Math;
   Branwen and Math are `mature-themes`), Lludd and Llevelys, Taliesin and Kilhwch and Olwen, with

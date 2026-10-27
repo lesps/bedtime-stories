@@ -1,0 +1,89 @@
+---
+title: The Seal Catcher and the Merman
+adaptedFrom: grierson-scottish--the-seal-catcher-and-the-merman
+order: 3
+---
+
+Once upon a time, near John o' Groats, at the very top of Scotland, there lived a man in a little cottage by the sea. He made his living by catching seals and selling their fur.
+
+Seals came out of the sea in great numbers to lie on the rocks near his house, basking in the sunshine. Some of them were bigger than the others. The country people called these big ones "Roane", and they whispered that they were not seals at all, but mermen and merwomen from a country deep under the ocean. They only put on the shape of seals, people said, so that they could swim up through the water and breathe the air of our world.
+
+But the seal catcher just laughed. "Those are the best ones to catch," he said, "because their skins are so big that I get more money for them."
+
+One day he struck at one of the seals with his hunting knife. But the blow was not a good one. The seal gave a loud cry of pain and slipped off the rock into the sea, and disappeared under the water, with the knife still in it.
+
+The seal catcher went home cross and gloomy, because he had been so clumsy, and lost his knife too. On the way he met a stranger on horseback. The man was very tall and strange-looking, and his horse was enormous.
+
+The stranger asked him what he did, and when he heard that he was a seal catcher, he ordered a great number of sealskins. The seal catcher was delighted, because that meant a lot of money. But then the stranger said that he must have the skins that very evening.
+
+"I can't do that," said the seal catcher sadly. "The seals won't come back to the rocks until tomorrow morning."
+
+"I can take you to a place where there are plenty of seals," said the stranger, "if you will get up behind me on my horse."
+
+So the seal catcher climbed up, and off they went, so fast that he could hardly stay on. They galloped like the wind until they came to the edge of a huge cliff, which went straight down to the sea. There the stranger stopped.
+
+"Get off," he said.
+
+The seal catcher got down, and peeped over the edge to look for seals. But there were no seals, and no rocks either, only the blue sea right at the bottom of the cliff.
+
+"Where are the seals?" he asked nervously.
+
+"You will see soon enough," said the stranger.
+
+Now the seal catcher was really frightened. And the next moment the stranger took hold of him, and threw him over the cliff, and he fell with a splash into the sea.
+
+He thought that was the end of him. But to his surprise, he found that he could breathe under the water as easily as in the air. And the stranger was still beside him, and the two of them sank down and down through the sea, as fast as they had galloped over the land.
+
+At last they came to a great arched door made of pink coral, covered with cockleshells. It opened by itself, and they went into a huge hall with walls of mother-of-pearl and a floor of smooth yellow sand.
+
+The hall was full of seals. And when the seal catcher turned to his companion, he saw that the stranger had turned into a seal too. Then he caught sight of himself in a big mirror on the wall, and he saw that he was a seal as well, a hairy brown seal.
+
+"Oh dear," he thought. "This stranger has put a spell on me, and I shall have to stay like this for the rest of my life."
+
+At first none of the seals spoke to him. They all seemed very sad. They moved quietly around the hall, talking softly to each other, or lay on the sand, wiping big tears from their eyes with their soft furry flippers.
+
+Then they began to notice him, and whisper. His guide went out through a door at the end of the hall, and came back holding a big knife.
+
+"Have you ever seen this before?" he asked.
+
+It was the seal catcher's own knife, the one that had gone into the sea with the wounded seal that morning. He threw himself down and begged for mercy, because he was sure that the seals were going to punish him for what he had done.
+
+But instead, they crowded round him and rubbed their soft noses against his fur, to show that they were not angry. "Don't be afraid," they said. "Nobody will hurt you. And we will love you all our lives, if you will only do what we ask."
+
+"Tell me what it is," said the seal catcher, "and I will do it if I can."
+
+"Follow me," said his guide.
+
+He led him into a smaller room. There a big brown seal was lying on a bed of pale pink seaweed, with a deep wound in his side.
+
+"That is my father," said the guide. "You wounded him this morning, because you thought he was an ordinary seal, and not a merman who can talk and think just as you can. I brought you here to heal his wound, because no other hands but yours can do it."
+
+"I don't know anything about healing," said the seal catcher. He was amazed that these creatures were being so kind to him, after what he had done. "But I will do my best. And I am very sorry that it was my hands that hurt him."
+
+He bent over the old merman, and washed the wound and bound it up as well as he could. And his hands worked like magic. As soon as he had finished, the wound closed up, leaving only a scar, and the old seal sprang up as well as ever.
+
+Then there was great rejoicing all through the Palace of the Seals. They laughed and talked and hugged each other in their own seal way, and crowded round the old seal, rubbing their noses against his.
+
+But the seal catcher stood all alone in a corner, feeling miserable. He could see now that they weren't going to hurt him. But he did not want to spend the rest of his life as a seal at the bottom of the sea.
+
+Then, to his great joy, his guide came over to him. "Now you may go home to your wife and children," he said. "I will take you there, but only on one condition."
+
+"What is it?" asked the seal catcher eagerly.
+
+"You must make a solemn promise never to hurt a seal again."
+
+"I'll promise gladly," said the seal catcher. It meant giving up his job. But he thought that if only he could be a man again, he could always find some other work.
+
+So he made the solemn promise, holding up his flipper, with all the seals crowding round to hear him. And a sigh of relief went through the hall when he said the words, because he was the most famous seal catcher in the north.
+
+Then he said goodbye to the seals, and he and his guide went out through the coral door, and up, and up, and up through the green water, until it grew lighter and lighter, and they came out into the sunshine. With one spring they were at the top of the cliff, where the great black horse was waiting for them, nibbling the grass.
+
+As soon as they were out of the water, their seal shapes fell away. The seal catcher was a man again, and his guide was a tall gentleman in riding clothes.
+
+"Get up behind me," said the gentleman. This time the seal catcher held on tight to his coat. Off they galloped, and it wasn't long before the seal catcher was standing safely at his own garden gate.
+
+He held out his hand to say goodbye. But the stranger put a big bag of gold into it.
+
+"You have kept your side of the bargain," he said. "Now we must keep ours. Nobody shall ever say that we took away an honest man's work without paying him for it. This will keep you comfortable for the rest of your life."
+
+Then he vanished. And when the seal catcher carried the bag into his cottage and poured the gold out on the table, he found that the stranger was right. He was a rich man for the rest of his days.

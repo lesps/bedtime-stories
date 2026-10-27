@@ -1,0 +1,83 @@
+{
+ "id": "myths-celtic--the-making-of-mann",
+ "collectionId": "myths-celtic",
+ "order": 5,
+ "title": "The Making of Mann",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "In the middle of the Irish Sea there is an island called the Isle of Man. And this is how the people there say it was made."
+  },
+  {
+   "type": "p",
+   "text": "Thousands of years ago, in the time when giants fought in Ireland, the Irish giant Finn McCool had a fight with a great red-haired giant from Scotland, who had come over to challenge him. Finn beat him, and chased him east, towards the sea."
+  },
+  {
+   "type": "p",
+   "text": "But the Scottish giant was a faster runner than Finn, and he began to pull ahead. Finn was afraid he would jump into the sea and get away. So he bent down and grabbed a great handful of the earth of Ireland, and threw it at him."
+  },
+  {
+   "type": "p",
+   "text": "He missed. And the great lump of earth fell right into the middle of the Irish Sea. That lump is the Isle of Man. And the great hole that Finn left in the ground, where he tore it up, is Lough Neagh."
+  },
+  {
+   "type": "p",
+   "text": "But there were people in Ireland in those days, as well as giants, and to them it looked quite different. People don't always understand what giants do, because people live in the giants' footprints, as you might say."
+  },
+  {
+   "type": "p",
+   "text": "At that time, the Irish tribes had gathered in two great armies, getting ready to fight some raiders who had come over from Scotland. But they got so excited that they started fighting each other for real, just to show how they would deal with the raiders when they came. And in the muddle, they ran into a bog, and they were in great danger of sinking."
+  },
+  {
+   "type": "p",
+   "text": "So their leaders gathered all the men together on a big patch of dry ground in the middle of the bog. All of a sudden, a darkness came over them, and the ground began to shake and tremble. And then it disappeared, people and all!"
+  },
+  {
+   "type": "p",
+   "text": "Some said it sank down into the bog, with the people on it. Others said it was lifted up into the air, and the people fell off it into the swamp. The darkness, of course, was the shadow of Finn's hand, and that made it hard to see what really happened."
+  },
+  {
+   "type": "p",
+   "text": "A while after that, the sea began to heave and surge so dreadfully that the men in the fishing boats had to hold on tight, or they would have been thrown out. And a few days later, people saw land in the middle of the sea, where nobody had ever seen land before."
+  },
+  {
+   "type": "p",
+   "text": "You can tell this story is true, the people say, because the Irish have always thought of the Isle of Man as a piece of their own country. When Saint Patrick blessed the land of Ireland, and drove away all the snakes and toads, the power of his blessing was felt on the island too. There is an old rhyme about it:"
+  },
+  {
+   "type": "p",
+   "text": "Saint Patrick was a mighty man, he was a saint so clever. He gave the snakes and toads a twist, and banished them for ever!"
+  },
+  {
+   "type": "p",
+   "text": "And they say that, to this day, snakes and toads cannot live happily on that blessed island."
+  },
+  {
+   "type": "p",
+   "text": "In those days the island was much bigger than it is now. But a magician who ruled it for a while wanted to take revenge on one of his enemies. So he raised a furious wind, in the air and deep inside the earth. The wind tore pieces off the island and threw them into the sea. The big pieces floated about and turned into dangerous rocks, which ships are still afraid of. The small pieces turned into shifting sandbanks around the coast, which can sometimes be seen, and sometimes disappear."
+  },
+  {
+   "type": "p",
+   "text": "Later on, the island was called Ellan Sheaynt, the Isle of Peace, or the Holy Island. The sun always shone there, and the birds always sang, and the air smelled of sweet flowers, and the apple trees blossomed all year round. There was always enough to eat and drink, and the horses were fine and the women were beautiful."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Sophia Morrison's “The Making of Mann” in Manx Fairy Tales (1911). The original is listed under Other versions. Morrison spells his name Finn Mac Cooil, and the island's name Mann."
+  }
+ ],
+ "workId": "manx-making-of-mann",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "morrison-manx--the-making-of-mann",
+ "wordCount": 702,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 6.3,
+  "avgSentenceWords": 17.6,
+  "band": "middle"
+ }
+}
