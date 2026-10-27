@@ -1,0 +1,122 @@
+---
+title: Manawydan and the Enchanted Land
+adaptedFrom: guest-mabinogion--manawyddan-the-son-of-llyr
+order: 3
+namesNote: Guest spells Manawydan as Manawyddan, Cigfa as Kicva and Llwyd son of Cil Coed as Llwyd the son of Kilcoed.
+---
+
+When Manawydan and his friend Pryderi had buried the head of Bran the Blessed in London, Manawydan looked around him and sighed. His brother Bran was dead, and someone else was king in his place. "Everyone has a home to go to tonight," he said, "except me."
+
+"Don't be sad," said Pryderi. "Come home with me to Dyfed. My mother, Rhiannon, lives there. She is the best of company, and still a beautiful lady. If you will marry her, you can share my lands with us."
+
+So they went to Dyfed. And when Manawydan and Rhiannon met and talked together, they liked each other very much, and soon they were married. So the four of them, Manawydan and Rhiannon, and Pryderi and his wife, Cigfa, lived together very happily. They went hunting and travelling all over Dyfed, and they loved one another so much that they were never apart, by night or by day.
+
+One evening, after a feast at Narberth, the four of them went and sat on the magic mound, the one where Pryderi's father had first seen Rhiannon. And while they were sitting there, there was a great clap of thunder, and a mist came down, so thick that they could not see one another. And when the mist cleared, everything was gone.
+
+There were no cattle in the fields, no houses, no smoke from any chimney, no people anywhere. The palace was empty. All their friends and servants had vanished. Only the four of them were left in the whole land of Dyfed.
+
+They searched everywhere, but found nobody, only wild animals. So they lived by hunting and fishing and eating wild honey. For two years they lived like that, and they were happy enough. But at last they grew tired of it.
+
+"We can't go on like this," said Manawydan. "Let's go to England, and earn our living there."
+
+So they went to the town of Hereford, and Manawydan began to make saddles. He decorated them with gold and blue enamel, and they were so beautiful that nobody in Hereford wanted to buy saddles from anyone else. Then the other saddlers grew angry, and plotted to kill them.
+
+"Let's fight them!" said Pryderi.
+
+"No," said Manawydan. "If we fight, we'll get a bad name and be thrown in prison. Let's go to another town."
+
+In the next town they made shields, and they made them so well that nobody would buy shields from anyone else. And again the other shield-makers plotted to kill them. "Let's fight them!" said Pryderi. "No," said Manawydan, "let's go to another town."
+
+In the next town they made shoes, with gold buckles, and Manawydan cut out the leather, and Pryderi stitched it. And soon nobody would buy shoes from anyone else. And again the shoemakers plotted to kill them. "Let's fight them!" said Pryderi. "No," said Manawydan. "Let's go home to Dyfed."
+
+So they went home to Narberth, and lived by hunting again. And one morning Pryderi and Manawydan went out hunting with their hounds. The hounds ran to a little bush, and then came running back with all their fur standing on end. And out of the bush came a shining white wild boar. The hounds chased it, and the men followed, until they came to a huge, tall castle, all newly built, in a place where there had never been any building before. The boar ran into the castle, and the hounds ran in after it. And then everything went silent. They waited and waited, but they heard nothing more of the hounds.
+
+"I'm going in to find my dogs," said Pryderi.
+
+"Don't," said Manawydan. "Whoever put this spell on our land must have put this castle here. Don't go in."
+
+But Pryderi would not listen, and in he went. Inside, there was no boar and no hounds, nobody at all. In the middle of the floor was a fountain, with marble all around it. Beside it, on a marble slab, was a golden bowl, hanging from chains that went up into the air without end. The bowl was so beautiful that Pryderi went and took hold of it. And at once his hands stuck fast to the bowl, and his feet stuck fast to the slab, and he could not say a word.
+
+Manawydan waited until evening, but Pryderi did not come back. So he went home and told Rhiannon.
+
+"You have been a bad friend," said Rhiannon, "and you have lost a good one." And she went straight to the castle. She found the gate open, and went in. And there was Pryderi, holding the bowl. "Oh, my son," she said, "what are you doing here?" And she took hold of the bowl with him. And at once her hands stuck fast too, and she could not say a word. Then night fell, and there was a clap of thunder, and a mist came down. And the castle disappeared, and Rhiannon and Pryderi with it.
+
+Now only Manawydan and Cigfa were left. Cigfa was so sad and frightened that she did not care whether she lived or died.
+
+"Don't be afraid," said Manawydan kindly. "I will be a true friend to you, and look after you for as long as this trouble lasts."
+
+So the two of them went to England, and Manawydan made shoes again, until the shoemakers plotted to kill him, as before. Then they came home to Dyfed. And this time Manawydan brought a load of wheat with him. He dug three fields and sowed them with wheat, and it grew better than any wheat in the world.
+
+When harvest time came, he went to look at the first field. "This is ripe," he said. "I'll cut it tomorrow." But the next morning, every single ear of wheat had been cut off and carried away, and only the bare stalks were left.
+
+The same thing happened with the second field.
+
+"Whoever has ruined me is going to finish the job," said Manawydan. "But I'll keep watch over the third field tonight, and find out who it is."
+
+So at midnight he sat by the third field, armed. And suddenly there was a great commotion, and he saw an army of mice, so many that no one could have counted them. Every mouse climbed up a stalk of wheat, bent it down, bit off the ear, and ran off with it, until the whole field was bare.
+
+Manawydan rushed at them in a fury. But he could no more catch them than if they had been flies or birds. Except one. One mouse was slower than the others, because it was fat and heavy. Manawydan caught it, and put it in his glove, and tied up the glove with a string, and carried it home.
+
+"What have you got there?" asked Cigfa.
+
+"A thief," said Manawydan. "Tomorrow I'm going to hang it."
+
+"It isn't fitting for a great lord like you to hang a mouse," said Cigfa. "Let it go."
+
+"If I could catch them all, I would hang them all," said Manawydan. "And this one I have caught, I will hang."
+
+So the next day he took the mouse up onto the magic mound, and set up a little gallows. And while he was doing it, a poor scholar came walking along the road, in old ragged clothes. It was the first stranger Manawydan had seen in Dyfed for seven years.
+
+"What are you doing, lord?" asked the scholar.
+
+"I'm hanging a thief I caught robbing me," said Manawydan.
+
+"But it's only a mouse!" said the scholar. "It's not fitting for a lord like you to touch such a creature. I'll give you a pound to let it go."
+
+"No," said Manawydan. "I won't sell it, and I won't let it go."
+
+Then a priest came riding by. "What are you doing?" he asked.
+
+"Hanging a thief," said Manawydan.
+
+"I'll give you three pounds to let that mouse go," said the priest.
+
+"No," said Manawydan.
+
+Then, just as Manawydan was putting the string around the mouse's neck, a bishop came riding along, with all his servants and his packhorses.
+
+"Is that a mouse?" asked the bishop. "I'll give you seven pounds for it. No, twenty-four pounds! No, I'll give you all these horses, and all this baggage!"
+
+"No," said Manawydan.
+
+"Then name your price," said the bishop.
+
+"I want Rhiannon and Pryderi set free," said Manawydan.
+
+"You shall have it," said the bishop.
+
+"That isn't enough. I want the spell taken off the land of Dyfed."
+
+"You shall have that too. Now let the mouse go."
+
+"Not yet," said Manawydan. "First tell me who this mouse is."
+
+"She is my wife," said the bishop.
+
+"And why did she come to rob me?"
+
+"I am not really a bishop," he said. "I am Llwyd, the son of Cil Coed, a magician. It was I who put the spell on Dyfed. I did it to take revenge for my friend Gwawl, because long ago Pryderi's father, Pwyll, put Gwawl in a bag and played Badger in the Bag with him. When you came back and sowed your wheat, my people begged me to turn them into mice so that they could eat it. On the third night, my wife and her ladies came too. And my wife is going to have a baby, and that is why she was too slow to get away. Now let her go!"
+
+"Not until you promise that you will never put a spell on Dyfed again," said Manawydan, "and that you will never take revenge on Pryderi or Rhiannon, or on me."
+
+"I promise," said Llwyd. "And it was wise of you to ask for that. Now let her go!"
+
+"Not until I see Rhiannon and Pryderi here, free."
+
+"Look, here they come," said Llwyd.
+
+And there were Rhiannon and Pryderi, walking towards them. Manawydan jumped up to greet them. Then he let the mouse go. And Llwyd touched her with his magic wand, and she turned into the most beautiful young woman anyone had ever seen.
+
+"Now look at your land," said Llwyd.
+
+Manawydan looked. And there were the fields, all ploughed, and full of cattle and sheep and houses and people, just as they had always been. The spell was broken, and Dyfed was itself again.

@@ -27,6 +27,7 @@ CULTURES = [
     ("english", "English"),
     ("scottish", "Scottish"),
     ("irish", "Irish"),
+    ("welsh", "Welsh"),
     ("arabian", "Arabian Nights"),
     ("turkish", "Turkish"),
     ("estonian", "Estonian"),
@@ -97,6 +98,9 @@ COLLECTION_CULTURE = {
     "hull-cuchulain": "irish",
     "yeats-irish-folk": "irish",
     "myths-irish": "irish",
+    "guest-mabinogion": "welsh",
+    "jacobs-celtic": "welsh",
+    "myths-welsh": "welsh",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, and the
@@ -141,6 +145,8 @@ MYTH_COLLECTIONS = {
     "stephens-irish-fairy-tales",
     "hull-cuchulain",
     "myths-irish",
+    "guest-mabinogion",
+    "myths-welsh",
 }
 
 ORIGIN_CULTURE = [
@@ -373,6 +379,27 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-irish--the-voyage-of-bran": {"add": ["quests", "magic"]},
     "myths-irish--cuchulain-and-the-beheading-game": {"add": ["wishes"]},
     "myths-irish--saint-brendans-voyage": {"add": ["quests", "animals"], "remove": ["gods-heroes"]},
+    # Welsh shelf. Jacobs's two tales are folk legends, so `jacobs-celtic` is not in
+    # MYTH_COLLECTIONS, and their retellings drop gods-heroes, as does the drowned land.
+    "guest-mabinogion--pwyll-prince-of-dyved": {"add": ["magic", "tricksters"]},
+    "myths-welsh--pwyll-and-rhiannon": {"add": ["royalty", "magic", "tricksters"]},
+    "guest-mabinogion--branwen-the-daughter-of-llyr": {"add": ["royalty", "magic", "family"]},
+    "myths-welsh--branwen-and-bran-the-blessed": {"add": ["royalty", "magic", "family"]},
+    "guest-mabinogion--manawyddan-the-son-of-llyr": {"add": ["magic", "tricksters"], "remove": ["legends"]},
+    "myths-welsh--manawydan-and-the-enchanted-land": {"add": ["tricksters", "animals"]},
+    "guest-mabinogion--math-the-son-of-mathonwy": {"add": ["animals", "how-things-began"], "remove": ["quests"]},
+    "myths-welsh--lleu-and-the-woman-made-of-flowers": {"add": ["animals", "tricksters", "how-things-began"]},
+    "guest-mabinogion--the-story-of-lludd-and-llevelys": {"add": ["magic"]},
+    "myths-welsh--lludd-and-llefelys": {"add": ["magic"], "remove": ["ghosts"]},
+    "guest-mabinogion--taliesin": {"add": ["magic", "animals", "tricksters"]},
+    "myths-welsh--the-birth-of-taliesin": {"add": ["animals", "tricksters"]},
+    "guest-mabinogion--kilhwch-and-olwen": {"add": ["monsters", "magic", "animals"]},
+    "myths-welsh--culhwch-and-olwen": {"add": ["quests", "animals"]},
+    "jacobs-celtic--the-shepherd-of-myddvai": {"add": ["magic", "wishes"]},
+    "myths-welsh--the-lady-of-the-lake": {"add": ["magic", "wishes"], "remove": ["gods-heroes"]},
+    "jacobs-celtic--beth-gellert": {"add": ["legends"], "remove": ["greed-pride"]},
+    "myths-welsh--gelert-the-faithful-hound": {"add": ["legends"], "remove": ["magic", "gods-heroes"]},
+    "myths-welsh--the-drowned-land": {"add": ["legends", "how-things-began"], "remove": ["gentle", "gods-heroes"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

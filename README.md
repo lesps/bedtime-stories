@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 877 public-domain children's stories in 43 collections — Aesop
+A calm, offline-capable reader for 896 public-domain children's stories in 46 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -16,10 +16,12 @@ Marshall's English Literature for Boys and Girls, seven chapters of Pyle's The M
 Robin Hood, and Thorpe's Lay of Völund (Wayland). Irish: six romances from Joyce's Old Celtic
 Romances (Lir, Turenn, Maildun, Dermat and Grania, Oisin, the Sons of Usna), Tuan mac Cairill and
 the boyhood of Fionn from Stephens's Irish Fairy Tales, two chapters of Hull's Cuchulain, the Hound
-of Ulster, and Carleton's "A Legend of Knockmany". Where no free English version exists, Claude's
+of Ulster, and Carleton's "A Legend of Knockmany". Welsh: seven tales from Lady Charlotte Guest's
+Mabinogion (the Four Branches, Lludd and Llefelys, Taliesin, Culhwch and Olwen), and the Shepherd
+of Myddvai and Beth Gellert from Jacobs's Celtic Fairy Tales. Where no free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger.
-Simplified retellings for young readers in Greek, Roman, Norse, German, English and Irish
+Simplified retellings for young readers in Greek, Roman, Norse, German, English, Irish and Welsh
 collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
@@ -87,7 +89,7 @@ trademarks on Peter Rabbit and other Potter characters, so don't use them in the
 or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
 
-The simplified retellings (the six "Simply Told" collections, `myths-*`) were written by Claude
+The simplified retellings (the seven "Simply Told" collections, `myths-*`) were written by Claude
 (Anthropic) from public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt
 into story JSON by `tools/build_simplified.py`. Each one links to its original, except the few
 legends with no public-domain text available, whose end note says what they were retold from.
