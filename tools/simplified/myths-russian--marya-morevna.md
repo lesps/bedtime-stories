@@ -1,0 +1,99 @@
+---
+title: Marya Morevna
+adaptedFrom: magnus-russian--marya-moryevna
+order: 3
+flags: none
+namesNote: Magnus spells her name Márya Moryévna, and Koshchei as Koshchéy; Baba Yaga is the witch of Russian tales.
+---
+
+Once upon a time there lived a young prince called Ivan, who had three sisters: Marya, Olga and Anna. When their father and mother were dying, they told Ivan, "Whoever comes first to ask to marry your sisters, let them go with him. Don't keep them at home too long."
+
+One day, Ivan and his sisters were walking in the garden, when a dark cloud came over the sky, and there was a great clap of thunder. "Let's go inside," said Ivan. They had hardly reached the palace when the thunder crashed again, and the ceiling split open, and in flew a bright-eyed hawk. The hawk struck the floor and turned into a handsome young man. "Hello, Prince Ivan," he said. "I have come to ask to marry your sister Marya."
+
+"If you want to marry my sister, I won't say no," said Ivan. Marya agreed, and the hawk took her away to his own kingdom.
+
+A year later, the same thing happened again. This time an eagle flew in, and asked to marry Olga. And she went away with him to his kingdom. And a year after that, a crow flew in, more handsome than the other two, and asked to marry Anna. And she went away with him.
+
+Now Ivan was all alone. After a year he felt so lonely that he set off to find his sisters.
+
+On the way, he came to a battlefield where a great army lay beaten. "Who beat this mighty army?" he asked. And one man who was still alive answered, "Marya Morevna, the beautiful princess."
+
+Ivan rode on, and came to some white tents, and out came Marya Morevna to meet him. She invited him to stay in her tents. And Ivan fell in love with her, and they were married.
+
+Marya Morevna took Ivan home to her kingdom. After a while, she had to go away to war. She left Ivan in charge of everything. "You may go anywhere and look at everything," she said, "except in that little store room. You must never look in there."
+
+But as soon as she had gone, Ivan opened the door of the store room and looked in. And there, hanging on twelve chains, was Koshchei the Deathless.
+
+"Please take pity on me, and give me something," said Koshchei. "I've been here for ten years without anything to eat or drink, and my throat is all dried up."
+
+Ivan gave him a whole jug of water. He drank it in one gulp. "I'm still thirsty," he said. So Ivan gave him a second jug, and then a third. And as soon as he had drunk the third, Koshchei got all his strength back. He burst his twelve chains. "Thank you, Prince Ivan," he said. "Now you will never see Marya Morevna again!" And he flew off like a flash of lightning, and snatched up Marya Morevna on her way, and carried her away.
+
+Ivan wept bitterly. Then he set off to find his wife.
+
+On the third day he came to a wonderful palace, with an oak tree in front of it, and a hawk sitting in the tree. The hawk flew down and turned into a young man. "Dear brother!" he cried. It was the hawk who had married Ivan's sister Marya, and Marya came out to welcome him. Ivan stayed with them for three days. When he left, they asked him to leave them his silver spoon, so that they could look at it and think of him.
+
+Then he came to the eagle's palace, where his sister Olga lived, and left them his silver fork. And then he came to the crow's palace, where his sister Anna lived, and left them his silver snuffbox.
+
+At last he found Marya Morevna. She ran out and hugged him and cried. "Oh, Ivan, why didn't you do as I said? Why did you let Koshchei out?"
+
+"I'm sorry," said Ivan. "Come away with me now, while Koshchei is out."
+
+So they ran away together. But when Koshchei came home, his horse stumbled.
+
+"Why are you stumbling, you old nag?" said Koshchei.
+
+"Prince Ivan has come and taken Marya Morevna away," said the horse.
+
+"Can we catch them?"
+
+"You could sow some wheat, and wait until it grew, and harvest it, and grind it into flour, and bake bread, and eat it, and then set off, and we would still catch them," said the horse.
+
+So Koshchei jumped on his horse and caught up with them. "Because you gave me water, I'll let you go this time," he told Ivan. "And I'll let you go a second time. But the third time, watch out." And he took Marya Morevna back.
+
+Ivan came back for her a second time, and Koshchei caught them again, and took her back. Then Ivan came back a third time, because he could not live without her. And this time, when Koshchei caught them, he did a terrible thing to Ivan, and shut him up in a barrel, and threw the barrel into the sea. Then he took Marya Morevna away again.
+
+At that moment, at the palaces of Ivan's sisters, the silver spoon and the silver fork and the silver snuffbox all turned black. "Something terrible has happened to our brother!" cried the hawk, the eagle and the crow. The eagle dived into the sea and pulled the barrel out onto the shore. The hawk flew to fetch the water of life, and the crow flew to fetch the water of death. They opened the barrel, and the crow sprinkled Ivan with the water of death, and he was made whole. Then the hawk sprinkled him with the water of life, and Ivan sat up and said, "Oh, what a long time I've been asleep!"
+
+"You would have slept a lot longer without us," said his brothers-in-law.
+
+But Ivan went straight back to Marya Morevna. "Find out where Koshchei got his wonderful horse," he said.
+
+So Marya Morevna asked Koshchei. "Far away, over the river of fire, lives the witch Baba Yaga," said Koshchei. "She has a mare that she rides around the whole world every day. I looked after her horses for three days, and she gave me a foal. And to get over the river of fire, I have a magic handkerchief. Wave it three times to the right, and a high bridge appears."
+
+Marya Morevna told Ivan, and Ivan took the handkerchief away with him. So Ivan crossed the river of fire and set off to find Baba Yaga. It was a long way, and he had nothing to eat.
+
+He met a seabird with her chicks. "May I eat one of your chicks?" he asked. "Please don't," said the seabird. "One day I'll help you." So he left them alone. Then he found a beehive. "May I have some honey?" he asked. "Please don't take it," said the queen bee. "One day I'll help you." So he left it alone. Then he met a lioness with her cubs. "May I eat one of your cubs? I'm so hungry," he said. "Please don't," said the lioness. "One day I'll help you." So he went on, hungry.
+
+At last he came to Baba Yaga's house. All around it was a fence of twelve poles, and on eleven of them there were skulls. Only one pole was empty.
+
+"Hello, granny," said Ivan.
+
+"Hello, Prince Ivan," said Baba Yaga. "What have you come for?"
+
+"I've come to earn a hero's horse from you."
+
+"Very well," said Baba Yaga. "You only have to work for me for three days. If you can look after my mares, I'll give you a horse. If you can't, your head will go on that last pole."
+
+The next morning, Ivan drove the mares out into the meadow. But they all galloped away, and he lost them. So he sat down on a stone and cried, and fell asleep. At sunset, the seabird woke him. "Get up, Prince Ivan. The mares have all gone home." For the birds had flown at the mares and driven them home.
+
+The second day, the mares ran off into the forest. But the lioness and the wild animals drove them home. The third day, the mares ran into the sea and stood in the water up to their necks. But the bees stung them and drove them home. "When you get back," the queen bee whispered to Ivan, "don't let Baba Yaga see you. Hide in the stable. There you'll find a scruffy little foal rolling in the dirt. Take him, and leave in the middle of the night."
+
+So Ivan hid in the stable, and at midnight he took the scruffy foal and rode away. When he came to the river of fire, he waved the handkerchief three times to the right, and a high bridge appeared. He crossed it, and then waved the handkerchief twice to the left, and the bridge became as thin as a thread.
+
+In the morning, Baba Yaga found the foal gone. She jumped into her iron mortar, took her pestle, and chased after them. When she came to the river of fire, she saw the bridge. "What a fine bridge!" she said, and started across. But the bridge broke, and Baba Yaga fell into the river of fire, and that was the end of her.
+
+Ivan let the foal graze in the green meadows, and it grew into a splendid horse. Then he rode to Marya Morevna. "Come quickly," he said. "Koshchei will never catch us now. My horse can fly like a bird."
+
+When Koshchei came home, his horse stumbled. "Prince Ivan has taken Marya Morevna away," it said.
+
+"Can we catch them?"
+
+"Who knows? This time Prince Ivan has a horse better than me."
+
+"I'll catch them anyway!" shouted Koshchei.
+
+And he did catch up with them, and drew his sword. But Ivan's horse kicked Koshchei so hard that he fell, and Ivan struck him down with his club. Then Ivan built a great bonfire, and burned Koshchei the Deathless, and scattered his ashes to the wind.
+
+So Marya Morevna rode Koshchei's horse, and Ivan rode his own, and they went to visit his sisters, the crow, the eagle and the hawk. Everyone was overjoyed to see them. "We never thought we'd see you again," they said. "But it was worth it. You could search the whole world, and never find anyone as wonderful as Marya Morevna."
+
+And then they went home to their own kingdom, and lived happily ever after.

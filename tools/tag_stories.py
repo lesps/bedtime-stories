@@ -37,6 +37,7 @@ CULTURES = [
     ("estonian", "Estonian"),
     ("sami", "Sámi"),
     ("lithuanian", "Lithuanian"),
+    ("russian", "Russian"),
     ("japanese", "Japanese"),
 ]
 
@@ -118,6 +119,10 @@ COLLECTION_CULTURE = {
     "kirby-esthonia": "estonian",
     "myths-finnic": "finnish",
     "myths-baltic": "lithuanian",
+    "ralston-russian": "russian",
+    "curtin-russian": "russian",
+    "magnus-russian": "russian",
+    "myths-russian": "russian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -489,6 +494,20 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-baltic--jurate-and-kastytis": {"add": ["magic", "how-things-began"], "remove": ["gentle"]},
     "myths-baltic--the-sun-and-the-moon": {"add": ["how-things-began", "family"], "remove": ["quests"]},
     "myths-baltic--perkunas-and-the-devil": {"add": ["how-things-began", "tricksters"]},
+    # Russian tales and their retellings
+    "ralston-russian--vasilissa-the-fair": {"add": ["magic", "monsters", "underdogs"]},
+    "ralston-russian--frost": {"add": ["kindness", "magic", "greed-pride"], "remove": ["fools"]},
+    "curtin-russian--ivan-tsarevich-the-fire-bird-and-the-gray-wolf": {"add": ["magic", "quests", "royalty", "underdogs", "family"]},
+    "curtin-russian--koshchei-without-death": {"add": ["magic", "monsters", "quests", "royalty", "animals"], "remove": ["family", "legends"]},
+    "magnus-russian--marya-moryevna": {"add": ["magic", "monsters", "family", "animals", "royalty"]},
+    "magnus-russian--ilya-muromets-and-the-nightingale-robber": {"add": ["gods-heroes", "monsters"], "remove": ["animals", "family"]},
+    "myths-russian--the-firebird-and-the-grey-wolf": {"add": ["magic", "royalty", "underdogs", "family"]},
+    "myths-russian--koshchei-the-deathless": {"add": ["magic", "monsters", "royalty"], "remove": ["fools"]},
+    "myths-russian--marya-morevna": {"add": ["magic", "monsters", "family", "royalty"]},
+    "myths-russian--ilya-muromets-and-the-nightingale-robber": {"add": ["gods-heroes", "monsters", "legends"], "remove": ["animals", "gentle"]},
+    "myths-russian--dobrynya-and-the-dragon": {"add": ["gods-heroes", "quests", "royalty"]},
+    "myths-russian--sadko": {"add": ["gods-heroes", "magic", "wishes", "quests"]},
+    "myths-russian--the-snow-maiden": {"add": ["magic", "family"], "remove": ["tricksters", "kindness"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

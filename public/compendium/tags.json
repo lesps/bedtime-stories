@@ -1,6 +1,6 @@
 {
 "schemaVersion": 1,
-"cultures": [{"id": "greek", "label": "Ancient Greek"}, {"id": "roman", "label": "Ancient Roman"}, {"id": "etruscan", "label": "Etruscan"}, {"id": "norse", "label": "Old Norse"}, {"id": "german", "label": "German"}, {"id": "swiss", "label": "Swiss"}, {"id": "danish", "label": "Danish"}, {"id": "french", "label": "French"}, {"id": "norwegian", "label": "Norwegian"}, {"id": "english", "label": "English"}, {"id": "scottish", "label": "Scottish"}, {"id": "irish", "label": "Irish"}, {"id": "welsh", "label": "Welsh"}, {"id": "manx", "label": "Manx"}, {"id": "breton", "label": "Breton"}, {"id": "arthurian", "label": "Arthurian"}, {"id": "arabian", "label": "Arabian Nights"}, {"id": "turkish", "label": "Turkish"}, {"id": "finnish", "label": "Finnish"}, {"id": "estonian", "label": "Estonian"}, {"id": "sami", "label": "Sámi"}, {"id": "lithuanian", "label": "Lithuanian"}, {"id": "japanese", "label": "Japanese"}],
+"cultures": [{"id": "greek", "label": "Ancient Greek"}, {"id": "roman", "label": "Ancient Roman"}, {"id": "etruscan", "label": "Etruscan"}, {"id": "norse", "label": "Old Norse"}, {"id": "german", "label": "German"}, {"id": "swiss", "label": "Swiss"}, {"id": "danish", "label": "Danish"}, {"id": "french", "label": "French"}, {"id": "norwegian", "label": "Norwegian"}, {"id": "english", "label": "English"}, {"id": "scottish", "label": "Scottish"}, {"id": "irish", "label": "Irish"}, {"id": "welsh", "label": "Welsh"}, {"id": "manx", "label": "Manx"}, {"id": "breton", "label": "Breton"}, {"id": "arthurian", "label": "Arthurian"}, {"id": "arabian", "label": "Arabian Nights"}, {"id": "turkish", "label": "Turkish"}, {"id": "finnish", "label": "Finnish"}, {"id": "estonian", "label": "Estonian"}, {"id": "sami", "label": "Sámi"}, {"id": "lithuanian", "label": "Lithuanian"}, {"id": "russian", "label": "Russian"}, {"id": "japanese", "label": "Japanese"}],
 "themes": [{"id": "animals", "label": "Animals"}, {"id": "fables", "label": "Fables with a moral"}, {"id": "tricksters", "label": "Tricksters & clever escapes"}, {"id": "kindness", "label": "Kindness rewarded"}, {"id": "greed-pride", "label": "Greed & pride punished"}, {"id": "royalty", "label": "Kings, queens & castles"}, {"id": "magic", "label": "Magic & enchantment"}, {"id": "monsters", "label": "Giants, witches & monsters"}, {"id": "family", "label": "Brothers, sisters & family"}, {"id": "how-things-began", "label": "How things came to be"}, {"id": "fools", "label": "Fools & silly folk"}, {"id": "quests", "label": "Journeys & quests"}, {"id": "wishes", "label": "Wishes & bargains"}, {"id": "underdogs", "label": "Youngest & underdogs"}, {"id": "legends", "label": "Faith & legends"}, {"id": "ghosts", "label": "Ghosts & spirits"}, {"id": "gentle", "label": "Gentle & cosy"}, {"id": "gods-heroes", "label": "Gods & heroes"}],
 "stories": {
 "aesop--the-wolf-and-the-kid": {"cultures": ["greek"], "themes": ["animals", "fables", "fools", "gentle"]},
@@ -950,6 +950,19 @@
 "myths-baltic--egle-queen-of-serpents": {"cultures": ["lithuanian"], "themes": ["animals", "tricksters", "royalty", "magic", "family", "how-things-began"]},
 "myths-baltic--jurate-and-kastytis": {"cultures": ["lithuanian"], "themes": ["royalty", "magic", "how-things-began", "legends", "gods-heroes"]},
 "myths-baltic--the-sun-and-the-moon": {"cultures": ["lithuanian"], "themes": ["family", "how-things-began", "gentle", "gods-heroes"]},
-"myths-baltic--perkunas-and-the-devil": {"cultures": ["lithuanian"], "themes": ["tricksters", "monsters", "how-things-began", "legends", "gods-heroes"]}
+"myths-baltic--perkunas-and-the-devil": {"cultures": ["lithuanian"], "themes": ["tricksters", "monsters", "how-things-began", "legends", "gods-heroes"]},
+"ralston-russian--vasilissa-the-fair": {"cultures": ["russian"], "themes": ["magic", "monsters", "underdogs"]},
+"ralston-russian--frost": {"cultures": ["russian"], "themes": ["kindness", "greed-pride", "magic"]},
+"curtin-russian--ivan-tsarevich-the-fire-bird-and-the-gray-wolf": {"cultures": ["russian"], "themes": ["animals", "royalty", "magic", "family", "quests", "underdogs"]},
+"curtin-russian--koshchei-without-death": {"cultures": ["russian"], "themes": ["animals", "royalty", "magic", "monsters", "quests"]},
+"magnus-russian--marya-moryevna": {"cultures": ["russian"], "themes": ["animals", "royalty", "magic", "monsters", "family", "quests"]},
+"magnus-russian--ilya-muromets-and-the-nightingale-robber": {"cultures": ["russian"], "themes": ["royalty", "monsters", "quests", "legends", "gods-heroes"]},
+"myths-russian--the-firebird-and-the-grey-wolf": {"cultures": ["russian"], "themes": ["animals", "royalty", "magic", "family", "quests", "underdogs"]},
+"myths-russian--koshchei-the-deathless": {"cultures": ["russian"], "themes": ["animals", "royalty", "magic", "monsters", "quests"]},
+"myths-russian--marya-morevna": {"cultures": ["russian"], "themes": ["animals", "royalty", "magic", "monsters", "family", "quests"]},
+"myths-russian--ilya-muromets-and-the-nightingale-robber": {"cultures": ["russian"], "themes": ["royalty", "monsters", "quests", "underdogs", "legends", "gods-heroes"]},
+"myths-russian--dobrynya-and-the-dragon": {"cultures": ["russian"], "themes": ["royalty", "monsters", "family", "quests", "wishes", "gods-heroes"]},
+"myths-russian--sadko": {"cultures": ["russian"], "themes": ["greed-pride", "royalty", "magic", "quests", "wishes", "gentle", "gods-heroes"]},
+"myths-russian--the-snow-maiden": {"cultures": ["russian"], "themes": ["magic", "family", "gentle"]}
 }
 }
