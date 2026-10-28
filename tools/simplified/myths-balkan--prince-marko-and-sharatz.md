@@ -1,0 +1,24 @@
+---
+title: Prince Marko and Sharatz
+adaptedFrom: petrovitch-serbian--prince-marko-and-sharatz
+order: 1
+namesNote: Petrovitch spells the horse's name Sharatz; in Serbian it is Šarac, which means "piebald" (patched), and a veela is a mountain fairy.
+---
+
+You can't tell the story of Prince Marko, the great hero of Serbia, without telling about Sharatz, his patchy, piebald horse. Marko and Sharatz were never apart.
+
+There are different stories about how Marko got Sharatz. Some say that Sharatz was a gift from the veela, the mountain fairy who gave Marko his wonderful strength. Others say that Marko once bought a sick foal covered in sores, and looked after it himself until it was well, and taught it to drink wine, and so it grew into a splendid horse.
+
+And others say that when Marko was young, he worked for a master for three years. And when it was time to be paid, all he asked for was to choose one horse from the meadow. His master agreed. So Marko went to the meadow and tested each horse in turn. He took it by the tail, and swung it round and round.
+
+At last he came to a little piebald foal. He took it by the tail and pulled. But the foal did not move. Marko pulled with all his mighty strength, and still the foal would not move one step. So that was the horse Marko chose, and it became his beloved Sharatz.
+
+Sharatz's coat was so patchy that it looked more like the hide of an ox than a horse. Marko called him by pet names, like Sharo, and the two of them were together for a hundred and sixty years.
+
+Sharatz was the strongest and fastest horse that ever lived. He could even catch the flying veela. He knew just when to kneel down so that an enemy's lance would miss his master, and he knew how to rear up and strike the enemy's horse with his front hooves. When he was excited, Sharatz could leap as high as three lances, and as far as four lances. Sparks flew from under his hooves, and the ground cracked, and stones flew everywhere, and a blue flame flickered from his nostrils, so that everyone who saw him was afraid.
+
+Marko could even fall asleep in the saddle, riding through the mountains, and he was quite safe, because Sharatz would keep watch. So Marko fed Sharatz with bread and wine, from his very own dishes, and loved him more than his own brother. People said that Marko and Sharatz together were "a dragon riding on a dragon."
+
+There are different stories about how Marko died, too. But the story the Serbian people like best says that Marko never died at all. They say that he went into a cave near his castle at Prilip, to rest, and that he is sleeping there still. Long ago, he pushed his sword into a rock, right up to the handle. And every now and then he wakes up and looks to see whether his sword has come out of the rock. When it does, he will know that it is time for him to come back to his people, and win back the kingdom they lost long ago.
+
+And as for Sharatz, he is still munching his hay. But he has nearly finished it.

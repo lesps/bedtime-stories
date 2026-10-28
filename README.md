@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 961 public-domain children's stories in 60 collections — Aesop
+A calm, offline-capable reader for 973 public-domain children's stories in 64 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -26,13 +26,16 @@ tower from Geoffrey of Monmouth's British History. Finnish and Estonian: seven K
 Eivind's Finnish Legends for English Children, and three cantos of the Kalevipoeg from Kirby's The
 Hero of Esthonia. Russian: Vasilissa the Fair and Frost from Ralston's Russian Fairy Tales, the
 Firebird and Koshchei the Deathless from Curtin's Myths and Folk-Tales of the Russians, and Márya
-Moryévna and Ilya Muromets from Magnus's translation of Afanasyev's Russian Folk-Tales. Where no
+Moryévna and Ilya Muromets from Magnus's translation of Afanasyev's Russian Folk-Tales. Czech and
+Serbian: Libussa and the founding of Prague from Count Lützow's The Story of Prague, and Prince
+Marko's horse Sharatz, his truth-telling at Kosovo and his chase of the veela from Petrovitch's
+Hero Tales and Legends of the Serbians. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger.
 Simplified retellings for young readers in Greek, Roman, Norse, German, English, Irish, Welsh,
-Scottish, Manx and Breton, Arthurian, Finnish, Estonian and Sámi, Lithuanian and Latvian, and
-Russian collections "Simply Told".
+Scottish, Manx and Breton, Arthurian, Finnish, Estonian and Sámi, Lithuanian and Latvian, Russian,
+Polish and Czech, and Serbian, Romanian and Albanian collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -99,7 +102,7 @@ trademarks on Peter Rabbit and other Potter characters, so don't use them in the
 or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
 
-The simplified retellings (the twelve "Simply Told" collections, `myths-*`) were written by Claude
+The simplified retellings (the fourteen "Simply Told" collections, `myths-*`) were written by Claude
 (Anthropic) from public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt
 into story JSON by `tools/build_simplified.py`. Each one links to its original, except the few
 legends with no public-domain text available, whose end note says what they were retold from.

@@ -38,6 +38,11 @@ CULTURES = [
     ("sami", "Sámi"),
     ("lithuanian", "Lithuanian"),
     ("russian", "Russian"),
+    ("polish", "Polish"),
+    ("czech", "Czech"),
+    ("serbian", "Serbian"),
+    ("romanian", "Romanian"),
+    ("albanian", "Albanian"),
     ("japanese", "Japanese"),
 ]
 
@@ -123,11 +128,16 @@ COLLECTION_CULTURE = {
     "curtin-russian": "russian",
     "magnus-russian": "russian",
     "myths-russian": "russian",
+    "lutzow-prague": "czech",
+    "petrovitch-serbian": "serbian",
+    "myths-west-slavic": "polish",
+    "myths-balkan": "serbian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
 # Etruscan Tages, known only from Roman writers, the Manx and Breton retellings in `myths-celtic`,
-# and the Estonian and Sámi ones in `myths-finnic`.
+# the Estonian and Sámi ones in `myths-finnic`, the Czech one in `myths-west-slavic`, and the
+# Romanian and Albanian ones in `myths-balkan`.
 STORY_CULTURE = {
     "latin-sources--tages": "etruscan",
     "myths-roman--tages-the-child-from-the-furrow": "etruscan",
@@ -143,6 +153,9 @@ STORY_CULTURE = {
     "myths-celtic--saint-patrick-and-manannans-mist": "manx",
     "myths-celtic--the-drowned-city-of-ys": "breton",
     "myths-finnic--linda-and-the-hill-of-tallinn": "estonian",
+    "myths-west-slavic--libuse-and-the-founding-of-prague": "czech",
+    "myths-balkan--master-manole": "romanian",
+    "myths-balkan--mujo-and-the-mountain-fairies": "albanian",
     "myths-finnic--how-kalevipoeg-became-king": "estonian",
     "myths-finnic--kalevipoeg-at-the-gates": "estonian",
     "myths-finnic--the-son-of-the-sun": "sami",
@@ -184,6 +197,10 @@ MYTH_COLLECTIONS = {
     "kirby-esthonia",
     "myths-finnic",
     "myths-baltic",
+    "lutzow-prague",
+    "petrovitch-serbian",
+    "myths-west-slavic",
+    "myths-balkan",
 }
 
 ORIGIN_CULTURE = [
@@ -508,6 +525,15 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-russian--dobrynya-and-the-dragon": {"add": ["gods-heroes", "quests", "royalty"]},
     "myths-russian--sadko": {"add": ["gods-heroes", "magic", "wishes", "quests"]},
     "myths-russian--the-snow-maiden": {"add": ["magic", "family"], "remove": ["tricksters", "kindness"]},
+    # West Slavic and Balkan legends
+    "lutzow-prague--libussa-and-the-founding-of-prague": {"add": ["how-things-began", "royalty"]},
+    "myths-west-slavic--libuse-and-the-founding-of-prague": {"add": ["how-things-began", "royalty", "gentle"], "remove": ["quests"]},
+    "myths-west-slavic--lech-czech-and-rus": {"add": ["how-things-began", "family"]},
+    "myths-west-slavic--the-wawel-dragon": {"add": ["tricksters", "underdogs"], "remove": ["kindness"]},
+    "petrovitch-serbian--prince-marko-and-sharatz": {"add": ["magic"]},
+    "petrovitch-serbian--prince-marko-tells-whose-the-empire-shall-be": {"add": ["family"]},
+    "petrovitch-serbian--prince-marko-and-the-veela": {"add": ["magic"], "remove": ["gentle"]},
+    "myths-balkan--master-manole": {"add": ["how-things-began"], "remove": ["gods-heroes"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

@@ -1,0 +1,37 @@
+{
+ "id": "lutzow-prague--libussa-and-the-founding-of-prague",
+ "collectionId": "lutzow-prague",
+ "order": 1,
+ "title": "Libussa and the Founding of Prague",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The earliest tales of the foundation of Prague are as those of most very ancient cities—entirely mythical. Here, as elsewhere, very ancient legends and traditions take the place of genuine history. Yet a notice of such ancient towns that ignored these legends would be valueless. It is almost certain that the earliest inhabited spot within the precincts of the present city of Prague was the hill on the right bank of the Vltava or Moldau, known as the Vysehrad (‘higher castle’ or Acropolis). It is also probable that the ‘higher castle’ was from a very early date the residence of a prince who ruled over part of Bohemia, and the very ancient legend that refers to the Vysehrad as the residence of Krok or Crocus, the earliest Sovereign of Bohemia, is no doubt founded on this fact. Krok is said to have left no son, but three daughters, Kázi, Teta and Libussa. Libussa, though the youngest, succeeded her father as ruler of Bohemia. Libussa is described by the ancient chronicler, Cosmas of Prague, as ‘a wonderful woman among women, chaste in body, righteous in her morals, second to none as judge over the people, affable to all and even amiable, the pride and glory of the female sex, doing wise and manly deeds; but, as nobody is perfect, this so praiseworthy woman was, alas, a soothsayer.’ The last words, no doubt, refer to Libussa’s prophecy of the future greatness of Prague, which will be mentioned presently."
+  },
+  {
+   "type": "p",
+   "text": "The great merits of Libussa do not, however, appear to have reconciled the Bohemians to the rule of a woman. When Libussa had been sitting in judgment on a dispute between two nobles—brothers who both claimed the paternal inheritance—the one to whom the princess’s decision was unfavourable insulted her by exclaiming that it was a shame for a country to be ruled by a woman. Libussa then declared that she would no longer rule so ferocious a people. She bade the people disperse and reassemble on the following day, when she would accept as husband whomsoever they might select. The Bohemians, however, declared that they would leave the choice to her and accept as their ruler the man whom she would choose. Libussa, who here is represented as a visionary or soothsayer, then said, pointing to the distant hills, ‘Behind these hills is a small river called Belina and on its bank a farm named Stadic. Near that farm is a field and in that field your future ruler is ploughing with two oxen marked with various spots. His name is Premysl and his descendant will rule over you for ever. Take my horse and follow him; he will lead you to the spot.’"
+  },
+  {
+   "type": "p",
+   "text": "Guided by Libussa’s horse, the Bohemian envoys immediately set forth and found the peasant Premysl ploughing his field. They immediately saluted him as their ruler. Premysl mounted the horse and, followed by the Bohemian envoys, proceeded to the Vysehrad, where he was immediately betrothed to Libussa. The chroniclers tell us that when he arrived at the Vysehrad he still wore the dress of the Bohemian peasant, and that his rough shoes were preserved in the Vysehrad castle as late as the twelfth century."
+  },
+  {
+   "type": "p",
+   "text": "To Libussa is ascribed the second foundation of a city on the site of the present town of Prague. It is said to have taken place on the left bank of the Vltava, on the Hradcany Hill. The spot then, and even far later, was covered by a dense forest; the ancient Slavs, it may be noted, generally chose secluded spots surrounded by forests as their dwelling-places. The oldest account, and therefore the most valuable, is that of the chronicler, Cosmas of Prague (about 1045 to 1125), whom I shall again quote. He tells us that Libussa, ‘standing on a high rock on the Vysehrad in presence of her husband Premysl, and the elders of the people incited by the spirit of prophecy uttered this prediction: I see a town the glory of which will reach the stars. There is a spot in the forest, thirty stades from this village, which the River Vltava encircles, and which to the north the stream Brusnice secures by its deep valley; and to the south a rocky hill, which from its rocks takes the name of Petrin, towers above it.... When you have reached this spot you will find a man in the midst of the forest who is working at a door-sill for a house. And as even mighty lords bend before a low door, so from this event you shall call the town which you will build “Praha.”... They proceed immediately to the ancient forest, and having found the sign which had been given them they build on this site a town, Prague, the mistress of all Bohemia.’"
+  }
+ ],
+ "workId": "czech-libuse",
+ "wordCount": 800,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 11.9,
+  "avgSentenceWords": 25.9,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-west-slavic--libuse-and-the-founding-of-prague"
+}

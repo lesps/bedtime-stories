@@ -1,0 +1,70 @@
+{
+ "id": "myths-west-slavic--the-wawel-dragon",
+ "collectionId": "myths-west-slavic",
+ "order": 2,
+ "title": "The Wawel Dragon",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, on the banks of the river Vistula, there was a hill called Wawel. On top of the hill, King Krak had built his castle, and around the hill grew the town of Kraków."
+  },
+  {
+   "type": "p",
+   "text": "But deep under Wawel hill, in a dark cave by the river, there lived a terrible dragon. Every day the dragon came out of its cave, and it was always hungry. It ate the farmers' sheep and cows. It ate their pigs and their goats. And when there were no more animals for it to eat, the people were afraid that it would start eating them."
+  },
+  {
+   "type": "p",
+   "text": "King Krak sent his bravest knights to fight the dragon. But the dragon breathed out fire and smoke, and not one of the knights could get near it. They all came running back."
+  },
+  {
+   "type": "p",
+   "text": "So King Krak made it known to everyone: \"Whoever can get rid of the dragon shall have a great reward.\""
+  },
+  {
+   "type": "p",
+   "text": "Then one day a poor young shoemaker called Skuba came to the castle. \"I think I can get rid of the dragon,\" he said. \"But I won't need a sword or a spear. I'll need a sheepskin.\""
+  },
+  {
+   "type": "p",
+   "text": "The knights laughed at him. But the king said, \"Let him try.\""
+  },
+  {
+   "type": "p",
+   "text": "So Skuba took a sheepskin. He stuffed it full of sulphur, the yellow stuff that burns hot and sharp. Then he sewed it up so neatly that it looked just like a real sheep. And early in the morning, he left it outside the dragon's cave."
+  },
+  {
+   "type": "p",
+   "text": "The dragon came out, hungry as always, and saw the sheep. And it swallowed it in one great gulp."
+  },
+  {
+   "type": "p",
+   "text": "Then the sulphur began to burn inside the dragon's belly. Its stomach felt as hot as fire. It was so thirsty! It rushed down to the river Vistula, and began to drink. It drank, and drank, and drank. It drank half the river. And it swelled up bigger and bigger, until at last, with a tremendous BANG, it burst."
+  },
+  {
+   "type": "p",
+   "text": "The people of Kraków came running out, and cheered and danced. And King Krak kept his promise, and gave Skuba the shoemaker a great reward. Some people even say that he married the king's daughter."
+  },
+  {
+   "type": "p",
+   "text": "And if you go to Kraków today, you can still visit the dragon's cave under Wawel hill."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Kraków legend of the dragon of Wawel hill, first told by Wincenty Kadłubek in his chronicle (about 1200), in the later version with the shoemaker Skuba that Marcin Bielski printed (1597). There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "polish-wawel-dragon",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "wordCount": 432,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 3.5,
+  "avgSentenceWords": 11.2,
+  "band": "early"
+ }
+}
