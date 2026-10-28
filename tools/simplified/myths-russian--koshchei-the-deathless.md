@@ -1,0 +1,114 @@
+---
+title: Koshchei the Deathless
+adaptedFrom: curtin-russian--koshchei-without-death
+order: 2
+namesNote: Curtin calls him Koshchéi Without-Death; a tsar is a king, and a tsarevich is a king's son.
+---
+
+Once upon a time there lived a tsar and his wife, and they had a baby son called Ivan. But the baby would not go to sleep. The nursemaids rocked him and rocked him, but he only cried. So they called his father. "Great tsar, come and rock your son."
+
+The tsar rocked the cradle and sang, "Sleep, little son, sleep. When you grow up, I'll find you Peerless Beauty for your bride, the daughter of three mothers, the granddaughter of three grandmothers, and the sister of nine brothers." And the baby fell asleep, and slept for three days and three nights.
+
+Three times this happened. And the third time the baby woke up, he said, "Father, give me your blessing. I'm going to get married!"
+
+"What do you mean, my little one?" said the tsar. "You are only nine days old!"
+
+"If you give me your blessing, I'll go. And if you don't, I'll go anyway."
+
+So off went Ivan. On the way he met an old man. "Where are you going, young man?" asked the old man.
+
+"I won't talk to you," said Ivan, and walked on. But then he thought, "Why didn't I answer him? Old people can give good advice." So he ran back. "Grandfather, what was it you asked me?"
+
+"I asked where you are going."
+
+"My father promised me Peerless Beauty for my bride," said Ivan.
+
+"She lives a very long way away," said the old man, "in the Golden Kingdom, at the end of the world, where the sun rises. You can't walk there. Go home, and tell the grooms to take your father's thirty horses to drink at the blue sea. Whichever horse wades in up to its neck, and drinks until the waves roll from shore to shore, that is the horse for you."
+
+Ivan did as the old man told him, and chose a mighty horse, and rode off.
+
+He rode far, far away. At nightfall he came to a great house, and an old woman let him stay the night. But she had never heard of Peerless Beauty. "My older sister lives further along the road," she said. "Perhaps she knows."
+
+The next night he stayed with the older sister, but she had never heard of Peerless Beauty either. "My eldest sister lives further along the road," she said. "All the creatures in the world obey her. Perhaps one of them knows."
+
+The next night he came to the eldest sister. In the morning, she went out onto the porch and called out in a mighty voice to the fish of the sea. The sea boiled, and all the fish came swimming to the shore. "Where does Peerless Beauty live?" she asked. But the fish said, "We have never seen her, or heard of her." Then she called all the beasts of the forest, and they came running until they covered the ground. But they had never heard of her either. Then she called all the birds of the air, and they came until they hid the sun. But they had never heard of her either.
+
+Then, last of all, the Mogol bird came flying in, late.
+
+"Where have you been?" asked the old woman.
+
+"I've been helping Peerless Beauty get dressed for church," said the Mogol bird.
+
+"Then carry Ivan to her," said the old woman.
+
+"I will," said the bird, "but I'll need plenty of food on the way."
+
+So Ivan loaded the bird with three barrels of meat and a barrel of water, and climbed on its back, and they flew off. Every time the bird looked round, Ivan gave it a piece of meat on the end of a long spear. They flew for a long time, and the meat began to run out. "Please land, Mogol bird," said Ivan. "There's hardly any food left."
+
+"I can't land here," said the bird. "Below us are deep forests and sticky swamps. We'd never get out."
+
+When the last of the meat was gone, the bird still looked round for more. So brave Ivan cut a piece from his own legs and fed it to the bird. And the bird flew on, and landed at last in a green meadow full of blue flowers. Ivan climbed down, but he was limping.
+
+"Why are you limping?" asked the bird.
+
+"I fed you with my own legs," said Ivan.
+
+So the Mogol bird gave back what it had swallowed, and breathed on Ivan's legs, and they were whole and strong again.
+
+Ivan came to a great city, and stayed with an old woman there. "Sleep now," she said, "and when the church bell rings, I'll wake you." Ivan slept so soundly that she could hardly wake him. But at last he jumped up, washed himself, and hurried to church. And there was Peerless Beauty. They stood side by side and prayed.
+
+After church, Ivan went down to the sea, and saw ships sailing in, bringing six champions who had come to ask Peerless Beauty to marry them. They laughed at Ivan. "You country bumpkin! Is a beauty like that for you? You're not worth one of her fingers!" Ivan was angry. He swung his arm once, and twice, and swept them all away.
+
+The next day the same thing happened, with twelve champions. And the day after, twenty-four champions came, and attacked Ivan all together. But he swept them all away. Then Peerless Beauty took him by the hand, and led him to her palace, and called him her bridegroom.
+
+Soon they set out together for Ivan's home. On the way they stopped to rest. Peerless Beauty slept first, while Ivan watched over her. Then Ivan said, "Now I will sleep. I'll sleep for nine days and nights, and nothing will wake me until it's time."
+
+So Ivan slept for nine days and nights. And while he slept, Koshchei the Deathless came and carried Peerless Beauty away to his kingdom.
+
+When Ivan woke up and found her gone, he wept. Then he set off to find her. At last he came to the kingdom of Koshchei, and stayed with an old woman there.
+
+"You can't beat Koshchei," she said. "He can never die."
+
+"At least I can see my bride," said Ivan.
+
+The next morning, Koshchei went off to war, and Ivan went to his palace. Peerless Beauty opened the door, and when she saw him she burst into tears. "Ask Koshchei where his death is hidden," said Ivan.
+
+That evening, Koshchei came home. "I smell a Russian," he said. "Ivan must have been here."
+
+"How could Ivan have been here?" said Peerless Beauty. "He was lost in the forests long ago."
+
+At supper she asked him, "Koshchei, where is your death hidden?"
+
+"Why do you want to know, silly woman?" said Koshchei. "My death is tied up in the broom."
+
+The next day, while Koshchei was away, Peerless Beauty covered the broom with gold. When Koshchei saw it, he asked what it meant. "You can see how much I honour you," said Peerless Beauty. "Silly woman, I was only joking," said Koshchei. "My death is in the oak fence outside." So the next day Ivan covered the whole fence with gold, until it shone like fire.
+
+When Koshchei saw it, he asked what it was. "You can see how much I respect you," said Peerless Beauty. "If you are dear to me, then your death matters to me." That pleased Koshchei. "Silly woman, I was only joking," he said. "My death is in an egg, and the egg is in a duck, and the duck is in a tree stump, floating on the sea."
+
+The next day, Peerless Beauty baked some cakes for Ivan, and told him where to look. Ivan walked and walked until he came to the great ocean. By then the cakes were all eaten, and he was very hungry.
+
+A hawk flew by. "Hawk, I'll shoot you and eat you!" said Ivan.
+
+"Don't eat me," said the hawk. "I'll help you when you need it."
+
+A bear came by. "Bear, I'll kill you and eat you!"
+
+"Don't eat me," said the bear. "I'll help you when you need it."
+
+A pike lay struggling on the beach. "Pike, I'll eat you!"
+
+"Don't eat me," said the pike. "Throw me back in the sea, and I'll help you when you need it."
+
+So Ivan let them all go, and stayed hungry. Suddenly the sea boiled up, and a great wave rolled in. Ivan ran up a hill and climbed a tree. When the water went down, it left a great tree stump on the shore. The bear came running and smashed the stump open, and out flew a duck, high into the sky. But the hawk swooped down and caught the duck, and out fell an egg, into the sea. Then the pike caught the egg and swam with it to the shore, and gave it to Ivan.
+
+Ivan put the egg inside his shirt, and went to Koshchei's palace. Peerless Beauty ran to meet him and kissed him. Koshchei was sitting at the window. "You'll never take her from me, Ivan," he snarled. "You won't live!"
+
+"You took her from me first," said Ivan. And he took out the egg and held it up. "What's this?"
+
+Koshchei's eyes grew dim. Suddenly he was weak and gentle. Ivan tossed the egg from one hand to the other, and Koshchei staggered from one corner of the room to the other. Ivan tossed it faster and faster, until the egg broke. And Koshchei the Deathless fell down, and never got up again.
+
+Then Ivan and Peerless Beauty set off for home in a golden carriage, with bags of gold and silver. On the way, Ivan collected his good horse, and gave the old woman who had looked after it so much gold that she would never be poor again. And he sent a messenger ahead to his father: "Father, I'm coming home with my bride, Peerless Beauty."
+
+The tsar couldn't believe it. "How can that be?" he said. "He left home when he was only nine days old!" But then Ivan arrived, and his father ran out to meet him, with drums beating and music playing.
+
+That very day there was a wedding, and a great feast for everyone. And I was there too. I drank mead and wine. It ran down my moustache, but none of it went in my mouth!

@@ -672,6 +672,54 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 4
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "ru",
+   "id": "ralston-russian",
+   "title": "Russian Fairy Tales",
+   "author": "Traditional (Russian)",
+   "contributor": "Translated by W. R. S. Ralston",
+   "firstPublished": 1873,
+   "source": "https://www.gutenberg.org/ebooks/22373",
+   "storyCount": 2
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "ru",
+   "id": "curtin-russian",
+   "title": "Myths and Folk-Tales of the Russians",
+   "author": "Traditional (Russian)",
+   "contributor": "Translated by Jeremiah Curtin",
+   "firstPublished": 1890,
+   "source": "https://www.gutenberg.org/ebooks/50011",
+   "storyCount": 2
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "ru",
+   "id": "magnus-russian",
+   "title": "Russian Folk-Tales",
+   "author": "Aleksandr Afanasyev",
+   "contributor": "Translated by Leonard A. Magnus",
+   "firstPublished": 1915,
+   "source": "https://standardebooks.org/ebooks/a-n-afanasyev/russian-folktales/leonard-a-magnus",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-russian",
+   "title": "Russian Tales and Legends, Simply Told",
+   "author": "Traditional (Russian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 7
   }
  ],
  "stories": [
@@ -13890,6 +13938,239 @@
     "fkGrade": 6.1,
     "avgSentenceWords": 17.2,
     "band": "middle"
+   }
+  },
+  {
+   "id": "ralston-russian--vasilissa-the-fair",
+   "collectionId": "ralston-russian",
+   "order": 1,
+   "title": "Vasilissa the Fair",
+   "wordCount": 3059,
+   "readingMinutes": 17,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-vasilisa",
+   "readingLevel": {
+    "fkGrade": 5.7,
+    "avgSentenceWords": 15.1,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "ralston-russian--frost",
+   "collectionId": "ralston-russian",
+   "order": 2,
+   "title": "Frost",
+   "wordCount": 1966,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-morozko",
+   "readingLevel": {
+    "fkGrade": 4.6,
+    "avgSentenceWords": 13.4,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "curtin-russian--ivan-tsarevich-the-fire-bird-and-the-gray-wolf",
+   "collectionId": "curtin-russian",
+   "order": 1,
+   "title": "Ivan Tsarevich, the Fire-Bird, and the Gray Wolf",
+   "wordCount": 4185,
+   "readingMinutes": 23,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "russian-firebird",
+   "readingLevel": {
+    "fkGrade": 8.6,
+    "avgSentenceWords": 22.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-russian--the-firebird-and-the-grey-wolf"
+  },
+  {
+   "id": "curtin-russian--koshchei-without-death",
+   "collectionId": "curtin-russian",
+   "order": 2,
+   "title": "Koshchéi Without-Death",
+   "wordCount": 4254,
+   "readingMinutes": 24,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-koshchei",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.6,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-russian--koshchei-the-deathless"
+  },
+  {
+   "id": "magnus-russian--marya-moryevna",
+   "collectionId": "magnus-russian",
+   "order": 1,
+   "title": "Márya Moryévna",
+   "wordCount": 3702,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "russian-marya-morevna",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 19.1,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-russian--marya-morevna"
+  },
+  {
+   "id": "magnus-russian--ilya-muromets-and-the-nightingale-robber",
+   "collectionId": "magnus-russian",
+   "order": 2,
+   "title": "Ilya Muromets and the Nightingale Robber",
+   "wordCount": 1984,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-ilya-nightingale",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 26.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-russian--ilya-muromets-and-the-nightingale-robber"
+  },
+  {
+   "id": "myths-russian--the-firebird-and-the-grey-wolf",
+   "collectionId": "myths-russian",
+   "order": 1,
+   "title": "The Firebird and the Grey Wolf",
+   "wordCount": 1709,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-firebird",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 11.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "curtin-russian--ivan-tsarevich-the-fire-bird-and-the-gray-wolf"
+  },
+  {
+   "id": "myths-russian--koshchei-the-deathless",
+   "collectionId": "myths-russian",
+   "order": 2,
+   "title": "Koshchei the Deathless",
+   "wordCount": 1786,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-koshchei",
+   "readingLevel": {
+    "fkGrade": 2.5,
+    "avgSentenceWords": 9.9,
+    "band": "early"
+   },
+   "adaptedFrom": "curtin-russian--koshchei-without-death"
+  },
+  {
+   "id": "myths-russian--marya-morevna",
+   "collectionId": "myths-russian",
+   "order": 3,
+   "title": "Marya Morevna",
+   "wordCount": 1812,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-marya-morevna",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 10.4,
+    "band": "early"
+   },
+   "adaptedFrom": "magnus-russian--marya-moryevna"
+  },
+  {
+   "id": "myths-russian--ilya-muromets-and-the-nightingale-robber",
+   "collectionId": "myths-russian",
+   "order": 4,
+   "title": "Ilya Muromets and the Nightingale Robber",
+   "wordCount": 1106,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-ilya-nightingale",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 11.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "magnus-russian--ilya-muromets-and-the-nightingale-robber"
+  },
+  {
+   "id": "myths-russian--dobrynya-and-the-dragon",
+   "collectionId": "myths-russian",
+   "order": 5,
+   "title": "Dobrynya and the Dragon",
+   "wordCount": 959,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-dobrynya",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 11.4,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-russian--sadko",
+   "collectionId": "myths-russian",
+   "order": 6,
+   "title": "Sadko and the King of the Sea",
+   "wordCount": 997,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-sadko",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 13.1,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-russian--the-snow-maiden",
+   "collectionId": "myths-russian",
+   "order": 7,
+   "title": "The Snow Maiden",
+   "wordCount": 525,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "russian-snow-maiden",
+   "readingLevel": {
+    "fkGrade": 3.1,
+    "avgSentenceWords": 10.1,
+    "band": "early"
    }
   }
  ]

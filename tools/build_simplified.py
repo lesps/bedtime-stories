@@ -149,6 +149,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-russian": {
+        "id": "myths-russian",
+        "title": "Russian Tales and Legends, Simply Told",
+        "author": "Traditional (Russian)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-celtic": {
         "id": "myths-celtic",
         "title": "Scottish, Manx and Breton Legends, Simply Told",

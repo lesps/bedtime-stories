@@ -23,6 +23,20 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 14 (data only): the Russian shelf. The plan named Ransome's _Old Peter's Russian
+  Tales_, but Ransome died in 1967 and isn't public domain everywhere, so the tales come from
+  three older translations, each a new collection: Vasilissa the Fair and Frost from Ralston's
+  _Russian Fairy Tales_ (1873, `ralston-russian`), the Firebird and the Grey Wolf
+  (`mature-themes`) and Koshchei the Deathless from Curtin's _Myths and Folk-Tales of the
+  Russians_ (1890, `curtin-russian`), and Márya Moryévna (`mature-themes`) and Ilya Muromets and
+  the Nightingale Robber from Magnus's translation of Afanasyev, _Russian Folk-Tales_ (1915,
+  `magnus-russian`). The four that are advanced or over 20 minutes are retold in the new _Russian
+  Tales and Legends, Simply Told_ (`myths-russian`), which also has three legends with no
+  public-domain text that could be reached, retold and flagged for review: Dobrynya and the
+  dragon, Sadko (following Hapgood's 1902 outline of the bylina) and the Snow Maiden. Perun and
+  Veles is left out (the myth is a modern scholars' reconstruction, not a story anyone told), and
+  so is the Little Humpbacked Horse (Yershov's poem, with no reachable public-domain
+  translation). New culture `russian` (24 in all).
 - Mythology, part 13 (data only): Sámi, Lithuanian and Latvian, all retold without an original in
   the app. The plan was to translate public-domain originals (Donner's _Lappalaisia lauluja_,
   1876; Basanavičius's tales, 1904; Rėza's dainos, 1825; Barons's _Latvju dainas_), but none of
