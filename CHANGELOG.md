@@ -23,6 +23,15 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 13 (data only): Sámi, Lithuanian and Latvian, all retold without an original in
+  the app. The plan was to translate public-domain originals (Donner's _Lappalaisia lauluja_,
+  1876; Basanavičius's tales, 1904; Rėza's dainos, 1825; Barons's _Latvju dainas_), but none of
+  them can be reached from here. So, written from the attested versions and flagged for review:
+  the Son of the Sun and the giant's daughter (added to `myths-finnic`, now _Finnish, Estonian and
+  Sámi Legends, Simply Told_), and, in the new _Lithuanian and Latvian Legends, Simply Told_
+  (`myths-baltic`), Eglė the Queen of Serpents, Jūratė and Kastytis (labelled a writers' legend),
+  the Sun, the Moon and the Morning Star (Lithuanian and Latvian versions), and Perkūnas and the
+  devil. New cultures `sami` and `lithuanian` (23 in all).
 - Mythology, part 12 (data only): the Finnish and Estonian shelf. From R. Eivind's _Finnish
   Legends for English Children_ (1893), a prose Kalevala for children, a new `eivind-finnish`
   collection: the world made from the duck's eggs, the singing contest, the forging of the Sampo,

@@ -35,6 +35,8 @@ CULTURES = [
     ("turkish", "Turkish"),
     ("finnish", "Finnish"),
     ("estonian", "Estonian"),
+    ("sami", "Sámi"),
+    ("lithuanian", "Lithuanian"),
     ("japanese", "Japanese"),
 ]
 
@@ -115,11 +117,12 @@ COLLECTION_CULTURE = {
     "eivind-finnish": "finnish",
     "kirby-esthonia": "estonian",
     "myths-finnic": "finnish",
+    "myths-baltic": "lithuanian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
 # Etruscan Tages, known only from Roman writers, the Manx and Breton retellings in `myths-celtic`,
-# and the Estonian ones in `myths-finnic`.
+# and the Estonian and Sámi ones in `myths-finnic`.
 STORY_CULTURE = {
     "latin-sources--tages": "etruscan",
     "myths-roman--tages-the-child-from-the-furrow": "etruscan",
@@ -137,6 +140,7 @@ STORY_CULTURE = {
     "myths-finnic--linda-and-the-hill-of-tallinn": "estonian",
     "myths-finnic--how-kalevipoeg-became-king": "estonian",
     "myths-finnic--kalevipoeg-at-the-gates": "estonian",
+    "myths-finnic--the-son-of-the-sun": "sami",
 }
 
 # Myth collections: every story gets the gods-heroes theme.
@@ -174,6 +178,7 @@ MYTH_COLLECTIONS = {
     "eivind-finnish",
     "kirby-esthonia",
     "myths-finnic",
+    "myths-baltic",
 }
 
 ORIGIN_CULTURE = [
@@ -478,6 +483,12 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "kirby-esthonia--the-contest-and-parting-of-the-brothers": {"add": ["royalty", "how-things-began"], "remove": ["quests"]},
     "myths-finnic--how-kalevipoeg-became-king": {"remove": ["legends", "quests"]},
     "kirby-esthonia--armageddon": {"add": ["magic", "monsters"]},
+    # Sámi and Baltic retellings (no originals in the app). Eglė is a folk tale, not a myth.
+    "myths-finnic--the-son-of-the-sun": {"add": ["magic", "quests", "how-things-began"]},
+    "myths-baltic--egle-queen-of-serpents": {"add": ["magic", "family", "animals", "how-things-began"], "remove": ["underdogs", "gods-heroes"]},
+    "myths-baltic--jurate-and-kastytis": {"add": ["magic", "how-things-began"], "remove": ["gentle"]},
+    "myths-baltic--the-sun-and-the-moon": {"add": ["how-things-began", "family"], "remove": ["quests"]},
+    "myths-baltic--perkunas-and-the-devil": {"add": ["how-things-began", "tricksters"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},
