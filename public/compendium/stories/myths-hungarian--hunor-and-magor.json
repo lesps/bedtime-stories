@@ -1,0 +1,119 @@
+{
+ "id": "myths-hungarian--hunor-and-magor",
+ "collectionId": "myths-hungarian",
+ "order": 1,
+ "title": "Hunor and Magor and the Wondrous Stag",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the beautiful Enéh had two sons, Hunor and Magor. They were brothers, and they were both brave young hunters."
+  },
+  {
+   "type": "p",
+   "text": "One day, Hunor and Magor went out hunting. Each of them chose fifty good young warriors to ride with him, and they set off, armed as if they were going to war."
+  },
+  {
+   "type": "p",
+   "text": "They hunted all morning, and no deer could escape them. Then, all at once, they saw a great red stag, more wonderful than any they had ever seen. And they began to chase it."
+  },
+  {
+   "type": "p",
+   "text": "They chased the stag along the shore of a salty sea, over wild empty lands where not even wolves or bears ever went, where only lions and panthers and tigers roared. As the sun went down and set the clouds on fire, they were still chasing the stag. And at dusk, it vanished."
+  },
+  {
+   "type": "p",
+   "text": "By nightfall they had come to the bank of the river Kur. \"Let's stop here for the night,\" said Hunor. \"The horses can drink and graze.\" \"And at dawn,\" said Magor, \"we'll ride back home.\""
+  },
+  {
+   "type": "p",
+   "text": "But the warriors looked at the sky and wondered. \"What strange land is this,\" they said, \"where the sun doesn't seem to set in the west?\" One said it had set in the south. Another said no, it was glowing in the north. Nobody knew where they were."
+  },
+  {
+   "type": "p",
+   "text": "At dawn, as a cool breeze blew and the sky turned red, they saw the stag again. There it was, leaping about on the other side of the river, as bold as could be!"
+  },
+  {
+   "type": "p",
+   "text": "\"After it, lads!\" they cried. And off they went again."
+  },
+  {
+   "type": "p",
+   "text": "They swam across the river Kur into lands even wilder than before. There was no grass there, and not a drop of water to drink. The ground was cracked and salty, the springs were bitter, and the lakes smelled of sulphur. In some places oil bubbled up out of the ground and burned, so that flames flickered all over the land like campfires in the dark."
+  },
+  {
+   "type": "p",
+   "text": "Every evening the brothers wished they had never started chasing the stag. But every morning they just had to chase it again, the way the wind chases a thistle, or a bird's shadow follows the bird."
+  },
+  {
+   "type": "p",
+   "text": "At last they came to a land of deep, marshy lakes, near the little Maeotian sea. And there, in a mist, the stag vanished before their eyes, and they never saw it again."
+  },
+  {
+   "type": "p",
+   "text": "\"Where did it go?\" they shouted. \"There it is!\" \"No, here!\" \"It's gone!\" They searched every corner and every bush, but they found only lizards and grouse."
+  },
+  {
+   "type": "p",
+   "text": "\"Oh, who knows the way home now?\" sighed Magor. \"Our poor mother will be so worried!\""
+  },
+  {
+   "type": "p",
+   "text": "But Hunor looked around. \"Let's stay here,\" he said. \"This can be our home. The grass is soft as silk, the water is sweet, honey drips from the hollow trees, the river is full of shining fish, and there is plenty of game to hunt.\""
+  },
+  {
+   "type": "p",
+   "text": "So they made their camp there, on an island among the lakes."
+  },
+  {
+   "type": "p",
+   "text": "After a while, the brothers grew tired of fishing and hunting at home, and they rode out onto the plain looking for adventure. And one dark night, they heard music far away, pipes and drums, as if it came from heaven, or from a dream."
+  },
+  {
+   "type": "p",
+   "text": "It came from the tent of the fairy maidens, a tent woven out of mist. There the fairies danced and made merry. And with them were the most beautiful girls in the world, the daughters of King Dul and old Belar, a hundred and two of them, who were learning to become fairies too."
+  },
+  {
+   "type": "p",
+   "text": "Hunor and Magor and their warriors crept closer, following the music and the light. \"Come on!\" cried the brothers. \"Let's each carry home a wife!\" And they galloped right into the middle of the dancing."
+  },
+  {
+   "type": "p",
+   "text": "The maidens screamed and tried to run away. The real fairies spread their wings and flew off. But the hundred and two girls could not fly, and the warriors caught them and carried them away on their horses into the night."
+  },
+  {
+   "type": "p",
+   "text": "The two most beautiful, the daughters of King Dul, became the wives of Hunor and Magor. And the hundred young warriors married the hundred other girls."
+  },
+  {
+   "type": "p",
+   "text": "At first the proud girls were angry. But in time they made their peace, and came to love their new home. The island in the lake became their homeland, and their tents became happy homes."
+  },
+  {
+   "type": "p",
+   "text": "They had sons and daughters, and their children had children, until there were so many of them that the island could not hold them all. Hunor's children became the Huns, and Magor's children became the Magyars, the Hungarian people. And they spread out over the wide lands beyond."
+  },
+  {
+   "type": "p",
+   "text": "And ever since, the song of Hunor and Magor, and the wondrous stag that led them to their new home, has flown from mouth to mouth, like a bird from branch to branch."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Legend of the Wondrous Stag” in Legends from the Hungarian Poets, translated by Claude (Anthropic), 2026. The original is listed under Other versions. Arany calls the younger brother Magyar; the old chronicles call him Magor. Enéh was their mother and Ménrót (Nimrod) their father."
+  }
+ ],
+ "workId": "hungarian-wondrous-stag",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "hungarian-sources--the-wondrous-stag",
+ "wordCount": 868,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 3.6,
+  "avgSentenceWords": 12.1,
+  "band": "middle"
+ }
+}

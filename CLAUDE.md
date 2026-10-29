@@ -65,13 +65,15 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           two tales each from Ralston's Russian Fairy Tales, Curtin's Myths and
                           Folk-Tales of the Russians and Magnus's Afanasyev, Russian Folk-Tales;
                           extract_slavic.py: Libussa from Lützow's The Story of Prague, and three
-                          Prince Marko pieces from Petrovitch's Hero Tales and Legends of the Serbians)
+                          Prince Marko pieces from Petrovitch's Hero Tales and Legends of the Serbians;
+                          extract_basque.py: the Tartaro from Webster's Basque Legends)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
                           source (one story per file; `## Author, Work ref` headings per passage)
 tools/build_translations.py builds the `greek-sources` / `latin-sources` / `norse-sources` /
-                          `german-sources` collections (`> ` lines become verse blocks)
+                          `german-sources` / `hungarian-sources` collections (`> ` lines become verse
+                          blocks)
 tools/readability.py      Flesch-Kincaid grade, words per sentence, reading band
 tools/compendium_io.py    shared helpers: write story files and upsert a collection in index.json
 tools/tag_stories.py      culture + theme tags → public/compendium/tags.json (rules + OVERRIDES)
@@ -112,7 +114,7 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 973 stories, 64 collections, ~10 MB
+failures throw `DataError` (`kind: network | http | invalid`). 982 stories, 69 collections, ~10 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -133,21 +135,23 @@ ship ahead of the code; they appear on story files and, where marked, on index e
   the Green Children of Woolpit, seven of the Irish myths, the drowned Welsh land of Cantre'r
   Gwaelod, the Cailleach, the Breton city of Ys, Gawain and the Green Knight, the Sámi Son of the
   Sun, all four Lithuanian and Latvian stories, Dobrynya and the dragon, Sadko and the Snow
-  Maiden, Lech, Czech and Rus, the Wawel dragon, Master Manole and Mujo's strength; ‡ in the expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
+  Maiden, Lech, Czech and Rus, the Wawel dragon, Master Manole, Mujo's strength, Emese's dream, Sosruko, Amirani, Martin Txiki and
+  Mari of Anboto; ‡ in the expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
   note says what it was retold from.
 
 Intended behaviour, not yet built: the library, search, collections and the picker show the
 retelling and hide any story with a `simplifiedId`; the reader of a retelling offers "Read the
 original"; and a Settings switch shows originals instead. A story gets a retelling when its band
-is `advanced` or it runs over 20 minutes.
+is `advanced` or it runs over 20 minutes (one exception so far: the verse translation of Arany's
+stag legend, `middle` but a long poem, also has one).
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-29 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+33 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
-ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, and Manole
-and Mujo in `myths-balkan` as `romanian` and `albanian`; the Arthurian legends
+ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
+and Mujo in `myths-balkan` as `romanian` and `albanian`, and Amirani in `myths-caucasus` as `georgian`; the Arthurian legends
 are their own culture, `arthurian`)
 and 18 themes (`gods-heroes` comes from the `MYTH_COLLECTIONS` rule, and from `OVERRIDES` for the
 Russian epic heroes, since the Russian collections are fairy-tale books). Regenerate with `python3 tools/tag_stories.py` after any data change.
@@ -283,15 +287,17 @@ fine)`.
   `myths-roman`, `myths-norse`, `myths-german`, `myths-english`, `myths-irish`, `myths-welsh`,
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech)
-  or `myths-balkan` (Serbian, Romanian and Albanian) by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
+  and Georgian) or `myths-basque` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).
 - Where no public-domain English source exists, Claude translates the ancient passages itself
   (`tools/translations/*.md`, from the Perseus Digital Library's Greek and Latin texts, The Latin
   Library's medieval Latin and the heimskringla.no Old Norse texts in the Classical Language
-  Toolkit corpora, and the TextGrid German poems in the German Poetry Corpus,
-  github.com/tnhaider/DLK; the editions are named in each story's end note). Rebuild with
+  Toolkit corpora, the TextGrid German poems in the German Poetry Corpus,
+  github.com/tnhaider/DLK, and Project Gutenberg's Hungarian text of Arany's Buda halála; the
+  editions are named in each story's end note). Rebuild with
   `python3 tools/build_translations.py && python3 tools/build_simplified.py && python3 tools/tag_stories.py`
   (translations first: rebuilding a collection drops the `simplifiedId` links until
   `build_simplified.py` runs again).

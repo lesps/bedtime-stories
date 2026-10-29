@@ -43,6 +43,10 @@ CULTURES = [
     ("serbian", "Serbian"),
     ("romanian", "Romanian"),
     ("albanian", "Albanian"),
+    ("hungarian", "Hungarian"),
+    ("circassian", "Circassian"),
+    ("georgian", "Georgian"),
+    ("basque", "Basque"),
     ("japanese", "Japanese"),
 ]
 
@@ -132,12 +136,17 @@ COLLECTION_CULTURE = {
     "petrovitch-serbian": "serbian",
     "myths-west-slavic": "polish",
     "myths-balkan": "serbian",
+    "hungarian-sources": "hungarian",
+    "myths-hungarian": "hungarian",
+    "myths-caucasus": "circassian",
+    "webster-basque": "basque",
+    "myths-basque": "basque",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
 # Etruscan Tages, known only from Roman writers, the Manx and Breton retellings in `myths-celtic`,
 # the Estonian and Sámi ones in `myths-finnic`, the Czech one in `myths-west-slavic`, and the
-# Romanian and Albanian ones in `myths-balkan`.
+# Romanian and Albanian ones in `myths-balkan`, and the Georgian one in `myths-caucasus`.
 STORY_CULTURE = {
     "latin-sources--tages": "etruscan",
     "myths-roman--tages-the-child-from-the-furrow": "etruscan",
@@ -156,6 +165,7 @@ STORY_CULTURE = {
     "myths-west-slavic--libuse-and-the-founding-of-prague": "czech",
     "myths-balkan--master-manole": "romanian",
     "myths-balkan--mujo-and-the-mountain-fairies": "albanian",
+    "myths-caucasus--amirani": "georgian",
     "myths-finnic--how-kalevipoeg-became-king": "estonian",
     "myths-finnic--kalevipoeg-at-the-gates": "estonian",
     "myths-finnic--the-son-of-the-sun": "sami",
@@ -201,6 +211,11 @@ MYTH_COLLECTIONS = {
     "petrovitch-serbian",
     "myths-west-slavic",
     "myths-balkan",
+    "hungarian-sources",
+    "myths-hungarian",
+    "myths-caucasus",
+    "webster-basque",
+    "myths-basque",
 }
 
 ORIGIN_CULTURE = [
@@ -534,6 +549,13 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "petrovitch-serbian--prince-marko-tells-whose-the-empire-shall-be": {"add": ["family"]},
     "petrovitch-serbian--prince-marko-and-the-veela": {"add": ["magic"], "remove": ["gentle"]},
     "myths-balkan--master-manole": {"add": ["how-things-began"], "remove": ["gods-heroes"]},
+    # Hungarian, Caucasus and Basque legends
+    "hungarian-sources--the-wondrous-stag": {"add": ["quests", "family", "how-things-began"]},
+    "myths-hungarian--hunor-and-magor": {"add": ["how-things-began"]},
+    "myths-hungarian--emese-and-the-turul": {"add": ["how-things-began", "magic"]},
+    "myths-caucasus--sosruko-the-child-of-the-stone": {"add": ["magic"]},
+    "myths-basque--martin-txiki-and-the-basajauns": {"add": ["how-things-began", "underdogs"]},
+    "myths-basque--mari-of-anboto": {"add": ["magic", "ghosts", "kindness"], "remove": ["gentle"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

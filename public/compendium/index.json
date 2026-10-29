@@ -768,6 +768,66 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 5
+  },
+  {
+   "id": "webster-basque",
+   "title": "Basque Legends",
+   "author": "Wentworth Webster",
+   "contributor": null,
+   "firstPublished": 1877,
+   "source": "https://www.gutenberg.org/ebooks/34902",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "eu",
+   "storyCount": 1
+  },
+  {
+   "contributor": "Translated by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/translations",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "hungarian-sources",
+   "title": "Legends from the Hungarian Poets",
+   "author": "János Arany",
+   "originalLanguage": "hu",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-hungarian",
+   "title": "Hungarian Legends, Simply Told",
+   "author": "Traditional (Hungarian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-caucasus",
+   "title": "Legends of the Caucasus, Simply Told",
+   "author": "Traditional (Circassian and Georgian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-basque",
+   "title": "Basque Legends, Simply Told",
+   "author": "Traditional (Basque)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 3
   }
  ],
  "stories": [
@@ -14432,6 +14492,163 @@
    "readingLevel": {
     "fkGrade": 4.0,
     "avgSentenceWords": 12.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "webster-basque--the-tartaro",
+   "collectionId": "webster-basque",
+   "order": 1,
+   "title": "The Tartaro",
+   "wordCount": 565,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "basque-tartaro",
+   "readingLevel": {
+    "fkGrade": 7.7,
+    "avgSentenceWords": 21.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-basque--the-tartaro"
+  },
+  {
+   "id": "hungarian-sources--the-wondrous-stag",
+   "collectionId": "hungarian-sources",
+   "order": 1,
+   "title": "The Legend of the Wondrous Stag",
+   "wordCount": 1563,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hungarian-wondrous-stag",
+   "readingLevel": {
+    "fkGrade": 6.2,
+    "avgSentenceWords": 19.9,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-hungarian--hunor-and-magor"
+  },
+  {
+   "id": "myths-hungarian--hunor-and-magor",
+   "collectionId": "myths-hungarian",
+   "order": 1,
+   "title": "Hunor and Magor and the Wondrous Stag",
+   "wordCount": 868,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hungarian-wondrous-stag",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 12.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "hungarian-sources--the-wondrous-stag"
+  },
+  {
+   "id": "myths-hungarian--emese-and-the-turul",
+   "collectionId": "myths-hungarian",
+   "order": 2,
+   "title": "Emese's Dream and the Turul Bird",
+   "wordCount": 399,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hungarian-emese-turul",
+   "readingLevel": {
+    "fkGrade": 5.3,
+    "avgSentenceWords": 14.6,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-caucasus--sosruko-the-child-of-the-stone",
+   "collectionId": "myths-caucasus",
+   "order": 1,
+   "title": "Sosruko, the Child of the Stone",
+   "wordCount": 519,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "circassian-sosruko-stone",
+   "readingLevel": {
+    "fkGrade": 5.0,
+    "avgSentenceWords": 14.0,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-caucasus--amirani",
+   "collectionId": "myths-caucasus",
+   "order": 2,
+   "title": "Amirani, the Chained Giant",
+   "wordCount": 404,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "georgian-amirani",
+   "readingLevel": {
+    "fkGrade": 5.0,
+    "avgSentenceWords": 12.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-basque--the-tartaro",
+   "collectionId": "myths-basque",
+   "order": 1,
+   "title": "The Tartaro, the One-Eyed Giant",
+   "wordCount": 584,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "basque-tartaro",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.6,
+    "band": "early"
+   },
+   "adaptedFrom": "webster-basque--the-tartaro"
+  },
+  {
+   "id": "myths-basque--martin-txiki-and-the-basajauns",
+   "collectionId": "myths-basque",
+   "order": 2,
+   "title": "Martin Txiki and the Basajauns",
+   "wordCount": 515,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "basque-martin-txiki",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.3,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-basque--mari-of-anboto",
+   "collectionId": "myths-basque",
+   "order": 3,
+   "title": "Mari, the Lady of Anboto",
+   "wordCount": 476,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "basque-mari-anboto",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 15.1,
     "band": "middle"
    }
   }
