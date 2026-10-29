@@ -560,7 +560,7 @@
    "id": "grierson-scottish",
    "title": "The Scottish Fairy Book",
    "author": "Elizabeth W. Grierson",
-   "contributor": "Illustrated by Morris Meredith Williams",
+   "contributor": null,
    "firstPublished": 1910,
    "source": "https://www.gutenberg.org/ebooks/37532",
    "storyCount": 3
@@ -13059,7 +13059,7 @@
    "readingMinutes": 19,
    "excluded": false,
    "flags": [],
-   "hasImages": true,
+   "hasImages": false,
    "workId": "scottish-thomas-rhymer",
    "readingLevel": {
     "fkGrade": 9.9,
@@ -13077,7 +13077,7 @@
    "readingMinutes": 11,
    "excluded": false,
    "flags": [],
-   "hasImages": true,
+   "hasImages": false,
    "workId": "scottish-selkie",
    "readingLevel": {
     "fkGrade": 10.9,
@@ -13095,7 +13095,7 @@
    "readingMinutes": 32,
    "excluded": false,
    "flags": [],
-   "hasImages": true,
+   "hasImages": false,
    "workId": "scottish-stoorworm",
    "readingLevel": {
     "fkGrade": 9.7,

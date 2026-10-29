@@ -56,9 +56,8 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           and Fionn, Hull's Cuchulain, Carleton's "Legend of Knockmany" from Yeats;
                           extract_welsh.py: Guest's Mabinogion, and the Shepherd of Myddvai and Beth
                           Gellert from Jacobs's Celtic Fairy Tales; extract_scottish.py: Thomas the
-                          Rhymer, the Seal Catcher and Assipattle from Grierson's Scottish Fairy Book,
-                          with Morris Meredith Williams's pictures, and two tales from Morrison's
-                          Manx Fairy Tales; extract_arthurian.py: Mrs. Lang's Arthurian tales from
+                          Rhymer, the Seal Catcher and Assipattle from Grierson's Scottish Fairy Book
+                          (text only), and two tales from Morrison's Manx Fairy Tales; extract_arthurian.py: Mrs. Lang's Arthurian tales from
                           Lang's Book of Romance, with H. J. Ford's pictures, and Merlin and
                           Vortigern's tower from Geoffrey's British History; extract_finnic.py:
                           Eivind's Finnish Legends for English Children (a prose Kalevala) and three
