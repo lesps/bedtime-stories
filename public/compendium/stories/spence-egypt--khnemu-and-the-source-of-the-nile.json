@@ -1,0 +1,41 @@
+{
+ "id": "spence-egypt--khnemu-and-the-source-of-the-nile",
+ "collectionId": "spence-egypt",
+ "order": 2,
+ "title": "Khnemu and the Source of the Nile",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "At the city of Elephantine or Abu a great triad of gods was held in reverence. This consisted of Khnemu, Satet, Anqet. The worship of the first-mentioned deity was of great antiquity, and even in the inscription of King Unas we find him alluded to in a manner which proves that his cult was very old. His position, too, had always been an exalted one, and even to the last he appears to have been of importance in the eyes of the Gnostics. Khnemu was probably a god of the pre-dynastic Egyptians. He was symbolized by the flat-horned ram, which appears to have been introduced into the country from the East. We do not find him referred to in any inscription subsequent to the Twelfth Dynasty. He is usually represented in the form of a ram-headed man wearing the white crown, and sometimes the disk. In some instances he is pictured as pouring water over the earth, and in others with a jug above his horns--a sure indication that he is connected in some way with moisture. His name signifies the builder or framer, and he it was who fashioned the first man upon a potter's wheel, who made the first egg from which sprang the sun, who made the bodies of the gods, and who continued to build them up and maintain them."
+  },
+  {
+   "type": "p",
+   "text": "Khnemu had been worshipped at Elephantine from time immemorial and was therefore the god of the First Cataract. His female counterparts, Satet and Anqet, have been identified as a form of the star Sept and as a local Nubian goddess. From the texts it is pretty clear that Khnemu was originally a river-god who, like Hapi, was regarded as the god of the Nile and of the annual Nile flood, and it may be that he and Hapi were Nile gods introduced by two separate races, or by the people of two different portions of the country. In the texts he is alluded to as \"father of the fathers of the gods and goddesses, lord of created things from himself, maker of heaven and earth and the Duat and water and mountains,\" so we see that, like Hapi, he had been identified with the creative deities. He is sometimes represented as having four rams' heads upon a human body, and as he united within himself the attributes of Ra, Shu, Geb, and Osiris, these heads may have typified the deities in question. Dr. Brugsch considered, however, that they symbolized the four elements--fire, air, earth, and water. But it is a little difficult to see how this could be so. In any case, when represented with four heads Khnemu typified the great primeval creative force."
+  },
+  {
+   "type": "heading",
+   "text": "The Legend of the Nile's Source"
+  },
+  {
+   "type": "p",
+   "text": "The powers that were ascribed to Khnemu-Ra as god of the earthly Nile are exemplified in a story found inscribed on a rock on the island of Sahal in 1890. The king mentioned in the inscription has been identified as Tcheser, the third monarch of the Third Dynasty."
+  },
+  {
+   "type": "p",
+   "text": "The story relates that in the eighteenth year of this king's reign a famine spread over Egypt because for seven years the Nile had not risen in flood. Thus grain of all kinds was scarce, the fields and gardens yielded naught, so that the people had no food. Strong men tottered like the aged, the old fell to the ground and rose no more, the children cried aloud with the pangs of hunger. And for the little food there was men became thieves and robbed their neighbours. Reports of these terrible conditions reached the king upon his throne, and he was stricken with grief. He remembered the god I-em-hetep, the son of Ptah, who had once delivered Egypt from a like disaster, but when his help was invoked no answer was vouchsafed. Then Tcheser the king sent to his governor Māter, who ruled over the South, the island of Elephantine, and Nubia, and asked him where was the source of the Nile and what was the name of the god or goddess of the river. And to answer this dispatch Māter the governor went in person before the king. He told him of the wonderful island of Elephantine, whereon was built the first city ever known; that out of it rose the sun when he wanted to bestow life upon mankind. Here also was a double cavern, Querti, in shape like two breasts, and from this cavern rose the Nile flood to bless the land with fruitfulness when the god drew back the bolts of the door at the proper season. And this god was Khnemu. Māter described to his royal master the temple of the Nile god at Elephantine, and stated that other gods were in it, including the great deities Osiris, Horus, Isis, and Nephthys. He told of the products of the country around, and said that from these, offerings should be made to Khnemu. Then the king rose and offered sacrifices unto the god and made supplication before him in his temple. And the god heard and appeared before the grief-stricken king. He said, \"I am Khnemu the Creator. My hands rest upon thee to protect thy person and to make sound thy body. I gave thee thine heart ... I am he who created himself. I am the primeval watery abyss, and I am the Nile who riseth at his will to give health to those who toil. I am the guide and director of all men, the Almighty, the father of the gods, Shu, the mighty possessor of the earth.\" And then the god promised unto the king that henceforward the Nile should rise every year as in the olden time, that the famine should be ended and great good come upon the land. But also he told the king how his shrine was desolate and that no one troubled to restore it even although stone lay all around. And this the king remembered and made a royal decree that lands on each side of the Nile near the island where Khnemu dwelt were to be set apart as the endowment of his temple, that priests were to minister at his shrine, and for their maintenance a tax must be levied on the products of the land near by. And this decree the king caused to be cut upon a stone stele and set up in a prominent place as a lasting token of gratitude unto the god Khnemu, the god of the Nile."
+  }
+ ],
+ "workId": "egyptian-khnum",
+ "wordCount": 1081,
+ "readingMinutes": 6,
+ "readingLevel": {
+  "fkGrade": 9.7,
+  "avgSentenceWords": 23.6,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-egyptian--khnum-and-the-river-nile"
+}

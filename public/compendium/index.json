@@ -828,6 +828,78 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 3
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "budge-legends",
+   "title": "Legends of the Gods",
+   "author": "E. A. Wallis Budge",
+   "contributor": null,
+   "firstPublished": 1912,
+   "source": "https://www.gutenberg.org/ebooks/9411",
+   "originalLanguage": "egy",
+   "storyCount": 6
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "budge-book-of-the-dead",
+   "title": "The Book of the Dead",
+   "author": "E. A. Wallis Budge",
+   "contributor": null,
+   "firstPublished": null,
+   "source": "https://www.gutenberg.org/ebooks/7145",
+   "originalLanguage": "egy",
+   "storyCount": 1
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "spence-egypt",
+   "title": "Myths and Legends of Ancient Egypt",
+   "author": "Lewis Spence",
+   "contributor": null,
+   "firstPublished": 1915,
+   "source": "https://www.gutenberg.org/ebooks/43662",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "petrie-egyptian",
+   "title": "Egyptian Tales, First Series",
+   "author": "W. M. Flinders Petrie",
+   "contributor": null,
+   "firstPublished": 1895,
+   "source": "https://www.gutenberg.org/ebooks/7386",
+   "originalLanguage": "egy",
+   "storyCount": 1
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "macaulay-herodotus",
+   "title": "The History of Herodotus",
+   "author": "Herodotus",
+   "contributor": "Translated by G. C. Macaulay",
+   "firstPublished": 1890,
+   "source": "https://www.gutenberg.org/ebooks/2707",
+   "originalLanguage": "el",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-egyptian",
+   "title": "Egyptian Myths, Simply Told",
+   "author": "Traditional (Egyptian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 11
   }
  ],
  "stories": [
@@ -14651,6 +14723,410 @@
     "avgSentenceWords": 15.1,
     "band": "middle"
    }
+  },
+  {
+   "id": "budge-legends--the-creation",
+   "collectionId": "budge-legends",
+   "order": 1,
+   "title": "The Creation",
+   "wordCount": 528,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "egyptian-creation",
+   "readingLevel": {
+    "fkGrade": 12.0,
+    "avgSentenceWords": 33.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--khepera-rises-from-the-waters"
+  },
+  {
+   "id": "budge-legends--the-destruction-of-mankind",
+   "collectionId": "budge-legends",
+   "order": 2,
+   "title": "The Destruction of Mankind",
+   "wordCount": 1759,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "egyptian-destruction-of-mankind",
+   "readingLevel": {
+    "fkGrade": 6.8,
+    "avgSentenceWords": 18.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--sekhmet-and-the-red-beer"
+  },
+  {
+   "id": "budge-legends--the-legend-of-ra-and-isis",
+   "collectionId": "budge-legends",
+   "order": 3,
+   "title": "The Legend of Ra and Isis",
+   "wordCount": 1531,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-ra-isis-name",
+   "readingLevel": {
+    "fkGrade": 8.9,
+    "avgSentenceWords": 24.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--isis-and-the-secret-name-of-ra"
+  },
+  {
+   "id": "budge-legends--isis-and-horus-in-the-marshes",
+   "collectionId": "budge-legends",
+   "order": 4,
+   "title": "Isis and Horus in the Marshes",
+   "wordCount": 3559,
+   "readingMinutes": 20,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-isis-horus-marshes",
+   "readingLevel": {
+    "fkGrade": 6.6,
+    "avgSentenceWords": 17.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--isis-and-the-seven-scorpions"
+  },
+  {
+   "id": "budge-legends--the-five-added-days",
+   "collectionId": "budge-legends",
+   "order": 5,
+   "title": "The Five Added Days",
+   "wordCount": 470,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "egyptian-five-days",
+   "readingLevel": {
+    "fkGrade": 14.8,
+    "avgSentenceWords": 36.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--thoth-and-the-five-extra-days"
+  },
+  {
+   "id": "budge-legends--the-history-of-isis-and-osiris",
+   "collectionId": "budge-legends",
+   "order": 6,
+   "title": "The History of Isis and Osiris",
+   "wordCount": 2508,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "egyptian-osiris",
+   "readingLevel": {
+    "fkGrade": 15.5,
+    "avgSentenceWords": 36.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--osiris-and-the-wonderful-chest"
+  },
+  {
+   "id": "budge-book-of-the-dead--the-weighing-of-the-heart",
+   "collectionId": "budge-book-of-the-dead",
+   "order": 1,
+   "title": "The Weighing of the Heart",
+   "wordCount": 1006,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-weighing-heart",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 24.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--the-weighing-of-the-heart"
+  },
+  {
+   "id": "spence-egypt--the-journey-of-the-sun-through-the-night",
+   "collectionId": "spence-egypt",
+   "order": 1,
+   "title": "The Journey of the Sun through the Night",
+   "wordCount": 809,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-ra-night-journey",
+   "readingLevel": {
+    "fkGrade": 13.1,
+    "avgSentenceWords": 34.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--the-sun-boat-and-the-serpent-apep"
+  },
+  {
+   "id": "spence-egypt--khnemu-and-the-source-of-the-nile",
+   "collectionId": "spence-egypt",
+   "order": 2,
+   "title": "Khnemu and the Source of the Nile",
+   "wordCount": 1081,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-khnum",
+   "readingLevel": {
+    "fkGrade": 9.7,
+    "avgSentenceWords": 23.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--khnum-and-the-river-nile"
+  },
+  {
+   "id": "petrie-egyptian--the-shipwrecked-sailor",
+   "collectionId": "petrie-egyptian",
+   "order": 1,
+   "title": "The Shipwrecked Sailor",
+   "wordCount": 1591,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-shipwrecked-sailor",
+   "readingLevel": {
+    "fkGrade": 7.3,
+    "avgSentenceWords": 22.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--the-shipwrecked-sailor"
+  },
+  {
+   "id": "macaulay-herodotus--the-phoenix",
+   "collectionId": "macaulay-herodotus",
+   "order": 1,
+   "title": "The Phoenix",
+   "wordCount": 249,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-phoenix",
+   "readingLevel": {
+    "fkGrade": 32.4,
+    "avgSentenceWords": 83.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-egyptian--the-phoenix"
+  },
+  {
+   "id": "myths-egyptian--khepera-rises-from-the-waters",
+   "collectionId": "myths-egyptian",
+   "order": 1,
+   "title": "Khepera Rises from the Waters",
+   "wordCount": 439,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-creation",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 12.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "budge-legends--the-creation"
+  },
+  {
+   "id": "myths-egyptian--sekhmet-and-the-red-beer",
+   "collectionId": "myths-egyptian",
+   "order": 2,
+   "title": "Sekhmet and the Red Beer",
+   "wordCount": 555,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-destruction-of-mankind",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 12.0,
+    "band": "early"
+   },
+   "adaptedFrom": "budge-legends--the-destruction-of-mankind"
+  },
+  {
+   "id": "myths-egyptian--isis-and-the-secret-name-of-ra",
+   "collectionId": "myths-egyptian",
+   "order": 3,
+   "title": "Isis and the Secret Name of Ra",
+   "wordCount": 653,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-ra-isis-name",
+   "readingLevel": {
+    "fkGrade": 2.7,
+    "avgSentenceWords": 10.2,
+    "band": "early"
+   },
+   "adaptedFrom": "budge-legends--the-legend-of-ra-and-isis"
+  },
+  {
+   "id": "myths-egyptian--isis-and-the-seven-scorpions",
+   "collectionId": "myths-egyptian",
+   "order": 4,
+   "title": "Isis, Horus and the Seven Scorpions",
+   "wordCount": 863,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-isis-horus-marshes",
+   "readingLevel": {
+    "fkGrade": 3.1,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "budge-legends--isis-and-horus-in-the-marshes"
+  },
+  {
+   "id": "myths-egyptian--thoth-and-the-five-extra-days",
+   "collectionId": "myths-egyptian",
+   "order": 5,
+   "title": "Thoth and the Five Extra Days",
+   "wordCount": 387,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-five-days",
+   "readingLevel": {
+    "fkGrade": 3.0,
+    "avgSentenceWords": 12.6,
+    "band": "early"
+   },
+   "adaptedFrom": "budge-legends--the-five-added-days"
+  },
+  {
+   "id": "myths-egyptian--osiris-and-the-wonderful-chest",
+   "collectionId": "myths-egyptian",
+   "order": 6,
+   "title": "Osiris and the Wonderful Chest",
+   "wordCount": 1024,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-osiris",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 13.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "budge-legends--the-history-of-isis-and-osiris"
+  },
+  {
+   "id": "myths-egyptian--the-sun-boat-and-the-serpent-apep",
+   "collectionId": "myths-egyptian",
+   "order": 7,
+   "title": "The Sun Boat and the Serpent Apep",
+   "wordCount": 627,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-ra-night-journey",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 15.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "spence-egypt--the-journey-of-the-sun-through-the-night"
+  },
+  {
+   "id": "myths-egyptian--khnum-and-the-river-nile",
+   "collectionId": "myths-egyptian",
+   "order": 8,
+   "title": "Khnum the Potter and the River Nile",
+   "wordCount": 588,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-khnum",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 13.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "spence-egypt--khnemu-and-the-source-of-the-nile"
+  },
+  {
+   "id": "myths-egyptian--the-weighing-of-the-heart",
+   "collectionId": "myths-egyptian",
+   "order": 9,
+   "title": "The Weighing of the Heart",
+   "wordCount": 542,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-weighing-heart",
+   "readingLevel": {
+    "fkGrade": 3.0,
+    "avgSentenceWords": 10.6,
+    "band": "early"
+   },
+   "adaptedFrom": "budge-book-of-the-dead--the-weighing-of-the-heart"
+  },
+  {
+   "id": "myths-egyptian--the-shipwrecked-sailor",
+   "collectionId": "myths-egyptian",
+   "order": 10,
+   "title": "The Shipwrecked Sailor",
+   "wordCount": 892,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-shipwrecked-sailor",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 12.6,
+    "band": "early"
+   },
+   "adaptedFrom": "petrie-egyptian--the-shipwrecked-sailor"
+  },
+  {
+   "id": "myths-egyptian--the-phoenix",
+   "collectionId": "myths-egyptian",
+   "order": 11,
+   "title": "The Phoenix",
+   "wordCount": 271,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "egyptian-phoenix",
+   "readingLevel": {
+    "fkGrade": 6.2,
+    "avgSentenceWords": 15.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "macaulay-herodotus--the-phoenix"
   }
  ]
 }

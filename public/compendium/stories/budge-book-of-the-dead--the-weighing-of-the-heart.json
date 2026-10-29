@@ -1,0 +1,41 @@
+{
+ "id": "budge-book-of-the-dead--the-weighing-of-the-heart",
+ "collectionId": "budge-book-of-the-dead",
+ "order": 1,
+ "title": "The Weighing of the Heart",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "In great papyri of the Book of the Dead such as those of Nebseni, Nu, Ani, Hunefer, etc., the Last Judgment, or the \"Great Reckoning,\" is made the most prominent scene in the whole work, and the vignette in which it is depicted is several feet long. The most complete form of it is given in the Papyrus of Ani, and may be thus described: At one end of the Hall of Maati Osiris is seated on a throne within a shrine made in the form of a funerary coffer; behind him stand Isis and Nephthys. Along one side of the Hall are seated the gods Harmachis, Tem, Shu, Tefnut, Geb, Nut, Isis and Nephthys, Horus, Hathor, Hu and Saa, who are to serve as the divine jury; these formed the \"Great Company of the Gods\" of Anu (Heliopolis). By these stands the Great Balance, and on its pillar sits the dog-headed ape Astes, or Astenu, the associate of Thoth. The pointer of the Balance is in the charge of Anpu. Behind Anpu are Thoth the scribe of the gods, and the monster Amemit, with the head of a crocodile, the forepaws and shoulders of a lion, and the hindquarters of a hippopotamus; the duty of the last-named was to eat up the hearts that were light in the balance. On the other side of the Balance Ani, accompanied by his wife, is seen standing with head bent low in adoration, and between him and the Balance stand the two goddesses who nurse and rear children, Meskhenet and Rennet, Ani's soul, in the form of a man-headed hawk, a portion of his body, and his luck Shai. Since the heart was considered to be the seat of all will, emotion, feeling, reason and intelligence, Ani's heart, is seen in one pan of the Balance, and in the other is the feather, symbolic of truth and righteousness. Whilst his heart was in the Balance Ani, repeating the words of Chapter XXXB* of the Book of the Dead, addressed it, saying, \"My heart of my mother! My heart of my mother! My heart of my being! Make no stand against me when testifying, thrust me not back before the Tchatchaut (i.e., the overseers of Osiris), and make no failure in respect of me before the Master of the Balance. Thou art my Ka, the dweller in my body, uniting (?) and strengthening my members. Thou shalt come forth to the happiness to which we advance. Make not my name to stink with the officers [of Osiris] who made men, utter no lie against me before the Great God, the Lord of Amentt.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Thoth, the Judge of Truth, of the Great Company of the Gods who are in the presence of Osiris, saith to the gods, \"Hearken ye to this word: In very truth the heart of Osiris hath been weighed, and his soul hath borne testimony concerning him; according to the Great Balance his case is truth (i.e., just). No wickedness hath been found in him. He did not filch offerings from the temples. He did not act crookedly, and he did not vilify folk when he was on earth.\""
+  },
+  {
+   "type": "p",
+   "text": "And the Great Company of the Gods say to Thoth, who dwelleth in Khemenu (Hermopolis): \"This that cometh forth from thy mouth of truth is confirmed (?) The Osiris, the scribe Ani, true of voice, hath testified. He hath not sinned and [his name] doth not stink before us; Amemit (i.e., the Eater of the Dead) shall not have the mastery over him. Let there be given unto him offerings of food and an appearance before Osiris, and an abiding homestead in the Field of Offerings as unto the Followers of Horus.\""
+  },
+  {
+   "type": "p",
+   "text": "Thus the gods have declared that Ani is \"true of voice,\" as was Osiris, and they have called Ani \"Osiris,\" because in his purity of word and deed he resembled that god. In all the copies of the Book of the Dead the deceased is always called \"Osiris,\" and as it was always assumed that those for whom they were written would be found innocent when weighed in the Great Balance, the words \"true of voice,\" which were equivalent in meaning to \"innocent and acquitted,\" were always written after their names. It may be noted in passing that when Ani's heart was weighed against Truth, the beam of the Great Balance remained perfectly horizontal. This suggests that the gods did not expect the heart of the deceased to \"kick the beam,\" but were quite satisfied if it exactly counterbalanced Truth. They demanded the fulfilment of the Law and nothing more, and were content to bestow immortality upon the man on whom Thoth's verdict was \"he hath done no evil.\""
+  },
+  {
+   "type": "p",
+   "text": "In accordance with the command of the gods Ani passes from the Great Balance to the end of the Hall of Maati where Osiris is seated, and as he approaches the god Horus, the son of Isis, takes him by the hand and leads him forward, and standing before his father Osiris says, \"I have come to thee, Un-Nefer, I have brought to thee the Osiris Ani. His heart is righteous [and] hath come forth from the Balance. It hath no sin before any god or any goddess. Thoth hath set down his judgment in writing, and the Company of the Gods have declared on his behalf that [his] evidence is very true. Let there be given unto him of the bread and beer which appear before Osiris. Let him be like the Followers of Horus for ever!\" Next we see Ani kneeling in adoration before Osiris, and he says, \"Behold, I am in thy presence, O Lord of Amentt. There is no sin in my body. I have not uttered a lie knowingly. [I have] no duplicity (?) Grant that I may be like the favoured (or rewarded) ones who are in thy train.\" Under favour of Osiris Ani then became a sahu, or \"spirit-body,\" and in this form passed into the Kingdom of Osiris."
+  }
+ ],
+ "workId": "egyptian-weighing-heart",
+ "wordCount": 1006,
+ "readingMinutes": 6,
+ "readingLevel": {
+  "fkGrade": 9.9,
+  "avgSentenceWords": 24.7,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-egyptian--the-weighing-of-the-heart"
+}

@@ -30,7 +30,9 @@ describe('schema additions from compendium patches 001–003', () => {
   it('requires language and originalLanguage on collections, and knows the new flag', () => {
     const index = indexSchema.parse(JSON.parse(readFileSync(join(root, 'index.json'), 'utf8')));
     expect(
-      index.collections.every((c) => c.language === 'en' && /^[a-z]{2}$/.test(c.originalLanguage)),
+      index.collections.every(
+        (c) => c.language === 'en' && /^[a-z]{2,3}$/.test(c.originalLanguage),
+      ),
     ).toBe(true);
     expect(index.stories.some((s) => s.flags.includes('antisemitic-caricature'))).toBe(true);
     const bad = {
@@ -38,5 +40,13 @@ describe('schema additions from compendium patches 001–003', () => {
       collections: [{ ...index.collections[0], originalLanguage: undefined }],
     };
     expect(indexSchema.safeParse(bad).success).toBe(false);
+    // ISO 639-1, or 639-2/3 where a language has no two-letter code (Ancient Egyptian is "egy").
+    const withCode = (code: string) => ({
+      ...index,
+      collections: [{ ...index.collections[0], originalLanguage: code }],
+    });
+    expect(indexSchema.safeParse(withCode('egy')).success).toBe(true);
+    expect(indexSchema.safeParse(withCode('EG')).success).toBe(false);
+    expect(indexSchema.safeParse(withCode('egyp')).success).toBe(false);
   });
 });

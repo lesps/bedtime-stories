@@ -1,0 +1,31 @@
+{
+ "id": "budge-legends--the-creation",
+ "collectionId": "budge-legends",
+ "order": 1,
+ "title": "The Creation",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "[These are] the words which the god Neb-er-tcher spake after he had come into being:--\"I am he who came into being in the form of the god Khepera, and I am the creator of that which came into being, that is to say, I am the creator of everything which came into being: now the things which I created, and which came forth out of my month after that I had come into being myself were exceedingly many. The sky (or heaven) had not come into being, the earth did not exist, and the children of the earth, and the creeping, things, had not been made at that time. I myself raised them up from out of Nu, from a state of helpless inertness. I found no place whereon I could stand. I worked a charm upon my own heart (or, will), I laid the foundation [of things] by Maat, and I made everything which had form. I was [then] one by myself, for I had not emitted from myself the god Shu, and I had not spit out from myself the goddess Tefnut; and there existed no other who could work with me. I laid the foundations [of things] in my own heart, and there came into being multitudes of created things, which came into being from the created things which were born from the created things which arose from what they brought forth. I had union with my closed hand, and I embraced my shadow as a wife, and I poured seed into my own mouth, and I sent forth from myself issue in the form of the gods Shu and Tefnut. Saith my father Nu:--My Eye was covered up behind them (i.e., Shu. and Tefnut), but after two hen periods had passed from the time when they departed from me, from being one god I became three gods, and I came into being in the earth. Then Shu and Tefnut rejoiced from out of the inert watery mass wherein they I were, and they brought to me my Eye (i.e., the Sun). Now after these things I gathered together my members, and I wept over them, and men and women sprang into being from the tears which came forth from my Eye. And when my Eye came to me, and found that I had made another [Eye] in place where it was (i.e., the Moon), it was wroth with (or, raged at) me, whereupon I endowed it (i.e., the second Eye) with [some of] the splendour which I had made for the first [Eye], and I made it to occupy its place in my Face, and henceforth it ruled throughout all this earth.\""
+  },
+  {
+   "type": "p",
+   "text": "\"When there fell on them their moment through plant-like clouds, I restored what had been taken away from them, and I appeared from out of the plant-like clouds. I created creeping things of every kind, and everything which came into being from them. Shu and Tefnut brought forth [Seb and] Nut; and Seb and Nut brought forth Osiris, and Heru-khent-an-maati, and Set, and Isis, and Nephthys at one birth, one after the other, and they produced their multitudinous offspring in this earth.\""
+  }
+ ],
+ "workId": "egyptian-creation",
+ "wordCount": 528,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 12.0,
+  "avgSentenceWords": 33.8,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-egyptian--khepera-rises-from-the-waters"
+}

@@ -66,7 +66,9 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           Folk-Tales of the Russians and Magnus's Afanasyev, Russian Folk-Tales;
                           extract_slavic.py: Libussa from Lützow's The Story of Prague, and three
                           Prince Marko pieces from Petrovitch's Hero Tales and Legends of the Serbians;
-                          extract_basque.py: the Tartaro from Webster's Basque Legends)
+                          extract_basque.py: the Tartaro from Webster's Basque Legends;
+                          extract_egyptian.py: Budge's Legends of the Gods (incl. Squire's Plutarch)
+                          and Book of the Dead, Spence, Petrie's Shipwrecked Sailor, Herodotus's phoenix)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
@@ -107,14 +109,15 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 ## Data contract (summary)
 
 `index.json`: `{ schemaVersion: 1, collections[], stories[] }`. Collections carry `language` and
-`originalLanguage` (ISO 639-1). Each story entry has `id` (`<collectionId>--<slug>`),
+`originalLanguage` (ISO 639-1, or a three-letter ISO 639-2/3 code where a language has none,
+such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>--<slug>`),
 `collectionId`, `order`, `title`, `wordCount`, `readingMinutes`, `excluded`, `flags`
 (`mature-themes` | `racial-slur` | `antisemitic-caricature`), `hasImages`, and optional `workId`
 (shared by translations of one tale, e.g. `grimm-khm-015`). `stories/<id>.json` adds `origin`,
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 982 stories, 69 collections, ~10 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1004 stories, 75 collections, ~10 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -147,7 +150,7 @@ stag legend, `middle` but a long poem, also has one).
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-33 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+34 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
@@ -286,9 +289,9 @@ fine)`.
   for an Orpheus that leaves out his violent death). Retellings go in `myths-greek`,
   `myths-roman`, `myths-norse`, `myths-german`, `myths-english`, `myths-irish`, `myths-welsh`,
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
-  Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech)
+  Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian) or `myths-basque` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  and Georgian), `myths-basque` or `myths-egyptian` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).
