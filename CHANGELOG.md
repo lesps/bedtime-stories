@@ -7,6 +7,9 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
+- A collection's `originalLanguage` may now be a three-letter ISO 639-2/3 code where the language
+  has no two-letter one (`egy`, Ancient Egyptian); the schema accepted only two letters.
+
 - The Scottish Fairy Book stories no longer carry Morris Meredith Williams's five pictures: he died
   in 1973, so they aren't public domain everywhere, and the mythology shelves only use sources
   that are.
@@ -27,6 +30,18 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 17 (data only): Egyptian myths. Eleven originals in five new collections, all
+  advanced: from Budge's _Legends of the Gods_ (1912, `budge-legends`) the creation (`mature-themes`),
+  the destruction of mankind (`mature-themes`), Ra and Isis, Isis and Horus in the marshes (the
+  Metternich Stela's two narrative passages, joined by a note), and Plutarch's five added days and story of Isis
+  and Osiris in Samuel Squire's translation (1744) as Budge reprints it (both `mature-themes`); the
+  weighing of the heart from Budge's _The Book of the Dead_ (`budge-book-of-the-dead`); the sun's
+  night journey and Khnemu and the Nile from Lewis Spence's _Myths and Legends of Ancient Egypt_
+  (1915, `spence-egypt`); Petrie's "The Shipwrecked Sailor" (1895, `petrie-egyptian`); and
+  Herodotus on the phoenix in Macaulay's translation (1890, `macaulay-herodotus`). Eleven
+  retellings in _Egyptian Myths, Simply Told_. The Contendings of Horus and Set (the lettuce and the
+  stone boats) has no translation before 1931, so Horus and Set's battles come from Plutarch.
+  New culture `egyptian` (34 in all). Over 1,000 stories.
 - Mythology, part 16 (data only): Hungarian, Caucasus and Basque legends. Originals: Claude's
   verse translation of János Arany's legend of the wondrous stag, the sixth canto of _Buda halála_
   (1864), in a new _Legends from the Hungarian Poets_ (`hungarian-sources`; no public-domain

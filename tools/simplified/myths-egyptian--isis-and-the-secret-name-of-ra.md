@@ -1,0 +1,38 @@
+---
+title: Isis and the Secret Name of Ra
+adaptedFrom: budge-legends--the-legend-of-ra-and-isis
+order: 3
+namesNote: Khepera, Ra and Temu are the sun god's names for the morning, noon and evening.
+---
+
+Ra, the great sun god, had made the heavens and the earth, the gods and the people, the animals and the birds and the fish. He had many, many names. But he had one secret name, which nobody knew, not even the other gods. His father and mother had given it to him when he was born, and hidden it inside his body, so that nobody could ever use it to work magic against him.
+
+Now the goddess Isis was wise and clever, and she knew many words of power. And she thought to herself, "If only I knew the secret name of Ra, I would be as great as Ra himself, in heaven and on earth."
+
+Every day, Ra travelled across the sky in his boat. But Ra had grown old, and as he went along, he dribbled, and his spit fell on the ground.
+
+Isis picked up some of Ra's spit, and mixed it with earth, and shaped it into a snake. Then she left the snake lying on the road where Ra walked every day.
+
+The next day, as Ra came walking along the road, the snake bit him. Its poison burned through him like fire. Ra cried out so loudly that his cry reached the heavens. "What is it? What's the matter?" cried all the gods. But Ra was shaking so much that he could not answer. The poison spread through his body like the Nile flooding over the land.
+
+At last Ra called out, "Come to me, my children! Something has hurt me, and I don't know what it is. I didn't see it, and I didn't make it. I have never felt such pain. Is it fire? Is it water? My heart is burning, and my arms and legs are shaking. Bring me the gods who know words of magic!"
+
+So all the gods came, weeping. And Isis came too, with her words of power.
+
+"What is it, father?" she asked. "Has a snake bitten you? Has something you made lifted up its head against you? I will drive it away with my magic."
+
+"I was walking along the road," said Ra, "and a snake bit me that I didn't see. I am colder than water, and hotter than fire. I am sweating and shivering, and I can't see properly."
+
+"Tell me your name, father," said Isis. "For whoever says his name will live."
+
+"I am the maker of heaven and earth," said Ra. "I made the mountains and the waters. When I open my eyes, it is light, and when I close them, it is dark. I make the Nile flood. I made the hours and the days. I am Khepera in the morning, Ra at noon, and Temu in the evening."
+
+But the poison did not go away. It burned hotter than ever.
+
+"You haven't told me your real name," said Isis. "Tell it to me, and the poison will come out."
+
+At last Ra could bear it no longer. "Very well," he said. "Isis may search inside me, and my name shall come out of my body and go into hers." And Ra hid himself away from all the other gods, and the throne in his boat was empty. And so Ra gave up his secret name to Isis.
+
+Then Isis said her magic words. "Flow out, poison! Come out of Ra and fall to the ground! I have the name of the great god. Let Ra live, and let the poison die!"
+
+And the poison flowed out of Ra, and he was well again. And from that day on, Isis, the great lady of magic, knew the secret name of Ra.

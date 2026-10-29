@@ -1,0 +1,31 @@
+{
+ "id": "budge-legends--the-five-added-days",
+ "collectionId": "budge-legends",
+ "order": 5,
+ "title": "The Five Added Days",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Plutarch's account, in Samuel Squire's translation (1744), as Budge reprints it. Plutarch calls the gods by Greek names: Rhea is Nut, Kronos is Geb, Helios is Ra, Hermes is Thoth, Selene is the Moon, and Typhon is Set."
+  },
+  {
+   "type": "p",
+   "text": "The goddess Rhea, they say, having accompanied with Kronos by stealth, was discovered by Helios who straightway cursed her, and declared that she should not be delivered in any month or year. Hermes, however, 'being also in love with the same goddess, in return for the favours which he had received from her, went and played at dice with Selene, and won from her the seventieth part of each day. These parts he joined together and made from them five complete days, and he added them to the three hundred and sixty days of which the year formerly consisted. These five days are to this day called the \"Epagomenae,\" that is, the superadded, and they are observed by them as the birthdays of their gods. On the first of these, they say, Osiris was born, and as he came into the world a voice was heard saying, \"The Lord of All is born.\" Some relate the matter in a different way, and say that a certain person named Pamyles, as he was fetching water from the temple of Dios at Thebes, heard a voice commanding him to proclaim aloud that the good and great king Osiris was then born, and that for this reason Kronos committed the education of the child to him, and that in memory of this event the Pamylia were afterwards instituted, which closely resemble the Phallephoria or Priapeia of the Greeks. Upon the second of these days was born Aroueris, whom some call Apollo, and others the Elder Horus. Upon the third day Typhon was born, who came into the world neither at the proper time nor by the right way, but he forced a passage through a wound which he made in his mother's side. Upon the fourth day Isis was born, in the marshes of Egypt, and upon the fifth day Nephthys, whom some call Teleute, or Aphrodite, or Nike, was born. As regards the fathers of these children, the first two are said to have been begotten by Helios, Isis by Hermes, and Typhon and Nephthys by Kronos. Therefore, since the third of the superadded days was the birthday of Typhon, the kings considered it to be unlucky, and in consequence they neither transacted any business in it, nor even suffered themselves to take any refreshment until the evening. They further add that Typhon married Nephthys, and that Isis and Osiris, having a mutual affection, enjoyed each other in their mother's womb before they were born, and that from this commerce sprang Aroueris, whom the Egyptians likewise call Horus the Elder, and the Greeks Apollo."
+  }
+ ],
+ "workId": "egyptian-five-days",
+ "wordCount": 470,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 14.8,
+  "avgSentenceWords": 36.0,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-egyptian--thoth-and-the-five-extra-days"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "myths-egyptian--sekhmet-and-the-red-beer",
+ "collectionId": "myths-egyptian",
+ "order": 2,
+ "title": "Sekhmet and the Red Beer",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the sun god Ra ruled over the gods and over the people on earth. But Ra had grown old. His bones were like silver, his arms and legs were like gold, and his hair was like blue lapis."
+  },
+  {
+   "type": "p",
+   "text": "And the people began to grumble. \"Look how old Ra has become,\" they whispered. \"Why should we listen to him?\""
+  },
+  {
+   "type": "p",
+   "text": "Ra heard their grumbling, and he was angry. He called together all the gods, and his own Eye, and old Nu, the ocean from which he had come. \"The people I made are speaking against me,\" he said. \"What shall I do?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Send your Eye against them,\" said the gods. So the Eye of Ra went out in the form of the goddess Hathor, and she became Sekhmet the fierce. She hunted the people in the desert where they had fled. And Sekhmet liked it so much that she wanted to go on and on, until there were no people left at all."
+  },
+  {
+   "type": "p",
+   "text": "Then Ra felt sorry. He did not want all the people to be destroyed. But Sekhmet would not stop. So Ra thought of a plan."
+  },
+  {
+   "type": "p",
+   "text": "He sent his fastest messengers, who could run like the wind, to the island of Abu, far up the Nile. \"Bring me as many mandrake plants as you can carry,\" he said. When they came back, Ra had the mandrakes crushed, and the servant girls mixed them into beer, and the beer turned as red as blood. They made seven thousand jars of red beer."
+  },
+  {
+   "type": "p",
+   "text": "That night, Ra had all the jars poured out over the fields where Sekhmet was hunting, until the fields were flooded with it."
+  },
+  {
+   "type": "p",
+   "text": "In the morning, Sekhmet came back. She saw the fields flooded with red beer, and she was pleased, and she bent down and drank it. She drank and drank, until she was so full and sleepy and dizzy that she forgot all about the people."
+  },
+  {
+   "type": "p",
+   "text": "\"Come in peace, my beautiful one,\" said Ra. And ever afterwards, at Hathor's festival, people made jars of beer in her honour."
+  },
+  {
+   "type": "p",
+   "text": "But Ra was tired of the world. \"My heart is weary of living with people,\" he said. \"I want to go away.\""
+  },
+  {
+   "type": "p",
+   "text": "So old Nu spoke to Shu, the god of the air, and to Nut, the goddess of the sky. And Nut turned herself into a great cow, and Ra climbed up onto her back. When the people saw him there, they were sorry. \"Stay with us,\" they begged. \"We will fight your enemies for you.\" But Ra rode away on Nut's back, up and up, until she became the sky."
+  },
+  {
+   "type": "p",
+   "text": "Then Ra made the fields of heaven, and filled the sky with stars."
+  },
+  {
+   "type": "p",
+   "text": "But Nut was so high up that she began to tremble. So Ra said to Shu, \"My son, stand under Nut, and hold her up on your head, and look after her.\" And Shu stood beneath the sky, and held her up high above the earth."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of E. A. Wallis Budge's “The Destruction of Mankind” in Legends of the Gods (1912). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Budge spells her name Sekhet; she was also called Hathor. Nu is the first ocean, and Abu is the island of Elephantine, on the Nile."
+  }
+ ],
+ "workId": "egyptian-destruction-of-mankind",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "budge-legends--the-destruction-of-mankind",
+ "wordCount": 555,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 3.4,
+  "avgSentenceWords": 12.0,
+  "band": "early"
+ }
+}

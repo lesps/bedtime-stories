@@ -47,6 +47,7 @@ CULTURES = [
     ("circassian", "Circassian"),
     ("georgian", "Georgian"),
     ("basque", "Basque"),
+    ("egyptian", "Ancient Egyptian"),
     ("japanese", "Japanese"),
 ]
 
@@ -141,6 +142,12 @@ COLLECTION_CULTURE = {
     "myths-caucasus": "circassian",
     "webster-basque": "basque",
     "myths-basque": "basque",
+    "budge-legends": "egyptian",
+    "budge-book-of-the-dead": "egyptian",
+    "spence-egypt": "egyptian",
+    "petrie-egyptian": "egyptian",
+    "macaulay-herodotus": "egyptian",
+    "myths-egyptian": "egyptian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -216,6 +223,10 @@ MYTH_COLLECTIONS = {
     "myths-caucasus",
     "webster-basque",
     "myths-basque",
+    "budge-legends",
+    "budge-book-of-the-dead",
+    "spence-egypt",
+    "myths-egyptian",
 }
 
 ORIGIN_CULTURE = [
@@ -556,6 +567,29 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-caucasus--sosruko-the-child-of-the-stone": {"add": ["magic"]},
     "myths-basque--martin-txiki-and-the-basajauns": {"add": ["how-things-began", "underdogs"]},
     "myths-basque--mari-of-anboto": {"add": ["magic", "ghosts", "kindness"], "remove": ["gentle"]},
+    # Egyptian myths
+    "budge-legends--the-creation": {"add": ["how-things-began", "magic"]},
+    "myths-egyptian--khepera-rises-from-the-waters": {"add": ["how-things-began", "magic", "family"], "remove": ["kindness"]},
+    "budge-legends--the-destruction-of-mankind": {"add": ["how-things-began", "royalty", "monsters"]},
+    "myths-egyptian--sekhmet-and-the-red-beer": {"add": ["how-things-began", "royalty", "monsters", "tricksters"]},
+    "budge-legends--the-legend-of-ra-and-isis": {"add": ["magic", "tricksters", "royalty", "animals"]},
+    "myths-egyptian--isis-and-the-secret-name-of-ra": {"add": ["royalty"]},
+    "budge-legends--isis-and-horus-in-the-marshes": {"add": ["animals", "kindness", "greed-pride", "magic"]},
+    "myths-egyptian--isis-and-the-seven-scorpions": {"add": ["animals", "kindness", "greed-pride"]},
+    "budge-legends--the-five-added-days": {"add": ["how-things-began", "tricksters", "family"], "remove": ["quests"]},
+    "myths-egyptian--thoth-and-the-five-extra-days": {"add": ["how-things-began", "tricksters", "family"], "remove": ["quests"]},
+    "budge-legends--the-history-of-isis-and-osiris": {"add": ["royalty", "family", "magic", "quests"]},
+    "myths-egyptian--osiris-and-the-wonderful-chest": {"add": ["family", "magic"], "remove": ["gentle"]},
+    "budge-book-of-the-dead--the-weighing-of-the-heart": {"add": ["ghosts", "monsters"]},
+    "myths-egyptian--the-weighing-of-the-heart": {"add": ["ghosts"], "remove": ["tricksters"]},
+    "spence-egypt--the-journey-of-the-sun-through-the-night": {"add": ["monsters", "magic"]},
+    "myths-egyptian--the-sun-boat-and-the-serpent-apep": {"add": ["monsters", "magic"], "remove": ["animals"]},
+    "spence-egypt--khnemu-and-the-source-of-the-nile": {"add": ["how-things-began", "magic"]},
+    "myths-egyptian--khnum-and-the-river-nile": {"add": ["how-things-began", "magic"]},
+    "petrie-egyptian--the-shipwrecked-sailor": {"add": ["animals", "magic", "quests", "kindness"]},
+    "myths-egyptian--the-shipwrecked-sailor": {"add": ["animals", "magic", "quests", "kindness"]},
+    "macaulay-herodotus--the-phoenix": {"add": ["magic"]},
+    "myths-egyptian--the-phoenix": {"add": ["animals", "magic"], "remove": ["quests"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

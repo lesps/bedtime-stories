@@ -13,7 +13,7 @@ export const collectionSchema = z.object({
   license: z.literal('Public domain in the USA'),
   storyCount: z.number().int().nonnegative(),
   language: z.string().min(2),
-  originalLanguage: z.string().regex(/^[a-z]{2}$/),
+  originalLanguage: z.string().regex(/^[a-z]{2,3}$/),
 });
 
 const entryFields = {
