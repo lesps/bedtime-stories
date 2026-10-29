@@ -67,6 +67,13 @@ COLLECTIONS = {
         "author": "Clemens Brentano, Heinrich Heine and Gottfried August Bürger",
         "originalLanguage": "de",
     },
+    "hungarian-sources": {
+        **COMMON,
+        "id": "hungarian-sources",
+        "title": "Legends from the Hungarian Poets",
+        "author": "János Arany",
+        "originalLanguage": "hu",
+    },
 }
 
 

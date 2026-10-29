@@ -27,6 +27,18 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 16 (data only): Hungarian, Caucasus and Basque legends. Originals: Claude's
+  verse translation of János Arany's legend of the wondrous stag, the sixth canto of _Buda halála_
+  (1864), in a new _Legends from the Hungarian Poets_ (`hungarian-sources`; no public-domain
+  English version of Hunor and Magor, and the Latin chronicles couldn't be reached), and the
+  Tartaro, the one-eyed giant, from Wentworth Webster's _Basque Legends_ (1877, `webster-basque`).
+  Retold in three new Simply Told collections: Hunor and Magor (the poem is middle-band but long
+  and in verse, so it gets a prose retelling) and the Tartaro, plus, with no original in the app
+  and flagged for review, Emese's dream and the turul bird, Sosruko the child of the stone
+  (in place of the planned fire-theft story, which isn't well enough attested to retell without a
+  source; Dumézil's French Nart legends, the planned source, aren't public domain everywhere),
+  Amirani the chained giant, Martin Txiki and the Basajauns, and Mari of Anboto. New cultures
+  `hungarian`, `circassian`, `georgian` and `basque` (33 in all).
 - Mythology, part 15 (data only): West Slavic and Balkan legends. Originals, in two new
   collections: Libussa and the founding of Prague, the opening of Count Lützow's _The Story of
   Prague_ (1902, `lutzow-prague`; his chronicle quotations stand in for a translation of Cosmas,

@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 973 public-domain children's stories in 64 collections — Aesop
+A calm, offline-capable reader for 982 public-domain children's stories in 69 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -29,13 +29,15 @@ Firebird and Koshchei the Deathless from Curtin's Myths and Folk-Tales of the Ru
 Moryévna and Ilya Muromets from Magnus's translation of Afanasyev's Russian Folk-Tales. Czech and
 Serbian: Libussa and the founding of Prague from Count Lützow's The Story of Prague, and Prince
 Marko's horse Sharatz, his truth-telling at Kosovo and his chase of the veela from Petrovitch's
-Hero Tales and Legends of the Serbians. Where no
+Hero Tales and Legends of the Serbians. Basque: the Tartaro from Wentworth Webster's Basque
+Legends. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
-Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger.
+Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,
+and Arany's Hungarian legend of the wondrous stag.
 Simplified retellings for young readers in Greek, Roman, Norse, German, English, Irish, Welsh,
 Scottish, Manx and Breton, Arthurian, Finnish, Estonian and Sámi, Lithuanian and Latvian, Russian,
-Polish and Czech, and Serbian, Romanian and Albanian collections "Simply Told".
+Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, and Basque collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -102,9 +104,9 @@ trademarks on Peter Rabbit and other Potter characters, so don't use them in the
 or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
 
-The simplified retellings (the fourteen "Simply Told" collections, `myths-*`) were written by Claude
+The simplified retellings (the seventeen "Simply Told" collections, `myths-*`) were written by Claude
 (Anthropic) from public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt
 into story JSON by `tools/build_simplified.py`. Each one links to its original, except the few
 legends with no public-domain text available, whose end note says what they were retold from.
-Likewise, the Greek, Latin, Norse and German "sources" collections are Claude's translations of
+Likewise, the Greek, Latin, Norse, German and Hungarian "sources" collections are Claude's translations of
 old passages, edited in `tools/translations/*.md` and built by `tools/build_translations.py`.

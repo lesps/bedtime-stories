@@ -1,0 +1,66 @@
+{
+ "id": "myths-basque--mari-of-anboto",
+ "collectionId": "myths-basque",
+ "order": 3,
+ "title": "Mari, the Lady of Anboto",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "High in the mountains of the Basque Country there is a tall grey peak called Anboto. And in a cave near the top of Anboto lives Mari, the Lady of the Mountains."
+  },
+  {
+   "type": "p",
+   "text": "Mari is the queen of all the spirits of the mountains. She is very beautiful, with long golden hair, and people say that sometimes, on sunny days, you can see her sitting at the mouth of her cave, combing her hair with a golden comb."
+  },
+  {
+   "type": "p",
+   "text": "Mari does not live only in Anboto. She has caves in other mountains too, and she moves from one to another. When she travels, she flies through the sky like a ball of fire, or rides in a carriage pulled by horses through the clouds. And when Mari is at home in her cave on Anboto, the weather is stormy and wet. When she goes away to another mountain, the weather is fine and dry."
+  },
+  {
+   "type": "p",
+   "text": "Mari makes the storms and the hail. So when a storm was coming, the farmers would ask Mari to send it away from their fields."
+  },
+  {
+   "type": "p",
+   "text": "If you go to visit Mari in her cave, there are rules you must follow. You must call her simply \"you,\" as you would call a friend, and never \"Lady\" or \"Madam.\" You must never sit down while you are with her. And when you leave, you must walk out backwards, the same way you came in, so that you never turn your back on her."
+  },
+  {
+   "type": "p",
+   "text": "Mari loves the truth, and she punishes liars and thieves and people who break their promises. If you tell her a lie, she will know. And if you steal something from her cave, you will find that when you get home, it has turned into a lump of coal."
+  },
+  {
+   "type": "p",
+   "text": "Once upon a time, a mother lost her temper with her daughter, and cried, \"Oh, I wish the spirits would carry you away!\" And at once, the girl was carried off to Mari's cave."
+  },
+  {
+   "type": "p",
+   "text": "The girl lived with Mari for seven years, and served her well. At the end of the seven years, Mari let her go home. As she was leaving, Mari gave her some lumps of coal."
+  },
+  {
+   "type": "p",
+   "text": "\"What use is coal to me?\" thought the girl. But she was polite, and carried the coal all the way home. And when she got home and opened her bag, the lumps of coal had all turned into gold."
+  },
+  {
+   "type": "p",
+   "text": "So if you ever go walking near Anboto, and see storm clouds gathering on the peak, you will know that Mari is at home."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Basque legends of Mari, the lady who lives in the mountains, as they were told in the villages around Mount Anboto and written down by folklorists in the twentieth century. There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "basque-mari-anboto",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "wordCount": 476,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 4.8,
+  "avgSentenceWords": 15.1,
+  "band": "middle"
+ }
+}
