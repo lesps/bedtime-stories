@@ -24,11 +24,26 @@ versioning: [SemVer](https://semver.org/).
 ### Fixed
 
 - A retelling's end note said its original was "listed under Other versions" even when the
-  original is hidden by default. For the 32 retellings of `mature-themes` originals, the note now
+  original is hidden by default. For retellings of `mature-themes` originals, the note now
   says the original appears there only when "Show stories with mature themes" is on; the integrity
   test checks every retelling's note.
 
 ### Added
+
+- Mythology, part 18 (data only): Mesopotamian myths. Ten originals in four new collections: the
+  Seven Tablets of Creation from Budge's _The Babylonian Legends of the Creation_ (1921,
+  `budge-babylonian-creation`); the Epic of Gilgamesh in six stories from Budge's _The Babylonian
+  Story of the Deluge and the Epic of Gilgamish_ (1920, `budge-gilgamish`) — Gilgamish and Enkidu
+  and Ishtar and the Bull of Heaven are `mature-themes`, Tablet XII is left out, and the sixth joins
+  Budge's full translation of the Deluge to his summary of the rest of Tablet XI; the Descent of
+  Ishtar and Etana from Mackenzie's _Myths of Babylonia and Assyria_ (1915, `mackenzie-babylonia`);
+  and Adapa from Jastrow's _The Religion of Babylonia and Assyria_ (1898, `jastrow-babylonia`,
+  narrative paragraphs only). Eight are `advanced`; Tablet XI and Adapa are `middle` but retold
+  anyway (see CLAUDE.md). New `myths-mesopotamian` collection, "Mesopotamian Myths, Simply Told":
+  ten retellings (the two `mature-themes` Gilgamesh parts retold `flags: none`) and three ‡ retellings
+  with no public-domain source in reach: Inanna and the gifts of wisdom (the _me_), Lugalbanda and
+  the Anzu bird, and the gods making people from clay in Atrahasis. New culture `mesopotamian`;
+  `tools/extract_mesopotamian.py`.
 
 - Mythology, part 17 (data only): Egyptian myths. Eleven originals in five new collections, all
   advanced: from Budge's _Legends of the Gods_ (1912, `budge-legends`) the creation (`mature-themes`),

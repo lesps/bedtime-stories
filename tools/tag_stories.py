@@ -48,6 +48,7 @@ CULTURES = [
     ("georgian", "Georgian"),
     ("basque", "Basque"),
     ("egyptian", "Ancient Egyptian"),
+    ("mesopotamian", "Mesopotamian"),
     ("japanese", "Japanese"),
 ]
 
@@ -148,6 +149,11 @@ COLLECTION_CULTURE = {
     "petrie-egyptian": "egyptian",
     "macaulay-herodotus": "egyptian",
     "myths-egyptian": "egyptian",
+    "budge-babylonian-creation": "mesopotamian",
+    "budge-gilgamish": "mesopotamian",
+    "mackenzie-babylonia": "mesopotamian",
+    "jastrow-babylonia": "mesopotamian",
+    "myths-mesopotamian": "mesopotamian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -227,6 +233,11 @@ MYTH_COLLECTIONS = {
     "budge-book-of-the-dead",
     "spence-egypt",
     "myths-egyptian",
+    "budge-babylonian-creation",
+    "budge-gilgamish",
+    "mackenzie-babylonia",
+    "jastrow-babylonia",
+    "myths-mesopotamian",
 }
 
 ORIGIN_CULTURE = [
@@ -590,6 +601,30 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-egyptian--the-shipwrecked-sailor": {"add": ["animals", "magic", "quests", "kindness"]},
     "macaulay-herodotus--the-phoenix": {"add": ["magic"]},
     "myths-egyptian--the-phoenix": {"add": ["animals", "magic"], "remove": ["quests"]},
+    # Mesopotamian myths
+    "budge-babylonian-creation--the-seven-tablets-of-creation": {"add": ["how-things-began", "magic"]},
+    "myths-mesopotamian--marduk-and-tiamat": {"add": ["how-things-began"], "remove": ["tricksters"]},
+    "myths-mesopotamian--how-people-were-made-from-clay": {"add": ["magic"], "remove": ["tricksters", "ghosts"]},
+    "jastrow-babylonia--the-legend-of-adapa": {"add": ["tricksters", "magic"]},
+    "myths-mesopotamian--adapa-and-the-south-wind": {"add": ["magic"]},
+    "mackenzie-babylonia--etana-and-the-eagle": {"add": ["quests", "magic"], "remove": ["gentle"]},
+    "myths-mesopotamian--etana-and-the-eagle": {"add": ["quests", "magic"], "remove": ["gentle"]},
+    "myths-mesopotamian--inanna-and-the-gifts-of-wisdom": {"add": ["magic", "how-things-began", "tricksters"]},
+    "mackenzie-babylonia--the-descent-of-ishtar": {"add": ["ghosts", "quests", "magic"]},
+    "myths-mesopotamian--ishtar-goes-down-to-the-land-of-the-dead": {"add": ["ghosts", "quests", "greed-pride"]},
+    "myths-mesopotamian--lugalbanda-and-the-anzu-bird": {"add": ["quests", "kindness", "wishes", "magic"]},
+    "budge-gilgamish--gilgamish-and-enkidu": {"add": ["royalty", "animals"]},
+    "myths-mesopotamian--gilgamesh-and-enkidu": {"add": ["royalty", "animals"], "remove": ["gentle"]},
+    "budge-gilgamish--the-forest-of-khumbaba": {"add": ["monsters", "quests", "ghosts"], "remove": ["gentle"]},
+    "myths-mesopotamian--gilgamesh-and-the-cedar-forest": {"add": ["monsters", "ghosts"]},
+    "budge-gilgamish--ishtar-and-the-bull-of-heaven": {"add": ["monsters", "greed-pride"]},
+    "myths-mesopotamian--gilgamesh-and-the-bull-of-heaven": {"add": ["monsters", "greed-pride"]},
+    "budge-gilgamish--the-death-of-enkidu": {"remove": ["kindness"]},
+    "myths-mesopotamian--gilgamesh-loses-his-friend": {"remove": ["animals", "kindness"]},
+    "budge-gilgamish--the-journey-to-uta-napishtim": {"add": ["monsters"], "remove": ["underdogs"]},
+    "myths-mesopotamian--gilgamesh-goes-to-the-end-of-the-world": {"add": ["monsters"], "remove": ["underdogs"]},
+    "budge-gilgamish--the-deluge-and-the-plant-of-youth": {"add": ["quests", "animals", "magic"]},
+    "myths-mesopotamian--the-great-flood-and-the-plant-of-youth": {"add": ["quests", "animals", "magic"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

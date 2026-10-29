@@ -215,6 +215,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-mesopotamian": {
+        "id": "myths-mesopotamian",
+        "title": "Mesopotamian Myths, Simply Told",
+        "author": "Traditional (Mesopotamian)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-russian": {
         "id": "myths-russian",
         "title": "Russian Tales and Legends, Simply Told",

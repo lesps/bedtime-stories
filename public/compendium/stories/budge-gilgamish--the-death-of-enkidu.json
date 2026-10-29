@@ -1,0 +1,45 @@
+{
+ "id": "budge-gilgamish--the-death-of-enkidu",
+ "collectionId": "budge-gilgamish",
+ "order": 4,
+ "title": "The Death of Enkidu",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "The Seventh Tablet"
+  },
+  {
+   "type": "p",
+   "text": "About the contents of the Seventh Tablet there is considerable doubt, and the authorities differ in their opinions about them. A large number of lines of text are wanting at the beginning of the Tablet, but it is very probable that they contained a description of Enkidu's dream. This may have been followed by an interpretation of the dream, either by Gilgamish or some one else, but whether this be so or not, it seems tolerably certain that the dream portended disaster for Enkidu. A fragment, which seems to belong to this Tablet beyond doubt, describes the sickness and death of Enkidu. The cause of his sickness is unknown, and the fragment merely states that he took to his bed and lay there for ten days, when his illness took a turn for the worse, and on the twelfth day he died. He may have died of wounds received in some fight, but it is more probable that he succumbed to an attack of Mesopotamian fever. When Gilgamish was told that his brave friend and companion in many fights was dead, he could not believe it, and he thought that he must be asleep, but when he found that death had really carried off Enkidu, he broke out into the lament which formed the beginning of the text of the next Tablet."
+  },
+  {
+   "type": "heading",
+   "text": "The Eighth Tablet"
+  },
+  {
+   "type": "p",
+   "text": "In this lament he calls Enkidu his brave friend and the \"panther of the desert,\" and refers to their hunts in the mountains, and to their slaughter of the bull of heaven, and to the overthrow of Khumbaba in the forest of cedar, and then he asks him:"
+  },
+  {
+   "type": "verse",
+   "text": "\"What kind of sleep is this which hath laid hold upon thee?\nThou starest out blankly (?) and hearest me not!\""
+  },
+  {
+   "type": "p",
+   "text": "But Enkidu moved not, and when Gilgamish touched his breast his heart was still. Then laying a covering over him as carefully as if he had been his bride, he turned away from the dead body and in his grief roared like a raging lion and like a lioness robbed of her whelps."
+  }
+ ],
+ "workId": "gilgamesh-4-enkidu-death",
+ "wordCount": 350,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 11.5,
+  "avgSentenceWords": 28.6,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-mesopotamian--gilgamesh-loses-his-friend"
+}

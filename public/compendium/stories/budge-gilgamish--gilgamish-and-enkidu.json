@@ -1,0 +1,47 @@
+{
+ "id": "budge-gilgamish--gilgamish-and-enkidu",
+ "collectionId": "budge-gilgamish",
+ "order": 1,
+ "title": "Gilgamish and Enkidu",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "The First Tablet"
+  },
+  {
+   "type": "p",
+   "text": "The opening lines describe the great knowledge and wisdom of Gilgamish, who saw everything, learned everything, understood everything, who probed to the bottom the hidden mysteries of wisdom, and who knew the history of everything that happened before the Deluge. He travelled far over sea and land, and performed mighty deeds, and then he cut upon a tablet of stone an account of all that he had done and suffered. He built the wall of Erech, founded the holy temple of E-Anna, and carried out other great architectural works. He was a semi-divine being, for his body was formed of the \"flesh of the gods,\" and \"Two-thirds of him were god, and one-third was man\" (l. 51). The description of his person is lost. As Shepherd (i.e., King) of Erech he forced the people to toil overmuch, and his demands reduced them to such a state of misery that they cried out to the gods and begged them to create some king who should control Gilgamish and give them deliverance from him. The gods hearkened to the prayer of the men of Erech, and they commanded the goddess Aruru to create a rival to Gilgamish. The goddess agreed to do their bidding, and having planned in her mind what manner of being she intended to make, she washed her hands, took a piece of clay and spat upon it, and made a male creature like the god Anu. His body was covered all over with hair. The hair of his head was long like that of a woman, and he wore clothing like that of Gira (or, Sumuggan), a goddess of vegetation, i.e., he appeared to be clothed with leaves. He was different in every way from the people of the country, and his name was Enkidu (Eabani). He lived in the forests on the hills, ate herbs like the gazelle, drank with the wild cattle, and herded with the beasts of the field. He was mighty in stature, invincible in strength, and obtained complete mastery over all the creatures of the forests in which he lived."
+  },
+  {
+   "type": "p",
+   "text": "One day a certain hunter went out to snare game, and he dug pit-traps and laid nets, and made his usual preparations for roping in his prey. But after doing this for three days he found that his pits were filled up and his nets smashed, and he saw Enkidu releasing the beasts that had been snared. The hunter was terrified at the sight of Enkidu, and went home hastily and told his father what he had seen and how badly he had fared. By his father's advice he went to Erech, and reported to Gilgamish what had happened. When Gilgamish heard his story he advised him to act upon a suggestion which the hunter's father had already made, namely that he should hire a harlot and take her out to the forest, so that Enkidu might be ensnared by the sight of her beauty, and take up his abode with her. The hunter accepted this advice, and having found a harlot to help him in removing Enkidu from the forests (thus enabling him to gain a living), he set out from Erech with her and in due course arrived at the forest where Enkidu lived, and sat down by the place where the beasts came to drink."
+  },
+  {
+   "type": "p",
+   "text": "On the second day when the beasts came to drink and Enkidu was with them, the woman carried out the instructions which the hunter had given her, and when Enkidu saw her cast aside her veil, he left his beasts and came to her, and remained with her for six days and seven nights. At the end of this period he returned to the beasts with which he had lived on friendly terms, but as soon as the gazelle winded him they took to flight, and the wild cattle disappeared into the woods. When Enkidu saw the beasts forsake him his knees gave way, and he swooned from sheer shame; but when he came to himself he returned to the harlot. She spoke to him flattering words, and asked him why he wandered with the wild beasts in the desert, and then told him she wished to take him back with her to Erech, where Anu and Ishtar lived, and where the mighty Gilgamish reigned. Enkidu hearkened and finally went back with her to her city, where she described the wisdom, power and might of Gilgamish, and took steps to make Enkidu known to him. But before Enkidu arrived, Gilgamish had been warned of his existence and coming in two dreams which he related to his mother Ninsunna, and when he and Enkidu learned to know each other subsequently, these two mighty heroes became great friends."
+  },
+  {
+   "type": "heading",
+   "text": "The Second Tablet"
+  },
+  {
+   "type": "p",
+   "text": "When Enkidu came to Erech the habits of the people of the city were strange to him, but under the tuition of the harlot he learned to eat bread and to drink beer, and to wear clothes, and he anointed his body with unguents. He went out into the forests with his hunting implements and snared the gazelle and slew the panther, and obtained animals for sacrifice, and gained reputation as a mighty hunter and as a good shepherd. In due course he attracted the notice of Gilgamish, who did not, however, like his uncouth appearance and ways, but after a time, when the citizens of Erech praised him and admired his strong and vigorous stature, he made friends with him and rejoiced in him, and planned an expedition with him. Before they set out, Gilgamish wished to pay a visit to the goddess Ishkhara, but Enkidu, fearing that the influence of the goddess would have a bad effect upon his friend, urged him to abandon the visit. This Gilgamish refused to do, and when Enkidu declared that by force he would prevent him going to the goddess, a violent quarrel broke out between the two heroes, and they appealed to arms. After a fierce fight Enkidu conquered Gilgamish, who apparently abandoned his visit to the goddess. The text of the Second Tablet is very much mutilated, and the authorities on the subject are not agreed as to the exact placing of the fragments. The above details are derived from a tablet at Philadelphia."
+  }
+ ],
+ "workId": "gilgamesh-1-enkidu",
+ "wordCount": 1051,
+ "readingMinutes": 6,
+ "readingLevel": {
+  "fkGrade": 12.7,
+  "avgSentenceWords": 30.9,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-mesopotamian--gilgamesh-and-enkidu"
+}

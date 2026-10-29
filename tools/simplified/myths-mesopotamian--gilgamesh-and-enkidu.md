@@ -1,0 +1,49 @@
+---
+title: Gilgamesh and Enkidu
+adaptedFrom: budge-gilgamish--gilgamish-and-enkidu
+order: 8
+flags: none
+namesNote: The first of six parts of the Epic of Gilgamesh, one of the oldest stories in the world. Budge spells the names Gilgamish, Erech (for Uruk) and Ninsunna.
+---
+
+Long, long ago, there was a king called Gilgamesh, who ruled the city of Uruk. Gilgamesh saw everything and learned everything. He knew secrets that no one else knew, and he knew what had happened in the world before the Great Flood. He travelled far over the sea and the land, and he did mighty deeds. And afterwards, he carved the story of everything he had done and suffered on a tablet of stone.
+
+Gilgamesh built the great wall around Uruk, and a holy temple for the gods. He was not quite a man and not quite a god. Two parts of him were god, and one part was man.
+
+But Gilgamesh was a hard king. He made the people of Uruk work and work, until they were worn out and miserable. At last they cried out to the gods. "Please," they said, "make someone who can stand up to Gilgamesh, and give us some peace!"
+
+The gods heard them. And they told the goddess Aruru to make a match for Gilgamesh.
+
+So Aruru thought about what she would make. She washed her hands and took a lump of clay, and she spat on it, and she shaped a man. His name was Enkidu. He was covered in hair all over, and the hair on his head was as long as a woman's. He looked as if he were dressed in leaves.
+
+Enkidu lived in the forests on the hills. He ate plants like the gazelles, and drank at the water hole with the wild cattle, and ran about with the animals. He was huge and enormously strong, and all the creatures of the forest did as he said.
+
+One day, a hunter went out to catch animals. He dug pits and laid his nets. But for three days running, he found his pits filled in and his nets torn apart. Then he saw why. A wild man was letting the animals go free!
+
+The hunter was terrified. He hurried home and told his father, and his father sent him to Uruk to tell King Gilgamesh.
+
+"Here is what to do," said Gilgamesh, for the hunter's father had had the same idea. "Take a woman from the temple out to the forest with you. When the wild man sees her, he will want to stay with her, and leave the animals behind."
+
+So the hunter took a woman from the city, and they went to the forest and sat by the water hole where the animals came to drink. On the second day, Enkidu came with the animals. When he saw the woman, he left the animals and came to her, and he stayed with her for six days and seven nights.
+
+Then Enkidu went back to his animal friends. But as soon as the gazelles smelled him, they ran away, and the wild cattle disappeared into the woods. Enkidu's knees gave way, and he fainted from shame.
+
+When he woke up, he went back to the woman. "Why do you wander in the wild with the animals?" she asked him. "Come with me to Uruk, where the gods Anu and Ishtar live, and where the mighty Gilgamesh is king."
+
+So Enkidu went with her to the city. And there she told him how wise and strong and mighty Gilgamesh was.
+
+Meanwhile, Gilgamesh had two dreams about someone who was coming, and he told them to his mother, Ninsun.
+
+In the city, everything was strange to Enkidu. But the woman taught him to eat bread and drink beer, and to wear clothes, and to rub his body with sweet oil. He went out hunting, and he became famous as a mighty hunter and a good shepherd.
+
+At first Gilgamesh did not like Enkidu much, because he was so rough and wild. But the people of Uruk praised Enkidu, and admired how big and strong he was. And when Gilgamesh came to know him, the two heroes became great friends. They began to plan an adventure together.
+
+But before they set out, Gilgamesh wanted to visit the goddess Ishkhara. Enkidu was afraid she would be bad for his friend. "Don't go," he said.
+
+"I will go," said Gilgamesh.
+
+"Then I will stop you," said Enkidu, "by force, if I have to."
+
+So the two heroes fought, a long, fierce fight. And in the end, Enkidu won, and Gilgamesh did not go to the goddess.
+
+The clay tablets that tell this part of the story are very broken, and nobody is quite sure what came next. But after that, Gilgamesh and Enkidu were the closest friends in the world.

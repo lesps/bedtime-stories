@@ -1,0 +1,53 @@
+{
+ "id": "budge-gilgamish--the-forest-of-khumbaba",
+ "collectionId": "budge-gilgamish",
+ "order": 2,
+ "title": "The Forest of Khumbaba",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "The Third Tablet"
+  },
+  {
+   "type": "p",
+   "text": "The correct order of the fragments of this Tablet has not yet been ascertained, but among the contents of the first part of its text a lament by Enkidu that he was associated with the harlot seems to have had a place. Whether he had left the city of Erech and gone back to his native forest is not clear, but the god Shamash, having heard his cursing of the harlot, cried to him from heaven, saying, \"Why, O Enkidu, dost thou curse the temple woman? She gave thee food to eat which was meet only for a god, she gave thee wine to drink which was meet only for a king, she arrayed thee in splendid apparel, and made thee to possess as thy friend the noble Gilgamish. And at present Gilgamish is thy bosom friend. He maketh thee to lie down on a large couch, and to sleep in a good, well-decked bed, and to occupy the chair of peace, the chair on the left-hand side. The princes of the earth kiss thy feet. He maketh the people of Erech to sigh for thee, and many folk to cry out for thee, and to serve thee. And for thy sake he putteth on coarse attire and arrayeth himself in the skin of the lion, and pursueth thee over the plain.\" When Enkidu heard these words his anxious heart had peace."
+  },
+  {
+   "type": "p",
+   "text": "To the Third Tablet probably belongs the fragment in which Enkidu relates to Gilgamish a horrifying dream which he had had. In his dream it seemed to him that there were thunderings in heaven and quaking upon earth, and a being with an awful visage, and nails like all eagle's talons, gripped him and carried him off and forced him to go down into the dark abyss of the dread goddess, Irkalla. From this abode he who once \"went in never came out, and he who travelled along that road never returned, he who dwelleth there is without light, the beings therein eat dust and feed upon mud; they are clad in feathers and have wings like birds, they see no light, and they live in the darkness of night.\" Here Enkidu saw in his dream creatures who had been kings when they lived upon the earth, and shadowy beings offering roasted meat to Anu and Enlil, and cool drinks poured out from waterskins. In this House of Dust dwelt high priests, ministrants, the magician and the prophet, and the deities Etana, Sumukan, Eresh-kigal, Queen of the Earth, and Bêlitsêri, who registered the deeds done upon the earth."
+  },
+  {
+   "type": "p",
+   "text": "When Gilgamish heard this dream, he brought out a table, and setting on it honey and butter placed it before Shamash."
+  },
+  {
+   "type": "heading",
+   "text": "The Fourth Tablet"
+  },
+  {
+   "type": "p",
+   "text": "Gilgamish then turned to Enkidu and invited him to go with him to the temple of Nin-Makh to see the servant of his mother, Ninsunna, in order to consult her as to the meaning of the dream. They went there, and Enkidu told his dream, and the wise woman offered up incense and asked Shamash why he had given to her son a heart which could never keep still. She next referred to the perilous expedition against the mighty King Khumbaba, which he had decided to undertake with Enkidu, and apparently hoped that the god would prevent her son from leaving Erech. But Gilgamish was determined to march against Khumbaba, and he and Enkidu set out without delay for the mountains where grew the cedars."
+  },
+  {
+   "type": "heading",
+   "text": "The Fifth Tablet"
+  },
+  {
+   "type": "p",
+   "text": "In due course the two heroes reached the forest of cedars, and they contemplated with awe their great height and their dense foliage. The cedars were under the special protection of Bêl, who had appointed to be their keeper Khumbaba, a being whose voice was like the roar of a storm, whose mouth was like that of the gods, and whose breath was like a gale of wind. When Enkidu saw how dense was the forest and how threatening, he tried to make Gilgamish turn back, but all his entreaties were in vain. As they were going through the forest to attack Khumbaba, Enkidu dreamed two or three dreams, and when he related them to Gilgamish, this hero interpreted them as auguries of their success and the slaughter of Khumbaba. The fragmentary character of the text here makes it very difficult to find out exactly what steps the two heroes took to overcome Khumbaba, but there is no doubt that they did overcome him, and that they returned to Erech in triumph."
+  }
+ ],
+ "workId": "gilgamesh-2-humbaba",
+ "wordCount": 757,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 12.4,
+  "avgSentenceWords": 31.5,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-mesopotamian--gilgamesh-and-the-cedar-forest"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "myths-mesopotamian--gilgamesh-and-the-bull-of-heaven",
+ "collectionId": "myths-mesopotamian",
+ "order": 10,
+ "title": "Gilgamesh and the Bull of Heaven",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "When Gilgamesh came home to Uruk, he washed his armour and cleaned his weapons. He combed his long hair and let it fall down his back. He took off his dirty clothes and put on clean ones, and he put on his crown."
+  },
+  {
+   "type": "p",
+   "text": "Then Ishtar, the great goddess, looked at Gilgamesh, and saw how handsome he was. \"Come, Gilgamesh,\" she said. \"Marry me, and be my husband! I will give you a chariot of blue lapis stone and gold, with golden wheels. You will drive it every day with mighty horses. Kings and lords and princes will bow down to you, and bring you gifts from the mountains and the plains. Your sheep will all have twins. And no horse in the world will be as proud as the horse that pulls your chariot.\""
+  },
+  {
+   "type": "p",
+   "text": "But Gilgamesh said no. \"Who did you ever love for long?\" he asked. \"Everyone you have loved has come to a sad end. There was Tammuz, whom you loved when you were young, and every year you make people weep for him. You loved a bird, and you broke its wings. You loved a lion, and he was destroyed. You loved a horse, and you drove it with whip and spur until it died. Your love is like a door that lets in the wind and the storm. If you loved me, wouldn't you treat me as you treated them?\""
+  },
+  {
+   "type": "p",
+   "text": "When Ishtar heard this, she was furious. She went up to heaven, to her father Anu and her mother Antu. \"Gilgamesh has insulted me!\" she said. \"He has told everyone the bad things I have done. Father, make a great Bull of Heaven to destroy him. And if you won't, I will do terrible things!\""
+  },
+  {
+   "type": "p",
+   "text": "So Anu made the Bull of Heaven, and sent it down to Uruk. And the Bull killed many of the people."
+  },
+  {
+   "type": "p",
+   "text": "At last Gilgamesh and Enkidu went out to fight the Bull. Enkidu grabbed it by the tail, and Gilgamesh struck it between its neck and its horns, and together they killed it."
+  },
+  {
+   "type": "p",
+   "text": "When Ishtar heard that her Bull was dead, she ran out onto the walls of Uruk and cursed Gilgamesh. Then Enkidu tore off a piece of the Bull and threw it at her. \"If I could fight you,\" he shouted, \"I would do the same to you!\" And Ishtar gathered the women of her temple, and they wept over the piece of the Bull."
+  },
+  {
+   "type": "p",
+   "text": "Gilgamesh called the craftsmen of Uruk to come and see the Bull's horns. They were amazed at how big they were. The horn was two fingers thick, and the horns could hold six great measures of oil. Gilgamesh hung the horns up in the temple of the god Lugalbanda, on the god's throne."
+  },
+  {
+   "type": "p",
+   "text": "Then Gilgamesh and Enkidu went down to the river Euphrates and washed their hands, and they walked back to the market place of Uruk. The people crowded around them in the streets to see their faces."
+  },
+  {
+   "type": "p",
+   "text": "\"Who is the most splendid of men?\" asked Gilgamesh. \"Who is the most glorious of heroes?\""
+  },
+  {
+   "type": "p",
+   "text": "And the women of the palace called out, \"Gilgamesh is the most splendid of men! Gilgamesh is the most glorious of heroes!\""
+  },
+  {
+   "type": "p",
+   "text": "When Gilgamesh came to his palace, he held a great feast, and gave all his guests beds to sleep on. And that night, Enkidu had a dream. He got up, and he told the dream to Gilgamesh."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of E. A. Wallis Budge's “Ishtar and the Bull of Heaven” in The Babylonian Story of the Deluge and the Epic of Gilgamish (1920). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. The third of six parts of the Epic of Gilgamesh. Budge spells the names Gilgamish and Erech (for Uruk)."
+  }
+ ],
+ "workId": "gilgamesh-3-bull",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "budge-gilgamish--ishtar-and-the-bull-of-heaven",
+ "wordCount": 634,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 3.4,
+  "avgSentenceWords": 11.4,
+  "band": "early"
+ }
+}

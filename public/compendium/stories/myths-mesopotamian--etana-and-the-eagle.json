@@ -1,0 +1,67 @@
+{
+ "id": "myths-mesopotamian--etana-and-the-eagle",
+ "collectionId": "myths-mesopotamian",
+ "order": 4,
+ "title": "Etana and the Eagle",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, there was a hero called Etana. His wife was going to have a baby, and she needed magic to help her. So Etana set out to find the Plant of Birth. And a great Eagle agreed to help him."
+  },
+  {
+   "type": "p",
+   "text": "Once, Etana wanted to fly up to the highest heaven. He asked the Eagle to carry him there, and the Eagle said yes."
+  },
+  {
+   "type": "p",
+   "text": "\"Be glad, my friend,\" said the Eagle. \"I will carry you up to the highest heaven. Lay your chest against mine, and put your arms along my wings, and we will fly as one.\""
+  },
+  {
+   "type": "p",
+   "text": "So Etana held on, and the Eagle spread its wings, and up they flew, up towards the sky."
+  },
+  {
+   "type": "p",
+   "text": "When they had flown for two hours, the Eagle said, \"Look down, Etana!\" Etana looked down. He saw the ocean all around the earth, and the earth looked like a mountain standing in the sea."
+  },
+  {
+   "type": "p",
+   "text": "The Eagle flew on. When two more hours had passed, it said again, \"Look down!\" Etana looked down, and now the sea looked like a belt wrapped around the land."
+  },
+  {
+   "type": "p",
+   "text": "Two hours later, they were so high that the great sea looked no bigger than a pond. By then they had come to the heaven of the great gods Anu, Bel and Ea, and there they rested, safe and sheltered."
+  },
+  {
+   "type": "p",
+   "text": "Then the Eagle carried Etana higher still, towards the heaven of the goddess Ishtar, the Queen of Heaven. Three more times, every two hours, the Eagle told Etana to look down at the earth, which grew smaller and smaller."
+  },
+  {
+   "type": "p",
+   "text": "But then something went wrong. Nobody knows what, because the old clay tablet is broken there. When the story starts again, the Eagle is falling. Down and down they fell together, the Eagle and the man, until they hit the earth, and the Eagle was broken."
+  },
+  {
+   "type": "p",
+   "text": "And the old story does not say what became of Etana."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Donald A. Mackenzie's “Etana and the Eagle” in Myths of Babylonia and Assyria (1915). The original is listed under Other versions."
+  }
+ ],
+ "workId": "babylonian-etana",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "mackenzie-babylonia--etana-and-the-eagle",
+ "wordCount": 342,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 4.7,
+  "avgSentenceWords": 12.7,
+  "band": "middle"
+ }
+}

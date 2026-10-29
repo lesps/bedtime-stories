@@ -1,0 +1,105 @@
+{
+ "id": "mackenzie-babylonia--the-descent-of-ishtar",
+ "collectionId": "mackenzie-babylonia",
+ "order": 1,
+ "title": "The Descent of Ishtar",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "In one the goddess Ishtar visited Hades to search for the lover of her youth. A part of this form of the legend survives in the famous Assyrian hymn known as \"The Descent of Ishtar \". It was first translated by the late Mr. George Smith, of the British Museum. A box containing inscribed tablets had been sent from Assyria to London, and Mr. Smith, with characteristic patience and skill, arranged and deciphered them, giving to the world a fragment of ancient literature infused with much sublimity and imaginative power. Ishtar is depicted descending to dismal Hades, where the souls of the dead exist in bird forms:"
+  },
+  {
+   "type": "verse",
+   "text": "I spread like a bird my hands.\nI descend, I descend to the house of darkness, the dwelling of the god Irkalla:\nTo the house out of which there is no exit,\nTo the road from which there is no return:\nTo the house from whose entrance the light is taken,\nThe place where dust is their nourishment and their food mud.\nIts chiefs also are like birds covered with feathers;\nThe light is never seen, in darkness they dwell....\nOver the door and bolts is scattered dust."
+  },
+  {
+   "type": "p",
+   "text": "When the goddess reaches the gate of Hades she cries to the porter:"
+  },
+  {
+   "type": "verse",
+   "text": "Keeper of the waters, open thy gate,\nOpen thy gate that I may enter.\nIf thou openest not the gate that I may enter\nI will strike the door, the bolts I will shatter,\nI will strike the threshold and will pass through the doors;\nI will raise up the dead to devour the living,\nAbove the living the dead shall exceed in numbers."
+  },
+  {
+   "type": "p",
+   "text": "The porter answers that he must first consult the Queen of Hades, here called Allatu, to whom he accordingly announces the arrival of the Queen of Heaven. Allatu's heart is filled with anger, and makes reference to those whom Ishtar caused to perish:"
+  },
+  {
+   "type": "verse",
+   "text": "Let me weep over the strong who have left their wives,\nLet me weep over the handmaidens who have lost the embraces of their husbands,\nOver the only son let me mourn, who ere his days are come is taken away."
+  },
+  {
+   "type": "p",
+   "text": "Then she issues abruptly the stern decree:"
+  },
+  {
+   "type": "verse",
+   "text": "Go, keeper, open the gate to her,\nBewitch her according to the ancient rules;"
+  },
+  {
+   "type": "p",
+   "text": "that is, \"Deal with her as you deal with others who come here\"."
+  },
+  {
+   "type": "p",
+   "text": "As Ishtar enters through the various gates she is stripped of her ornaments and clothing. At the first gate her crown was taken off, at the second her ear-rings, at the third her necklace of precious stones, at the fourth the ornaments of her breast, at the fifth her gemmed waist-girdle, at the sixth the bracelets of her hands and feet, and at the seventh the covering robe of her body. Ishtar asks at each gate why she is thus dealt with, and the porter answers, \"Such is the command of Allatu.\""
+  },
+  {
+   "type": "p",
+   "text": "After descending for a prolonged period the Queen of Heaven at length stands naked before the Queen of Hades. Ishtar is proud and arrogant, and Allatu, desiring to punish her rival whom she cannot humble, commands the plague demon, Namtar, to strike her with disease in all parts of her body. The effect of Ishtar's fate was disastrous upon earth: growth and fertility came to an end."
+  },
+  {
+   "type": "p",
+   "text": "Meanwhile Pap-sukal, messenger of the gods, hastened to Shamash, the sun deity, to relate what had occurred. The sun god immediately consulted his lunar father, Sin, and Ea, god of the deep. Ea then created a man lion, named Nadushu-namir, to rescue Ishtar, giving him power to pass through the seven gates of Hades. When this being delivered his message"
+  },
+  {
+   "type": "verse",
+   "text": "Allatu... struck her breast; she bit her thumb,\nShe turned again: a request she asked not."
+  },
+  {
+   "type": "p",
+   "text": "In her anger she cursed the rescuer of the Queen of Heaven."
+  },
+  {
+   "type": "verse",
+   "text": "May I imprison thee in the great prison,\nMay the garbage of the foundations of the city be thy food,\nMay the drains of the city be thy drink,\nMay the darkness of the dungeon be thy dwelling,\nMay the stake be thy seat,\nMay hunger and thirst strike thy offspring."
+  },
+  {
+   "type": "p",
+   "text": "She was compelled, however, to obey the high gods, and addressed Namtar, saying:"
+  },
+  {
+   "type": "p",
+   "text": "Unto Ishtar give the waters of life and bring her before me."
+  },
+  {
+   "type": "p",
+   "text": "Thereafter the Queen of Heaven was conducted through the various gates, and at each she received her robe and the ornaments which were taken from her on entering. Namtar says:"
+  },
+  {
+   "type": "verse",
+   "text": "Since thou hast not paid a ransom for thy deliverance to her (Allatu), so to her again turn back,\nFor Tammuz the husband of thy youth.\nThe glistening waters (of life) pour over him...\nIn splendid clothing dress him, with a ring of crystal adorn him."
+  },
+  {
+   "type": "p",
+   "text": "Ishtar mourns for \"the wound of Tammuz\", smiting her breast, and she did not ask for \"the precious eye-stones, her amulets\", which were apparently to ransom Tammuz. The poem concludes with Ishtar's wail:"
+  },
+  {
+   "type": "verse",
+   "text": "O my only brother (Tammuz) thou dost not lament for me.\nIn the day that Tammuz adorned me, with a ring of crystal,\nWith a bracelet of emeralds, together with himself, he adorned me,\nWith himself he adorned me; may men mourners and women mourners\nOn a bier place him, and assemble the wake."
+  }
+ ],
+ "workId": "babylonian-descent-of-ishtar",
+ "wordCount": 876,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 9.9,
+  "avgSentenceWords": 24.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-mesopotamian--ishtar-goes-down-to-the-land-of-the-dead"
+}

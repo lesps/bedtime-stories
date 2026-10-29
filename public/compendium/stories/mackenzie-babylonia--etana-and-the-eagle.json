@@ -1,0 +1,33 @@
+{
+ "id": "mackenzie-babylonia--etana-and-the-eagle",
+ "collectionId": "mackenzie-babylonia",
+ "order": 2,
+ "title": "Etana and the Eagle",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "In one fragmentary legend which was preserved in the tablet-library of Ashur-banipal, the Assyrian monarch, Etana obtained the assistance of the Eagle to go in quest of the Plant of Birth. His wife was about to become a mother, and was accordingly in need of magical aid. A similar belief caused birth girdles of straw or serpent skins, and eagle stones found in eagles' nests, to be used in ancient Britain and elsewhere throughout Europe apparently from the earliest times."
+  },
+  {
+   "type": "p",
+   "text": "On this or another occasion Etana desired to ascend to highest heaven. He asked the Eagle to assist him, and the bird assented, saying: \"Be glad, my friend. Let me bear thee to the highest heaven. Lay thy breast on mine and thine arms on my wings, and let my body be as thy body.\" Etana did as the great bird requested him, and together they ascended towards the firmament. After a flight which extended over two hours, the Eagle asked Etana to gaze downwards. He did so, and beheld the ocean surrounding the earth, and the earth seemed like a mountainous island. The Eagle resumed its flight, and when another two hours had elapsed, it again asked Etana to look downwards. Then the hero saw that the sea resembled a girdle which clasped the land. Two hours later Etana found that he had been raised to a height from which the sea appeared to be no larger than a pond. By this time he had reached the heaven of Anu, Bel, and Ea, and found there rest and shelter."
+  },
+  {
+   "type": "p",
+   "text": "Here the text becomes fragmentary. Further on it is gathered from the narrative that Etana is being carried still higher by the Eagle towards the heaven of Ishtar, \"Queen of Heaven\", the supreme mother goddess. Three times, at intervals of two hours, the Eagle asks Etana to look downwards towards the shrinking earth. Then some disaster happens, for further onwards the broken tablet narrates that the Eagle is falling. Down and down eagle and man fall together until they strike the earth, and the Eagle's body is shattered."
+  }
+ ],
+ "workId": "babylonian-etana",
+ "wordCount": 348,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 8.8,
+  "avgSentenceWords": 18.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-mesopotamian--etana-and-the-eagle"
+}
