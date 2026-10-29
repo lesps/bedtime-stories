@@ -720,6 +720,54 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 7
+  },
+  {
+   "id": "lutzow-prague",
+   "title": "The Story of Prague",
+   "author": "Count Lützow",
+   "contributor": null,
+   "firstPublished": 1902,
+   "source": "https://www.gutenberg.org/ebooks/46533",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 1
+  },
+  {
+   "id": "petrovitch-serbian",
+   "title": "Hero Tales and Legends of the Serbians",
+   "author": "Woislav M. Petrovitch",
+   "contributor": null,
+   "firstPublished": 1914,
+   "source": "https://www.gutenberg.org/ebooks/38571",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "sr",
+   "storyCount": 3
+  },
+  {
+   "id": "myths-west-slavic",
+   "title": "Polish and Czech Legends, Simply Told",
+   "author": "Traditional (Polish and Czech)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 3
+  },
+  {
+   "id": "myths-balkan",
+   "title": "Serbian, Romanian and Albanian Legends, Simply Told",
+   "author": "Traditional (Serbian, Romanian and Albanian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 5
   }
  ],
  "stories": [
@@ -14171,6 +14219,220 @@
     "fkGrade": 3.1,
     "avgSentenceWords": 10.1,
     "band": "early"
+   }
+  },
+  {
+   "id": "lutzow-prague--libussa-and-the-founding-of-prague",
+   "collectionId": "lutzow-prague",
+   "order": 1,
+   "title": "Libussa and the Founding of Prague",
+   "wordCount": 800,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "czech-libuse",
+   "readingLevel": {
+    "fkGrade": 11.9,
+    "avgSentenceWords": 25.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-west-slavic--libuse-and-the-founding-of-prague"
+  },
+  {
+   "id": "petrovitch-serbian--prince-marko-and-sharatz",
+   "collectionId": "petrovitch-serbian",
+   "order": 1,
+   "title": "Prince Marko and Sharatz",
+   "wordCount": 668,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "serbian-marko-sharatz",
+   "readingLevel": {
+    "fkGrade": 11.7,
+    "avgSentenceWords": 29.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-balkan--prince-marko-and-sharatz"
+  },
+  {
+   "id": "petrovitch-serbian--prince-marko-tells-whose-the-empire-shall-be",
+   "collectionId": "petrovitch-serbian",
+   "order": 2,
+   "title": "Prince Marko Tells Whose the Empire Shall Be",
+   "wordCount": 1872,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "serbian-marko-empire",
+   "readingLevel": {
+    "fkGrade": 7.2,
+    "avgSentenceWords": 17.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-balkan--prince-marko-tells-the-truth"
+  },
+  {
+   "id": "petrovitch-serbian--prince-marko-and-the-veela",
+   "collectionId": "petrovitch-serbian",
+   "order": 3,
+   "title": "Prince Marko and the Veela",
+   "wordCount": 816,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "serbian-marko-veela",
+   "readingLevel": {
+    "fkGrade": 8.6,
+    "avgSentenceWords": 21.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-balkan--prince-marko-and-the-veela"
+  },
+  {
+   "id": "myths-west-slavic--lech-czech-and-rus",
+   "collectionId": "myths-west-slavic",
+   "order": 1,
+   "title": "Lech, Czech and Rus",
+   "wordCount": 439,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "slavic-lech-czech-rus",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 13.1,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-west-slavic--the-wawel-dragon",
+   "collectionId": "myths-west-slavic",
+   "order": 2,
+   "title": "The Wawel Dragon",
+   "wordCount": 432,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "polish-wawel-dragon",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.2,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-west-slavic--libuse-and-the-founding-of-prague",
+   "collectionId": "myths-west-slavic",
+   "order": 3,
+   "title": "Libuše and the Founding of Prague",
+   "wordCount": 586,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "czech-libuse",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 14.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "lutzow-prague--libussa-and-the-founding-of-prague"
+  },
+  {
+   "id": "myths-balkan--prince-marko-and-sharatz",
+   "collectionId": "myths-balkan",
+   "order": 1,
+   "title": "Prince Marko and Sharatz",
+   "wordCount": 571,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "serbian-marko-sharatz",
+   "readingLevel": {
+    "fkGrade": 5.4,
+    "avgSentenceWords": 15.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "petrovitch-serbian--prince-marko-and-sharatz"
+  },
+  {
+   "id": "myths-balkan--prince-marko-tells-the-truth",
+   "collectionId": "myths-balkan",
+   "order": 2,
+   "title": "Prince Marko Tells the Truth",
+   "wordCount": 1006,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "serbian-marko-empire",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 10.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "petrovitch-serbian--prince-marko-tells-whose-the-empire-shall-be"
+  },
+  {
+   "id": "myths-balkan--prince-marko-and-the-veela",
+   "collectionId": "myths-balkan",
+   "order": 3,
+   "title": "Prince Marko and the Veela",
+   "wordCount": 667,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "serbian-marko-veela",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "petrovitch-serbian--prince-marko-and-the-veela"
+  },
+  {
+   "id": "myths-balkan--master-manole",
+   "collectionId": "myths-balkan",
+   "order": 4,
+   "title": "Master Manole and the Monastery of Argeș",
+   "wordCount": 775,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "romanian-manole",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.1,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-balkan--mujo-and-the-mountain-fairies",
+   "collectionId": "myths-balkan",
+   "order": 5,
+   "title": "Mujo and the Mountain Fairies",
+   "wordCount": 438,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "albanian-mujo-strength",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 12.8,
+    "band": "middle"
    }
   }
  ]

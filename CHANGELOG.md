@@ -23,6 +23,18 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 15 (data only): West Slavic and Balkan legends. Originals, in two new
+  collections: Libussa and the founding of Prague, the opening of Count Lützow's _The Story of
+  Prague_ (1902, `lutzow-prague`; his chronicle quotations stand in for a translation of Cosmas,
+  whose Latin text couldn't be reached), and three Prince Marko pieces from Petrovitch's _Hero
+  Tales and Legends of the Serbians_ (1914, `petrovitch-serbian`): his horse Sharatz, "Prince Marko
+  Tells Whose the Empire Shall Be" and "Prince Marko and the Veela", without the colour plates,
+  whose illustrators' dates aren't known. All four are advanced, so all are retold, in two new
+  Simply Told collections, `myths-west-slavic` (Polish and Czech) and `myths-balkan` (Serbian,
+  Romanian and Albanian). Retold with no original in the app, and flagged for review: Lech, Czech
+  and Rus, the Wawel dragon, Master Manole and the monastery of Argeș (`mature-themes`: his wife is
+  walled up alive), and how Mujo got his strength from the mountain fairies. New cultures `polish`,
+  `czech`, `serbian`, `romanian` and `albanian` (29 in all).
 - Mythology, part 14 (data only): the Russian shelf. The plan named Ransome's _Old Peter's Russian
   Tales_, but Ransome died in 1967 and isn't public domain everywhere, so the tales come from
   three older translations, each a new collection: Vasilissa the Fair and Frost from Ralston's
