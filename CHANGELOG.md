@@ -7,6 +7,10 @@ versioning: [SemVer](https://semver.org/).
 
 ### Changed
 
+- The Scottish Fairy Book stories no longer carry Morris Meredith Williams's five pictures: he died
+  in 1973, so they aren't public domain everywhere, and the mythology shelves only use sources
+  that are.
+
 - The offline download is now advertised as about 10 MB of text (45 MB with illustrations), up
   from 9 and 40, to keep up with the mythology shelves.
 
@@ -83,8 +87,7 @@ versioning: [SemVer](https://semver.org/).
   in all). New tool `extract_arthurian.py`.
 - Mythology, part 10 (data only): the Scottish, Manx and Breton shelf. From Elizabeth W.
   Grierson's _The Scottish Fairy Book_ (1910), a new `grierson-scottish` collection: Thomas the
-  Rhymer, the Seal Catcher and the Merman, and Assipattle and the Mester Stoorworm, with five of
-  Morris Meredith Williams's pictures. From Sophia Morrison's _Manx Fairy Tales_ (1911),
+  Rhymer, the Seal Catcher and the Merman, and Assipattle and the Mester Stoorworm. From Sophia Morrison's _Manx Fairy Tales_ (1911),
   `morrison-manx`: "The Making of Mann" and "The Coming of Saint Patrick" (Manannan's mist and the
   three-legged men). All five read at advanced level and get retellings in the new _Scottish, Manx
   and Breton Legends, Simply Told_ (grade 3.8–6.3), plus two retold without an original: the
