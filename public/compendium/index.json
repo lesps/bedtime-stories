@@ -900,6 +900,66 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 11
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "contributor": null,
+   "id": "budge-babylonian-creation",
+   "title": "The Babylonian Legends of the Creation",
+   "author": "E. A. Wallis Budge",
+   "firstPublished": 1921,
+   "source": "https://www.gutenberg.org/ebooks/9914",
+   "originalLanguage": "akk",
+   "storyCount": 1
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "contributor": null,
+   "id": "budge-gilgamish",
+   "title": "The Babylonian Story of the Deluge and the Epic of Gilgamish",
+   "author": "E. A. Wallis Budge",
+   "firstPublished": 1920,
+   "source": "https://www.gutenberg.org/ebooks/7096",
+   "originalLanguage": "akk",
+   "storyCount": 6
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "contributor": null,
+   "id": "mackenzie-babylonia",
+   "title": "Myths of Babylonia and Assyria",
+   "author": "Donald A. Mackenzie",
+   "firstPublished": 1915,
+   "source": "https://www.gutenberg.org/ebooks/16653",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "contributor": null,
+   "id": "jastrow-babylonia",
+   "title": "The Religion of Babylonia and Assyria",
+   "author": "Morris Jastrow",
+   "firstPublished": 1898,
+   "source": "https://www.gutenberg.org/ebooks/20758",
+   "originalLanguage": "akk",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-mesopotamian",
+   "title": "Mesopotamian Myths, Simply Told",
+   "author": "Traditional (Mesopotamian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 13
   }
  ],
  "stories": [
@@ -15127,6 +15187,421 @@
     "band": "middle"
    },
    "adaptedFrom": "macaulay-herodotus--the-phoenix"
+  },
+  {
+   "id": "budge-babylonian-creation--the-seven-tablets-of-creation",
+   "collectionId": "budge-babylonian-creation",
+   "order": 1,
+   "title": "The Seven Tablets of Creation",
+   "wordCount": 2923,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-marduk-tiamat",
+   "readingLevel": {
+    "fkGrade": 12.0,
+    "avgSentenceWords": 28.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--marduk-and-tiamat"
+  },
+  {
+   "id": "budge-gilgamish--gilgamish-and-enkidu",
+   "collectionId": "budge-gilgamish",
+   "order": 1,
+   "title": "Gilgamish and Enkidu",
+   "wordCount": 1051,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "gilgamesh-1-enkidu",
+   "readingLevel": {
+    "fkGrade": 12.7,
+    "avgSentenceWords": 30.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--gilgamesh-and-enkidu"
+  },
+  {
+   "id": "budge-gilgamish--the-forest-of-khumbaba",
+   "collectionId": "budge-gilgamish",
+   "order": 2,
+   "title": "The Forest of Khumbaba",
+   "wordCount": 757,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-2-humbaba",
+   "readingLevel": {
+    "fkGrade": 12.4,
+    "avgSentenceWords": 31.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--gilgamesh-and-the-cedar-forest"
+  },
+  {
+   "id": "budge-gilgamish--ishtar-and-the-bull-of-heaven",
+   "collectionId": "budge-gilgamish",
+   "order": 3,
+   "title": "Ishtar and the Bull of Heaven",
+   "wordCount": 827,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "gilgamesh-3-bull",
+   "readingLevel": {
+    "fkGrade": 7.7,
+    "avgSentenceWords": 19.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--gilgamesh-and-the-bull-of-heaven"
+  },
+  {
+   "id": "budge-gilgamish--the-death-of-enkidu",
+   "collectionId": "budge-gilgamish",
+   "order": 4,
+   "title": "The Death of Enkidu",
+   "wordCount": 350,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-4-enkidu-death",
+   "readingLevel": {
+    "fkGrade": 11.5,
+    "avgSentenceWords": 28.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--gilgamesh-loses-his-friend"
+  },
+  {
+   "id": "budge-gilgamish--the-journey-to-uta-napishtim",
+   "collectionId": "budge-gilgamish",
+   "order": 5,
+   "title": "The Journey to Uta-Napishtim",
+   "wordCount": 1491,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-5-journey",
+   "readingLevel": {
+    "fkGrade": 11.3,
+    "avgSentenceWords": 28.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--gilgamesh-goes-to-the-end-of-the-world"
+  },
+  {
+   "id": "budge-gilgamish--the-deluge-and-the-plant-of-youth",
+   "collectionId": "budge-gilgamish",
+   "order": 6,
+   "title": "The Deluge and the Plant of Youth",
+   "wordCount": 2513,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-6-flood-plant",
+   "readingLevel": {
+    "fkGrade": 6.4,
+    "avgSentenceWords": 16.5,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-mesopotamian--the-great-flood-and-the-plant-of-youth"
+  },
+  {
+   "id": "mackenzie-babylonia--the-descent-of-ishtar",
+   "collectionId": "mackenzie-babylonia",
+   "order": 1,
+   "title": "The Descent of Ishtar",
+   "wordCount": 876,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-descent-of-ishtar",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 24.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--ishtar-goes-down-to-the-land-of-the-dead"
+  },
+  {
+   "id": "mackenzie-babylonia--etana-and-the-eagle",
+   "collectionId": "mackenzie-babylonia",
+   "order": 2,
+   "title": "Etana and the Eagle",
+   "wordCount": 348,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-etana",
+   "readingLevel": {
+    "fkGrade": 8.8,
+    "avgSentenceWords": 18.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-mesopotamian--etana-and-the-eagle"
+  },
+  {
+   "id": "jastrow-babylonia--the-legend-of-adapa",
+   "collectionId": "jastrow-babylonia",
+   "order": 1,
+   "title": "The Legend of Adapa",
+   "wordCount": 1251,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-adapa",
+   "readingLevel": {
+    "fkGrade": 6.4,
+    "avgSentenceWords": 14.2,
+    "band": "middle"
+   },
+   "simplifiedId": "myths-mesopotamian--adapa-and-the-south-wind"
+  },
+  {
+   "id": "myths-mesopotamian--marduk-and-tiamat",
+   "collectionId": "myths-mesopotamian",
+   "order": 1,
+   "title": "Marduk and Tiamat",
+   "wordCount": 946,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-marduk-tiamat",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 11.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "budge-babylonian-creation--the-seven-tablets-of-creation"
+  },
+  {
+   "id": "myths-mesopotamian--how-people-were-made-from-clay",
+   "collectionId": "myths-mesopotamian",
+   "order": 2,
+   "title": "How People Were Made from Clay",
+   "wordCount": 501,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-atrahasis-creation",
+   "readingLevel": {
+    "fkGrade": 3.0,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-mesopotamian--adapa-and-the-south-wind",
+   "collectionId": "myths-mesopotamian",
+   "order": 3,
+   "title": "Adapa and the South Wind",
+   "wordCount": 723,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-adapa",
+   "readingLevel": {
+    "fkGrade": 2.3,
+    "avgSentenceWords": 9.5,
+    "band": "early"
+   },
+   "adaptedFrom": "jastrow-babylonia--the-legend-of-adapa"
+  },
+  {
+   "id": "myths-mesopotamian--etana-and-the-eagle",
+   "collectionId": "myths-mesopotamian",
+   "order": 4,
+   "title": "Etana and the Eagle",
+   "wordCount": 342,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-etana",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 12.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "mackenzie-babylonia--etana-and-the-eagle"
+  },
+  {
+   "id": "myths-mesopotamian--inanna-and-the-gifts-of-wisdom",
+   "collectionId": "myths-mesopotamian",
+   "order": 5,
+   "title": "Inanna and the Gifts of Wisdom",
+   "wordCount": 558,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "sumerian-inanna-me",
+   "readingLevel": {
+    "fkGrade": 5.0,
+    "avgSentenceWords": 12.2,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-mesopotamian--ishtar-goes-down-to-the-land-of-the-dead",
+   "collectionId": "myths-mesopotamian",
+   "order": 6,
+   "title": "Ishtar Goes Down to the Land of the Dead",
+   "wordCount": 793,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "babylonian-descent-of-ishtar",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "mackenzie-babylonia--the-descent-of-ishtar"
+  },
+  {
+   "id": "myths-mesopotamian--lugalbanda-and-the-anzu-bird",
+   "collectionId": "myths-mesopotamian",
+   "order": 7,
+   "title": "Lugalbanda and the Anzu Bird",
+   "wordCount": 651,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "sumerian-lugalbanda-anzu",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 12.0,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-mesopotamian--gilgamesh-and-enkidu",
+   "collectionId": "myths-mesopotamian",
+   "order": 8,
+   "title": "Gilgamesh and Enkidu",
+   "wordCount": 837,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-1-enkidu",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 12.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "budge-gilgamish--gilgamish-and-enkidu"
+  },
+  {
+   "id": "myths-mesopotamian--gilgamesh-and-the-cedar-forest",
+   "collectionId": "myths-mesopotamian",
+   "order": 9,
+   "title": "Gilgamesh and the Cedar Forest",
+   "wordCount": 566,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-2-humbaba",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "budge-gilgamish--the-forest-of-khumbaba"
+  },
+  {
+   "id": "myths-mesopotamian--gilgamesh-and-the-bull-of-heaven",
+   "collectionId": "myths-mesopotamian",
+   "order": 10,
+   "title": "Gilgamesh and the Bull of Heaven",
+   "wordCount": 634,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-3-bull",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.4,
+    "band": "early"
+   },
+   "adaptedFrom": "budge-gilgamish--ishtar-and-the-bull-of-heaven"
+  },
+  {
+   "id": "myths-mesopotamian--gilgamesh-loses-his-friend",
+   "collectionId": "myths-mesopotamian",
+   "order": 11,
+   "title": "Gilgamesh Loses His Friend",
+   "wordCount": 237,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-4-enkidu-death",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 11.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "budge-gilgamish--the-death-of-enkidu"
+  },
+  {
+   "id": "myths-mesopotamian--gilgamesh-goes-to-the-end-of-the-world",
+   "collectionId": "myths-mesopotamian",
+   "order": 12,
+   "title": "Gilgamesh Goes to the End of the World",
+   "wordCount": 973,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-5-journey",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 11.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "budge-gilgamish--the-journey-to-uta-napishtim"
+  },
+  {
+   "id": "myths-mesopotamian--the-great-flood-and-the-plant-of-youth",
+   "collectionId": "myths-mesopotamian",
+   "order": 13,
+   "title": "Gilgamesh, the Great Flood and the Plant of Youth",
+   "wordCount": 1550,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "gilgamesh-6-flood-plant",
+   "readingLevel": {
+    "fkGrade": 3.2,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   },
+   "adaptedFrom": "budge-gilgamish--the-deluge-and-the-plant-of-youth"
   }
  ]
 }

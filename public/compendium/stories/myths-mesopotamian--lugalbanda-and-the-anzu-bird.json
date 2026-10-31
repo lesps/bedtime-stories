@@ -1,0 +1,114 @@
+{
+ "id": "myths-mesopotamian--lugalbanda-and-the-anzu-bird",
+ "collectionId": "myths-mesopotamian",
+ "order": 7,
+ "title": "Lugalbanda and the Anzu Bird",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, Enmerkar, the king of Uruk, marched with his army to war against the faraway city of Aratta, over the mountains. With the army went eight brothers, and the youngest of them was called Lugalbanda."
+  },
+  {
+   "type": "p",
+   "text": "But in the mountains, Lugalbanda fell ill. He was so ill that he could not walk, and his brothers thought that he would die. They did not know what to do. So they made him a bed in a cave, and left food and water and his weapons beside him, and they marched on with the army, sadly."
+  },
+  {
+   "type": "p",
+   "text": "Lugalbanda lay alone in the cave. He prayed to the sun god, and to the goddess Inanna, and to the moon god. And the gods heard him, and Lugalbanda got better. He walked out of the cave, alone in the wild mountains."
+  },
+  {
+   "type": "p",
+   "text": "High in the mountains there grew a great tree, and in the tree was the nest of the Anzu bird. The Anzu was a huge bird, with the head of a lion. When it screamed, the mountains shook."
+  },
+  {
+   "type": "p",
+   "text": "Lugalbanda had an idea. The Anzu bird and his wife were away from the nest, and their chick was sitting in it alone. So Lugalbanda climbed up to the nest. He fed the chick with fat and honey and good things to eat. He painted its eyes with dark paint to make them beautiful, and he put sweet-smelling sprigs of juniper on its head. Then he hid."
+  },
+  {
+   "type": "p",
+   "text": "Soon the Anzu bird came flying home with his wife, carrying a wild bull in his claws. He called to his chick, but the chick did not answer. The Anzu bird screamed, and his wife screamed, for they were afraid that something terrible had happened."
+  },
+  {
+   "type": "p",
+   "text": "But when they reached the nest, there was the chick, fed and happy, and dressed up as fine as a prince. The Anzu bird was overjoyed. \"Whoever has done this,\" he cried, \"come out! If you are a god, I will be your friend. If you are a man, I will give you a gift, whatever you ask.\""
+  },
+  {
+   "type": "p",
+   "text": "So Lugalbanda came out of his hiding place, and bowed to the great bird."
+  },
+  {
+   "type": "p",
+   "text": "\"Let me give you a ship full of silver and gold,\" said the Anzu bird."
+  },
+  {
+   "type": "p",
+   "text": "\"No, thank you,\" said Lugalbanda."
+  },
+  {
+   "type": "p",
+   "text": "\"Let me give you a ship full of grain.\""
+  },
+  {
+   "type": "p",
+   "text": "\"No, thank you,\" said Lugalbanda."
+  },
+  {
+   "type": "p",
+   "text": "\"Then let me make you a great archer, whose arrows never miss.\""
+  },
+  {
+   "type": "p",
+   "text": "\"No, thank you,\" said Lugalbanda."
+  },
+  {
+   "type": "p",
+   "text": "\"Then what do you want?\" asked the Anzu bird."
+  },
+  {
+   "type": "p",
+   "text": "\"Let me run as fast as the sun,\" said Lugalbanda, \"as fast as the storm wind, and never grow tired. Let me go wherever I want, as fast as a flash of lightning.\""
+  },
+  {
+   "type": "p",
+   "text": "\"You shall have it,\" said the Anzu bird. \"But don't tell anyone how you got it.\""
+  },
+  {
+   "type": "p",
+   "text": "Then the Anzu bird flew up high to look for Lugalbanda's army, and showed him the way. And Lugalbanda ran to his brothers. They were amazed to see him alive, for they had thought he was dead. But he did not tell them his secret."
+  },
+  {
+   "type": "p",
+   "text": "The army reached Aratta, and they surrounded the city for a whole year, but they could not win. Then King Enmerkar needed someone to carry a message all the way back to Uruk, to the goddess Inanna. None of the soldiers wanted to go alone over the dark mountains."
+  },
+  {
+   "type": "p",
+   "text": "\"I will go,\" said Lugalbanda, \"and I will go alone.\""
+  },
+  {
+   "type": "p",
+   "text": "And he ran over the mountains, faster than anyone had ever run before, and carried the king's message safely home to Uruk."
+  },
+  {
+   "type": "p",
+   "text": "Lugalbanda later became king of Uruk himself. And his son was Gilgamesh, the greatest hero of all."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Sumerian poems Lugalbanda in the Mountain Cave and Lugalbanda and the Anzu Bird (clay tablets of about 1800 BC). There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "sumerian-lugalbanda-anzu",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "wordCount": 651,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 4.1,
+  "avgSentenceWords": 12.0,
+  "band": "middle"
+ }
+}

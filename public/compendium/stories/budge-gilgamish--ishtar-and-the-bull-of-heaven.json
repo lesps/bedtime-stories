@@ -1,0 +1,63 @@
+{
+ "id": "budge-gilgamish--ishtar-and-the-bull-of-heaven",
+ "collectionId": "budge-gilgamish",
+ "order": 3,
+ "title": "Ishtar and the Bull of Heaven",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "heading",
+   "text": "The Sixth Tablet"
+  },
+  {
+   "type": "p",
+   "text": "On his return to Erech, Gilgamish"
+  },
+  {
+   "type": "verse",
+   "text": "Washed his armour, cleaned his weapons,\nDressed his hair and let it fall down on his back.\nHe cast off his dirty garments and put on clean ones\nHe arrayed himself in the [royal head-cloth], he bound on the fillet,\nHe put on his crown, he bound on the fillet.\nThen the eyes of the Majesty of the goddess Ishtar lighted on the goodliness of Gilgamish [and she said],\n\"Go to, Gilgamish, thou shalt be my lover.\nGive me thy [love]-fruit, give to me, I say.\nThou shalt be my man, I will be thy woman.\nI will make to be harnessed for thee a chariot of lapis-lazuli and gold.\nThe wheels thereof shall be of gold and the horns of precious stones.\nThou shalt harness daily to it mighty horses.\nCome into our house with the perfume of the cedar upon thee.\nWhen thou enterest into our house\nThose who sit upon thrones shall kiss thy feet.\nKings, lords and nobles shall bow their backs before thee.\nThe gifts of mountain and land they shall bring as tribute to thee.\nThy... and thy sheep shall bring forth twins.\nBaggage animals shall come laden with tribute.\nThe [horse] in thy chariot shall prance proudly,\nThere shall be none like unto the beast that is under thy yoke.\""
+  },
+  {
+   "type": "p",
+   "text": "In answer to Ishtar's invitation Gilgamish makes a long speech, in which he reviews the calamities and misfortunes of those who have been unfortunate enough to become the lovers of the goddess. Her love is like a door that lets in wind and storm, a fortress that destroys the warriors inside it, an elephant that smashes his howdah, etc. He says, \"What lover didst thou love for long? Which of thy shepherds flourished? Come now, I will describe the calamity [that goeth with thee].\" He refers to Tammuz, the lover of her youth, for whom year by year she arranges wailing commemorations. Every creature that falls under her sway suffers mutilation or death, the bird's wings are broken, the lion is destroyed, the horse is driven to death with whip and spur; and his speech concludes with the words: \"Dost thou love me, and wouldst thou treat me as thou didst them?\""
+  },
+  {
+   "type": "p",
+   "text": "When Ishtar heard these words she was filled with rage, and she went up to heaven and complained to Anu, her father, and Antu, her mother, that Gilgamish had cursed her and revealed all her iniquitous deeds and actions. She followed up her complaint with the request that Anu should create a mighty bull of heaven to destroy Gilgamish, and she threatened her father that if he did not grant her request she would do works of destruction, presumably in the world. Anu created the fire-breathing (?) bull of heaven and sent him to the city of Erech, where he destroyed large numbers of the people. At length Enkidu and Gilgamish determined to go forth and slay the bull. When they came to the place where he was, Enkidu seized him by the tail, and Gilgamish delivered deadly blows between his neck and his horns, and together they killed, him. As soon as Ishtar heard of the death of the bull she rushed out on the battlements of the walls of Erech and cursed Gilgamish for destroying her bull. When Enkidu heard what Ishtar said, he went and tore off a portion of the bull's flesh from his right side, and threw it at the goddess, saying, \"Could I but fight with thee I would serve thee as I have served him! I would twine his entrails about thee.\" Then Ishtar gathered together all her temple women and harlots, and with them made lamentation over the portion of the bull which Enkidu had thrown at her."
+  },
+  {
+   "type": "p",
+   "text": "And Gilgamish called together the artisans of Erech who came and marvelled at the size of the bull's horns, for their bulk was equal to 30 minas of lapis-lazuli, and their thickness to the length of two fingers, and they could contain six Kur measures of oil. Then Gilgamish took them to the temple of the god Lugalbanda and hung them up there on the throne of his majesty, and having made his offering he and Enkidu went to the Euphrates and washed their hands, and walked back to the market-place of Erech. As they went through the streets of the city the people thronged about them to get a sight of their faces. When Gilgamish asked:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Who is splendid among men?\nWho is glorious among heroes?\""
+  },
+  {
+   "type": "p",
+   "text": "these questions were answered by the women of the palace who cried:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Gilgamish is splendid among men.\nGilgamish is glorious among heroes.\""
+  },
+  {
+   "type": "p",
+   "text": "When Gilgamish entered his palace he ordered a great festival to be kept, and his guests were provided by him with beds to sleep on. On the night of the festival Enkidu had a dream, and he rose up and related it to Gilgamish."
+  }
+ ],
+ "workId": "gilgamesh-3-bull",
+ "wordCount": 827,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 7.7,
+  "avgSentenceWords": 19.7,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-mesopotamian--gilgamesh-and-the-bull-of-heaven"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "myths-mesopotamian--gilgamesh-loses-his-friend",
+ "collectionId": "myths-mesopotamian",
+ "order": 11,
+ "title": "Gilgamesh Loses His Friend",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Nobody knows now exactly what Enkidu dreamed that night, because the start of that clay tablet is broken and lost. But it seems that it was a dream of bad things to come."
+  },
+  {
+   "type": "p",
+   "text": "Soon afterwards, Enkidu fell ill. Nobody knows what made him ill. He lay in his bed for ten days, and then he grew worse. And on the twelfth day, Enkidu died."
+  },
+  {
+   "type": "p",
+   "text": "When Gilgamesh was told that his brave friend was dead, he could not believe it. He thought Enkidu must be asleep."
+  },
+  {
+   "type": "p",
+   "text": "\"My brave friend,\" he said, \"you were like a panther of the wild. Together we hunted in the mountains. Together we killed the Bull of Heaven, and together we beat Humbaba in the cedar forest. What kind of sleep is this that has taken hold of you? You stare and stare, and you don't hear me!\""
+  },
+  {
+   "type": "p",
+   "text": "But Enkidu did not move. Gilgamesh touched his chest, and his heart was still."
+  },
+  {
+   "type": "p",
+   "text": "Then Gilgamesh covered his friend over, as gently and carefully as if Enkidu were his bride. And he turned away, and in his sorrow he roared like a lion, and like a mother lion whose cubs have been taken away."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of E. A. Wallis Budge's “The Death of Enkidu” in The Babylonian Story of the Deluge and the Epic of Gilgamish (1920). The original is listed under Other versions. The fourth of six parts of the Epic of Gilgamesh."
+  }
+ ],
+ "workId": "gilgamesh-4-enkidu-death",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "budge-gilgamish--the-death-of-enkidu",
+ "wordCount": 237,
+ "readingMinutes": 1,
+ "readingLevel": {
+  "fkGrade": 4.1,
+  "avgSentenceWords": 11.5,
+  "band": "middle"
+ }
+}
