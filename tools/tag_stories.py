@@ -49,6 +49,8 @@ CULTURES = [
     ("basque", "Basque"),
     ("egyptian", "Ancient Egyptian"),
     ("mesopotamian", "Mesopotamian"),
+    ("hittite", "Hittite and Hurrian"),
+    ("canaanite", "Canaanite"),
     ("japanese", "Japanese"),
 ]
 
@@ -154,6 +156,8 @@ COLLECTION_CULTURE = {
     "mackenzie-babylonia": "mesopotamian",
     "jastrow-babylonia": "mesopotamian",
     "myths-mesopotamian": "mesopotamian",
+    "myths-hittite-canaanite": "hittite",
+    "smith-achilles-tatius": "canaanite",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -161,6 +165,8 @@ COLLECTION_CULTURE = {
 # the Estonian and Sámi ones in `myths-finnic`, the Czech one in `myths-west-slavic`, and the
 # Romanian and Albanian ones in `myths-balkan`, and the Georgian one in `myths-caucasus`.
 STORY_CULTURE = {
+    "myths-hittite-canaanite--baal-and-the-sea": "canaanite",
+    "myths-hittite-canaanite--the-dog-who-found-the-purple-dye": "canaanite",
     "latin-sources--tages": "etruscan",
     "myths-roman--tages-the-child-from-the-furrow": "etruscan",
     "bulfinch-fable--the-roman-gods": "roman",
@@ -238,6 +244,7 @@ MYTH_COLLECTIONS = {
     "mackenzie-babylonia",
     "jastrow-babylonia",
     "myths-mesopotamian",
+    "myths-hittite-canaanite",
 }
 
 ORIGIN_CULTURE = [
@@ -625,6 +632,13 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-mesopotamian--gilgamesh-goes-to-the-end-of-the-world": {"add": ["monsters"], "remove": ["underdogs"]},
     "budge-gilgamish--the-deluge-and-the-plant-of-youth": {"add": ["quests", "animals", "magic"]},
     "myths-mesopotamian--the-great-flood-and-the-plant-of-youth": {"add": ["quests", "animals", "magic"]},
+    # Hittite, Hurrian and Canaanite myths
+    "myths-hittite-canaanite--telipinu-the-god-who-went-away": {"add": ["quests", "magic"]},
+    "myths-hittite-canaanite--the-storm-god-and-the-dragon-illuyanka": {"add": ["tricksters"]},
+    "myths-hittite-canaanite--ullikummi-the-stone-giant": {"add": ["magic", "royalty"]},
+    "myths-hittite-canaanite--baal-and-the-sea": {"add": ["magic"], "remove": ["animals", "tricksters", "gentle"]},
+    "smith-achilles-tatius--the-shepherds-dog-and-the-purple-dye": {"add": ["how-things-began"], "remove": ["kindness"]},
+    "myths-hittite-canaanite--the-dog-who-found-the-purple-dye": {"add": ["how-things-began"], "remove": ["gods-heroes"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},
