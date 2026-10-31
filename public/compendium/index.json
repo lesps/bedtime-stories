@@ -960,6 +960,30 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 13
+  },
+  {
+   "id": "smith-achilles-tatius",
+   "title": "Clitopho and Leucippe",
+   "author": "Achilles Tatius",
+   "contributor": "Translated by Rowland Smith",
+   "firstPublished": 1855,
+   "source": "https://www.gutenberg.org/ebooks/55406",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "el",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-hittite-canaanite",
+   "title": "Hittite and Canaanite Myths, Simply Told",
+   "author": "Traditional (Hittite, Hurrian and Canaanite)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 5
   }
  ],
  "stories": [
@@ -15602,6 +15626,110 @@
     "band": "early"
    },
    "adaptedFrom": "budge-gilgamish--the-deluge-and-the-plant-of-youth"
+  },
+  {
+   "id": "smith-achilles-tatius--the-shepherds-dog-and-the-purple-dye",
+   "collectionId": "smith-achilles-tatius",
+   "order": 1,
+   "title": "The Shepherd's Dog and the Purple Dye",
+   "wordCount": 303,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "tyrian-purple-dog",
+   "readingLevel": {
+    "fkGrade": 15.7,
+    "avgSentenceWords": 39.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hittite-canaanite--the-dog-who-found-the-purple-dye"
+  },
+  {
+   "id": "myths-hittite-canaanite--telipinu-the-god-who-went-away",
+   "collectionId": "myths-hittite-canaanite",
+   "order": 1,
+   "title": "Telipinu, the God Who Went Away",
+   "wordCount": 719,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hittite-telipinu",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 10.7,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-hittite-canaanite--the-storm-god-and-the-dragon-illuyanka",
+   "collectionId": "myths-hittite-canaanite",
+   "order": 2,
+   "title": "The Storm God and the Dragon Illuyanka",
+   "wordCount": 345,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hittite-illuyanka",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 10.7,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-hittite-canaanite--ullikummi-the-stone-giant",
+   "collectionId": "myths-hittite-canaanite",
+   "order": 3,
+   "title": "Ullikummi, the Stone Giant",
+   "wordCount": 632,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hurrian-ullikummi",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 12.9,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-hittite-canaanite--baal-and-the-sea",
+   "collectionId": "myths-hittite-canaanite",
+   "order": 4,
+   "title": "Baal and the Sea",
+   "wordCount": 448,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "canaanite-baal-yam",
+   "readingLevel": {
+    "fkGrade": 2.4,
+    "avgSentenceWords": 10.4,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-hittite-canaanite--the-dog-who-found-the-purple-dye",
+   "collectionId": "myths-hittite-canaanite",
+   "order": 5,
+   "title": "The Dog Who Found the Purple Dye",
+   "wordCount": 349,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "tyrian-purple-dog",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 12.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "smith-achilles-tatius--the-shepherds-dog-and-the-purple-dye"
   }
  ]
 }
