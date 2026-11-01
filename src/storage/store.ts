@@ -25,6 +25,8 @@ const DEFAULT_PICKER = {
 const settingsSchema = z.object({
   showMature: z.boolean().catch(false),
   showExcluded: z.boolean().catch(false),
+  /** List the original texts of retold myths instead of their simplified retellings. */
+  showOriginals: z.boolean().catch(false),
   theme: z.enum(THEMES).catch('system'),
   fontSize: z
     .number()

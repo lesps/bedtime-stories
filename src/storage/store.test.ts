@@ -26,6 +26,7 @@ describe('store', () => {
     expect(DEFAULT_STATE.settings).toMatchObject({
       showMature: false,
       showExcluded: false,
+      showOriginals: false,
       theme: 'system',
     });
   });

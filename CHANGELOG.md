@@ -30,6 +30,15 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- The library lists one version of each retold myth: the simplified retelling, with a "Read the
+  original" link in the reader (and "Read the retelling for young readers" in the original). Search,
+  Cultures/Themes counts, tag pages, collection pages, previous/next and Surprise me follow suit;
+  favorites, Continue reading and the Reading shelf don't. A new Settings switch, "List original
+  texts instead of retellings", flips it. Books whose every story is retold drop out of the
+  library (77 collections → 35 by default); their pages list the originals under "Original texts".
+  `simplifiedId` and `adaptedFrom` are now part of the index schema, and the integrity test checks
+  that they link both ways within one `workId`.
+
 - Mythology, part 19 (data only): Hittite, Hurrian and Canaanite myths. One original, the Tyrian
   legend of the shepherd's dog that found the purple dye, from Achilles Tatius's _Clitopho and
   Leucippe_ in Rowland Smith's translation (1855, `smith-achilles-tatius`, advanced). New

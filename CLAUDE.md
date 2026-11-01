@@ -93,7 +93,8 @@ src/domain/               pure logic: visibility, picker (+ presets), navigation
                           collection labels,
                           search normalisation, excerpt, typeset (curly quotes/dashes), progress,
                           annotations (anchor + segments), notebook (list + Markdown export),
-                          autoHide (reader bar show/hide on scroll)
+                          autoHide (reader bar show/hide on scroll), versions (which version of a
+                          retold myth is listed)
 src/storage/              store.ts (single versioned localStorage key), StoreProvider.tsx (hooks)
 src/reader/               ReaderPage, BlockRenderer, ReaderControls, ProgressBar, useReadingTracker,
                           useAutoHide
@@ -103,8 +104,10 @@ src/pages/                Library, Collection, Tag, Reading (shelf), Favorites, 
                           About, NotFound
 src/offline/download.ts   "Make all stories available offline" (writes into the SW's caches)
 src/app/                  App/routes/layout, TabBar, theme (system/light/sepia/dark), online status hook,
-                          useScrollMemory (back/forward scroll positions)
-src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver
+                          useScrollMemory (back/forward scroll positions), useVisibleStories
+                          (visible / listed stories)
+src/test/                 setup, fixtures (incl. mulberry32), renderApp harness, fake IntersectionObserver,
+                          versionsFixture (a small shelf of originals and retellings)
 e2e/                      a11y (axe, all themes), happy path, offline, touch swipe, length slider,
                           surprise (Give me 3), reading tab (+ reader bar), notes, nav (tab re-taps,
                           back keeps scroll), desktop (sidebar, hover actions, drawer, a11y)
@@ -117,7 +120,8 @@ e2e/                      a11y (axe, all themes), happy path, offline, touch swi
 such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>--<slug>`),
 `collectionId`, `order`, `title`, `wordCount`, `readingMinutes`, `excluded`, `flags`
 (`mature-themes` | `racial-slur` | `antisemitic-caricature`), `hasImages`, and optional `workId`
-(shared by translations of one tale, e.g. `grimm-khm-015`). `stories/<id>.json` adds `origin`,
+(shared by translations of one tale, e.g. `grimm-khm-015`), `simplifiedId` and `adaptedFrom`
+(below). `stories/<id>.json` adds `origin`,
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
@@ -125,17 +129,14 @@ failures throw `DataError` (`kind: network | http | invalid`). 1033 stories, 82 
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
-**Fields in the data that the app doesn't read yet.** zod strips unknown keys, so these are safe to
-ship ahead of the code; they appear on story files and, where marked, on index entries too.
+**Retellings.**
 
-- `readingLevel` (index + story): `{ fkGrade, avgSentenceWords, band }`, with band one of
-  `early`, `middle` or `advanced` (rules in `tools/readability.py`). Set on the myth collections.
-- `simplifiedId` (index + story), on an original: the id of the simplified retelling to show in
-  its place. Several versions of one myth can share one retelling (all three Perseus stories point
+- `simplifiedId` (index + story), on an original: the id of the simplified retelling listed in
+  its place (see One version per myth, below). Several versions of one myth can share one retelling (all three Perseus stories point
   to the same one); the retelling's `alsoSimplifies` front matter sets that up.
 - `adaptedFrom` (index + story), on a retelling: the original's id. Story files also carry
-  `adaptation: "simplified"` and `adaptedBy`. Original and retelling share a `workId`, so today
-  the reader already links them under Other versions, and the retelling ends with a `note` block
+  `adaptation: "simplified"` and `adaptedBy`. Original and retelling share a `workId`, so the reader also
+  lists them under Other versions, and the retelling ends with a `note` block
   naming the original. Other versions lists only visible stories, so when the original is hidden by
   default (a `mature-themes` original with an unflagged retelling) the note names the Settings
   toggle that shows it; the integrity test checks every note. A retelling of a legend with no usable public-domain text (Rübezahl,
@@ -146,14 +147,17 @@ ship ahead of the code; they appear on story files and, where marked, on index e
   Mari of Anboto, Inanna and the gifts of wisdom, Lugalbanda and the Anzu bird, the Atrahasis
   making of people from clay, the three Hittite and Hurrian myths, and Baal and Yam; ‡ in the
   expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
-  note says what it was retold from.
+  note says what it was retold from. The integrity test checks that the links run both ways and
+  stay within one `workId`.
 
-Intended behaviour, not yet built: the library, search, collections and the picker show the
-retelling and hide any story with a `simplifiedId`; the reader of a retelling offers "Read the
-original"; and a Settings switch shows originals instead. A story gets a retelling when its band
-is `advanced` or it runs over 20 minutes. Three `middle` originals have one anyway: the verse
+A story gets a retelling when its band is `advanced` or it runs over 20 minutes. Three `middle` originals have one anyway: the verse
 translation of Arany's stag legend (a long poem), Budge's Gilgamish Tablet XI (its short verse lines
 pull the score down) and Jastrow's Adapa (mostly commentary around the tablet's lines).
+
+**Fields in the data that the app doesn't read yet.** zod strips unknown keys, so these are safe to
+ship ahead of the code: `readingLevel` (index + story), `{ fkGrade, avgSentenceWords, band }`, with
+band one of `early`, `middle` or `advanced` (rules in `tools/readability.py`), set on the myth
+collections; and, on story files, `adaptation` and `adaptedBy`.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
@@ -171,6 +175,19 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
 - **Visibility** (`domain/visibility.ts`): `excluded` hidden unless `showExcluded`; `mature-themes`
   hidden unless `showMature`. Applied in library, search, collections, favorites, continue-reading,
   prev/next and the picker. A hidden story opened by URL shows a "hidden" message, not the text.
+- **One version per myth** (`domain/versions.ts`, `app/useVisibleStories.ts`): where a myth has a
+  simplified retelling, listings show one version: the retelling by default, the original(s) with
+  `settings.showOriginals` ("List original texts instead of retellings", For grown-ups). A version
+  only gives way to one that content settings show, so a `mature-themes` original never takes its
+  retelling's place while mature themes are hidden. `hiddenVersions` gives the ids left out;
+  "listed" = visible and not left out. Listings are the library (collection cards and counts,
+  search), Cultures/Themes cards and tag pages, collection pages, prev/next and Surprise me (picks
+  and collection chips). Favorites, Continue reading, the Reading shelf and Recently picked use
+  visibility only, and a left-out version opened by URL reads normally. A collection page lists
+  its left-out versions in their own section ("Original texts", or "Retellings for young readers"),
+  so a book retold entirely drops out of the library but its page still works; prev/next steps
+  through whichever of the two lists the story is in. The reader links each version to the other
+  ("Read the original" / "Read the retelling for young readers") when content settings show it.
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
 progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progress entries also carry `blockCount` (when
   known) so the shelf can show a percentage, and `finished` once the last block was reached. Each field falls back to its default independently; corrupt
@@ -327,7 +344,7 @@ fine)`.
 
 - Tests first for new behaviour. Pure logic lives in `src/domain` and gets table tests.
 - Component tests render through `src/test/renderApp.tsx` (real routes, mocked `fetch`, fresh
-  store). Use roles/labels, not class names, where possible.
+  store); pass it other `FixtureData` (e.g. `versionsFixture`) to serve a different compendium. Use roles/labels, not class names, where possible.
 - Randomness is injected; use `mulberry32` from `src/test/fixtures.ts`.
 - jsdom has no IntersectionObserver — use `installFakeIO()`.
 - `src/data/integrity.test.ts` runs in Node over the real `public/compendium/`; keep it green when

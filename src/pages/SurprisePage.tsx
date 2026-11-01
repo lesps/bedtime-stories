@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router';
 import { usePrefersReducedMotion } from '../app/theme';
-import { useVisibleStories } from '../app/useVisibleStories';
+import { useHiddenVersions, useListedStories, useVisibleStories } from '../app/useVisibleStories';
 import { LengthSlider } from '../components/LengthSlider';
 import { StoryList } from '../components/StoryRow';
 import { TagFilterChips } from '../components/TagFilterChips';
@@ -21,6 +21,8 @@ export function SurprisePage() {
   const { picker, showMature, showExcluded } = state.settings;
   const reducedMotion = usePrefersReducedMotion();
   const visible = useVisibleStories();
+  const listed = useListedStories();
+  const hidden = useHiddenVersions();
   const [result, setResult] = useState<PickManyResult | null>(null);
   const [round, setRound] = useState(0);
 
@@ -30,11 +32,12 @@ export function SurprisePage() {
   const ctx = useMemo(
     () => ({
       visibility: { showMature, showExcluded },
+      hidden,
       readIds: new Set(state.history.map((h) => h.id)),
       favoriteIds: new Set(Object.keys(state.favorites)),
       tagsOf,
     }),
-    [showMature, showExcluded, state.history, state.favorites, tagsOf],
+    [showMature, showExcluded, hidden, state.history, state.favorites, tagsOf],
   );
 
   const doPick = () => {
@@ -131,7 +134,7 @@ export function SurprisePage() {
           {collections
             .filter(
               (c) =>
-                picker.collections.includes(c.id) || visible.some((s) => s.collectionId === c.id),
+                picker.collections.includes(c.id) || listed.some((s) => s.collectionId === c.id),
             )
             .map((c) => (
               <button

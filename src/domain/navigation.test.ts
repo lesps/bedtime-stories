@@ -40,4 +40,16 @@ describe('neighbors', () => {
     const n = neighbors(stories, 'a--2', hide);
     expect([n.prev?.id, n.next?.id]).toEqual(['a--1', 'a--3']);
   });
+  it('steps through listed stories, or through the versions left out of listings', () => {
+    const replaced = new Set(['a--3']);
+    expect(visibleInCollection(stories, 'a', hide, replaced).map((s) => s.id)).toEqual([
+      'a--1',
+      'a--5',
+    ]);
+    const listed = neighbors(stories, 'a--1', hide, replaced);
+    expect(listed.next?.id).toBe('a--5');
+    // An original opened from its retelling moves among the other originals.
+    const book = neighbors(stories, 'a--3', hide, new Set(['a--1', 'a--3']));
+    expect([book.prev?.id, book.next?.id]).toEqual(['a--1', undefined]);
+  });
 });

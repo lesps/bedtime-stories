@@ -879,6 +879,17 @@ figure img[style] {
 .eyebrow + .page-title {
   margin-top: 0.1rem;
 }
+/* "Read the original" / "Read the retelling…", between the byline and the tag chips. */
+.version-link {
+  margin: -0.75em 0 1.5em;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+.version-link a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+}
 .tag-chips {
   display: flex;
   flex-wrap: wrap;

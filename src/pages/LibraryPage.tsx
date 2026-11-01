@@ -9,7 +9,7 @@ import { FULL_RANGE, inRange, isFullRange, type LengthRange } from '../domain/le
 import { isInProgress } from '../domain/progress';
 import { matchesQuery } from '../domain/search';
 import { useAppState } from '../storage/StoreProvider';
-import { useVisibleStories } from '../app/useVisibleStories';
+import { useListedStories, useVisibleStories } from '../app/useVisibleStories';
 
 const BROWSE = [
   { id: 'collections', label: 'Collections' },
@@ -22,16 +22,17 @@ export function LibraryPage() {
   const [params, setParams] = useSearchParams();
   const by = BROWSE.find((b) => b.id === params.get('by'))?.id ?? 'collections';
   const visible = useVisibleStories();
+  const listed = useListedStories();
   const { progress } = useAppState();
   const [query, setQuery] = useState('');
   const [length, setLength] = useState<LengthRange>(FULL_RANGE);
 
   const results = useMemo(
     () =>
-      visible
+      listed
         .filter((s) => matchesQuery(s, query, tagLabels(s.id)) && inRange(s.readingMinutes, length))
         .sort((a, b) => a.title.localeCompare(b.title)),
-    [visible, query, length, tagLabels],
+    [listed, query, length, tagLabels],
   );
   const inProgress = useMemo(
     () =>
@@ -103,7 +104,7 @@ export function LibraryPage() {
           {by === 'collections' ? (
             <ul className="collections">
               {collections.map((c) => {
-                const count = visible.filter((s) => s.collectionId === c.id).length;
+                const count = listed.filter((s) => s.collectionId === c.id).length;
                 if (count === 0) return null;
                 return (
                   <li key={c.id}>

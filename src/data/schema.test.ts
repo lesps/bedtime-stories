@@ -49,4 +49,12 @@ describe('schema additions from compendium patches 001–003', () => {
     expect(indexSchema.safeParse(withCode('EG')).success).toBe(false);
     expect(indexSchema.safeParse(withCode('egyp')).success).toBe(false);
   });
+
+  it('keeps the links between an original and its simplified retelling on index entries', () => {
+    const index = indexSchema.parse(JSON.parse(readFileSync(join(root, 'index.json'), 'utf8')));
+    const orig = index.stories.find((s) => s.simplifiedId);
+    expect(orig).toBeDefined();
+    const retelling = index.stories.find((s) => s.id === orig!.simplifiedId);
+    expect(retelling?.adaptedFrom).toBeTruthy();
+  });
 });

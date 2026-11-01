@@ -7,7 +7,7 @@ import { useSettings, useStore } from '../storage/StoreProvider';
 
 export function SettingsPage() {
   const store = useStore();
-  const { showMature, showExcluded } = useSettings();
+  const { showMature, showExcluded, showOriginals } = useSettings();
   return (
     <div className="page">
       <h1 className="page-title">Settings</h1>
@@ -38,6 +38,18 @@ export function SettingsPage() {
             />
             Show stories excluded for offensive language
           </label>
+          <label className="toggle">
+            <input
+              type="checkbox"
+              checked={showOriginals}
+              onChange={(e) => store.updateSettings({ showOriginals: e.target.checked })}
+            />
+            List original texts instead of retellings
+          </label>
+          <p className="muted hint">
+            Myths retold for young readers are listed as the retelling, with a link to the original
+            text inside. Turn this on to list the original texts instead.
+          </p>
         </section>
 
         <OfflineSection />
