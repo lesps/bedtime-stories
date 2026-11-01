@@ -71,7 +71,8 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           and Book of the Dead, Spence, Petrie's Shipwrecked Sailor, Herodotus's phoenix;
                           extract_mesopotamian.py: Budge's Babylonian Legends of the Creation and
                           Epic of Gilgamish (in six stories), Mackenzie's Descent of Ishtar and Etana,
-                          Jastrow's Adapa)
+                          Jastrow's Adapa; extract_achilles_tatius.py: the Tyrian legend of the
+                          purple dye from Smith's Clitopho and Leucippe)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
@@ -120,7 +121,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1027 stories, 80 collections, ~11 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1033 stories, 82 collections, ~11 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -142,8 +143,9 @@ ship ahead of the code; they appear on story files and, where marked, on index e
   Gwaelod, the Cailleach, the Breton city of Ys, Gawain and the Green Knight, the Sámi Son of the
   Sun, all four Lithuanian and Latvian stories, Dobrynya and the dragon, Sadko and the Snow
   Maiden, Lech, Czech and Rus, the Wawel dragon, Master Manole, Mujo's strength, Emese's dream, Sosruko, Amirani, Martin Txiki,
-  Mari of Anboto, Inanna and the gifts of wisdom, Lugalbanda and the Anzu bird, and the Atrahasis
-  making of people from clay; ‡ in the expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
+  Mari of Anboto, Inanna and the gifts of wisdom, Lugalbanda and the Anzu bird, the Atrahasis
+  making of people from clay, the three Hittite and Hurrian myths, and Baal and Yam; ‡ in the
+  expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
   note says what it was retold from.
 
 Intended behaviour, not yet built: the library, search, collections and the picker show the
@@ -155,11 +157,11 @@ pull the score down) and Jastrow's Adapa (mostly commentary around the tablet's 
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-35 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+37 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
-and Mujo in `myths-balkan` as `romanian` and `albanian`, and Amirani in `myths-caucasus` as `georgian`; the Arthurian legends
+and Mujo in `myths-balkan` as `romanian` and `albanian`, Amirani in `myths-caucasus` as `georgian`, and Baal and the purple dye in `myths-hittite-canaanite` as `canaanite`; the Arthurian legends
 are their own culture, `arthurian`)
 and 18 themes (`gods-heroes` comes from the `MYTH_COLLECTIONS` rule, and from `OVERRIDES` for the
 Russian epic heroes, since the Russian collections are fairy-tale books). Regenerate with `python3 tools/tag_stories.py` after any data change.
@@ -296,7 +298,7 @@ fine)`.
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian), `myths-basque`, `myths-egyptian` or `myths-mesopotamian` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian` or `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite) by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).

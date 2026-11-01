@@ -1,0 +1,70 @@
+{
+ "id": "myths-hittite-canaanite--the-storm-god-and-the-dragon-illuyanka",
+ "collectionId": "myths-hittite-canaanite",
+ "order": 2,
+ "title": "The Storm God and the Dragon Illuyanka",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Every spring, the Hittites held a great festival, so that the land would grow and be green. And at the festival, the priests told this story."
+  },
+  {
+   "type": "p",
+   "text": "Long ago, the Storm God fought the great serpent Illuyanka. Illuyanka was a huge dragon who lived in a hole in the ground. And in that fight, the dragon beat the Storm God."
+  },
+  {
+   "type": "p",
+   "text": "So the Storm God called all the gods together. \"Help me!\" he said."
+  },
+  {
+   "type": "p",
+   "text": "Then the goddess Inara, the Storm God's daughter, made a plan. She made ready a great feast. She filled jars and jars with wine, and with other good drinks, until there were more than anyone could ever drink."
+  },
+  {
+   "type": "p",
+   "text": "Then Inara went to the town of Zigaratta, and there she met a man called Hupasiya. \"Hupasiya,\" she said, \"I need your help.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I will help you,\" said Hupasiya."
+  },
+  {
+   "type": "p",
+   "text": "So Inara took Hupasiya with her, and she hid him near the dragon's hole. Then she dressed in her finest clothes, and she called down into the hole. \"Illuyanka! Come out! I have made a feast for you. Come and eat and drink!\""
+  },
+  {
+   "type": "p",
+   "text": "Out came Illuyanka, and all his children with him. They ate and they drank. They drank every jar dry. They ate and drank until they were so full and so fat that they could not squeeze back down into their hole."
+  },
+  {
+   "type": "p",
+   "text": "Then Hupasiya jumped out of his hiding place with a rope, and he tied up Illuyanka tight."
+  },
+  {
+   "type": "p",
+   "text": "And the Storm God came, with all the gods beside him, and he fought the dragon again. And this time, the Storm God won, and the dragon Illuyanka was killed."
+  },
+  {
+   "type": "p",
+   "text": "And that is the story the priests told every spring, at the festival of Purulli, as they prayed, \"Let the land grow and thrive, and let it be kept safe.\""
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Hittite myth of the Storm God and the serpent Illuyanka, told at the spring festival of Purulli (clay tablets of about 1300 BC). There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "hittite-illuyanka",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "wordCount": 345,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 3.5,
+  "avgSentenceWords": 10.7,
+  "band": "early"
+ }
+}

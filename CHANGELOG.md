@@ -30,6 +30,15 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 19 (data only): Hittite, Hurrian and Canaanite myths. One original, the Tyrian
+  legend of the shepherd's dog that found the purple dye, from Achilles Tatius's _Clitopho and
+  Leucippe_ in Rowland Smith's translation (1855, `smith-achilles-tatius`, advanced). New
+  `myths-hittite-canaanite` collection, "Hittite and Canaanite Myths, Simply Told": a retelling of
+  the purple dye and four ‡ retellings (no public-domain translation exists: these texts were
+  first translated in the 1930s) of Telipinu, the god who went away; the Storm God and the dragon
+  Illuyanka; Ullikummi, the stone giant; and Baal and Yam. New cultures `hittite` ("Hittite and
+  Hurrian") and `canaanite`; `tools/extract_achilles_tatius.py`.
+
 - Mythology, part 18 (data only): Mesopotamian myths. Ten originals in four new collections: the
   Seven Tablets of Creation from Budge's _The Babylonian Legends of the Creation_ (1921,
   `budge-babylonian-creation`); the Epic of Gilgamesh in six stories from Budge's _The Babylonian

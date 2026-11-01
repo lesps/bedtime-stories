@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 1027 public-domain children's stories in 80 collections — Aesop
+A calm, offline-capable reader for 1033 public-domain children's stories in 82 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -38,14 +38,15 @@ Shipwrecked Sailor"; and Herodotus on the phoenix (Macaulay's translation). Meso
 Creation from Budge's The Babylonian Legends of the Creation, the Epic of Gilgamesh in six parts
 from Budge's The Babylonian Story of the Deluge and the Epic of Gilgamish, Ishtar's descent and
 Etana from Mackenzie's Myths of Babylonia and Assyria, and Adapa from Jastrow's The Religion of
-Babylonia and Assyria. Where no
+Babylonia and Assyria. Phoenician: the Tyrian legend of the dog who found the purple dye, from
+Rowland Smith's translation of Achilles Tatius. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,
 and Arany's Hungarian legend of the wondrous stag.
 Simplified retellings for young readers in Greek, Roman, Norse, German, English, Irish, Welsh,
 Scottish, Manx and Breton, Arthurian, Finnish, Estonian and Sámi, Lithuanian and Latvian, Russian,
-Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, and Mesopotamian collections "Simply Told".
+Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, Mesopotamian, and Hittite and Canaanite collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 

@@ -1,0 +1,29 @@
+{
+ "id": "smith-achilles-tatius--the-shepherds-dog-and-the-purple-dye",
+ "collectionId": "smith-achilles-tatius",
+ "order": 1,
+ "title": "The Shepherd's Dog and the Purple Dye",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "From the second book of Achilles Tatius's novel, written in Greek in the second century AD. Clitopho, who tells the story, is describing the purple of a wedding robe."
+  },
+  {
+   "type": "p",
+   "text": "The purple of the dress was of no ordinary dye, but of the kind which the Tyrians fable to have been discovered by the shepherd's dog, and with which they are wont to represent the robe of Venus to be tinged. There was a time when this purple dye was as yet unknown, but remained concealed in the hollow of a little shell fish. A shepherd meeting with one of these hoped to obtain the fish which was inside; foiled by the hardness of the shell, after bestowing a hearty curse upon his booty, he threw it into the sea as so much worthless rubbish. His dog lighted upon this windfall, and broke open the shell with his teeth, in doing which his mouth and lips became stained with the brilliant dye, or as we may call it, blood. The shepherd upon seeing this supposed it the effect of a wound; so taking the dog down to the sea he washed his mouth, upon which the imaginary blood assumed a still more brilliant hue, and upon proceeding to touch it, his hand became of a purple colour. The shepherd now guessed what was the nature of the shell fish, and that it was impregnated with a dye of surpassing beauty; so taking some wool he placed it in the aperture, determined to dive into the mysteries of the shell; and it became of a colour similar to that upon the dog's mouth. By this means he obtained a knowledge of what we call purple; and after breaking open its fortified receptacle with the help of a stone, he arrived at the treasure-house of dye."
+  }
+ ],
+ "workId": "tyrian-purple-dog",
+ "wordCount": 303,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 15.7,
+  "avgSentenceWords": 39.3,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-hittite-canaanite--the-dog-who-found-the-purple-dye"
+}
