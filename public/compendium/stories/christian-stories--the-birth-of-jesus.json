@@ -1,0 +1,92 @@
+{
+ "id": "christian-stories--the-birth-of-jesus",
+ "collectionId": "christian-stories",
+ "order": 1,
+ "title": "The Birth of Jesus",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the emperor Caesar Augustus gave an order that all the people in the world must have their names written down. So everyone went to their own town to have their names written down."
+  },
+  {
+   "type": "p",
+   "text": "Joseph lived in the town of Nazareth, in Galilee. But he belonged to the family of King David, so he went up to Bethlehem in Judea, the town of David. He went with Mary, who was promised to him as his wife, and who was going to have a baby."
+  },
+  {
+   "type": "p",
+   "text": "While they were in Bethlehem, the time came for the baby to be born. And Mary gave birth to her first son. She wrapped him in strips of cloth, and laid him in a manger, because there was no room for them at the inn."
+  },
+  {
+   "type": "p",
+   "text": "In the fields nearby there were shepherds, keeping watch over their sheep at night. Suddenly an angel of the Lord stood beside them, and the glory of the Lord shone all around them, and they were very frightened."
+  },
+  {
+   "type": "p",
+   "text": "But the angel said to them, \"Don't be afraid! I bring you good news of great joy, which is for all the people. Today, in the town of David, a Saviour has been born for you, who is Christ the Lord. And this is how you will know him: you will find a baby wrapped in strips of cloth and lying in a manger.\""
+  },
+  {
+   "type": "p",
+   "text": "Then suddenly there was a great crowd of angels from heaven with the angel, praising God and saying, \"Glory to God in the highest, and on earth peace among the people he is pleased with!\""
+  },
+  {
+   "type": "p",
+   "text": "When the angels had gone away from them into heaven, the shepherds said to each other, \"Let's go to Bethlehem, and see this thing that has happened, which the Lord has told us about.\""
+  },
+  {
+   "type": "p",
+   "text": "So they hurried to Bethlehem, and they found Mary and Joseph, and the baby lying in the manger. When they saw him, they told what had been said to them about this child. And everyone who heard it was amazed at what the shepherds said. But Mary kept all these things in her heart, and thought about them."
+  },
+  {
+   "type": "p",
+   "text": "Then the shepherds went back, praising God for everything they had heard and seen. It had all happened just as they had been told."
+  },
+  {
+   "type": "p",
+   "text": "After Jesus was born in Bethlehem, in the days when Herod was king, wise men came from the east to Jerusalem. \"Where is the child who has been born King of the Jews?\" they asked. \"We saw his star in the east, and we have come to worship him.\""
+  },
+  {
+   "type": "p",
+   "text": "When King Herod heard this, he was troubled, and so was everyone in Jerusalem. He called together all the chief priests and the teachers of the law, and asked them where the Christ was to be born."
+  },
+  {
+   "type": "p",
+   "text": "\"In Bethlehem, in Judea,\" they said. \"For this is what the prophet wrote: 'And you, Bethlehem, in the land of Judah, are not the least important among the leaders of Judah. For out of you will come a ruler, who will be the shepherd of my people Israel.'\""
+  },
+  {
+   "type": "p",
+   "text": "Then Herod called the wise men to see him secretly, and found out from them exactly when the star had appeared. And he sent them to Bethlehem. \"Go and search carefully for the young child,\" he said. \"And when you have found him, come back and tell me, so that I can go and worship him too.\""
+  },
+  {
+   "type": "p",
+   "text": "So the wise men went on their way. And the star that they had seen in the east went ahead of them, until it came and stopped over the place where the young child was. When they saw the star, they were filled with joy."
+  },
+  {
+   "type": "p",
+   "text": "They went into the house, and they saw the young child with Mary his mother, and they bowed down and worshipped him. Then they opened their treasures, and gave him gifts: gold, and frankincense, and myrrh."
+  },
+  {
+   "type": "p",
+   "text": "But God warned them in a dream not to go back to Herod. So they went home to their own country by another way."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Nativity” in The Holy Bible, American Standard Version, translated by the American Revision Committee (1901). The original is listed under Other versions. This story comes from two of the Gospels, Luke and Matthew. Frankincense and myrrh are sweet-smelling resins from trees, and they were very precious. Christians remember the birth of Jesus at Christmas."
+  }
+ ],
+ "workId": "christian-nativity",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "asv-1901--the-nativity",
+ "livingTradition": "Christians",
+ "wordCount": 738,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 5.3,
+  "avgSentenceWords": 16.2,
+  "band": "middle"
+ }
+}

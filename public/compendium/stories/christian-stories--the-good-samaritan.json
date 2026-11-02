@@ -1,0 +1,80 @@
+{
+ "id": "christian-stories--the-good-samaritan",
+ "collectionId": "christian-stories",
+ "order": 2,
+ "title": "The Good Samaritan",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "One day a man who knew all about the law stood up to test Jesus. \"Teacher,\" he said, \"what must I do to have eternal life?\""
+  },
+  {
+   "type": "p",
+   "text": "\"What is written in the law?\" said Jesus. \"What do you read there?\""
+  },
+  {
+   "type": "p",
+   "text": "The man answered, \"Love the Lord your God with all your heart, and with all your soul, and with all your strength, and with all your mind; and love your neighbour as yourself.\""
+  },
+  {
+   "type": "p",
+   "text": "\"You have answered right,\" said Jesus. \"Do this, and you will live.\""
+  },
+  {
+   "type": "p",
+   "text": "But the man wanted to show that he was in the right. So he said to Jesus, \"And who is my neighbour?\""
+  },
+  {
+   "type": "p",
+   "text": "Jesus answered him with a story."
+  },
+  {
+   "type": "p",
+   "text": "A man was going down the road from Jerusalem to Jericho, when robbers attacked him. They took his clothes, and beat him, and went away, and left him lying there, half dead."
+  },
+  {
+   "type": "p",
+   "text": "It happened that a priest was going down the same road. But when he saw the man, he went past on the other side of the road. Then a Levite, one of the men who helped in the Temple, came to the place too. He saw the man, and he also went past on the other side."
+  },
+  {
+   "type": "p",
+   "text": "But then a Samaritan came along, on a journey. When he saw the man, he felt sorry for him. He went over to him, and poured oil and wine on his wounds, and bandaged them. Then he put the man on his own animal, and brought him to an inn, and took care of him."
+  },
+  {
+   "type": "p",
+   "text": "The next day, the Samaritan took out two silver coins and gave them to the innkeeper. \"Take care of him,\" he said. \"And if you spend any more than this, I will pay you back when I come again.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Jesus asked, \"Which of these three do you think was a neighbour to the man who was attacked by the robbers?\""
+  },
+  {
+   "type": "p",
+   "text": "\"The one who showed him mercy,\" said the man."
+  },
+  {
+   "type": "p",
+   "text": "And Jesus said to him, \"Go, and do the same.\""
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Good Samaritan” in The Holy Bible, American Standard Version, translated by the American Revision Committee (1901). The original is listed under Other versions. From the tenth chapter of the Gospel of Luke. The Samaritans lived in Samaria, between Galilee and Judea. In Jesus's time, Jews and Samaritans did not get along."
+  }
+ ],
+ "workId": "christian-good-samaritan",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "asv-1901--the-good-samaritan",
+ "livingTradition": "Christians",
+ "wordCount": 392,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 3.0,
+  "avgSentenceWords": 12.4,
+  "band": "early"
+ }
+}

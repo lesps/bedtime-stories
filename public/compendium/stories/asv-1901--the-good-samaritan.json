@@ -1,0 +1,74 @@
+{
+ "id": "asv-1901--the-good-samaritan",
+ "collectionId": "asv-1901",
+ "order": 2,
+ "title": "The Good Samaritan",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Luke 10:25–37, in the American Standard Version (1901)."
+  },
+  {
+   "type": "p",
+   "text": "And behold, a certain lawyer stood up and made trial of him, saying, Teacher, what shall I do to inherit eternal life?"
+  },
+  {
+   "type": "p",
+   "text": "And he said unto him, What is written in the law? how readest thou?"
+  },
+  {
+   "type": "p",
+   "text": "And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbor as thyself."
+  },
+  {
+   "type": "p",
+   "text": "And he said unto him, Thou hast answered right: this do, and thou shalt live."
+  },
+  {
+   "type": "p",
+   "text": "But he, desiring to justify himself, said unto Jesus, And who is my neighbor?"
+  },
+  {
+   "type": "p",
+   "text": "Jesus made answer and said, A certain man was going down from Jerusalem to Jericho; and he fell among robbers, who both stripped him and beat him, and departed, leaving him half dead."
+  },
+  {
+   "type": "p",
+   "text": "And by chance a certain priest was going down that way: and when he saw him, he passed by on the other side."
+  },
+  {
+   "type": "p",
+   "text": "And in like manner a Levite also, when he came to the place, and saw him, passed by on the other side."
+  },
+  {
+   "type": "p",
+   "text": "But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he was moved with compassion, and came to him, and bound up his wounds, pouring on them oil and wine; and he set him on his own beast, and brought him to an inn, and took care of him."
+  },
+  {
+   "type": "p",
+   "text": "And on the morrow he took out two shillings, and gave them to the host, and said, Take care of him; and whatsoever thou spendest more, I, when I come back again, will repay thee."
+  },
+  {
+   "type": "p",
+   "text": "Which of these three, thinkest thou, proved neighbor unto him that fell among the robbers?"
+  },
+  {
+   "type": "p",
+   "text": "And he said, He that showed mercy on him. And Jesus said unto him, Go, and do thou likewise."
+  }
+ ],
+ "workId": "christian-good-samaritan",
+ "livingTradition": "Christians",
+ "wordCount": 310,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 7.3,
+  "avgSentenceWords": 21.6,
+  "band": "advanced"
+ },
+ "simplifiedId": "christian-stories--the-good-samaritan"
+}

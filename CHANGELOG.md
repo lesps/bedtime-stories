@@ -30,6 +30,14 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 22: Christian stories. The Nativity (Luke 2:1–20 and Matthew 2:1–12), the Good
+  Samaritan and the Prodigal Son in the American Standard Version (1901, `asv-1901`), marked as
+  sacred to Christians today; the Prodigal Son is `mature-themes` (the elder son's "with harlots"),
+  as the Hebrew Bible's harlots were. The Seven Sleepers of Ephesus from Jacobus de Voragine's
+  Golden Legend, in Baring-Gould's translation in Curious Myths of the Middle Ages (1866,
+  `baring-gould-myths`), with `workId` `seven-sleepers` for the Qur'an's Sleepers of the Cave to
+  share. New "Christian Stories, Simply Told" (`christian-stories`): all four retold, the Prodigal
+  Son `flags: none`. New culture `christian` ("Christian"); `tools/extract_christian.py`.
 - Mythology, part 21: Jewish legend. Abraham smashing his father's idols, from Ginzberg's The
   Legends of the Jews, volume 1 (Szold's translation, 1909, `ginzberg-legends`); King Solomon, the
   demon king Ashmodai and the stone-cutting worm Shamir, from Friedlander's Jewish Fairy Stories

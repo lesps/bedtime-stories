@@ -53,6 +53,7 @@ CULTURES = [
     ("canaanite", "Canaanite"),
     ("hebrew", "Hebrew Bible"),
     ("jewish", "Jewish"),
+    ("christian", "Christian"),
     ("japanese", "Japanese"),
 ]
 
@@ -166,6 +167,9 @@ COLLECTION_CULTURE = {
     "friedlander-jewish": "jewish",
     "landa-jewish": "jewish",
     "jewish-legends": "jewish",
+    "asv-1901": "christian",
+    "baring-gould-myths": "christian",
+    "christian-stories": "christian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -656,6 +660,8 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "jewish-legends--the-golem-of-prague": {"add": ["magic"]},
     "landa-jewish--the-sleep-of-one-hundred-years": {"remove": ["gentle"]},
     "jewish-legends--honi-the-circle-maker": {"remove": ["quests"]},
+    # Christian stories
+    "asv-1901--the-good-samaritan": {"remove": ["monsters", "quests"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

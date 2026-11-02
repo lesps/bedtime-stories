@@ -1,0 +1,142 @@
+{
+ "id": "asv-1901--the-nativity",
+ "collectionId": "asv-1901",
+ "order": 1,
+ "title": "The Nativity",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Luke 2:1–20; Matthew 2:1–12, in the American Standard Version (1901)."
+  },
+  {
+   "type": "heading",
+   "text": "Luke 2"
+  },
+  {
+   "type": "p",
+   "text": "Now it came to pass in those days, there went out a decree from Cæsar Augustus, that all the world should be enrolled."
+  },
+  {
+   "type": "p",
+   "text": "This was the first enrolment made when Quirinius was governor of Syria."
+  },
+  {
+   "type": "p",
+   "text": "And all went to enrol themselves, every one to his own city."
+  },
+  {
+   "type": "p",
+   "text": "And Joseph also went up from Galilee, out of the city of Nazareth, into Judæa, to the city of David, which is called Bethlehem, because he was of the house and family of David; to enrol himself with Mary, who was betrothed to him, being great with child."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass, while they were there, the days were fulfilled that she should be delivered."
+  },
+  {
+   "type": "p",
+   "text": "And she brought forth her firstborn son; and she wrapped him in swaddling clothes, and laid him in a manger, because there was no room for them in the inn."
+  },
+  {
+   "type": "p",
+   "text": "And there were shepherds in the same country abiding in the field, and keeping watch by night over their flock."
+  },
+  {
+   "type": "p",
+   "text": "And an angel of the Lord stood by them, and the glory of the Lord shone round about them: and they were sore afraid."
+  },
+  {
+   "type": "p",
+   "text": "And the angel said unto them, Be not afraid; for behold, I bring you good tidings of great joy which shall be to all the people: for there is born to you this day in the city of David a Saviour, who is Christ the Lord."
+  },
+  {
+   "type": "p",
+   "text": "And this is the sign unto you: Ye shall find a babe wrapped in swaddling clothes, and lying in a manger."
+  },
+  {
+   "type": "p",
+   "text": "And suddenly there was with the angel a multitude of the heavenly host praising God, and saying, Glory to God in the highest, And on earth peace among men in whom he is well pleased."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass, when the angels went away from them into heaven, the shepherds said one to another, Let us now go even unto Bethlehem, and see this thing that is come to pass, which the Lord hath made known unto us."
+  },
+  {
+   "type": "p",
+   "text": "And they came with haste, and found both Mary and Joseph, and the babe lying in the manger."
+  },
+  {
+   "type": "p",
+   "text": "And when they saw it, they made known concerning the saying which was spoken to them about this child."
+  },
+  {
+   "type": "p",
+   "text": "And all that heard it wondered at the things which were spoken unto them by the shepherds."
+  },
+  {
+   "type": "p",
+   "text": "But Mary kept all these sayings, pondering them in her heart."
+  },
+  {
+   "type": "p",
+   "text": "And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, even as it was spoken unto them."
+  },
+  {
+   "type": "heading",
+   "text": "Matthew 2"
+  },
+  {
+   "type": "p",
+   "text": "Now when Jesus was born in Bethlehem of Judæa in the days of Herod the king, behold, Wise-men from the east came to Jerusalem, saying, Where is he that is born King of the Jews? for we saw his star in the east, and are come to worship him."
+  },
+  {
+   "type": "p",
+   "text": "And when Herod the king heard it, he was troubled, and all Jerusalem with him."
+  },
+  {
+   "type": "p",
+   "text": "And gathering together all the chief priests and scribes of the people, he inquired of them where the Christ should be born."
+  },
+  {
+   "type": "p",
+   "text": "And they said unto him, In Bethlehem of Judæa: for thus it is written through the prophet, And thou Bethlehem, land of Judah, Art in no wise least among the princes of Judah: For out of thee shall come forth a governor, Who shall be shepherd of my people Israel."
+  },
+  {
+   "type": "p",
+   "text": "Then Herod privily called the Wise-men, and learned of them exactly what time the star appeared."
+  },
+  {
+   "type": "p",
+   "text": "And he sent them to Bethlehem, and said, Go and search out exactly concerning the young child; and when ye have found him, bring me word, that I also may come and worship him."
+  },
+  {
+   "type": "p",
+   "text": "And they, having heard the king, went their way; and lo, the star, which they saw in the east, went before them, till it came and stood over where the young child was."
+  },
+  {
+   "type": "p",
+   "text": "And when they saw the star, they rejoiced with exceeding great joy."
+  },
+  {
+   "type": "p",
+   "text": "And they came into the house and saw the young child with Mary his mother; and they fell down and worshipped him; and opening their treasures they offered unto him gifts, gold and frankincense and myrrh."
+  },
+  {
+   "type": "p",
+   "text": "And being warned of God in a dream that they should not return to Herod, they departed into their own country another way."
+  }
+ ],
+ "workId": "christian-nativity",
+ "livingTradition": "Christians",
+ "wordCount": 727,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 9.4,
+  "avgSentenceWords": 25.7,
+  "band": "advanced"
+ },
+ "simplifiedId": "christian-stories--the-birth-of-jesus"
+}

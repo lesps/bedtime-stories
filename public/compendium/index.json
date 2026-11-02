@@ -1056,6 +1056,42 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 4
+  },
+  {
+   "id": "asv-1901",
+   "title": "The Holy Bible, American Standard Version",
+   "author": "The New Testament",
+   "contributor": "Translated by the American Revision Committee",
+   "firstPublished": 1901,
+   "source": "https://github.com/scrollmapper/bible_databases/tree/master/sources/en/ASV",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "el",
+   "storyCount": 3
+  },
+  {
+   "id": "baring-gould-myths",
+   "title": "Curious Myths of the Middle Ages",
+   "author": "Sabine Baring-Gould",
+   "contributor": null,
+   "firstPublished": 1866,
+   "source": "https://www.gutenberg.org/ebooks/36127",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "la",
+   "storyCount": 1
+  },
+  {
+   "id": "christian-stories",
+   "title": "Christian Stories, Simply Told",
+   "author": "Traditional (Christian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 4
   }
  ],
  "stories": [
@@ -16634,6 +16670,152 @@
     "avgSentenceWords": 12.8,
     "band": "middle"
    }
+  },
+  {
+   "id": "asv-1901--the-nativity",
+   "collectionId": "asv-1901",
+   "order": 1,
+   "title": "The Nativity",
+   "wordCount": 727,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "christian-nativity",
+   "readingLevel": {
+    "fkGrade": 9.4,
+    "avgSentenceWords": 25.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "christian-stories--the-birth-of-jesus"
+  },
+  {
+   "id": "asv-1901--the-good-samaritan",
+   "collectionId": "asv-1901",
+   "order": 2,
+   "title": "The Good Samaritan",
+   "wordCount": 310,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "christian-good-samaritan",
+   "readingLevel": {
+    "fkGrade": 7.3,
+    "avgSentenceWords": 21.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "christian-stories--the-good-samaritan"
+  },
+  {
+   "id": "asv-1901--the-prodigal-son",
+   "collectionId": "asv-1901",
+   "order": 3,
+   "title": "The Prodigal Son",
+   "wordCount": 538,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "christian-prodigal-son",
+   "readingLevel": {
+    "fkGrade": 8.7,
+    "avgSentenceWords": 25.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "christian-stories--the-prodigal-son"
+  },
+  {
+   "id": "baring-gould-myths--the-seven-sleepers-of-ephesus",
+   "collectionId": "baring-gould-myths",
+   "order": 1,
+   "title": "The Seven Sleepers of Ephesus",
+   "wordCount": 1392,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "seven-sleepers",
+   "readingLevel": {
+    "fkGrade": 7.8,
+    "avgSentenceWords": 18.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "christian-stories--the-seven-sleepers-of-ephesus"
+  },
+  {
+   "id": "christian-stories--the-birth-of-jesus",
+   "collectionId": "christian-stories",
+   "order": 1,
+   "title": "The Birth of Jesus",
+   "wordCount": 738,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "christian-nativity",
+   "readingLevel": {
+    "fkGrade": 5.3,
+    "avgSentenceWords": 16.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "asv-1901--the-nativity"
+  },
+  {
+   "id": "christian-stories--the-good-samaritan",
+   "collectionId": "christian-stories",
+   "order": 2,
+   "title": "The Good Samaritan",
+   "wordCount": 392,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "christian-good-samaritan",
+   "readingLevel": {
+    "fkGrade": 3.0,
+    "avgSentenceWords": 12.4,
+    "band": "early"
+   },
+   "adaptedFrom": "asv-1901--the-good-samaritan"
+  },
+  {
+   "id": "christian-stories--the-prodigal-son",
+   "collectionId": "christian-stories",
+   "order": 3,
+   "title": "The Prodigal Son",
+   "wordCount": 593,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "christian-prodigal-son",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 12.6,
+    "band": "early"
+   },
+   "adaptedFrom": "asv-1901--the-prodigal-son"
+  },
+  {
+   "id": "christian-stories--the-seven-sleepers-of-ephesus",
+   "collectionId": "christian-stories",
+   "order": 4,
+   "title": "The Seven Sleepers of Ephesus",
+   "wordCount": 1424,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "seven-sleepers",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 13.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "baring-gould-myths--the-seven-sleepers-of-ephesus"
   }
  ]
 }
