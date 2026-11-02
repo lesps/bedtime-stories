@@ -1,0 +1,122 @@
+{
+ "id": "pickthall-koran--noah-and-the-ship",
+ "collectionId": "pickthall-koran",
+ "order": 3,
+ "title": "Noah and the Ship",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Hud (Surah 11), verses 25–49, in Marmaduke Pickthall's translation (1930). In the Qur'an, Allah speaks to the Prophet Muhammad, often as \"We\". The words in brackets are Pickthall's, to make the meaning clear."
+  },
+  {
+   "type": "p",
+   "text": "And We sent Noah unto his folk (and he said): Lo! I am a plain warner unto you."
+  },
+  {
+   "type": "p",
+   "text": "That ye serve none, save Allah. Lo! I fear for you the retribution of a painful Day."
+  },
+  {
+   "type": "p",
+   "text": "The chieftains of his folk, who disbelieved, said: We see thee but a mortal like us, and we see not that any follow thee save the most abject among us, without reflection. We behold in you no merit above us - nay, we deem you liars."
+  },
+  {
+   "type": "p",
+   "text": "He said: O my people! Bethink you, if I rely on a clear proof from my Lord and there hath come unto me a mercy from His presence, and it hath been made obscure to you, can we compel you to accept it when ye are averse thereto?"
+  },
+  {
+   "type": "p",
+   "text": "And O my people! I ask of you no wealth therefor. My reward is the concern only of Allah, and I am not going to thrust away those who believe - Lo! they have to meet their Lord! - but I see you a folk that are ignorant."
+  },
+  {
+   "type": "p",
+   "text": "And, O my people! who would deliver me from Allah if I thrust them away? Will ye not then reflect?"
+  },
+  {
+   "type": "p",
+   "text": "I say not unto you: \"I have the treasures of Allah\" nor \"I have knowledge of the Unseen,\" nor say I: \"Lo! I am an angel!\" Nor say I unto those whom your eyes scorn that Allah will not give them good - Allah knoweth best what is in their hearts - Lo! then indeed I should be of the wrong-doers."
+  },
+  {
+   "type": "p",
+   "text": "They said: O Noah! Thou hast disputed with us and multiplied disputation with us; now bring upon us that wherewith thou threatenest us, if thou art of the truthful."
+  },
+  {
+   "type": "p",
+   "text": "He said: Only Allah will bring it upon you if He will, and ye can by no means escape."
+  },
+  {
+   "type": "p",
+   "text": "My counsel will not profit you if I were minded to advise you, if Allah's will is to keep you astray. He is your Lord and unto Him ye will be brought back."
+  },
+  {
+   "type": "p",
+   "text": "Or say they (again): He hath invented it? Say: If I have invented it, upon me be my crimes, but I am innocent of (all) that ye commit."
+  },
+  {
+   "type": "p",
+   "text": "And it was inspired in Noah, (saying): No-one of thy folk will believe save him who hath believed already. Be not distressed because of what they do."
+  },
+  {
+   "type": "p",
+   "text": "Build the ship under Our eyes and by Our inspiration, and speak not unto Me on behalf of those who do wrong. Lo! they will be drowned."
+  },
+  {
+   "type": "p",
+   "text": "And he was building the ship, and every time that chieftains of his people passed him, they made mock of him. He said: Though ye make mock of Us, yet We mock at you even as ye mock; And ye shall know to whom a punishment that will confound him cometh, and upon whom a lasting doom will fall."
+  },
+  {
+   "type": "p",
+   "text": "(Thus it was) till, when Our commandment came to pass and the oven gushed forth water, We said: Load therein two of every kind, a pair (the male and female), and thy household, save him against whom the word hath gone forth already, and those who believe. And but a few were they who believed with him."
+  },
+  {
+   "type": "p",
+   "text": "And he said: Embark therein! In the name of Allah be its course and its mooring. Lo! my Lord is Forgiving, Merciful."
+  },
+  {
+   "type": "p",
+   "text": "And it sailed with them amid waves like mountains, and Noah cried unto his son - and he was standing aloof - O my son! Come ride with us, and be not with the disbelievers."
+  },
+  {
+   "type": "p",
+   "text": "He said: I shall betake me to some mountain that will save me from the water. (Noah) said: This day there is none that saveth from the commandment of Allah save him on whom He hath had mercy. And the wave came in between them, so he was among the drowned."
+  },
+  {
+   "type": "p",
+   "text": "And it was said: O earth! Swallow thy water and, O sky! be cleared of clouds! And the water was made to subside. And the commandment was fulfilled. And it (the ship) came to rest upon (the mount) Al-Judi and it was said: A far removal for wrongdoing folk!"
+  },
+  {
+   "type": "p",
+   "text": "And Noah cried unto his Lord and said: My Lord! Lo! my son is of my household! Surely Thy promise is the truth and Thou art the Most Just of Judges."
+  },
+  {
+   "type": "p",
+   "text": "He said: O Noah! Lo! he is not of thy household; lo! he is of evil conduct, so ask not of Me that whereof thou hast no knowledge. I admonish thee lest thou be among the ignorant."
+  },
+  {
+   "type": "p",
+   "text": "He said: My Lord! Lo! in Thee do I seek refuge (from the sin) that I should ask of Thee that whereof I have no knowledge. Unless Thou forgive me and have mercy on me I shall be among the lost."
+  },
+  {
+   "type": "p",
+   "text": "It was said (unto him): O Noah! Go thou down (from the mountain) with peace from Us and blessings upon thee and some nations (that will spring) from those with thee. (There will be other) nations unto whom We shall give enjoyment a long while and then a painful doom from Us will overtake them."
+  },
+  {
+   "type": "p",
+   "text": "This is of the tidings of the Unseen which We inspire in thee (Muhammad). Thou thyself knewest it not, nor did thy folk (know it) before this. Then have patience. Lo! the sequel is for those who ward off (evil)."
+  }
+ ],
+ "workId": "hebrew-noah",
+ "livingTradition": "Muslims",
+ "wordCount": 931,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 4.0,
+  "avgSentenceWords": 12.2,
+  "band": "middle"
+ },
+ "simplifiedId": "quran-stories--nuh-and-the-ark"
+}

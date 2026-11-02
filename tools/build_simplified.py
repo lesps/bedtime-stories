@@ -237,6 +237,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "quran-stories": {
+        "id": "quran-stories",
+        "title": "Stories from the Qur'an, Simply Told",
+        "author": "The Qur'an",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "christian-stories": {
         "id": "christian-stories",
         "title": "Christian Stories, Simply Told",

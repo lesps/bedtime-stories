@@ -1,0 +1,50 @@
+{
+ "id": "pickthall-koran--jonah-and-the-fish",
+ "collectionId": "pickthall-koran",
+ "order": 4,
+ "title": "Jonah and the Fish",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Those Who Set The Ranks (Surah 37), verses 139–148; The Prophets (Surah 21), verses 87–88, in Marmaduke Pickthall's translation (1930). In the Qur'an, Allah speaks to the Prophet Muhammad, often as \"We\". The words in brackets are Pickthall's, to make the meaning clear."
+  },
+  {
+   "type": "heading",
+   "text": "Those Who Set The Ranks (Surah 37)"
+  },
+  {
+   "type": "p",
+   "text": "And lo! Jonah verily was of those sent (to warn) When he fled unto the laden ship, And then drew lots and was of those rejected; And the fish swallowed him while he was blameworthy; And had he not been one of those who glorify (Allah) He would have tarried in its belly till the day when they are raised; Then We cast him on a desert shore while he was sick; And We caused a tree of gourd to grow above him; And We sent him to a hundred thousand (folk) or more And they believed, therefor We gave them comfort for a while.."
+  },
+  {
+   "type": "heading",
+   "text": "The Prophets (Surah 21)"
+  },
+  {
+   "type": "note",
+   "text": "Dhu'n-Nun, \"the one of the fish\", is Jonah."
+  },
+  {
+   "type": "p",
+   "text": "And (mention) Dhu'n-Nun, when he went off in anger and deemed that We had no power over him, but he cried out in the darkness, saying: There is no God save Thee. Be Thou Glorified! Lo! I have been a wrong-doer."
+  },
+  {
+   "type": "p",
+   "text": "Then we heard his prayer and saved him from the anguish. Thus we save believers."
+  }
+ ],
+ "workId": "hebrew-jonah",
+ "livingTradition": "Muslims",
+ "wordCount": 223,
+ "readingMinutes": 1,
+ "readingLevel": {
+  "fkGrade": 6.7,
+  "avgSentenceWords": 20.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "quran-stories--yunus-and-the-fish"
+}

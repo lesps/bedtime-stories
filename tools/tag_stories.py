@@ -54,6 +54,7 @@ CULTURES = [
     ("hebrew", "Hebrew Bible"),
     ("jewish", "Jewish"),
     ("christian", "Christian"),
+    ("islamic", "Islamic"),
     ("japanese", "Japanese"),
 ]
 
@@ -170,6 +171,8 @@ COLLECTION_CULTURE = {
     "asv-1901": "christian",
     "baring-gould-myths": "christian",
     "christian-stories": "christian",
+    "pickthall-koran": "islamic",
+    "quran-stories": "islamic",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -778,6 +781,18 @@ HEBREW_BIBLE = {
 for _slug, _o in HEBREW_BIBLE.items():
     OVERRIDES[f"jps-1917--{_slug}"] = _o
     OVERRIDES[f"hebrew-bible--{_slug}"] = _o
+# Qur'an: Pickthall's passage and its retelling share their themes, with the same rule as the
+# Hebrew Bible (never "magic" or "ghosts").
+QURAN = {
+    ("the-people-of-the-cave", "the-sleepers-of-the-cave"): {"add": ["legends"]},
+    ("solomon-the-ants-and-the-hoopoe", "sulayman-the-ants-and-the-hoopoe"):
+        {"add": ["animals", "royalty", "legends", "gentle"], "remove": ["kindness"]},
+    ("noah-and-the-ship", "nuh-and-the-ark"): {"add": ["animals", "legends"], "remove": ["kindness", "gentle"]},
+    ("jonah-and-the-fish", "yunus-and-the-fish"): {"add": ["animals", "quests", "legends"]},
+}
+for (_orig, _retold), _o in QURAN.items():
+    OVERRIDES[f"pickthall-koran--{_orig}"] = _o
+    OVERRIDES[f"quran-stories--{_retold}"] = _o
 OVERRIDES["jps-1917--cain-and-abel"] = {"add": ["family", "legends"]}
 OVERRIDES["jps-1917--jacob-wrestles-with-the-angel"] = {"add": ["family", "legends"]}
 

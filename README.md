@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 1087 public-domain children's stories in 91 collections — Aesop
+A calm, offline-capable reader for 1095 public-domain children's stories in 93 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -47,14 +47,16 @@ King Solomon and the worm Shamir from Gerald Friedlander's Jewish Fairy Stories,
 sleep and the Golem of Prague from Gertrude Landa's Jewish Fairy Tales and Legends. Christian: the
 Nativity, the Good Samaritan and the Prodigal Son in the American Standard Version (1901), and the
 Seven Sleepers of Ephesus from the Golden Legend, in Sabine Baring-Gould's Curious Myths of the
-Middle Ages. Where no
+Middle Ages. Islamic: the Sleepers of the Cave, Solomon with the ants and the hoopoe, Noah, and
+Jonah, in Marmaduke Pickthall's The Meaning of the Glorious Koran (1930), marked as sacred to
+Muslims and never illustrated. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,
 and Arany's Hungarian legend of the wondrous stag.
 Simplified retellings for young readers in Greek, Roman, Norse, German, English, Irish, Welsh,
 Scottish, Manx and Breton, Arthurian, Finnish, Estonian and Sámi, Lithuanian and Latvian, Russian,
-Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, Mesopotamian, Hittite and Canaanite, Hebrew Bible, Jewish legend and Christian collections "Simply Told".
+Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, Mesopotamian, Hittite and Canaanite, Hebrew Bible, Jewish legend, Christian and Qur'an collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -123,7 +125,7 @@ trademarks on Peter Rabbit and other Potter characters, so don't use them in the
 or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
 
-The simplified retellings (the twenty-three "Simply Told" collections, `myths-*`, `hebrew-bible`, `jewish-legends` and `christian-stories`) were written by Claude
+The simplified retellings (the twenty-four "Simply Told" collections, `myths-*`, `hebrew-bible`, `jewish-legends`, `christian-stories` and `quran-stories`) were written by Claude
 (Anthropic) from public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt
 into story JSON by `tools/build_simplified.py`. Each one links to its original, except the few
 legends with no public-domain text available, whose end note says what they were retold from.

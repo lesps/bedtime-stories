@@ -30,6 +30,14 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 23: stories from the Qur'an. The People of the Cave (Surah 18), Solomon, the
+  ants and the hoopoe (Surah 27), Noah (Surah 11) and Jonah (Surahs 37 and 21), in Marmaduke
+  Pickthall's translation (1930, `pickthall-koran`), marked as sacred to Muslims. The Cave shares
+  the Seven Sleepers' `workId`, and Noah and Jonah share the Hebrew Bible's, so each lists the
+  other under Other versions. New "Stories from the Qur'an, Simply Told" (`quran-stories`):
+  retellings of all four, using the Arabic names (Nuh, Sulayman, Yunus). New culture `islamic`
+  ("Islamic"); `tools/extract_islamic.py`. A new integrity test fails if a story sacred to Muslims
+  ever carries a picture.
 - Mythology, part 22: Christian stories. The Nativity (Luke 2:1–20 and Matthew 2:1–12), the Good
   Samaritan and the Prodigal Son in the American Standard Version (1901, `asv-1901`), marked as
   sacred to Christians today; the Prodigal Son is `mature-themes` (the elder son's "with harlots"),
