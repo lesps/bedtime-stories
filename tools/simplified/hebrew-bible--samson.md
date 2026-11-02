@@ -1,0 +1,91 @@
+---
+title: Samson
+adaptedFrom: jps-1917--samson
+order: 13
+flags: none
+namesNote: From chapters 13 to 16 of the Book of Judges. A Nazirite was someone set apart for God, who never cut their hair.
+---
+
+Long ago, the Philistines ruled over the children of Israel for forty years.
+
+In the town of Zorah there lived a man called Manoah. He and his wife had no children. One day the angel of the Lord appeared to his wife. "You have no children," the angel said, "but you are going to have a son. Do not drink any wine, and do not eat anything unclean. No razor must ever touch your son's head, for he will be a Nazirite, set apart for God from before he is born. And he will begin to save Israel from the Philistines."
+
+The woman ran and told her husband. "A man of God came to me," she said, "and he looked like an angel of God, very awesome. I did not ask him where he came from, and he did not tell me his name."
+
+Manoah prayed that the man of God would come again, and God listened. The angel came again to the woman while she was sitting in the field, and she ran to fetch Manoah. Manoah asked the angel how they should bring up the child, and the angel told him again everything he had told his wife.
+
+"Please stay," said Manoah, "and let us cook a young goat for you." For Manoah did not know that he was the angel of the Lord.
+
+"Even if you make me stay, I will not eat your food," said the angel. "But if you want to make an offering, offer it to the Lord."
+
+"What is your name," asked Manoah, "so that we can honour you when your words come true?"
+
+"Why do you ask my name," said the angel, "when it is hidden?"
+
+So Manoah made an offering to the Lord on a rock. And as the flame went up towards heaven from the altar, the angel of the Lord went up in the flame! Manoah and his wife fell on their faces to the ground. Then Manoah knew that he had been the angel of the Lord.
+
+"We are sure to die," said Manoah, "because we have seen God."
+
+But his wife said, "If the Lord had meant to kill us, He would not have taken our offering, and He would not have shown us all these things, and told us what is going to happen."
+
+And the woman had a son, and she named him Samson. The child grew, and the Lord blessed him, and the spirit of the Lord began to stir in him.
+
+When Samson grew up, he wanted to marry a Philistine woman from the town of Timnah. His father and mother were unhappy. "Isn't there a woman among our own people for you to marry?" they asked. But Samson said, "Get her for me, for she pleases me." His father and mother did not know that this was from the Lord, who was looking for a way to deal with the Philistines.
+
+So Samson went down to Timnah with his father and mother. On the way, by the vineyards of Timnah, a young lion came roaring at him. And the spirit of the Lord came mightily upon Samson, and he tore the lion apart with his bare hands, as easily as if it were a young goat. But he did not tell his father or mother what he had done.
+
+Some time later, when Samson went back to marry the woman, he turned aside to look at the lion's body. And there was a swarm of bees inside it, and honey! He scooped out the honey with his hands, and ate it as he walked along, and he gave some to his father and mother too. But he did not tell them that the honey came from the lion.
+
+At the wedding feast, thirty young Philistine men were there as Samson's companions. "Let me ask you a riddle," said Samson. "If you can tell me the answer within the seven days of the feast, I will give you thirty linen shirts and thirty sets of clothes. But if you cannot, you must give me thirty linen shirts and thirty sets of clothes."
+
+"Tell us your riddle," they said.
+
+So Samson said:
+
+"Out of the eater came food,
+and out of the strong came sweetness."
+
+For three days they could not solve it. So they went to Samson's wife and threatened her. "Get your husband to tell you the answer," they said, "or we will burn down your father's house with you in it!" So Samson's wife wept and begged him, all through the feast, until on the seventh day he told her. And she told the answer to the Philistines.
+
+On the seventh day, before the sun went down, the men said to Samson:
+
+"What is sweeter than honey?
+And what is stronger than a lion?"
+
+Samson knew they had got the answer from his wife. In his anger he went off to the Philistine town of Ashkelon, and struck down thirty men there, and gave their clothes to the men who had answered the riddle. Then he went home to his father's house. And his wife was given to another man.
+
+After that, Samson fought the Philistines again and again. When he went back for his wife and found she had been given away, he caught three hundred foxes, tied burning torches to them, and let them loose in the Philistines' fields, so that all their grain and their olive groves burned up. The Philistines came after him, and the men of Judah tied him up with two new ropes to hand him over. But when the Philistines came shouting to meet him, the spirit of the Lord came mightily upon him, and the ropes on his arms melted away like burnt thread. He picked up the jawbone of a donkey, and with it he fought off a thousand Philistines.
+
+Afterwards, Samson was terribly thirsty. "Am I going to die of thirst now?" he cried to the Lord. And God split open a hollow in the ground, and water came out, and Samson drank, and his strength came back.
+
+Samson led Israel for twenty years.
+
+Once, when Samson was in the Philistine city of Gaza, the people of Gaza lay in wait for him all night at the city gate, planning to kill him in the morning. But at midnight Samson got up, took hold of the doors of the city gate, and pulled them up, posts and bar and all. He put them on his shoulders and carried them to the top of a hill near Hebron!
+
+Later Samson loved a woman called Delilah, who lived in the valley of Sorek. The lords of the Philistines came to her. "Trick him," they said. "Find out where his great strength comes from, and how we can tie him up. And each of us will give you eleven hundred pieces of silver."
+
+So Delilah said to Samson, "Tell me, please, what makes you so strong? How could someone tie you up?"
+
+"If they tie me with seven fresh bowstrings that have never been dried," said Samson, "I will become weak, like anyone else." So the Philistines brought her seven fresh bowstrings, and she tied him up with them, while men hid in the next room. "Samson, the Philistines are upon you!" she cried. And he snapped the bowstrings as if they were thread.
+
+"You have made a fool of me and told me lies," said Delilah. "Tell me how you can be tied up." So he told her new ropes, and she tied him with new ropes. But he snapped them off his arms like thread. Then he told her to weave his seven long locks of hair into the cloth on her loom. But when she cried, "Samson, the Philistines are upon you!" he woke up and pulled it all away.
+
+"How can you say you love me," said Delilah, "when you don't trust me? Three times you have made a fool of me, and still you haven't told me where your great strength comes from." She kept on at him, day after day, until he was so worn out that he felt he could die. And at last he told her everything.
+
+"No razor has ever touched my head," he said, "because I have been a Nazirite, set apart for God, since before I was born. If my hair is cut, my strength will go, and I will be as weak as anyone else."
+
+Delilah knew he had told her the truth. She sent for the lords of the Philistines, and they came with the money in their hands. She let Samson fall asleep with his head on her knees, and she called a man to shave off the seven locks of his hair. And his strength left him.
+
+"Samson, the Philistines are upon you!" she cried. He woke up and said, "I will go out as before, and shake myself free." But he did not know that the Lord had left him.
+
+The Philistines seized him and blinded him, and took him down to Gaza. They bound him with bronze chains, and set him to work grinding grain in the prison. But his hair began to grow again.
+
+The lords of the Philistines gathered for a great celebration, to offer a sacrifice to their god Dagon. "Our god has given us Samson, our enemy!" they said. And when they were merry, they said, "Bring out Samson, to entertain us." So they brought Samson out of the prison, and made him stand between the pillars of the temple. The building was full of men and women, and all the lords of the Philistines were there, and about three thousand people were on the roof, watching.
+
+Samson said to the boy who was leading him by the hand, "Let me feel the pillars that hold up the building, so that I can lean on them."
+
+Then Samson called to the Lord. "O Lord God, remember me, I pray You. Give me strength, just this once, O God."
+
+Samson took hold of the two middle pillars that held up the building, one with his right hand and one with his left. "Let me die with the Philistines," he said. And he pushed with all his might. The building fell on the lords and on all the people inside. And Samson died with them.
+
+Then his brothers and all his father's family came down and took him home, and buried him between Zorah and Eshtaol, in the tomb of his father Manoah. He had led Israel for twenty years.

@@ -55,6 +55,8 @@ export type Story = Omit<IndexEntry, 'hasImages'> & {
   source?: string;
   /** Title in the source language (Hunt). */
   originalTitle?: string;
+  /** Who holds this story sacred today, e.g. "Jews and Christians"; the reader says so. */
+  livingTradition?: string;
 };
 
 export type TagKind = 'cultures' | 'themes';

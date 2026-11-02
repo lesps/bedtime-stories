@@ -1,0 +1,62 @@
+{
+ "id": "jps-1917--the-tower-of-babel",
+ "collectionId": "jps-1917",
+ "order": 5,
+ "title": "The Tower of Babel",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Genesis 11:1–9, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "p",
+   "text": "And the whole earth was of one language and of one speech."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass, as they journeyed east, that they found a plain in the land of Shinar; and they dwelt there."
+  },
+  {
+   "type": "p",
+   "text": "And they said one to another: 'Come, let us make brick, and burn them thoroughly.' And they had brick for stone, and slime had they for mortar."
+  },
+  {
+   "type": "p",
+   "text": "And they said: 'Come, let us build us a city, and a tower, with its top in heaven, and let us make us a name; lest we be scattered abroad upon the face of the whole earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD came down to see the city and the tower, which the children of men builded."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said: 'Behold, they are one people, and they have all one language; and this is what they begin to do; and now nothing will be withholden from them, which they purpose to do."
+  },
+  {
+   "type": "p",
+   "text": "Come, let us go down, and there confound their language, that they may not understand one another's speech.'"
+  },
+  {
+   "type": "p",
+   "text": "So the LORD scattered them abroad from thence upon the face of all the earth; and they left off to build the city."
+  },
+  {
+   "type": "p",
+   "text": "Therefore was the name of it called Babel; because the LORD did there confound the language of all the earth; and from thence did the LORD scatter them abroad upon the face of all the earth."
+  }
+ ],
+ "workId": "hebrew-babel",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 239,
+ "readingMinutes": 1,
+ "readingLevel": {
+  "fkGrade": 7.6,
+  "avgSentenceWords": 23.0,
+  "band": "advanced"
+ },
+ "simplifiedId": "hebrew-bible--the-tower-of-babel"
+}

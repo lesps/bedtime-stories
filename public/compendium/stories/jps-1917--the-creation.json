@@ -1,0 +1,158 @@
+{
+ "id": "jps-1917--the-creation",
+ "collectionId": "jps-1917",
+ "order": 1,
+ "title": "The Creation",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Genesis 1:1–2:3, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "heading",
+   "text": "Genesis 1"
+  },
+  {
+   "type": "p",
+   "text": "IN THE beginning God created the heaven and the earth."
+  },
+  {
+   "type": "p",
+   "text": "Now the earth was unformed and void, and darkness was upon the face of the deep; and the spirit of God hovered over the face of the waters."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let there be light.' And there was light."
+  },
+  {
+   "type": "p",
+   "text": "And God saw the light, that it was good; and God divided the light from the darkness."
+  },
+  {
+   "type": "p",
+   "text": "And God called the light Day, and the darkness He called Night. And there was evening and there was morning, one day."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.'"
+  },
+  {
+   "type": "p",
+   "text": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament; and it was so."
+  },
+  {
+   "type": "p",
+   "text": "And God called the firmament Heaven. And there was evening and there was morning, a second day."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let the waters under the heaven be gathered together unto one place, and let the dry land appear.' And it was so."
+  },
+  {
+   "type": "p",
+   "text": "And God called the dry land Earth, and the gathering together of the waters called He Seas; and God saw that it was good."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let the earth put forth grass, herb yielding seed, and fruit-tree bearing fruit after its kind, wherein is the seed thereof, upon the earth.' And it was so."
+  },
+  {
+   "type": "p",
+   "text": "And the earth brought forth grass, herb yielding seed after its kind, and tree bearing fruit, wherein is the seed thereof, after its kind; and God saw that it was good."
+  },
+  {
+   "type": "p",
+   "text": "And there was evening and there was morning, a third day."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days and years; and let them be for lights in the firmament of the heaven to give light upon the earth.' And it was so."
+  },
+  {
+   "type": "p",
+   "text": "And God made the two great lights: the greater light to rule the day, and the lesser light to rule the night; and the stars."
+  },
+  {
+   "type": "p",
+   "text": "And God set them in the firmament of the heaven to give light upon the earth, and to rule over the day and over the night, and to divide the light from the darkness; and God saw that it was good."
+  },
+  {
+   "type": "p",
+   "text": "And there was evening and there was morning, a fourth day."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let the waters swarm with swarms of living creatures, and let fowl fly above the earth in the open firmament of heaven.'"
+  },
+  {
+   "type": "p",
+   "text": "And God created the great sea-monsters, and every living creature that creepeth, wherewith the waters swarmed, after its kind, and every winged fowl after its kind; and God saw that it was good."
+  },
+  {
+   "type": "p",
+   "text": "And God blessed them, saying: 'Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And there was evening and there was morning, a fifth day."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let the earth bring forth the living creature after its kind, cattle, and creeping thing, and beast of the earth after its kind.' And it was so."
+  },
+  {
+   "type": "p",
+   "text": "And God made the beast of the earth after its kind, and the cattle after their kind, and every thing that creepeth upon the ground after its kind; and God saw that it was good."
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Let us make man in our image, after our likeness; and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And God created man in His own image, in the image of God created He him; male and female created He them."
+  },
+  {
+   "type": "p",
+   "text": "And God blessed them; and God said unto them: 'Be fruitful, and multiply, and replenish the earth, and subdue it; and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that creepeth upon the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'Behold, I have given you every herb yielding seed, which is upon the face of all the earth, and every tree, in which is the fruit of a tree yielding seed--to you it shall be for food; and to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is a living soul, I have given every green herb for food.' And it was so."
+  },
+  {
+   "type": "p",
+   "text": "And God saw every thing that He had made, and, behold, it was very good. And there was evening and there was morning, the sixth day."
+  },
+  {
+   "type": "heading",
+   "text": "Genesis 2"
+  },
+  {
+   "type": "p",
+   "text": "And the heaven and the earth were finished, and all the host of them."
+  },
+  {
+   "type": "p",
+   "text": "And on the seventh day God finished His work which He had made; and He rested on the seventh day from all His work which He had made."
+  },
+  {
+   "type": "p",
+   "text": "And God blessed the seventh day, and hallowed it; because that in it He rested from all His work which God in creating had made."
+  }
+ ],
+ "workId": "hebrew-creation",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 871,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 7.6,
+  "avgSentenceWords": 21.5,
+  "band": "advanced"
+ },
+ "simplifiedId": "hebrew-bible--the-creation"
+}

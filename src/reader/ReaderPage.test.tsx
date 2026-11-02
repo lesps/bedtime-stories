@@ -119,6 +119,24 @@ describe('ReaderPage', () => {
     );
   });
 
+  it('says in one line when a story is sacred in a living tradition', async () => {
+    renderApp('/s/aesop--the-heron', createStore(localStorage), {
+      'aesop--the-heron': {
+        ...fixtureStoryBodies['aesop--the-heron']!,
+        livingTradition: 'Jews and Christians',
+      },
+    });
+    expect(
+      await screen.findByText('This story is sacred to Jews and Christians today.'),
+    ).toBeInTheDocument();
+  });
+
+  it('has no such line for other stories', async () => {
+    renderApp('/s/aesop--the-heron');
+    await screen.findByText('The Heron begins here.');
+    expect(screen.queryByText(/is sacred to/)).toBeNull();
+  });
+
   it('refuses to render a hidden story', async () => {
     renderApp('/s/grimm--hidden-tale');
     expect(

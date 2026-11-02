@@ -1,0 +1,108 @@
+{
+ "id": "hebrew-bible--joseph-and-his-coat",
+ "collectionId": "hebrew-bible",
+ "order": 6,
+ "title": "Joseph and His Coat of Many Colours",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Jacob lived in the land of Canaan. When his son Joseph was seventeen years old, he looked after the flocks with his older brothers. And Joseph told his father the bad things his brothers did."
+  },
+  {
+   "type": "p",
+   "text": "Now Jacob loved Joseph more than all his other sons, because Joseph was born when Jacob was old. And Jacob made him a coat of many colours."
+  },
+  {
+   "type": "p",
+   "text": "When his brothers saw that their father loved Joseph more than all of them, they hated him, and they could not speak a kind word to him."
+  },
+  {
+   "type": "p",
+   "text": "One night, Joseph had a dream, and he told it to his brothers. \"Listen to this dream I had,\" he said. \"We were tying up bundles of wheat in the field. And my bundle stood up straight, and your bundles all gathered round it and bowed down to my bundle!\""
+  },
+  {
+   "type": "p",
+   "text": "\"So you think you will be king over us?\" said his brothers. \"You think you will rule over us?\" And they hated him even more, because of his dreams and his words."
+  },
+  {
+   "type": "p",
+   "text": "Then Joseph had another dream. \"Listen,\" he said, \"I had another dream. The sun and the moon and eleven stars were bowing down to me!\""
+  },
+  {
+   "type": "p",
+   "text": "He told it to his father as well as his brothers, and his father scolded him. \"What sort of dream is this?\" said Jacob. \"Will I and your mother and your brothers really come and bow down to the ground before you?\" His brothers were jealous of him. But his father kept thinking about what Joseph had said."
+  },
+  {
+   "type": "p",
+   "text": "One day, Joseph's brothers went to look after their father's flocks near Shechem. And Jacob said to Joseph, \"Go and see whether all is well with your brothers and with the flocks, and come back and tell me.\""
+  },
+  {
+   "type": "p",
+   "text": "So Joseph went. A man found him wandering in the fields, and told him that his brothers had gone on to Dothan. So Joseph followed them, and found them there."
+  },
+  {
+   "type": "p",
+   "text": "His brothers saw him coming in the distance. And before he reached them, they plotted to kill him. \"Here comes the dreamer!\" they said to each other. \"Come on, let's kill him and throw him into one of the pits. We can say a wild animal ate him. Then we'll see what becomes of his dreams!\""
+  },
+  {
+   "type": "p",
+   "text": "But Reuben heard them, and he tried to save Joseph. \"Let's not kill him,\" he said. \"Don't shed his blood. Throw him into this pit here in the wilderness, but don't lay a hand on him.\" For Reuben meant to come back and rescue Joseph, and take him home to their father."
+  },
+  {
+   "type": "p",
+   "text": "So when Joseph came up to his brothers, they pulled off his coat, the coat of many colours. And they threw him into the pit. The pit was empty; there was no water in it."
+  },
+  {
+   "type": "p",
+   "text": "Then they sat down to eat. And looking up, they saw a caravan of traders coming from Gilead, with their camels carrying spices and balm and ladanum down to Egypt."
+  },
+  {
+   "type": "p",
+   "text": "Judah said to his brothers, \"What good will it do us to kill our brother and hide what we have done? Let's sell him to these traders instead, and not harm him ourselves. After all, he is our brother, our own flesh.\" And his brothers agreed."
+  },
+  {
+   "type": "p",
+   "text": "So they pulled Joseph up out of the pit, and sold him to the traders for twenty pieces of silver. And the traders took Joseph down to Egypt."
+  },
+  {
+   "type": "p",
+   "text": "When Reuben went back to the pit, Joseph was not there. Reuben tore his clothes in grief. \"The boy is gone!\" he cried to his brothers. \"And what shall I do now?\""
+  },
+  {
+   "type": "p",
+   "text": "Then the brothers took Joseph's coat. They killed a young goat, and dipped the coat in its blood, and they brought the coat of many colours to their father. \"We found this,\" they said. \"Look at it. Is it your son's coat or not?\""
+  },
+  {
+   "type": "p",
+   "text": "Jacob knew it at once. \"It is my son's coat!\" he cried. \"A wild animal has eaten him. Joseph has been torn to pieces!\""
+  },
+  {
+   "type": "p",
+   "text": "And Jacob tore his clothes, and dressed in sackcloth, and he mourned for his son for many days. All his sons and daughters tried to comfort him, but he would not be comforted. \"No,\" he said, \"I will go down to my grave still mourning for my son.\" And his father wept for him."
+  },
+  {
+   "type": "p",
+   "text": "But in Egypt, the traders sold Joseph to Potiphar, an officer of Pharaoh, the king of Egypt, and the captain of his guard."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Joseph and His Coat” in The Holy Scriptures According to the Masoretic Text, translated by the Jewish Publication Society (1917). The original is listed under Other versions. The first of three parts of the story of Joseph, from Genesis 37. Jacob is also called Israel."
+  }
+ ],
+ "workId": "hebrew-joseph-1",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "jps-1917--joseph-and-his-coat",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 795,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 2.9,
+  "avgSentenceWords": 10.5,
+  "band": "early"
+ }
+}

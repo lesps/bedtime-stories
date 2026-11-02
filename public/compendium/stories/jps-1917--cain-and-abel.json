@@ -1,0 +1,87 @@
+{
+ "id": "jps-1917--cain-and-abel",
+ "collectionId": "jps-1917",
+ "order": 3,
+ "title": "Cain and Abel",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Genesis 4:1–16, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "p",
+   "text": "And the man knew Eve his wife; and she conceived and bore Cain, and said: 'I have gotten a man with the help of the LORD.'"
+  },
+  {
+   "type": "p",
+   "text": "And again she bore his brother Abel. And Abel was a keeper of sheep, but Cain was a tiller of the ground."
+  },
+  {
+   "type": "p",
+   "text": "And in process of time it came to pass, that Cain brought of the fruit of the ground an offering unto the LORD."
+  },
+  {
+   "type": "p",
+   "text": "And Abel, he also brought of the firstlings of his flock and of the fat thereof. And the LORD had respect unto Abel and to his offering; but unto Cain and to his offering He had not respect. And Cain was very wroth, and his countenance fell."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Cain: 'Why art thou wroth? and why is thy countenance fallen?"
+  },
+  {
+   "type": "p",
+   "text": "If thou doest well, shall it not be lifted up? and if thou doest not well, sin coucheth at the door; and unto thee is its desire, but thou mayest rule over it.'"
+  },
+  {
+   "type": "p",
+   "text": "And Cain spoke unto Abel his brother. And it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Cain: 'Where is Abel thy brother?' And he said: 'I know not; am I my brother's keeper?'"
+  },
+  {
+   "type": "p",
+   "text": "And He said: 'What hast thou done? the voice of thy brother's blood crieth unto Me from the ground."
+  },
+  {
+   "type": "p",
+   "text": "And now cursed art thou from the ground, which hath opened her mouth to receive thy brother's blood from thy hand."
+  },
+  {
+   "type": "p",
+   "text": "When thou tillest the ground, it shall not henceforth yield unto thee her strength; a fugitive and a wanderer shalt thou be in the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And Cain said unto the LORD: 'My punishment is greater than I can bear."
+  },
+  {
+   "type": "p",
+   "text": "Behold, Thou hast driven me out this day from the face of the land; and from Thy face shall I be hid; and I shall be a fugitive and a wanderer in the earth; and it will come to pass, that whosoever findeth me will slay me.'"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto him: 'Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold.' And the LORD set a sign for Cain, lest any finding him should smite him."
+  },
+  {
+   "type": "p",
+   "text": "And Cain went out from the presence of the LORD, and dwelt in the land of Nod, on the east of Eden."
+  }
+ ],
+ "workId": "hebrew-cain-abel",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 407,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 5.2,
+  "avgSentenceWords": 16.6,
+  "band": "middle"
+ }
+}

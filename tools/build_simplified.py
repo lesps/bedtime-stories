@@ -17,7 +17,7 @@ A legend with no public-domain text to work from (marked ‡ in the expansion pl
 original: its front matter gives `basedOn` (what it was retold from) and `workId` instead of
 `adaptedFrom`, and its end note says there is no original in the app to compare it with.
 
-The story inherits `workId` from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
+The story inherits `workId` (and `livingTradition`, where set) from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
 and `readingLevel`, and ends with a note naming the original (and, if the original is hidden by default, the setting
 that shows it). The original gets
 `simplifiedId` pointing back, and so does every story in `alsoSimplifies` (which must share the
@@ -226,6 +226,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "hebrew-bible": {
+        "id": "hebrew-bible",
+        "title": "Stories from the Hebrew Bible, Simply Told",
+        "author": "The Hebrew Bible",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-mesopotamian": {
         "id": "myths-mesopotamian",
         "title": "Mesopotamian Myths, Simply Told",
@@ -355,6 +366,8 @@ def main():
         }
         if "source" in orig:
             story["source"] = orig["source"]
+        if "livingTradition" in orig:
+            story["livingTradition"] = orig["livingTradition"]
         by_collection[cid].append(finish(story))
         originals[orig["id"]] = sid
         for other in filter(None, (x.strip() for x in meta.get("alsoSimplifies", "").split(","))):

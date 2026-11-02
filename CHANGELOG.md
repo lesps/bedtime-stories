@@ -30,6 +30,17 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 20: stories from the Hebrew Bible. Twenty passages in the Jewish Publication
+  Society's translation (1917, `jps-1917`), from the creation to Daniel in the lions' den, with
+  Joseph in three parts. Cain and Abel, Joseph in Egypt (Potiphar's wife), Samson and the judgment
+  of Solomon (the two mothers are called harlots) are `mature-themes`. New "Stories from the Hebrew
+  Bible, Simply Told" (`hebrew-bible`): eighteen retellings that stay close to the text, the
+  mature ones `flags: none`. Cain and Abel and Jacob wrestling the angel read at `middle` and have
+  no retelling. New culture `hebrew` ("Hebrew Bible"); `tools/extract_hebrew_bible.py`.
+- Stories sacred in a living tradition say so in one line under the byline ("This story is sacred
+  to Jews and Christians today."), from a new optional `livingTradition` field on story files that
+  retellings inherit.
+
 - The library lists one version of each retold myth: the simplified retelling, with a "Read the
   original" link in the reader (and "Read the retelling for young readers" in the original). Search,
   Cultures/Themes counts, tag pages, collection pages, previous/next and Surprise me follow suit;

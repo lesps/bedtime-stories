@@ -1,0 +1,52 @@
+---
+title: David and Goliath
+adaptedFrom: jps-1917--david-and-goliath
+order: 14
+namesNote: From the seventeenth chapter of the First Book of Samuel. Saul was the king of Israel.
+---
+
+The Philistines gathered their armies for battle. They camped on a mountain on one side, and King Saul and the men of Israel camped on a mountain on the other side, with a valley between them, the valley of Elah.
+
+Out from the camp of the Philistines came a champion named Goliath, from the city of Gath. He was six cubits and a span tall. He wore a bronze helmet on his head, and a coat of armour so heavy that it weighed five thousand shekels. He had bronze guards on his legs, and a bronze javelin slung across his back. The shaft of his spear was as thick as a weaver's beam, and its iron head alone weighed six hundred shekels. And a man carrying his shield walked in front of him.
+
+Goliath stood and shouted to the army of Israel. "Why have you come out to fight? Choose a man, and let him come down and fight me! If he can fight me and kill me, then we will be your servants. But if I beat him, you will be our servants. I defy the army of Israel today! Give me a man, and let us fight!"
+
+When Saul and all Israel heard him, they were terrified.
+
+Now David was the youngest son of a man from Bethlehem called Jesse, who had eight sons. His three eldest brothers had gone to join Saul's army. David went back and forth between Saul and his father's sheep at Bethlehem. And for forty days, every morning and every evening, the Philistine came out and shouted.
+
+One day Jesse said to David, "Take this grain and these ten loaves to your brothers in the camp, and take these ten cheeses to their captain. And see how your brothers are."
+
+So David got up early, left the sheep with a shepherd, and went. He reached the camp just as the army was going out to the battle line, shouting the war cry. David left his things with the man who looked after the supplies, and ran to the battle line to greet his brothers.
+
+While he was talking with them, out came Goliath, and shouted the same words as before. And David heard him. All the men of Israel ran away from Goliath, terribly afraid.
+
+"Have you seen this man?" they said. "The king will make the man who kills him very rich, and give him his daughter to marry."
+
+"Who is this Philistine," said David, "that he should defy the armies of the living God?"
+
+When David's eldest brother Eliab heard him talking, he was angry with him. "Why have you come down here?" he said. "Who have you left those few sheep with in the wilderness? I know how proud you are, and how naughty your heart is. You have only come to watch the battle!"
+
+"What have I done now?" said David. "I was only talking!" And he turned away and asked someone else the same question.
+
+When people heard what David was saying, they told King Saul, and Saul sent for him.
+
+"Don't let anyone lose heart," David said to Saul. "I will go and fight this Philistine."
+
+"You can't fight him," said Saul. "You are only a boy, and he has been a warrior since he was young."
+
+"I look after my father's sheep," said David. "When a lion or a bear came and took a lamb from the flock, I went after it, and struck it, and rescued the lamb from its mouth. I have killed both lions and bears, and this Philistine will be like one of them, because he has defied the armies of the living God. The Lord who saved me from the paw of the lion and the paw of the bear will save me from this Philistine."
+
+"Go," said Saul, "and the Lord be with you."
+
+Saul dressed David in his own armour, with a bronze helmet and a coat of armour. David strapped on Saul's sword and tried to walk, but he couldn't, because he was not used to it. "I can't go in these," David said to Saul. "I am not used to them." So he took them off.
+
+Instead he took his shepherd's staff in his hand, and chose five smooth stones from the stream, and put them in his shepherd's bag. And with his sling in his hand, he went out towards the Philistine.
+
+Goliath came closer and closer to David, with his shield-bearer in front of him. When he looked at David and saw that he was only a boy, red-cheeked and handsome, he sneered at him. "Am I a dog," he said, "that you come at me with sticks?" And he cursed David by his god. "Come here," he said, "and I will feed you to the birds and the wild animals!"
+
+But David said to the Philistine, "You come to me with a sword and a spear and a javelin. But I come to you in the name of the Lord of hosts, the God of the armies of Israel, whom you have defied. Today the Lord will give you into my hand, and all the earth will know that there is a God in Israel. And everyone here will know that the Lord does not save with sword and spear. For the battle is the Lord's."
+
+As Goliath came forward to attack, David ran quickly towards him. He put his hand in his bag, took out a stone, and slung it. The stone struck the Philistine on the forehead and sank in, and Goliath fell on his face to the ground.
+
+So David beat the Philistine with a sling and a stone, and there was no sword in David's hand. Then David ran and stood over the Philistine, and took Goliath's own sword, and finished him with it. And when the Philistines saw that their champion was dead, they ran away.

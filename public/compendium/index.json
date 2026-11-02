@@ -984,6 +984,30 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 5
+  },
+  {
+   "id": "jps-1917",
+   "title": "The Holy Scriptures According to the Masoretic Text",
+   "author": "The Hebrew Bible",
+   "contributor": "Translated by the Jewish Publication Society",
+   "firstPublished": 1917,
+   "source": "https://github.com/scrollmapper/bible_databases/tree/master/sources/en/JPS",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "he",
+   "storyCount": 20
+  },
+  {
+   "id": "hebrew-bible",
+   "title": "Stories from the Hebrew Bible, Simply Told",
+   "author": "The Hebrew Bible",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 18
   }
  ],
  "stories": [
@@ -15730,6 +15754,696 @@
     "band": "middle"
    },
    "adaptedFrom": "smith-achilles-tatius--the-shepherds-dog-and-the-purple-dye"
+  },
+  {
+   "id": "jps-1917--the-creation",
+   "collectionId": "jps-1917",
+   "order": 1,
+   "title": "The Creation",
+   "wordCount": 871,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-creation",
+   "readingLevel": {
+    "fkGrade": 7.6,
+    "avgSentenceWords": 21.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--the-creation"
+  },
+  {
+   "id": "jps-1917--the-garden-of-eden",
+   "collectionId": "jps-1917",
+   "order": 2,
+   "title": "The Garden of Eden",
+   "wordCount": 1289,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-eden",
+   "readingLevel": {
+    "fkGrade": 9.3,
+    "avgSentenceWords": 28.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--the-garden-of-eden"
+  },
+  {
+   "id": "jps-1917--cain-and-abel",
+   "collectionId": "jps-1917",
+   "order": 3,
+   "title": "Cain and Abel",
+   "wordCount": 407,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hebrew-cain-abel",
+   "readingLevel": {
+    "fkGrade": 5.2,
+    "avgSentenceWords": 16.6,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "jps-1917--noah-and-the-flood",
+   "collectionId": "jps-1917",
+   "order": 4,
+   "title": "Noah and the Flood",
+   "wordCount": 2067,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-noah",
+   "readingLevel": {
+    "fkGrade": 10.4,
+    "avgSentenceWords": 28.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--noah-and-the-flood"
+  },
+  {
+   "id": "jps-1917--the-tower-of-babel",
+   "collectionId": "jps-1917",
+   "order": 5,
+   "title": "The Tower of Babel",
+   "wordCount": 239,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-babel",
+   "readingLevel": {
+    "fkGrade": 7.6,
+    "avgSentenceWords": 23.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--the-tower-of-babel"
+  },
+  {
+   "id": "jps-1917--jacobs-ladder",
+   "collectionId": "jps-1917",
+   "order": 6,
+   "title": "Jacob's Ladder",
+   "wordCount": 403,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-jacob-ladder",
+   "readingLevel": {
+    "fkGrade": 8.9,
+    "avgSentenceWords": 28.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--jacobs-ladder"
+  },
+  {
+   "id": "jps-1917--jacob-wrestles-with-the-angel",
+   "collectionId": "jps-1917",
+   "order": 7,
+   "title": "Jacob Wrestles with the Angel",
+   "wordCount": 285,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-jacob-wrestles",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 17.5,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "jps-1917--joseph-and-his-coat",
+   "collectionId": "jps-1917",
+   "order": 8,
+   "title": "Joseph and His Coat",
+   "wordCount": 949,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-joseph-1",
+   "readingLevel": {
+    "fkGrade": 6.7,
+    "avgSentenceWords": 20.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--joseph-and-his-coat"
+  },
+  {
+   "id": "jps-1917--joseph-in-egypt",
+   "collectionId": "jps-1917",
+   "order": 9,
+   "title": "Joseph in Egypt",
+   "wordCount": 2672,
+   "readingMinutes": 15,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hebrew-joseph-2",
+   "readingLevel": {
+    "fkGrade": 9.0,
+    "avgSentenceWords": 25.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--joseph-in-egypt"
+  },
+  {
+   "id": "jps-1917--joseph-and-his-brothers",
+   "collectionId": "jps-1917",
+   "order": 10,
+   "title": "Joseph and His Brothers",
+   "wordCount": 3539,
+   "readingMinutes": 20,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-joseph-3",
+   "readingLevel": {
+    "fkGrade": 8.1,
+    "avgSentenceWords": 23.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--joseph-and-his-brothers"
+  },
+  {
+   "id": "jps-1917--the-baby-in-the-bulrushes",
+   "collectionId": "jps-1917",
+   "order": 11,
+   "title": "The Baby in the Bulrushes",
+   "wordCount": 646,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-moses-baby",
+   "readingLevel": {
+    "fkGrade": 7.8,
+    "avgSentenceWords": 22.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--the-baby-in-the-bulrushes"
+  },
+  {
+   "id": "jps-1917--the-burning-bush",
+   "collectionId": "jps-1917",
+   "order": 12,
+   "title": "The Burning Bush",
+   "wordCount": 1327,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-burning-bush",
+   "readingLevel": {
+    "fkGrade": 9.1,
+    "avgSentenceWords": 26.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--the-burning-bush"
+  },
+  {
+   "id": "jps-1917--the-ten-plagues",
+   "collectionId": "jps-1917",
+   "order": 13,
+   "title": "The Ten Plagues",
+   "wordCount": 3936,
+   "readingMinutes": 22,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-plagues",
+   "readingLevel": {
+    "fkGrade": 10.8,
+    "avgSentenceWords": 30.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--the-ten-plagues"
+  },
+  {
+   "id": "jps-1917--crossing-the-red-sea",
+   "collectionId": "jps-1917",
+   "order": 14,
+   "title": "Crossing the Red Sea",
+   "wordCount": 847,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-red-sea",
+   "readingLevel": {
+    "fkGrade": 10.8,
+    "avgSentenceWords": 29.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--crossing-the-red-sea"
+  },
+  {
+   "id": "jps-1917--samson",
+   "collectionId": "jps-1917",
+   "order": 15,
+   "title": "Samson",
+   "wordCount": 3237,
+   "readingMinutes": 18,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hebrew-samson",
+   "readingLevel": {
+    "fkGrade": 8.7,
+    "avgSentenceWords": 24.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--samson"
+  },
+  {
+   "id": "jps-1917--david-and-goliath",
+   "collectionId": "jps-1917",
+   "order": 16,
+   "title": "David and Goliath",
+   "wordCount": 1563,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-david-goliath",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 26.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--david-and-goliath"
+  },
+  {
+   "id": "jps-1917--the-wisdom-of-solomon",
+   "collectionId": "jps-1917",
+   "order": 17,
+   "title": "The Wisdom of Solomon",
+   "wordCount": 740,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hebrew-solomon",
+   "readingLevel": {
+    "fkGrade": 9.5,
+    "avgSentenceWords": 27.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--the-wisdom-of-solomon"
+  },
+  {
+   "id": "jps-1917--elijah-and-the-chariot-of-fire",
+   "collectionId": "jps-1917",
+   "order": 18,
+   "title": "Elijah and the Chariot of Fire",
+   "wordCount": 559,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-elijah",
+   "readingLevel": {
+    "fkGrade": 8.6,
+    "avgSentenceWords": 24.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--elijah-and-the-chariot-of-fire"
+  },
+  {
+   "id": "jps-1917--jonah",
+   "collectionId": "jps-1917",
+   "order": 19,
+   "title": "Jonah",
+   "wordCount": 1344,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-jonah",
+   "readingLevel": {
+    "fkGrade": 8.3,
+    "avgSentenceWords": 23.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--jonah"
+  },
+  {
+   "id": "jps-1917--daniel-in-the-lions-den",
+   "collectionId": "jps-1917",
+   "order": 20,
+   "title": "Daniel in the Lions' Den",
+   "wordCount": 920,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-daniel",
+   "readingLevel": {
+    "fkGrade": 12.3,
+    "avgSentenceWords": 31.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "hebrew-bible--daniel-in-the-lions-den"
+  },
+  {
+   "id": "hebrew-bible--the-creation",
+   "collectionId": "hebrew-bible",
+   "order": 1,
+   "title": "The Creation",
+   "wordCount": 642,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-creation",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 13.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--the-creation"
+  },
+  {
+   "id": "hebrew-bible--the-garden-of-eden",
+   "collectionId": "hebrew-bible",
+   "order": 2,
+   "title": "The Garden of Eden",
+   "wordCount": 978,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-eden",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 15.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--the-garden-of-eden"
+  },
+  {
+   "id": "hebrew-bible--noah-and-the-flood",
+   "collectionId": "hebrew-bible",
+   "order": 3,
+   "title": "Noah and the Flood",
+   "wordCount": 1089,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-noah",
+   "readingLevel": {
+    "fkGrade": 5.6,
+    "avgSentenceWords": 17.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--noah-and-the-flood"
+  },
+  {
+   "id": "hebrew-bible--the-tower-of-babel",
+   "collectionId": "hebrew-bible",
+   "order": 4,
+   "title": "The Tower of Babel",
+   "wordCount": 262,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-babel",
+   "readingLevel": {
+    "fkGrade": 5.7,
+    "avgSentenceWords": 17.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--the-tower-of-babel"
+  },
+  {
+   "id": "hebrew-bible--jacobs-ladder",
+   "collectionId": "hebrew-bible",
+   "order": 5,
+   "title": "Jacob's Ladder",
+   "wordCount": 432,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-jacob-ladder",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 13.9,
+    "band": "early"
+   },
+   "adaptedFrom": "jps-1917--jacobs-ladder"
+  },
+  {
+   "id": "hebrew-bible--joseph-and-his-coat",
+   "collectionId": "hebrew-bible",
+   "order": 6,
+   "title": "Joseph and His Coat of Many Colours",
+   "wordCount": 795,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-joseph-1",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 10.5,
+    "band": "early"
+   },
+   "adaptedFrom": "jps-1917--joseph-and-his-coat"
+  },
+  {
+   "id": "hebrew-bible--joseph-in-egypt",
+   "collectionId": "hebrew-bible",
+   "order": 7,
+   "title": "Joseph and Pharaoh's Dreams",
+   "wordCount": 1488,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-joseph-2",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 13.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--joseph-in-egypt"
+  },
+  {
+   "id": "hebrew-bible--joseph-and-his-brothers",
+   "collectionId": "hebrew-bible",
+   "order": 8,
+   "title": "Joseph and His Brothers",
+   "wordCount": 2028,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-joseph-3",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 11.0,
+    "band": "early"
+   },
+   "adaptedFrom": "jps-1917--joseph-and-his-brothers"
+  },
+  {
+   "id": "hebrew-bible--the-baby-in-the-bulrushes",
+   "collectionId": "hebrew-bible",
+   "order": 9,
+   "title": "The Baby in the Bulrushes",
+   "wordCount": 600,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-moses-baby",
+   "readingLevel": {
+    "fkGrade": 4.2,
+    "avgSentenceWords": 12.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--the-baby-in-the-bulrushes"
+  },
+  {
+   "id": "hebrew-bible--the-burning-bush",
+   "collectionId": "hebrew-bible",
+   "order": 10,
+   "title": "The Burning Bush",
+   "wordCount": 974,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-burning-bush",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 12.8,
+    "band": "early"
+   },
+   "adaptedFrom": "jps-1917--the-burning-bush"
+  },
+  {
+   "id": "hebrew-bible--the-ten-plagues",
+   "collectionId": "hebrew-bible",
+   "order": 11,
+   "title": "The Ten Plagues",
+   "wordCount": 1353,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-plagues",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 13.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--the-ten-plagues"
+  },
+  {
+   "id": "hebrew-bible--crossing-the-red-sea",
+   "collectionId": "hebrew-bible",
+   "order": 12,
+   "title": "Crossing the Red Sea",
+   "wordCount": 670,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-red-sea",
+   "readingLevel": {
+    "fkGrade": 5.4,
+    "avgSentenceWords": 16.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--crossing-the-red-sea"
+  },
+  {
+   "id": "hebrew-bible--samson",
+   "collectionId": "hebrew-bible",
+   "order": 13,
+   "title": "Samson",
+   "wordCount": 1827,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-samson",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 14.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--samson"
+  },
+  {
+   "id": "hebrew-bible--david-and-goliath",
+   "collectionId": "hebrew-bible",
+   "order": 14,
+   "title": "David and Goliath",
+   "wordCount": 1033,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-david-goliath",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 13.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--david-and-goliath"
+  },
+  {
+   "id": "hebrew-bible--the-wisdom-of-solomon",
+   "collectionId": "hebrew-bible",
+   "order": 15,
+   "title": "The Wisdom of Solomon",
+   "wordCount": 710,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-solomon",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 13.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--the-wisdom-of-solomon"
+  },
+  {
+   "id": "hebrew-bible--elijah-and-the-chariot-of-fire",
+   "collectionId": "hebrew-bible",
+   "order": 16,
+   "title": "Elijah and the Chariot of Fire",
+   "wordCount": 546,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-elijah",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 11.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--elijah-and-the-chariot-of-fire"
+  },
+  {
+   "id": "hebrew-bible--jonah",
+   "collectionId": "hebrew-bible",
+   "order": 17,
+   "title": "Jonah and the Great Fish",
+   "wordCount": 1167,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-jonah",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 13.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--jonah"
+  },
+  {
+   "id": "hebrew-bible--daniel-in-the-lions-den",
+   "collectionId": "hebrew-bible",
+   "order": 18,
+   "title": "Daniel in the Lions' Den",
+   "wordCount": 816,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-daniel",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 16.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "jps-1917--daniel-in-the-lions-den"
   }
  ]
 }

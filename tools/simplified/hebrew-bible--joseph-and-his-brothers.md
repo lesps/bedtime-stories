@@ -1,0 +1,94 @@
+---
+title: Joseph and His Brothers
+adaptedFrom: jps-1917--joseph-and-his-brothers
+order: 8
+namesNote: The last of three parts of the story of Joseph, from Genesis 42 to 45. Jacob is also called Israel.
+---
+
+The famine reached the land of Canaan too. Jacob heard that there was grain in Egypt, and he said to his sons, "Why are you just looking at each other? Go down to Egypt and buy grain for us there, so that we can live, and not die."
+
+So ten of Joseph's brothers went down to Egypt. But Jacob did not send Benjamin, Joseph's youngest brother, with them. "Something bad might happen to him," he said.
+
+Now Joseph was the governor of the land, the one who sold grain to all the people. His brothers came and bowed down before him with their faces to the ground. Joseph knew them at once, but they did not know him. He pretended to be a stranger, and spoke harshly to them. "Where have you come from?" he asked.
+
+"From the land of Canaan, to buy food," they said.
+
+Joseph remembered the dreams he had dreamed about them. "You are spies!" he said. "You have come to see where our land is weak."
+
+"No, my lord," they said. "Your servants have come to buy food. We are all sons of one man. We are honest men, not spies. We were twelve brothers. The youngest is at home with our father today, and one is no more."
+
+"I said it before: you are spies!" said Joseph. "And this is how you will be tested. You shall not leave here unless your youngest brother comes here." And he put them all in prison for three days.
+
+On the third day, Joseph said to them, "Do this, and you will live, for I fear God. If you are honest men, let one of your brothers stay here in prison. The rest of you take grain home for your hungry families. Then bring your youngest brother to me, and I will know that you have told the truth."
+
+The brothers said to each other, "We are being punished for what we did to our brother. We saw how frightened he was when he begged us to spare him, and we would not listen. That is why this trouble has come upon us."
+
+"Didn't I tell you not to harm the boy?" said Reuben. "But you would not listen."
+
+They did not know that Joseph understood them, for he had been speaking to them through an interpreter. And Joseph turned away from them and wept. Then he came back, and took Simeon, and had him tied up in front of their eyes.
+
+Joseph ordered his servants to fill their sacks with grain, and to put each man's money back in his sack, and to give them food for the journey. When they stopped for the night, one of them opened his sack, and there was his money! "My money has been given back!" he said. And their hearts sank, and they trembled. "What is this that God has done to us?" they said.
+
+When they came home to Jacob, they told him everything. And as they emptied their sacks, every man's bag of money was in his sack, and they and their father were afraid.
+
+"You are taking my children from me!" said Jacob. "Joseph is gone, and Simeon is gone, and now you want to take Benjamin. Everything is against me." And he would not let Benjamin go.
+
+But the famine was terrible in the land. When they had eaten all the grain they had brought from Egypt, their father said, "Go back and buy us a little food."
+
+"The man warned us," said Judah. "He said, 'You shall not see my face unless your brother is with you.' Send the boy with me, and we will go, so that we all live and do not die: we, and you, and our little ones. I promise to keep him safe. You can hold me responsible. If I do not bring him back to you, let me carry the blame for ever."
+
+At last Jacob agreed. "Take the man a present," he said, "some of the best things from our land: a little balm, a little honey, spices, nuts and almonds. Take twice as much money, and take back the money that was put in your sacks; perhaps it was a mistake. Take your brother too, and go back to the man. And may God Almighty make the man kind to you, so that he lets Simeon and Benjamin come home."
+
+So the brothers took the present, and twice as much money, and Benjamin, and went down to Egypt, and stood before Joseph.
+
+When Joseph saw Benjamin with them, he said to his steward, "Take these men to my house, and prepare a meal. They will eat with me at noon."
+
+The brothers were frightened when they were brought into Joseph's house. "It's because of the money in our sacks," they thought. "He is going to make slaves of us." So they told the steward about the money. But he said, "Peace be with you. Don't be afraid. Your God, the God of your father, put treasure in your sacks. I had your money." And he brought Simeon out to them.
+
+When Joseph came home, they gave him their present, and bowed down to the ground before him. He asked how they were. "Is your father well, the old man you told me about? Is he still alive?"
+
+"Your servant our father is well," they said. "He is still alive." And they bowed down again.
+
+Then Joseph looked up and saw Benjamin, his own mother's son. "Is this your youngest brother, the one you told me about?" he asked. "God be gracious to you, my son." Then Joseph hurried out, because his heart was so full of love for his brother that he had to weep. He went into his room and wept there. Then he washed his face and came out, and held himself back, and said, "Serve the food."
+
+They sat before him in order, from the eldest to the youngest, and the brothers looked at each other in amazement. Food was brought to them from Joseph's table, but Benjamin was given five times as much as any of the others. And they ate and drank and were merry with him.
+
+Then Joseph gave orders to his steward. "Fill the men's sacks with as much food as they can carry, and put each man's money in his sack. And put my cup, my silver cup, in the sack of the youngest."
+
+At first light the brothers were sent on their way. They had not gone far from the city when Joseph said to his steward, "Go after those men, and when you catch them, say to them, 'Why have you repaid good with evil? Why have you taken my master's silver cup?'"
+
+The steward caught up with them and said these words. "Why would our lord say such things?" said the brothers. "We brought back the money we found in our sacks. Why would we steal silver or gold from your master's house? If any of us has the cup, let him die, and the rest of us will be your master's slaves."
+
+"Very well," said the steward. "But only the one who has the cup shall be my master's slave. The rest of you will go free."
+
+Quickly every man lowered his sack to the ground and opened it. The steward searched, starting with the eldest and ending with the youngest. And the cup was found in Benjamin's sack.
+
+The brothers tore their clothes in grief. They loaded their donkeys and went back to the city, and they threw themselves on the ground before Joseph.
+
+"What shall we say to my lord?" said Judah. "How can we prove we are innocent? We are all your slaves now."
+
+"Far be it from me," said Joseph. "Only the man who had the cup shall be my slave. The rest of you, go home in peace to your father."
+
+Then Judah came close to him. "Oh my lord," he said, "please let your servant say a word to you, and do not be angry. Our father is an old man, and Benjamin is the child of his old age. His brother is dead, and he is the only one left of his mother's children, and his father loves him. Our father said to us, 'My wife had two sons. One went away from me, and I said, Surely he has been torn to pieces, and I have not seen him since. If you take this one from me too, and harm comes to him, the sorrow will bring my grey hairs down to the grave.' His life is bound up with the boy's life. If he sees that the boy is not with us, he will die. And I promised my father I would bring the boy back. So please, let me stay here as your slave instead of the boy, and let the boy go home with his brothers. How can I go back to my father if the boy is not with me? I could not bear to see my father's grief."
+
+Then Joseph could not hold back any longer. "Everyone leave me!" he cried. And when no one else was there, Joseph told his brothers who he was. He wept so loudly that the Egyptians heard it, and the people in Pharaoh's house heard it.
+
+"I am Joseph," he said to his brothers. "Is my father still alive?"
+
+His brothers could not answer him. They were too frightened.
+
+"Come close to me," said Joseph. And they came close. "I am Joseph, your brother, the one you sold into Egypt. But don't be upset, and don't be angry with yourselves for selling me here. God sent me here ahead of you to save lives. There have been two years of famine, and there will be five more. God sent me ahead of you to keep you alive. So it was not really you who sent me here, but God. And He has made me the ruler of all Egypt.
+
+"Hurry back to my father and tell him: 'This is what your son Joseph says: God has made me lord of all Egypt. Come down to me. Don't wait. You shall live near me in the land of Goshen, you and your children and your grandchildren, and your flocks and your herds and everything you have. I will look after you there, for there are still five years of famine to come.'"
+
+Then Joseph threw his arms around his brother Benjamin and wept, and Benjamin wept on his neck. And he kissed all his brothers and wept with them. And after that, his brothers talked with him.
+
+When Pharaoh heard that Joseph's brothers had come, he was pleased. "Tell your brothers to go and fetch your father and their families," he said, "and bring them here. I will give them the best of the land of Egypt." So Joseph gave them wagons, and food for the journey, and new clothes. To Benjamin he gave three hundred pieces of silver and five sets of clothes. And to his father he sent ten donkeys loaded with the good things of Egypt, and ten more loaded with grain and bread and food for the journey.
+
+As he sent his brothers off, he said, "Don't quarrel on the way!"
+
+So they went back to the land of Canaan, to their father Jacob. "Joseph is still alive!" they told him. "He is ruler over all the land of Egypt!"
+
+Jacob's heart stood still, for he could not believe them. But they told him everything Joseph had said. And when he saw the wagons Joseph had sent to carry him, the spirit of their father Jacob came back to life.
+
+"It is enough," said Jacob. "My son Joseph is still alive. I will go and see him before I die."

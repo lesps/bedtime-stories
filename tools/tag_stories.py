@@ -51,6 +51,7 @@ CULTURES = [
     ("mesopotamian", "Mesopotamian"),
     ("hittite", "Hittite and Hurrian"),
     ("canaanite", "Canaanite"),
+    ("hebrew", "Hebrew Bible"),
     ("japanese", "Japanese"),
 ]
 
@@ -158,6 +159,8 @@ COLLECTION_CULTURE = {
     "myths-mesopotamian": "mesopotamian",
     "myths-hittite-canaanite": "hittite",
     "smith-achilles-tatius": "canaanite",
+    "jps-1917": "hebrew",
+    "hebrew-bible": "hebrew",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -729,6 +732,34 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
         ]
     }
 }
+
+# Hebrew Bible: the JPS passage and its retelling share their themes. Never "magic" (these are
+# miracles in a living faith) or "ghosts" (the spirit of God trips the vocabulary rule).
+HEBREW_BIBLE = {
+    "the-creation": {"add": ["how-things-began", "legends"], "remove": ["kindness", "ghosts", "monsters"]},
+    "the-garden-of-eden": {"add": ["how-things-began", "tricksters", "animals", "legends"]},
+    "noah-and-the-flood": {"add": ["animals", "legends"], "remove": ["monsters", "wishes"]},
+    "the-tower-of-babel": {"add": ["how-things-began", "legends"], "remove": ["quests"]},
+    "jacobs-ladder": {"add": ["quests", "legends"], "remove": ["wishes"]},
+    "joseph-and-his-coat": {"add": ["family", "legends"]},
+    "joseph-in-egypt": {"add": ["royalty", "underdogs", "legends"]},
+    "joseph-and-his-brothers": {"add": ["family", "kindness", "legends"]},
+    "the-baby-in-the-bulrushes": {"add": ["family", "kindness", "legends"]},
+    "the-burning-bush": {"add": ["legends"]},
+    "the-ten-plagues": {"add": ["royalty", "animals", "legends"]},
+    "crossing-the-red-sea": {"add": ["royalty", "underdogs", "legends"], "remove": ["gentle"]},
+    "samson": {"add": ["animals", "legends"], "remove": ["ghosts"]},
+    "david-and-goliath": {"add": ["underdogs", "royalty", "legends"], "remove": ["animals"]},
+    "the-wisdom-of-solomon": {"add": ["royalty", "legends"]},
+    "elijah-and-the-chariot-of-fire": {"add": ["legends"], "remove": ["ghosts"]},
+    "jonah": {"add": ["animals", "quests", "legends"]},
+    "daniel-in-the-lions-den": {"add": ["animals", "royalty", "legends"], "remove": ["gentle"]},
+}
+for _slug, _o in HEBREW_BIBLE.items():
+    OVERRIDES[f"jps-1917--{_slug}"] = _o
+    OVERRIDES[f"hebrew-bible--{_slug}"] = _o
+OVERRIDES["jps-1917--cain-and-abel"] = {"add": ["family", "legends"]}
+OVERRIDES["jps-1917--jacob-wrestles-with-the-angel"] = {"add": ["family", "legends"]}
 
 
 def words(text):
