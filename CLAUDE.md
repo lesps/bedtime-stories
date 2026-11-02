@@ -77,7 +77,9 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           extract_jewish.py: Abraham and the idols from Ginzberg's Legends of the
                           Jews (vol. 1), Solomon and the Shamir from Friedlander's Jewish Fairy
                           Stories, Honi's sleep and the Golem from Landa's Jewish Fairy Tales and
-                          Legends)
+                          Legends; extract_christian.py: three Gospel passages in the American
+                          Standard Version (1901), and the Golden Legend's Seven Sleepers as
+                          Baring-Gould translates it in Curious Myths of the Middle Ages)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
@@ -131,7 +133,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
 sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1079 stories, 88 collections, ~11 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1087 stories, 91 collections, ~11 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -167,7 +169,7 @@ collections; and, on story files, `adaptation` and `adaptedBy`.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-39 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+40 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
@@ -195,7 +197,8 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
   through whichever of the two lists the story is in. The reader links each version to the other
   ("Read the original" / "Read the retelling for young readers") when content settings show it.
 - **Living traditions**: a story with `livingTradition` shows one line under the byline, "This story
-  is sacred to … today." The Hebrew Bible passages carry "Jews and Christians", and a retelling
+  is sacred to … today." The Hebrew Bible passages carry "Jews and Christians" and the Gospel passages
+  "Christians" (not the Seven Sleepers, a saints' legend), and a retelling
   inherits its original's (`build_simplified.py`). Their themes never use `magic` or `ghosts`
   (`HEBREW_BIBLE` in `tag_stories.py`).
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
@@ -325,7 +328,7 @@ fine)`.
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible` or `jewish-legends` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends` or `christian-stories` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).
@@ -342,7 +345,8 @@ fine)`.
   (github.com/scrollmapper/bible_databases) that writes the divine names reverently as HaShem, G-d
   and L-rd; `extract_hebrew_bible.py` restores the printing's "the LORD", "God" and "Lord" and fixes
   the digitization's few typos in these passages (`FIXES`). The King James Version isn't used: the
-  Crown's letters patent still restrict it in the UK. Retellings of these passages stay close to
+  Crown's letters patent still restrict it in the UK; the Gospel passages are the American
+  Standard Version (1901) from the same digitization. Retellings of these passages stay close to
   the text and add no interpretation.
 - Content flags and exclusions in the patches are editorial first passes (see each patch's notes);
   `excluded` alone decides the antisemitic-caricature stories.
