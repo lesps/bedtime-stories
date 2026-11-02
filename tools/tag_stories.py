@@ -55,6 +55,7 @@ CULTURES = [
     ("jewish", "Jewish"),
     ("christian", "Christian"),
     ("islamic", "Islamic"),
+    ("persian", "Persian"),
     ("japanese", "Japanese"),
 ]
 
@@ -173,6 +174,9 @@ COLLECTION_CULTURE = {
     "christian-stories": "christian",
     "pickthall-koran": "islamic",
     "quran-stories": "islamic",
+    "zimmern-kings": "persian",
+    "darmesteter-avesta": "persian",
+    "myths-persian": "persian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -207,6 +211,9 @@ STORY_CULTURE = {
 
 # Myth collections: every story gets the gods-heroes theme.
 MYTH_COLLECTIONS = {
+    "zimmern-kings",
+    "darmesteter-avesta",
+    "myths-persian",
     "hawthorne-tanglewood",
     "kingsley-heroes",
     "bulfinch-fable",
@@ -793,6 +800,33 @@ QURAN = {
 for (_orig, _retold), _o in QURAN.items():
     OVERRIDES[f"pickthall-koran--{_orig}"] = _o
     OVERRIDES[f"quran-stories--{_retold}"] = _o
+# Persian: Zimmern's story (or the Avesta's) and its retelling share their themes. The two Zoroastrian
+# stories follow the Hebrew Bible's rule (never "magic" or "ghosts").
+PERSIAN = {
+    ("zimmern-kings--the-first-shahs", "the-first-kings-of-persia"):
+        {"add": ["how-things-began", "greed-pride", "royalty", "monsters"], "remove": ["quests", "ghosts"]},
+    ("zimmern-kings--zohak-the-serpent-king", "zahhak-the-serpent-king"):
+        {"add": ["royalty", "monsters", "magic", "greed-pride"],
+         "remove": ["animals", "kindness", "quests", "ghosts"]},
+    ("zimmern-kings--kawah-the-blacksmith", "kaveh-the-blacksmith"):
+        {"add": ["royalty", "monsters", "underdogs"], "remove": ["quests"]},
+    ("zimmern-kings--zal-and-the-simurgh", "zal-and-the-simurgh"):
+        {"add": ["family", "animals", "kindness"], "remove": ["quests"]},
+    ("zimmern-kings--rustem-and-rakush", "rostam-and-rakhsh"): {"add": ["animals"], "remove": ["monsters"]},
+    ("zimmern-kings--the-seven-labours-of-rustem", "the-seven-labours-of-rostam"):
+        {"add": ["monsters", "quests", "animals", "magic"], "remove": ["legends"]},
+    ("zimmern-kings--rustem-and-sohrab", "rostam-and-sohrab"): {"add": ["family", "royalty"]},
+    ("zimmern-kings--saiawush-and-the-fire", "siyavash-and-the-fire"): {"add": ["family", "royalty"]},
+    ("zimmern-kings--byzun-and-manijeh", "bijan-and-manizheh"): {"add": ["royalty", "quests", "animals"]},
+    ("darmesteter-avesta--yima-the-good-shepherd", "yima-the-good-shepherd"):
+        {"add": ["how-things-began", "animals", "royalty", "legends"],
+         "remove": ["kindness", "quests", "wishes", "ghosts"]},
+}
+for (_orig, _retold), _o in PERSIAN.items():
+    OVERRIDES[_orig] = _o
+    OVERRIDES[f"myths-persian--{_retold}"] = _o
+OVERRIDES["myths-persian--how-ahura-mazda-made-the-world"] = {
+    "add": ["how-things-began", "legends"], "remove": ["greed-pride", "quests", "ghosts", "monsters"]}
 OVERRIDES["jps-1917--cain-and-abel"] = {"add": ["family", "legends"]}
 OVERRIDES["jps-1917--jacob-wrestles-with-the-angel"] = {"add": ["family", "legends"]}
 

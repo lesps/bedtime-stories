@@ -15,7 +15,8 @@ Each Markdown file is one story, named `<storyId>.md`, with a small front matter
 
 A legend with no public-domain text to work from (marked ‡ in the expansion plan) has no
 original: its front matter gives `basedOn` (what it was retold from) and `workId` instead of
-`adaptedFrom`, and its end note says there is no original in the app to compare it with.
+`adaptedFrom`, and its end note says there is no original in the app to compare it with. It may
+also set `livingTradition`, for a story sacred to people today.
 
 The story inherits `workId` (and `livingTradition`, where set) from its original, gets `adaptation`, `adaptedBy`, `adaptedFrom`
 and `readingLevel`, and ends with a note naming the original (and, if the original is hidden by default, the setting
@@ -259,6 +260,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-persian": {
+        "id": "myths-persian",
+        "title": "Persian Myths, Simply Told",
+        "author": "Traditional (Persian)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "jewish-legends": {
         "id": "jewish-legends",
         "title": "Jewish Legends, Simply Told",
@@ -327,7 +339,7 @@ def unsourced(sid, cid, meta, paras):
     """A retelling with no public-domain original to link to (‡ in the expansion plan)."""
     note = (f"Retold by {ADAPTED_BY}, from {meta['basedOn']}. There is no public-domain text "
             "of this legend in the app to compare it with.")
-    return {
+    story = {
         "id": sid,
         "collectionId": cid,
         "order": int(meta["order"]),
@@ -341,6 +353,9 @@ def unsourced(sid, cid, meta, paras):
         "adaptation": "retold",
         "adaptedBy": ADAPTED_BY,
     }
+    if "livingTradition" in meta:
+        story["livingTradition"] = meta["livingTradition"]
+    return story
 
 
 def main():

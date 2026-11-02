@@ -30,6 +30,17 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 24: Persian myths. Nine stories from Helen Zimmern's The Epic of Kings (1882,
+  `zimmern-kings`), her prose Shahnameh: the first kings (Hushang's fire, Jamshid's golden age and
+  pride), Zahhak the Serpent King, Kaveh the blacksmith, Zal and the Simurgh, Rostam and Rakhsh,
+  the seven labours of Rostam, Rostam and Sohrab, Siyavash and the fire, and Bijan and Manizheh;
+  Zahhak, Kaveh, Sohrab and Siyavash are `mature-themes`. Yima the good shepherd from the Avesta,
+  in James Darmesteter's translation (1880, `darmesteter-avesta`), marked as sacred to
+  Zoroastrians. New "Persian Myths, Simply Told" (`myths-persian`): retellings of all ten, with
+  the modern spellings (Rostam, Zahhak, Siyavash), and the Zoroastrian creation retold from the
+  Bundahishn with no original in the app. A retelling with no original may now set
+  `livingTradition` in its front matter. New culture `persian` ("Persian");
+  `tools/extract_persian.py`.
 - Mythology, part 23: stories from the Qur'an. The People of the Cave (Surah 18), Solomon, the
   ants and the hoopoe (Surah 27), Noah (Surah 11) and Jonah (Surahs 37 and 21), in Marmaduke
   Pickthall's translation (1930, `pickthall-koran`), marked as sacred to Muslims. The Cave shares

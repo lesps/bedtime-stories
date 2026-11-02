@@ -1,0 +1,75 @@
+{
+ "id": "myths-persian--siyavash-and-the-fire",
+ "collectionId": "myths-persian",
+ "order": 10,
+ "title": "Siyavash and the Fire",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "One day some of the knights of Iran, among them Tus and Gew, went hunting in a forest, and there they found a woman of wonderful beauty. When they learned that she came from the family of the great king Fereydun, both Tus and Gew wanted to marry her, and they quarrelled, and nearly came to blows. \"Let the king decide,\" someone said. So they brought her to Kay Kavus. But when the king saw how beautiful she was, he wanted her for himself, and he married her."
+  },
+  {
+   "type": "p",
+   "text": "After a time she had a son, tall and strong and handsome, and he was named Siyavash. Kay Kavus was glad, but he was also worried, because the stars said that the heavens were against this child, and that his very goodness would lead him into danger."
+  },
+  {
+   "type": "p",
+   "text": "When Rostam heard that the king had a son, he came and asked to bring the boy up himself. Kay Kavus agreed, and Rostam took Siyavash to his own land, and taught him how to fight and how to behave at a feast. And Siyavash grew so strong and handsome that the world had never seen anyone like him."
+  },
+  {
+   "type": "p",
+   "text": "When Siyavash was grown up, strong enough to catch a lion, he said to Rostam, \"I want to go to the king, so that my father can see what kind of man you have made of me.\" So Rostam took him back with a great army, and the whole land rejoiced to see him. Kay Kavus was delighted with his son, and gave Rostam rich rewards, and sat Siyavash beside him on his throne."
+  },
+  {
+   "type": "p",
+   "text": "Siyavash stayed at his father's court, and for seven years the king watched him. In the eighth year, finding him worthy, he gave him a throne and a crown of his own. Everyone had forgotten what the stars had said. But what is written in the heavens always comes true, and an unlucky day was coming."
+  },
+  {
+   "type": "p",
+   "text": "For the queen, Sudabeh, saw how handsome young Siyavash was, and she fell in love with him. She sent a message inviting him to visit her in the women's palace, but Siyavash did not trust her, and he made excuses. So Sudabeh told the king that Siyavash would not come, and asked him to send Siyavash to the women's palace to meet his sisters. The king did as she asked, and Siyavash obeyed."
+  },
+  {
+   "type": "p",
+   "text": "Three times Sudabeh tried to get Siyavash to talk with her alone, and three times he turned away. Then Sudabeh was furious. She went to the king and told lies about Siyavash, and spread wicked stories about him all over the land, and turned the king's heart against his son. Kay Kavus was angrier than he had ever been, and it did no good for Siyavash to defend himself, because the king loved Sudabeh and listened only to her. But the king's heart went out to his son too, and he was afraid there was some trick in it, and he could not decide which of them to believe."
+  },
+  {
+   "type": "p",
+   "text": "So he had camels bring wood from the forests, and they piled it up into a mighty mountain of logs, so big that it could be seen from miles away. It was built with a path running through the middle, wide enough for a horseman to ride along. Then the king had oil poured over the wood, and it took two hundred men to light it. The flames and smoke filled the sky, and people cried out in fear, and the heat could be felt in the farthest corners of the land."
+  },
+  {
+   "type": "p",
+   "text": "Then Kay Kavus told Siyavash to ride through the middle of the burning mountain, to prove that he was innocent. Siyavash came before his father and greeted him, and made ready. As he came near the fire, he prayed to God to show his father that he was pure. Then he let go of the reins, and rode into the flames. A great cry of sorrow went up from all the people, for they thought no one could come out of that furnace alive. Sudabeh heard the cry, and came up onto her roof to watch, and she hoped that harm would come to Siyavash. But the nobles looked at the king, and their lips trembled with anger at what he had done."
+  },
+  {
+   "type": "p",
+   "text": "Siyavash rode on, unafraid. His white robes and his black horse shone between the flames, and the fire was reflected in his golden helmet. He rode all the way to the end of the path, and when he came out, not a hair of his head was burned, and his clothes were not even blackened by the smoke."
+  },
+  {
+   "type": "p",
+   "text": "When the people saw him come out alive, they shouted so loud that the sky rang. The nobles came out to greet him, and everyone rejoiced, except Sudabeh. Siyavash rode to the king, got off his horse, and bowed before his father. When Kay Kavus saw that there was no mark of fire on him, he knew that his son was innocent. He lifted him up, sat him beside him on the throne, and asked him to forgive him. And Siyavash forgave him. Then the king feasted his son for three days with wine and song, and opened his treasury."
+  },
+  {
+   "type": "p",
+   "text": "On the fourth day Kay Kavus sat on his throne, holding his mace, and had Sudabeh brought before him. He told her how wicked she had been, and said that she must die. She begged for mercy, but she still said that Siyavash had only escaped the fire by magic. So the king ordered her to be led away. But when Siyavash heard, he was sad, because he knew that his father loved her. He went to the king and begged him to spare her. And Kay Kavus gladly agreed, for he still loved Sudabeh. So Siyavash led her back to the women's palace, and the king was happy with her again."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of Helen Zimmern's “Saiawush and the Fire” in The Epic of Kings: Stories Retold from Firdusi (1882). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. Zimmern spells the names Saiawush, Sudaveh and Kai Kaous; in Persian they are Siyavash, Sudabeh and Kay Kavus. Siyavash's ride through the fire is one of the best-known scenes in the Shahnameh."
+  }
+ ],
+ "workId": "persian-saiawush",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "zimmern-kings--saiawush-and-the-fire",
+ "wordCount": 1061,
+ "readingMinutes": 6,
+ "readingLevel": {
+  "fkGrade": 6.0,
+  "avgSentenceWords": 18.0,
+  "band": "middle"
+ }
+}
