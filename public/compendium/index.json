@@ -1092,6 +1092,30 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 4
+  },
+  {
+   "id": "pickthall-koran",
+   "title": "The Meaning of the Glorious Koran",
+   "author": "The Qur'an",
+   "contributor": "Translated by Marmaduke Pickthall",
+   "firstPublished": 1930,
+   "source": "https://www.gutenberg.org/ebooks/16955",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "ar",
+   "storyCount": 4
+  },
+  {
+   "id": "quran-stories",
+   "title": "Stories from the Qur'an, Simply Told",
+   "author": "The Qur'an",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 4
   }
  ],
  "stories": [
@@ -16816,6 +16840,150 @@
     "band": "middle"
    },
    "adaptedFrom": "baring-gould-myths--the-seven-sleepers-of-ephesus"
+  },
+  {
+   "id": "pickthall-koran--the-people-of-the-cave",
+   "collectionId": "pickthall-koran",
+   "order": 1,
+   "title": "The People of the Cave",
+   "wordCount": 728,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "seven-sleepers",
+   "readingLevel": {
+    "fkGrade": 6.0,
+    "avgSentenceWords": 17.4,
+    "band": "middle"
+   },
+   "simplifiedId": "quran-stories--the-sleepers-of-the-cave"
+  },
+  {
+   "id": "pickthall-koran--solomon-the-ants-and-the-hoopoe",
+   "collectionId": "pickthall-koran",
+   "order": 2,
+   "title": "Solomon, the Ants and the Hoopoe",
+   "wordCount": 882,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "islamic-sulayman",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 14.4,
+    "band": "middle"
+   },
+   "simplifiedId": "quran-stories--sulayman-the-ants-and-the-hoopoe"
+  },
+  {
+   "id": "pickthall-koran--noah-and-the-ship",
+   "collectionId": "pickthall-koran",
+   "order": 3,
+   "title": "Noah and the Ship",
+   "wordCount": 931,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-noah",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 12.2,
+    "band": "middle"
+   },
+   "simplifiedId": "quran-stories--nuh-and-the-ark"
+  },
+  {
+   "id": "pickthall-koran--jonah-and-the-fish",
+   "collectionId": "pickthall-koran",
+   "order": 4,
+   "title": "Jonah and the Fish",
+   "wordCount": 223,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-jonah",
+   "readingLevel": {
+    "fkGrade": 6.7,
+    "avgSentenceWords": 20.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "quran-stories--yunus-and-the-fish"
+  },
+  {
+   "id": "quran-stories--the-sleepers-of-the-cave",
+   "collectionId": "quran-stories",
+   "order": 1,
+   "title": "The Sleepers of the Cave",
+   "wordCount": 616,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "seven-sleepers",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 13.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "pickthall-koran--the-people-of-the-cave"
+  },
+  {
+   "id": "quran-stories--sulayman-the-ants-and-the-hoopoe",
+   "collectionId": "quran-stories",
+   "order": 2,
+   "title": "Sulayman, the Ants and the Hoopoe",
+   "wordCount": 958,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "islamic-sulayman",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 12.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "pickthall-koran--solomon-the-ants-and-the-hoopoe"
+  },
+  {
+   "id": "quran-stories--nuh-and-the-ark",
+   "collectionId": "quran-stories",
+   "order": 3,
+   "title": "Nuh and the Ark",
+   "wordCount": 847,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-noah",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.7,
+    "band": "early"
+   },
+   "adaptedFrom": "pickthall-koran--noah-and-the-ship"
+  },
+  {
+   "id": "quran-stories--yunus-and-the-fish",
+   "collectionId": "quran-stories",
+   "order": 4,
+   "title": "Yunus and the Fish",
+   "wordCount": 266,
+   "readingMinutes": 1,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hebrew-jonah",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 11.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "pickthall-koran--jonah-and-the-fish"
   }
  ]
 }

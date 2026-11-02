@@ -102,6 +102,26 @@ describe('compendium integrity', () => {
     }
   });
 
+  it('never puts a picture in a story sacred to Muslims (the prophets are not depicted)', () => {
+    const sacred = index.stories.filter((entry) => {
+      const story = JSON.parse(readFileSync(join(root, 'stories', `${entry.id}.json`), 'utf8')) as {
+        livingTradition?: string;
+      };
+      return story.livingTradition?.includes('Muslims');
+    });
+    expect(sacred.length).toBeGreaterThan(0);
+    for (const entry of sacred) {
+      expect(entry.hasImages, entry.id).toBe(false);
+      const story = storySchema.parse(
+        JSON.parse(readFileSync(join(root, 'stories', `${entry.id}.json`), 'utf8')),
+      );
+      expect(
+        story.blocks.filter((b) => b.type === 'image'),
+        entry.id,
+      ).toEqual([]);
+    }
+  });
+
   it('uses well-formed workIds', () => {
     for (const s of index.stories) if (s.workId) expect(s.workId).toMatch(/^[a-z]+(-[a-z0-9]+)+$/);
   });

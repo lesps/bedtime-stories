@@ -1,0 +1,52 @@
+{
+ "id": "quran-stories--yunus-and-the-fish",
+ "collectionId": "quran-stories",
+ "order": 4,
+ "title": "Yunus and the Fish",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Yunus was one of the messengers that Allah sent to warn people. One day he went away in anger, thinking that Allah had no power over him."
+  },
+  {
+   "type": "p",
+   "text": "He ran away to a ship that was loaded full. The people on board drew lots, and Yunus lost, and he was thrown out of the ship. And the fish swallowed him, for he had done wrong."
+  },
+  {
+   "type": "p",
+   "text": "Then, in the darkness, Yunus cried out, \"There is no god but You! Glory be to You! I have done wrong.\""
+  },
+  {
+   "type": "p",
+   "text": "And Allah heard his prayer, and saved him from his trouble. That is how Allah saves those who believe. If Yunus had not been one of those who praise Allah, he would have stayed inside the fish until the Day when everyone is raised up again."
+  },
+  {
+   "type": "p",
+   "text": "Then Allah threw him out onto a bare shore, and he was sick. And Allah made a gourd plant grow up over him."
+  },
+  {
+   "type": "p",
+   "text": "Then Allah sent him to a hundred thousand people, or more. And they believed, so Allah let them enjoy their lives for a while."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Jonah and the Fish” in The Meaning of the Glorious Koran, translated by Marmaduke Pickthall (1930). The original is listed under Other versions. From the thirty-seventh and twenty-first chapters of the Qur'an. Yunus is the Arabic name of Jonah, and the Qur'an also calls him Dhu'n-Nun, “the one of the fish”. Muslims honour him as a prophet, and say “peace be upon him” after a prophet's name. Allah is the Arabic word for God. Muslims still say Yunus's prayer from inside the fish today."
+  }
+ ],
+ "workId": "hebrew-jonah",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "pickthall-koran--jonah-and-the-fish",
+ "livingTradition": "Muslims",
+ "wordCount": 266,
+ "readingMinutes": 1,
+ "readingLevel": {
+  "fkGrade": 3.8,
+  "avgSentenceWords": 11.9,
+  "band": "middle"
+ }
+}

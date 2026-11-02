@@ -1,0 +1,104 @@
+{
+ "id": "quran-stories--nuh-and-the-ark",
+ "collectionId": "quran-stories",
+ "order": 3,
+ "title": "Nuh and the Ark",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Allah sent Nuh to his people. \"I have come to warn you plainly,\" said Nuh. \"Worship no one but Allah. I am afraid that a day of terrible punishment will come upon you.\""
+  },
+  {
+   "type": "p",
+   "text": "But the chiefs of his people, who did not believe, said, \"You are only a man like us. And the only people who follow you are the lowest of us, who don't stop to think. We don't see that you are any better than we are. No, we think you are all liars.\""
+  },
+  {
+   "type": "p",
+   "text": "\"O my people,\" said Nuh, \"think about it. If I have clear proof from my Lord, and He has given me mercy, and you cannot see it, can we make you accept it, when you don't want to? I am not asking you for any money for this. My reward will come from Allah alone. And I will not send away the people who believe. Who would save me from Allah if I sent them away? I do not tell you that I have the treasures of Allah, or that I know what is hidden, or that I am an angel. And I do not say that Allah will not give anything good to the people you look down on. Allah knows best what is in their hearts.\""
+  },
+  {
+   "type": "p",
+   "text": "\"O Nuh!\" they said. \"You have argued with us, and argued and argued. Now bring down on us this thing you keep warning us about, if you are telling the truth.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Only Allah will bring it on you, if He wills,\" said Nuh. \"And you will not be able to escape.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Allah told Nuh, \"No more of your people will believe, except the ones who believe already. So do not be sad about what they do. Build the ark, while We watch over you, and as We show you. And do not speak to Me for the people who do wrong. They will be drowned.\""
+  },
+  {
+   "type": "p",
+   "text": "So Nuh began to build the ark. And every time the chiefs of his people passed by, they made fun of him."
+  },
+  {
+   "type": "p",
+   "text": "\"You laugh at us now,\" said Nuh, \"but we will laugh at you, just as you laugh at us. And you will soon know who will be put to shame, and on whom a punishment will fall that lasts.\""
+  },
+  {
+   "type": "p",
+   "text": "At last Allah's command came, and water gushed out of the oven. And Allah said, \"Load into the ark two of every kind, a male and a female, and your family, except the one about whom the word has already gone out, and the people who believe.\" But only a few believed with him."
+  },
+  {
+   "type": "p",
+   "text": "\"Get on board!\" said Nuh. \"In the name of Allah it will sail, and in His name it will come to rest. My Lord is Forgiving and Merciful.\""
+  },
+  {
+   "type": "p",
+   "text": "And the ark sailed with them through waves like mountains. Nuh called out to his son, who was standing apart. \"O my son! Come on board with us, and don't stay with the people who do not believe!\""
+  },
+  {
+   "type": "p",
+   "text": "But his son said, \"I will go up a mountain. It will keep me safe from the water.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Today nothing can keep anyone safe from Allah's command,\" said Nuh, \"except the ones He has mercy on.\" And a wave came between them, and his son was lost in the flood with the others."
+  },
+  {
+   "type": "p",
+   "text": "Then it was said, \"O earth, swallow up your water! O sky, clear away your clouds!\" And the water went down, and Allah's command was done. And the ark came to rest on Mount Al-Judi. And it was said, \"Away with the people who did wrong!\""
+  },
+  {
+   "type": "p",
+   "text": "Then Nuh called to his Lord. \"My Lord! My son is one of my family! And Your promise is true, and You are the most just of all judges.\""
+  },
+  {
+   "type": "p",
+   "text": "But Allah said, \"O Nuh! He is not one of your family, for what he did was not right. So do not ask Me about something you do not know. I warn you, so that you will not be one of those who do not understand.\""
+  },
+  {
+   "type": "p",
+   "text": "\"My Lord,\" said Nuh, \"I come to You for protection from asking You about something I do not know. Unless You forgive me and have mercy on me, I will be lost.\""
+  },
+  {
+   "type": "p",
+   "text": "And it was said, \"O Nuh! Go down from the mountain, in peace from Us, with blessings on you, and on the peoples who will come from those who are with you.\""
+  },
+  {
+   "type": "p",
+   "text": "This is part of the news of the unseen, which Allah told to the Prophet Muhammad. He did not know it before, and nor did his people. So be patient: in the end, good comes to those who keep away from evil."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Noah and the Ship” in The Meaning of the Glorious Koran, translated by Marmaduke Pickthall (1930). The original is listed under Other versions. From the eleventh chapter of the Qur'an, called Hud. Nuh is the Arabic name of Noah. Muslims honour him as a prophet, and say “peace be upon him” after a prophet's name. Allah is the Arabic word for God."
+  }
+ ],
+ "workId": "hebrew-noah",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "pickthall-koran--noah-and-the-ship",
+ "livingTradition": "Muslims",
+ "wordCount": 847,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 3.4,
+  "avgSentenceWords": 11.7,
+  "band": "early"
+ }
+}

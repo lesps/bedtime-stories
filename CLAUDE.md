@@ -79,7 +79,8 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           Stories, Honi's sleep and the Golem from Landa's Jewish Fairy Tales and
                           Legends; extract_christian.py: three Gospel passages in the American
                           Standard Version (1901), and the Golden Legend's Seven Sleepers as
-                          Baring-Gould translates it in Curious Myths of the Middle Ages)
+                          Baring-Gould translates it in Curious Myths of the Middle Ages;
+                          extract_islamic.py: four Qur'an passages in Pickthall's translation)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
@@ -133,7 +134,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
 sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1087 stories, 91 collections, ~11 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1095 stories, 93 collections, ~11 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -158,9 +159,11 @@ them.
   note says what it was retold from. The integrity test checks that the links run both ways and
   stay within one `workId`.
 
-A story gets a retelling when its band is `advanced` or it runs over 20 minutes. Three `middle` originals have one anyway: the verse
+A story gets a retelling when its band is `advanced` or it runs over 20 minutes. Some `middle` originals have one anyway: the verse
 translation of Arany's stag legend (a long poem), Budge's Gilgamish Tablet XI (its short verse lines
-pull the score down) and Jastrow's Adapa (mostly commentary around the tablet's lines).
+pull the score down), Jastrow's Adapa (mostly commentary around the tablet's lines) and three of
+Pickthall's Qur'an passages (the Qur'an alludes to stories its first listeners knew, so a child can't
+follow the plot from the verses alone).
 
 **Fields in the data that the app doesn't read yet.** zod strips unknown keys, so these are safe to
 ship ahead of the code: `readingLevel` (index + story), `{ fkGrade, avgSentenceWords, band }`, with
@@ -169,7 +172,7 @@ collections; and, on story files, `adaptation` and `adaptedBy`.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-40 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+41 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
@@ -198,9 +201,10 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
   ("Read the original" / "Read the retelling for young readers") when content settings show it.
 - **Living traditions**: a story with `livingTradition` shows one line under the byline, "This story
   is sacred to … today." The Hebrew Bible passages carry "Jews and Christians" and the Gospel passages
-  "Christians" (not the Seven Sleepers, a saints' legend), and a retelling
-  inherits its original's (`build_simplified.py`). Their themes never use `magic` or `ghosts`
-  (`HEBREW_BIBLE` in `tag_stories.py`).
+  "Christians" (not the Seven Sleepers, a saints' legend) and the Qur'an passages "Muslims", and a
+  retelling inherits its original's (`build_simplified.py`). Their themes never use `magic` or
+  `ghosts` (`HEBREW_BIBLE` and `QURAN` in `tag_stories.py`). A story sacred to Muslims never has a
+  picture, since the prophets are not depicted; the integrity test checks.
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
 progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progress entries also carry `blockCount` (when
   known) so the shelf can show a percentage, and `finished` once the last block was reached. Each field falls back to its default independently; corrupt
@@ -328,7 +332,7 @@ fine)`.
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends` or `christian-stories` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends`, `christian-stories` or `quran-stories` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).
@@ -346,8 +350,12 @@ fine)`.
   and L-rd; `extract_hebrew_bible.py` restores the printing's "the LORD", "God" and "Lord" and fixes
   the digitization's few typos in these passages (`FIXES`). The King James Version isn't used: the
   Crown's letters patent still restrict it in the UK; the Gospel passages are the American
-  Standard Version (1901) from the same digitization. Retellings of these passages stay close to
-  the text and add no interpretation.
+  Standard Version (1901) from the same digitization. The Qur'an passages are Marmaduke
+  Pickthall's The Meaning of the Glorious Koran (1930; public domain in the US since 2026), from
+  Project Gutenberg's three-translation text; `extract_islamic.py` keeps his bracketed words and
+  fixes three slips of the digitization (`FIXES`). Retellings of these passages stay close to the
+  text and add no interpretation; the Qur'an retellings use the Arabic names (Nuh, Sulayman, Yunus)
+  and "Allah", as Pickthall does.
 - Content flags and exclusions in the patches are editorial first passes (see each patch's notes);
   `excluded` alone decides the antisemitic-caricature stories.
 
