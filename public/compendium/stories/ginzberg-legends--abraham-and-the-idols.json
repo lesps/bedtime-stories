@@ -1,0 +1,41 @@
+{
+ "id": "ginzberg-legends--abraham-and-the-idols",
+ "collectionId": "ginzberg-legends",
+ "order": 1,
+ "title": "Abraham and the Idols",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Terah, Abraham's father, made idols and worshipped them."
+  },
+  {
+   "type": "p",
+   "text": "But Terah could not be convinced, and in reply to Abraham's question, who the God was that had created heaven and earth and the children of men, he took him to the hall wherein stood twelve great idols and a large number of little idols, and pointing to them he said, \"Here are they who have made all thou seest on earth, they who have created also me and thee and all men on the earth,\" and he bowed down before his gods, and left the hall with his son."
+  },
+  {
+   "type": "p",
+   "text": "Abraham went thence to his mother, and he spoke to her, saying: \"Behold, my father has shown those unto me who made heaven and earth and all the sons of men. Now, therefore, hasten and fetch a kid from the flock, and make of it savory meat, that I may bring it to my father's gods, perhaps I may thereby become acceptable to them.\" His mother did according to his request, but when Abraham brought the offering to the gods, he saw that they had no voice, no hearing, no motion, and not one of them stretched forth his hand to eat. Abraham mocked them, and said, \"Surely, the savory meat that I prepared doth not please you, or perhaps it is too little for you! Therefore I will prepare fresh savory meat to-morrow, better and more plentiful than this, that I may see what cometh therefrom.\" But the gods remained mute and without motion before the second offering of excellent savory meat as before the first offering, and the spirit of God came over Abraham, and he cried out, and said: \"Woe unto my father and his wicked generation, whose hearts are all inclined to vanity, who serve these idols of wood and stone, which cannot eat, nor smell, nor hear, nor speak, which have mouths without speech, eyes without sight, ears without hearing, hands without feeling, and legs without motion!\""
+  },
+  {
+   "type": "p",
+   "text": "Abraham then took a hatchet in his hand, and broke all his father's gods, and when he had done breaking them he placed the hatchet in the hand of the biggest god among them all, and he went out. Terah, having heard the crash of the hatchet on the stone, ran to the room of the idols, and he reached it at the moment when Abraham was leaving it, and when he saw what had happened, he hastened after Abraham, and he said to him, \"What is this mischief thou hast done to my gods?\" Abraham answered: \"I set savory meat before them, and when I came nigh unto them, that they might eat, they all stretched out their hands to take of the meat, before the big one had put forth his hand to eat. This one, enraged against them on account of their behavior, took the hatchet and broke them all, and, behold, the hatchet is yet in his hands, as thou mayest see.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Terah turned in wrath upon Abraham, and he said: \"Thou speakest lies unto me! Is there spirit, soul, or power in these gods to do all thou hast told me? Are they not wood and stone? and have I not myself made them? It is thou that didst place the hatchet in the hand of the big god, and thou sayest he smote them all.\" Abraham answered his father, and said: \"How, then, canst thou serve these idols in whom there is no power to do anything? Can these idols in which thou trustest deliver thee? Can they hear thy prayers when thou callest upon them?\" After having spoken these and similar words, admonishing his father to mend his ways and refrain from worshipping idols, he leapt up before Terah, took the hatchet from the big idol, broke it therewith, and ran away."
+  }
+ ],
+ "workId": "jewish-abraham-idols",
+ "wordCount": 640,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 12.1,
+  "avgSentenceWords": 31.6,
+  "band": "advanced"
+ },
+ "simplifiedId": "jewish-legends--abraham-and-the-idols"
+}
