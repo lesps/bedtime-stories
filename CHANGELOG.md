@@ -30,6 +30,16 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 21: Jewish legend. Abraham smashing his father's idols, from Ginzberg's The
+  Legends of the Jews, volume 1 (Szold's translation, 1909, `ginzberg-legends`); King Solomon, the
+  demon king Ashmodai and the stone-cutting worm Shamir, from Friedlander's Jewish Fairy Stories
+  (1917, `friedlander-jewish`); and Honi's hundred-year sleep and the Golem of Prague ("The Rabbi's
+  Bogey-Man"), from Landa's Jewish Fairy Tales and Legends (1919, `landa-jewish`). Beatrice
+  Hirschfeld's pictures for Friedlander are left out (her dates are unknown). New "Jewish Legends,
+  Simply Told" (`jewish-legends`): retellings of Abraham, Solomon and the Golem, and Honi the
+  Circle-Maker drawing his circle for rain, retold from the Talmud (Ta'anit 23a) with no original
+  in the app. Honi's sleep reads at `middle` and has no retelling. New culture `jewish`
+  ("Jewish"); `tools/extract_jewish.py`.
 - Mythology, part 20: stories from the Hebrew Bible. Twenty passages in the Jewish Publication
   Society's translation (1917, `jps-1917`), from the creation to Daniel in the lions' den, with
   Joseph in three parts. Cain and Abel, Joseph in Egypt (Potiphar's wife), Samson and the judgment

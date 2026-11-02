@@ -1008,6 +1008,54 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 18
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "ginzberg-legends",
+   "title": "The Legends of the Jews, Volume 1",
+   "author": "Louis Ginzberg",
+   "contributor": "Translated by Henrietta Szold",
+   "firstPublished": 1909,
+   "source": "https://www.gutenberg.org/ebooks/1493",
+   "originalLanguage": "de",
+   "storyCount": 1
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "friedlander-jewish",
+   "title": "Jewish Fairy Stories",
+   "author": "Gerald Friedlander",
+   "contributor": null,
+   "firstPublished": 1917,
+   "source": "https://www.gutenberg.org/ebooks/72880",
+   "originalLanguage": "he",
+   "storyCount": 1
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "landa-jewish",
+   "title": "Jewish Fairy Tales and Legends",
+   "author": "Gertrude Landa",
+   "contributor": null,
+   "firstPublished": 1919,
+   "source": "https://www.gutenberg.org/ebooks/26711",
+   "originalLanguage": "en",
+   "storyCount": 2
+  },
+  {
+   "id": "jewish-legends",
+   "title": "Jewish Legends, Simply Told",
+   "author": "Traditional (Jewish)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 4
   }
  ],
  "stories": [
@@ -16444,6 +16492,148 @@
     "band": "middle"
    },
    "adaptedFrom": "jps-1917--daniel-in-the-lions-den"
+  },
+  {
+   "id": "ginzberg-legends--abraham-and-the-idols",
+   "collectionId": "ginzberg-legends",
+   "order": 1,
+   "title": "Abraham and the Idols",
+   "wordCount": 640,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-abraham-idols",
+   "readingLevel": {
+    "fkGrade": 12.1,
+    "avgSentenceWords": 31.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "jewish-legends--abraham-and-the-idols"
+  },
+  {
+   "id": "friedlander-jewish--king-solomon-and-the-worm",
+   "collectionId": "friedlander-jewish",
+   "order": 1,
+   "title": "King Solomon and the Worm",
+   "wordCount": 2831,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-solomon-shamir",
+   "readingLevel": {
+    "fkGrade": 6.8,
+    "avgSentenceWords": 16.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "jewish-legends--king-solomon-and-the-worm"
+  },
+  {
+   "id": "landa-jewish--the-sleep-of-one-hundred-years",
+   "collectionId": "landa-jewish",
+   "order": 1,
+   "title": "The Sleep of One Hundred Years",
+   "wordCount": 1131,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-honi-sleep",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 11.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "landa-jewish--the-rabbis-bogey-man",
+   "collectionId": "landa-jewish",
+   "order": 2,
+   "title": "The Rabbi's Bogey-Man",
+   "wordCount": 1290,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-golem",
+   "readingLevel": {
+    "fkGrade": 6.7,
+    "avgSentenceWords": 17.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "jewish-legends--the-golem-of-prague"
+  },
+  {
+   "id": "jewish-legends--abraham-and-the-idols",
+   "collectionId": "jewish-legends",
+   "order": 1,
+   "title": "Abraham and the Idols",
+   "wordCount": 595,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-abraham-idols",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "ginzberg-legends--abraham-and-the-idols"
+  },
+  {
+   "id": "jewish-legends--king-solomon-and-the-worm",
+   "collectionId": "jewish-legends",
+   "order": 2,
+   "title": "King Solomon and the Wonderful Worm",
+   "wordCount": 1317,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-solomon-shamir",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 11.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "friedlander-jewish--king-solomon-and-the-worm"
+  },
+  {
+   "id": "jewish-legends--the-golem-of-prague",
+   "collectionId": "jewish-legends",
+   "order": 3,
+   "title": "The Golem of Prague",
+   "wordCount": 1065,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-golem",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 12.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "landa-jewish--the-rabbis-bogey-man"
+  },
+  {
+   "id": "jewish-legends--honi-the-circle-maker",
+   "collectionId": "jewish-legends",
+   "order": 4,
+   "title": "Honi the Circle-Maker",
+   "wordCount": 455,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jewish-honi-circle",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 12.8,
+    "band": "middle"
+   }
   }
  ]
 }

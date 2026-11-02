@@ -52,6 +52,7 @@ CULTURES = [
     ("hittite", "Hittite and Hurrian"),
     ("canaanite", "Canaanite"),
     ("hebrew", "Hebrew Bible"),
+    ("jewish", "Jewish"),
     ("japanese", "Japanese"),
 ]
 
@@ -161,6 +162,10 @@ COLLECTION_CULTURE = {
     "smith-achilles-tatius": "canaanite",
     "jps-1917": "hebrew",
     "hebrew-bible": "hebrew",
+    "ginzberg-legends": "jewish",
+    "friedlander-jewish": "jewish",
+    "landa-jewish": "jewish",
+    "jewish-legends": "jewish",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -642,6 +647,15 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "myths-hittite-canaanite--baal-and-the-sea": {"add": ["magic"], "remove": ["animals", "tricksters", "gentle"]},
     "smith-achilles-tatius--the-shepherds-dog-and-the-purple-dye": {"add": ["how-things-began"], "remove": ["kindness"]},
     "myths-hittite-canaanite--the-dog-who-found-the-purple-dye": {"add": ["how-things-began"], "remove": ["gods-heroes"]},
+    # Jewish legends
+    "ginzberg-legends--abraham-and-the-idols": {"add": ["family", "tricksters"], "remove": ["ghosts"]},
+    "jewish-legends--abraham-and-the-idols": {"add": ["family", "tricksters"]},
+    "friedlander-jewish--king-solomon-and-the-worm": {"add": ["magic", "animals"], "remove": ["ghosts"]},
+    "jewish-legends--king-solomon-and-the-worm": {"add": ["animals"], "remove": ["ghosts"]},
+    "landa-jewish--the-rabbis-bogey-man": {"add": ["royalty", "magic", "legends"]},
+    "jewish-legends--the-golem-of-prague": {"add": ["magic"]},
+    "landa-jewish--the-sleep-of-one-hundred-years": {"remove": ["gentle"]},
+    "jewish-legends--honi-the-circle-maker": {"remove": ["quests"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

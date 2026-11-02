@@ -237,6 +237,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "jewish-legends": {
+        "id": "jewish-legends",
+        "title": "Jewish Legends, Simply Told",
+        "author": "Traditional (Jewish)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-mesopotamian": {
         "id": "myths-mesopotamian",
         "title": "Mesopotamian Myths, Simply Told",
