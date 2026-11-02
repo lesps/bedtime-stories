@@ -1,0 +1,46 @@
+---
+title: Daniel in the Lions' Den
+adaptedFrom: jps-1917--daniel-in-the-lions-den
+order: 18
+namesNote: From the sixth chapter of the Book of Daniel. Daniel was one of the people of Judah who had been taken away to live in exile in Babylon.
+---
+
+King Darius chose a hundred and twenty governors to rule his kingdom, and over them he set three chief ministers. Daniel was one of the three. And Daniel did his work so much better than all the others, because there was an excellent spirit in him, that the king planned to put him in charge of the whole kingdom.
+
+So the other ministers and governors tried to find something wrong with the way Daniel did his work. But they could not find anything, because he was faithful and honest, and he never made mistakes.
+
+So they said, "We will never find anything against this Daniel, unless it has to do with the law of his God."
+
+They all went to the king together. "King Darius, live for ever!" they said. "All of us have agreed that the king should make a law. For thirty days, anyone who prays to any god or person except you, O king, shall be thrown into the den of lions. Now, O king, sign the law, so that it cannot be changed, for the law of the Medes and the Persians can never be changed."
+
+So King Darius signed the law.
+
+When Daniel heard that the law had been signed, he went home. In his room upstairs, the windows were open towards Jerusalem. And three times a day he knelt down and prayed and gave thanks to his God, just as he had always done.
+
+The men came rushing in, and found Daniel praying to his God. Then they went to the king. "Didn't you sign a law," they said, "that anyone who prays to any god or person except you, for thirty days, shall be thrown into the den of lions?"
+
+"It is true," said the king, "and by the law of the Medes and the Persians, it cannot be changed."
+
+"Well, Daniel, one of the exiles from Judah, takes no notice of you, O king, or of the law you signed," they said. "He still prays three times a day."
+
+When the king heard this, he was very upset. He set his heart on saving Daniel, and until the sun went down he tried every way to rescue him.
+
+But the men came back to the king. "Remember, O king," they said, "by the law of the Medes and the Persians, no law the king makes can be changed."
+
+So the king gave the order, and Daniel was brought and thrown into the den of lions. "Your God, whom you serve all the time," the king said to Daniel, "He will save you."
+
+A stone was brought and laid over the mouth of the den, and the king sealed it with his own ring, and with the rings of his lords, so that nothing could be changed for Daniel.
+
+Then the king went back to his palace. All night he ate nothing, and would have no entertainment, and he could not sleep.
+
+Very early in the morning, at the first light, the king got up and hurried to the den of lions. As he came near, he called out to Daniel in a voice full of worry, "O Daniel, servant of the living God, has your God, whom you serve all the time, been able to save you from the lions?"
+
+And Daniel answered, "O king, live for ever! My God sent His angel, and shut the lions' mouths, and they have not hurt me, because I was found innocent before Him. And I have never done you any wrong, O king."
+
+The king was overjoyed, and he gave orders to lift Daniel out of the den. So Daniel was lifted out of the den, and there was not a scratch on him, because he had trusted in his God.
+
+Then the king commanded that the men who had accused Daniel should be thrown into the lions' den themselves. And the lions overpowered them before they even reached the bottom.
+
+Then King Darius wrote to all the peoples and nations of every language in all the earth: "Peace be with you! I make a law that everyone in my kingdom must tremble and fear before the God of Daniel. For He is the living God, and He lasts for ever. His kingdom will never be destroyed. He saves and He rescues, and He does signs and wonders in heaven and on earth. He has saved Daniel from the power of the lions."
+
+So Daniel did well in the reign of Darius, and in the reign of Cyrus the Persian.

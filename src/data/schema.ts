@@ -56,6 +56,7 @@ export const storySchema: z.ZodType<Story> = z.object({
   firstPublished: z.number().int().optional(),
   source: z.string().url().optional(),
   originalTitle: z.string().min(1).optional(),
+  livingTradition: z.string().min(1).optional(),
 });
 
 const tagDef = z.object({ id: z.string().regex(/^[a-z-]+$/), label: z.string().min(1) });

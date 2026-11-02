@@ -157,6 +157,11 @@ function ReaderPage({ storyId }: { storyId: string }) {
               </>
             )}
           </p>
+          {load.status === 'ready' && load.story.livingTradition && (
+            <p className="tradition-note">
+              This story is sacred to {load.story.livingTradition} today.
+            </p>
+          )}
           {otherVersion && (
             <p className="version-link">
               <Link to={`/s/${otherVersion.entry.id}`}>

@@ -1,0 +1,132 @@
+{
+ "id": "hebrew-bible--the-garden-of-eden",
+ "collectionId": "hebrew-bible",
+ "order": 2,
+ "title": "The Garden of Eden",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "When the Lord God made the earth and the heavens, no plants had grown yet, because God had not sent rain, and there was no one to work the ground. But a mist came up from the earth and watered the ground."
+  },
+  {
+   "type": "p",
+   "text": "Then the Lord God formed a man out of the dust of the ground. He breathed into his nose the breath of life, and the man became a living soul."
+  },
+  {
+   "type": "p",
+   "text": "The Lord God planted a garden in the east, in Eden, and there He put the man He had made. In the garden He made every kind of tree grow, beautiful to look at and good for food. In the middle of the garden were the tree of life, and the tree of the knowledge of good and evil. A river flowed out of Eden to water the garden, and from there it split into four rivers."
+  },
+  {
+   "type": "p",
+   "text": "The Lord God put the man in the garden to work it and to look after it. And He told the man, \"You may eat from every tree in the garden. But you must not eat from the tree of the knowledge of good and evil. For on the day you eat from it, you will surely die.\""
+  },
+  {
+   "type": "p",
+   "text": "Then the Lord God said, \"It is not good for the man to be alone. I will make a helper who is right for him.\""
+  },
+  {
+   "type": "p",
+   "text": "So out of the ground the Lord God formed every animal of the field and every bird of the air, and He brought them to the man to see what he would call them. Whatever the man called each living creature, that was its name. The man gave names to all the cattle, and the birds, and the wild animals. But there was no helper who was right for him."
+  },
+  {
+   "type": "p",
+   "text": "So the Lord God made the man fall into a deep sleep. While he slept, God took one of his ribs, and closed up the place with flesh. And from the rib God made a woman, and brought her to the man."
+  },
+  {
+   "type": "p",
+   "text": "The man said, \"At last! This is bone of my bones, and flesh of my flesh. She shall be called Woman, because she was taken out of Man.\""
+  },
+  {
+   "type": "p",
+   "text": "Now the serpent was more cunning than any other animal the Lord God had made. He said to the woman, \"Did God really say you must not eat from any tree in the garden?\""
+  },
+  {
+   "type": "p",
+   "text": "\"We may eat the fruit of the trees in the garden,\" said the woman. \"But God said, 'You must not eat the fruit of the tree in the middle of the garden, and you must not touch it, or you will die.'\""
+  },
+  {
+   "type": "p",
+   "text": "\"You will not die,\" said the serpent. \"God knows that on the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.\""
+  },
+  {
+   "type": "p",
+   "text": "The woman saw that the tree was good for food, and lovely to look at, and that it could make a person wise. So she took some of the fruit and ate it. And she gave some to her husband, who was with her, and he ate it too."
+  },
+  {
+   "type": "p",
+   "text": "Then the eyes of both of them were opened, and they knew that they had no clothes on. So they sewed fig leaves together, and made themselves coverings."
+  },
+  {
+   "type": "p",
+   "text": "In the cool of the day they heard the Lord God walking in the garden, and they hid among the trees."
+  },
+  {
+   "type": "p",
+   "text": "The Lord God called to the man, \"Where are you?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I heard You in the garden,\" said the man, \"and I was afraid, because I had no clothes on. So I hid.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Who told you that you had no clothes on?\" said God. \"Have you eaten from the tree I told you not to eat from?\""
+  },
+  {
+   "type": "p",
+   "text": "\"The woman You gave me gave me fruit from the tree,\" said the man, \"and I ate it.\""
+  },
+  {
+   "type": "p",
+   "text": "\"What is this you have done?\" the Lord God said to the woman."
+  },
+  {
+   "type": "p",
+   "text": "\"The serpent tricked me,\" said the woman, \"and I ate.\""
+  },
+  {
+   "type": "p",
+   "text": "Then the Lord God said to the serpent, \"Because you have done this, you shall crawl on your belly, and eat dust all the days of your life. And there will be hatred between you and the woman, and between your children and hers.\""
+  },
+  {
+   "type": "p",
+   "text": "To the woman He said, \"You shall have great pain when you have children.\""
+  },
+  {
+   "type": "p",
+   "text": "And to the man He said, \"Because you listened to your wife, and ate from the tree I told you not to eat from, the ground is cursed because of you. You will have to work hard all the days of your life to get food from it. It will grow thorns and thistles for you. You will eat bread by the sweat of your face, until you go back into the ground. For you were made from dust, and to dust you shall return.\""
+  },
+  {
+   "type": "p",
+   "text": "The man named his wife Eve, because she was the mother of all living people. And the Lord God made clothes out of skins for the man and his wife, and dressed them."
+  },
+  {
+   "type": "p",
+   "text": "Then the Lord God said, \"The man has become like one of Us, knowing good and evil. Now he must not reach out and take fruit from the tree of life as well, and eat it, and live for ever.\""
+  },
+  {
+   "type": "p",
+   "text": "So the Lord God sent the man out of the garden of Eden, to work the ground he was made from. And at the east of the garden He placed the cherubim, and a flaming sword that turned every way, to guard the way to the tree of life."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Garden of Eden” in The Holy Scriptures According to the Masoretic Text, translated by the Jewish Publication Society (1917). The original is listed under Other versions. From the second and third chapters of Genesis."
+  }
+ ],
+ "workId": "hebrew-eden",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "jps-1917--the-garden-of-eden",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 978,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 4.0,
+  "avgSentenceWords": 15.7,
+  "band": "middle"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "jps-1917--jacobs-ladder",
+ "collectionId": "jps-1917",
+ "order": 6,
+ "title": "Jacob's Ladder",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Genesis 28:10–22, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "p",
+   "text": "And Jacob went out from Beer-sheba, and went toward Haran."
+  },
+  {
+   "type": "p",
+   "text": "And he lighted upon the place, and tarried there all night, because the sun was set; and he took one of the stones of the place, and put it under his head, and lay down in that place to sleep."
+  },
+  {
+   "type": "p",
+   "text": "And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven; and behold the angels of God ascending and descending on it."
+  },
+  {
+   "type": "p",
+   "text": "And, behold, the LORD stood beside him, and said: 'I am the LORD, the God of Abraham thy father, and the God of Isaac. The land whereon thou liest, to thee will I give it, and to thy seed."
+  },
+  {
+   "type": "p",
+   "text": "And thy seed shall be as the dust of the earth, and thou shalt spread abroad to the west, and to the east, and to the north, and to the south. And in thee and in thy seed shall all the families of the earth be blessed."
+  },
+  {
+   "type": "p",
+   "text": "And, behold, I am with thee, and will keep thee whithersoever thou goest, and will bring thee back into this land; for I will not leave thee, until I have done that which I have spoken to thee of.'"
+  },
+  {
+   "type": "p",
+   "text": "And Jacob awaked out of his sleep, and he said: 'Surely the LORD is in this place; and I knew it not.'"
+  },
+  {
+   "type": "p",
+   "text": "And he was afraid, and said: 'How full of awe is this place! this is none other than the house of God, and this is the gate of heaven.'"
+  },
+  {
+   "type": "p",
+   "text": "And Jacob rose up early in the morning, and took the stone that he had put under his head, and set it up for a pillar, and poured oil upon the top of it."
+  },
+  {
+   "type": "p",
+   "text": "And he called the name of that place Beth-el, but the name of the city was Luz at the first."
+  },
+  {
+   "type": "p",
+   "text": "And Jacob vowed a vow, saying: 'If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and raiment to put on, so that I come back to my father's house in peace, then shall the LORD be my God, and this stone, which I have set up for a pillar, shall be God's house; and of all that Thou shalt give me I will surely give the tenth unto Thee.'"
+  }
+ ],
+ "workId": "hebrew-jacob-ladder",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 403,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 8.9,
+  "avgSentenceWords": 28.3,
+  "band": "advanced"
+ },
+ "simplifiedId": "hebrew-bible--jacobs-ladder"
+}

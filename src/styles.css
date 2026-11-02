@@ -879,6 +879,13 @@ figure img[style] {
 .eyebrow + .page-title {
   margin-top: 0.1rem;
 }
+/* One line of context on a story sacred in a living tradition, under the byline. */
+.tradition-note {
+  margin: -0.75em 0 1.5em;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
 /* "Read the original" / "Read the retelling…", between the byline and the tag chips. */
 .version-link {
   margin: -0.75em 0 1.5em;

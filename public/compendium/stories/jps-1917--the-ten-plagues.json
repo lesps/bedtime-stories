@@ -1,0 +1,546 @@
+{
+ "id": "jps-1917--the-ten-plagues",
+ "collectionId": "jps-1917",
+ "order": 13,
+ "title": "The Ten Plagues",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Exodus 7:8–11:10; Exodus 12:29–36, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "heading",
+   "text": "Exodus 7"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD spoke unto Moses and unto Aaron, saying: 'When Pharaoh shall speak unto you, saying: Show a wonder for you; then thou shalt say unto Aaron: Take thy rod, and cast it down before Pharaoh, that it become a serpent.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses and Aaron went in unto Pharaoh, and they did so, as the LORD had commanded; and Aaron cast down his rod before Pharaoh and before his servants, and it became a serpent."
+  },
+  {
+   "type": "p",
+   "text": "Then Pharaoh also called for the wise men and the sorcerers; and they also, the magicians of Egypt, did in like manner with their secret arts."
+  },
+  {
+   "type": "p",
+   "text": "For they cast down every man his rod, and they became serpents; but Aaron's rod swallowed up their rods."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh's heart was hardened, and he hearkened not unto them; as the LORD had spoken."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Pharaoh's heart is stubborn, he refuseth to let the people go."
+  },
+  {
+   "type": "p",
+   "text": "Get thee unto Pharaoh in the morning; lo, he goeth out unto the water; and thou shalt stand by the river's brink to meet him; and the rod which was turned to a serpent shalt thou take in thy hand."
+  },
+  {
+   "type": "p",
+   "text": "And thou shalt say unto him: The LORD, the God of the Hebrews, hath sent me unto thee, saying: Let My people go, that they may serve Me in the wilderness; and, behold, hitherto thou hast not hearkened; thus saith the LORD: In this thou shalt know that I am the LORD--behold, I will smite with the rod that is in my hand upon the waters which are in the river, and they shall be turned to blood."
+  },
+  {
+   "type": "p",
+   "text": "And the fish that are in the river shall die, and the river shall become foul; and the Egyptians shall loathe to drink water from the river.'"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Say unto Aaron: Take thy rod, and stretch out thy hand over the waters of Egypt, over their rivers, over their streams, and over their pools, and over all their ponds of water, that they may become blood; and there shall be blood throughout all the land of Egypt, both in vessels of wood and in vessels of stone.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses and Aaron did so, as the LORD commanded; and he lifted up the rod, and smote the waters that were in the river, in the sight of Pharaoh, and in the sight of his servants; and all the waters that were in the river were turned to blood."
+  },
+  {
+   "type": "p",
+   "text": "And the fish that were in the river died; and the river became foul, and the Egyptians could not drink water from the river; and the blood was throughout all the land of Egypt."
+  },
+  {
+   "type": "p",
+   "text": "And the magicians of Egypt did in like manner with their secret arts; and Pharaoh's heart was hardened, and he hearkened not unto them; as the LORD had spoken."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh turned and went into his house, neither did he lay even this to heart."
+  },
+  {
+   "type": "p",
+   "text": "And all the Egyptians digged round about the river for water to drink; for they could not drink of the water of the river."
+  },
+  {
+   "type": "p",
+   "text": "And seven days were fulfilled, after that the LORD had smitten the river."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD spoke unto Moses: 'Go in unto Pharaoh, and say unto him: Thus saith the LORD: Let My people go, that they may serve Me."
+  },
+  {
+   "type": "p",
+   "text": "And if thou refuse to let them go, behold, I will smite all thy borders with frogs."
+  },
+  {
+   "type": "p",
+   "text": "And the river shall swarm with frogs, which shall go up and come into thy house, and into thy bed-chamber, and upon thy bed, and into the house of thy servants, and upon thy people, and into thine ovens, and into thy kneading-troughs."
+  },
+  {
+   "type": "p",
+   "text": "And the frogs shall come up both upon thee, and upon thy people, and upon all thy servants.'"
+  },
+  {
+   "type": "heading",
+   "text": "Exodus 8"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Say unto Aaron: Stretch forth thy hand with thy rod over the rivers, over the canals, and over the pools, and cause frogs to come up upon the land of Egypt.'"
+  },
+  {
+   "type": "p",
+   "text": "And Aaron stretched out his hand over the waters of Egypt; and the frogs came up, and covered the land of Egypt."
+  },
+  {
+   "type": "p",
+   "text": "And the magicians did in like manner with their secret arts, and brought up frogs upon the land of Egypt."
+  },
+  {
+   "type": "p",
+   "text": "Then Pharaoh called for Moses and Aaron, and said: 'Entreat the LORD, that He take away the frogs from me, and from my people; and I will let the people go, that they may sacrifice unto the LORD.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses said unto Pharaoh: 'Have thou this glory over me; against what time shall I entreat for thee, and for thy servants, and for thy people, that the frogs be destroyed from thee and thy houses, and remain in the river only?'"
+  },
+  {
+   "type": "p",
+   "text": "And he said: 'Against to-morrow.' And he said: 'Be it according to thy word; that thou mayest know that there is none like unto the LORD our God."
+  },
+  {
+   "type": "p",
+   "text": "And the frogs shall depart from thee, and from thy houses, and from thy servants, and from thy people; they shall remain in the river only.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses and Aaron went out from Pharaoh; and Moses cried unto the LORD concerning the frogs, which He had brought upon Pharaoh."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD did according to the word of Moses; and the frogs died out of the houses, out of the courts, and out of the fields."
+  },
+  {
+   "type": "p",
+   "text": "And they gathered them together in heaps; and the land stank."
+  },
+  {
+   "type": "p",
+   "text": "But when Pharaoh saw that there was respite, he hardened his heart, and hearkened not unto them; as the LORD had spoken."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Say unto Aaron: Stretch out thy rod, and smite the dust of the earth, that it may become gnats throughout all the land of Egypt.'"
+  },
+  {
+   "type": "p",
+   "text": "And they did so; and Aaron stretched out his hand with his rod, and smote the dust of the earth, and there were gnats upon man, and upon beast; all the dust of the earth became gnats throughout all the land of Egypt."
+  },
+  {
+   "type": "p",
+   "text": "And the magicians did so with their secret arts to bring forth gnats, but they could not; and there were gnats upon man, and upon beast."
+  },
+  {
+   "type": "p",
+   "text": "Then the magicians said unto Pharaoh: 'This is the finger of God'; and Pharaoh's heart was hardened, and he hearkened not unto them; as the LORD had spoken."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Rise up early in the morning, and stand before Pharaoh; lo, he cometh forth to the water; and say unto him: Thus saith the LORD: Let My people go, that they may serve Me."
+  },
+  {
+   "type": "p",
+   "text": "Else, if thou wilt not let My people go, behold, I will send swarms of flies upon thee, and upon thy servants, and upon thy people, and into thy houses; and the houses of the Egyptians shall be full of swarms of flies, and also the ground whereon they are."
+  },
+  {
+   "type": "p",
+   "text": "And I will set apart in that day the land of Goshen, in which My people dwell, that no swarms of flies shall be there; to the end that thou mayest know that I am the LORD in the midst of the earth."
+  },
+  {
+   "type": "p",
+   "text": "And I will put a division between My people and thy people--by to-morrow shall this sign be.'"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD did so; and there came grievous swarms of flies into the house of Pharaoh, and into his servants' houses; and in all the land of Egypt the land was ruined by reason of the swarms of flies."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh called for Moses and for Aaron, and said: 'Go ye, sacrifice to your God in the land.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses said: 'It is not meet so to do; for we shall sacrifice the abomination of the Egyptians to the LORD our God; lo, if we sacrifice the abomination of the Egyptians before their eyes, will they not stone us?"
+  },
+  {
+   "type": "p",
+   "text": "We will go three days' journey into the wilderness, and sacrifice to the LORD our God, as He shall command us.'"
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh said: 'I will let you go, that ye may sacrifice to the LORD your God in the wilderness; only ye shall not go very far away; entreat for me.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses said: 'Behold, I go out from thee, and I will entreat the LORD that the swarms of flies may depart from Pharaoh, from his servants, and from his people, tomorrow; only let not Pharaoh deal deceitfully any more in not letting the people go to sacrifice to the LORD.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses went out from Pharaoh, and entreated the LORD."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD did according to the word of Moses; and He removed the swarms of flies from Pharaoh, from his servants, and from his people; there remained not one."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh hardened his heart this time also, and he did not let the people go."
+  },
+  {
+   "type": "heading",
+   "text": "Exodus 9"
+  },
+  {
+   "type": "p",
+   "text": "Then the LORD said unto Moses: 'Go in unto Pharaoh, and tell him: Thus saith the LORD, the God of the Hebrews: Let My people go, that they may serve Me."
+  },
+  {
+   "type": "p",
+   "text": "For if thou refuse to let them go, and wilt hold them still, behold, the hand of the LORD is upon thy cattle which are in the field, upon the horses, upon the asses, upon the camels, upon the herds, and upon the flocks; there shall be a very grievous murrain."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD shall make a division between the cattle of Israel and the cattle of Egypt; and there shall nothing die of all that belongeth to the children of Israel.'"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD appointed a set time, saying: 'Tomorrow the LORD shall do this thing in the land.'"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD did that thing on the morrow, and all the cattle of Egypt died; but of the cattle of the children of Israel died not one."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh sent, and, behold, there was not so much as one of the cattle of the Israelites dead. But the heart of Pharaoh was stubborn, and he did not let the people go."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses and unto Aaron: 'Take to you handfuls of soot of the furnace, and let Moses throw it heavenward in the sight of Pharaoh."
+  },
+  {
+   "type": "p",
+   "text": "And it shall become small dust over all the land of Egypt, and shall be a boil breaking forth with blains upon man and upon beast, throughout all the land of Egypt.'"
+  },
+  {
+   "type": "p",
+   "text": "And they took soot of the furnace, and stood before Pharaoh; and Moses threw it up heavenward; and it became a boil breaking forth with blains upon man and upon beast."
+  },
+  {
+   "type": "p",
+   "text": "And the magicians could not stand before Moses because of the boils; for the boils were upon the magicians, and upon all the Egyptians."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD hardened the heart of Pharaoh, and he hearkened not unto them; as the LORD had spoken unto Moses."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Rise up early in the morning, and stand before Pharaoh, and say unto him: Thus saith the LORD, the God of the Hebrews: Let My people go, that they may serve Me."
+  },
+  {
+   "type": "p",
+   "text": "For I will this time send all My plagues upon thy person, and upon thy servants, and upon thy people; that thou mayest know that there is none like Me in all the earth."
+  },
+  {
+   "type": "p",
+   "text": "Surely now I had put forth My hand, and smitten thee and thy people with pestilence, and thou hadst been cut off from the earth."
+  },
+  {
+   "type": "p",
+   "text": "But in very deed for this cause have I made thee to stand, to show thee My power, and that My name may be declared throughout all the earth."
+  },
+  {
+   "type": "p",
+   "text": "As yet exaltest thou thyself against My people, that thou wilt not let them go?"
+  },
+  {
+   "type": "p",
+   "text": "Behold, tomorrow about this time I will cause it to rain a very grievous hail, such as hath not been in Egypt since the day it was founded even until now."
+  },
+  {
+   "type": "p",
+   "text": "Now therefore send, hasten in thy cattle and all that thou hast in the field; for every man and beast that shall be found in the field, and shall not be brought home, the hail shall come down upon them, and they shall die.'"
+  },
+  {
+   "type": "p",
+   "text": "He that feared the word of the LORD among the servants of Pharaoh made his servants and his cattle flee into the houses; and he that regarded not the word of the LORD left his servants and his cattle in the field."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Stretch forth thy hand toward heaven, that there may be hail in all the land of Egypt, upon man, and upon beast, and upon every herb of the field, throughout the land of Egypt.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses stretched forth his rod toward heaven; and the LORD sent thunder and hail, and fire ran down unto the earth; and the LORD caused to hail upon the land of Egypt."
+  },
+  {
+   "type": "p",
+   "text": "So there was hail, and fire flashing up amidst the hail, very grievous, such as had not been in all the land of Egypt since it became a nation."
+  },
+  {
+   "type": "p",
+   "text": "And the hail smote throughout all the land of Egypt all that was in the field, both man and beast; and the hail smote every herb of the field, and broke every tree of the field."
+  },
+  {
+   "type": "p",
+   "text": "Only in the land of Goshen, where the children of Israel were, was there no hail."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh sent, and called for Moses and Aaron, and said unto them: 'I have sinned this time; the LORD is righteous, and I and my people are wicked."
+  },
+  {
+   "type": "p",
+   "text": "Entreat the LORD, and let there be enough of these mighty thunderings and hail; and I will let you go, and ye shall stay no longer.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses said unto him: 'As soon as I am gone out of the city, I will spread forth my hands unto the LORD; the thunders shall cease, neither shall there be any more hail; that thou mayest know that the earth is the LORD'S."
+  },
+  {
+   "type": "p",
+   "text": "But as for thee and thy servants, I know that ye will not yet fear the LORD God.'--"
+  },
+  {
+   "type": "p",
+   "text": "And the flax and the barley were smitten; for the barley was in the ear, and the flax was in bloom."
+  },
+  {
+   "type": "p",
+   "text": "But the wheat and the spelt were not smitten; for they ripen late.--"
+  },
+  {
+   "type": "p",
+   "text": "And Moses went out of the city from Pharaoh, and spread forth his hands unto the LORD; and the thunders and hail ceased, and the rain was not poured upon the earth."
+  },
+  {
+   "type": "p",
+   "text": "And when Pharaoh saw that the rain and the hail and the thunders were ceased, he sinned yet more, and hardened his heart, he and his servants."
+  },
+  {
+   "type": "p",
+   "text": "And the heart of Pharaoh was hardened, and he did not let the children of Israel go; as the LORD had spoken by Moses."
+  },
+  {
+   "type": "heading",
+   "text": "Exodus 10"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Go in unto Pharaoh; for I have hardened his heart, and the heart of his servants, that I might show these My signs in the midst of them; and that thou mayest tell in the ears of thy son, and of thy son's son, what I have wrought upon Egypt, and My signs which I have done among them; that ye may know that I am the LORD.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses and Aaron went in unto Pharaoh, and said unto him: 'Thus saith the LORD, the God of the Hebrews: How long wilt thou refuse to humble thyself before Me? let My people go, that they may serve Me."
+  },
+  {
+   "type": "p",
+   "text": "Else, if thou refuse to let My people go, behold, to-morrow will I bring locusts into thy border; and they shall cover the face of the earth, that one shall not be able to see the earth; and they shall eat the residue of that which is escaped, which remaineth unto you from the hail, and shall eat every tree which groweth for you out of the field; and thy houses shall be filled, and the houses of all thy servants, and the houses of all the Egyptians; as neither thy fathers nor thy fathers' fathers have seen, since the day that they were upon the earth unto this day.' And he turned, and went out from Pharaoh."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh's servants said unto him: 'How long shall this man be a snare unto us? let the men go, that they may serve the LORD their God, knowest thou not yet that Egypt is destroyed?'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses and Aaron were brought again unto Pharaoh; and he said unto them: 'Go, serve the LORD your God; but who are they that shall go?'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses said: 'We will go with our young and with our old, with our sons and with our daughters, with our flocks and with our herds we will go; for we must hold a feast unto the LORD.'"
+  },
+  {
+   "type": "p",
+   "text": "And he said unto them: 'So be the LORD with you, as I will let you go, and your little ones; see ye that evil is before your face."
+  },
+  {
+   "type": "p",
+   "text": "Not so; go now ye that are men, and serve the LORD; for that is what ye desire.' And they were driven out from Pharaoh's presence."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Stretch out thy hand over the land of Egypt for the locusts, that they may come up upon the land of Egypt, and eat every herb of the land, even all that the hail hath left.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses stretched forth his rod over the land of Egypt, and the LORD brought an east wind upon the land all that day, and all the night; and when it was morning, the east wind brought the locusts."
+  },
+  {
+   "type": "p",
+   "text": "And the locusts went up over all the land of Egypt, and rested in all the borders of Egypt; very grievous were they; before them there were no such locusts as they, neither after them shall be such."
+  },
+  {
+   "type": "p",
+   "text": "For they covered the face of the whole earth, so that the land was darkened; and they did eat every herb of the land, and all the fruit of the trees which the hail had left; and there remained not any green thing, either tree or herb of the field, through all the land of Egypt."
+  },
+  {
+   "type": "p",
+   "text": "Then Pharaoh called for Moses and Aaron in haste; and he said: 'I have sinned against the LORD your God, and against you."
+  },
+  {
+   "type": "p",
+   "text": "Now therefore forgive, I pray thee, my sin only this once, and entreat the LORD your God, that He may take away from me this death only.'"
+  },
+  {
+   "type": "p",
+   "text": "And he went out from Pharaoh, and entreated the LORD."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD turned an exceeding strong west wind, which took up the locusts, and drove them into the Red Sea; there remained not one locust in all the border of Egypt."
+  },
+  {
+   "type": "p",
+   "text": "But the LORD hardened Pharaoh's heart, and he did not let the children of Israel go."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Stretch out thy hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses stretched forth his hand toward heaven; and there was a thick darkness in all the land of Egypt three days; they saw not one another, neither rose any from his place for three days; but all the children of Israel had light in their dwellings."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh called unto Moses, and said: 'Go ye, serve the LORD; only let your flocks and your herds be stayed; let your little ones also go with you.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses said: 'Thou must also give into our hand sacrifices and burnt-offerings, that we may sacrifice unto the LORD our God."
+  },
+  {
+   "type": "p",
+   "text": "Our cattle also shall go with us; there shall not a hoof be left behind; for thereof must we take to serve the LORD our God; and we know not with what we must serve the LORD, until we come thither.'"
+  },
+  {
+   "type": "p",
+   "text": "But the LORD hardened Pharaoh's heart, and he would not let them go."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh said unto him: 'Get thee from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses said: 'Thou hast spoken well; I will see thy face again no more.'"
+  },
+  {
+   "type": "heading",
+   "text": "Exodus 11"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Yet one plague more will I bring upon Pharaoh, and upon Egypt; afterwards he will let you go hence; when he shall let you go, he shall surely thrust you out hence altogether."
+  },
+  {
+   "type": "p",
+   "text": "Speak now in the ears of the people, and let them ask every man of his neighbour, and every woman of her neighbour, jewels of silver, and jewels of gold.'"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD gave the people favour in the sight of the Egyptians. Moreover the man Moses was very great in the land of Egypt, in the sight of Pharaoh's servants, and in the sight of the people."
+  },
+  {
+   "type": "p",
+   "text": "And Moses said: 'Thus saith the LORD: About midnight will I go out into the midst of Egypt; and all the first-born in the land of Egypt shall die, from the first-born of Pharaoh that sitteth upon his throne, even unto the first-born of the maid-servant that is behind the mill; and all the first-born of cattle."
+  },
+  {
+   "type": "p",
+   "text": "And there shall be a great cry throughout all the land of Egypt, such as there hath been none like it, nor shall be like it any more."
+  },
+  {
+   "type": "p",
+   "text": "But against any of the children of Israel shall not a dog whet his tongue, against man or beast; that ye may know how that the LORD doth put a difference between the Egyptians and Israel."
+  },
+  {
+   "type": "p",
+   "text": "And all these thy servants shall come down unto me, and bow down unto me, saying: Get thee out, and all the people that follow thee; and after that I will go out.' And he went out from Pharaoh in hot anger."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Moses: 'Pharaoh will not hearken unto you; that My wonders may be multiplied in the land of Egypt.'"
+  },
+  {
+   "type": "p",
+   "text": "And Moses and Aaron did all these wonders before Pharaoh; and the LORD hardened Pharaoh's heart, and he did not let the children of Israel go out of his land."
+  },
+  {
+   "type": "note",
+   "text": "Chapter 12 begins with the laws of the Passover, left out here."
+  },
+  {
+   "type": "heading",
+   "text": "Exodus 12"
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass at midnight, that the LORD smote all the firstborn in the land of Egypt, from the first-born of Pharaoh that sat on his throne unto the first-born of the captive that was in the dungeon; and all the first-born of cattle."
+  },
+  {
+   "type": "p",
+   "text": "And Pharaoh rose up in the night, he, and all his servants, and all the Egyptians; and there was a great cry in Egypt; for there was not a house where there was not one dead."
+  },
+  {
+   "type": "p",
+   "text": "And he called for Moses and Aaron by night and said: 'Rise up, get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said."
+  },
+  {
+   "type": "p",
+   "text": "Take both your flocks and your herds, as ye have said, and be gone; and bless me also.'"
+  },
+  {
+   "type": "p",
+   "text": "And the Egyptians were urgent upon the people, to send them out of the land in haste; for they said: 'We are all dead men.'"
+  },
+  {
+   "type": "p",
+   "text": "And the people took their dough before it was leavened, their kneading-troughs being bound up in their clothes upon their shoulders."
+  },
+  {
+   "type": "p",
+   "text": "And the children of Israel did according to the word of Moses; and they asked of the Egyptians jewels of silver, and jewels of gold, and raiment."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD gave the people favour in the sight of the Egyptians, so that they let them have what they asked. And they despoiled the Egyptians."
+  }
+ ],
+ "workId": "hebrew-plagues",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 3936,
+ "readingMinutes": 22,
+ "readingLevel": {
+  "fkGrade": 10.8,
+  "avgSentenceWords": 30.1,
+  "band": "advanced"
+ },
+ "simplifiedId": "hebrew-bible--the-ten-plagues"
+}

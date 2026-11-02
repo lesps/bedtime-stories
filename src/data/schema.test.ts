@@ -50,6 +50,11 @@ describe('schema additions from compendium patches 001–003', () => {
     expect(indexSchema.safeParse(withCode('egyp')).success).toBe(false);
   });
 
+  it('keeps the living tradition a sacred story belongs to', () => {
+    expect(story('jps-1917--the-creation').livingTradition).toBe('Jews and Christians');
+    expect(story('hebrew-bible--the-creation').livingTradition).toBe('Jews and Christians');
+  });
+
   it('keeps the links between an original and its simplified retelling on index entries', () => {
     const index = indexSchema.parse(JSON.parse(readFileSync(join(root, 'index.json'), 'utf8')));
     const orig = index.stories.find((s) => s.simplifiedId);

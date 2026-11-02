@@ -1,0 +1,130 @@
+{
+ "id": "jps-1917--daniel-in-the-lions-den",
+ "collectionId": "jps-1917",
+ "order": 20,
+ "title": "Daniel in the Lions' Den",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Daniel 6:2–29, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "p",
+   "text": "It pleased Darius to set over the kingdom a hundred and twenty satraps, who should be throughout the whole kingdom; and over them three presidents, of whom Daniel was one; that these satraps might give account unto them, and that the king should have no damage."
+  },
+  {
+   "type": "p",
+   "text": "Then this Daniel distinguished himself above the presidents and the satraps, because a surpassing spirit was in him; and the king thought to set him over the whole realm."
+  },
+  {
+   "type": "p",
+   "text": "Then the presidents and the satraps sought to find occasion against Daniel as touching the kingdom; but they could find no occasion nor fault; forasmuch as he was faithful, neither was there any error or fault found in him."
+  },
+  {
+   "type": "p",
+   "text": "Then said these men: 'We shall not find any occasion against this Daniel, except we find it against him in the matter of the law of his God.'"
+  },
+  {
+   "type": "p",
+   "text": "Then these presidents and satraps came tumultuously to the king, and said thus unto him: 'King Darius, live for ever!"
+  },
+  {
+   "type": "p",
+   "text": "All the presidents of the kingdom, the prefects and the satraps, the ministers and the governors, have consulted together that the king should establish a statute, and make a strong interdict, that whosoever shall ask a petition of any god or man for thirty days, save of thee, O king, he shall be cast into the den of lions."
+  },
+  {
+   "type": "p",
+   "text": "Now, O king, establish the interdict, and sign the writing, that it be not changed, according to the law of the Medes and Persians, which altereth not.'"
+  },
+  {
+   "type": "p",
+   "text": "Wherefore king Darius signed the writing and the interdict."
+  },
+  {
+   "type": "p",
+   "text": "And when Daniel knew that the writing was signed, he went into his house--now his windows were open in his upper chamber toward Jerusalem--and he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime."
+  },
+  {
+   "type": "p",
+   "text": "Then these men came tumultuously, and found Daniel making petition and supplication before his God."
+  },
+  {
+   "type": "p",
+   "text": "Then they came near, and spoke before the king concerning the king's interdict: 'Hast thou not signed an interdict, that every man that shall make petition unto any god or man within thirty days, save of thee, O king, shall be cast into the den of lions?' The king answered and said: 'The thing is true, according to the law of the Medes and Persians, which altereth not.'"
+  },
+  {
+   "type": "p",
+   "text": "Then answered they and said before the king: 'That Daniel, who is of the children of the captivity of Judah, regardeth not thee, O king, nor the interdict that thou hast signed, but maketh his petition three times a day.'"
+  },
+  {
+   "type": "p",
+   "text": "Then the king, when he heard these words, was sore displeased, and set his heart on Daniel to deliver him; and he laboured till the going down of the sun to deliver him."
+  },
+  {
+   "type": "p",
+   "text": "Then these men came tumultuously unto the king, and said unto the king: 'Know, O king, that it is a law of the Medes and Persians, that no interdict nor statute which the king establisheth may be changed.'"
+  },
+  {
+   "type": "p",
+   "text": "Then the king commanded, and they brought Daniel, and cast him into the den of lions. Now the king spoke and said unto Daniel: 'Thy God whom thou servest continually, He will deliver thee.'"
+  },
+  {
+   "type": "p",
+   "text": "And a stone was brought, and laid upon the mouth of the den; and the king sealed it with his own signet, and with the signet of his lords; that nothing might be changed concerning Daniel."
+  },
+  {
+   "type": "p",
+   "text": "Then the king went to his palace, and passed the night fasting; neither were diversions brought before him; and his sleep fled from him."
+  },
+  {
+   "type": "p",
+   "text": "Then the king arose very early in the morning, and went in haste unto the den of lions."
+  },
+  {
+   "type": "p",
+   "text": "And when he came near unto the den to Daniel, he cried with a pained voice; the king spoke and said to Daniel: 'O Daniel, servant of the living God, is thy God, whom thou servest continually, able to deliver thee from the lions?'"
+  },
+  {
+   "type": "p",
+   "text": "Then said Daniel unto the king: 'O king, live for ever!"
+  },
+  {
+   "type": "p",
+   "text": "My God hath sent His angel, and hath shut the lions' mouths, and they have not hurt me; forasmuch as before Him innocency was found in me; and also before thee, O king, have I done no hurt.'"
+  },
+  {
+   "type": "p",
+   "text": "Then was the king exceeding glad, and commanded that they should take Daniel up out of the den. So Daniel was taken up out of the den, and no manner of hurt was found upon him, because he had trusted in his God."
+  },
+  {
+   "type": "p",
+   "text": "And the king commanded, and they brought those men that had accused Daniel, and they cast them into the den of lions, them, their children, and their wives; and they had not come to the bottom of the den, when the lions had the mastery of them, and broke all their bones in pieces."
+  },
+  {
+   "type": "p",
+   "text": "Then king Darius wrote unto all the peoples, nations, and languages, that dwell in all the earth: 'Peace be multiplied unto you."
+  },
+  {
+   "type": "p",
+   "text": "I make a decree, that in all the dominion of my kingdom men tremble and fear before the God of Daniel; for He is the living God, and stedfast for ever, and His kingdom that which shall not be destroyed, and His dominion shall be even unto the end; He delivereth and rescueth, and He worketh signs and wonders in heaven and in earth; who hath delivered Daniel from the power of the lions.'"
+  },
+  {
+   "type": "p",
+   "text": "So this Daniel prospered in the reign of Darius, and in the reign of Cyrus the Persian."
+  }
+ ],
+ "workId": "hebrew-daniel",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 920,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 12.3,
+  "avgSentenceWords": 31.5,
+  "band": "advanced"
+ },
+ "simplifiedId": "hebrew-bible--daniel-in-the-lions-den"
+}

@@ -1,0 +1,32 @@
+---
+title: The Creation
+adaptedFrom: jps-1917--the-creation
+order: 1
+namesNote: From the first chapter of Genesis, the first book of the Bible.
+---
+
+In the beginning, God created the heaven and the earth.
+
+The earth had no shape, and it was empty. Darkness lay over the deep waters, and the spirit of God moved over the face of the waters.
+
+And God said, "Let there be light." And there was light. God saw that the light was good, and He divided the light from the darkness. He called the light Day, and He called the darkness Night. And there was evening, and there was morning: the first day.
+
+Then God said, "Let there be a great dome in the middle of the waters, to divide the waters from the waters." And He made the dome, and called it Heaven, the sky. And there was evening, and there was morning: the second day.
+
+Then God said, "Let the waters under the sky be gathered together into one place, and let the dry land appear." And it was so. God called the dry land Earth, and the waters He called Seas. And God saw that it was good.
+
+Then God said, "Let the earth grow grass, and plants with seeds, and trees with fruit." And the earth grew grass and plants and fruit trees, each of its own kind. And God saw that it was good. And there was evening, and there was morning: the third day.
+
+Then God said, "Let there be lights in the sky, to divide the day from the night, and to mark the seasons and the days and the years." And God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. And He made the stars too. And God saw that it was good. And there was evening, and there was morning: the fourth day.
+
+Then God said, "Let the waters be full of living creatures, and let birds fly above the earth, across the sky." And God created the great sea creatures, and every living thing that swims in the water, and every bird that flies. And God saw that it was good. He blessed them and said, "Have many young ones, and fill the seas, and let the birds fill the earth." And there was evening, and there was morning: the fifth day.
+
+Then God said, "Let the earth bring out living creatures of every kind: cattle, and creeping things, and wild animals." And it was so. And God saw that it was good.
+
+Then God said, "Let Us make people in Our image, like Us. And let them rule over the fish of the sea, and the birds of the air, and the cattle, and all the earth." So God created people in His own image. In the image of God He created them; man and woman He created them.
+
+God blessed them, and said to them, "Have many children, and fill the earth, and rule over every living thing that moves on it. I have given you every plant with seeds, and every tree with fruit, for food. And to every animal and every bird I have given the green plants for food." And it was so.
+
+And God saw everything that He had made, and it was very good. And there was evening, and there was morning: the sixth day.
+
+So the heaven and the earth were finished, and everything in them. And on the seventh day God finished His work, and He rested on the seventh day from all the work that He had made. And God blessed the seventh day, and made it holy, because on it He rested from all His work.

@@ -1,0 +1,322 @@
+{
+ "id": "jps-1917--noah-and-the-flood",
+ "collectionId": "jps-1917",
+ "order": 4,
+ "title": "Noah and the Flood",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Genesis 6:5–9:17, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "heading",
+   "text": "Genesis 6"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually."
+  },
+  {
+   "type": "p",
+   "text": "And it repented the LORD that He had made man on the earth, and it grieved Him at His heart."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said: 'I will blot out man whom I have created from the face of the earth; both man, and beast, and creeping thing, and fowl of the air; for it repenteth Me that I have made them.'"
+  },
+  {
+   "type": "p",
+   "text": "But Noah found grace in the eyes of the LORD."
+  },
+  {
+   "type": "p",
+   "text": "These are the generations of Noah. Noah was in his generations a man righteous and wholehearted; Noah walked with God."
+  },
+  {
+   "type": "p",
+   "text": "And Noah begot three sons, Shem, Ham, and Japheth."
+  },
+  {
+   "type": "p",
+   "text": "And the earth was corrupt before God, and the earth was filled with violence."
+  },
+  {
+   "type": "p",
+   "text": "And God saw the earth, and, behold, it was corrupt; for all flesh had corrupted their way upon the earth."
+  },
+  {
+   "type": "p",
+   "text": "And God said unto Noah: 'The end of all flesh is come before Me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth."
+  },
+  {
+   "type": "p",
+   "text": "Make thee an ark of gopher wood; with rooms shalt thou make the ark, and shalt pitch it within and without with pitch."
+  },
+  {
+   "type": "p",
+   "text": "And this is how thou shalt make it: the length of the ark three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits."
+  },
+  {
+   "type": "p",
+   "text": "A light shalt thou make to the ark, and to a cubit shalt thou finish it upward; and the door of the ark shalt thou set in the side thereof; with lower, second, and third stories shalt thou make it."
+  },
+  {
+   "type": "p",
+   "text": "And I, behold, I do bring the flood of waters upon the earth, to destroy all flesh, wherein is the breath of life, from under heaven; every thing that is in the earth shall perish."
+  },
+  {
+   "type": "p",
+   "text": "But I will establish My covenant with thee; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons' wives with thee."
+  },
+  {
+   "type": "p",
+   "text": "And of every living thing of all flesh, two of every sort shalt thou bring into the ark, to keep them alive with thee; they shall be male and female."
+  },
+  {
+   "type": "p",
+   "text": "Of the fowl after their kind, and of the cattle after their kind, of every creeping thing of the ground after its kind, two of every sort shall come unto thee, to keep them alive."
+  },
+  {
+   "type": "p",
+   "text": "And take thou unto thee of all food that is eaten, and gather it to thee; and it shall be for food for thee, and for them.'"
+  },
+  {
+   "type": "p",
+   "text": "Thus did Noah; according to all that God commanded him, so did he."
+  },
+  {
+   "type": "heading",
+   "text": "Genesis 7"
+  },
+  {
+   "type": "p",
+   "text": "And the LORD said unto Noah: 'Come thou and all thy house into the ark; for thee have I seen righteous before Me in this generation."
+  },
+  {
+   "type": "p",
+   "text": "Of every clean beast thou shalt take to thee seven and seven, each with his mate; and of the beasts that are not clean two and two, each with his mate; of the fowl also of the air, seven and seven, male and female; to keep seed alive upon the face of all the earth."
+  },
+  {
+   "type": "p",
+   "text": "For yet seven days, and I will cause it to rain upon the earth forty days and forty nights; and every living substance that I have made will I blot out from off the face of the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And Noah did according unto all that the LORD commanded him."
+  },
+  {
+   "type": "p",
+   "text": "And Noah was six hundred years old when the flood of waters was upon the earth."
+  },
+  {
+   "type": "p",
+   "text": "And Noah went in, and his sons, and his wife, and his sons' wives with him, into the ark, because of the waters of the flood."
+  },
+  {
+   "type": "p",
+   "text": "Of clean beasts, and of beasts that are not clean, and of fowls, and of every thing that creepeth upon the ground, there went in two and two unto Noah into the ark, male and female, as God commanded Noah."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass after the seven days, that the waters of the flood were upon the earth."
+  },
+  {
+   "type": "p",
+   "text": "In the six hundredth year of Noah's life, in the second month, on the seventeenth day of the month, on the same day were all the fountains of the great deep broken up, and the windows of heaven were opened."
+  },
+  {
+   "type": "p",
+   "text": "And the rain was upon the earth forty days and forty nights."
+  },
+  {
+   "type": "p",
+   "text": "In the selfsame day entered Noah, and Shem, and Ham, and Japheth, the sons of Noah, and Noah's wife, and the three wives of his sons with them, into the ark; they, and every beast after its kind, and all the cattle after their kind, and every creeping thing that creepeth upon the earth after its kind, and every fowl after its kind, every bird of every sort."
+  },
+  {
+   "type": "p",
+   "text": "And they went in unto Noah into the ark, two and two of all flesh wherein is the breath of life."
+  },
+  {
+   "type": "p",
+   "text": "And they that went in, went in male and female of all flesh, as God commanded him; and the LORD shut him in."
+  },
+  {
+   "type": "p",
+   "text": "And the flood was forty days upon the earth; and the waters increased, and bore up the ark, and it was lifted up above the earth."
+  },
+  {
+   "type": "p",
+   "text": "And the waters prevailed, and increased greatly upon the earth; and the ark went upon the face of the waters."
+  },
+  {
+   "type": "p",
+   "text": "And the waters prevailed exceedingly upon the earth; and all the high mountains that were under the whole heaven were covered."
+  },
+  {
+   "type": "p",
+   "text": "Fifteen cubits upward did the waters prevail; and the mountains were covered."
+  },
+  {
+   "type": "p",
+   "text": "And all flesh perished that moved upon the earth, both fowl, and cattle, and beast, and every swarming thing that swarmeth upon the earth, and every man; all in whose nostrils was the breath of the spirit of life, whatsoever was in the dry land, died."
+  },
+  {
+   "type": "p",
+   "text": "And He blotted out every living substance which was upon the face of the ground, both man, and cattle, and creeping thing, and fowl of the heaven; and they were blotted out from the earth; and Noah only was left, and they that were with him in the ark."
+  },
+  {
+   "type": "p",
+   "text": "And the waters prevailed upon the earth a hundred and fifty days."
+  },
+  {
+   "type": "heading",
+   "text": "Genesis 8"
+  },
+  {
+   "type": "p",
+   "text": "And God remembered Noah, and every living thing, and all the cattle that were with him in the ark; and God made a wind to pass over the earth, and the waters assuaged; the fountains also of the deep and the windows of heaven were stopped, and the rain from heaven was restrained."
+  },
+  {
+   "type": "p",
+   "text": "And the waters returned from off the earth continually; and after the end of a hundred and fifty days the waters decreased."
+  },
+  {
+   "type": "p",
+   "text": "And the ark rested in the seventh month, on the seventeenth day of the month, upon the mountains of Ararat."
+  },
+  {
+   "type": "p",
+   "text": "And the waters decreased continually until the tenth month; in the tenth month, on the first day of the month, were the tops of the mountains seen."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass at the end of forty days, that Noah opened the window of the ark which he had made."
+  },
+  {
+   "type": "p",
+   "text": "And he sent forth a raven, and it went forth to and fro, until the waters were dried up from off the earth."
+  },
+  {
+   "type": "p",
+   "text": "And he sent forth a dove from him, to see if the waters were abated from off the face of the ground."
+  },
+  {
+   "type": "p",
+   "text": "But the dove found no rest for the sole of her foot, and she returned unto him to the ark, for the waters were on the face of the whole earth; and he put forth his hand, and took her, and brought her in unto him into the ark."
+  },
+  {
+   "type": "p",
+   "text": "And he stayed yet other seven days; and again he sent forth the dove out of the ark."
+  },
+  {
+   "type": "p",
+   "text": "And the dove came in to him at eventide; and lo in her mouth an olive-leaf freshly plucked; so Noah knew that the waters were abated from off the earth."
+  },
+  {
+   "type": "p",
+   "text": "And he stayed yet other seven days; and sent forth the dove; and she returned not again unto him any more."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass in the six hundred and first year, in the first month, the first day of the month, the waters were dried up from off the earth; and Noah removed the covering of the ark, and looked, and behold, the face of the ground was dried."
+  },
+  {
+   "type": "p",
+   "text": "And in the second month, on the seven and twentieth day of the month, was the earth dry."
+  },
+  {
+   "type": "p",
+   "text": "And God spoke unto Noah, saying: 'Go forth from the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee."
+  },
+  {
+   "type": "p",
+   "text": "Bring forth with thee every living thing that is with thee of all flesh, both fowl, and cattle, and every creeping thing that creepeth upon the earth; that they may swarm in the earth, and be fruitful, and multiply upon the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And Noah went forth, and his sons, and his wife, and his sons' wives with him; every beast, every creeping thing, and every fowl, whatsoever moveth upon the earth, after their families; went forth out of the ark."
+  },
+  {
+   "type": "p",
+   "text": "And Noah builded an altar unto the LORD; and took of every clean beast, and of every clean fowl, and offered burnt-offerings on the altar."
+  },
+  {
+   "type": "p",
+   "text": "And the LORD smelled the sweet savour; and the LORD said in His heart: 'I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done."
+  },
+  {
+   "type": "p",
+   "text": "While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.'"
+  },
+  {
+   "type": "heading",
+   "text": "Genesis 9"
+  },
+  {
+   "type": "p",
+   "text": "And God blessed Noah and his sons, and said unto them: 'Be fruitful and multiply, and replenish the earth."
+  },
+  {
+   "type": "p",
+   "text": "And the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, and upon all wherewith the ground teemeth, and upon all the fishes of the sea: into your hand are they delivered."
+  },
+  {
+   "type": "p",
+   "text": "Every moving thing that liveth shall be for food for you; as the green herb have I given you all."
+  },
+  {
+   "type": "p",
+   "text": "Only flesh with the life thereof, which is the blood thereof, shall ye not eat."
+  },
+  {
+   "type": "p",
+   "text": "And surely your blood of your lives will I require; at the hand of every beast will I require it; and at the hand of man, even at the hand of every man's brother, will I require the life of man."
+  },
+  {
+   "type": "p",
+   "text": "Whoso sheddeth man's blood, by man shall his blood be shed; for in the image of God made He man."
+  },
+  {
+   "type": "p",
+   "text": "And you, be ye fruitful, and multiply; swarm in the earth, and multiply therein.'"
+  },
+  {
+   "type": "p",
+   "text": "And God spoke unto Noah, and to his sons with him, saying: 'As for Me, behold, I establish My covenant with you, and with your seed after you; and with every living creature that is with you, the fowl, the cattle, and every beast of the earth with you; of all that go out of the ark, even every beast of the earth."
+  },
+  {
+   "type": "p",
+   "text": "And I will establish My covenant with you; neither shall all flesh be cut off any more by the waters of the flood; neither shall there any more be a flood to destroy the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And God said: 'This is the token of the covenant which I make between Me and you and every living creature that is with you, for perpetual generations: I have set My bow in the cloud, and it shall be for a token of a covenant between Me and the earth."
+  },
+  {
+   "type": "p",
+   "text": "And it shall come to pass, when I bring clouds over the earth, and the bow is seen in the cloud, that I will remember My covenant, which is between Me and you and every living creature of all flesh; and the waters shall no more become a flood to destroy all flesh."
+  },
+  {
+   "type": "p",
+   "text": "And the bow shall be in the cloud; and I will look upon it, that I may remember the everlasting covenant between God and every living creature of all flesh that is upon the earth.'"
+  },
+  {
+   "type": "p",
+   "text": "And God said unto Noah: 'This is the token of the covenant which I have established between Me and all flesh that is upon the earth.'"
+  }
+ ],
+ "workId": "hebrew-noah",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 2067,
+ "readingMinutes": 11,
+ "readingLevel": {
+  "fkGrade": 10.4,
+  "avgSentenceWords": 28.9,
+  "band": "advanced"
+ },
+ "simplifiedId": "hebrew-bible--noah-and-the-flood"
+}

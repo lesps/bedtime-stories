@@ -72,7 +72,8 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           extract_mesopotamian.py: Budge's Babylonian Legends of the Creation and
                           Epic of Gilgamish (in six stories), Mackenzie's Descent of Ishtar and Etana,
                           Jastrow's Adapa; extract_achilles_tatius.py: the Tyrian legend of the
-                          purple dye from Smith's Clitopho and Leucippe)
+                          purple dye from Smith's Clitopho and Leucippe; extract_hebrew_bible.py:
+                          twenty passages of the Jewish Publication Society's 1917 translation)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
@@ -124,8 +125,9 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 (below). `stories/<id>.json` adds `origin`,
 `moral`, `blocks` (`p | verse | moral | heading | note | image`; image `src` is relative to
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
-`source` (per-book, Potter) and `originalTitle` (Hunt). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1033 stories, 82 collections, ~11 MB
+`source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
+sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
+failures throw `DataError` (`kind: network | http | invalid`). 1071 stories, 84 collections, ~11 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -161,7 +163,7 @@ collections; and, on story files, `adaptation` and `adaptedBy`.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-37 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+38 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
@@ -188,6 +190,10 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
   so a book retold entirely drops out of the library but its page still works; prev/next steps
   through whichever of the two lists the story is in. The reader links each version to the other
   ("Read the original" / "Read the retelling for young readers") when content settings show it.
+- **Living traditions**: a story with `livingTradition` shows one line under the byline, "This story
+  is sacred to … today." The Hebrew Bible passages carry "Jews and Christians", and a retelling
+  inherits its original's (`build_simplified.py`). Their themes never use `magic` or `ghosts`
+  (`HEBREW_BIBLE` in `tag_stories.py`).
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
 progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progress entries also carry `blockCount` (when
   known) so the shelf can show a percentage, and `finished` once the last block was reached. Each field falls back to its default independently; corrupt
@@ -315,7 +321,7 @@ fine)`.
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian` or `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite) by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite) or `hebrew-bible` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).
@@ -328,6 +334,12 @@ fine)`.
   `python3 tools/build_translations.py && python3 tools/build_simplified.py && python3 tools/tag_stories.py`
   (translations first: rebuilding a collection drops the `simplifiedId` links until
   `build_simplified.py` runs again).
+- The Hebrew Bible text is the Jewish Publication Society's translation (1917), from a digitization
+  (github.com/scrollmapper/bible_databases) that writes the divine names reverently as HaShem, G-d
+  and L-rd; `extract_hebrew_bible.py` restores the printing's "the LORD", "God" and "Lord" and fixes
+  the digitization's few typos in these passages (`FIXES`). The King James Version isn't used: the
+  Crown's letters patent still restrict it in the UK. Retellings of these passages stay close to
+  the text and add no interpretation.
 - Content flags and exclusions in the patches are editorial first passes (see each patch's notes);
   `excluded` alone decides the antisemitic-caricature stories.
 

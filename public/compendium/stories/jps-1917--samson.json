@@ -1,0 +1,420 @@
+{
+ "id": "jps-1917--samson",
+ "collectionId": "jps-1917",
+ "order": 15,
+ "title": "Samson",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Judges 13:1–16:31, in the Jewish Publication Society's translation (1917)."
+  },
+  {
+   "type": "heading",
+   "text": "Judges 13"
+  },
+  {
+   "type": "p",
+   "text": "And the children of Israel again did that which was evil in the sight of the LORD; and the LORD delivered them into the hand of the Philistines forty years."
+  },
+  {
+   "type": "p",
+   "text": "And there was a certain man of Zorah, of the family of the Danites, whose name was Manoah; and his wife was barren, and bore not."
+  },
+  {
+   "type": "p",
+   "text": "And the angel of the LORD appeared unto the woman, and said unto her: 'Behold now, thou art barren, and hast not borne; but thou shalt conceive, and bear a son."
+  },
+  {
+   "type": "p",
+   "text": "Now therefore beware, I pray thee, and drink no wine nor strong drink, and eat not any unclean thing."
+  },
+  {
+   "type": "p",
+   "text": "For, lo, thou shalt conceive, and bear a son; and no razor shall come upon his head; for the child shall be a Nazirite unto God from the womb; and he shall begin to save Israel out of the hand of the Philistines.'"
+  },
+  {
+   "type": "p",
+   "text": "Then the woman came and told her husband, saying: 'A man of God came unto me, and his countenance was like the countenance of the angel of God, very terrible; and I asked him not whence he was, neither told he me his name; but he said unto me: Behold, thou shalt conceive, and bear a son; and now drink no wine nor strong drink, and eat not any unclean thing; for the child shall be a Nazirite unto God from the womb to the day of his death.'"
+  },
+  {
+   "type": "p",
+   "text": "Then Manoah entreated the LORD, and said: 'Oh, Lord, I pray Thee, let the man of God whom Thou didst send come again unto us, and teach us what we shall do unto the child that shall be born.'"
+  },
+  {
+   "type": "p",
+   "text": "And God hearkened to the voice of Manoah; and the angel of God came again unto the woman as she sat in the field; but Manoah her husband was not with her."
+  },
+  {
+   "type": "p",
+   "text": "And the woman made haste, and ran, and told her husband, and said unto him: 'Behold, the man hath appeared unto me, that came unto me that day.'"
+  },
+  {
+   "type": "p",
+   "text": "And Manoah arose, and went after his wife, and came to the man, and said unto him: 'Art thou the man that spokest unto the woman?' And he said: 'I am.'"
+  },
+  {
+   "type": "p",
+   "text": "And Manoah said: 'Now when thy word cometh to pass, what shall be the rule for the child, and what shall be done with him?'"
+  },
+  {
+   "type": "p",
+   "text": "And the angel of the LORD said unto Manoah: 'Of all that I said unto the woman let her beware."
+  },
+  {
+   "type": "p",
+   "text": "She may not eat of any thing that cometh of the grapevine, neither let her drink wine or strong drink, nor eat any unclean thing; all that I commanded her let her observe.'"
+  },
+  {
+   "type": "p",
+   "text": "And Manoah said unto the angel of the LORD: 'I pray thee, let us detain thee, that we may make ready a kid for thee.'"
+  },
+  {
+   "type": "p",
+   "text": "And the angel of the LORD said unto Manoah: 'Though thou detain me, I will not eat of thy bread; and if thou wilt make ready a burnt-offering, thou must offer it unto the LORD.' For Manoah knew not that he was the angel of the LORD."
+  },
+  {
+   "type": "p",
+   "text": "And Manoah said unto the angel of the LORD: 'What is thy name, that when thy words come to pass we may do thee honour?'"
+  },
+  {
+   "type": "p",
+   "text": "And the angel of the LORD said unto him: 'Wherefore askest thou after my name, seeing it is hidden?'"
+  },
+  {
+   "type": "p",
+   "text": "So Manoah took the kid with the meal-offering, and offered it upon the rock unto the LORD; and the angel did wondrously, and Manoah and his wife looked on."
+  },
+  {
+   "type": "p",
+   "text": "For it came to pass, when the flame went up toward heaven from off the altar, that the angel of the LORD ascended in the flame of the altar; and Manoah and his wife looked on; and they fell on their faces to the ground."
+  },
+  {
+   "type": "p",
+   "text": "But the angel of the LORD did no more appear to Manoah or to his wife. Then Manoah knew that he was the angel of the LORD."
+  },
+  {
+   "type": "p",
+   "text": "And Manoah said unto his wife: 'We shall surely die, because we have seen God.'"
+  },
+  {
+   "type": "p",
+   "text": "But his wife said unto him: 'If the LORD were pleased to kill us, He would not have received a burnt-offering and a meal-offering at our hand, neither would He have shown us all these things, nor would at this time have told such things as these.'"
+  },
+  {
+   "type": "p",
+   "text": "And the woman bore a son, and called his name Samson; and the child grew, and the LORD blessed him."
+  },
+  {
+   "type": "p",
+   "text": "And the spirit of the LORD began to move him in Mahaneh-dan, between Zorah and Eshtaol."
+  },
+  {
+   "type": "heading",
+   "text": "Judges 14"
+  },
+  {
+   "type": "p",
+   "text": "And Samson went down to Timnah, and saw a woman in Timnah of the daughters of the Philistines."
+  },
+  {
+   "type": "p",
+   "text": "And he came up, and told his father and his mother, and said: 'I have seen a woman in Timnah of the daughters of the Philistines; now therefore get her for me to wife.'"
+  },
+  {
+   "type": "p",
+   "text": "Then his father and his mother said unto him: 'Is there never a woman among the daughters of thy brethren, or among all my people, that thou goest to take a wife of the uncircumcised Philistines?' And Samson said unto his father: 'Get her for me; for she pleaseth me well.'"
+  },
+  {
+   "type": "p",
+   "text": "But his father and his mother knew not that it was of the LORD; for he sought an occasion against the Philistines. Now at that time the Philistines had rule over Israel."
+  },
+  {
+   "type": "p",
+   "text": "Then went Samson down, and his father and his mother, to Timnah, and came to the vineyards of Timnah; and, behold, a young lion roared against him."
+  },
+  {
+   "type": "p",
+   "text": "And the spirit of the LORD came mightily upon him, and he rent him as one would have rent a kid, and he had nothing in his hand; but he told not his father or his mother what he had done."
+  },
+  {
+   "type": "p",
+   "text": "And he went down, and talked with the woman; and she pleased Samson well."
+  },
+  {
+   "type": "p",
+   "text": "And after a while he returned to take her, and he turned aside to see the carcass of the lion; and, behold, there was a swarm of bees in the body of the lion, and honey."
+  },
+  {
+   "type": "p",
+   "text": "And he scraped it out into his hands, and went on, eating as he went, and he came to his father and mother, and gave unto them, and they did eat; but he told them not that he had scraped the honey out of the body of the lion."
+  },
+  {
+   "type": "p",
+   "text": "And his father went down unto the woman; and Samson made there a feast; for so used the young men to do."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass, when they saw him, that they brought thirty companions to be with him."
+  },
+  {
+   "type": "p",
+   "text": "And Samson said unto them: 'Let me now put forth a riddle unto you; if ye can declare it me within the seven days of the feast, and find it out, then I will give you thirty linen garments and thirty changes of raiment; but if ye cannot declare it me, then shall ye give me thirty linen garments and thirty changes of raiment.' And they said unto him: 'Put forth thy riddle, that we may hear it.'"
+  },
+  {
+   "type": "p",
+   "text": "And he said unto them: Out of the eater came forth food, and out of the strong came forth sweetness. And they could not in three days declare the riddle."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass on the seventh day, that they said unto Samson's wife: 'Entice thy husband, that he may declare unto us the riddle, lest we burn thee and thy father's house with fire; have ye called us hither to impoverish us?'"
+  },
+  {
+   "type": "p",
+   "text": "And Samson's wife wept before him, and said: 'Thou dost but hate me, and lovest me not; thou hast put forth a riddle unto the children of my people, and wilt thou not tell it me?' And he said unto her: 'Behold, I have not told it my father nor my mother, and shall I tell thee?'"
+  },
+  {
+   "type": "p",
+   "text": "And she wept before him the seven days, while their feast lasted; and it came to pass on the seventh day, that he told her, because she pressed him sore; and she told the riddle to the children of her people."
+  },
+  {
+   "type": "p",
+   "text": "And the men of the city said unto him on the seventh day before the sun went down: What is sweeter than honey? and what is stronger than a lion? And he said unto them: If ye had not plowed with my heifer, ye had not found out my riddle."
+  },
+  {
+   "type": "p",
+   "text": "And the spirit of the LORD came mightily upon him, and he went down to Ashkelon, and smote thirty men of them, and took their spoil, and gave the changes of raiment unto them that declared the riddle. And his anger was kindled, and he went up to his father's house."
+  },
+  {
+   "type": "p",
+   "text": "But Samson's wife was given to his companion, whom he had had for his friend."
+  },
+  {
+   "type": "heading",
+   "text": "Judges 15"
+  },
+  {
+   "type": "p",
+   "text": "But it came to pass after a while, in the time of wheat harvest, that Samson visited his wife with a kid; and he said: 'I will go in to my wife into the chamber.' But her father would not suffer him to go in."
+  },
+  {
+   "type": "p",
+   "text": "And her father said: 'I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion; is not her younger sister fairer than she? take her, I pray thee, instead of her.'"
+  },
+  {
+   "type": "p",
+   "text": "And Samson said unto them: 'This time shall I be quits with the Philistines, when I do them a mischief.'"
+  },
+  {
+   "type": "p",
+   "text": "And Samson went and caught three hundred foxes, and took torches, and turned tail to tail, and put a torch in the midst between every two tails."
+  },
+  {
+   "type": "p",
+   "text": "And when he had set the torches on fire, he let them go into the standing corn of the Philistines, and burnt up both the shocks and the standing corn, and also the oliveyards."
+  },
+  {
+   "type": "p",
+   "text": "Then the Philistines said: 'Who hath done this?' And they said: 'Samson, the son-in-law of the Timnite, because he hath taken his wife, and given her to his companion.' And the Philistines came up, and burnt her and her father with fire."
+  },
+  {
+   "type": "p",
+   "text": "And Samson said unto them: 'If ye do after this manner, surely I will be avenged of you, and after that I will cease.'"
+  },
+  {
+   "type": "p",
+   "text": "And he smote them hip and thigh with a great slaughter; and he went down and dwelt in the cleft of the rock of Etam."
+  },
+  {
+   "type": "p",
+   "text": "Then the Philistines went up, and pitched in Judah, and spread themselves against Lehi."
+  },
+  {
+   "type": "p",
+   "text": "And the men of Judah said: 'Why are ye come up against us?' And they said: 'To bind Samson are we come up, to do to him as he hath done to us.'"
+  },
+  {
+   "type": "p",
+   "text": "Then three thousand men of Judah went down to the cleft of the rock of Etam, and said to Samson: 'Knowest thou not that the Philistines are rulers over us? what then is this that thou hast done unto us?' And he said unto them: 'As they did unto me, so have I done unto them.'"
+  },
+  {
+   "type": "p",
+   "text": "And they said unto him: 'We are come down to bind thee, that we may deliver thee into the hand of the Philistines.' And Samson said unto them: 'Swear unto me, that ye will not fall upon me yourselves.'"
+  },
+  {
+   "type": "p",
+   "text": "And they spoke unto him, saying: 'No; but we will bind thee fast, and deliver thee into their hand; but surely we will not kill thee.' And they bound him with two new ropes, and brought him up from the rock."
+  },
+  {
+   "type": "p",
+   "text": "When he came unto Lehi, the Philistines shouted as they met him; and the spirit of the LORD came mightily upon him, and the ropes that were upon his arms became as flax that was burnt with fire, and his bands dropped from off his hands."
+  },
+  {
+   "type": "p",
+   "text": "And he found a new jawbone of an ass, and put forth his hand, and took it, and smote a thousand men therewith."
+  },
+  {
+   "type": "p",
+   "text": "And Samson said: With the jawbone of an ass, heaps upon heaps, with the jawbone of an ass have I smitten a thousand men."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass, when he had made an end of speaking, that he cast away the jawbone out of his hand; and that place was called Ramath-lehi."
+  },
+  {
+   "type": "p",
+   "text": "And he was sore athirst, and called on the LORD, and said: 'Thou hast given this great deliverance by the hand of Thy servant; and now shall I die for thirst, and fall into the hand of the uncircumcised?'"
+  },
+  {
+   "type": "p",
+   "text": "But God cleaved the hollow place that is in Lehi, and there came water thereout; and when he had drunk, his spirit came back, and he revived; wherefore the name thereof was called En-hakkore, which is in Lehi unto this day."
+  },
+  {
+   "type": "p",
+   "text": "And he judged Israel in the days of the Philistines twenty years."
+  },
+  {
+   "type": "heading",
+   "text": "Judges 16"
+  },
+  {
+   "type": "p",
+   "text": "And Samson went to Gaza, and saw there a harlot, and went in unto her."
+  },
+  {
+   "type": "p",
+   "text": "And it was told the Gazites, saying: 'Samson is come hither.' And they compassed him in, and lay in wait for him all night in the gate of the city, and were quiet all the night, saying: 'Let be till morning light, then we will kill him.'"
+  },
+  {
+   "type": "p",
+   "text": "And Samson lay till midnight, and arose at midnight, and laid hold of the doors of the gate of the city, and the two posts, and plucked them up, bar and all, and put them upon his shoulders, and carried them up to the top of the mountain that is before Hebron."
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass afterward, that he loved a woman in the valley of Sorek, whose name was Delilah."
+  },
+  {
+   "type": "p",
+   "text": "And the lords of the Philistines came up unto her, and said unto her: 'Entice him, and see wherein his great strength lieth, and by what means we may prevail against him, that we may bind him to afflict him; and we will give thee every one of us eleven hundred pieces of silver.'"
+  },
+  {
+   "type": "p",
+   "text": "And Delilah said to Samson: 'Tell me, I pray thee, wherein thy great strength lieth, and wherewith thou mightest be bound to afflict thee.'"
+  },
+  {
+   "type": "p",
+   "text": "And Samson said unto her: 'If they bind me with seven fresh bowstrings that were never dried, then shall I become weak, and be as any other man.'"
+  },
+  {
+   "type": "p",
+   "text": "Then the lords of the Philistines brought up to her seven fresh bowstrings which had not been dried, and she bound him with them."
+  },
+  {
+   "type": "p",
+   "text": "Now she had liers-in-wait abiding in the inner chamber. And she said unto him: 'The Philistines are upon thee, Samson.' And he broke the bowstrings as a string of tow is broken when it toucheth the fire. So his strength was not known."
+  },
+  {
+   "type": "p",
+   "text": "And Delilah said unto Samson: 'Behold, thou hast mocked me, and told me lies; now tell me, I pray thee, wherewith thou mightest be bound.'"
+  },
+  {
+   "type": "p",
+   "text": "And he said unto her: 'If they only bind me with new ropes wherewith no work hath been done, then shall I become weak, and be as any other man.'"
+  },
+  {
+   "type": "p",
+   "text": "So Delilah took new ropes, and bound him therewith, and said unto him: 'The Philistines are upon thee, Samson.' And the liers-in-wait were abiding in the inner chamber. And he broke them from off his arms like a thread."
+  },
+  {
+   "type": "p",
+   "text": "And Delilah said unto Samson: 'Hitherto thou hast mocked me, and told me lies; tell me wherewith thou mightest be bound.' And he said unto her: 'If thou weavest the seven locks of my head with the web.'"
+  },
+  {
+   "type": "p",
+   "text": "And she fastened it with the pin, and said unto him: 'The Philistines are upon thee, Samson.' And he awoke out of his sleep, and plucked away the pin of the beam, and the web."
+  },
+  {
+   "type": "p",
+   "text": "And she said unto him: 'How canst thou say: I love thee, when thy heart is not with me? thou hast mocked me these three times, and hast not told me wherein thy great strength lieth.'"
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass, when she pressed him daily with her words, and urged him, that his soul was vexed unto death."
+  },
+  {
+   "type": "p",
+   "text": "And he told her all his heart, and said unto her: 'There hath not come a razor upon my head; for I have been a Nazirite unto God from my mother's womb; if I be shaven, then my strength will go from me, and I shall become weak, and be like any other man.'"
+  },
+  {
+   "type": "p",
+   "text": "And when Delilah saw that he had told her all his heart, she sent and called for the lords of the Philistines, saying: 'Come up this once, for he hath told me all his heart.' Then the lords of the Philistines came up unto her, and brought the money in their hand."
+  },
+  {
+   "type": "p",
+   "text": "And she made him sleep upon her knees; and she called for a man, and had the seven locks of his head shaven off; and she began to afflict him, and his strength went from him."
+  },
+  {
+   "type": "p",
+   "text": "And she said: 'The Philistines are upon thee, Samson.' And he awoke out of his sleep, and said: 'I will go out as at other times, and shake myself.' But he knew not that the LORD was departed from him."
+  },
+  {
+   "type": "p",
+   "text": "And the Philistines laid hold on him, and put out his eyes; and they brought him down to Gaza, and bound him with fetters of brass; and he did grind in the prison-house."
+  },
+  {
+   "type": "p",
+   "text": "Howbeit the hair of his head began to grow again after he was shaven."
+  },
+  {
+   "type": "p",
+   "text": "And the lords of the Philistines gathered them together to offer a great sacrifice unto Dagon their god, and to rejoice; for they said: 'Our god hath delivered Samson our enemy into our hand.'"
+  },
+  {
+   "type": "p",
+   "text": "And when the people saw him, they praised their god; for they said: 'Our god hath delivered into our hand our enemy, and the destroyer of our country, who hath slain many of us.'"
+  },
+  {
+   "type": "p",
+   "text": "And it came to pass, when their hearts were merry, that they said: 'Call for Samson, that he may make us sport.' And they called for Samson out of the prison-house; and he made sport before them; and they set him between the pillars."
+  },
+  {
+   "type": "p",
+   "text": "And Samson said unto the lad that held him by the hand: 'Suffer me that I may feel the pillars whereupon the house resteth, that I may lean upon them.'"
+  },
+  {
+   "type": "p",
+   "text": "Now the house was full of men and women; and all the lords of the Philistines were there; and there were upon the roof about three thousand men and women, that beheld while Samson made sport."
+  },
+  {
+   "type": "p",
+   "text": "And Samson called unto the LORD, and said: 'O Lord GOD, remember me, I pray Thee, and strengthen me, I pray Thee, only this once, O God, that I may be this once avenged of the Philistines for my two eyes.'"
+  },
+  {
+   "type": "p",
+   "text": "And Samson took fast hold of the two middle pillars upon which the house rested, and leaned upon them, the one with his right hand, and the other with his left."
+  },
+  {
+   "type": "p",
+   "text": "And Samson said: 'Let me die with the Philistines.' And he bent with all his might; and the house fell upon the lords, and upon all the people that were therein. So the dead that he slew at his death were more than they that he slew in his life."
+  },
+  {
+   "type": "p",
+   "text": "Then his brethren and all the house of his father came down, and took him, and brought him up, and buried him between Zorah and Eshtaol in the burying-place of Manoah his father. And he judged Israel twenty years."
+  }
+ ],
+ "workId": "hebrew-samson",
+ "livingTradition": "Jews and Christians",
+ "wordCount": 3237,
+ "readingMinutes": 18,
+ "readingLevel": {
+  "fkGrade": 8.7,
+  "avgSentenceWords": 24.9,
+  "band": "advanced"
+ },
+ "simplifiedId": "hebrew-bible--samson"
+}
