@@ -59,6 +59,19 @@ describe('compendium integrity', () => {
     }
   });
 
+  it('links originals and retellings both ways, within one workId', () => {
+    const byId = new Map(index.stories.map((s) => [s.id, s]));
+    for (const o of index.stories.filter((s) => s.simplifiedId)) {
+      const r = byId.get(o.simplifiedId!);
+      expect(r, `${o.id}: retelling ${o.simplifiedId}`).toBeDefined();
+      expect(r!.workId, o.id).toBe(o.workId);
+      expect(r!.adaptedFrom, o.id).toBeDefined();
+    }
+    for (const r of index.stories.filter((s) => s.adaptedFrom)) {
+      expect(byId.get(r.adaptedFrom!)?.simplifiedId, r.id).toBe(r.id);
+    }
+  });
+
   it('has unique story ids and at least one story per collection', () => {
     expect(new Set(index.stories.map((s) => s.id)).size).toBe(index.stories.length);
     for (const c of index.collections) expect(c.storyCount, c.id).toBeGreaterThan(0);

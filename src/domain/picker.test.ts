@@ -36,6 +36,11 @@ describe('pick', () => {
     expect(ids({ recent: [] }, 500, c)).toHaveLength(6);
   });
 
+  it('never picks a version that is left out of listings', () => {
+    const c = { ...ctx, hidden: new Set(['aesop--b', 'grimm--d']) };
+    expect(ids({ recent: [] }, 300, c)).toEqual(['aesop--a', 'grimm--c']);
+  });
+
   it('filters by collection', () => {
     expect(ids({ recent: [], collections: ['grimm'] })).toEqual(['grimm--c', 'grimm--d']);
   });

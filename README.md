@@ -76,6 +76,8 @@ Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, E
 - Installable PWA that works offline; one tap in Settings saves every story (~45 MB with
   illustrations, ~10 MB text only).
 - Tales told in more than one translation link to each other ("Other versions").
+- One entry per myth: where a myth has a retelling for young readers, the library lists the
+  retelling, with "Read the original" inside; a Settings switch lists the original texts instead.
 - Child-safe defaults: stories flagged for mature themes or offensive language are hidden until a
   grown-up turns them on in Settings.
 

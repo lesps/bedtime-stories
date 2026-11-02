@@ -121,12 +121,35 @@ export const fixtureStoryBodies: Record<string, Story> = Object.fromEntries(
   ]),
 );
 
-export function mockCompendiumFetch(overrides: Partial<Record<string, Story>> = {}) {
+/** A whole compendium to serve instead of the default fixture. */
+export type FixtureData = { index: Index; tags: Tags; bodies: Record<string, Story> };
+
+export function bodiesOf(index: Index): Record<string, Story> {
+  return Object.fromEntries(
+    index.stories.map((e) => [
+      e.id,
+      storyOf(e, {
+        blocks: [
+          { type: 'p', text: `${e.title} begins here.` },
+          { type: 'p', text: 'Middle part.' },
+          { type: 'moral', text: 'The end.' },
+        ],
+      }),
+    ]),
+  );
+}
+
+export function mockCompendiumFetch(
+  overrides: Partial<Record<string, Story>> = {},
+  data?: FixtureData,
+) {
   resetDataCache();
-  const bodies = { ...fixtureStoryBodies, ...overrides };
+  const index = data?.index ?? fixtureIndex;
+  const tags = data?.tags ?? fixtureTags;
+  const bodies = { ...(data?.bodies ?? fixtureStoryBodies), ...overrides };
   const fetchMock = vi.fn(async (url: string) => {
-    if (url.endsWith('index.json')) return new Response(JSON.stringify(fixtureIndex));
-    if (url.endsWith('tags.json')) return new Response(JSON.stringify(fixtureTags));
+    if (url.endsWith('index.json')) return new Response(JSON.stringify(index));
+    if (url.endsWith('tags.json')) return new Response(JSON.stringify(tags));
     const id = /stories\/([^/]+)\.json$/.exec(url)?.[1];
     const body = id && bodies[id];
     return body ? new Response(JSON.stringify(body)) : new Response('', { status: 404 });
@@ -139,8 +162,9 @@ export function renderApp(
   path = '/',
   store = createStore(localStorage),
   overrides: Partial<Record<string, Story>> = {},
+  data?: FixtureData,
 ) {
-  mockCompendiumFetch(overrides);
+  mockCompendiumFetch(overrides, data);
   const utils = render(
     <StoreProvider store={store}>
       <MemoryRouter initialEntries={[path]}>

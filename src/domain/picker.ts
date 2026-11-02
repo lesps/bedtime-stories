@@ -19,6 +19,8 @@ export type PickOptions = {
 
 export type PickContext = {
   visibility: VisibilitySettings;
+  /** Versions left out of listings (see `hiddenVersions`); never picked. */
+  hidden?: ReadonlySet<string>;
   readIds: ReadonlySet<string>;
   favoriteIds: ReadonlySet<string>;
   tagsOf?: (id: string) => StoryTags;
@@ -43,7 +45,7 @@ export function candidates(entries: IndexEntry[], opts: PickOptions, ctx: PickCo
   const cols = opts.collections?.length ? new Set(opts.collections) : null;
   const tagsOf = ctx.tagsOf ?? (() => NO_TAGS);
   return entries.filter((e) => {
-    if (!isVisible(e, ctx.visibility)) return false;
+    if (!isVisible(e, ctx.visibility) || ctx.hidden?.has(e.id)) return false;
     if (cols && !cols.has(e.collectionId)) return false;
     if (opts.minMinutes != null && e.readingMinutes < opts.minMinutes) return false;
     if (opts.maxMinutes != null && e.readingMinutes > opts.maxMinutes) return false;

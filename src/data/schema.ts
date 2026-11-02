@@ -26,6 +26,8 @@ const entryFields = {
   excluded: z.boolean(),
   flags: z.array(flag),
   workId: z.string().min(1).optional(),
+  simplifiedId: z.string().min(1).optional(),
+  adaptedFrom: z.string().min(1).optional(),
 };
 
 export const indexEntrySchema = z.object({ ...entryFields, hasImages: z.boolean() });

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router';
 import { usePrefersReducedMotion } from '../app/theme';
 import { useOnline } from '../app/useOnline';
+import { useHiddenVersions } from '../app/useVisibleStories';
 import { FavoriteButton } from '../components/FavoriteButton';
 import { CloseIcon, NoteIcon } from '../components/icons';
 import { byReadingOrder } from '../domain/notebook';
@@ -15,6 +16,7 @@ import { DataError, loadStory } from '../data/client';
 import { useIndex } from '../data/IndexProvider';
 import type { Story } from '../data/types';
 import { neighbors } from '../domain/navigation';
+import { counterpart } from '../domain/versions';
 import { isVisible } from '../domain/visibility';
 import { NotFoundPage } from '../pages/NotFoundPage';
 import { FONT_SIZES } from '../storage/store';
@@ -37,6 +39,7 @@ type Load =
 function ReaderPage({ storyId }: { storyId: string }) {
   const { byId, stories, collectionsById, collectionLabel, tagsOf, tagDef } = useIndex();
   const settings = useSettings();
+  const hidden = useHiddenVersions();
   const entry = byId.get(storyId);
   const visible = entry ? isVisible(entry, settings) : false;
   const [load, setLoad] = useState<Load>({ status: 'loading' });
@@ -73,7 +76,9 @@ function ReaderPage({ storyId }: { storyId: string }) {
     );
 
   const collection = collectionsById.get(entry.collectionId);
-  const { prev, next } = neighbors(stories, storyId, settings);
+  const { prev, next } = neighbors(stories, storyId, settings, hidden);
+  const other = counterpart(entry, byId);
+  const otherVersion = other && isVisible(other.entry, settings) ? other : null;
   const versions = entry.workId
     ? stories.filter(
         (s) => s.workId === entry.workId && s.id !== entry.id && isVisible(s, settings),
@@ -152,6 +157,15 @@ function ReaderPage({ storyId }: { storyId: string }) {
               </>
             )}
           </p>
+          {otherVersion && (
+            <p className="version-link">
+              <Link to={`/s/${otherVersion.entry.id}`}>
+                {otherVersion.kind === 'original'
+                  ? 'Read the original'
+                  : 'Read the retelling for young readers'}
+              </Link>
+            </p>
+          )}
           <ul className="tag-chips" aria-label="Tags">
             {(['cultures', 'themes'] as const).flatMap((kind) =>
               tagsOf(entry.id)[kind].map((t) => (

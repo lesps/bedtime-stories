@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router';
-import { useVisibleStories } from '../app/useVisibleStories';
+import { useListedStories } from '../app/useVisibleStories';
 import { LengthFilteredList } from '../components/LengthFilteredList';
 import { useIndex } from '../data/IndexProvider';
 import type { TagKind } from '../data/types';
@@ -11,10 +11,10 @@ const isKind = (k: string | undefined): k is TagKind => k === 'cultures' || k ==
 export function TagPage() {
   const { kind, tagId = '' } = useParams();
   const { tagDef, tagsOf } = useIndex();
-  const visible = useVisibleStories();
+  const listed = useListedStories();
   const def = isKind(kind) ? tagDef(kind, tagId) : undefined;
   if (!isKind(kind) || !def) return <NotFoundPage />;
-  const list = visible
+  const list = listed
     .filter((s) => tagsOf(s.id)[kind].includes(tagId))
     .sort((a, b) => a.title.localeCompare(b.title));
   return (

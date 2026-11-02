@@ -26,6 +26,10 @@ export type IndexEntry = {
   hasImages: boolean;
   /** Shared by different translations of the same tale, e.g. `grimm-khm-015`. */
   workId?: string;
+  /** On an original: the simplified retelling listed in its place. */
+  simplifiedId?: string;
+  /** On a simplified retelling: the original it retells (‡ retellings have none). */
+  adaptedFrom?: string;
 };
 
 export type Index = {
