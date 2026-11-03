@@ -30,6 +30,14 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 25: Armenian myths. "Armenian Myths, Simply Told" (`myths-armenian`): Hayk the
+  archer and Ara the Beautiful from Movses Khorenatsi's History of the Armenians, Vahagn the
+  dragon-slayer (with Claude's own translation of the song of his birth, and the Straw Thief's
+  Way), and David of Sassoun from the folk epic. All four are retold with no original in the app:
+  Ananikian's Armenian Mythology isn't reachable, and the reachable English versions (Boettiger's
+  Armenian Legends and Festivals, F. B. Collins's David of Sassun) are by translators whose dates
+  are unknown. Retelling files can now hold verse: a paragraph whose lines all start with `> `.
+  New culture `armenian` ("Armenian").
 - Mythology, part 24: Persian myths. Nine stories from Helen Zimmern's The Epic of Kings (1882,
   `zimmern-kings`), her prose Shahnameh: the first kings (Hushang's fire, Jamshid's golden age and
   pride), Zahhak the Serpent King, Kaveh the blacksmith, Zal and the Simurgh, Rostam and Rakhsh,

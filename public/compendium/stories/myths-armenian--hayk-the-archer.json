@@ -1,0 +1,54 @@
+{
+ "id": "myths-armenian--hayk-the-archer",
+ "collectionId": "myths-armenian",
+ "order": 1,
+ "title": "Hayk the Archer",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, after the great flood, giants lived in the land of Babylon. They were tall and strong and proud, and they began to build a tower that would reach up to heaven. Among them was Hayk, the son of Torgom. He was handsome and strong, with curly hair and bright eyes and mighty arms, and he was the best archer of them all."
+  },
+  {
+   "type": "p",
+   "text": "Then Bel, the ruler of Babylon, made himself master of everyone, and he wanted everyone to bow down to him. But Hayk would not bow to him. So Hayk took his sons and his daughters, and his sons' sons, strong men, about three hundred in all, and his servants, and everyone who wanted to come with him, and all his flocks and herds, and he travelled north, to the land of Ararat among the mountains. There they built a village and settled, and Hayk called the place Haykashen."
+  },
+  {
+   "type": "p",
+   "text": "When Bel heard, he sent one of his sons with some faithful men to Hayk. \"You have gone to live in the bitter cold,\" said Bel's message. \"Soften your proud heart. Come back, and serve me, and live in comfort in my land.\" But Hayk sent the messengers back with a hard answer."
+  },
+  {
+   "type": "p",
+   "text": "So Bel gathered a huge army and marched north against Hayk. Hayk's grandson Kadmos saw them coming, and sent a swift messenger to warn him. Then Hayk gathered his sons and his grandsons, brave men and archers every one, and marched out to meet Bel. They came to the shore of a lake of salty water, full of little fish."
+  },
+  {
+   "type": "p",
+   "text": "There Hayk saw Bel in the middle of his army, standing on a hill, with his strongest warriors around him, in his helmet and armour. \"Let us go straight for Bel himself,\" Hayk told his men. \"If we beat him, his army will scatter.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Hayk drew his great bow, and shot a three-feathered arrow straight at Bel. The arrow went right through Bel's armour, and out through his back, and Bel fell to the ground and did not get up again. When his army saw it, they ran away in terror."
+  },
+  {
+   "type": "p",
+   "text": "The place where the battle was fought was called Gerezmank, which means \"the graves\". And Hayk named the land after himself. That is why, to this day, Armenians call themselves Hay, and their country Hayastan."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from Movses Khorenatsi's History of the Armenians (traditionally dated to the 400s AD), book 1, chapters 10 and 11. There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "armenian-hayk",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "wordCount": 431,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 4.9,
+  "avgSentenceWords": 15.1,
+  "band": "middle"
+ }
+}

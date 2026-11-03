@@ -84,7 +84,8 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           extract_persian.py: nine stories from Zimmern's Epic of Kings (the Internet
                           Classics Archive's copy, whose paragraph breaks it rebuilds from the line
                           wrap) and Yima from Darmesteter's Avesta in Wilson's Sacred Books of the East)
-tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs)
+tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs;
+                          a paragraph of `> ` lines is verse)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
                           source (one story per file; `## Author, Work ref` headings per passage)
@@ -137,7 +138,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
 sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1116 stories, 96 collections, ~11 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1120 stories, 97 collections, ~11 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -157,7 +158,7 @@ them.
   Sun, all four Lithuanian and Latvian stories, Dobrynya and the dragon, Sadko and the Snow
   Maiden, Lech, Czech and Rus, the Wawel dragon, Master Manole, Mujo's strength, Emese's dream, Sosruko, Amirani, Martin Txiki,
   Mari of Anboto, Inanna and the gifts of wisdom, Lugalbanda and the Anzu bird, the Atrahasis
-  making of people from clay, the three Hittite and Hurrian myths, Baal and Yam, Honi the Circle-Maker, and the Zoroastrian creation; ‡ in the
+  making of people from clay, the three Hittite and Hurrian myths, Baal and Yam, Honi the Circle-Maker, the Zoroastrian creation, and all four Armenian stories; ‡ in the
   expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
   note says what it was retold from, and its front matter may set `livingTradition`. The integrity test checks that the links run both ways and
   stay within one `workId`.
@@ -175,7 +176,7 @@ collections; and, on story files, `adaptation` and `adaptedBy`.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-42 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+43 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
@@ -336,7 +337,7 @@ fine)`.
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends`, `christian-stories`, `quran-stories` or `myths-persian` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends`, `christian-stories`, `quran-stories`, `myths-persian` or `myths-armenian` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).

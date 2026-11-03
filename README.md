@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 1116 public-domain children's stories in 96 collections — Aesop
+A calm, offline-capable reader for 1120 public-domain children's stories in 97 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -51,14 +51,16 @@ Middle Ages. Islamic: the Sleepers of the Cave, Solomon with the ants and the ho
 Jonah, in Marmaduke Pickthall's The Meaning of the Glorious Koran (1930), marked as sacred to
 Muslims and never illustrated. Persian: nine stories of the Shahnameh, from the first kings and
 Zahhak the Serpent King to Rostam and Sohrab, in Helen Zimmern's The Epic of Kings (1882), and Yima
-the good shepherd from the Avesta in James Darmesteter's translation. Where no
+the good shepherd from the Avesta in James Darmesteter's translation. Armenian: Hayk the archer,
+Ara the Beautiful, Vahagn the dragon-slayer (with Claude's translation of the song of his birth)
+and David of Sassoun, retold by Claude. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,
 and Arany's Hungarian legend of the wondrous stag.
 Simplified retellings for young readers in Greek, Roman, Norse, German, English, Irish, Welsh,
 Scottish, Manx and Breton, Arthurian, Finnish, Estonian and Sámi, Lithuanian and Latvian, Russian,
-Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, Mesopotamian, Hittite and Canaanite, Hebrew Bible, Jewish legend, Christian, Qur'an and Persian collections "Simply Told".
+Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, Mesopotamian, Hittite and Canaanite, Hebrew Bible, Jewish legend, Christian, Qur'an, Persian and Armenian collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 
@@ -127,7 +129,7 @@ trademarks on Peter Rabbit and other Potter characters, so don't use them in the
 or marketing. Check translator dates before distributing outside
 the US. To regenerate the data, see "Regenerating the compendium" in `SPEC.md`.
 
-The simplified retellings (the twenty-five "Simply Told" collections, `myths-*`, `hebrew-bible`, `jewish-legends`, `christian-stories` and `quran-stories`) were written by Claude
+The simplified retellings (the twenty-six "Simply Told" collections, `myths-*`, `hebrew-bible`, `jewish-legends`, `christian-stories` and `quran-stories`) were written by Claude
 (Anthropic) from public-domain originals; their editable source is `tools/simplified/*.md`, rebuilt
 into story JSON by `tools/build_simplified.py`. Each one links to its original, except the few
 legends with no public-domain text available, whose end note says what they were retold from.

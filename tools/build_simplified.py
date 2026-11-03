@@ -11,7 +11,7 @@ Each Markdown file is one story, named `<storyId>.md`, with a small front matter
     flags: optional; "none" or a comma list, when the retelling leaves out what flagged the original
     alsoSimplifies: optional comma list of other versions of the same myth this retelling stands in for
     ---
-    Paragraphs, separated by blank lines.
+    Paragraphs, separated by blank lines. A paragraph whose every line starts with "> " is verse.
 
 A legend with no public-domain text to work from (marked ‡ in the expansion plan) has no
 original: its front matter gives `basedOn` (what it was retold from) and `workId` instead of
@@ -260,6 +260,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-armenian": {
+        "id": "myths-armenian",
+        "title": "Armenian Myths, Simply Told",
+        "author": "Traditional (Armenian)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-persian": {
         "id": "myths-persian",
         "title": "Persian Myths, Simply Told",
@@ -324,8 +335,15 @@ def parse(path):
     if not m:
         raise SystemExit(f"{path.name}: missing front matter")
     meta = dict(line.split(": ", 1) for line in m.group(1).splitlines() if line.strip())
-    paras = [re.sub(r"\s*\n\s*", " ", p).strip() for p in re.split(r"\n\s*\n", m.group(2))]
-    return meta, [p for p in paras if p]
+    return meta, [block(p) for p in re.split(r"\n\s*\n", m.group(2)) if p.strip()]
+
+
+def block(para):
+    """A paragraph, or a verse block when every line starts with "> " (one line per verse line)."""
+    lines = [line.strip() for line in para.strip().splitlines()]
+    if all(line.startswith("> ") for line in lines):
+        return {"type": "verse", "text": "\n".join(line[2:] for line in lines)}
+    return {"type": "p", "text": " ".join(lines)}
 
 
 def flags_of(meta, orig):
@@ -335,7 +353,7 @@ def flags_of(meta, orig):
     return [] if value == "none" else [f.strip() for f in value.split(",")]
 
 
-def unsourced(sid, cid, meta, paras):
+def unsourced(sid, cid, meta, blocks):
     """A retelling with no public-domain original to link to (‡ in the expansion plan)."""
     note = (f"Retold by {ADAPTED_BY}, from {meta['basedOn']}. There is no public-domain text "
             "of this legend in the app to compare it with.")
@@ -348,7 +366,7 @@ def unsourced(sid, cid, meta, paras):
         "excluded": False,
         "flags": flags_of(meta, {"flags": []}),
         "moral": None,
-        "blocks": [{"type": "p", "text": p} for p in paras] + [{"type": "note", "text": note}],
+        "blocks": blocks + [{"type": "note", "text": note}],
         "workId": meta["workId"],
         "adaptation": "retold",
         "adaptedBy": ADAPTED_BY,
@@ -367,9 +385,9 @@ def main():
         cid = sid.split("--")[0]
         if cid not in COLLECTIONS:
             raise SystemExit(f"{path.name}: unknown collection {cid}")
-        meta, paras = parse(path)
+        meta, blocks = parse(path)
         if "adaptedFrom" not in meta:
-            by_collection[cid].append(finish(unsourced(sid, cid, meta, paras)))
+            by_collection[cid].append(finish(unsourced(sid, cid, meta, blocks)))
             continue
         orig = load_story(meta["adaptedFrom"])
         coll = next(c for c in index["collections"] if c["id"] == orig["collectionId"])
@@ -406,7 +424,7 @@ def main():
             "excluded": orig["excluded"],
             "flags": flags,
             "moral": None,
-            "blocks": [{"type": "p", "text": p} for p in paras] + [{"type": "note", "text": note}],
+            "blocks": blocks + [{"type": "note", "text": note}],
             "workId": orig["workId"],
             "adaptation": "simplified",
             "adaptedBy": ADAPTED_BY,
