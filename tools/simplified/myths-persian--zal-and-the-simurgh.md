@@ -1,0 +1,36 @@
+---
+title: Zal and the Simurgh
+adaptedFrom: zimmern-kings--zal-and-the-simurgh
+order: 6
+namesNote: The Simurgh is a great and wise bird of Persian legend. Zimmern calls Zal's father Saum; in Persian he is Sam. Zal means "the old one".
+---
+
+Seistan, in the south of Iran, was ruled by Sam, a great champion, and he was happy, except that he had no children. Then at last a son was born to him, beautiful in face and body, with nothing wrong with him at all, except that his hair was white, like an old man's.
+
+The women were afraid to tell Sam, in case he was angry that his son was so different from other people. So the baby was eight days old before Sam knew. Then a woman braver than the rest went to him, and bowed down to the ground, and said, "May God keep you, my lord! God has given you what you wished for: a son, a moon-faced boy, beautiful in face and body, with nothing wrong with him, except that his hair is like an old man's. I beg you, remember that this child is a gift from God, and do not be ungrateful."
+
+Sam went to see the baby. He saw that he was beautiful, but that his hair was white. And Sam was afraid that his enemies would laugh at him, and he forgot to be wise. He lifted his head to heaven and complained. "O God," he cried, "if I have done wrong, forgive me! My heart is ashamed of this child. Won't the nobles say that this boy means bad luck? They will make fun of me, and what will I say to them?" And in his anger he ordered his servants to take the child and leave him far away, out of the land.
+
+Far from where people live stands Mount Alborz, whose head touches the stars. No one had ever climbed to its top. Up there the Simurgh, the wonderful bird, had built her nest of ebony and sandalwood, as fine as a king's palace. And at the foot of this mountain the baby was left. When the Simurgh saw him lying on the ground with no clothes and nothing to eat, sucking his fingers because he was so hungry, she swooped down and picked him up in her claws. She carried him up to her nest, meaning to give him to her chicks to eat. But when she had brought him there, her heart filled with pity. So she told her chicks not to hurt him, but to treat him like a brother. And she chose tender food for him, and looked after the baby whose father had left him.
+
+So the Simurgh cared for him, month after month and year after year, until the baby grew into a strong and handsome young man. People began to talk about him, for neither good nor bad can be hidden for ever, and at last the news reached Sam himself.
+
+One night Sam had a dream. A man rode up to him on an Arab horse, and told him about his son, and mocked him. "You have done wrong!" he said. "You threw away your son because his hair is white, though your own hair is as white as the silver poplar. Do you think a bird is the right nurse for your child? Will you never call him your son?"
+
+When Sam woke up, he remembered the dream, and he was afraid because of what he had done. He asked his wise men about the young man on Mount Alborz. Could he really be his son? Surely the frost and the heat must have killed him long ago.
+
+"No," said the wise men. "You are crueller than a lion or a tiger or a crocodile, for even wild beasts take care of their young. But you threw away your own child because his hair was white, though God made it so. Go and find your child, for someone God has blessed can never be lost. And ask him to forgive you."
+
+Sam was sorry. He gathered his army and set out for the mountains. When they came to the mountain that rises up to the stars, Sam saw the Simurgh and her nest, and a young man who looked just like himself walking around it. He longed to reach him, but no matter how he tried, he could not climb to the top. Then Sam humbly prayed to God. And God heard him, and made the Simurgh look down and see Sam and his army.
+
+The Simurgh knew at once why Sam had come. And she said to the young man, "You have shared my nest, and I have brought you up and been a mother to you, because your father threw you away. But now the time has come for us to part, and I must give you back to your people. Your father is Sam the hero, the greatest of the great, and he has come here to find his son. A splendid life is waiting for you with him."
+
+When the young man heard this, his eyes filled with tears, for he had never seen people, though he had learned their language. "Are you tired of me?" he said. "Am I not good enough to live with you any more? Your nest is my throne, and your wings are my parents. I owe you everything, for you were my friend when I needed one."
+
+"I am not sending you away because I don't love you, my son," said the Simurgh. "I would keep you beside me for ever. But a better life is waiting for you. When you have seen a king's throne and its splendour, my nest will seem small to you. So go out and try your fortune in the world. But take this feather from my breast, so that you will remember your nurse, who sheltered you under her wings. If you are ever in trouble, throw it into the fire, and I will come like a cloud and save you."
+
+Then she lifted him in her claws, and carried him down to where Sam was bowing in the dust, sorry for what he had done. When Sam saw his son, so strong and handsome, he bowed low to the Simurgh and blessed her. "O king of birds, O bird of God," he cried, "may you be great for ever!"
+
+But while he was still speaking, the Simurgh flew up into the sky. Sam looked at his son, and saw that he was fit to sit on a throne, and that there was nothing wrong with him at all, except his silver hair. His heart was glad, and he blessed his son and begged him to forgive him. "My son," he said, "I promise you, before God who made us both, that I will never be hard on you again, and I will give you whatever you wish."
+
+Then he dressed him in fine clothes, and named him Zal, which means "the old one". When the army saw how handsome the young man was, they shouted for joy. And they set off home to Seistan. The drummers rode at the front on great elephants, the drums beat, the trumpets blared and the cymbals clashed, and the whole land rejoiced, because Sam had found his son, and Zal was a hero among men.

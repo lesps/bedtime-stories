@@ -1,0 +1,46 @@
+{
+ "id": "darmesteter-avesta--yima-the-good-shepherd",
+ "collectionId": "darmesteter-avesta",
+ "order": 1,
+ "title": "Yima, the Good Shepherd",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "From the second chapter of the Vendidad, a book of the Avesta, in James Darmesteter's translation (1880). Epiphanius Wilson's Sacred Books of the East (1900) ends it here; the chapter goes on to tell how Yima built a shelter against a terrible winter. Yima is the king the Shahnameh calls Jemshid."
+  },
+  {
+   "type": "p",
+   "text": "Zarathustra asked Ahura Mazda:--"
+  },
+  {
+   "type": "p",
+   "text": "\"O Ahura Mazda, most beneficent Spirit, Maker of the material world, thou Holy One! Who was the first mortal, before myself, Zarathustra, with whom thou, Ahura Mazda, didst converse, whom thou didst teach the Religion of Ahura, the Religion of Zarathustra?\""
+  },
+  {
+   "type": "p",
+   "text": "Ahura Mazda answered:--"
+  },
+  {
+   "type": "p",
+   "text": "\"The fair Yima, the good shepherd, O holy Zarathustra! he was the first mortal, before thee, Zarathustra, with whom I, Ahura Mazda, did converse, whom I taught the Religion of Ahura, the Religion of Zarathustra. Unto him, O Zarathustra, I, Ahura Mazda, spake, saying: 'Well, fair Yima, son of Vîvanghat, be thou the preacher and the bearer of my Religion!' And the fair Yima, O Zarathustra, replied unto me, saying: 'I was not born, I was not taught to be the preacher and the bearer of thy Religion.' Then I, Ahura Mazda, said thus unto him, O Zarathustra, 'Since thou dost not consent to be the preacher and the bearer of my Religion, then make thou my world increase, make my world grow: consent thou to nourish, to rule, and to watch over my world.' And the fair Yima replied unto me, O Zarathustra, saying: 'Yes! I will make thy world increase, I will make thy world grow. Yes! I will nourish, and rule, and watch over thy world. There shall be, while I am king, neither cold wind nor hot wind, neither disease nor death.' Then I, Ahura Mazda, brought two implements unto him: a golden seal and a poniard inlaid with gold. Behold, here Yima bears the royal sway! Thus, under the sway of Yima, three hundred winters passed away, and the earth was replenished with flocks and herds, with men and dogs and birds and with red blazing fires, and there was room no more for flocks, herds, and men. Then I warned the fair Yima, saying: 'O fair Yima, son of Vîvanghat, the earth has become full of flocks and herds, of men and dogs and birds and of red blazing fires, and there is room no more for flocks, herds, and men.' Then Yima stepped forward, in light, southwards, on the way of the sun, and afterwards he pressed the earth with the golden seal, and bored it with the poniard, speaking thus: 'O Spenta Ârmaiti, kindly open asunder and stretch thyself afar, to bear flocks and herds and men.' And Yima made the earth grow larger by one-third than it was before, and there came flocks and herds and men, at their will and wish, as many as he wished. Thus, under the sway of Yima, six hundred winters passed away, and the earth was replenished with flocks and herds, with men and dogs and birds and with red blazing fires, and there was room no more for flocks, herds, and men. And I warned the fair Yima, saying: 'O fair Yima, son of Vîvanghat, the earth has become full of flocks and herds, of men and dogs and birds and of red blazing fires, and there is room no more for flocks, herds, and men.'"
+  },
+  {
+   "type": "p",
+   "text": "\"Then Yima stepped forward, in light, southwards, on the way of the sun, and afterwards he pressed the earth with the golden seal, and bored it with the poniard, speaking thus: 'O Spenta Ârmaiti, kindly open asunder and stretch thyself afar, to bear flocks and herds and men.' And Yima made the earth grow larger by two-thirds than it was before, and there came flocks and herds and men, at their will and wish, as many as he wished. Thus, under the sway of Yima, nine hundred winters passed away, and the earth was replenished with flocks and herds, with men and dogs and birds and with red blazing fires, and there was room no more for flocks, herds, and men. And I warned the fair Yima, saying: 'O fair Yima, son of Vîvanghat, the earth has become full of flocks and herds, of men and dogs and birds and of red blazing fires, and there is room no more for flocks, herds, and men.' Then Yima stepped forward, in light, southwards, on the way of the sun, and afterwards he pressed the earth with the golden seal, and bored it with the poniard, speaking thus: 'O Spenta Ârmaiti, kindly open asunder and stretch thyself afar, to bear flocks and herds and men.' And Yima made the earth grow larger by three-thirds than it was before, and there came flocks and herds and men, at their will and wish, as many as he wished.\""
+  }
+ ],
+ "workId": "persian-yima",
+ "livingTradition": "Zoroastrians",
+ "wordCount": 805,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 11.1,
+  "avgSentenceWords": 29.3,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-persian--yima-the-good-shepherd"
+}

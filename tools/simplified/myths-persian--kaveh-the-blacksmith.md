@@ -1,0 +1,41 @@
+---
+title: Kaveh the Blacksmith
+adaptedFrom: zimmern-kings--kawah-the-blacksmith
+order: 5
+flags: none
+namesNote: Zimmern spells the names Kawah, Zohak and Feridoun. Kaveh's leather apron became the royal banner of Persia, the Kaviani banner. Mount Damavand is the highest mountain in Iran.
+---
+
+Zahhak, the Serpent King, had ruled Iran for a thousand years, and every day two men were taken to feed the serpents on his shoulders. His wise men had told him that a young man named Fereydun would one day overthrow him, but he could not find Fereydun anywhere.
+
+One year Zahhak made his army stronger, and he ordered his people to sign a paper saying that he had always been a fair and noble king. They were so afraid that they signed it. But while they were signing, there came a shout from outside the palace door: someone was crying out for justice. Zahhak ordered him to be brought in, and the man stood before all the nobles.
+
+"Tell me," said Zahhak, "the name of the one who has wronged you."
+
+When the man saw that it was the king himself who asked, he struck his head with his hands. But he answered, "I am Kaveh, a blacksmith, and I have done nothing wrong. I want justice, and it is against you, O King, that I cry out! I had seventeen fine sons, and now only one is left, for his brothers were taken to feed your serpents. And now your men have taken my last son too. I beg you, give him back to me, and do not pile more cruelty on the land than it can bear!"
+
+Zahhak saw how great Kaveh's anger was, and he was afraid. So he gave him back his son, and tried to win him over with soft words. And he asked Kaveh to sign the paper too.
+
+"Never!" cried Kaveh. "You wicked man, friend of demons, I will not put my hand to this lie!" And he snatched the paper, and tore it into pieces, and threw them into the air. Then he strode out of the palace, and everyone was so astonished that no one dared lift a finger to stop him.
+
+Kaveh went to the market place, and told the people everything he had seen. He reminded them of all the evil things Zahhak had done, and all the wrongs they had suffered, and he called on them to throw off the evil king. Then he took off the leather apron that blacksmiths wear to cover their knees when they strike with the hammer, and he lifted it high on the point of a spear, and cried, "Let this be our banner! Let us march out and find Fereydun, and beg him to save us from the Serpent King!"
+
+The people shouted for joy and gathered round Kaveh, and he led them out of the city, holding his banner high, and they marched for many days.
+
+By now Fereydun was sixteen. He came down from the mountain where he had been hidden, and found his mother, and asked her who his family were. She told him that he came from the family of Jamshid, and told him about Zahhak and his evil deeds.
+
+"I will root this monster out of the earth," said Fereydun, "and tear his palace down to the dust."
+
+"No, my son," said his mother. "Don't let your young anger run away with you. How can you stand against the whole world?"
+
+But soon a great crowd came towards the palace, led by a man carrying an apron on a spear. Then Fereydun knew that help had come. When he had listened to Kaveh, he came to his mother wearing a king's helmet. "Mother," he said, "I am going to war. Pray to God to keep me safe."
+
+Then Fereydun had a mighty mace made. He drew its shape on the ground himself, and the top of it was a cow's head, in memory of Purmayeh, the cow who had been his nurse. And he covered Kaveh's banner with rich cloth and hung jewels on it. Then they set out to find Zahhak. But Zahhak was far away in India, searching for Fereydun, and they did not know it.
+
+When they came to Baghdad, on the river Tigris, Fereydun told the boatmen to carry them across. But the boatmen refused: the king had ordered that no one could cross without the royal seal. Fereydun was angry, and he did not care about the rushing river or its dangers. He plunged into the water on his horse, and the whole army followed him. They struggled hard against the current, and it seemed that the waves would sweep them away. But their brave horses brought them safely to the other shore.
+
+Then they went on to the city that is now called Jerusalem, where Zahhak's great palace stood. The people there gathered round Fereydun, for they hated Zahhak. Fereydun beat the demons who guarded the palace, and threw down the evil magic sign that was carved on its walls. Then he sat on the throne and put the crown of Iran on his head, and all the people bowed down to him and called him king.
+
+When Zahhak came back and found Fereydun on his throne, he surrounded the city with his army. But Fereydun's army marched out against him, and all the people were on their side. All day long bricks fell from the walls and stones from the roofs, and arrows and spears rained down like hail, until Fereydun had broken Zahhak's power. Then Fereydun raised his cow-headed mace to strike the Serpent King. But the angel Sorush swooped down, and cried, "No, do not strike! Zahhak's time has not yet come."
+
+Then Sorush told Fereydun to tie Zahhak up, and carry him far away from where people live, and chain him to a rock. So Fereydun led Zahhak to Mount Damavand, and chained him to the rock with mighty chains, and left him there. The hot sun beat down on the bare cliffs, where there was no tree or bush for shade. And after a while the earth was free of Zahhak the evil one, and Fereydun ruled in his place.

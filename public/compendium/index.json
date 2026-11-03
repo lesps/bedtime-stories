@@ -1116,6 +1116,42 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 4
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "zimmern-kings",
+   "title": "The Epic of Kings: Stories Retold from Firdusi",
+   "author": "Helen Zimmern",
+   "contributor": null,
+   "firstPublished": 1882,
+   "source": "http://classics.mit.edu/Ferdowsi/kings.html",
+   "originalLanguage": "fa",
+   "storyCount": 9
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "id": "darmesteter-avesta",
+   "title": "The Zend-Avesta",
+   "author": "The Avesta",
+   "contributor": "Translated by James Darmesteter",
+   "firstPublished": 1880,
+   "source": "https://www.gutenberg.org/ebooks/12894",
+   "originalLanguage": "ae",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-persian",
+   "title": "Persian Myths, Simply Told",
+   "author": "Traditional (Persian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 11
   }
  ],
  "stories": [
@@ -16984,6 +17020,391 @@
     "band": "middle"
    },
    "adaptedFrom": "pickthall-koran--jonah-and-the-fish"
+  },
+  {
+   "id": "zimmern-kings--the-first-shahs",
+   "collectionId": "zimmern-kings",
+   "order": 1,
+   "title": "The First Shahs",
+   "wordCount": 921,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-first-shahs",
+   "readingLevel": {
+    "fkGrade": 8.2,
+    "avgSentenceWords": 23.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--the-first-kings-of-persia"
+  },
+  {
+   "id": "zimmern-kings--zohak-the-serpent-king",
+   "collectionId": "zimmern-kings",
+   "order": 2,
+   "title": "Zohak the Serpent King",
+   "wordCount": 1273,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "persian-zohak",
+   "readingLevel": {
+    "fkGrade": 8.8,
+    "avgSentenceWords": 23.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--zahhak-the-serpent-king"
+  },
+  {
+   "id": "zimmern-kings--kawah-the-blacksmith",
+   "collectionId": "zimmern-kings",
+   "order": 3,
+   "title": "Kawah the Blacksmith",
+   "wordCount": 1222,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "persian-kawah",
+   "readingLevel": {
+    "fkGrade": 8.9,
+    "avgSentenceWords": 24.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--kaveh-the-blacksmith"
+  },
+  {
+   "id": "zimmern-kings--zal-and-the-simurgh",
+   "collectionId": "zimmern-kings",
+   "order": 4,
+   "title": "Zal and the Simurgh",
+   "wordCount": 1588,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-zal",
+   "readingLevel": {
+    "fkGrade": 8.1,
+    "avgSentenceWords": 23.1,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--zal-and-the-simurgh"
+  },
+  {
+   "id": "zimmern-kings--rustem-and-rakush",
+   "collectionId": "zimmern-kings",
+   "order": 5,
+   "title": "Rustem and Rakush",
+   "wordCount": 1366,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-rakush",
+   "readingLevel": {
+    "fkGrade": 7.7,
+    "avgSentenceWords": 22.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--rostam-and-rakhsh"
+  },
+  {
+   "id": "zimmern-kings--the-seven-labours-of-rustem",
+   "collectionId": "zimmern-kings",
+   "order": 6,
+   "title": "The Seven Labours of Rustem",
+   "wordCount": 3762,
+   "readingMinutes": 21,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-seven-labours",
+   "readingLevel": {
+    "fkGrade": 7.6,
+    "avgSentenceWords": 21.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--the-seven-labours-of-rostam"
+  },
+  {
+   "id": "zimmern-kings--rustem-and-sohrab",
+   "collectionId": "zimmern-kings",
+   "order": 7,
+   "title": "Rustem and Sohrab",
+   "wordCount": 11356,
+   "readingMinutes": 63,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "persian-sohrab",
+   "readingLevel": {
+    "fkGrade": 8.7,
+    "avgSentenceWords": 24.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--rostam-and-sohrab"
+  },
+  {
+   "id": "zimmern-kings--saiawush-and-the-fire",
+   "collectionId": "zimmern-kings",
+   "order": 8,
+   "title": "Saiawush and the Fire",
+   "wordCount": 1639,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "persian-saiawush",
+   "readingLevel": {
+    "fkGrade": 8.6,
+    "avgSentenceWords": 24.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--siyavash-and-the-fire"
+  },
+  {
+   "id": "zimmern-kings--byzun-and-manijeh",
+   "collectionId": "zimmern-kings",
+   "order": 9,
+   "title": "Byzun and Manijeh",
+   "wordCount": 5304,
+   "readingMinutes": 29,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-byzun",
+   "readingLevel": {
+    "fkGrade": 8.3,
+    "avgSentenceWords": 23.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--bijan-and-manizheh"
+  },
+  {
+   "id": "darmesteter-avesta--yima-the-good-shepherd",
+   "collectionId": "darmesteter-avesta",
+   "order": 1,
+   "title": "Yima, the Good Shepherd",
+   "wordCount": 805,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-yima",
+   "readingLevel": {
+    "fkGrade": 11.1,
+    "avgSentenceWords": 29.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-persian--yima-the-good-shepherd"
+  },
+  {
+   "id": "myths-persian--how-ahura-mazda-made-the-world",
+   "collectionId": "myths-persian",
+   "order": 1,
+   "title": "How Ahura Mazda Made the World",
+   "wordCount": 523,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-creation",
+   "readingLevel": {
+    "fkGrade": 5.0,
+    "avgSentenceWords": 13.5,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-persian--yima-the-good-shepherd",
+   "collectionId": "myths-persian",
+   "order": 2,
+   "title": "Yima, the Good Shepherd",
+   "wordCount": 645,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-yima",
+   "readingLevel": {
+    "fkGrade": 6.5,
+    "avgSentenceWords": 17.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "darmesteter-avesta--yima-the-good-shepherd"
+  },
+  {
+   "id": "myths-persian--the-first-kings-of-persia",
+   "collectionId": "myths-persian",
+   "order": 3,
+   "title": "The First Kings of Persia",
+   "wordCount": 679,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-first-shahs",
+   "readingLevel": {
+    "fkGrade": 5.7,
+    "avgSentenceWords": 15.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--the-first-shahs"
+  },
+  {
+   "id": "myths-persian--zahhak-the-serpent-king",
+   "collectionId": "myths-persian",
+   "order": 4,
+   "title": "Zahhak, the Serpent King",
+   "wordCount": 947,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-zohak",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 15.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--zohak-the-serpent-king"
+  },
+  {
+   "id": "myths-persian--kaveh-the-blacksmith",
+   "collectionId": "myths-persian",
+   "order": 5,
+   "title": "Kaveh the Blacksmith",
+   "wordCount": 1061,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-kawah",
+   "readingLevel": {
+    "fkGrade": 5.4,
+    "avgSentenceWords": 15.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--kawah-the-blacksmith"
+  },
+  {
+   "id": "myths-persian--zal-and-the-simurgh",
+   "collectionId": "myths-persian",
+   "order": 6,
+   "title": "Zal and the Simurgh",
+   "wordCount": 1251,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-zal",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 15.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--zal-and-the-simurgh"
+  },
+  {
+   "id": "myths-persian--rostam-and-rakhsh",
+   "collectionId": "myths-persian",
+   "order": 7,
+   "title": "Rostam and Rakhsh",
+   "wordCount": 1073,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-rakush",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 14.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--rustem-and-rakush"
+  },
+  {
+   "id": "myths-persian--the-seven-labours-of-rostam",
+   "collectionId": "myths-persian",
+   "order": 8,
+   "title": "The Seven Labours of Rostam",
+   "wordCount": 2377,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-seven-labours",
+   "readingLevel": {
+    "fkGrade": 4.3,
+    "avgSentenceWords": 14.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--the-seven-labours-of-rustem"
+  },
+  {
+   "id": "myths-persian--rostam-and-sohrab",
+   "collectionId": "myths-persian",
+   "order": 9,
+   "title": "Rostam and Sohrab",
+   "wordCount": 3646,
+   "readingMinutes": 20,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-sohrab",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 13.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--rustem-and-sohrab"
+  },
+  {
+   "id": "myths-persian--siyavash-and-the-fire",
+   "collectionId": "myths-persian",
+   "order": 10,
+   "title": "Siyavash and the Fire",
+   "wordCount": 1061,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-saiawush",
+   "readingLevel": {
+    "fkGrade": 6.0,
+    "avgSentenceWords": 18.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--saiawush-and-the-fire"
+  },
+  {
+   "id": "myths-persian--bijan-and-manizheh",
+   "collectionId": "myths-persian",
+   "order": 11,
+   "title": "Bijan and Manizheh",
+   "wordCount": 2358,
+   "readingMinutes": 13,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "persian-byzun",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 14.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "zimmern-kings--byzun-and-manijeh"
   }
  ]
 }

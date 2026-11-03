@@ -1,0 +1,88 @@
+---
+title: Bijan and Manizheh
+adaptedFrom: zimmern-kings--byzun-and-manijeh
+order: 11
+namesNote: Zimmern spells the names Byzun, Manijeh, Girgin, Gersiwaz and Kai Khosrau; in Persian they are Bijan, Manizheh, Gorgin, Garsivaz and Kay Khosrow. Afrasiyab was the king of Turan, Iran's great enemy.
+---
+
+Peace had come back to Iran, and the wise king Kay Khosrow ruled the world. One day, while he was feasting with his nobles, some men from the land of Arman came and threw themselves at his feet. "Wild boars are coming out of Turan," they said, "and breaking into our fields and ruining our crops, and no one can stop them. Please send a champion to save us!"
+
+The king promised to help. He had jewels, horses with golden harness, and rich cloth brought out, and said that whoever went to fight the boars would have them. For a while nobody answered, for nobody wanted to fight wild beasts. Then Bijan, the son of Gew, stood up. "If the king will let me," he said, "I will go and kill them."
+
+Gew was worried, because Bijan was his only son, and still young. But Bijan said, "I may be young, but I am wise." So the king agreed, but he sent wise old Gorgin with him, to guide him.
+
+When they reached the forest, they rested and drank wine, and Gorgin wanted to sleep. "No," said Bijan, "let's go and find the boars!"
+
+"You go," said Gorgin. "You're the one who took the king's gifts. I'll just watch."
+
+Bijan was surprised, but he went into the forest alone. He fought the boars and killed them all with his mace. Then he took their great tusks and hung them on his saddle, to show the people of Iran.
+
+When Gorgin saw him come back with his prizes, he was jealous. He said kind words, but evil had taken hold of his heart, and all night he wondered how to set a trap for Bijan. In the morning he said, "I know this land. Not far from here is the garden of Afrasiyab, the king of Turan. His daughters and their ladies go there to celebrate the spring, and it is just the time. Let's go and see the beautiful ladies of Afrasiyab's court!"
+
+Bijan was young, and he acted like a young man. He listened to Gorgin, and off they went, and Gorgin was secretly glad, for he hoped that harm would come of it. Bijan hid in the shade of a tall cypress tree and watched. The garden was green and lovely with spring, the air was full of music and song, and among the rose bushes walked young women as lovely as fairies. The loveliest of all was Manizheh, the daughter of Afrasiyab.
+
+Manizheh saw Bijan hiding, and she was amazed at how handsome he was, and her heart was his. She sent her maids to ask who he was. "Tell your mistress," said Bijan, "that I have come from Iran to kill the wild boars of Arman. And I came here hoping to see the daughter of Afrasiyab, for the news of her beauty has spread all the way to Iran. Ask if I may speak with her."
+
+"Let him come," said Manizheh. So Bijan came into her tent, and she welcomed him with joy, and washed his feet with sweet-smelling musk, and made him a feast, while musicians played. For three days and three nights Bijan stayed with Manizheh, and he forgot all about Iran. When it was time for her to leave the garden, she could not bear to part with him. So she gave him a cup of wine with a sleeping potion in it, and while he slept, her maids carried him in a covered litter into Afrasiyab's palace. And Manizheh hid him in her own rooms, where no one but her maids knew he was there.
+
+When Bijan woke up and learned where he was, he was afraid, and wanted to go home to Iran. But Manizheh calmed him, and he forgot his fears, and many happy days went by.
+
+But at last a guard found out, and told Afrasiyab that his daughter was hiding a man from Iran. Afrasiyab was beside himself with rage. He sent his brother Garsivaz with armed men to Manizheh's rooms. They broke down the door, and there was Bijan, sitting beside Manizheh on a golden throne, with music playing all around them.
+
+"Now I've got you!" cried Garsivaz. "How will you save yourself now?" Bijan had no sword or armour, but he pulled a dagger out of his boot, and said that he would use it unless they took him straight to Afrasiyab. Garsivaz knew that he meant it, so instead of fighting, he tied him up and took him to the king.
+
+"Why did you come into my land?" said Afrasiyab. Bijan told him about the boars, and said that a fairy had carried him to the palace, for he did not want to get Manizheh into trouble. But Afrasiyab did not believe him, and ordered him to be put to death. Bijan begged for mercy, but it was no use. They led him out, and he wept, and prayed to the winds to carry the news of him to the king of Iran.
+
+Just then the wise old general Piran came by. When he heard what was happening, he stopped everything and went to Afrasiyab. He reminded the king how the death of Siyavash had brought war, and how Bijan was an important man in Iran, and how Iran would surely take revenge. "Turan is not ready for another war," he said. "Put him in chains, and hide him in the earth, so that Iran never knows where he went."
+
+Afrasiyab saw that this was wise. So Bijan was loaded with iron chains and thrown into a deep pit in the desert, and its mouth was closed with a huge stone that the demon Akvan had once torn from the bottom of the sea. Bijan could see neither sun nor moon. And Afrasiyab ordered Manizheh's fine clothes and crown and veil to be taken from her, and sent her out barefoot into the desert. "You were his spring," he said. "Now be his comfort, and look after him in his prison."
+
+Manizheh wandered in the desert, weeping, and she always came back to the pit, but she could not move the stone. After some days, she found a gap where she could just push her hand through. Every day she went to the town and begged for bread. No one knew that she was the king's daughter, but everyone felt sorry for her. And she brought the bread back to Bijan, and fed him through the gap, and spoke kind words to him, and kept him alive.
+
+Meanwhile Gorgin had gone back to Iran. He told the king and Gew that they had killed the boars together, and that a wild donkey had come out of the forest and carried Bijan away; he thought it must have been a demon. But when Kay Khosrow questioned him closely, Gorgin's story fell apart, so the king had him put in chains until they found out what had happened.
+
+Gew was wild with grief. The king sent riders to every corner of the world, but they found nothing. So when the New Year came, Kay Khosrow put on a simple robe, took off his crown, and humbly prayed to God. Then he took his crystal globe, in which he could see the whole world, and looked into it. He searched all seven parts of the world, but he could not see Bijan anywhere. Then God showed him where Bijan was hidden, in the pit, with a young woman watching over him.
+
+"Don't be sad any more," the king told Gew. "Your son is alive, and a noble young woman is looking after him. But he is in chains, and a huge stone lies over his prison, and only Rostam can save him."
+
+So Gew rode to Zabulistan with a letter from the king. When Rostam heard the news, his eyes filled with tears. "Don't worry," he told Gew. "I won't take the saddle off Rakhsh until I have taken Bijan's hand and broken his chains."
+
+Gorgin, in his chains, sent a message begging Rostam to speak to the king for him, for he was sorry for what he had done. Rostam asked the king to forgive him, and pressed him until the king agreed.
+
+"Tell me what men and treasure you need," said the king.
+
+"I don't need a big army," said Rostam. "I will save Bijan by a trick. Give me jewels and rich cloth and carpets, for I am going to dress up as a merchant."
+
+So Rostam loaded a hundred camels with fine goods, and set out with seven brave knights dressed as merchants, leaving an army hidden at the border. They came to the town of Khotan, and Rostam went to Piran with gifts, and asked if he might sell his goods there. Piran agreed, and soon everyone was talking about the merchants from Iran.
+
+The news reached Manizheh. She hurried to the town and found Rostam. "What news is there in Iran of Bijan, the son of Gew?" she begged. "Isn't anyone coming to save him? When you go home, please tell Gew, and the king, and the mighty Rostam about Bijan, before he dies in his chains."
+
+Rostam was afraid she would give away his secret, for he did not know who she was. "I'm just a merchant," he said roughly. "I don't know anything about Gew or Bijan or the king. Go away, girl, you're getting in the way of my business."
+
+Manizheh wept. "Do the men of Iran refuse to give news to the poor?" she said. Then Rostam was sorry he had been so harsh. He gave her food and spoke kindly to her, and asked who she was. "I am the daughter of Afrasiyab," she said, "and my father threw me out because of Bijan." And she told him everything.
+
+Rostam was moved with pity. He gave her a roast chicken to take to Bijan, and inside it he hid his ring, with his name carved on it. When Bijan found the ring and read the name of Rostam, he knew his troubles were nearly over, and he laughed so loud that the walls of the pit shook.
+
+Manizheh was frightened; she thought he had gone mad. "Why are you laughing," she called down, "when you can't see the sun or the moon or the stars?"
+
+"Because I have hope," said Bijan. "But I don't know if I can tell you; a woman can't keep a secret."
+
+Manizheh was hurt, and she reminded him of everything she had suffered for him, and Bijan was sorry. "Swear to keep it secret," he said, "and I'll tell you." She swore. "The merchant from Iran has come for me," said Bijan. "Go and ask him: 'Are you the master of Rakhsh?'"
+
+Manizheh ran and asked. "Tell your friend," said Rostam, "that I am the master of Rakhsh, and I have come to set him free." And he told her to gather a great pile of wood and set it alight when night fell, so that he could find the pit. Manizheh searched far and wide for wood, and tore branches from the trees, and her arms were scratched by thorns, but she did it gladly for Bijan's sake. When night came, she lit the fire, and Rostam and his seven knights came.
+
+Each of the knights tried to lift the stone, but none of them could move it. Then Rostam prayed to God for strength, and bent down to the pit and spoke to Bijan. "I ask one thing of you," he said. "If I move this stone and set you free, forgive Gorgin. He is sorry, and he is a brave man, and I want there to be peace between you."
+
+"You don't know how much harm Gorgin has done me," said Bijan. "I want revenge."
+
+"If you won't listen to me, after I've come all this way as your friend," said Rostam, "I'll get back on Rakhsh and leave you in your chains."
+
+Bijan cried out. "Let it be as you wish!"
+
+Then Rostam took hold of the stone, and lifted it with all his strength, and threw it far out into the desert. He let down his rope, and pulled Bijan out of the pit. Bijan was a sad sight, as thin as a skeleton. Rostam broke his chains, wrapped him in a cloak, and took him and Manizheh back to his house, and gave them water and new clothes.
+
+That same night Rostam rode to Afrasiyab's palace, and Bijan rode with him in armour, though he was still weak. Rostam broke the doors off their hinges, beat the guards, and burst into the king's bedroom. "Sleep on, you fool!" he roared. "You slept on your throne while Bijan lay in a pit. I am Rostam, the son of Zal, and I have set Bijan free!" Afrasiyab woke up terrified, and called for his guards, but none came. In the dark he slipped out of the door and ran away. In the morning he came back with an army. But Rostam sent Manizheh safely away to Iran, and he and Bijan beat the army of Turan, and Afrasiyab fled.
+
+Then Rostam came home to Kay Khosrow, and the king hugged him and praised him, and Gew and Gudarz blessed him for bringing Bijan back. After a great feast, Rostam went home to his father, Zal.
+
+Then Kay Khosrow called for Bijan. When he heard everything that Manizheh had suffered, he felt very sorry for her. He gave Bijan rich gifts for her, and said, "Look after this woman, and never let her be sad, and never speak a cold word to her, for she has suffered so much for you. And may your life with her be happy."
