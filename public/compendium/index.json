@@ -1164,6 +1164,54 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 4
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "sa",
+   "id": "ganguli-mahabharata",
+   "title": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+   "author": "The Mahabharata",
+   "contributor": "Translated by Kisari Mohan Ganguli",
+   "firstPublished": 1883,
+   "source": "https://www.gutenberg.org/ebooks/15474",
+   "storyCount": 4
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "sa",
+   "id": "dutt-ramayana",
+   "title": "The Ramayana",
+   "author": "Valmiki",
+   "contributor": "Translated by Manmatha Nath Dutt",
+   "firstPublished": 1891,
+   "source": "https://www.gutenberg.org/ebooks/57265",
+   "storyCount": 2
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "sa",
+   "id": "dutt-vishnu-purana",
+   "title": "A Prose English Translation of Vishnupuranam",
+   "author": "The Vishnu Purana",
+   "contributor": "Translated by Manmatha Nath Dutt, after H. H. Wilson",
+   "firstPublished": 1896,
+   "source": "https://www.gutenberg.org/ebooks/66208",
+   "storyCount": 2
+  },
+  {
+   "id": "myths-hindu",
+   "title": "Hindu Myths, Simply Told",
+   "author": "Traditional (Hindu)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 8
   }
  ],
  "stories": [
@@ -17485,6 +17533,298 @@
     "avgSentenceWords": 15.0,
     "band": "middle"
    }
+  },
+  {
+   "id": "ganguli-mahabharata--the-lotus-from-vishnus-navel",
+   "collectionId": "ganguli-mahabharata",
+   "order": 1,
+   "title": "The Lotus from Vishnu's Navel",
+   "wordCount": 773,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-lotus",
+   "readingLevel": {
+    "fkGrade": 10.5,
+    "avgSentenceWords": 23.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--brahma-on-the-lotus"
+  },
+  {
+   "id": "ganguli-mahabharata--manu-and-the-fish",
+   "collectionId": "ganguli-mahabharata",
+   "order": 2,
+   "title": "Manu and the Fish",
+   "wordCount": 1341,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-matsya",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 23.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--manu-and-the-fish"
+  },
+  {
+   "id": "ganguli-mahabharata--the-churning-of-the-ocean",
+   "collectionId": "ganguli-mahabharata",
+   "order": 3,
+   "title": "The Churning of the Ocean",
+   "wordCount": 1369,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-churning",
+   "readingLevel": {
+    "fkGrade": 8.3,
+    "avgSentenceWords": 17.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-churning-of-the-ocean"
+  },
+  {
+   "id": "ganguli-mahabharata--markandeya-and-the-child-on-the-banyan-tree",
+   "collectionId": "ganguli-mahabharata",
+   "order": 4,
+   "title": "Markandeya and the Child on the Banyan Tree",
+   "wordCount": 1591,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-markandeya",
+   "readingLevel": {
+    "fkGrade": 11.6,
+    "avgSentenceWords": 26.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--markandeya-and-the-child"
+  },
+  {
+   "id": "dutt-ramayana--the-dwarfs-three-steps",
+   "collectionId": "dutt-ramayana",
+   "order": 1,
+   "title": "The Dwarf's Three Steps",
+   "wordCount": 523,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-vamana",
+   "readingLevel": {
+    "fkGrade": 9.6,
+    "avgSentenceWords": 19.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-dwarfs-three-steps"
+  },
+  {
+   "id": "dutt-ramayana--the-descent-of-the-ganga",
+   "collectionId": "dutt-ramayana",
+   "order": 2,
+   "title": "The Descent of the Ganga",
+   "wordCount": 2017,
+   "readingMinutes": 11,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ganga",
+   "readingLevel": {
+    "fkGrade": 11.4,
+    "avgSentenceWords": 23.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-descent-of-the-ganga"
+  },
+  {
+   "id": "dutt-vishnu-purana--the-legend-of-prahlada",
+   "collectionId": "dutt-vishnu-purana",
+   "order": 1,
+   "title": "The Legend of Prahlada",
+   "wordCount": 6336,
+   "readingMinutes": 35,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-prahlada",
+   "readingLevel": {
+    "fkGrade": 10.2,
+    "avgSentenceWords": 21.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--prahlada"
+  },
+  {
+   "id": "dutt-vishnu-purana--dhruva-the-pole-star",
+   "collectionId": "dutt-vishnu-purana",
+   "order": 2,
+   "title": "Dhruva, the Pole Star",
+   "wordCount": 3995,
+   "readingMinutes": 22,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-dhruva",
+   "readingLevel": {
+    "fkGrade": 9.3,
+    "avgSentenceWords": 21.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--dhruva-the-pole-star"
+  },
+  {
+   "id": "myths-hindu--brahma-on-the-lotus",
+   "collectionId": "myths-hindu",
+   "order": 1,
+   "title": "Brahma on the Lotus",
+   "wordCount": 435,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-lotus",
+   "readingLevel": {
+    "fkGrade": 3.6,
+    "avgSentenceWords": 11.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "ganguli-mahabharata--the-lotus-from-vishnus-navel"
+  },
+  {
+   "id": "myths-hindu--manu-and-the-fish",
+   "collectionId": "myths-hindu",
+   "order": 2,
+   "title": "Manu and the Fish",
+   "wordCount": 770,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-matsya",
+   "readingLevel": {
+    "fkGrade": 4.9,
+    "avgSentenceWords": 15.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "ganguli-mahabharata--manu-and-the-fish"
+  },
+  {
+   "id": "myths-hindu--the-churning-of-the-ocean",
+   "collectionId": "myths-hindu",
+   "order": 3,
+   "title": "The Churning of the Ocean",
+   "wordCount": 736,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-churning",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 15.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "ganguli-mahabharata--the-churning-of-the-ocean"
+  },
+  {
+   "id": "myths-hindu--the-dwarfs-three-steps",
+   "collectionId": "myths-hindu",
+   "order": 4,
+   "title": "The Dwarf's Three Steps",
+   "wordCount": 291,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-vamana",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 13.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-ramayana--the-dwarfs-three-steps"
+  },
+  {
+   "id": "myths-hindu--prahlada",
+   "collectionId": "myths-hindu",
+   "order": 5,
+   "title": "Prahlada and the Demon King",
+   "wordCount": 983,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-prahlada",
+   "readingLevel": {
+    "fkGrade": 5.3,
+    "avgSentenceWords": 14.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-vishnu-purana--the-legend-of-prahlada"
+  },
+  {
+   "id": "myths-hindu--dhruva-the-pole-star",
+   "collectionId": "myths-hindu",
+   "order": 6,
+   "title": "Dhruva, the Pole Star",
+   "wordCount": 871,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-dhruva",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 11.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-vishnu-purana--dhruva-the-pole-star"
+  },
+  {
+   "id": "myths-hindu--the-descent-of-the-ganga",
+   "collectionId": "myths-hindu",
+   "order": 7,
+   "title": "The Descent of the Ganga",
+   "wordCount": 755,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ganga",
+   "readingLevel": {
+    "fkGrade": 6.1,
+    "avgSentenceWords": 16.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-ramayana--the-descent-of-the-ganga"
+  },
+  {
+   "id": "myths-hindu--markandeya-and-the-child",
+   "collectionId": "myths-hindu",
+   "order": 8,
+   "title": "Markandeya and the Child on the Banyan Tree",
+   "wordCount": 631,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-markandeya",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 13.9,
+    "band": "middle"
+   },
+   "adaptedFrom": "ganguli-mahabharata--markandeya-and-the-child-on-the-banyan-tree"
   }
  ]
 }

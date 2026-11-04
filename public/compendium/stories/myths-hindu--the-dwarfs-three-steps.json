@@ -1,0 +1,48 @@
+{
+ "id": "myths-hindu--the-dwarfs-three-steps",
+ "collectionId": "myths-hindu",
+ "order": 4,
+ "title": "The Dwarf's Three Steps",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, Bali, the mighty king of the asuras, defeated Indra and all the gods, and made himself master of the three worlds. Then he held a great sacrifice, and while he was holding it, he gave everyone who came to him whatever they asked for."
+  },
+  {
+   "type": "p",
+   "text": "The gods, with Agni the god of fire at their head, came to Vishnu. \"Bali is holding a sacrifice,\" they said. \"Before it is finished, use your power. Take the shape of a dwarf, and help us.\""
+  },
+  {
+   "type": "p",
+   "text": "At that same time the sage Kashyapa, who shone like fire, and his wife Aditi, the mother of the gods, had kept a vow for a hundred years. Kashyapa praised Vishnu, and Vishnu was pleased. \"Ask me for a gift,\" he said. \"You deserve one.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Aditi, the gods and I all ask you this,\" said Kashyapa. \"Be born as my son, from Aditi. Be the younger brother of Indra, and help the gods in their trouble.\""
+  },
+  {
+   "type": "p",
+   "text": "So Vishnu was born as the son of Aditi. And in the shape of a dwarf he went to Bali, and asked him for as much land as he could cover in three steps. Then Vishnu, who always works for the good of all creatures, took his three steps, and they covered all the worlds. So by his power he held Bali back, and gave the three worlds back to Indra, to rule over once again."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “The Dwarf's Three Steps” in The Ramayana, translated by Manmatha Nath Dutt (1891). The original is listed under Other versions. From the Ramayana. The dwarf is Vamana, one of the avatars of Vishnu. Dutt spells the asura king's name Vali; he is usually called Bali. Indra is the king of the gods."
+  }
+ ],
+ "workId": "hindu-vamana",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "dutt-ramayana--the-dwarfs-three-steps",
+ "livingTradition": "Hindus",
+ "wordCount": 291,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 4.7,
+  "avgSentenceWords": 13.8,
+  "band": "middle"
+ }
+}

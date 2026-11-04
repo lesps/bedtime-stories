@@ -1,0 +1,30 @@
+{
+ "id": "dutt-ramayana--the-dwarfs-three-steps",
+ "collectionId": "dutt-ramayana",
+ "order": 1,
+ "title": "The Dwarf's Three Steps",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "The sage Vishvamitra tells the young princes Rama and Lakshmana about the hermitage they have come to."
+  },
+  {
+   "type": "p",
+   "text": "Here, O mighty-armed Rāma, Vishnu of mighty asceticism worshipped of all the deities, for years upon years, and hundreds of _Yugas_, dwelt for carrying on his austerities and _Yoga_. This, O Rāma, was formerly the hermitage of the high-souled Vāmana. And this is famed as Siddhāçrama, in consequence of that one of potent asceticism having attained fruition there. And it came to pass that at this time Virochana’s son, king Vāli, having vanquished the celestials with Indra and the Maruts, established that dominion of his, famous in the three worlds. And that mighty chief of the Asuras celebrated a sacrifice. And as Vāli was performing that sacrifice, the deities with Agni at their head, coming unto Vishnu himself at this asylum, addressed him, saying.—\"Virochana’s son, Vāli, O Vishnu, is celebrating a sacrifice. Do thou, before the ceremoney is finished, accomplish thy own end. He duly conferreth upon such as repair unto him from various quarters all those things that they ask for. And do thou thyself, O Vishuu, aided by thy power of illusion, assuming a Dwarf-form, accomplish the welfare (of the celestials.)\" In the meantime, O Rāma, the wonderful Kasyapa resembling fire in splendour, and flaming in energy, having in company with, and with the assistance of, the divine Aditi, O Rāma, accomplished his vow, lasting for hundred years, began to hymn the destroyer of Madhu ready to confer boons. \"By means of warm austerities, do I behold thee composed of penances, a mass of mortifications, and endowed with a form and a soul of austerities. And in thy person, O lord, do I behold this entire universe. And in Thee without beginning, and incapable of being pointed out, do I take refuge!\" Thereupon exceedingly pleased, Hari spake unto Kaçyapa, with his sins purged off saying,—\"Do thou mention the boon! Good betide thee. Methinks thou deservest a boon.\" Hearing these words of his, Marichi’s son, Kaçyapa, said,—\"Aditi, the gods and I myself, crave of thee this,—and, O bestower of boons, it behoveth thee well pleased to confer on us this boon, O thou of excellent vows! Do thou, O sinless one, become born as my son in Aditi, O adorable deity! Do thou become the younger brother of Sakra, O destroyer of Asuras. It behoveth thee to help the celestials afflicted with grief. And this place through thy grace will attain the name of Siddhāçrama. The work, O lord of the celestials, hath been accomplished. Do thou now, O thou of the six attributes, ascend from hence!\" And accordingly Vishnu of mighty energy took his birth in Aditi. And assuming the form of a dwarf, he presented himself before Virochana’s son. And then asking for as much earth as could be covered by three footsteps, that one ever engaged in the welfare of all creatures, with the object of compassing the good of all, stood occupying the worlds. And having by his power restrained Vāli, that one of exceeding energy, again conferred the three worlds upon the mighty Indra,—and made them subject to his control."
+  }
+ ],
+ "workId": "hindu-vamana",
+ "livingTradition": "Hindus",
+ "wordCount": 523,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 9.6,
+  "avgSentenceWords": 19.5,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-hindu--the-dwarfs-three-steps"
+}

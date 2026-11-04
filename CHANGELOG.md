@@ -30,6 +30,14 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 26: Hindu myths, first part. From Kisari Mohan Ganguli's Mahabharata (1883–96,
+  `ganguli-mahabharata`): the lotus from Vishnu's navel, Manu and the fish, the churning of the
+  ocean (with Shiva swallowing the poison) and Markandeya's vision of the child on the banyan tree.
+  From Manmatha Nath Dutt's Vishnu Purana (1896, after H. H. Wilson; `dutt-vishnu-purana`): Prahlada
+  and Dhruva the Pole Star. From Dutt's Ramayana (1891, `dutt-ramayana`): Vamana's three steps and the
+  descent of the Ganga. All are marked as sacred to Hindus; Manu and the fish (a simile about a
+  "drunken harlot") and Prahlada are `mature-themes`. New "Hindu Myths, Simply Told" (`myths-hindu`)
+  retells all eight. New culture `hindu` ("Hindu"); `tools/extract_hindu.py`.
 - Mythology, part 25: Armenian myths. "Armenian Myths, Simply Told" (`myths-armenian`): Hayk the
   archer and Ara the Beautiful from Movses Khorenatsi's History of the Armenians, Vahagn the
   dragon-slayer (with Claude's own translation of the song of his birth, and the Straw Thief's
