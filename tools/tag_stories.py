@@ -56,6 +56,7 @@ CULTURES = [
     ("christian", "Christian"),
     ("islamic", "Islamic"),
     ("persian", "Persian"),
+    ("armenian", "Armenian"),
     ("japanese", "Japanese"),
 ]
 
@@ -177,6 +178,7 @@ COLLECTION_CULTURE = {
     "zimmern-kings": "persian",
     "darmesteter-avesta": "persian",
     "myths-persian": "persian",
+    "myths-armenian": "armenian",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -211,6 +213,7 @@ STORY_CULTURE = {
 
 # Myth collections: every story gets the gods-heroes theme.
 MYTH_COLLECTIONS = {
+    "myths-armenian",
     "zimmern-kings",
     "darmesteter-avesta",
     "myths-persian",
@@ -672,6 +675,11 @@ OVERRIDES: dict[str, dict[str, list[str]]] = {
     "jewish-legends--honi-the-circle-maker": {"remove": ["quests"]},
     # Christian stories
     "asv-1901--the-good-samaritan": {"remove": ["monsters", "quests"]},
+    # Armenian myths
+    "myths-armenian--hayk-the-archer": {"add": ["how-things-began", "underdogs"], "remove": ["gentle"]},
+    "myths-armenian--ara-the-beautiful": {"add": ["legends"]},
+    "myths-armenian--vahagn-the-dragon-slayer": {"add": ["how-things-began"]},
+    "myths-armenian--david-of-sassoun": {"add": ["underdogs", "animals", "royalty"]},
     # Battles and monsters are not "gentle", whatever the word counts say.
     "myths-roman--king-evander-and-the-shield-of-aeneas": {"add": ["monsters"], "remove": ["gentle"]},
     "myths-roman--horatius-at-the-bridge": {"remove": ["gentle"]},

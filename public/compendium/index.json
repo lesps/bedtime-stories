@@ -1152,6 +1152,18 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 11
+  },
+  {
+   "id": "myths-armenian",
+   "title": "Armenian Myths, Simply Told",
+   "author": "Traditional (Armenian)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 4
   }
  ],
  "stories": [
@@ -17405,6 +17417,74 @@
     "band": "middle"
    },
    "adaptedFrom": "zimmern-kings--byzun-and-manijeh"
+  },
+  {
+   "id": "myths-armenian--hayk-the-archer",
+   "collectionId": "myths-armenian",
+   "order": 1,
+   "title": "Hayk the Archer",
+   "wordCount": 431,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "armenian-hayk",
+   "readingLevel": {
+    "fkGrade": 4.9,
+    "avgSentenceWords": 15.1,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-armenian--ara-the-beautiful",
+   "collectionId": "myths-armenian",
+   "order": 2,
+   "title": "Ara the Beautiful and Queen Shamiram",
+   "wordCount": 380,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "armenian-ara",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 13.7,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-armenian--vahagn-the-dragon-slayer",
+   "collectionId": "myths-armenian",
+   "order": 3,
+   "title": "Vahagn the Dragon-Slayer",
+   "wordCount": 304,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "armenian-vahagn",
+   "readingLevel": {
+    "fkGrade": 5.3,
+    "avgSentenceWords": 16.2,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-armenian--david-of-sassoun",
+   "collectionId": "myths-armenian",
+   "order": 4,
+   "title": "David of Sassoun",
+   "wordCount": 667,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "armenian-david-sassoun",
+   "readingLevel": {
+    "fkGrade": 5.5,
+    "avgSentenceWords": 15.0,
+    "band": "middle"
+   }
   }
  ]
 }
