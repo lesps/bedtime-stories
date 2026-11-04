@@ -23,6 +23,9 @@ versioning: [SemVer](https://semver.org/).
 
 ### Fixed
 
+- CI runs on `ubuntu-24.04` instead of `ubuntu-latest`: GitHub moved `ubuntu-latest` to Ubuntu 26.04,
+  where the project's Playwright (1.56) can't install Chromium, so every run (and the deploy) failed.
+
 - A retelling's end note said its original was "listed under Other versions" even when the
   original is hidden by default. For retellings of `mature-themes` originals, the note now
   says the original appears there only when "Show stories with mature themes" is on; the integrity
