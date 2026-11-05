@@ -1127,10 +1127,15 @@
 "ganguli-mahabharata--manu-and-the-fish": {"cultures": ["hindu"], "themes": ["animals", "how-things-began", "legends", "gods-heroes"]},
 "ganguli-mahabharata--the-churning-of-the-ocean": {"cultures": ["hindu"], "themes": ["tricksters", "monsters", "how-things-began", "legends", "gods-heroes"]},
 "ganguli-mahabharata--markandeya-and-the-child-on-the-banyan-tree": {"cultures": ["hindu"], "themes": ["quests", "legends", "gentle", "gods-heroes"]},
+"ganguli-mahabharata--ganesha-writes-down-the-mahabharata": {"cultures": ["hindu"], "themes": ["legends", "gentle", "gods-heroes"]},
 "dutt-ramayana--the-dwarfs-three-steps": {"cultures": ["hindu"], "themes": ["tricksters", "royalty", "underdogs", "legends", "gentle", "gods-heroes"]},
 "dutt-ramayana--the-descent-of-the-ganga": {"cultures": ["hindu"], "themes": ["how-things-began", "quests", "legends", "gentle", "gods-heroes"]},
+"dutt-ramayana--hanuman-and-the-sun": {"cultures": ["hindu"], "themes": ["animals", "monsters", "family", "legends", "gods-heroes"]},
 "dutt-vishnu-purana--the-legend-of-prahlada": {"cultures": ["hindu"], "themes": ["kindness", "monsters", "family", "legends", "gods-heroes"]},
 "dutt-vishnu-purana--dhruva-the-pole-star": {"cultures": ["hindu"], "themes": ["family", "how-things-began", "quests", "underdogs", "legends", "gods-heroes"]},
+"dutt-vishnu-purana--the-birth-of-krishna": {"cultures": ["hindu"], "themes": ["royalty", "family", "legends", "gods-heroes"]},
+"dutt-vishnu-purana--krishna-and-the-serpent-kaliya": {"cultures": ["hindu"], "themes": ["animals", "monsters", "legends", "gods-heroes"]},
+"dutt-vishnu-purana--krishna-lifts-the-mountain": {"cultures": ["hindu"], "themes": ["animals", "legends", "gods-heroes"]},
 "myths-hindu--brahma-on-the-lotus": {"cultures": ["hindu"], "themes": ["monsters", "how-things-began", "legends", "gods-heroes"]},
 "myths-hindu--manu-and-the-fish": {"cultures": ["hindu"], "themes": ["animals", "how-things-began", "legends", "gentle", "gods-heroes"]},
 "myths-hindu--the-churning-of-the-ocean": {"cultures": ["hindu"], "themes": ["tricksters", "monsters", "how-things-began", "legends", "gods-heroes"]},
@@ -1138,6 +1143,16 @@
 "myths-hindu--prahlada": {"cultures": ["hindu"], "themes": ["kindness", "royalty", "monsters", "family", "legends", "gods-heroes"]},
 "myths-hindu--dhruva-the-pole-star": {"cultures": ["hindu"], "themes": ["royalty", "family", "how-things-began", "quests", "underdogs", "legends", "gentle", "gods-heroes"]},
 "myths-hindu--the-descent-of-the-ganga": {"cultures": ["hindu"], "themes": ["how-things-began", "quests", "legends", "gods-heroes"]},
-"myths-hindu--markandeya-and-the-child": {"cultures": ["hindu"], "themes": ["quests", "legends", "gods-heroes"]}
+"myths-hindu--markandeya-and-the-child": {"cultures": ["hindu"], "themes": ["quests", "legends", "gods-heroes"]},
+"myths-hindu--how-ganesha-got-his-elephant-head": {"cultures": ["hindu"], "themes": ["animals", "family", "how-things-began", "legends", "gods-heroes"]},
+"myths-hindu--ganesha-writes-down-the-mahabharata": {"cultures": ["hindu"], "themes": ["legends", "gentle", "gods-heroes"]},
+"myths-hindu--ganesha-and-kartikeya-race-around-the-world": {"cultures": ["hindu"], "themes": ["tricksters", "family", "legends", "gentle", "gods-heroes"]},
+"myths-hindu--durga-and-the-buffalo-demon": {"cultures": ["hindu"], "themes": ["monsters", "legends", "gods-heroes"]},
+"myths-hindu--the-birth-of-krishna": {"cultures": ["hindu"], "themes": ["royalty", "family", "legends", "gods-heroes"]},
+"myths-hindu--krishna-the-butter-thief": {"cultures": ["hindu"], "themes": ["tricksters", "family", "legends", "gods-heroes"]},
+"myths-hindu--krishna-and-the-serpent-kaliya": {"cultures": ["hindu"], "themes": ["animals", "monsters", "legends", "gods-heroes"]},
+"myths-hindu--krishna-lifts-the-mountain": {"cultures": ["hindu"], "themes": ["animals", "legends", "gods-heroes"]},
+"myths-hindu--hanuman-and-the-sun": {"cultures": ["hindu"], "themes": ["animals", "monsters", "family", "legends", "gods-heroes"]},
+"bharati-krishna--krishna-the-butter-thief": {"cultures": ["hindu"], "themes": ["tricksters", "family", "legends", "gods-heroes"]}
 }
 }

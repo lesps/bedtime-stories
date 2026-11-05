@@ -1,0 +1,83 @@
+{
+ "id": "myths-hindu--how-ganesha-got-his-elephant-head",
+ "collectionId": "myths-hindu",
+ "order": 9,
+ "title": "How Ganesha Got His Elephant Head",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, high on Mount Kailasa, lived the great god Shiva and his wife, the goddess Parvati. Shiva had many servants, the ganas, but they all did what Shiva told them. Parvati's friends said to her, \"You should have someone of your own, who will listen to you and nobody else.\""
+  },
+  {
+   "type": "p",
+   "text": "One day, when Parvati was going to bathe, she thought about what her friends had said. So she took the paste she had rubbed on her skin, and out of it she shaped a boy. She breathed life into him, and he stood up, strong and handsome and brave."
+  },
+  {
+   "type": "p",
+   "text": "\"You are my son,\" Parvati told him, and she dressed him in fine clothes and gave him a stick. \"Stand guard at my door,\" she said, \"and don't let anyone in, whoever it is.\""
+  },
+  {
+   "type": "p",
+   "text": "The boy took his stick and stood at the door. Before long, Shiva himself came home."
+  },
+  {
+   "type": "p",
+   "text": "\"You can't go in,\" said the boy."
+  },
+  {
+   "type": "p",
+   "text": "\"Who are you?\" said Shiva, who had never seen him before. \"This is my house. Out of my way!\""
+  },
+  {
+   "type": "p",
+   "text": "But the boy would not move. \"My mother told me to let no one in,\" he said, and he held his stick across the door."
+  },
+  {
+   "type": "p",
+   "text": "Shiva was angry. He sent his ganas to drive the boy away, but the boy fought them all, and beat them all. Then the gods themselves came to fight him, and still he would not give way. At last Shiva, in a great rage, struck with his trident, and the boy's head was cut off."
+  },
+  {
+   "type": "p",
+   "text": "When Parvati heard what had happened, her grief and anger were terrible. \"You have killed my son!\" she cried. She called up thousands of fierce goddesses, and they began to destroy the world."
+  },
+  {
+   "type": "p",
+   "text": "The gods were terrified. They bowed down before Parvati and begged her to stop. \"I will stop,\" said Parvati, \"if my son comes back to life, and if he is honoured among you all.\""
+  },
+  {
+   "type": "p",
+   "text": "So Shiva said to the gods, \"Go to the north. Bring me the head of the first creature you meet.\""
+  },
+  {
+   "type": "p",
+   "text": "The gods hurried north, and the first creature they met was an elephant. They brought its head back to Shiva, and Shiva set it on the boy's body and gave him life again. The boy opened his eyes and stood up, with the head of an elephant."
+  },
+  {
+   "type": "p",
+   "text": "Parvati was overjoyed, and she hugged her son. And Shiva blessed him, and took him as his own son. \"You will be Ganapati,\" he said, \"the lord of all my ganas. And whenever anyone worships the gods, they will worship you first, before all the rest.\""
+  },
+  {
+   "type": "p",
+   "text": "That is why, to this day, Hindus pray to Ganesha before they begin anything new."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Shiva Purana (written down between about the 900s and 1300s AD), Rudra Samhita, Kumara Khanda, chapters 13 to 18. There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "hindu-ganesha-head",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "livingTradition": "Hindus",
+ "wordCount": 492,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 3.4,
+  "avgSentenceWords": 11.9,
+  "band": "early"
+ }
+}

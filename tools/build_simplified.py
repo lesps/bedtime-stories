@@ -412,8 +412,9 @@ def main():
             credit = f"“{orig['title']}” in {coll['title']}"
             if (coll.get("contributor") or "").startswith("Edited by "):
                 credit += ", edited by " + coll["contributor"].removeprefix("Edited by ")
-        if coll.get("firstPublished"):
-            credit += f" ({coll['firstPublished']})"
+        year = orig.get("firstPublished") or coll.get("firstPublished")  # a later volume has its own
+        if year:
+            credit += f" ({year})"
         flags = flags_of(meta, orig)
         # Other versions lists only visible stories: name the setting that shows a hidden original.
         hidden_by = [label for flag, label in SETTING_FOR_FLAG.items()

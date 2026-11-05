@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 1136 public-domain children's stories in 101 collections — Aesop
+A calm, offline-capable reader for 1151 public-domain children's stories in 102 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -56,7 +56,11 @@ Ara the Beautiful, Vahagn the dragon-slayer (with Claude's translation of the so
 and David of Sassoun, retold by Claude. Hindu: Brahma on the lotus, Manu and the fish, the
 churning of the ocean and Markandeya's vision from Kisari Mohan Ganguli's Mahabharata, Prahlada and
 Dhruva from Manmatha Nath Dutt's Vishnu Purana, and Vamana's three steps and the descent of the
-Ganga from Dutt's Ramayana, marked as sacred to Hindus. Where no
+Ganga from Dutt's Ramayana; Ganesha writing down the Mahabharata, Krishna's birth, the serpent
+Kaliya and the lifting of Govardhana, and Hanuman leaping for the sun from the same books, and
+Krishna the butter thief from Baba Premanand Bharati's Sree Krishna, the Lord of Love (1904); and
+Ganesha's elephant head, his race with Kartikeya, and Durga and the buffalo demon, retold by
+Claude; all marked as sacred to Hindus. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,

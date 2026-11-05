@@ -1,0 +1,71 @@
+{
+ "id": "myths-hindu--ganesha-and-kartikeya-race-around-the-world",
+ "collectionId": "myths-hindu",
+ "order": 11,
+ "title": "Ganesha and Kartikeya Race Around the World",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The god Shiva and the goddess Parvati had two sons. One was Ganesha, with his elephant head and his big round belly. The other was Kartikeya, the brave young warrior, who rode on a peacock."
+  },
+  {
+   "type": "p",
+   "text": "When the two brothers were grown up, it was time for them to marry. But each of them wanted to be married first."
+  },
+  {
+   "type": "p",
+   "text": "\"We love you both the same,\" said their parents. \"So we will have a race. Whoever goes all the way around the world and comes back here first will be married first.\""
+  },
+  {
+   "type": "p",
+   "text": "Kartikeya didn't wait a moment. He set off at once and sped away, over mountains and rivers and seas, to go around the whole wide world."
+  },
+  {
+   "type": "p",
+   "text": "But Ganesha just sat and thought. \"I am big and slow,\" he said to himself, \"and the world is very wide. What shall I do?\""
+  },
+  {
+   "type": "p",
+   "text": "Then he had an idea. He bathed, and came back to his parents, and set out two seats. \"Please sit down here,\" he said. Shiva and Parvati sat down, and Ganesha bowed to them and honoured them. Then he walked all the way around them, seven times, and bowed again."
+  },
+  {
+   "type": "p",
+   "text": "\"What are you doing?\" asked his parents. \"Why aren't you going around the world?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I have been around the world,\" said Ganesha. \"The holy books say that anyone who walks around his mother and father has gone around the whole earth. You are my whole world.\""
+  },
+  {
+   "type": "p",
+   "text": "Shiva and Parvati were delighted with his answer. \"You are as wise as you are good,\" they said. So Ganesha won the race, and he married two brides, Siddhi and Buddhi, and in time he had two sons."
+  },
+  {
+   "type": "p",
+   "text": "At last Kartikeya came home, tired and dusty from his long journey around the world, and found that his brother was married already. He was very upset. He bowed to his parents, and then he went away, far to the south, to Mount Krauncha, and lived there by himself."
+  },
+  {
+   "type": "p",
+   "text": "But Shiva and Parvati missed him so much that they went to the south to visit him. And people say that they still go there to see their son."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Shiva Purana (written down between about the 900s and 1300s AD), Rudra Samhita, Kumara Khanda, chapters 19 and 20. There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "hindu-ganesha-race",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "livingTradition": "Hindus",
+ "wordCount": 394,
+ "readingMinutes": 2,
+ "readingLevel": {
+  "fkGrade": 3.5,
+  "avgSentenceWords": 11.0,
+  "band": "early"
+ }
+}

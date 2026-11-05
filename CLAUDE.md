@@ -84,8 +84,9 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           extract_persian.py: nine stories from Zimmern's Epic of Kings (the Internet
                           Classics Archive's copy, whose paragraph breaks it rebuilds from the line
                           wrap) and Yima from Darmesteter's Avesta in Wilson's Sacred Books of the East;
-                          extract_hindu.py: myths of Vishnu, Shiva and the Ganga from Ganguli's
-                          Mahabharata, Dutt's Vishnu Purana (after Wilson) and Dutt's Ramayana)
+                          extract_hindu.py: myths of Vishnu, Shiva, the Ganga, Ganesha, Krishna and
+                          Hanuman from Ganguli's Mahabharata, Dutt's Vishnu Purana (after Wilson) and
+                          Dutt's Ramayana, and Krishna's childhood from Bharati's Sree Krishna)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs;
                           a paragraph of `> ` lines is verse)
 tools/build_simplified.py builds simplified collections from those files and links both ways
@@ -140,7 +141,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
 sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1136 stories, 101 collections, ~11 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1151 stories, 102 collections, ~12 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -160,7 +161,8 @@ them.
   Sun, all four Lithuanian and Latvian stories, Dobrynya and the dragon, Sadko and the Snow
   Maiden, Lech, Czech and Rus, the Wawel dragon, Master Manole, Mujo's strength, Emese's dream, Sosruko, Amirani, Martin Txiki,
   Mari of Anboto, Inanna and the gifts of wisdom, Lugalbanda and the Anzu bird, the Atrahasis
-  making of people from clay, the three Hittite and Hurrian myths, Baal and Yam, Honi the Circle-Maker, the Zoroastrian creation, and all four Armenian stories; ‡ in the
+  making of people from clay, the three Hittite and Hurrian myths, Baal and Yam, Honi the Circle-Maker, the Zoroastrian creation, all four Armenian stories,
+  Ganesha's elephant head and his race with Kartikeya, and Durga and the buffalo demon; ‡ in the
   expansion plan) has no `adaptedFrom` and `adaptation: "retold"`; its end
   note says what it was retold from, and its front matter may set `livingTradition`. The integrity test checks that the links run both ways and
   stay within one `workId`.
@@ -209,7 +211,8 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
   is sacred to … today." The Hebrew Bible passages carry "Jews and Christians" and the Gospel passages
   "Christians" (not the Seven Sleepers, a saints' legend), the Qur'an passages "Muslims", and the
   Avesta's Yima and the Zoroastrian creation "Zoroastrians", and the Mahabharata, Vishnu Purana and
-  Ramayana passages "Hindus"; a retelling inherits its original's (`build_simplified.py`). Their
+  Ramayana passages, Bharati's Krishna and the three Hindu ‡ retellings "Hindus"; a retelling
+  inherits its original's (`build_simplified.py`). Their
   themes never use `magic` or `ghosts` (`HEBREW_BIBLE`, `QURAN`, `PERSIAN` and `HINDU` in
   `tag_stories.py`). A story sacred to Muslims never has a
   picture, since the prophets are not depicted; the integrity test checks.
@@ -363,7 +366,11 @@ fine)`.
   Project Gutenberg's three-translation text; `extract_islamic.py` keeps his bracketed words and
   fixes three slips of the digitization (`FIXES`). The Hindu passages are Kisari Mohan Ganguli's
   Mahabharata (1883–96) and Manmatha Nath Dutt's Vishnu Purana (1896, after H. H. Wilson) and
-  Ramayana (1891), all from Project Gutenberg. Retellings of these passages stay close to the
+  Ramayana (1891–94; a story from a later volume carries that volume's `source` and
+  `firstPublished`, and its retelling's note credits that year), all from Project Gutenberg, with
+  `extract_hindu.py` fixing the digitizations' slips (`FIXES`); Krishna's childhood is from Baba
+  Premanand Bharati's devotional Sree Krishna, the Lord of Love (1904), there being no reachable
+  public-domain Bhagavata Purana. Retellings of these passages stay close to the
   text and add no interpretation; the Qur'an retellings use the Arabic names (Nuh, Sulayman, Yunus)
   and "Allah", as Pickthall does.
 - Content flags and exclusions in the patches are editorial first passes (see each patch's notes);
