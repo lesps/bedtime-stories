@@ -57,6 +57,7 @@ CULTURES = [
     ("islamic", "Islamic"),
     ("persian", "Persian"),
     ("armenian", "Armenian"),
+    ("hindu", "Hindu"),
     ("japanese", "Japanese"),
 ]
 
@@ -179,6 +180,10 @@ COLLECTION_CULTURE = {
     "darmesteter-avesta": "persian",
     "myths-persian": "persian",
     "myths-armenian": "armenian",
+    "ganguli-mahabharata": "hindu",
+    "dutt-vishnu-purana": "hindu",
+    "dutt-ramayana": "hindu",
+    "myths-hindu": "hindu",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -213,6 +218,10 @@ STORY_CULTURE = {
 
 # Myth collections: every story gets the gods-heroes theme.
 MYTH_COLLECTIONS = {
+    "ganguli-mahabharata",
+    "dutt-vishnu-purana",
+    "dutt-ramayana",
+    "myths-hindu",
     "myths-armenian",
     "zimmern-kings",
     "darmesteter-avesta",
@@ -835,6 +844,29 @@ for (_orig, _retold), _o in PERSIAN.items():
     OVERRIDES[f"myths-persian--{_retold}"] = _o
 OVERRIDES["myths-persian--how-ahura-mazda-made-the-world"] = {
     "add": ["how-things-began", "legends"], "remove": ["greed-pride", "quests", "ghosts", "monsters"]}
+# Hindu: the scripture passage and its retelling share their themes, with the Hebrew Bible's rule
+# (never "magic" or "ghosts").
+HINDU = {
+    ("ganguli-mahabharata--the-lotus-from-vishnus-navel", "brahma-on-the-lotus"):
+        {"add": ["how-things-began", "monsters", "legends"], "remove": ["quests", "greed-pride", "wishes"]},
+    ("ganguli-mahabharata--manu-and-the-fish", "manu-and-the-fish"):
+        {"add": ["animals", "how-things-began", "legends"], "remove": ["quests"]},
+    ("ganguli-mahabharata--the-churning-of-the-ocean", "the-churning-of-the-ocean"):
+        {"add": ["how-things-began", "monsters", "tricksters", "legends"]},
+    ("dutt-ramayana--the-dwarfs-three-steps", "the-dwarfs-three-steps"):
+        {"add": ["tricksters", "underdogs", "royalty", "legends"], "remove": ["magic"]},
+    ("dutt-vishnu-purana--the-legend-of-prahlada", "prahlada"):
+        {"add": ["family", "kindness", "monsters", "legends"], "remove": ["ghosts", "quests"]},
+    ("dutt-vishnu-purana--dhruva-the-pole-star", "dhruva-the-pole-star"):
+        {"add": ["family", "how-things-began", "underdogs", "quests", "legends"]},
+    ("dutt-ramayana--the-descent-of-the-ganga", "the-descent-of-the-ganga"):
+        {"add": ["how-things-began", "quests", "legends"]},
+    ("ganguli-mahabharata--markandeya-and-the-child-on-the-banyan-tree", "markandeya-and-the-child"):
+        {"add": ["legends"], "remove": ["royalty", "monsters"]},
+}
+for (_orig, _retold), _o in HINDU.items():
+    OVERRIDES[_orig] = _o
+    OVERRIDES[f"myths-hindu--{_retold}"] = _o
 OVERRIDES["jps-1917--cain-and-abel"] = {"add": ["family", "legends"]}
 OVERRIDES["jps-1917--jacob-wrestles-with-the-angel"] = {"add": ["family", "legends"]}
 

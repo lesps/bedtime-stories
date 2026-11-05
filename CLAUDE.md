@@ -83,7 +83,9 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           extract_islamic.py: four Qur'an passages in Pickthall's translation;
                           extract_persian.py: nine stories from Zimmern's Epic of Kings (the Internet
                           Classics Archive's copy, whose paragraph breaks it rebuilds from the line
-                          wrap) and Yima from Darmesteter's Avesta in Wilson's Sacred Books of the East)
+                          wrap) and Yima from Darmesteter's Avesta in Wilson's Sacred Books of the East;
+                          extract_hindu.py: myths of Vishnu, Shiva and the Ganga from Ganguli's
+                          Mahabharata, Dutt's Vishnu Purana (after Wilson) and Dutt's Ramayana)
 tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs;
                           a paragraph of `> ` lines is verse)
 tools/build_simplified.py builds simplified collections from those files and links both ways
@@ -138,7 +140,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
 sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1120 stories, 97 collections, ~11 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1136 stories, 101 collections, ~11 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -176,7 +178,7 @@ collections; and, on story files, `adaptation` and `adaptedBy`.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-43 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+44 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
@@ -206,9 +208,10 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
 - **Living traditions**: a story with `livingTradition` shows one line under the byline, "This story
   is sacred to … today." The Hebrew Bible passages carry "Jews and Christians" and the Gospel passages
   "Christians" (not the Seven Sleepers, a saints' legend), the Qur'an passages "Muslims", and the
-  Avesta's Yima and the Zoroastrian creation "Zoroastrians"; a retelling inherits its original's
-  (`build_simplified.py`). Their themes never use `magic` or `ghosts` (`HEBREW_BIBLE`, `QURAN` and
-  `PERSIAN` in `tag_stories.py`). A story sacred to Muslims never has a
+  Avesta's Yima and the Zoroastrian creation "Zoroastrians", and the Mahabharata, Vishnu Purana and
+  Ramayana passages "Hindus"; a retelling inherits its original's (`build_simplified.py`). Their
+  themes never use `magic` or `ghosts` (`HEBREW_BIBLE`, `QURAN`, `PERSIAN` and `HINDU` in
+  `tag_stories.py`). A story sacred to Muslims never has a
   picture, since the prophets are not depicted; the integrity test checks.
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
 progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progress entries also carry `blockCount` (when
@@ -337,7 +340,7 @@ fine)`.
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends`, `christian-stories`, `quran-stories`, `myths-persian` or `myths-armenian` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends`, `christian-stories`, `quran-stories`, `myths-persian`, `myths-armenian` or `myths-hindu` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
   contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
   translations), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).
@@ -358,7 +361,9 @@ fine)`.
   Standard Version (1901) from the same digitization. The Qur'an passages are Marmaduke
   Pickthall's The Meaning of the Glorious Koran (1930; public domain in the US since 2026), from
   Project Gutenberg's three-translation text; `extract_islamic.py` keeps his bracketed words and
-  fixes three slips of the digitization (`FIXES`). Retellings of these passages stay close to the
+  fixes three slips of the digitization (`FIXES`). The Hindu passages are Kisari Mohan Ganguli's
+  Mahabharata (1883–96) and Manmatha Nath Dutt's Vishnu Purana (1896, after H. H. Wilson) and
+  Ramayana (1891), all from Project Gutenberg. Retellings of these passages stay close to the
   text and add no interpretation; the Qur'an retellings use the Arabic names (Nuh, Sulayman, Yunus)
   and "Allah", as Pickthall does.
 - Content flags and exclusions in the patches are editorial first passes (see each patch's notes);
