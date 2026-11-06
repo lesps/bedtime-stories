@@ -1175,7 +1175,7 @@
    "contributor": "Translated by Kisari Mohan Ganguli",
    "firstPublished": 1883,
    "source": "https://www.gutenberg.org/ebooks/15474",
-   "storyCount": 4
+   "storyCount": 5
   },
   {
    "license": "Public domain in the USA",
@@ -1187,7 +1187,7 @@
    "contributor": "Translated by Manmatha Nath Dutt",
    "firstPublished": 1891,
    "source": "https://www.gutenberg.org/ebooks/57265",
-   "storyCount": 2
+   "storyCount": 3
   },
   {
    "license": "Public domain in the USA",
@@ -1199,7 +1199,7 @@
    "contributor": "Translated by Manmatha Nath Dutt, after H. H. Wilson",
    "firstPublished": 1896,
    "source": "https://www.gutenberg.org/ebooks/66208",
-   "storyCount": 2
+   "storyCount": 5
   },
   {
    "id": "myths-hindu",
@@ -1211,7 +1211,19 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 8
+   "storyCount": 17
+  },
+  {
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "sa",
+   "id": "bharati-krishna",
+   "title": "Sree Krishna, the Lord of Love",
+   "author": "Baba Premanand Bharati",
+   "contributor": null,
+   "firstPublished": 1904,
+   "source": "https://www.gutenberg.org/ebooks/67019",
+   "storyCount": 1
   }
  ],
  "stories": [
@@ -17609,6 +17621,24 @@
    "simplifiedId": "myths-hindu--markandeya-and-the-child"
   },
   {
+   "id": "ganguli-mahabharata--ganesha-writes-down-the-mahabharata",
+   "collectionId": "ganguli-mahabharata",
+   "order": 5,
+   "title": "Ganesha Writes Down the Mahabharata",
+   "wordCount": 739,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ganesha-scribe",
+   "readingLevel": {
+    "fkGrade": 13.8,
+    "avgSentenceWords": 28.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--ganesha-writes-down-the-mahabharata"
+  },
+  {
    "id": "dutt-ramayana--the-dwarfs-three-steps",
    "collectionId": "dutt-ramayana",
    "order": 1,
@@ -17643,6 +17673,24 @@
     "band": "advanced"
    },
    "simplifiedId": "myths-hindu--the-descent-of-the-ganga"
+  },
+  {
+   "id": "dutt-ramayana--hanuman-and-the-sun",
+   "collectionId": "dutt-ramayana",
+   "order": 3,
+   "title": "Hanuman and the Sun",
+   "wordCount": 1263,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-hanuman-sun",
+   "readingLevel": {
+    "fkGrade": 10.0,
+    "avgSentenceWords": 22.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--hanuman-and-the-sun"
   },
   {
    "id": "dutt-vishnu-purana--the-legend-of-prahlada",
@@ -17681,6 +17729,62 @@
     "band": "advanced"
    },
    "simplifiedId": "myths-hindu--dhruva-the-pole-star"
+  },
+  {
+   "id": "dutt-vishnu-purana--the-birth-of-krishna",
+   "collectionId": "dutt-vishnu-purana",
+   "order": 3,
+   "title": "The Birth of Krishna",
+   "wordCount": 773,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-krishna-birth",
+   "readingLevel": {
+    "fkGrade": 9.0,
+    "avgSentenceWords": 20.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-birth-of-krishna"
+  },
+  {
+   "id": "dutt-vishnu-purana--krishna-and-the-serpent-kaliya",
+   "collectionId": "dutt-vishnu-purana",
+   "order": 4,
+   "title": "Krishna and the Serpent Kaliya",
+   "wordCount": 1800,
+   "readingMinutes": 10,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-kaliya",
+   "readingLevel": {
+    "fkGrade": 9.9,
+    "avgSentenceWords": 23.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--krishna-and-the-serpent-kaliya"
+  },
+  {
+   "id": "dutt-vishnu-purana--krishna-lifts-the-mountain",
+   "collectionId": "dutt-vishnu-purana",
+   "order": 5,
+   "title": "Krishna Lifts the Mountain",
+   "wordCount": 1680,
+   "readingMinutes": 9,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-govardhan",
+   "readingLevel": {
+    "fkGrade": 11.3,
+    "avgSentenceWords": 25.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--krishna-lifts-the-mountain"
   },
   {
    "id": "myths-hindu--brahma-on-the-lotus",
@@ -17825,6 +17929,183 @@
     "band": "middle"
    },
    "adaptedFrom": "ganguli-mahabharata--markandeya-and-the-child-on-the-banyan-tree"
+  },
+  {
+   "id": "myths-hindu--how-ganesha-got-his-elephant-head",
+   "collectionId": "myths-hindu",
+   "order": 9,
+   "title": "How Ganesha Got His Elephant Head",
+   "wordCount": 492,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ganesha-head",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.9,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-hindu--ganesha-writes-down-the-mahabharata",
+   "collectionId": "myths-hindu",
+   "order": 10,
+   "title": "Ganesha Writes Down the Mahabharata",
+   "wordCount": 409,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ganesha-scribe",
+   "readingLevel": {
+    "fkGrade": 5.8,
+    "avgSentenceWords": 14.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "ganguli-mahabharata--ganesha-writes-down-the-mahabharata"
+  },
+  {
+   "id": "myths-hindu--ganesha-and-kartikeya-race-around-the-world",
+   "collectionId": "myths-hindu",
+   "order": 11,
+   "title": "Ganesha and Kartikeya Race Around the World",
+   "wordCount": 394,
+   "readingMinutes": 2,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ganesha-race",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.0,
+    "band": "early"
+   }
+  },
+  {
+   "id": "myths-hindu--durga-and-the-buffalo-demon",
+   "collectionId": "myths-hindu",
+   "order": 12,
+   "title": "Durga and the Buffalo Demon",
+   "wordCount": 640,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-durga",
+   "readingLevel": {
+    "fkGrade": 4.5,
+    "avgSentenceWords": 13.7,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-hindu--the-birth-of-krishna",
+   "collectionId": "myths-hindu",
+   "order": 13,
+   "title": "The Birth of Krishna",
+   "wordCount": 643,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-krishna-birth",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 11.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-vishnu-purana--the-birth-of-krishna"
+  },
+  {
+   "id": "myths-hindu--krishna-the-butter-thief",
+   "collectionId": "myths-hindu",
+   "order": 14,
+   "title": "Krishna the Butter Thief",
+   "wordCount": 806,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-krishna-butter",
+   "readingLevel": {
+    "fkGrade": 5.2,
+    "avgSentenceWords": 15.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "bharati-krishna--krishna-the-butter-thief"
+  },
+  {
+   "id": "myths-hindu--krishna-and-the-serpent-kaliya",
+   "collectionId": "myths-hindu",
+   "order": 15,
+   "title": "Krishna and the Serpent Kaliya",
+   "wordCount": 773,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-kaliya",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 12.1,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-vishnu-purana--krishna-and-the-serpent-kaliya"
+  },
+  {
+   "id": "myths-hindu--krishna-lifts-the-mountain",
+   "collectionId": "myths-hindu",
+   "order": 16,
+   "title": "Krishna Lifts the Mountain",
+   "wordCount": 827,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-govardhan",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 13.6,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-vishnu-purana--krishna-lifts-the-mountain"
+  },
+  {
+   "id": "myths-hindu--hanuman-and-the-sun",
+   "collectionId": "myths-hindu",
+   "order": 17,
+   "title": "Hanuman and the Sun",
+   "wordCount": 740,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-hanuman-sun",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 11.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-ramayana--hanuman-and-the-sun"
+  },
+  {
+   "id": "bharati-krishna--krishna-the-butter-thief",
+   "collectionId": "bharati-krishna",
+   "order": 1,
+   "title": "Krishna the Butter Thief",
+   "wordCount": 1204,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-krishna-butter",
+   "readingLevel": {
+    "fkGrade": 9.8,
+    "avgSentenceWords": 27.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--krishna-the-butter-thief"
   }
  ]
 }

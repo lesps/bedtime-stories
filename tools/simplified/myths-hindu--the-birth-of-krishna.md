@@ -1,0 +1,31 @@
+---
+title: The Birth of Krishna
+adaptedFrom: dutt-vishnu-purana--the-birth-of-krishna
+order: 13
+flags: none
+namesNote: From the Vishnu Purana. Krishna is an avatar of Vishnu. Dutt also calls Vasudeva by his other name, Anakadundhubhi; Yoganidra is the goddess of sleep, and Shesha is the great serpent on whom Vishnu rests.
+---
+
+Long ago, in the city of Mathura, there lived a cruel king called Kansa. He had been warned that the eighth child of his cousin Devaki would destroy him. So he kept Devaki and her husband, Vasudeva, locked up in prison, and he watched them closely.
+
+Then Devaki was going to have her eighth baby. And this baby was Vishnu himself, who was coming down to earth to save the world.
+
+On the night the baby was born, the whole world was full of joy. The strong winds grew calm, and the rivers flowed quietly. The oceans made music, the heavenly singers sang and the heavenly dancers danced. The gods scattered flowers down from the sky. At midnight the clouds rumbled softly, and rained down flowers.
+
+When Vasudeva saw the baby, he was amazed. The child had four arms, and a holy mark on his chest. "I know who you are," said Vasudeva. "You are the lord of all the gods. But please, hide your heavenly shape. If Kansa finds out that you have been born here, he will kill me."
+
+"God of gods," said Devaki, "you have taken the shape of a baby. Have pity on me, and hide your four arms. Don't let wicked Kansa know that you have been born."
+
+"You prayed long ago that I would be born as your son," said the baby. "Your prayer has been answered." And he said no more.
+
+That same night, Vasudeva picked up the baby and carried him out of the prison. Yoganidra, the goddess of sleep, had put all the guards and gatekeepers of Mathura to sleep, so nobody stopped him. It was raining hard, and the great serpent Shesha followed behind them, spreading his hoods over their heads like an umbrella. When Vasudeva came to the river Yamuna, it was deep and dangerous, full of swirling whirlpools. But as he crossed it with the baby in his arms, the water grew still, and it rose no higher than his knee.
+
+On the other side of the river, Vasudeva saw the cowherd Nanda and his friends, who had come to bring the king his taxes. But they did not see him. Nanda's wife, Yasoda, had just had a baby girl, and the goddess of sleep had put her to sleep too. For the baby girl was the goddess Yoganidra herself. Vasudeva quietly picked up the girl, laid his own son down beside Yasoda, and hurried home.
+
+When Yasoda woke up, she found a baby boy beside her, dark as the leaves of a lotus, and she was full of joy.
+
+Vasudeva crept back into the prison without being seen, and laid the baby girl in Devaki's bed. Then the baby began to cry. The guards woke up and ran to tell Kansa that Devaki had had a child.
+
+Kansa came at once and grabbed the baby. "Don't hurt her! Don't hurt her!" cried Devaki. But Kansa dashed the baby down against a stone.
+
+At once the baby rose up into the sky, and grew into a mighty goddess with eight arms, each one holding a weapon. She laughed at Kansa. "What good has it done you to throw me down, Kansa?" she said. "The one who will destroy you has been born already. Think about that, and do what is best for you." And the goddess, wearing heavenly garlands, vanished from his sight.

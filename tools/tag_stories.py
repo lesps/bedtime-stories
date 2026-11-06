@@ -183,6 +183,7 @@ COLLECTION_CULTURE = {
     "ganguli-mahabharata": "hindu",
     "dutt-vishnu-purana": "hindu",
     "dutt-ramayana": "hindu",
+    "bharati-krishna": "hindu",
     "myths-hindu": "hindu",
 }
 
@@ -221,6 +222,7 @@ MYTH_COLLECTIONS = {
     "ganguli-mahabharata",
     "dutt-vishnu-purana",
     "dutt-ramayana",
+    "bharati-krishna",
     "myths-hindu",
     "myths-armenian",
     "zimmern-kings",
@@ -863,10 +865,27 @@ HINDU = {
         {"add": ["how-things-began", "quests", "legends"]},
     ("ganguli-mahabharata--markandeya-and-the-child-on-the-banyan-tree", "markandeya-and-the-child"):
         {"add": ["legends"], "remove": ["royalty", "monsters"]},
+    ("ganguli-mahabharata--ganesha-writes-down-the-mahabharata", "ganesha-writes-down-the-mahabharata"):
+        {"add": ["legends", "gentle"], "remove": ["quests"]},
+    ("dutt-vishnu-purana--the-birth-of-krishna", "the-birth-of-krishna"):
+        {"add": ["family", "royalty", "legends"], "remove": ["gentle"]},
+    ("bharati-krishna--krishna-the-butter-thief", "krishna-the-butter-thief"):
+        {"add": ["tricksters", "family", "legends"],
+         "remove": ["monsters", "ghosts", "greed-pride", "quests", "gentle"]},
+    ("dutt-vishnu-purana--krishna-and-the-serpent-kaliya", "krishna-and-the-serpent-kaliya"):
+        {"add": ["animals", "monsters", "legends"], "remove": ["kindness", "ghosts", "gentle"]},
+    ("dutt-vishnu-purana--krishna-lifts-the-mountain", "krishna-lifts-the-mountain"):
+        {"add": ["animals", "legends"], "remove": ["gentle"]},
+    ("dutt-ramayana--hanuman-and-the-sun", "hanuman-and-the-sun"):
+        {"add": ["animals", "family", "monsters", "legends"], "remove": ["ghosts", "quests"]},
 }
 for (_orig, _retold), _o in HINDU.items():
     OVERRIDES[_orig] = _o
     OVERRIDES[f"myths-hindu--{_retold}"] = _o
+OVERRIDES["myths-hindu--how-ganesha-got-his-elephant-head"] = {"add": ["family", "legends"]}
+OVERRIDES["myths-hindu--ganesha-and-kartikeya-race-around-the-world"] = {
+    "add": ["family", "tricksters", "legends"], "remove": ["quests"]}
+OVERRIDES["myths-hindu--durga-and-the-buffalo-demon"] = {"add": ["monsters", "legends"], "remove": ["ghosts"]}
 OVERRIDES["jps-1917--cain-and-abel"] = {"add": ["family", "legends"]}
 OVERRIDES["jps-1917--jacob-wrestles-with-the-angel"] = {"add": ["family", "legends"]}
 

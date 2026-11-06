@@ -23,6 +23,8 @@ versioning: [SemVer](https://semver.org/).
 
 ### Fixed
 
+- Dutt's Ramayana kept the digitization's italic underscores ("_Yugas_") in Vamana's three steps;
+  `extract_hindu.py` now drops them.
 - CI runs on `ubuntu-24.04` instead of `ubuntu-latest`: GitHub moved `ubuntu-latest` to Ubuntu 26.04,
   where the project's Playwright (1.56) can't install Chromium, so every run (and the deploy) failed.
 
@@ -33,6 +35,18 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 27: Hindu myths, second part. From Ganguli's Mahabharata: Ganesha writes down the
+  Mahabharata at Vyasa's dictation. From Dutt's Vishnu Purana: the birth of Krishna
+  (`mature-themes`: Kansa kills Devaki's babies), Krishna and the serpent Kaliya, and Krishna lifting
+  Mount Govardhana. From Dutt's Ramayana: Hanuman leaping for the sun, from the Uttara Kanda (1894)
+  with its ending from the Kishkindha Kanda (1891), since Dutt's Uttara Kanda leaves out the boons.
+  From Baba Premanand Bharati's Sree Krishna, the Lord of Love (1904, `bharati-krishna`): Krishna the
+  butter thief, with the universe in his mouth and the uprooted trees. `myths-hindu` retells all
+  six, and adds three with no original in the app (‡): how Ganesha got his elephant head and his
+  race around the world with Kartikeya (Shiva Purana), and Durga and the buffalo demon (Devi
+  Mahatmya). All are marked as sacred to Hindus. A Ramayana story from a later volume carries that
+  volume's `source` and `firstPublished`, and a retelling's end note now credits the original's
+  own year where it has one.
 - Mythology, part 26: Hindu myths, first part. From Kisari Mohan Ganguli's Mahabharata (1883–96,
   `ganguli-mahabharata`): the lotus from Vishnu's navel, Manu and the fish, the churning of the
   ocean (with Shiva swallowing the poison) and Markandeya's vision of the child on the banyan tree.

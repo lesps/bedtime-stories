@@ -1,0 +1,89 @@
+{
+ "id": "myths-hindu--hanuman-and-the-sun",
+ "collectionId": "myths-hindu",
+ "order": 17,
+ "title": "Hanuman and the Sun",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, on a golden mountain, there lived a monkey king called Kesari, and his wife Anjana. The Wind god gave Anjana a son, and that son was Hanuman."
+  },
+  {
+   "type": "p",
+   "text": "One day, when Hanuman was just born, his mother went off into the forest to gather fruit. Little Hanuman was left alone, and he grew very hungry, and he cried. Just then the sun came up, round and red like a flower. \"A fruit!\" thought Hanuman. And he jumped up into the sky to get it."
+  },
+  {
+   "type": "p",
+   "text": "Up and up he leaped. The gods and the demons watched in amazement. \"Not even the Wind can go as fast as that!\" they said. \"If he is so strong when he is a baby, how strong will he be when he grows up?\""
+  },
+  {
+   "type": "p",
+   "text": "Hanuman's father, the Wind, followed him through the sky. He blew cool air from the snowy mountains over his son, so that the sun's hot rays would not burn him. Many thousands of miles Hanuman flew, until he came close to the sun. And the sun did not burn him, because he was only a little child who had never done anything wrong, and because he was going to do great things one day."
+  },
+  {
+   "type": "p",
+   "text": "Now on that very day, the demon Rahu had come to swallow the sun, as he does at an eclipse. But when Hanuman reached the top of the sun's chariot, he touched Rahu, and Rahu ran away. He ran all the way to Indra, the king of the gods. \"Indra!\" he cried angrily. \"You gave me the sun and the moon to eat. Why have you given them to someone else? I came to swallow the sun, and there was another Rahu there, holding it!\""
+  },
+  {
+   "type": "p",
+   "text": "So Indra climbed onto his great elephant, Airavata, and set off to see, with Rahu going ahead. But when Rahu saw how big Hanuman was, he turned to run away. And Hanuman forgot all about the sun. \"Another fruit!\" he thought, and he leaped at Rahu."
+  },
+  {
+   "type": "p",
+   "text": "\"Indra! Indra! Help!\" cried Rahu."
+  },
+  {
+   "type": "p",
+   "text": "\"Don't be afraid,\" said Indra. \"I will deal with him.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Hanuman saw Airavata, the elephant. \"An even bigger fruit!\" he thought, and he rushed at it, and rose up over Indra's head. Indra raised his thunderbolt, and struck. And Hanuman fell down onto a mountain top, and broke his jaw. That is why he is called Hanuman, which means \"the one with the jaw\"."
+  },
+  {
+   "type": "p",
+   "text": "When the Wind saw his son struck down, he was very angry. He took Hanuman into a cave, and stopped blowing. All over the world, nothing could breathe. Every creature was in pain, and their arms and legs went stiff as wood. Nobody could pray or worship, and the whole world was full of sorrow."
+  },
+  {
+   "type": "p",
+   "text": "So the gods and all the other creatures went to Brahma, the creator, for help. \"You gave us the wind so that we could live,\" they said. \"Why is the Wind hurting us like this?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Indra has struck the Wind's son with his thunderbolt,\" said Brahma, \"and that is why the Wind is angry. Without the wind, the whole world is like dry wood. We must go to the Wind and make peace with him, or we shall all be destroyed.\""
+  },
+  {
+   "type": "p",
+   "text": "So Brahma and the gods and all the creatures went to the cave where the Wind was. And when they saw the little boy lying in his father's lap, shining like gold, they all felt sorry for him."
+  },
+  {
+   "type": "p",
+   "text": "The gods begged the Wind to stop being angry, and at last he grew calm. Then Brahma gave Hanuman a gift. \"No weapon will ever kill him in battle,\" he said. And Indra was glad to see that Hanuman was not badly hurt by the thunderbolt, and he gave him a gift too. \"He will never die,\" said Indra, \"until he chooses to.\""
+  },
+  {
+   "type": "p",
+   "text": "Many years later, when Hanuman was grown up, the monkeys needed someone to leap across the ocean to find Rama's wife, Sita. Then the old bear Jambavan told Hanuman this story, to remind him of how strong he was."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Hanuman and the Sun” in The Ramayana, translated by Manmatha Nath Dutt (1894). The original is listed under Other versions. From the Ramayana. Hanuman is the monkey hero who helps Rama to rescue Sita; \"Hanu\" means \"jaw\". Rahu is the demon who swallows the sun and the moon at an eclipse, and Airavata is Indra's elephant."
+  }
+ ],
+ "workId": "hindu-hanuman-sun",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "dutt-ramayana--hanuman-and-the-sun",
+ "source": "https://www.gutenberg.org/ebooks/62496",
+ "livingTradition": "Hindus",
+ "wordCount": 740,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 3.8,
+  "avgSentenceWords": 11.0,
+  "band": "middle"
+ }
+}

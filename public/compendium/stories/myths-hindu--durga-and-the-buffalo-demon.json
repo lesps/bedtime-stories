@@ -1,0 +1,75 @@
+{
+ "id": "myths-hindu--durga-and-the-buffalo-demon",
+ "collectionId": "myths-hindu",
+ "order": 12,
+ "title": "Durga and the Buffalo Demon",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the gods and the asuras fought a war that lasted a hundred years. The leader of the asuras was Mahisha, the buffalo demon, and in the end he beat the gods. He threw Indra off his throne and made himself king of heaven, and he drove the gods out to wander on the earth like ordinary people."
+  },
+  {
+   "type": "p",
+   "text": "The gods went to Brahma, and Brahma led them to Vishnu and Shiva. \"Mahisha has taken everything from us,\" they said. \"Help us!\""
+  },
+  {
+   "type": "p",
+   "text": "When Vishnu and Shiva heard this, they grew very angry. Out of Vishnu's face blazed a great light, and out of Shiva's face, and Brahma's, and out of the faces of all the other gods. All these lights came together into one, like a mountain of fire, filling the whole sky. And the light took the shape of a woman. She was the goddess, more beautiful and more powerful than all the gods together."
+  },
+  {
+   "type": "p",
+   "text": "Then each of the gods gave her a gift. Shiva gave her a trident, and Vishnu gave her a discus. Varuna gave her a conch shell and a noose, Agni a spear, and Vayu, the god of the wind, gave her a bow and arrows. Indra gave her his thunderbolt and a bell, Yama a staff, Brahma a string of beads and a water-pot, and the god of time a sword and a shield. The sun filled her with his rays. And the mountain Himalaya gave her a lion to ride."
+  },
+  {
+   "type": "p",
+   "text": "The goddess laughed aloud, and her laugh filled the sky. The earth shook, the seas trembled and the mountains swayed. \"Victory to you!\" cried the gods."
+  },
+  {
+   "type": "p",
+   "text": "When Mahisha heard the noise, he rushed out with his whole army. \"What is this?\" he shouted. There stood the goddess, so tall that her crown touched the sky, with her thousand arms reaching out in every direction."
+  },
+  {
+   "type": "p",
+   "text": "The asuras attacked her with swords and spears and arrows, thousands upon thousands of them. But the goddess fought them all, and her lion fought beside her, and every time she breathed out, more warriors sprang up to fight on her side. One by one, she beat Mahisha's generals, until the whole army of asuras was gone."
+  },
+  {
+   "type": "p",
+   "text": "Then Mahisha himself came at her, in the shape of a great buffalo. He stamped the earth until it cracked, he tossed the mountains with his horns, and he lashed the ocean with his tail until it flooded the land."
+  },
+  {
+   "type": "p",
+   "text": "The goddess threw her noose around him. At once he turned into a lion. She struck at the lion with her sword, and he turned into a man with a sword of his own. She shot at the man with her arrows, and he turned into a huge elephant, which caught at her lion with its trunk. She cut off its trunk, and he turned back into a buffalo, and charged again."
+  },
+  {
+   "type": "p",
+   "text": "Then the goddess laughed. \"Roar as loud as you like, you fool,\" she said. \"Soon the gods will be the ones roaring, for joy.\""
+  },
+  {
+   "type": "p",
+   "text": "She leaped up and landed on the buffalo, and pressed him down with her foot, and struck him with her trident. Mahisha tried to climb out of the buffalo's mouth in his own shape, but he had only come half-way out when the goddess struck him down with her great sword. And that was the end of the buffalo demon."
+  },
+  {
+   "type": "p",
+   "text": "All the gods cried out with joy, and sang her praises, and Indra was king of heaven once more. \"Whenever you are in danger,\" the goddess told them, \"call on me, and I will come.\" Then she vanished."
+  },
+  {
+   "type": "note",
+   "text": "Retold by Claude (Anthropic), 2026, from the Devi Mahatmya (written down about the 500s AD), chapters 2 to 4, in the Markandeya Purana. There is no public-domain text of this legend in the app to compare it with."
+  }
+ ],
+ "workId": "hindu-durga",
+ "adaptation": "retold",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "livingTradition": "Hindus",
+ "wordCount": 640,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 4.5,
+  "avgSentenceWords": 13.7,
+  "band": "middle"
+ }
+}
