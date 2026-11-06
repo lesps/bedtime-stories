@@ -13,6 +13,8 @@ Each Markdown file is one story, named `<storyId>.md`, with a small front matter
     ---
     Paragraphs, separated by blank lines. A paragraph whose every line starts with "> " is verse.
 
+A value may be quoted (Prettier quotes one with ": " in it, like a title with a colon).
+
 A legend with no public-domain text to work from (marked ‡ in the expansion plan) has no
 original: its front matter gives `basedOn` (what it was retold from) and `workId` instead of
 `adaptedFrom`, and its end note says there is no original in the app to compare it with. It may
@@ -345,8 +347,15 @@ def parse(path):
     m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
     if not m:
         raise SystemExit(f"{path.name}: missing front matter")
-    meta = dict(line.split(": ", 1) for line in m.group(1).splitlines() if line.strip())
+    meta = {key: unquote(value) for key, value in
+            (line.split(": ", 1) for line in m.group(1).splitlines() if line.strip())}
     return meta, [block(p) for p in re.split(r"\n\s*\n", m.group(2)) if p.strip()]
+
+
+def unquote(value):
+    if len(value) > 1 and value[0] == value[-1] and value[0] in "'\"":
+        return value[1:-1].replace(value[0] * 2, value[0]) if value[0] == "'" else value[1:-1]
+    return value
 
 
 def block(para):

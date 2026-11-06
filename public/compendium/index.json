@@ -1175,7 +1175,7 @@
    "contributor": "Translated by Kisari Mohan Ganguli",
    "firstPublished": 1883,
    "source": "https://www.gutenberg.org/ebooks/15474",
-   "storyCount": 5
+   "storyCount": 11
   },
   {
    "license": "Public domain in the USA",
@@ -1187,7 +1187,7 @@
    "contributor": "Translated by Manmatha Nath Dutt",
    "firstPublished": 1891,
    "source": "https://www.gutenberg.org/ebooks/57265",
-   "storyCount": 3
+   "storyCount": 4
   },
   {
    "license": "Public domain in the USA",
@@ -1211,7 +1211,7 @@
    "license": "Public domain in the USA",
    "language": "en",
    "originalLanguage": "en",
-   "storyCount": 17
+   "storyCount": 29
   },
   {
    "license": "Public domain in the USA",
@@ -1224,6 +1224,18 @@
    "firstPublished": 1904,
    "source": "https://www.gutenberg.org/ebooks/67019",
    "storyCount": 1
+  },
+  {
+   "id": "rc-dutt-ramayana",
+   "title": "The Ramayana, Condensed into English Verse",
+   "author": "Valmiki",
+   "contributor": "Translated by Romesh C. Dutt",
+   "firstPublished": 1899,
+   "source": "https://sacred-texts.com/hin/dutt/index.htm",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "sa",
+   "storyCount": 5
   }
  ],
  "stories": [
@@ -17639,6 +17651,118 @@
    "simplifiedId": "myths-hindu--ganesha-writes-down-the-mahabharata"
   },
   {
+   "id": "ganguli-mahabharata--arjuna-sees-only-the-bird",
+   "collectionId": "ganguli-mahabharata",
+   "order": 6,
+   "title": "Arjuna Sees Only the Bird",
+   "wordCount": 738,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-arjuna-bird",
+   "readingLevel": {
+    "fkGrade": 9.1,
+    "avgSentenceWords": 21.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--arjuna-sees-only-the-bird"
+  },
+  {
+   "id": "ganguli-mahabharata--ekalavya-the-archer-who-taught-himself",
+   "collectionId": "ganguli-mahabharata",
+   "order": 7,
+   "title": "Ekalavya, the Archer Who Taught Himself",
+   "wordCount": 861,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-ekalavya",
+   "readingLevel": {
+    "fkGrade": 11.9,
+    "avgSentenceWords": 25.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--ekalavya-the-archer-who-taught-himself"
+  },
+  {
+   "id": "ganguli-mahabharata--nala-and-damayanti",
+   "collectionId": "ganguli-mahabharata",
+   "order": 8,
+   "title": "Nala and Damayanti",
+   "wordCount": 4050,
+   "readingMinutes": 22,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-nala",
+   "readingLevel": {
+    "fkGrade": 8.5,
+    "avgSentenceWords": 18.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--nala-and-damayanti"
+  },
+  {
+   "id": "ganguli-mahabharata--bhima-meets-hanuman",
+   "collectionId": "ganguli-mahabharata",
+   "order": 9,
+   "title": "Bhima Meets Hanuman",
+   "wordCount": 3532,
+   "readingMinutes": 20,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-bhima-hanuman",
+   "readingLevel": {
+    "fkGrade": 8.6,
+    "avgSentenceWords": 18.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--bhima-meets-hanuman"
+  },
+  {
+   "id": "ganguli-mahabharata--savitri-and-satyavan",
+   "collectionId": "ganguli-mahabharata",
+   "order": 10,
+   "title": "Savitri and Satyavan",
+   "wordCount": 5762,
+   "readingMinutes": 32,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-savitri",
+   "readingLevel": {
+    "fkGrade": 7.5,
+    "avgSentenceWords": 16.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--savitri-and-satyavan"
+  },
+  {
+   "id": "ganguli-mahabharata--yudhishthira-and-the-yaksha",
+   "collectionId": "ganguli-mahabharata",
+   "order": 11,
+   "title": "Yudhishthira and the Yaksha",
+   "wordCount": 6044,
+   "readingMinutes": 34,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-yaksha",
+   "readingLevel": {
+    "fkGrade": 7.2,
+    "avgSentenceWords": 15.3,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--yudhishthira-and-the-yaksha"
+  },
+  {
    "id": "dutt-ramayana--the-dwarfs-three-steps",
    "collectionId": "dutt-ramayana",
    "order": 1,
@@ -17691,6 +17815,24 @@
     "band": "advanced"
    },
    "simplifiedId": "myths-hindu--hanuman-and-the-sun"
+  },
+  {
+   "id": "dutt-ramayana--the-ramayana-part-4-the-bridge-to-lanka",
+   "collectionId": "dutt-ramayana",
+   "order": 4,
+   "title": "The Ramayana, Part 4: The Bridge to Lanka",
+   "wordCount": 2829,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-4",
+   "readingLevel": {
+    "fkGrade": 9.8,
+    "avgSentenceWords": 21.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-ramayana-part-4-the-bridge-to-lanka"
   },
   {
    "id": "dutt-vishnu-purana--the-legend-of-prahlada",
@@ -18090,6 +18232,222 @@
    "adaptedFrom": "dutt-ramayana--hanuman-and-the-sun"
   },
   {
+   "id": "myths-hindu--the-ramayana-part-1-the-bow-and-the-exile",
+   "collectionId": "myths-hindu",
+   "order": 18,
+   "title": "The Ramayana, Part 1: The Bow and the Exile",
+   "wordCount": 1125,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-1",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 11.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "rc-dutt-ramayana--the-ramayana-part-1-the-bow-and-the-exile"
+  },
+  {
+   "id": "myths-hindu--the-ramayana-part-2-sita-is-stolen",
+   "collectionId": "myths-hindu",
+   "order": 19,
+   "title": "The Ramayana, Part 2: Sita Is Stolen",
+   "wordCount": 1057,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-2",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 9.7,
+    "band": "middle"
+   },
+   "adaptedFrom": "rc-dutt-ramayana--the-ramayana-part-2-sita-is-stolen"
+  },
+  {
+   "id": "myths-hindu--the-ramayana-part-3-hanuman-finds-sita",
+   "collectionId": "myths-hindu",
+   "order": 20,
+   "title": "The Ramayana, Part 3: Hanuman Finds Sita",
+   "wordCount": 981,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-3",
+   "readingLevel": {
+    "fkGrade": 4.7,
+    "avgSentenceWords": 12.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "rc-dutt-ramayana--the-ramayana-part-3-hanuman-finds-sita"
+  },
+  {
+   "id": "myths-hindu--the-ramayana-part-4-the-bridge-to-lanka",
+   "collectionId": "myths-hindu",
+   "order": 21,
+   "title": "The Ramayana, Part 4: The Bridge to Lanka",
+   "wordCount": 832,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-4",
+   "readingLevel": {
+    "fkGrade": 3.8,
+    "avgSentenceWords": 11.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "dutt-ramayana--the-ramayana-part-4-the-bridge-to-lanka"
+  },
+  {
+   "id": "myths-hindu--the-ramayana-part-5-the-battle",
+   "collectionId": "myths-hindu",
+   "order": 22,
+   "title": "The Ramayana, Part 5: The Battle",
+   "wordCount": 1017,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-5",
+   "readingLevel": {
+    "fkGrade": 4.6,
+    "avgSentenceWords": 11.2,
+    "band": "middle"
+   },
+   "adaptedFrom": "rc-dutt-ramayana--the-ramayana-part-5-the-battle"
+  },
+  {
+   "id": "myths-hindu--the-ramayana-part-6-rama-comes-home",
+   "collectionId": "myths-hindu",
+   "order": 23,
+   "title": "The Ramayana, Part 6: Rama Comes Home",
+   "wordCount": 867,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-6",
+   "readingLevel": {
+    "fkGrade": 4.6,
+    "avgSentenceWords": 12.5,
+    "band": "middle"
+   },
+   "adaptedFrom": "rc-dutt-ramayana--the-ramayana-part-6-rama-comes-home"
+  },
+  {
+   "id": "myths-hindu--arjuna-sees-only-the-bird",
+   "collectionId": "myths-hindu",
+   "order": 24,
+   "title": "Arjuna Sees Only the Bird",
+   "wordCount": 600,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-arjuna-bird",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 10.9,
+    "band": "early"
+   },
+   "adaptedFrom": "ganguli-mahabharata--arjuna-sees-only-the-bird"
+  },
+  {
+   "id": "myths-hindu--ekalavya-the-archer-who-taught-himself",
+   "collectionId": "myths-hindu",
+   "order": 25,
+   "title": "Ekalavya, the Archer Who Taught Himself",
+   "wordCount": 599,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ekalavya",
+   "readingLevel": {
+    "fkGrade": 5.2,
+    "avgSentenceWords": 13.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "ganguli-mahabharata--ekalavya-the-archer-who-taught-himself"
+  },
+  {
+   "id": "myths-hindu--nala-and-damayanti",
+   "collectionId": "myths-hindu",
+   "order": 26,
+   "title": "Nala and Damayanti",
+   "wordCount": 1342,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-nala",
+   "readingLevel": {
+    "fkGrade": 3.5,
+    "avgSentenceWords": 11.1,
+    "band": "early"
+   },
+   "adaptedFrom": "ganguli-mahabharata--nala-and-damayanti"
+  },
+  {
+   "id": "myths-hindu--bhima-meets-hanuman",
+   "collectionId": "myths-hindu",
+   "order": 27,
+   "title": "Bhima Meets Hanuman",
+   "wordCount": 1174,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-bhima-hanuman",
+   "readingLevel": {
+    "fkGrade": 3.4,
+    "avgSentenceWords": 11.0,
+    "band": "early"
+   },
+   "adaptedFrom": "ganguli-mahabharata--bhima-meets-hanuman"
+  },
+  {
+   "id": "myths-hindu--savitri-and-satyavan",
+   "collectionId": "myths-hindu",
+   "order": 28,
+   "title": "Savitri and Satyavan",
+   "wordCount": 1530,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-savitri",
+   "readingLevel": {
+    "fkGrade": 3.7,
+    "avgSentenceWords": 10.4,
+    "band": "middle"
+   },
+   "adaptedFrom": "ganguli-mahabharata--savitri-and-satyavan"
+  },
+  {
+   "id": "myths-hindu--yudhishthira-and-the-yaksha",
+   "collectionId": "myths-hindu",
+   "order": 29,
+   "title": "Yudhishthira and the Yaksha",
+   "wordCount": 1179,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-yaksha",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 9.1,
+    "band": "early"
+   },
+   "adaptedFrom": "ganguli-mahabharata--yudhishthira-and-the-yaksha"
+  },
+  {
    "id": "bharati-krishna--krishna-the-butter-thief",
    "collectionId": "bharati-krishna",
    "order": 1,
@@ -18106,6 +18464,104 @@
     "band": "advanced"
    },
    "simplifiedId": "myths-hindu--krishna-the-butter-thief"
+  },
+  {
+   "id": "rc-dutt-ramayana--the-ramayana-part-1-the-bow-and-the-exile",
+   "collectionId": "rc-dutt-ramayana",
+   "order": 1,
+   "title": "The Ramayana, Part 1: The Bow and the Exile",
+   "wordCount": 4372,
+   "readingMinutes": 24,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-ramayana-1",
+   "readingLevel": {
+    "fkGrade": 19.7,
+    "avgSentenceWords": 49.8,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-ramayana-part-1-the-bow-and-the-exile"
+  },
+  {
+   "id": "rc-dutt-ramayana--the-ramayana-part-2-sita-is-stolen",
+   "collectionId": "rc-dutt-ramayana",
+   "order": 2,
+   "title": "The Ramayana, Part 2: Sita Is Stolen",
+   "wordCount": 3945,
+   "readingMinutes": 22,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-ramayana-2",
+   "readingLevel": {
+    "fkGrade": 15.4,
+    "avgSentenceWords": 38.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-ramayana-part-2-sita-is-stolen"
+  },
+  {
+   "id": "rc-dutt-ramayana--the-ramayana-part-3-hanuman-finds-sita",
+   "collectionId": "rc-dutt-ramayana",
+   "order": 3,
+   "title": "The Ramayana, Part 3: Hanuman Finds Sita",
+   "wordCount": 2881,
+   "readingMinutes": 16,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ramayana-3",
+   "readingLevel": {
+    "fkGrade": 21.1,
+    "avgSentenceWords": 51.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-ramayana-part-3-hanuman-finds-sita"
+  },
+  {
+   "id": "rc-dutt-ramayana--the-ramayana-part-5-the-battle",
+   "collectionId": "rc-dutt-ramayana",
+   "order": 4,
+   "title": "The Ramayana, Part 5: The Battle",
+   "wordCount": 2589,
+   "readingMinutes": 14,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-ramayana-5",
+   "readingLevel": {
+    "fkGrade": 17.9,
+    "avgSentenceWords": 44.0,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-ramayana-part-5-the-battle"
+  },
+  {
+   "id": "rc-dutt-ramayana--the-ramayana-part-6-rama-comes-home",
+   "collectionId": "rc-dutt-ramayana",
+   "order": 5,
+   "title": "The Ramayana, Part 6: Rama Comes Home",
+   "wordCount": 2158,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "hindu-ramayana-6",
+   "readingLevel": {
+    "fkGrade": 18.1,
+    "avgSentenceWords": 44.7,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-hindu--the-ramayana-part-6-rama-comes-home"
   }
  ]
 }

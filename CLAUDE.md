@@ -85,10 +85,13 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           Classics Archive's copy, whose paragraph breaks it rebuilds from the line
                           wrap) and Yima from Darmesteter's Avesta in Wilson's Sacred Books of the East;
                           extract_hindu.py: myths of Vishnu, Shiva, the Ganga, Ganesha, Krishna and
-                          Hanuman from Ganguli's Mahabharata, Dutt's Vishnu Purana (after Wilson) and
-                          Dutt's Ramayana, and Krishna's childhood from Bharati's Sree Krishna)
-tools/simplified/*.md     editable source of the simplified retellings (front matter + paragraphs;
-                          a paragraph of `> ` lines is verse)
+                          Hanuman and six Mahabharata episodes from Ganguli's Mahabharata, Dutt's
+                          Vishnu Purana (after Wilson) and Dutt's Ramayana (incl. the bridge to
+                          Lanka), and Krishna's childhood from Bharati's Sree Krishna;
+                          extract_ramayana_verse.py: five parts of the six-part Ramayana from Romesh
+                          C. Dutt's verse condensation, sacred-texts.com's edition)
+tools/simplified/*.md     editable source of the simplified retellings (front matter, whose values
+                          may be quoted, + paragraphs; a paragraph of `> ` lines is verse)
 tools/build_simplified.py builds simplified collections from those files and links both ways
 tools/translations/*.md   Claude's own translations of ancient passages, for myths with no PD English
                           source (one story per file; `## Author, Work ref` headings per passage)
@@ -141,7 +144,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
 sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1151 stories, 102 collections, ~12 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1175 stories, 103 collections, ~12 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -211,7 +214,7 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
   is sacred to … today." The Hebrew Bible passages carry "Jews and Christians" and the Gospel passages
   "Christians" (not the Seven Sleepers, a saints' legend), the Qur'an passages "Muslims", and the
   Avesta's Yima and the Zoroastrian creation "Zoroastrians", and the Mahabharata, Vishnu Purana and
-  Ramayana passages, Bharati's Krishna and the three Hindu ‡ retellings "Hindus"; a retelling
+  Ramayana passages (both Dutts'), Bharati's Krishna and the three Hindu ‡ retellings "Hindus"; a retelling
   inherits its original's (`build_simplified.py`). Their
   themes never use `magic` or `ghosts` (`HEBREW_BIBLE`, `QURAN`, `PERSIAN` and `HINDU` in
   `tag_stories.py`). A story sacred to Muslims never has a
@@ -370,7 +373,10 @@ fine)`.
   `firstPublished`, and its retelling's note credits that year), all from Project Gutenberg, with
   `extract_hindu.py` fixing the digitizations' slips (`FIXES`); Krishna's childhood is from Baba
   Premanand Bharati's devotional Sree Krishna, the Lord of Love (1904), there being no reachable
-  public-domain Bhagavata Purana. Retellings of these passages stay close to the
+  public-domain Bhagavata Purana. The six-part Ramayana is Romesh C. Dutt's verse condensation
+  (1899; parts 1–3, 5 and 6), whose sacred-texts.com digitization `extract_ramayana_verse.py` corrects
+  (`FIXES`; each canto a heading, each couplet a verse block), with part 4, the bridge, from Manmatha
+  Nath Dutt's prose, since Romesh Dutt leaves it out. Retellings of these passages stay close to the
   text and add no interpretation; the Qur'an retellings use the Arabic names (Nuh, Sulayman, Yunus)
   and "Allah", as Pickthall does.
 - Content flags and exclusions in the patches are editorial first passes (see each patch's notes);

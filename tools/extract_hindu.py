@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Hindu stories: myths of Vishnu, Shiva, the Ganga, Ganesha, Krishna and Hanuman from Kisari Mohan
-Ganguli's Mahabharata (1883–96), Manmatha Nath Dutt's Vishnu Purana (1896, after H. H. Wilson) and
-Dutt's Ramayana (1891–94), and Krishna's childhood from Baba Premanand Bharati's Sree Krishna, the
-Lord of Love (1904).
+"""Hindu stories: myths of Vishnu, Shiva, the Ganga, Ganesha, Krishna and Hanuman, and episodes of
+the Mahabharata, from Kisari Mohan Ganguli's Mahabharata (1883–96), Manmatha Nath Dutt's Vishnu
+Purana (1896, after H. H. Wilson) and Dutt's Ramayana (1891–94), and Krishna's childhood from Baba
+Premanand Bharati's Sree Krishna, the Lord of Love (1904). (The rest of the Ramayana serial is
+Romesh C. Dutt's verse, in `extract_ramayana_verse.py`.)
 
     git clone --depth 1 https://github.com/GITenberg/The-Mahabharata-of-Krishna-Dwaipayana-Vyasa-Volume-1Books-1-2-and-3_15474.git src/The-Mahabharata-of-Krishna-Dwaipayana-Vyasa-Volume-1Books-1-2-and-3_15474
     git clone --depth 1 https://github.com/GITenberg/A-Prose-English-Translation-of-Vishnupuranam-Based-on-Professor-H-H-Wilsons-translation_66208.git src/A-Prose-English-Translation-of-Vishnupuranam-Based-on-Professor-H-H-Wilsons-translation_66208
     git clone --depth 1 https://github.com/GITenberg/The-Ramayana-Volume-One-Balakandam-and-Ayodhyakandam_57265.git src/The-Ramayana-Volume-One-Balakandam-and-Ayodhyakandam_57265
     git clone --depth 1 https://github.com/GITenberg/The-Ramayana-Volume-Two_57826.git src/The-Ramayana-Volume-Two_57826
+    git clone --depth 1 https://github.com/GITenberg/The-Ramayana-Volume-3-Yuddhakandam_60188.git src/The-Ramayana-Volume-3-Yuddhakandam_60188
     git clone --depth 1 https://github.com/GITenberg/The-Ramayana-Volume-4-Uttara-Kanda_62496.git src/The-Ramayana-Volume-4-Uttara-Kanda_62496
     git clone --depth 1 https://github.com/GITenberg/Sree-Krishna-the-Lord-of-Love_67019.git src/Sree-Krishna-the-Lord-of-Love_67019
     python3 tools/extract_hindu.py src
@@ -45,11 +47,13 @@ FILES = {
     "dutt-vishnu-purana": "A-Prose-English-Translation-of-Vishnupuranam-Based-on-Professor-H-H-Wilsons-translation_66208/66208-0.txt",
     "dutt-ramayana": "The-Ramayana-Volume-One-Balakandam-and-Ayodhyakandam_57265/57265-0.txt",
     "ramayana-2": "The-Ramayana-Volume-Two_57826/57826-0.txt",
+    "ramayana-3": "The-Ramayana-Volume-3-Yuddhakandam_60188/60188-0.txt",
     "ramayana-4": "The-Ramayana-Volume-4-Uttara-Kanda_62496/62496-0.txt",
     "bharati-krishna": "Sree-Krishna-the-Lord-of-Love_67019/67019-0.txt",
 }
 # The book a story comes from, where it isn't its collection's first volume: (source, firstPublished).
-VOLUMES = {"ramayana-4": ("https://www.gutenberg.org/ebooks/62496", 1894)}
+VOLUMES = {"ramayana-3": ("https://www.gutenberg.org/ebooks/60188", 1893),
+           "ramayana-4": ("https://www.gutenberg.org/ebooks/62496", 1894)}
 LIVING = "Hindus"
 # Slips in the digitized texts, put right wherever they turn up (each must be used).
 FIXES = [
@@ -64,10 +68,22 @@ FIXES = [
     ("everything before him. in wrath", "everything before him, in wrath"), ("boon, O lard,", "boon, O lord,"),
     ("touched my hand lo His", "touched my hand to His"), ("pots and chums", "pots and churns"),
     ("walking: away", "walking away"), ("came on earth. He would", "came on earth, He would"),
+    ("And. O Bharata", "And, O Bharata"), ("addressed by the swan. Damayanti", "addressed by the swan, Damayanti"),
+    ("the swans in burning me", "the swans is burning me"), ("Mahavat", "Maghavat"), ("slaver of Vala", "slayer of Vala"),
+    ("stood revealed to his shadow", "stood revealed by his shadow"), ("blessed legions", "blessed regions"),
+    ("set out tor that", "set out for that"), ("harsh syllabus", "harsh syllables"),
+    ("Salyavana’s", "Satyavan’s"), ("given away but one;", "given away but once;"),
+    ("a longer way of.", "a longer way off."), ("said into me", "said unto me"),
+    ("lather and grand-father", "father and grand-father"),
+    ("hundrerds", "hundreds"), ("covetuousness", "covetousness"), ("Laskhmana", "Lakshmana"),
+    ("(Formerly) is Mandara", "(Formerly) in Mandara"),
 ]
 
 MARKANDEYA = "Markandeya, a sage who has lived through many ages, tells this story to the Pandava prince Yudhishthira."
 PARASARA = "The sage Parasara tells this story to his pupil Maitreya."
+DRONA = ("Drona, a great master of arms, teaches the young princes of the Kuru royal family: the five Pandava "
+         "brothers, Yudhishthira, Bhima, Arjuna and the twins Nakula and Sahadeva, and their cousins, the hundred "
+         "sons of Dhritarashtra, led by Duryodhana. The bard Vaisampayana tells this story to King Janamejaya.")
 KANSA = ("Kansa, the cruel king of Mathura, has been warned that the eighth child of his cousin Devaki will "
          "destroy him. He keeps Devaki and her husband Vasudeva prisoner, and has killed each of their "
          "children as soon as it was born, all but the seventh, who was carried away before birth to be "
@@ -135,6 +151,56 @@ STORIES = [
        "The end of the story is told in an earlier book of the Ramayana, the Kishkindha Kanda (Dutt's "
        "second volume, 1891). Before Hanuman leaps across the ocean to find Sita, the old bear Jambavan "
        "reminds him of it:", "ramayana-2")]),
+    (RAMAYANA, "The Ramayana, Part 4: The Bridge to Lanka", "hindu-ramayana-4", [],
+     [("Then on the shore of the sea, Rāghava, spreading", "honored by the Brahmanas, Rāma.",
+       "Hanuman has come back with news of Sita, and Rama (Raghava) has marched south with King Sugriva and "
+       "his army of monkeys to the shore of the sea. Ravana's good brother Vibhishana (Bibhishana) begged "
+       "Ravana to give Sita back, and when Ravana drove him away, he came over to Rama's side. Now the army "
+       "must find a way across the sea to Lanka. Lakshmana is Rama's brother; Varuna is the lord of the "
+       "waters, and Makaras are sea monsters.", "ramayana-3")]),
+    (GANGULI, "Arjuna Sees Only the Bird", "hindu-arjuna-bird", [],
+     [("And Drona, beholding his pupil’s devotion to arms", "an archer equal to thee in this world.’", DRONA),
+      ("O bull among men, one day Drona desirous of testing", "brought it down to the ground.", None)]),
+    (GANGULI, "Ekalavya, the Archer Who Taught Himself", "hindu-ekalavya", ["mature-themes"],  # cuts off his thumb
+     [("Amongst those that came there, O monarch, was a prince named Ekalavya", "the fever (of jealousy) having left him.",
+       DRONA + " Drona has promised his favourite pupil, Arjuna, that no archer in the world will ever equal "
+       "him.")]),
+    (GANGULI, "Nala and Damayanti", "hindu-nala", ["mature-themes"],  # "poison, or fire, or water or the rope"
+     [("There was a king named Nala, the son of Virasena", "the king ruled the earth abounding in wealth.’”",
+       "The sage Vrihadaswa tells this story to the Pandava prince Yudhishthira, who has lost his kingdom in a "
+       "game of dice and is living in exile in the forest. It is the first part of the long story of Nala and "
+       "Damayanti.")]),
+    (GANGULI, "Bhima Meets Hanuman", "hindu-bhima-hanuman", [],
+     [("Then the Pandava winded with all his might his loud-blowing shell", "lieth even in that direction.”",
+       "During their exile, the five Pandava brothers have come to the mountain Gandhamadana in the "
+       "Himalayas. The wind has blown a wonderful golden lotus to their queen, Draupadi, and she has asked "
+       "Bhima (Bhimasena), the strongest of the brothers, to bring her more. Bhima, like Hanuman, is a son of "
+       "the Wind god. He has forced his way up the mountain, scattering the wild beasts before him."),
+      ("Thus addressed, the powerful Bhimasena of mighty arms", "Verily, Time is irresistible’", None),
+      ("Bhimasena said, ‘Without beholding thy former shape", "hath established his fame among men.",
+       "Bhima asks Hanuman about the four ages of the world, and Hanuman tells him at length how goodness "
+       "grows less in each age. Then Bhima asks once more."),
+      ("Then contracting that huge body of his", "Hanuman vanished at that spot.”", None)]),
+    (GANGULI, "Savitri and Satyavan", "hindu-savitri", [],
+     [("On one occasion, O Bharata, when that king, the lord of the Madras", "preparations for his daughter’s wedding!’”",
+       "The sage Markandeya tells this story to the Pandava prince Yudhishthira. Aswapati, king of the Madras, "
+       "had no children until the goddess Savitri granted him a daughter, whom he named after her. When she "
+       "grew up and no one asked to marry her, her father told her to go out and choose a husband for herself."),
+      ("At length, O king, after a long time had passed away", "hastily proceeded towards the hermitage.’”",
+       "Savitri marries Satyavan and goes to live with him and his blind parents in the forest. She puts "
+       "aside her jewels, dresses like a hermit and serves them all lovingly, but she never forgets Narada's "
+       "words."),
+      ("And it so happened, O king, that there came to that hermitage", "as also the race of her husband.",
+       "Meanwhile Satyavan's father has found that he can see again. Late at night Savitri and Satyavan reach "
+       "the hermitage, and Savitri tells the hermits all that happened and the five boons she won from Yama.")]),
+    (GANGULI, "Yudhishthira and the Yaksha", "hindu-yaksha", [],
+     [("Then king Yudhishthira addressed Nakula saying", "and was struck with wonder.”",
+       "Near the end of the twelfth year of their exile, the five Pandava brothers have chased a deer that ran off "
+       "with a Brahmana's fire-sticks, and lost it. Tired and thirsty, they sit down under a tree. Arjuna is "
+       "also called Vijaya, Vibhatsu and Dhananjaya, and Bhima is Vrikodara. Vaisampayana tells this story to "
+       "King Janamejaya."),
+      ("Yudhishthira saw his brothers, each possessed of the glory", "gave back that Brahmana his firesticks.",
+       None)]),
 ]
 
 

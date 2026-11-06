@@ -1,0 +1,42 @@
+{
+ "id": "ganguli-mahabharata--arjuna-sees-only-the-bird",
+ "collectionId": "ganguli-mahabharata",
+ "order": 6,
+ "title": "Arjuna Sees Only the Bird",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Drona, a great master of arms, teaches the young princes of the Kuru royal family: the five Pandava brothers, Yudhishthira, Bhima, Arjuna and the twins Nakula and Sahadeva, and their cousins, the hundred sons of Dhritarashtra, led by Duryodhana. The bard Vaisampayana tells this story to King Janamejaya."
+  },
+  {
+   "type": "p",
+   "text": "And Drona, beholding his pupil’s devotion to arms, summoned the cook, and told him in secret, ‘Never give Arjuna his food in the dark, nor tell him that I have told thee this.’ A few days after, however, when Arjuna was taking his food, a wind arose, and thereupon the lamp that had been burning went out. But Arjuna, endued with energy, continued eating in the dark, his hand, from habit, going to his mouth. His attention being thus called to the force of habit, the strong-armed son of Pandu set his heart upon practising with his bow in the night. And, O Bharata, Drona, hearing the twang of his bowstring in the night, came to him, and clasping him, said, ‘Truly do I tell thee that I shall do that unto thee by which there shall not be an archer equal to thee in this world.’"
+  },
+  {
+   "type": "p",
+   "text": "O bull among men, one day Drona desirous of testing the comparative excellence of all his pupils in the use of arms, collected them all together after their education had been completed. And before assembling them together, he had caused an artificial bird, as the would be aim, to be placed on the top of a neighbouring tree. And when they were all together, Drona said unto them, ‘Take up your bows quickly and stand here aiming at that bird on the tree, with arrows fixed on your bowstrings; shoot and cut off the bird’s head, as soon as I give the order. I shall give each of you a turn, one by one, my children.’"
+  },
+  {
+   "type": "p",
+   "text": "“Vaisampayana continued, ‘Then Drona, that foremost of all Angira’s sons first addressed Yudhishthira saying, ‘O irrepressible one, aim with thy arrow and shoot as soon as I give the order. Yudhishthira took up the bow first, as desired, O king, by his preceptor, and stood aiming at the bird. But, O bull of Bharata’s race, Drona in an instant, addressing the Kuru prince standing with bow in hand, said, ‘Behold, O prince, that bird on top of the tree.’ Yudhishthira replied unto his preceptor, saying, ‘I do.’ But the next instant Drona again asked him, ‘What dost thou see now, O prince? Seest thou the tree, myself or thy brothers?’ Yudhishthira answered, ‘I see the tree, myself, my brothers, and the bird.’ Drona repeated his question, but was answered as often in the same words. Drona then, vexed with Yudhishthira, reproachingly said, ‘Stand thou apart. It is not for thee to strike the aim.’ Then Drona repeated the experiment with Duryodhana and the other sons of Dhritarashtra, one after another, as also with his other pupils, Bhima and the rest, including the princes that had come unto him from other lands. But the answer in every case was the same as Yudhishthira’s viz., ‘We behold the tree, thyself, our fellow-pupils, and the bird.’ And reproached by their preceptor, they were all ordered, one after another, to stand apart.’”"
+  },
+  {
+   "type": "p",
+   "text": "“Vaisampayana said, ‘When everyone had failed, Drona smilingly called Arjuna and said unto him, ‘By thee the aim must be shot; therefore, turn thy eyes to it. Thou must let fly the arrow as soon as I give the order. Therefore, O son, stand here with bow and arrow for an instant.’ Thus addressed, Arjuna stood aiming at the bird as desired by his preceptor, with his bow bent. An instant after Drona asked him as in the case of others, ‘Seest thou, O Arjuna, the bird there, the tree, and myself?’ Arjuna replied, ‘I see the bird only, but nor the tree, or thyself.’ Then the irrepressible Drona, well-pleased with Arjuna, the instant after, again said unto that mighty car-warrior amongst the Pandavas, ‘If thou seest the vulture, then describe it to me.’ Arjuna said, I see only the head of the vulture, not its body.’ At these words of Arjuna, the hair (on Drona’s body) stood on end from delight. He then said to Partha, ‘Shoot.’ And the latter instantly let fly (his arrow) and with his sharp shaft speedily struck off the head of the vulture on the tree and brought it down to the ground."
+  }
+ ],
+ "workId": "hindu-arjuna-bird",
+ "livingTradition": "Hindus",
+ "wordCount": 738,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 9.1,
+  "avgSentenceWords": 21.0,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-hindu--arjuna-sees-only-the-bird"
+}
