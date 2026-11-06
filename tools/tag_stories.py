@@ -184,6 +184,7 @@ COLLECTION_CULTURE = {
     "dutt-vishnu-purana": "hindu",
     "dutt-ramayana": "hindu",
     "bharati-krishna": "hindu",
+    "rc-dutt-ramayana": "hindu",
     "myths-hindu": "hindu",
 }
 
@@ -223,6 +224,7 @@ MYTH_COLLECTIONS = {
     "dutt-vishnu-purana",
     "dutt-ramayana",
     "bharati-krishna",
+    "rc-dutt-ramayana",
     "myths-hindu",
     "myths-armenian",
     "zimmern-kings",
@@ -878,6 +880,31 @@ HINDU = {
         {"add": ["animals", "legends"], "remove": ["gentle"]},
     ("dutt-ramayana--hanuman-and-the-sun", "hanuman-and-the-sun"):
         {"add": ["animals", "family", "monsters", "legends"], "remove": ["ghosts", "quests"]},
+    ("rc-dutt-ramayana--the-ramayana-part-1-the-bow-and-the-exile", "the-ramayana-part-1-the-bow-and-the-exile"):
+        {"add": ["royalty", "family", "legends"],
+         "remove": ["kindness", "greed-pride", "quests", "wishes", "gentle"]},
+    ("rc-dutt-ramayana--the-ramayana-part-2-sita-is-stolen", "the-ramayana-part-2-sita-is-stolen"):
+        {"add": ["monsters", "tricksters", "family", "legends"], "remove": ["greed-pride"]},
+    ("rc-dutt-ramayana--the-ramayana-part-3-hanuman-finds-sita", "the-ramayana-part-3-hanuman-finds-sita"):
+        {"add": ["animals", "quests", "legends"], "remove": ["magic", "underdogs", "kindness"]},
+    ("dutt-ramayana--the-ramayana-part-4-the-bridge-to-lanka", "the-ramayana-part-4-the-bridge-to-lanka"):
+        {"add": ["animals", "legends"], "remove": ["tricksters"]},
+    ("rc-dutt-ramayana--the-ramayana-part-5-the-battle", "the-ramayana-part-5-the-battle"):
+        {"add": ["monsters", "legends"], "remove": ["greed-pride", "quests"]},
+    ("rc-dutt-ramayana--the-ramayana-part-6-rama-comes-home", "the-ramayana-part-6-rama-comes-home"):
+        {"add": ["royalty", "family", "legends"], "remove": ["kindness", "greed-pride"]},
+    ("ganguli-mahabharata--arjuna-sees-only-the-bird", "arjuna-sees-only-the-bird"):
+        {"add": ["legends"], "remove": ["animals"]},
+    ("ganguli-mahabharata--ekalavya-the-archer-who-taught-himself", "ekalavya-the-archer-who-taught-himself"):
+        {"add": ["underdogs", "legends"], "remove": ["quests", "wishes"]},
+    ("ganguli-mahabharata--nala-and-damayanti", "nala-and-damayanti"):
+        {"add": ["animals", "legends"], "remove": ["gentle"]},
+    ("ganguli-mahabharata--bhima-meets-hanuman", "bhima-meets-hanuman"):
+        {"add": ["animals", "family", "legends"], "remove": ["kindness"]},
+    ("ganguli-mahabharata--savitri-and-satyavan", "savitri-and-satyavan"):
+        {"add": ["family", "legends"], "remove": ["kindness", "quests"]},
+    ("ganguli-mahabharata--yudhishthira-and-the-yaksha", "yudhishthira-and-the-yaksha"):
+        {"add": ["family", "legends"], "remove": ["kindness", "greed-pride"]},
 }
 for (_orig, _retold), _o in HINDU.items():
     OVERRIDES[_orig] = _o

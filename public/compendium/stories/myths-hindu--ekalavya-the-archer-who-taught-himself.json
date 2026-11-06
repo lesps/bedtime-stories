@@ -1,0 +1,92 @@
+{
+ "id": "myths-hindu--ekalavya-the-archer-who-taught-himself",
+ "collectionId": "myths-hindu",
+ "order": 25,
+ "title": "Ekalavya, the Archer Who Taught Himself",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the great teacher Drona taught the young princes of the Kuru family how to fight with every kind of weapon. His favourite pupil was Prince Arjuna, and Drona had promised him that no archer in the world would ever be his equal."
+  },
+  {
+   "type": "p",
+   "text": "Drona was so famous that kings and princes came from far and wide, in their thousands, to learn from him. One of them was a young prince called Ekalavya, the son of the king of the Nishadas, a people of the forest."
+  },
+  {
+   "type": "p",
+   "text": "But Drona would not teach Ekalavya. He was afraid that this Nishada boy might one day become better than his royal pupils."
+  },
+  {
+   "type": "p",
+   "text": "Ekalavya bowed low and touched Drona's feet, and then he went away into the forest. There he made a statue of Drona out of clay, and he honoured it as if it were his real teacher. Every day, without fail, he practised with his bow in front of it. And because he loved his teacher so much, and worked so hard, he became a wonderful archer."
+  },
+  {
+   "type": "p",
+   "text": "One day the princes went out hunting in the forest, with a servant and a dog. The dog wandered off by itself, and came upon Ekalavya. He was dark, and dressed in black, with his hair long and tangled, and the dog began to bark at him."
+  },
+  {
+   "type": "p",
+   "text": "Before the dog could close its mouth, Ekalavya shot seven arrows into it, one after another. The dog ran back to the princes with the seven arrows in its mouth. The princes were amazed, and ashamed, because none of them could shoot so fast or so well. So they searched the forest for the archer, and found Ekalavya, shooting arrow after arrow."
+  },
+  {
+   "type": "p",
+   "text": "\"Who are you?\" they asked."
+  },
+  {
+   "type": "p",
+   "text": "\"I am Ekalavya,\" he said, \"son of the king of the Nishadas. And I am a pupil of Drona.\""
+  },
+  {
+   "type": "p",
+   "text": "The princes went home and told Drona about the wonderful archer. And Arjuna went to Drona in secret. \"You promised me that none of your pupils would ever be as good as me,\" he said. \"So why is there a pupil of yours, this Nishada prince, who is better?\""
+  },
+  {
+   "type": "p",
+   "text": "Drona thought for a moment. Then he took Arjuna with him into the forest, to find Ekalavya."
+  },
+  {
+   "type": "p",
+   "text": "When Ekalavya saw Drona coming, he ran to meet him, and bowed down to the ground at his feet. Then he stood before his teacher with his hands joined, waiting to hear what he wanted."
+  },
+  {
+   "type": "p",
+   "text": "\"If you are really my pupil,\" said Drona, \"then you must pay me my fee.\""
+  },
+  {
+   "type": "p",
+   "text": "Ekalavya was overjoyed. \"What shall I give you, master?\" he said. \"Tell me. There is nothing I would not give my teacher.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Then give me the thumb of your right hand,\" said Drona."
+  },
+  {
+   "type": "p",
+   "text": "These were cruel words, for without his right thumb, Ekalavya could never shoot so well again. But Ekalavya had made a promise, and he always kept his word. With a cheerful face and a willing heart, he cut off his thumb at once, and gave it to Drona."
+  },
+  {
+   "type": "p",
+   "text": "After that, when Ekalavya shot with his bow, using his other fingers, he was not as quick as he had been before. And Arjuna was happy, for his jealousy was gone."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Ekalavya, the Archer Who Taught Himself” in The Mahabharata of Krishna-Dwaipayana Vyasa, translated by Kisari Mohan Ganguli (1883). The original is listed under Other versions only when “Show stories with mature themes” is on in Settings. From the first book of the Mahabharata. The Nishadas were a people of the forests, whom the princes of the cities looked down on."
+  }
+ ],
+ "workId": "hindu-ekalavya",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "ganguli-mahabharata--ekalavya-the-archer-who-taught-himself",
+ "livingTradition": "Hindus",
+ "wordCount": 599,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 5.2,
+  "avgSentenceWords": 13.0,
+  "band": "middle"
+ }
+}

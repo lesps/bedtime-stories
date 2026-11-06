@@ -1,0 +1,776 @@
+{
+ "id": "rc-dutt-ramayana--the-ramayana-part-2-sita-is-stolen",
+ "collectionId": "rc-dutt-ramayana",
+ "order": 2,
+ "title": "The Ramayana, Part 2: Sita Is Stolen",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "For thirteen years Rama, Sita and Lakshman have lived in the forest. Now they have made their home at Panchavati, by the river Godavari, in a land where the Rakshas roam. The ten-headed Ravan, king of the Rakshas, rules the island of Lanka in the far south."
+  },
+  {
+   "type": "heading",
+   "text": "Surpa-nakha in Love"
+  },
+  {
+   "type": "verse",
+   "text": "As the Moon with starry Chitra dwells in azure skies above,\nIn his lonesome leafy cottage Rama dwelt in Sita's love,"
+  },
+  {
+   "type": "verse",
+   "text": "And with Lakshman strong and valiant, quick to labour and obey,\nTales of bygone times recounting Rama passed the livelong day."
+  },
+  {
+   "type": "verse",
+   "text": "And it so befell, a maiden, dweller of the darksome wood,\nLed by wand'ring thought or fancy once before the cottage stood,"
+  },
+  {
+   "type": "verse",
+   "text": "Surpa-nakha, Raksha maiden, sister of the Raksha lord,\nCame and looked with eager longing till her soul was passion-stirred!"
+  },
+  {
+   "type": "verse",
+   "text": "Looked on Rama lion-chested, mighty-arméd, lotus-eyed,\nStately as the jungle tusker, with his crown of tresses tied,"
+  },
+  {
+   "type": "verse",
+   "text": "Looked on Rama lofty-fronted, with a royal visage graced,\nLike Kandarpa young and lustrous, lotus-hued and lotus-faced!"
+  },
+  {
+   "type": "verse",
+   "text": "What though she a Raksha maiden, poor in beauty plain in face,\nFell her glances passion-laden on the prince of peerless grace,"
+  },
+  {
+   "type": "verse",
+   "text": "What though wild her eyes and tresses, and her accents counselled fear,\nSoft-eyed Rama fixed her bosom, and his sweet voice thrilled her ear,"
+  },
+  {
+   "type": "verse",
+   "text": "What though bent on deeds unholy, holy Rama won her heart,\nAnd, for love makes bold a female, thus did she her thoughts impart:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Who be thou in hermit's vestments, in thy native beauty bright,\nFriended by a youthful woman, arméd with thy bow of might,"
+  },
+  {
+   "type": "verse",
+   "text": "Who be thou in these lone regions where the Rakshas hold their sway,\nWherefore in a lonely cottage in this darksome jungle stay?\""
+  },
+  {
+   "type": "verse",
+   "text": "With his wonted truth and candour Rama spake sedate and bold,\nAnd the story of his exile to the Raksha maiden told:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Dasa-ratha of Ayodhya ruled with Indra's godlike fame,\nAnd his eldest, first-born Rama, by his mandate here I came,"
+  },
+  {
+   "type": "verse",
+   "text": "Younger Lakshman strong and valiant doth with me these forests roam,\nAnd my wife, Videha's daughter, Sita makes with me her home."
+  },
+  {
+   "type": "verse",
+   "text": "Duteous to my father's bidding, duteous to my mother's will,\nStriving in the cause of virtue in the woods we wander still."
+  },
+  {
+   "type": "verse",
+   "text": "Tell me, female of the forest, who thou be and whence thy birth,\nMuch I fear thou art a Raksha wearing various forms on earth!\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Listen,\" so spake Surpa-nakha, \"if my purpose thou wouldst know,\nI am Raksha, Surpa-nakha, wearing various shapes below."
+  },
+  {
+   "type": "verse",
+   "text": "Know my brothers, royal Ravan, Lanka's lord from days of old,\nKumbha-karna dread and dauntless, and Bibhishan true and bold,"
+  },
+  {
+   "type": "verse",
+   "text": "Khara and the doughty Dushan with me in these forests stray,\nBut by Rama's love emboldened I have left them on the way!"
+  },
+  {
+   "type": "verse",
+   "text": "Broad and boundless is my empire and I wander in my pride,\nThee I choose as lord and husband,--cast thy human wife aside,"
+  },
+  {
+   "type": "verse",
+   "text": "Pale is Sita and misshapen, scarce a warrior's worthy wife,\nTo a nobler, lordlier female consecrate thy gallant life!"
+  },
+  {
+   "type": "verse",
+   "text": "Human flesh is food of Rakshas! weakling Sita I will slay,\nSlay that boy thy stripling brother,--thee as husband I obey,"
+  },
+  {
+   "type": "verse",
+   "text": "On the peaks of lofty mountains, in the forests dark and lone,\nWe shall range the boundless woodlands and the joys of dalliance prove!"
+  },
+  {
+   "type": "heading",
+   "text": "Surpa-nakha Punished"
+  },
+  {
+   "type": "verse",
+   "text": "Rama heard her impious purpose and a gentle smile repressed,\nTo the foul and forward female thus his mocking words addressed:"
+  },
+  {
+   "type": "verse",
+   "text": "\"List, O passion-smitten maiden! Sita is my honoured wife,\nWith a rival loved and cherished cruel were thy wedded life!"
+  },
+  {
+   "type": "verse",
+   "text": "But no consort follows Lakshman, peerless is his comely face,\nDauntless is his warlike valour, matchless is his courtly grace,"
+  },
+  {
+   "type": "verse",
+   "text": "And he leads no wife or consort to this darksome woodland grove,\nWith no rival to thy passion seek his ample-hearted love!\""
+  },
+  {
+   "type": "verse",
+   "text": "Surpa-nakha passion-laden then on Lakshman turned her eye,\nBut in merry mocking accents smiling Lakshman made reply."
+  },
+  {
+   "type": "verse",
+   "text": "\"Ruddy in thy youthful beauty like the lotus in her pride,\nI am slave of royal Rama, would'st thou be a vassal's bride?"
+  },
+  {
+   "type": "verse",
+   "text": "Rather be his younger consort, banish Sita from his arms,\nSpurning Sita's faded beauty let him seek thy fresher charms,"
+  },
+  {
+   "type": "verse",
+   "text": "Spurning Sita's faded graces let him brighter pleasures prove,\nWearied with a woman's dalliance let him court a Raksha's love!\""
+  },
+  {
+   "type": "verse",
+   "text": "Wrath of unrequited passion raged like madness in her breast,\nTorn by anger strong as tempest thus her answer she addrest:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Are these mocking accents uttered, Rama, to insult my flame,\nFeasting on her faded beauty dost thou still revere thy dame?"
+  },
+  {
+   "type": "verse",
+   "text": "But beware a Raksha's fury and an injured female's wrath,\nSurpa-nakha slays thy consort, bears no rival in her path!\""
+  },
+  {
+   "type": "verse",
+   "text": "Fawn-eyed Sita fell in terror as the Raksha rose to slay,\nSo beneath the flaming meteor sinks Rohini's softer ray,"
+  },
+  {
+   "type": "verse",
+   "text": "And like Demon of Destruction furious Surpa-nakha came,\nRama rose to stop the slaughter and protect his helpless dame."
+  },
+  {
+   "type": "verse",
+   "text": "\"Brother, we have acted wrongly, for with those of savage breed,\nWord in jest is courting danger,--this the penance of our deed,"
+  },
+  {
+   "type": "verse",
+   "text": "Death perchance or death-like stupor hovers o'er my lovéd dame,\nLet me wake to life my Sita, chase this female void of shame!\""
+  },
+  {
+   "type": "verse",
+   "text": "Lakshman's anger leaped like lightning as the female hovered near.\nWith his sword the wrathful warrior cleft her nose and either ear,"
+  },
+  {
+   "type": "verse",
+   "text": "Surpa-nakha in her anguish raised her accents shrill and high,\nAnd the rocks and wooded valleys answered back the dismal cry,"
+  },
+  {
+   "type": "verse",
+   "text": "Khara and the doughty Dushan heard the far-resounding wail,\nSaw her red disfigured visage, heard her sad and woeful tale!"
+  },
+  {
+   "type": "heading",
+   "text": "Rama's Departure"
+  },
+  {
+   "type": "verse",
+   "text": "Vainly fought the vengeful Khara, doughty Dushan vainly bled,\nRama and the valiant Lakshman strewed the forest with the dead,"
+  },
+  {
+   "type": "verse",
+   "text": "Till the humbled Surpa-nakha to her royal brother hied,\nSpake her sorrows unto Ravan and Maricha true and tried."
+  },
+  {
+   "type": "verse",
+   "text": "Shape of deer unmatched in beauty now the deep Maricha wore,\nGolden tints upon his haunches, sapphire on his antlers bore,"
+  },
+  {
+   "type": "verse",
+   "text": "Till the woodland-wand'ring Sita marked the creature in his pride,\nGolden was his neck of beauty, silver-white his flank and side!"
+  },
+  {
+   "type": "verse",
+   "text": "\"Come, my lord and gallant Lakshman,\" thus the raptur'd Sita spake,\n\"Mark the deer of wondrous radiance browsing by the forest brake!\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Much my heart misgives me, sister,\" Lakshman hesitated still,\n\"Tis some deep deceitful Raksha wearing every shape at will,"
+  },
+  {
+   "type": "verse",
+   "text": "Monarchs wand'ring in this forest, hunting in this lonely glen,\nOft waylaid by artful Rakshas are by deep devices slain,"
+  },
+  {
+   "type": "verse",
+   "text": "Bright as day-god or Gandharva, woodland scenes they love to stray,\nTill they fall upon the heedless, quick to slaughter and to slay,"
+  },
+  {
+   "type": "verse",
+   "text": "Trust me, not in jewelled lustre forest creatures haunt the green,\n'Tis some maya and illusion, trust not what thy eyes have seen!\""
+  },
+  {
+   "type": "verse",
+   "text": "Vainly spake the watchful Lakshman in the arts of Rakshas skilled,\nFor with forceful fascination Sita's inmost heart was thrilled,"
+  },
+  {
+   "type": "verse",
+   "text": "\"Husband, good and ever gracious,\" sweetly thus implored the wife,\n\"I would tend this thing of beauty,--sharer of my forest life!"
+  },
+  {
+   "type": "verse",
+   "text": "I have witnessed in this jungle graceful creatures passing fair,\nChowri and the gentle roebuck, antelope of beauty rare,"
+  },
+  {
+   "type": "verse",
+   "text": "I have seen the lithesome monkey sporting in the branches' shade,\nGrizzly bear that feeds on Mahva, and the deer that crops the blade,"
+  },
+  {
+   "type": "verse",
+   "text": "I have marked the stately wild bull dash into the deepest wood,\nAnd the Kinnar strange and wondrous as in sylvan wilds he stood,"
+  },
+  {
+   "type": "verse",
+   "text": "But these eyes have never rested on a form so wondrous fair,\nOn a shape so full of beauty, decked with tints so rich and rare!"
+  },
+  {
+   "type": "verse",
+   "text": "Bright his bosom gem-bespangled, soft the lustre of his eye,\nLighting up the gloomy jungle as the Moon lights up the sky,"
+  },
+  {
+   "type": "verse",
+   "text": "And his gentle voice and glances and his graceful steps and light,\nFill my heart with eager longing and my soul with soft delight!"
+  },
+  {
+   "type": "verse",
+   "text": "If alive that beauteous object thou canst capture in thy way,\nAs thy Sita's sweet companion in these woodlands he will stay,"
+  },
+  {
+   "type": "verse",
+   "text": "And when done our days of exile, to Ayodhya will repair,\nDwell in Sita's palace chamber nursed by Sita's tender care,"
+  },
+  {
+   "type": "verse",
+   "text": "And our royal brother Bharat oft will praise his strength and speed,\nAnd the queens and royal mothers pause the gentle thing to feed!"
+  },
+  {
+   "type": "verse",
+   "text": "If alive this wary creature be it, husband, hard to take,\nSlay him and his skin of lustre cherish for thy Sita's sake,"
+  },
+  {
+   "type": "verse",
+   "text": "I will as a golden carpet spread the skin upon the grass,\nSweet memento of this forest when our forest days will pass!"
+  },
+  {
+   "type": "verse",
+   "text": "Pardon if an eager longing which befits a woman ill,\nAnd an unknown fascination doth my inmost bosom fill,"
+  },
+  {
+   "type": "verse",
+   "text": "As I mark his skin bespangled and his antlers' sapphire ray,\nAnd his coat of starry radiance glowing in the light of day!"
+  },
+  {
+   "type": "verse",
+   "text": "Rama bade the faithful Lakshman with the gentle Sita stay,\nLong through woods and gloomy gorges vainly held his cautious way,"
+  },
+  {
+   "type": "verse",
+   "text": "Vainly set the snare in silence by the lake and in the dale,\n'Scaping every trap, Maricha, pierced by Rama's arrows fell,"
+  },
+  {
+   "type": "verse",
+   "text": "Imitating Rama's accents uttered forth his dying cry:\n\"Speed, my faithful brother Lakshman, helpless in the woods I die!"
+  },
+  {
+   "type": "heading",
+   "text": "Lakshman's Departure"
+  },
+  {
+   "type": "verse",
+   "text": "\"Heardst that distant cry of danger?\" questioned Sita in distress,\n\"Woe, to me! who in my frenzy sent my lord to wilderness,"
+  },
+  {
+   "type": "verse",
+   "text": "Speed, brave Lakshman, help my Rama, doleful was his distant cry\nAnd my fainting bosom falters and a dimness clouds my eye!"
+  },
+  {
+   "type": "verse",
+   "text": "To the dread and darksome forest with thy keenest arrows speed,\nHelp thy elder and thy monarch, sore his danger and his need,"
+  },
+  {
+   "type": "verse",
+   "text": "For perchance the cruel Rakshas gather round his lonesome path,\nAs the mighty bull is slaughtered by the lions in their wrath!\""
+  },
+  {
+   "type": "verse",
+   "text": "Spake the hero: \"Fear not, Sita! Dwellers of the azure height,\nRakshas nor the jungle-rangers match the peerless Rama's might,"
+  },
+  {
+   "type": "verse",
+   "text": "Rama knows no dread or danger, and his mandate still I own,\nAnd I may not leave thee, Lady, in this cottage all alone!"
+  },
+  {
+   "type": "verse",
+   "text": "Cast aside thy causeless terror; in the sky or earth below,\nIn the nether regions, Rama knows no peer or equal foe,"
+  },
+  {
+   "type": "verse",
+   "text": "He shall slay the deer of jungle, he shall voice no dastard cry,\n'Tis some trick of wily Rakshas in this forest dark and high!"
+  },
+  {
+   "type": "verse",
+   "text": "Sita, thou hast heard my elder bid me in this cottage stay,\nLakshman may not leave thee, Lady, for this duty--to obey."
+  },
+  {
+   "type": "verse",
+   "text": "Ruthless Rakshas roam the forest to revenge their leader slain,\nVarious are their arts and accents; chase thy thought of causeless pain!\""
+  },
+  {
+   "type": "verse",
+   "text": "Sparkled Sita's eye in anger, frenzy marked her speech and word,\nFor a woman's sense is clouded by the danger of her lord:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Markest thou my Rama's danger with a cold and callous heart,\nCourtest thou the death of elder in thy deep deceitful art,"
+  },
+  {
+   "type": "verse",
+   "text": "In thy semblance of compassion dost thou hide a cruel craft,\nAs in friendly guise the foeman hides his death-compelling shaft,"
+  },
+  {
+   "type": "verse",
+   "text": "Following like a faithful younger in this dread and lonesome land,\nSeekest thou the death of elder to enforce his widow's hand?"
+  },
+  {
+   "type": "verse",
+   "text": "False thy hope as foul thy purpose! Sita is a faithful wife,\nSita follows saintly Rama, true in death as true in life!\""
+  },
+  {
+   "type": "verse",
+   "text": "Quivered Lakshman's frame in anguish and the tear stood in his eye,\nFixed in faith and pure in purpose, calm and bold he made reply:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Unto me a Queen and Goddess,--as a mother to a son,\nAnswer to thy heedless censure patient Lakshman speaketh none,"
+  },
+  {
+   "type": "verse",
+   "text": "Daughter of Videha's monarch,--pardon if I do thee wrong,\nFickle is the faith of woman, poison-dealing is her tongue!"
+  },
+  {
+   "type": "verse",
+   "text": "And thy censure, trust me, Lady, scathes me like a burning dart,\nFree from guile is Lakshman's purpose, free from sin is Lakshman's heart,"
+  },
+  {
+   "type": "verse",
+   "text": "Witness ye my truth of purpose, unseen dwellers of the wood,\nWitness, I for Sita's safety by my elder's mandate stood,"
+  },
+  {
+   "type": "verse",
+   "text": "Duteous to my queen and elder, I have toiled and worked in vain,\nDark suspicion and dishonour cast on me a needless stain!"
+  },
+  {
+   "type": "verse",
+   "text": "Lady! I obey thy mandate, to my elder now I go,\nGuardian Spirits of the forest watch thee from each secret foe,"
+  },
+  {
+   "type": "verse",
+   "text": "Omens dark and signs of danger meet my pained and aching sight,\nMay I see thee by thy Rama, guarded by his conquering might!\""
+  },
+  {
+   "type": "heading",
+   "text": "Ravan's Coming"
+  },
+  {
+   "type": "verse",
+   "text": "Ravan watched the happy moment burning with a vengeful spite,\nCame to sad and sorrowing Sita in the guise of anchorite,"
+  },
+  {
+   "type": "verse",
+   "text": "Tufted hair and russet garment, sandals on his feet he wore.\nAnd depending from his shoulders on a staff his vessel bore."
+  },
+  {
+   "type": "verse",
+   "text": "And he came to lonely Sita, for each warlike chief was gone,\nAs the darkness comes to evening lightless from the parted Sun,"
+  },
+  {
+   "type": "verse",
+   "text": "And he cast his eyes on Sita, as a graha casts its shade\nOn the beauteous star Rohini when the bright Moon's glories fade."
+  },
+  {
+   "type": "verse",
+   "text": "Quaking Nature knew the moment; silent stood the forest trees,\nConscious of a deed of darkness fell the fragrant forest breeze,"
+  },
+  {
+   "type": "verse",
+   "text": "Godavari's troubled waters trembled 'neath his lurid glance,\nAnd his red eye's fiery lustre sparkled in the wavelets' dance!"
+  },
+  {
+   "type": "verse",
+   "text": "Mute and still were forest creatures when in guise of anchorite,\nUnto Sita's lonely cottage pressed the Raksha in his might,"
+  },
+  {
+   "type": "verse",
+   "text": "Mute and voiceless was the jungle as he cast on her his eye,\nAs across the star of Chitra, planet Sani walks the sky!"
+  },
+  {
+   "type": "verse",
+   "text": "Ravan stood in hermit's vestments,--vengeful purpose unrevealed,--\nAs a deep and darksome cavern is by grass and leaf concealed,"
+  },
+  {
+   "type": "verse",
+   "text": "Ravan stood sedate and silent, and he gazed on Rama's queen,\nIvory brow and lip of coral, sparkling teeth of pearly sheen!"
+  },
+  {
+   "type": "verse",
+   "text": "Lighting up the lonely cottage, Sita sat in radiance high,\nAs the Moon with streaks of silver fills the lonely midnight sky,"
+  },
+  {
+   "type": "verse",
+   "text": "Lighting up the gloomy woodlands with her eyes serenely fair,\nWith her bark-clad shape of beauty mantled by her raven hair!"
+  },
+  {
+   "type": "verse",
+   "text": "Ravan fired by impure passion fixed on her his lustful eye,\nAnd the light that lit his glances gave his holy texts the lie,"
+  },
+  {
+   "type": "verse",
+   "text": "Ravan in his flattering accents, with a soft and soothing art,\nPraised the woman's peerless beauty to subdue the woman's heart:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Beaming in thy golden beauty, robed in sylvan russet dress,\nWearing wreath of fragrant lotus like a nymph of wilderness,"
+  },
+  {
+   "type": "verse",
+   "text": "Art thou Sri or radiant Gauri, maid of Fortune or of Fame,\nNymph of Love or sweet Fruition, what may be thy sacred name!"
+  },
+  {
+   "type": "verse",
+   "text": "On thy lips of ruddy coral teeth of tender jasmine shine,\nIn thy eyes of limpid lustre dwells a light of love divine,"
+  },
+  {
+   "type": "verse",
+   "text": "Tall and slender, softly rounded, are thy limbs of beauty rare,\nLike the swelling fruit of tala leaves thy bosom sweetly fair!"
+  },
+  {
+   "type": "verse",
+   "text": "Smiling lips that tempt and ravish, lustre that thy dark eyes beam,\nCrush my heart, as rolling waters crush the margin of the stream."
+  },
+  {
+   "type": "verse",
+   "text": "And thy wealth of waving tresses mantles o'er thy budding charms,\nAnd thy waist of slender beauty courts a lover's circling arms!"
+  },
+  {
+   "type": "verse",
+   "text": "Goddess or Gandharva maiden wears no brighter form or face,\nWoman seen by eyes of mortals owns not such transcendent grace."
+  },
+  {
+   "type": "verse",
+   "text": "Wherefore then, in lonesome forest, nymph or maiden, make thy stay,\nWhere the jungle creatures wander and the Rakshas hold their sway?"
+  },
+  {
+   "type": "verse",
+   "text": "Royal halls and stately mansions were for thee a meeter home,\nAnd thy steps should grace a palace, not in pathless forest roam,"
+  },
+  {
+   "type": "verse",
+   "text": "Blossoms rich, not thorn of jungle, decorate a lady's bower,\nSilken robes, not sylvan garments, heighten Beauty's potent power!"
+  },
+  {
+   "type": "verse",
+   "text": "Lady of the sylvan forest! other destiny is thine,\nAs a bride beloved and courted in thy bridal garments shine,"
+  },
+  {
+   "type": "verse",
+   "text": "Choose a loved and lordly suitor who shall wait on thee in pride,\nChoose a hero worth thy beauty, be a monarch's queenly bride!"
+  },
+  {
+   "type": "verse",
+   "text": "Speak thy lineage, heaven-descended! who may be thy parents high,\nRudras or the radiant Maruts, Vasus leaders of the sky,"
+  },
+  {
+   "type": "verse",
+   "text": "All unworthy is this forest for a nymph or heavenly maid,\nBeasts of prey infest the jungle, Rakshas haunt its gloomy shade,"
+  },
+  {
+   "type": "verse",
+   "text": "Lions dwell in lovely caverns, tuskers ford the silent lake,\nMonkeys sport on pendant branches, tigers steal beneath the brake,"
+  },
+  {
+   "type": "verse",
+   "text": "Wherefore then this dismal forest doth thy fairy face adorn,\nWho art thou and whence descended, nymph or maid or goddess-born?"
+  },
+  {
+   "type": "heading",
+   "text": "Ravan's Wooing"
+  },
+  {
+   "type": "verse",
+   "text": "\"Listen, Brahman!\" answered Sita,--unsuspecting in her mind\nThat she saw a base betrayer in a hermit seeming kind,--"
+  },
+  {
+   "type": "verse",
+   "text": "\"I am born of royal Janak, ruler of Videha's land,\nRama prince of proud Kosala by his valour won my hand."
+  },
+  {
+   "type": "verse",
+   "text": "Years we passed in peaceful pleasure in Ayodhya's happy clime,\nRich in every rare enjoyment gladsome passed our happy time,"
+  },
+  {
+   "type": "verse",
+   "text": "Till the monarch Dasa-ratha,--for his days were almost done,\nWished to crown the royal Rama as his Heir and Regent son."
+  },
+  {
+   "type": "verse",
+   "text": "But the scheming Queen Kaikeyi claimed a long-forgotten boon,\nThat my consort should be exiled and her son should fill the throne,"
+  },
+  {
+   "type": "verse",
+   "text": "She would take no rest or slumber, nourishment of drink or food,\nTill her Bharat ruled the empire, Rama banished to the wood!"
+  },
+  {
+   "type": "verse",
+   "text": "Five and twenty righteous summers graced my good and gracious lord,\nTrue to faith and true to duty, true in purpose, deed, and word,"
+  },
+  {
+   "type": "verse",
+   "text": "Loved of all his loyal people, rich in valour and in fame,\nFor the rite of consecration Rama to his father came."
+  },
+  {
+   "type": "verse",
+   "text": "Spake Kaikeyi to my husband:--'List thy father's promise fair,\nBharat shall be ruling monarch, do thou to the woods repair,'--"
+  },
+  {
+   "type": "verse",
+   "text": "Ever gentle, ever duteous, Rama listened to obey,\nAnd through woods and pathless jungles we have held our lonely way."
+  },
+  {
+   "type": "verse",
+   "text": "This, O pious-hearted hermit, is his story of distress,\nAnd his young and faithful brother follows him in wilderness,"
+  },
+  {
+   "type": "verse",
+   "text": "Lion in his warlike valour, hermit in his saintly vow,\nLakshman with his honoured elder wanders through the forest now."
+  },
+  {
+   "type": "verse",
+   "text": "Rest thee here, O holy Brahman, rich in piety and fame,\nTill the forest-ranging brothers greet thee with the forest game,"
+  },
+  {
+   "type": "verse",
+   "text": "Speak, if so it please thee, father, what great rishi claims thy birth,\nWherefore in this pathless jungle wand'rest friendless on this earth.\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Brahman nor a righteous rishi,\" royal Ravan made reply,\n\"Leader of the wrathful Rakshas, Lanka's lord and king am I,"
+  },
+  {
+   "type": "verse",
+   "text": "He whose valour quells the wide-world, Gods above and men below,\nHe whose proud and peerless prowess Rakshas and Asuras know!"
+  },
+  {
+   "type": "verse",
+   "text": "But thy beauty's golden lustre, Sita, wins my royal heart,\nBe a sharer of my empire, of my glory take a part,"
+  },
+  {
+   "type": "verse",
+   "text": "Many queens of queenly beauty on the royal Ravan wait,\nThou shalt be their reigning empress, thou shalt own my regal state!"
+  },
+  {
+   "type": "verse",
+   "text": "Lanka girt by boundless ocean is of royal towns the best,\nSeated in her pride and glory on a mountain's towering crest,"
+  },
+  {
+   "type": "verse",
+   "text": "And in mountain paths and woodlands thou shalt with thy Ravan stray,\nNot in Godavari's gorges through the dark and dreary day,"
+  },
+  {
+   "type": "verse",
+   "text": "And five thousand gay-dressed damsels shall upon my Sita wait,\nQueen of Ravan's true affection, proud partaker of his state!\""
+  },
+  {
+   "type": "verse",
+   "text": "Sparkled Sita's eyes in anger and a tremor shook her frame,\nAs in proud and scornful accents answered thus the royal dame:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Knowest thou Rama great and godlike, peerless hero in the strife,\nDeep, uncompassed, like the ocean?--I am Rama's wedded wife!"
+  },
+  {
+   "type": "verse",
+   "text": "Knowest thou Rama proud and princely, sinless in his saintly life,\nStately as the tall Nyagrodha?--I am Rama's wedded wife!"
+  },
+  {
+   "type": "verse",
+   "text": "Mighty-arméd, mighty-chested, mighty with his bow and sword,\nLion midst the sons of mortals,--Rama is my wedded lord!"
+  },
+  {
+   "type": "verse",
+   "text": "Stainless as the Moon in glory, stainless in his deed and word,\nRich in valour and in virtue,--Rama is my wedded lord!"
+  },
+  {
+   "type": "verse",
+   "text": "Sure thy fitful life is shadowed by a dark and dreadful fate,\nSince in frenzy of thy passion courtest thou a warrior's mate,"
+  },
+  {
+   "type": "verse",
+   "text": "Tear the tooth of hungry lion while upon the calf he feeds,\nTouch the fang of deadly cobra while his dying victim bleeds,"
+  },
+  {
+   "type": "verse",
+   "text": "Aye, uproot the solid mountain from its base of rocky land,\nEre thou win the wife of Rama stout of heart and strong of hand!"
+  },
+  {
+   "type": "verse",
+   "text": "Pierce thy eye with point of needle till it racks thy tortured head,\nPress thy red tongue cleft and bleeding on the razor's shining blade,"
+  },
+  {
+   "type": "verse",
+   "text": "Hurl thyself upon the ocean from a towering peak and high,\nSnatch the orbs of day and midnight from their spheres in azure sky,"
+  },
+  {
+   "type": "verse",
+   "text": "Tongues of flaming conflagration in thy flowing dress enfold,\nEre thou take the wife of Rama to thy distant dungeon hold,"
+  },
+  {
+   "type": "verse",
+   "text": "Ere thou seek to insult Rama unrelenting in his wrath,\nO'er a bed of pikes of iron tread a softer easier path!\""
+  },
+  {
+   "type": "heading",
+   "text": "Ravan's Triumph"
+  },
+  {
+   "type": "verse",
+   "text": "Vain her threat and soft entreaty, Ravan held her in his wrath,\nAs the planet Budha captures fair Rohini in his path,"
+  },
+  {
+   "type": "verse",
+   "text": "By his left hand tremor-shaken, Ravan held her streaming hair,\nBy his right the ruthless Raksha lifted up the fainting fair!"
+  },
+  {
+   "type": "verse",
+   "text": "Unseen dwellers of the woodlands watched the dismal deed of shame,\nMarked the mighty-arméd Raksha lift the poor and helpless dame,"
+  },
+  {
+   "type": "verse",
+   "text": "Seat her on his car celestial yoked with asses winged with speed,\nGolden in its shape and radiance, fleet as Indra's heavenly steed!"
+  },
+  {
+   "type": "verse",
+   "text": "Angry threat and sweet entreaty Ravan to her ears addressed,\nAs the struggling fainting woman still he held upon his breast,"
+  },
+  {
+   "type": "verse",
+   "text": "Vain his threat and vain entreaty, \"Rama! Rama!\" still she cried,\nTo the dark and distant forest where her noble lord had hied."
+  },
+  {
+   "type": "verse",
+   "text": "Then arose the car celestial o'er the hill and wooded vale,\nLike a snake in eagle's talons Sita writhed with piteous wail,"
+  },
+  {
+   "type": "verse",
+   "text": "Dim and dizzy, faint and faltering, still she sent her piercing cry,\nEchoing through the boundless woodlands, pealing to the upper sky!"
+  },
+  {
+   "type": "verse",
+   "text": "\"Save me mighty-arméd Lakshman, stainless in thy heart and deed,\nSave a faithful wife and woman from a Raksha's lust and greed."
+  },
+  {
+   "type": "verse",
+   "text": "True and faithful was thy warning,--false and foul the charge I made,\nPardon, friend, an erring sister, pardon words a woman said:"
+  },
+  {
+   "type": "verse",
+   "text": "Help me, ever righteous Rama, duty bade thee yield thy throne,\nDuty bids thee smite the sinful, save the wife who is thy own,"
+  },
+  {
+   "type": "verse",
+   "text": "Thou art king and stern chastiser of each deed of sin and shame.\nHurl thy vengeance on the Raksha who insults thy faithful dame!"
+  },
+  {
+   "type": "verse",
+   "text": "Deed of sin, unrighteous Ravan, brings in time its dreadful need,\nAs the young corn grows and ripens from the small and living seed,"
+  },
+  {
+   "type": "verse",
+   "text": "For this deed of insult, Ravan, in thy heedless folly done,\nDeath of all thy race and kindred thou shalt reap from Raghu's son!"
+  },
+  {
+   "type": "verse",
+   "text": "Darksome woods of Panchavati, Janasthana's smiling vale,\nFlowering trees and winding creepers, murmur to my lord this tale,"
+  },
+  {
+   "type": "verse",
+   "text": "Sweet companions of my exile, friends who cheered my woodland stay,\nSpeak to Rama, that his Sita ruthless Ravan bears away!"
+  },
+  {
+   "type": "verse",
+   "text": "Towering peaks and lofty mountains, wooded hills sublime and high,\nFar-extending gloomy ranges heaving to the azure sky,"
+  },
+  {
+   "type": "verse",
+   "text": "In your voice of pealing thunder to my lord and consort say,\nSpeak of Rama, that his Sita ruthless Ravan bears away!"
+  },
+  {
+   "type": "verse",
+   "text": "Unseen dwellers of the woodlands, spirits of the rock and fell,\nSita renders you obeisance as she speaks her sad farewell,"
+  },
+  {
+   "type": "verse",
+   "text": "Whisper to my righteous Rama when he seeks his homeward way,\nSpeak to Rama, that his Sita ruthless Ravan bears away!"
+  },
+  {
+   "type": "verse",
+   "text": "Ah, my Rama, true and tender! thou hast loved me as thy life,\nFrom the foul and impious Raksha thou shalt still redeem thy wife,"
+  },
+  {
+   "type": "verse",
+   "text": "Ah, my Rama, mighty-arméd! vengeance soon shall speed thy way,\nWhen thou hearest helpless Sita is by Ravan torn away!"
+  },
+  {
+   "type": "verse",
+   "text": "And thou royal bird, Jatayu, witness Ravan's deed of shame,\nWitness how he courts destruction, stealing Rama's faithful dame,"
+  },
+  {
+   "type": "verse",
+   "text": "Rama and the gallant Lakshman soon shall find their destined prey,\nWhen they know that trusting Sita is by Ravan torn away!\""
+  },
+  {
+   "type": "verse",
+   "text": "Vainly wept the anguished Sita; vain Jatayu in his wrath,\nFought with beak and bloody talons to impede the Raksha's path,"
+  },
+  {
+   "type": "verse",
+   "text": "Pierced and bleeding fell the vulture; Ravan fled with Rama's bride,\nWhere amidst the boundless ocean Lanka rose in towering pride!"
+  }
+ ],
+ "workId": "hindu-ramayana-2",
+ "livingTradition": "Hindus",
+ "wordCount": 3945,
+ "readingMinutes": 22,
+ "readingLevel": {
+  "fkGrade": 15.4,
+  "avgSentenceWords": 38.0,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-hindu--the-ramayana-part-2-sita-is-stolen"
+}

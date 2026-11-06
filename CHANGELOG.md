@@ -14,7 +14,10 @@ versioning: [SemVer](https://semver.org/).
   in 1973, so they aren't public domain everywhere, and the mythology shelves only use sources
   that are.
 
-- The offline download is now advertised as about 10 MB of text (45 MB with illustrations), up
+- `build_simplified.py` reads quoted front-matter values: Prettier quotes a value with ": " in it,
+  such as a retelling title with a colon, and the quotes ended up in the title.
+
+- The offline download is now advertised as about 12 MB of text (47 MB with illustrations), up
   from 9 and 40, to keep up with the mythology shelves.
 
 - The end note of a retelling with no original now says "There is no public-domain text of this
@@ -35,6 +38,17 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 28: Hindu myths, third part. The Ramayana in six parts: the bow and the exile,
+  Sita stolen, Hanuman finding Sita, the bridge to Lanka, the battle and Rama's homecoming. Parts
+  1–3, 5 and 6 are Romesh C. Dutt's verse condensation (1899, new collection `rc-dutt-ramayana`,
+  `tools/extract_ramayana_verse.py`), from sacred-texts.com's edition with its slips corrected; part
+  4 is Manmatha Nath Dutt's prose (Yuddha Kanda XXI–XXII, 1893), as Romesh Dutt leaves the bridge out.
+  Parts 1, 2, 5 and 6 are `mature-themes` (Kaikeyi's and Bharat's threats to die, Surpa-nakha maimed,
+  the battlefield, Sita asking for her pyre). From Ganguli's Mahabharata: Arjuna sees only the bird,
+  Ekalavya (`mature-themes`: he cuts off his thumb), Nala and Damayanti up to their wedding
+  (`mature-themes`: she names ways she would kill herself), Bhima meets Hanuman, Savitri and
+  Satyavan, and Yudhishthira and the yaksha. `myths-hindu` retells all twelve; all are marked as
+  sacred to Hindus.
 - Mythology, part 27: Hindu myths, second part. From Ganguli's Mahabharata: Ganesha writes down the
   Mahabharata at Vyasa's dictation. From Dutt's Vishnu Purana: the birth of Krishna
   (`mature-themes`: Kansa kills Devaki's babies), Krishna and the serpent Kaliya, and Krishna lifting
