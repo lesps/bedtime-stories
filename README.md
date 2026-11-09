@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 1175 public-domain children's stories in 103 collections — Aesop
+A calm, offline-capable reader for 1177 public-domain children's stories in 104 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -63,7 +63,9 @@ Ganesha's elephant head, his race with Kartikeya, and Durga and the buffalo demo
 Claude; the Ramayana in six parts, from Romesh C. Dutt's verse condensation (1899) and Manmatha
 Nath Dutt's prose; and six episodes of the Mahabharata from Ganguli (Arjuna and the bird, Ekalavya,
 Nala and Damayanti, Bhima meeting Hanuman, Savitri, and Yudhishthira's answers to the yaksha); all
-marked as sacred to Hindus. Where no
+marked as sacred to Hindus. Tamil: Murugan and the fruit of wisdom (the Palani legend, linked to
+Ganesha's race as another version) and Kannagi and the anklet, from the Silappatikaram, both
+retold by Claude. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,
