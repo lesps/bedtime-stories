@@ -38,6 +38,11 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 29: Tamil myths, a new `myths-tamil` collection and `tamil` culture, both retold
+  by Claude with no public-domain text to work from (‡). Murugan and the fruit of wisdom, the
+  Palani temple legend, shares a `workId` with Ganesha and Kartikeya's race, so each lists the
+  other under Other versions; it is marked as sacred to Hindus. Kannagi and the anklet, from Ilango
+  Adigal's Silappatikaram, is `mature-themes` (Kovalan's execution and the burning of Madurai).
 - Mythology, part 28: Hindu myths, third part. The Ramayana in six parts: the bow and the exile,
   Sita stolen, Hanuman finding Sita, the bridge to Lanka, the battle and Rama's homecoming. Parts
   1–3, 5 and 6 are Romesh C. Dutt's verse condensation (1899, new collection `rc-dutt-ramayana`,
