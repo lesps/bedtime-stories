@@ -1,0 +1,52 @@
+{
+ "id": "ganguli-mahabharata--ekalavya-the-archer-who-taught-himself",
+ "collectionId": "ganguli-mahabharata",
+ "order": 7,
+ "title": "Ekalavya, the Archer Who Taught Himself",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Drona, a great master of arms, teaches the young princes of the Kuru royal family: the five Pandava brothers, Yudhishthira, Bhima, Arjuna and the twins Nakula and Sahadeva, and their cousins, the hundred sons of Dhritarashtra, led by Duryodhana. The bard Vaisampayana tells this story to King Janamejaya. Drona has promised his favourite pupil, Arjuna, that no archer in the world will ever equal him."
+  },
+  {
+   "type": "p",
+   "text": "Amongst those that came there, O monarch, was a prince named Ekalavya, who was the son of Hiranyadhanus, king of the Nishadas (the lowest of the mixed orders). Drona, however, cognisant of all rules of morality, accepted not the prince as his pupil in archery, seeing that he was a Nishada who might (in time) excel all his high-born pupils. But, O oppressor of all enemies, the Nishada prince, touching Drona’s feet with bent head, wended his way into the forest, and there he made a clay-image of Drona, and began to worship it respectfully, as if it was his real preceptor, and practised weapons before it with the most rigid regularity. In consequence of his exceptional reverence for his preceptor and his devotion to his purpose, all the three processes of fixing arrows on the bowstring, aiming, and letting off became very easy for him."
+  },
+  {
+   "type": "p",
+   "text": "“And one day, O grinder of foes, the Kuru and the Pandava princes, with Drona’s leave, set out in their cars on a hunting excursion. A servant, O king, followed the party at leisure, with the usual implements and a dog. Having come to the woods, they wandered about, intent on the purpose they had in view. Meanwhile, the dog also, in wandering alone in the woods, came upon the Nishada prince (Ekalavya). And beholding the Nishada of dark hue, of body besmeared with filth, dressed in black and bearing matted locks on head, the dog began to bark aloud."
+  },
+  {
+   "type": "p",
+   "text": "“Thereupon the Nishada prince, desirous of exhibiting his lightness of hand, sent seven arrows into its mouth (before it could shut it). The dog, thus pierced with seven arrows, came back to the Pandavas. Those heroes, who beheld that sight, were filled with wonder, and, ashamed of their own skill, began to praise the lightness of hand and precision of aim by auricular precision (exhibited by the unknown archer). And they thereupon began to seek in those woods for the unknown dweller therein that had shown such skill. And, O king, the Pandavas soon found out the object of their search ceaselessly discharging arrows from the bow. And beholding that man of grim visage, who was totally a stranger to them, they asked, ‘Who art thou and whose son?’ Thus questioned, the man replied, ‘Ye heroes, I am the son of Hiranyadhanus, king of the Nishadas. Know me also for a pupil of Drona, labouring for the mastery of the art of arms.’"
+  },
+  {
+   "type": "p",
+   "text": "“Vaisampayana continued, ‘The Pandavas then, having made themselves acquainted with everything connected with him, returned (to the city), and going unto Drona, told him of that wonderful feat of archery which they had witnessed in the woods. Arjuna, in particular, thinking all the while, O king, Ekalavya, saw Drona in private and relying upon his preceptor’s affection for him, said, ‘Thou hadst lovingly told me, clasping me, to thy bosom, that no pupil of thine should be equal to me. Why then is there a pupil of thine, the mighty son of the Nishada king, superior to me?”"
+  },
+  {
+   "type": "p",
+   "text": "‘Vaisampayana continued, ‘On hearing these words, Drona reflected for a moment, and resolving upon the course of action he should follow, took Arjuna with him and went unto the Nishada prince. And he beheld Ekalavya with body besmeared with filth, matted locks (on head), clad in rags, bearing a bow in hand and ceaselessly shooting arrows therefrom. And when Ekalavya saw Drona approaching towards him, he went a few steps forward, and touched his feet and prostrated himself on the ground. And the son of the Nishada king worshipping Drona, duly represented himself as his pupil, and clasping his hands in reverence stood before him (awaiting his commands). Then Drona, O king, addressed Ekalavya, saying, ‘If, O hero, thou art really my pupil, give me then my fees.’ On hearing these words, Ekalavya was very much gratified, and said in reply, ‘O illustrious preceptor, what shall I give? Command me; for there is nothing, O foremost of all persons conversant with the Vedas, that I may not give unto my preceptor.’ Drona answered, ‘O Ekalavya, if thou art really intent on making me a gift, I should like then to have the thumb of thy right hand.’"
+  },
+  {
+   "type": "p",
+   "text": "“Vaisampayana continued, ‘Hearing these cruel words of Drona, who had asked of him his thumb as tuition-fee, Ekalavya, ever devoted to truth and desirous also of keeping his promise, with a cheerful face and an unafflicted heart cut off without ado his thumb, and gave it unto Drona. After this, when the Nishada prince began once more to shoot with the help of his remaining fingers, he found, O king, that he had lost his former lightness of hand. And at this Arjuna became happy, the fever (of jealousy) having left him."
+  }
+ ],
+ "workId": "hindu-ekalavya",
+ "livingTradition": "Hindus",
+ "wordCount": 861,
+ "readingMinutes": 5,
+ "readingLevel": {
+  "fkGrade": 11.9,
+  "avgSentenceWords": 25.8,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-hindu--ekalavya-the-archer-who-taught-himself"
+}

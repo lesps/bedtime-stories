@@ -1,0 +1,828 @@
+{
+ "id": "rc-dutt-ramayana--the-ramayana-part-1-the-bow-and-the-exile",
+ "collectionId": "rc-dutt-ramayana",
+ "order": 1,
+ "title": "The Ramayana, Part 1: The Bow and the Exile",
+ "origin": null,
+ "excluded": false,
+ "flags": [
+  "mature-themes"
+ ],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "King Dasa-ratha of Ayodhya has four sons, and Rama, the eldest, is the hero of this story. The sage Viswa-mitra has brought Rama and his brother Lakshman to the city of Mithila, whose king, Janak, has promised his daughter Sita to the man who can bend the great bow of the god Rudra (Shiva). A rishi is a holy sage, and Rakshas are demons."
+  },
+  {
+   "type": "heading",
+   "text": "Mithila, and the Breaking of the Bow"
+  },
+  {
+   "type": "verse",
+   "text": "Janak monarch of Videha spake his message near and far,\nHe shall win my peerless Sita who shall bend my bow of war,"
+  },
+  {
+   "type": "verse",
+   "text": "Suitors came from farthest regions, warlike princes known to fame,\nVainly strove to wield the weapon, left Videha in their shame."
+  },
+  {
+   "type": "verse",
+   "text": "Viswa-mitra royal rishi, Rama true and Lakshman bold,\nCame to fair Mithila's city from Ayodhya famed of old,"
+  },
+  {
+   "type": "verse",
+   "text": "Spake in pride the royal rishi: \"Monarch of Videha's throne,\nGrant, the wondrous bow of Rudra be to princely Rama shown.\""
+  },
+  {
+   "type": "verse",
+   "text": "Janak spake his royal mandate to his lords and warriors bold:\n\"Bring ye forth the bow of Rudra decked in garlands and in gold,\""
+  },
+  {
+   "type": "verse",
+   "text": "And his peers and proud retainers waiting on the monarch's call,\nBrought the great and goodly weapon from the city's inner hall."
+  },
+  {
+   "type": "verse",
+   "text": "Stalwart men of ample stature pulled the mighty iron car\nIn which rested all-inviolate Janak's dreaded bow of war,"
+  },
+  {
+   "type": "verse",
+   "text": "And where midst assembled monarchs sat Videha's godlike king,\nWith a mighty toil and effort did the eight-wheeled chariot bring."
+  },
+  {
+   "type": "verse",
+   "text": "\"This the weapon of Videha,\" proudly thus the peers begun,\n\"Be it shewn to royal Rama, Dasa-ratha's righteous son,\""
+  },
+  {
+   "type": "verse",
+   "text": "\"This the bow,\" then spake the monarch to the rishi famed of old,\nTo the true and righteous Rama and to Lakshman young and bold,"
+  },
+  {
+   "type": "verse",
+   "text": "\"This the weapon of my fathers prized by kings from age to age,\nMighty chiefs and sturdy warriors could not bend it, noble sage"
+  },
+  {
+   "type": "verse",
+   "text": "Gods before the bow of Rudra have in righteous terror quailed,\nRakshas fierce and stout Asuras have in futile effort failed,"
+  },
+  {
+   "type": "verse",
+   "text": "Mortal man will struggle vainly Rudra's wondrous bow to bend,\nVainly strive to string the weapon and the shining dart to send,"
+  },
+  {
+   "type": "verse",
+   "text": "Holy saint and royal rishi, here is Janak's ancient bow,\nShew it to Ayodhya's princes, speak to them my kingly vow!"
+  },
+  {
+   "type": "verse",
+   "text": "Viswa-mitra humbly listened to the words the monarch said,\nTo the brave and righteous Rama, Janak's mighty bow displayed,"
+  },
+  {
+   "type": "verse",
+   "text": "Rama lifted high the cover of the pond'rous iron car,\nGazed with conscious pride and prowess on the mighty bow of war."
+  },
+  {
+   "type": "verse",
+   "text": "\"Let me,\" humbly spake the hero, \"on this bow my fingers place,\nLet me lift and bend the weapon, help me with your loving grace.\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Be it so,\" the rishi answered, \"be it so,\" the monarch said,\nRama lifted high the weapon on his stalwart arms displayed,"
+  },
+  {
+   "type": "verse",
+   "text": "Wond'ring gazed the kings assembled as the son of Raghu's race\nProudly raised the bow of Rudra with a warrior's stately grace,"
+  },
+  {
+   "type": "verse",
+   "text": "Proudly strung the bow of Rudra which the kings had tried in vain\nDrew the cord with force resistless till the weapon snapped in twain!"
+  },
+  {
+   "type": "verse",
+   "text": "Like the thunder's pealing accent rose the loud terrific clang,\nAnd the firm earth shook and trembled and the hills in echoes rang,"
+  },
+  {
+   "type": "verse",
+   "text": "And the chiefs and gathered monarchs fell and fainted in their fear,\nAnd the men of many nations shook the dreadful sound to hear!"
+  },
+  {
+   "type": "verse",
+   "text": "Pale and white the startled monarchs slowly from their terror woke,\nAnd with royal grace and greetings Janak to the rishi spoke:"
+  },
+  {
+   "type": "verse",
+   "text": "Now my ancient eyes have witnessed wond'rous deed by Rama done,\nDeed surpassing thought or fancy wrought by Dasa-ratha's son,"
+  },
+  {
+   "type": "verse",
+   "text": "And the proud and peerless princess, Sita glory of my house,\nSheds on me an added lustre as she weds a godlike spouse,"
+  },
+  {
+   "type": "verse",
+   "text": "True shall be my plighted promise, Sita dearer than my life,\nWon by worth and wond'rous valour shall be Rama's faithful wife"
+  },
+  {
+   "type": "verse",
+   "text": "Grant us leave, O royal rishi, grant us blessings kind and fair,\nEnvoys mounted on my chariot to Ayodhya shall repair,"
+  },
+  {
+   "type": "verse",
+   "text": "They shall speak to Rama's father glorious feat by Rama done,\nThey shall speak to Dasa-ratha, Sita is by valour won,"
+  },
+  {
+   "type": "verse",
+   "text": "They shall say the noble princes safely live within our walls,\nThey shall ask him by his presence to adorn our palace halls"
+  },
+  {
+   "type": "verse",
+   "text": "Pleased at heart the sage assented, envoys by the monarch sent,\nTo Ayodhya's distant city with the royal message went."
+  },
+  {
+   "type": "note",
+   "text": "Rama marries Sita. Years later old King Dasa-ratha decides to crown Rama as his heir. But Queen Kaikeyi, the youngest of his three queens and the mother of his son Bharat, is persuaded by her maid that Rama's crowning will ruin her and her son, and she remembers two boons that the king once promised her."
+  },
+  {
+   "type": "heading",
+   "text": "The Queen's Demand"
+  },
+  {
+   "type": "verse",
+   "text": "Rama shall be crowned at sunrise, so did royal bards proclaim,\nEvery rite arranged and ordered, Dasa-ratha homeward came,"
+  },
+  {
+   "type": "verse",
+   "text": "To the fairest of his consorts, dearest to his ancient heart,\nCame the king with eager gladness joyful message to impart,"
+  },
+  {
+   "type": "verse",
+   "text": "Radiant as the Lord of Midnight, ere the eclipse casts its gloom,\nCame the old and ardent monarch heedless of his darksome doom!"
+  },
+  {
+   "type": "verse",
+   "text": "Through the shady palace garden where the peacock wandered free.\nLute and lyre poured forth their music, parrot flew from tree to tree,"
+  },
+  {
+   "type": "verse",
+   "text": "Through the corridor of creepers, painted rooms by artists done,\nAnd the halls where scented Champak and the flaming Asok shone,"
+  },
+  {
+   "type": "verse",
+   "text": "Through the portico of splendour graced by silver, tusk and gold.\nRadiant with his thought of gladness walked the monarch proud and bold."
+  },
+  {
+   "type": "verse",
+   "text": "Through the lines of scented blossoms which by limpid waters shone,\nAnd the rooms with seats of silver, ivory bench and golden throne."
+  },
+  {
+   "type": "verse",
+   "text": "Through the chamber of confection, where each viand wooed the taste,\nEvery object in profusion as in regions of the blest,"
+  },
+  {
+   "type": "verse",
+   "text": "Through Kaikeyi's inner closet lighted with a softened sheen,\nWalked the king with eager longing,--but Kaikeyi was not seen!"
+  },
+  {
+   "type": "verse",
+   "text": "Thoughts of love and gentle dalliance woke within his ancient heart,\nAnd the magic of her beauty and the glamour of her art,"
+  },
+  {
+   "type": "verse",
+   "text": "With a soft desire the monarch vainly searched the vanished fair,\nFound her not in royal chamber, found her not in gay parterre!"
+  },
+  {
+   "type": "verse",
+   "text": "Filled with love and longing languor loitered not the radiant queen,\nIn her soft voluptuous chamber, in the garden, grove or green,"
+  },
+  {
+   "type": "verse",
+   "text": "And he asked the faithful warder of Kaikeyi loved and lost,\nShe who served him with devotion and his wishes never crost,"
+  },
+  {
+   "type": "verse",
+   "text": "Spake the warder in his terror that the queen with rage distraught.\nWeeping silent tears of anguish had the mourner's chamber sought!"
+  },
+  {
+   "type": "verse",
+   "text": "Thither flew the stricken monarch; on the bare and unswept ground,\nTrembling with tumultuous passion was the Queen Kaikeyi found,"
+  },
+  {
+   "type": "verse",
+   "text": "On the cold uncovered pavement sorrowing lay the weeping wife,\nYoung wife of an ancient husband, dearer than his heart and life!"
+  },
+  {
+   "type": "verse",
+   "text": "Like a bright and blossoming creeper rudely severed from the earth,\nLike a fallen fair Apsara, beauteous nymph of heavenly birth,"
+  },
+  {
+   "type": "verse",
+   "text": "Like a female forest-ranger bleeding from the hunter's dart,\nWhom her mate the forest-monarch soothes with soft endearing art,"
+  },
+  {
+   "type": "verse",
+   "text": "Lay the queen in tears of anguish! And with sweet and gentle word\nTo the lotus-eyéd lady softly spake her loving lord:"
+  },
+  {
+   "type": "verse",
+   "text": "Wherefore thus, my Queen and Empress, sorrow-laden is thy heart,\nWho with daring slight or insult seeks to cause thy bosom smart?"
+  },
+  {
+   "type": "verse",
+   "text": "If some unknown ailment pains thee, evil spirit of the air,\nSkilled physicians wait upon thee, priests with incantations fair,"
+  },
+  {
+   "type": "verse",
+   "text": "If from human foe some insult, wipe thy tears and doom his fate,\nRich reward or royal vengeance shall upon thy mandate wait!"
+  },
+  {
+   "type": "verse",
+   "text": "Wilt thou doom to death the guiltless, free whom direst sins debase,\nWilt thou lift the poor and lowly or the proud and great disgrace,"
+  },
+  {
+   "type": "verse",
+   "text": "Speak, and I and all my courtiers Queen Kaikeyi's hest obey,\nFor thy might is boundless, Empress, limitless thy regal sway!"
+  },
+  {
+   "type": "verse",
+   "text": "Rolls my chariot-wheel revolving from the sea to farthest sea,\nAnd the wide earth is my empire, monarchs list my proud decree,"
+  },
+  {
+   "type": "verse",
+   "text": "Nations of the eastern regions and of Sindhu's western wave,\nBrave Saurashtras and the races who the ocean's dangers brave,"
+  },
+  {
+   "type": "verse",
+   "text": "Vangas, Angas and Magadhas, warlike Matsyas of the west,\nKasis and the southern races, brave Kosalas first and best,"
+  },
+  {
+   "type": "verse",
+   "text": "Nations of my world-wide empire, rich in corn and sheep and kine,\nAll shall serve my Queen Kaikeyi and their treasures all are thine,"
+  },
+  {
+   "type": "verse",
+   "text": "Speak, command thy king's obedience, and thy wrath will melt away,\nLike the melting snow of winter 'neath the sun's reviving ray!\""
+  },
+  {
+   "type": "verse",
+   "text": "Blinded was the ancient husband as he lifted up her head,\nHeedless oath and word he plighted that her wish should be obeyed,"
+  },
+  {
+   "type": "verse",
+   "text": "Scheming for a fatal purpose, inly then Kaikeyi smiled,\nAnd by sacred oath and promise bound the monarch love-beguiled:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Thou hast given, Dasa-ratha, troth and word and royal oath,\nThree and thirty Gods be witness, watchers of the righteous truth,"
+  },
+  {
+   "type": "verse",
+   "text": "Sun and Moon and Stars be witness, Sky and Day and sable Night,\nRolling Worlds and this our wide Earth, and each dark and unseen wight,"
+  },
+  {
+   "type": "verse",
+   "text": "Witness Rangers of the forest, Household Gods that guard us both,\nMortal beings and Immortal,--witness ye the monarch's oath,"
+  },
+  {
+   "type": "verse",
+   "text": "Ever faithful to his promise, ever truthful in his word,\nDasa-ratha grants my prayer, Spirits and the Gods have heard!"
+  },
+  {
+   "type": "verse",
+   "text": "Call to mind, O righteous monarch, days when in a bygone strife,\nWarring with thy foes immortal thou hadst almost lost thy life,"
+  },
+  {
+   "type": "verse",
+   "text": "With a woman's loving tendance poor Kaikeyi cured thy wound,\nTill from death and danger rescued, thou wert by a promise bound,"
+  },
+  {
+   "type": "verse",
+   "text": "Two rewards my husband offered, what my loving heart might seek,\nLong delayed their wished fulfilment,--now let poor Kaikeyi speak,"
+  },
+  {
+   "type": "verse",
+   "text": "And if royal deeds redeem not what thy royal lips did say,\nVictim to thy broken promise Queen Kaikeyi dies to-day!"
+  },
+  {
+   "type": "verse",
+   "text": "By these rites ordained for Rama,--such the news my menials bring,--\nLet my Bharat, and not Rama, be anointed Regent King,"
+  },
+  {
+   "type": "verse",
+   "text": "Wearing skins and matted tresses, in the cave or hermit's cell,\nFourteen years in Dandak's forests let the elder Rama dwell,"
+  },
+  {
+   "type": "verse",
+   "text": "These are Queen Kaikeyi's wishes, these are boons for which I pray,\nI would see my son anointed, Rama banished on this day!\""
+  },
+  {
+   "type": "note",
+   "text": "All night the king begs Kaikeyi to change her mind, but she will not."
+  },
+  {
+   "type": "heading",
+   "text": "The Sentence"
+  },
+  {
+   "type": "verse",
+   "text": "Morning came and duteous Rama to the palace bent his way,\nFor to make his salutation and his due obeisance pay,"
+  },
+  {
+   "type": "verse",
+   "text": "And he saw his aged father shorn of kingly pomp and pride,\nAnd he saw the Queen Kaikeyi sitting by her consort's side."
+  },
+  {
+   "type": "verse",
+   "text": "Duteously the righteous Rama touched the ancient monarch's feet,\nTouched the feet of Queen Kaikeyi with a son's obeisance meet,"
+  },
+  {
+   "type": "verse",
+   "text": "\"Rama!\" cried the feeble monarch, but the tear bedimmed his eye,\nSorrow choked his failing utterance and his bosom heaved a sigh,"
+  },
+  {
+   "type": "verse",
+   "text": "Rama started in his terror at his father's grief or wrath,\nLike a traveller in the jungle crossed by serpent in his path!"
+  },
+  {
+   "type": "verse",
+   "text": "Reft of sense appeared the monarch, crushed beneath a load of pain,\nHeaving oft a sigh of sorrow as his heart would break in twain,"
+  },
+  {
+   "type": "verse",
+   "text": "Like the ocean tempest-shaken, like the sun in eclipse pale,\nLike a crushed repenting rishi when his truth and virtue fail!"
+  },
+  {
+   "type": "verse",
+   "text": "Breathless mused the anxious Rama,--what foul action hath he done,\nWhat strange anger fills his father, wherefore greets he not his son?"
+  },
+  {
+   "type": "verse",
+   "text": "\"Speak, my mother,\" uttered Rama, \"what strange error on my part.\nUnremembered sin or folly fills with grief my father's heart,"
+  },
+  {
+   "type": "verse",
+   "text": "Gracious unto me is father with a father's boundless grace,\nWherefore clouds his altered visage, wherefore tears bedew his face?"
+  },
+  {
+   "type": "verse",
+   "text": "Doth a piercing painful ailment rack his limbs with cruel smart,\nDoth some secret silent anguish wring his torn and tortured heart,"
+  },
+  {
+   "type": "verse",
+   "text": "Bharat lives with brave Satrughns, in thy father's realms afar,\nHath some cloud of dark disaster crossed their bright auspicious star?"
+  },
+  {
+   "type": "verse",
+   "text": "Duteously the royal consorts on the loving monarch wait,\nHath some woe or dire misfortune dimmed the lustre of their fate."
+  },
+  {
+   "type": "verse",
+   "text": "I would yield my life and fortune ere I wound my father's heart,\nHath my unknown crime or folly caused his ancient bosom smart!"
+  },
+  {
+   "type": "verse",
+   "text": "Ever dear is Queen Kaikeyi to her consort and her king,\nHath some angry accent escaped thee thus his royal heart to wring,"
+  },
+  {
+   "type": "verse",
+   "text": "Speak, my ever-loving mother, speak the truth, for thou must know,\nWhat distress or deep disaster pains his heart and clouds his brow?\""
+  },
+  {
+   "type": "verse",
+   "text": "Mother's love nor woman's pity moved the deep-determined queen,\nAs in cold and cruel accents thus she spake her purpose keen:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Grief nor woe nor sudden ailment pains thy father loved of old,\nBut he fears to speak his purpose to his Rama true and bold,"
+  },
+  {
+   "type": "verse",
+   "text": "And his loving accents falter some unloving wish to tell,\nTill you give your princely promise, you will serve his mandate well!"
+  },
+  {
+   "type": "verse",
+   "text": "Listen more, in bygone seasons,--Rama thou wert then unborn,\nI had saved thy royal father, he a gracious boon had sworn,"
+  },
+  {
+   "type": "verse",
+   "text": "But his feeble heart repenting is by pride and passion stirred,\nHe would break his royal promise as a caitiff breaks his word,"
+  },
+  {
+   "type": "verse",
+   "text": "Years have passed and now the monarch would his ancient word forego,\nHe would build a needless causeway when the waters ceased to flow!"
+  },
+  {
+   "type": "verse",
+   "text": "Truth inspires each deed attempted and each word by monarchs spoke,\nNot for thee, though loved and honoured, should a royal vow be broke,"
+  },
+  {
+   "type": "verse",
+   "text": "If the true and righteous Rama binds him by his father's vow,\nI will tell thee of the anguish which obscures his royal brow,"
+  },
+  {
+   "type": "verse",
+   "text": "If thy feeble bosom falter and thy halting purpose fail,\nUnredeemed is royal promise and unspoken is my tale!"
+  },
+  {
+   "type": "verse",
+   "text": "\"Speak thy word,\" exclaimed the hero, \"and my purpose shall not fail,\nRama serves his father's mandate and his bosom shall not quail,"
+  },
+  {
+   "type": "verse",
+   "text": "Poisoned cup or death untimely,--what the cruel fates decree,\nTo his king and to his father Rama yields obedience free,"
+  },
+  {
+   "type": "verse",
+   "text": "Speak my father's royal promise, hold me by his promise tied,\nRama speaks and shall not palter, for his lips have never lied.\""
+  },
+  {
+   "type": "verse",
+   "text": "Cold and clear Kaikeyi's accents fell as falls the hunter's knife,\n\"Listen then to word of promise and redeem it with thy life,"
+  },
+  {
+   "type": "verse",
+   "text": "Wounded erst by foes immortal, saved by Queen Kaikeyi's care,\nTwo great boons your father plighted and his royal words were fair,"
+  },
+  {
+   "type": "verse",
+   "text": "I have sought their due fulfilment,--brightly shines my Bharat's star.\nBharat shall be Heir and Regent, Rama shall be banished far!"
+  },
+  {
+   "type": "verse",
+   "text": "If thy father's royal mandate thou wouldst list and honour still,\nFourteen years in Dandak's forest live and wander at thy will,"
+  },
+  {
+   "type": "verse",
+   "text": "Seven long years and seven, my Rama, thou shalt in the jungle dwell,\nBark of trees shall be thy raiment and thy home the hermit's cell,"
+  },
+  {
+   "type": "verse",
+   "text": "Over fair Kosala's empire let my princely Bharat reign,\nWith his cars and steeds and tuskers, wealth and gold and arméd men!"
+  },
+  {
+   "type": "verse",
+   "text": "Tender-hearted is the monarch, age and sorrow dim his eye,\nAnd the anguish of a father checks his speech and purpose high,"
+  },
+  {
+   "type": "verse",
+   "text": "For the love he bears thee, Rama, cruel vow he may not speak,\nI have spoke his will and mandate, and thy true obedience seek.\""
+  },
+  {
+   "type": "verse",
+   "text": "Calmly Rama heard the mandate, grief nor anger touched his heart,\nCalmly from his father's empire and his home prepared to part."
+  },
+  {
+   "type": "heading",
+   "text": "Woman's Love"
+  },
+  {
+   "type": "verse",
+   "text": "\"Dearly loved, devoted Sita! daughter of a royal line,\nPart we now, for years of wand'ring in the pathless woods is mine,"
+  },
+  {
+   "type": "verse",
+   "text": "For my father, promise-fettered, to Kaikeyi yields the sway,\nAnd she wills her son anointed,--fourteen years doth Rama stray,"
+  },
+  {
+   "type": "verse",
+   "text": "But before I leave thee, Sita, in the wilderness to rove,\nYield me one more tender token of thy true and trustful love!"
+  },
+  {
+   "type": "verse",
+   "text": "Serve my crownéd brother, Sita, as a faithful, duteous dame,\nTell him not of Rama's virtues, tell him not of Rama's claim,"
+  },
+  {
+   "type": "verse",
+   "text": "Since my royal father willeth,--Bharat shall be regent-heir,\nServe him with a loyal duty, serve him with obeisance fair,"
+  },
+  {
+   "type": "verse",
+   "text": "Since my royal father willeth,--years of banishment be mine,\nBrave in sorrow and in suffering, woman's brightest fame be thine"
+  },
+  {
+   "type": "verse",
+   "text": "Keep thy fasts and vigils, Sita, while thy Rama is away,\nFaith in Gods and faith in virtue on thy bosom hold their sway,"
+  },
+  {
+   "type": "verse",
+   "text": "In the early watch of morning to the Gods for blessings pray,\nTo my father Dasa-ratha honour and obeisance pay,"
+  },
+  {
+   "type": "verse",
+   "text": "To my mother, Queen Kausalya, is thy dearest tendance due,\nOffer her thy consolation, be a daughter fond and true!"
+  },
+  {
+   "type": "verse",
+   "text": "Queen Kaikeyi and Sumitra equal love and honour claim,\nWith a soothing soft endearment sweetly serve each royal dame,"
+  },
+  {
+   "type": "verse",
+   "text": "Cherish Bharat and Satrughna with a sister's watchful love,\nAnd a mother's true affection and a mother's kindness prove!"
+  },
+  {
+   "type": "verse",
+   "text": "Listen, Sita, unto Bharat speak no heedless angry word,\nHe is monarch of Kosala and of Raghu's race is lord,"
+  },
+  {
+   "type": "verse",
+   "text": "Crownéd kings our willing service and our faithful duty own,\nDearest sons they disinherit, cherish strangers near the throne!"
+  },
+  {
+   "type": "verse",
+   "text": "Bharat's will with deep devotion and with faultless faith obey,\nTruth and virtue on thy bosom ever hold their gentle sway,"
+  },
+  {
+   "type": "verse",
+   "text": "And to please each dear relation, gentle Sita, be it thine,\nPart we love! for years of wand'ring in the pathless woods is mine!\""
+  },
+  {
+   "type": "verse",
+   "text": "Rama spake, and soft-eyed Sita, ever sweet in speech and word,\nStirred by loving woman's passion boldly answered thus her lord:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Do I hear my husband rightly, are these words my Rama spake,\nAnd her banished lord and husband will the wedded wife forsake?"
+  },
+  {
+   "type": "verse",
+   "text": "Lightly I dismiss the counsel which my lord hath lightly said\nFor it ill beseems a warrior and my husband's princely grade;"
+  },
+  {
+   "type": "verse",
+   "text": "For the faithful woman follows where her wedded lord may lead,\nIn the banishment of Rama, Sita's exile is decreed,"
+  },
+  {
+   "type": "verse",
+   "text": "Sire nor son nor loving brother rules the wedded woman's state,\nWith her lord she falls or rises, with her consort courts her fate,"
+  },
+  {
+   "type": "verse",
+   "text": "If the righteous son of Raghu wends to forests dark and drear,\nSita steps before her husband wild and thorny path to clear!"
+  },
+  {
+   "type": "verse",
+   "text": "Like the tasted refuse water cast thy timid thoughts aside,\nTake me to the pathless jungle, bid me by my lord abide,"
+  },
+  {
+   "type": "verse",
+   "text": "Car and steed and gilded palace, vain are these to woman's life,\nDearer is her husband's shadow to the loved and loving wife!"
+  },
+  {
+   "type": "verse",
+   "text": "For my mother often taught me and my father often spake,\nThat her home the wedded woman doth beside her husband make,"
+  },
+  {
+   "type": "verse",
+   "text": "As the shadow to the substance, to her lord is faithful wife,\nAnd she parts not from her consort till she parts with fleeting life!"
+  },
+  {
+   "type": "verse",
+   "text": "Therefore bid me seek the jungle and in pathless forests roam,\nWhere the wild deer freely ranges and the tiger makes his home,"
+  },
+  {
+   "type": "verse",
+   "text": "Happier than in father's mansions in the woods will Sita rove,\nWaste no thought on home or kindred, nestling in her husband's love!"
+  },
+  {
+   "type": "verse",
+   "text": "World-renowned is Rama's valour, fearless by her Rama's side,\nSita will still live and wander with a faithful woman's pride,"
+  },
+  {
+   "type": "verse",
+   "text": "And the wild fruit she will gather from the fresh and fragrant wood,\nAnd the food by Rama tasted shall be Sita's cherished food!"
+  },
+  {
+   "type": "verse",
+   "text": "Bid me seek the sylvan greenwoods, wooded hills and plateaus high,\nLimpid rills and crystal nullas as they softly ripple by,"
+  },
+  {
+   "type": "verse",
+   "text": "And where in the lake of lotus tuneful ducks their plumage lave,\nLet me with my loving Rama skim the cool translucent wave!"
+  },
+  {
+   "type": "verse",
+   "text": "Years will pass in happy union,--happiest lot to woman given,--\nSita seeks not throne or empire, nor the brighter joys of heaven,"
+  },
+  {
+   "type": "verse",
+   "text": "Heaven conceals not brighter mansions in its sunny fields of pride,\nWhere without her lord and husband faithful Sita would reside!"
+  },
+  {
+   "type": "verse",
+   "text": "Therefore let me seek the jungle where the jungle-rangers rove,\nDearer than the royal palace, where I share my husband's love,"
+  },
+  {
+   "type": "verse",
+   "text": "And my heart in sweet communion shall my Rama's wishes share,\nAnd my wifely toil shall lighten Rama's load of woe and care!\""
+  },
+  {
+   "type": "verse",
+   "text": "Vainly gentle Rama pleaded dangers of the jungle life,\nVainly spake of toil and trial to a true and tender wife!"
+  },
+  {
+   "type": "heading",
+   "text": "Brother's Faithfulness"
+  },
+  {
+   "type": "verse",
+   "text": "Tears bedewed the face of Lakshman as he heard what Sita said,\nAnd he touched the feet of Rama and in gentle accents prayed:"
+  },
+  {
+   "type": "verse",
+   "text": "\"If my elder and his lady to the pathless forests wend,\nArmed with bow and ample quiver Lakshman will on them attend,"
+  },
+  {
+   "type": "verse",
+   "text": "Where the wild deer range the forest and the lordly tuskers roam,\nAnd the bird of gorgeous plumage nestles in its jungle home,"
+  },
+  {
+   "type": "verse",
+   "text": "Dearer far to me those woodlands where my elder Rama dwells,\nThan the homes of bright Immortals where perennial bliss prevails!"
+  },
+  {
+   "type": "verse",
+   "text": "Grant me then thy sweet permission,--faithful to thy glorious star,\nLakshman shall not wait and tarry when his Rama wanders far,"
+  },
+  {
+   "type": "verse",
+   "text": "Grant me then thy loving mandate,--Lakshman hath no wish to stay,\nNone shall bar the faithful younger when the elder leads the way!\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Ever true to deeds of virtue, duteous brother, faithful friend,\nDearer than his life to Rama, thou shall not to forests wend,"
+  },
+  {
+   "type": "verse",
+   "text": "Who shall stay by Queen Kausalya, Lakshman, if we both depart,\nWho shall stay by Queen Sumitra, she who nursed thee on her heart?"
+  },
+  {
+   "type": "verse",
+   "text": "For the king our aged father, he who ruled the earth and main,\nIs a captive to Kaikeyi, fettered by her silken chain,"
+  },
+  {
+   "type": "verse",
+   "text": "Little help Kaikeyi renders to our mothers in her pride,\nLittle help can Bharat offer, standing by his mother's side."
+  },
+  {
+   "type": "verse",
+   "text": "Thou alone can'st serve Kausalya when for distant woods I part,\nWhen the memory of my exile rankles in her sorrowing heart,"
+  },
+  {
+   "type": "verse",
+   "text": "Thou alone can'st serve Sumitra, soothe her sorrows with thy love,\nStay by them, my faithful Lakshman, and thy filial virtues prove,"
+  },
+  {
+   "type": "verse",
+   "text": "Be this then thy sacred duty, tend our mothers in their woe,\nLittle joy or consolation have they left on earth below!\""
+  },
+  {
+   "type": "verse",
+   "text": "Spake the hero: \"Fear no evil, well is Rama's prowess known,\nAnd to mighty Rama's mother Bharat will obeisance own,"
+  },
+  {
+   "type": "verse",
+   "text": "Nathless if the pride of empire sways him from the righteous path,\nBlood will venge the offered insult and will quench our filial wrath!"
+  },
+  {
+   "type": "verse",
+   "text": "But a thousand peopled hamlets Queen Kausalya's hests obey,\nAnd a thousand arméd champions own her high and queenly sway,"
+  },
+  {
+   "type": "verse",
+   "text": "Aye, a thousand village-centres Queen Sumitra's state maintain,\nAnd a thousand swords like Lakshman's guard her proud and prosperous reign!"
+  },
+  {
+   "type": "verse",
+   "text": "All alone with gentle Sita thou shalt track thy darksome way,\nGrant it, that thy faithful Lakshman shall protect her night and day,"
+  },
+  {
+   "type": "verse",
+   "text": "Grant it, with his bow and quiver Lakshman shall the forests roam,\nAnd his axe shall fell the jungle, and his hands shall rear the home!"
+  },
+  {
+   "type": "verse",
+   "text": "Grant it, in the deepest woodlands he shall seek the forest fruit,\nBerries dear to holy hermits and the sweet and luscious root,"
+  },
+  {
+   "type": "verse",
+   "text": "And when with thy meek-eyed Sita thou shalt seek the mountain crest,\nGrant it, Lakshman ever duteous watch and guard thy nightly rest!\""
+  },
+  {
+   "type": "verse",
+   "text": "Words of brother's deep devotion Rama heard with grateful heart,\nAnd with Sita and with Lakshman for the woods prepared to part:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Part we then from loving kinsmen, arms and mighty weapons bring,\nBows of war which Lord Varuna rendered to Videha's king,"
+  },
+  {
+   "type": "verse",
+   "text": "Coats of mail to sword impervious, quivers which can never fail,\nAnd the rapiers bright as sunshine, golden-hilted, tempered well,"
+  },
+  {
+   "type": "verse",
+   "text": "Safely rest these goodly weapons in our great preceptor's hall,\nSeek and bring them, faithful brother, for me thinks we need them all!\""
+  },
+  {
+   "type": "verse",
+   "text": "Rama spake; his valiant brother then the wondrous weapons brought,\nWreathed with fresh and fragrant garlands and with gold and jewels wrought,"
+  },
+  {
+   "type": "verse",
+   "text": "\"Welcome, brother,\" uttered Rama, \"stronger thus to woods we go,\nWealth and gold and useless treasure to the holy priests bestow,"
+  },
+  {
+   "type": "verse",
+   "text": "To the son of saint Vasishtha, to each sage is honour due,\nThen we leave our father's mansions, to our father's mandate true!\""
+  },
+  {
+   "type": "note",
+   "text": "Rama, Sita and Lakshman go away into the forest, and the old king dies of grief. Bharat, who was far away, comes home, refuses the throne, and follows Rama into the forest to beg him to come back and be king."
+  },
+  {
+   "type": "heading",
+   "text": "The Sandals"
+  },
+  {
+   "type": "verse",
+   "text": "Tears nor sighs nor sad entreaty Rama's changeless purpose shook,\nTill once more with hands conjoinéd Bharat to his elder spoke:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Rama, true to royal mercy, true to duties of thy race,\nGrant this favour to thy mother, to thy brother grant this grace,"
+  },
+  {
+   "type": "verse",
+   "text": "Vain were my unaided efforts to protect our father's throne,\nTown and hamlet, lord and tiller, turn to thee and thee alone!"
+  },
+  {
+   "type": "verse",
+   "text": "Unto Rama, friends and kinsmen, chiefs and warriors, turn in pain,\nAnd each city chief and elder, and each humble village swain,"
+  },
+  {
+   "type": "verse",
+   "text": "Base thy empire strong, unshaken, on a loyal nation's will,\nWith thy worth and with thy valour serve thy faithful people still!\""
+  },
+  {
+   "type": "verse",
+   "text": "Rama raised the prostrate Bharat to his ever-loving breast,\nAnd in voice of tuneful hansa thus his gentle speech addrest:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Trust me, Bharat, lofty virtue, strength and will to thee belong,\nThou could'st rule a worldwide empire in thy faith and purpose strong,"
+  },
+  {
+   "type": "verse",
+   "text": "And our father's ancient min'sters, ever faithful, wise and deep,\nThey shall help thee with their counsel and thy ancient frontiers keep."
+  },
+  {
+   "type": "verse",
+   "text": "List! the Moon may lose his lustre, Himalaya lose his snow,\nHeaving Ocean pass his confines surging from the caves below,"
+  },
+  {
+   "type": "verse",
+   "text": "But the truth-abiding Rama will not move from promise given,\nHe hath spoke and will not palter, help him righteous Gods in heaven!\""
+  },
+  {
+   "type": "verse",
+   "text": "Blazing like the Sun in splendour, beauteous like the Lord of Night,\nRama vowed his Vow of Duty, changeless in his holy might!"
+  },
+  {
+   "type": "verse",
+   "text": "\"Humble token,\" answered Bharat, \"still I seek from Rama's hand,\nToken of his love and kindness, token of his high command,"
+  },
+  {
+   "type": "verse",
+   "text": "From thy feet cast forth those sandals, they shall decorate the throne.\nThey shall nerve my heart to duty and shall safely guard thy own,"
+  },
+  {
+   "type": "verse",
+   "text": "They shall to a loyal nation absent monarch's will proclaim,\nWatch the frontiers of the empire and the people's homage claim!\""
+  },
+  {
+   "type": "verse",
+   "text": "Rama gave the loosened sandals as his younger humbly prayed,\nBharat bowed to them in homage and his parting purpose said:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Not alone will banished Rama barks and matted tresses wear,\nFourteen years the crownéd Bharat will in hermit's dress appear,"
+  },
+  {
+   "type": "verse",
+   "text": "Henceforth Bharat dwells in palace guised as hermit of the wood,\nIn the sumptuous hall of feasting wild fruit is his only food,"
+  },
+  {
+   "type": "verse",
+   "text": "Fourteen years shall pass in waiting, weary toil and penance dire\nThen, if Rama comes not living, Bharat dies upon the pyre!\""
+  }
+ ],
+ "workId": "hindu-ramayana-1",
+ "livingTradition": "Hindus",
+ "wordCount": 4372,
+ "readingMinutes": 24,
+ "readingLevel": {
+  "fkGrade": 19.7,
+  "avgSentenceWords": 49.8,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-hindu--the-ramayana-part-1-the-bow-and-the-exile"
+}

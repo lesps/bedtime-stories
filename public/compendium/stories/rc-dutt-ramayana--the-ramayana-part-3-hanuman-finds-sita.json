@@ -1,0 +1,578 @@
+{
+ "id": "rc-dutt-ramayana--the-ramayana-part-3-hanuman-finds-sita",
+ "collectionId": "rc-dutt-ramayana",
+ "order": 3,
+ "title": "The Ramayana, Part 3: Hanuman Finds Sita",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "Rama and Lakshman have searched everywhere for Sita, and the dying vulture Jatayu has told them that Ravan carried her away to the south. Vanars are the monkey people."
+  },
+  {
+   "type": "heading",
+   "text": "Friends in Misfortune"
+  },
+  {
+   "type": "verse",
+   "text": "Long and loud lamented Rama by his lonesome cottage door,\nJanasthana's woodlands answered, Panchavati's echoing shore,"
+  },
+  {
+   "type": "verse",
+   "text": "Long he searched in wood and jungle, mountain crest and pathless plain,\nTill he reached the Malya mountains stretching to the southern main."
+  },
+  {
+   "type": "verse",
+   "text": "There Sugriva king of Vanars, Hanuman his henchman brave,\nBanished from their home and empire lived within the forest cave,"
+  },
+  {
+   "type": "verse",
+   "text": "To the exiled king Sugriva, Hanuman his purpose told,\nAs he marked the pensive Rama wand'ring with his brother bold:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Mark the sons of Dasa-ratha banished from their royal home,\nDuteous to their father's mandate in these pathless forests roam,"
+  },
+  {
+   "type": "verse",
+   "text": "Great was monarch Dasa-ratha famed for sacrifice divine,\nRaja-suya, Aswa-medha, and for gift of gold and kine,"
+  },
+  {
+   "type": "verse",
+   "text": "By a monarch's stainless duty people's love the monarch won,\nBy a woman's false contrivance banished he his eldest son!"
+  },
+  {
+   "type": "verse",
+   "text": "True to duty, true to virtue, Rama passed his forest life,\nTill a false perfidious Raksha stole his fair and faithful wife,"
+  },
+  {
+   "type": "verse",
+   "text": "And the anguish-stricken husband seeks thy friendship and thy aid,\nMutual sorrow blends your fortunes, be ye friends in mutual need!\""
+  },
+  {
+   "type": "verse",
+   "text": "Bold Sugriva heard the counsel, and to righteous Rama hied,\nAnd the princes of Ayodhya with his greetings gratified:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Well I know thee, righteous Rama, soul of piety and love,\nAnd thy duty to thy father and thy faith in God above,"
+  },
+  {
+   "type": "verse",
+   "text": "Fortune favours poor Sugriva, Rama courts his humble aid,\nIn our deepest direst danger he our truest friendship made!"
+  },
+  {
+   "type": "verse",
+   "text": "Equal is our fateful fortune,--I have lost a queenly wife,\nBanished from Kishkindha's empire here I lead a forest life,"
+  },
+  {
+   "type": "verse",
+   "text": "Pledge of love and true alliance, Rama, take this proffered hand,\nBanded by a common sorrow we shall fall or stoutly stand!\""
+  },
+  {
+   "type": "verse",
+   "text": "Rama grasped the hand he offered, and the tear was in his eye,\nAnd they swore undying friendship o'er the altar blazing high,"
+  },
+  {
+   "type": "verse",
+   "text": "Hanuman with fragrant blossoms sanctified the sacred rite,\nAnd the comrades linked by sorrow walked around the altar's light,"
+  },
+  {
+   "type": "verse",
+   "text": "And their word and troth they plighted: \"In our happiness and woe\nWe are friends in thought and action, we will face our common foe!\""
+  },
+  {
+   "type": "verse",
+   "text": "And they broke a leafy Sal tree, spread it underneath their feet,\nRama and his friend Sugriva sat upon the common seat,"
+  },
+  {
+   "type": "verse",
+   "text": "And a branch of scented Chandan with its tender blossoms graced,\nHanuman as seat of honour for the faithful Lakshman placed."
+  },
+  {
+   "type": "verse",
+   "text": "\"Listen, Rama,\" spake Sugriva, \"reft of kingdom, reft of wife,\nFleeing to these rugged mountains I endure a forest life,"
+  },
+  {
+   "type": "verse",
+   "text": "For my tyrant brother Bali rules Kishkindha all alone,\nForced my wife from my embraces, drove me from my father's throne,"
+  },
+  {
+   "type": "verse",
+   "text": "Trembling in my fear and anguish I endure a life of woe,\nRender me my wife and empire from my brother and my foe!\""
+  },
+  {
+   "type": "verse",
+   "text": "\"Not in vain they seek my succour,\" so the gallant Rama said,\n\"Who with love and offered friendship seek my counsel and my aid,"
+  },
+  {
+   "type": "verse",
+   "text": "Not in vain these glistening arrows in my ample quiver shine,\nBali dies the death of tyrants, wife and empire shall be thine!"
+  },
+  {
+   "type": "verse",
+   "text": "Quick as Indra's forkéd lightning are these arrows feather-plumed,\nDeadly as the hissing serpent are these darts with points illumed,"
+  },
+  {
+   "type": "verse",
+   "text": "And this day shall not be ended ere it sees thy brother fall,\nAs by lurid lightning severed sinks the crest of mountain tall!\""
+  },
+  {
+   "type": "note",
+   "text": "Rama keeps his promise: Bali is slain, and Sugriva becomes king of the Vanars in Kishkindha. When the rains are over, Sugriva sends out armies to search for Sita in every direction. To his bravest chiefs, Hanuman among them, he gives the south."
+  },
+  {
+   "type": "heading",
+   "text": "The Quest for Sita"
+  },
+  {
+   "type": "verse",
+   "text": "Next to Nila son of Agni, Jambavan Vidhata's son,\nHanuman the son of Marut, famed for deeds of valour done,"
+  },
+  {
+   "type": "verse",
+   "text": "Unto Gaya and Gavaksha, Gandha-madan true and tried,\nUnto Angad prince and regent, thus the brave Sugriva cried:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Noblest, bravest of our chieftains, greatest of our race are ye,\nSeek and search the Southern regions, rock and ravine, wood and tree,"
+  },
+  {
+   "type": "verse",
+   "text": "Search the thousand peaks of Vindhya lifting high its misty head,\nThrough the gorges of Narmada rolling o'er its rocky bed,"
+  },
+  {
+   "type": "verse",
+   "text": "By the gloomy Godavari and by Krishna's wooded stream,\nThrough Utkala's sea-girt forests tinged by morning's early gleam."
+  },
+  {
+   "type": "verse",
+   "text": "Search the towns of famed Dasarna and Avanti's rocky shore,\nAnd the uplands of Vidarbha and the mountains of Mysore,"
+  },
+  {
+   "type": "verse",
+   "text": "Land of Matsyas and Kalingas and Kausika's regions fair,\nTrackless wilderness of Dandak seek with anxious toil and care."
+  },
+  {
+   "type": "verse",
+   "text": "Search the empire of the Andhras, of the sister-nations three,--\nCholas, Cheras and the Pandyas dwelling by the southern sea,"
+  },
+  {
+   "type": "verse",
+   "text": "Pass Kaveri's spreading waters, Malya's mountains towering brave,\nSeek the isle of Tamra-parni, gemmed upon the ocean wave!\""
+  },
+  {
+   "type": "note",
+   "text": "Far in the south the searchers learn that Sita is held in Lanka, an island across the sea. Hanuman, the son of the Wind, leaps across the sea and searches the city of Lanka."
+  },
+  {
+   "type": "heading",
+   "text": "Sita in the Asoka Garden"
+  },
+  {
+   "type": "verse",
+   "text": "Crossed the ocean's boundless waters, Hanuman in duty brave,\nLighted on the emerald island girded by the sapphire wave,"
+  },
+  {
+   "type": "verse",
+   "text": "And in tireless quest of Sita searched the margin of the sea,\nIn a dark Asoka garden hid himself within a tree."
+  },
+  {
+   "type": "verse",
+   "text": "Creepers threw their clasping tendrils round the trees of ample height,\nStately palm and feathered cocoa, fruit and blossom pleased the sight,"
+  },
+  {
+   "type": "verse",
+   "text": "Herds of tame and gentle creatures in the grassy meadow strayed,\nKokils sang in leafy thicket, birds of plumage lit the shade,"
+  },
+  {
+   "type": "verse",
+   "text": "Limpid lakes of scented lotus with their fragrance filled the air,\nHomes and huts of rustic beauty peeped through bushes green and fair,"
+  },
+  {
+   "type": "verse",
+   "text": "Blossoms rich in tint and fragrance in the checkered shadow gleamed,\nClustering fruits of golden beauty in the yellow sunlight beamed!"
+  },
+  {
+   "type": "verse",
+   "text": "Brightly shone the red Asoka with the morning's golden ray,\nKarnikara and Kinsuka dazzling as the light of day,"
+  },
+  {
+   "type": "verse",
+   "text": "Brightly grew the flower of Champak in the vale and on the reef,\nPunnaga and Saptaparna with its seven-fold scented leaf,"
+  },
+  {
+   "type": "verse",
+   "text": "Rich in blossoms many tinted, grateful to the ravished eye,\nGay and green and glorious Lanka was like garden of the sky,"
+  },
+  {
+   "type": "verse",
+   "text": "Rich in fruit and laden creeper and in beauteous bush and tree,\nFlower-bespangled golden Lanka was like gem-bespangled sea!"
+  },
+  {
+   "type": "verse",
+   "text": "Rose a palace in the woodlands girt by pillars strong and high.\nSnowy-white like fair Kailasa cleaving through the azure sky,"
+  },
+  {
+   "type": "verse",
+   "text": "And its steps were ocean coral and its pavement yellow gold.\nWhite and gay and heaven-aspiring rose the structure high and bold!"
+  },
+  {
+   "type": "verse",
+   "text": "By the rich and royal mansion Hanuman his eyes did rest,\nOn a woman sad and sorrowing in her sylvan garments drest,"
+  },
+  {
+   "type": "verse",
+   "text": "Like the moon obscured and clouded, dim with shadows deep and dark,\nLike the smoke-enshrouded red fire, dying with a feeble spark,"
+  },
+  {
+   "type": "verse",
+   "text": "Like the tempest-pelted lotus by the wind and torrent shaken,\nLike the beauteous star Rohini by a graha overtaken!"
+  },
+  {
+   "type": "verse",
+   "text": "Fasts and vigils paled her beauty, tears bedimmed her tender grace,\nAnguish dwelt within her bosom, sorrow darkened on her face,"
+  },
+  {
+   "type": "verse",
+   "text": "And she lived by Rakshas guarded, as a faint and timid deer,\nSevered from her herd and kindred when the prowling wolves are near,"
+  },
+  {
+   "type": "verse",
+   "text": "And her raven locks ungathered hung behind in single braid,\nAnd her gentle eye was lightless, and her brow was hid in shade!"
+  },
+  {
+   "type": "verse",
+   "text": "\"This is she! the peerless princess, Rama's consort loved and lost,\nThis is she! the saintly Sita, by a cruel fortune crost,\""
+  },
+  {
+   "type": "verse",
+   "text": "Hanuman thus thought and pondered: \"On her graceful form I spy,\nGems and gold by sorrowing Rama oft depicted with a sigh,"
+  },
+  {
+   "type": "verse",
+   "text": "On her ears the golden pendants and the tiger's sharpened tooth,\nOn her arms the jewelled bracelets, tokens of unchanging truth,"
+  },
+  {
+   "type": "verse",
+   "text": "On her pallid brow and bosom still the radiant jewels shine,\nRama with a sweet affection did in early days entwine!"
+  },
+  {
+   "type": "verse",
+   "text": "Hermit's garments clothe her person, braided is her raven hair,\nMatted bark of trees of forest drape her neck and bosom fair,"
+  },
+  {
+   "type": "verse",
+   "text": "And a dower of dazzling beauty still bedecks her peerless face.\nThough the shadowing tinge of sorrow darkens all her earlier grace!"
+  },
+  {
+   "type": "verse",
+   "text": "This is she! the soft-eyed Sita, wept with unavailing tear,\nThis is she! the faithful consort, unto Rama ever dear,"
+  },
+  {
+   "type": "verse",
+   "text": "Unforgetting and unchanging, truthful still in deed and word,\nSita, in her silent suffering sorrows for her absent lord,"
+  },
+  {
+   "type": "verse",
+   "text": "Still for Rama lost but cherished, Sita heaves the choking sigh,\nSita lives for righteous Rama, for her Rama she would die!\""
+  },
+  {
+   "type": "heading",
+   "text": "The Voice of Hope"
+  },
+  {
+   "type": "verse",
+   "text": "Hanuman from leafy shelters lifts his voice in sacred song,\nTill the tale of Rama's glory Lanka's woods and vales prolong:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Listen, Lady, to my story;--Dasa-ratha famed in war,\nRich in steeds and royal tuskers, arméd men and battle car,"
+  },
+  {
+   "type": "verse",
+   "text": "Ruled his realm in truth and virtue, in his bounty ever free,\nOf the mighty race of Raghu mightiest king and monarch he,"
+  },
+  {
+   "type": "verse",
+   "text": "Robed in every royal virtue, great in peace in battle brave,\nBlest in bliss of grateful nations, blest in blessings which he gave"
+  },
+  {
+   "type": "verse",
+   "text": "And his eldest-born and dearest, Rama soul of righteous might,\nShone, as mid the stars resplendent shines the radiant Lord of Night,"
+  },
+  {
+   "type": "verse",
+   "text": "True unto his sacred duty, true unto his kith and kin,\nFriend of piety and virtue, punisher of crime and sin,"
+  },
+  {
+   "type": "verse",
+   "text": "Loved in all his spacious empire, peopled mart and hermit's den,\nWith a truer deeper kindness Rama loved his subject men!"
+  },
+  {
+   "type": "verse",
+   "text": "Dasa-ratha, promise-fettered, then his cruel mandate gave,\nRama with his wife and brother lived in woods and rocky cave,"
+  },
+  {
+   "type": "verse",
+   "text": "And he slayed the deer of jungle and he slept in leafy shade,\nStern destroyer of the Rakshas in the pathless forests strayed,"
+  },
+  {
+   "type": "verse",
+   "text": "Till the monarch of the Rakshas,--fraudful is his impious life,\nCheated Rama in the jungle, from his cottage stole his wife"
+  },
+  {
+   "type": "verse",
+   "text": "Long lamenting lone and weary Rama wandered in the wood,\nSearched for Sita, in the jungle where his humble cottage stood,"
+  },
+  {
+   "type": "verse",
+   "text": "Godavari's gloomy gorges, Krishna's dark and wooded shore,\nAnd the ravine, rock and valley, and the cloud-capped mountain hoar!"
+  },
+  {
+   "type": "verse",
+   "text": "Then he met the sad Sugriva in wild Malya's dark retreat,\nWon for him his father's empire and his father's royal seat,"
+  },
+  {
+   "type": "verse",
+   "text": "Now Sugriva's countless forces wander far and wander near,\nIn the search of stolen Sita still unto his Rama dear!"
+  },
+  {
+   "type": "verse",
+   "text": "I am henchman of Sugriva and the mighty sea have crost,\nIn the quest of hidden Sita, Rama's consort loved and lost,"
+  },
+  {
+   "type": "verse",
+   "text": "And methinks that form of beauty, peerless shape of woman's grace,\nIs my Rama's dear-loved consort, Rama's dear-remembered face!\""
+  },
+  {
+   "type": "verse",
+   "text": "Hushed the voice: the ravished Sita cast her wond'ring eyes around,\nWhence that song of sudden gladness, whence that soul-entrancing sound?"
+  },
+  {
+   "type": "verse",
+   "text": "Dawning hope and rising rapture overflowed her widowed heart,\nIs it dream's deceitful whisper which the cruel Fates impart?"
+  },
+  {
+   "type": "heading",
+   "text": "Rama's Token"
+  },
+  {
+   "type": "verse",
+   "text": "\"'Tis no dream's deceitful whisper!\" Hanuman spake to the dame,\nAs from darksome leafy shelter he to Rama's consort came,"
+  },
+  {
+   "type": "verse",
+   "text": "\"Rama's messenger and vassal, token from thy lord I bring,\nMark this bright ring, jewel-lettered with the dear name of thy king,"
+  },
+  {
+   "type": "verse",
+   "text": "For the loved and cherished Sita, is to Rama ever dear,\nAnd he sends his loving message and his force is drawing near!"
+  },
+  {
+   "type": "verse",
+   "text": "Sita held that tender token from her loved and cherished lord,\nAnd once more herself she fancied to his loving arms restored,"
+  },
+  {
+   "type": "verse",
+   "text": "And her pallid face was lighted and her soft eye sent a spark,\nAs the Moon regains her lustre freed from Rahu's shadows dark!"
+  },
+  {
+   "type": "verse",
+   "text": "And with voice of deep emotion in each softly whispered word,\nSpake her thoughts in gentle accents of her consort and her lord:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Messenger of love of Rama! Dauntless is thy deed and bold,\nThou hast crossed the boundless ocean to the Raksha's castled hold,"
+  },
+  {
+   "type": "verse",
+   "text": "Thou hast crossed the angry billows which confess no monarch's sway,\nO'er the face of rolling waters found thy unresisted way,"
+  },
+  {
+   "type": "verse",
+   "text": "Thou hast done what living mortal never sought to do before,\nDared the Raksha in his island, Ravan in his sea-girt shore!"
+  },
+  {
+   "type": "verse",
+   "text": "Speak, if Rama lives in safety in the woods or by the hill,\nAnd if young and gallant Lakshman faithful serves his brother still,"
+  },
+  {
+   "type": "verse",
+   "text": "Speak, if Rama in his anger and his unforgiving ire,\nHurls destruction on my captor like the world-consuming fire,"
+  },
+  {
+   "type": "verse",
+   "text": "Speak, if Rama in his sorrow wets his pale and drooping eye,\nIf the thought of absent Sita wakes within his heart a sigh!"
+  },
+  {
+   "type": "verse",
+   "text": "Doth my husband seek alliance with each wild and warlike chief,\nStriving for a speedy vengeance and for Sita's quick relief,"
+  },
+  {
+   "type": "verse",
+   "text": "Doth he stir the warlike races to a fierce and vengeful strife,\nDealing death to ruthless Rakshas for this insult on his wife,"
+  },
+  {
+   "type": "verse",
+   "text": "Doth he still in fond remembrance cherish Sita loved of yore,\nNursing in his hero-bosom tender sorrows evermore!"
+  },
+  {
+   "type": "verse",
+   "text": "Didst thou hear from far Ayodhya, from Kausalya royal dame,\nFrom the true and tender Bharat prince of proud and peerless fame,"
+  },
+  {
+   "type": "verse",
+   "text": "Didst thou hear if royal Bharat leads his forces to the fight,\nConquering Ravan's scattered army in his all-resistless might,"
+  },
+  {
+   "type": "verse",
+   "text": "Didst thou hear if brave Sugriva marshals Vanars in his wrath\nAnd the young and gallant Lakshman seeks to cross the ocean path?\""
+  },
+  {
+   "type": "verse",
+   "text": "Hanuman with due obeisance placed his hand upon his head,\nBowed unto the queenly Sita and in gentle accents said:"
+  },
+  {
+   "type": "verse",
+   "text": "\"Trust me, Lady, valiant Rama soon will greet his saintly wife,\nE'en as Indra greets his goddess, Sachi dearer than his life,"
+  },
+  {
+   "type": "verse",
+   "text": "Trust me, Sita, conquering Rama comes with panoply of war,\nShaking Lanka's sea-girt mountains, slaying Rakshas near and far!"
+  },
+  {
+   "type": "verse",
+   "text": "He shall cross the boundless ocean with the battle's dread array,\nHe shall smite the impious Ravan and the cruel Rakshas slay,"
+  },
+  {
+   "type": "verse",
+   "text": "Mighty Gods and strong Asuras shall not hinder Rama's path,\nWhen at Lanka's gates he thunders with his more than godlike wrath,"
+  },
+  {
+   "type": "verse",
+   "text": "Deadly Yama, all-destroying, pales before his peerless might\nWhen his red right arm of vengeance wrathful Rama lifts to smite!"
+  },
+  {
+   "type": "verse",
+   "text": "By the lofty Mandar mountains, by the fruit and root I seek,\nBy the cloud-obstructing Vindhyas, and by Malya's towering peak,"
+  },
+  {
+   "type": "verse",
+   "text": "I will swear, my gentle Lady, Rama's vengeance draweth nigh,\nThou shalt see his beaming visage like the Lord of Midnight Sky,"
+  },
+  {
+   "type": "verse",
+   "text": "Firm in purpose Rama waiteth on the Prasra-vana hill,\nAs upon the huge Airavat, Indra, motionless and still!"
+  },
+  {
+   "type": "verse",
+   "text": "Flesh of deer nor forest honey tasteth Rama true and bold,\nTill he rescues cherished Sita from the Raksha's castled hold,"
+  },
+  {
+   "type": "verse",
+   "text": "Thoughts of Sita leave not Rama dreary day or darksome night,\nTill his vengeance deep and dreadful crushes Ravan in his might,"
+  },
+  {
+   "type": "verse",
+   "text": "Forest flower nor scented creeper pleases Rama's anguished heart,\nTill he wins his wedded consort by his death-compelling dart!\""
+  },
+  {
+   "type": "heading",
+   "text": "Sita's Token"
+  },
+  {
+   "type": "verse",
+   "text": "Token from her raven tresses Sita to the Vanar gave,\nHanuman with dauntless valour crossed once more the ocean wave,"
+  },
+  {
+   "type": "verse",
+   "text": "Where in Prasra-vana's mountain Rama with his brother stayed,\nJewel from the brow of Sita by her sorrowing consort laid,"
+  },
+  {
+   "type": "verse",
+   "text": "Spake of Ravan's foul endearment and his loathsome loving word,\nSpake of Sita's scorn and anger and her truth unto her lord,"
+  },
+  {
+   "type": "verse",
+   "text": "Tears of sorrow and affection from the warrior's eyelids start,\nAs his consort's loving token Rama presses to his heart!"
+  },
+  {
+   "type": "verse",
+   "text": "\"As the mother-cow, Sugriva, yields her milk beside her young,\nWelling tears upon this token yields my heart by anguish wrung,"
+  },
+  {
+   "type": "verse",
+   "text": "Well I know this dear-loved jewel sparkling with the ray of heaven,\nBorn in sea, by mighty Indra to my Sita's father given,"
+  },
+  {
+   "type": "verse",
+   "text": "Well I know this tender token, Janak placed it on her hair,\nWhen she came my bride and consort decked in beauty rich and rare,"
+  },
+  {
+   "type": "verse",
+   "text": "Well I know this sweet memorial, Sita wore it on her head,\nAnd her proud and peerless beauty on the gem a lustre shed!"
+  },
+  {
+   "type": "verse",
+   "text": "Ah, methinks the gracious Janak stands again before my eye,\nWith a father's fond affection, with a monarch's stature high,"
+  },
+  {
+   "type": "verse",
+   "text": "Ah, methinks my bride and consort, she who wore it on her brow,\nStands again before the altar, speaks again her loving vow,"
+  },
+  {
+   "type": "verse",
+   "text": "Ah, the sad, the sweet remembrance! ah, the happy days gone by,\nOnce again, O loving vision, wilt thou gladden Rama's eye!"
+  },
+  {
+   "type": "verse",
+   "text": "Speak again, my faithful vassal, how my Sita wept and prayed,\nLike the water to the thirsty, dear to me what Sita said,"
+  },
+  {
+   "type": "verse",
+   "text": "Did she send this sweet remembrance as a blessing from above,\nAs a true and tender token of a woman's changeless love,"
+  },
+  {
+   "type": "verse",
+   "text": "Did she waft her heart's affection o'er the billows of the sea,\nWherefore came she not in person from her foes and fetters free?"
+  },
+  {
+   "type": "verse",
+   "text": "Hanuman, my friend and comrade, lead me to the distant isle,\nWhere my soft-eyed Sita lingers midst the Rakshas dark and vile,"
+  },
+  {
+   "type": "verse",
+   "text": "Where my true and tender consort like a lone and stricken deer,\nGirt by Rakshas stern and ruthless sheds the unavailing tear,"
+  },
+  {
+   "type": "verse",
+   "text": "Where she weeps in ceaseless anguish, sorrow-stricken, sad and pale,\nLike the Moon by dark clouds shrouded when her light and lustre fail!"
+  },
+  {
+   "type": "verse",
+   "text": "Speak again, my faithful henchman, loving message of my wife,\nLike some potent drug her accents renovate my fainting life,"
+  },
+  {
+   "type": "verse",
+   "text": "Arm thy forces, friend Sugriva, Rama shall not brook delay,\nWhile in distant Lanka's confines Sita weeps the livelong day,"
+  },
+  {
+   "type": "verse",
+   "text": "Marshal forth thy bannered forces, cross the ocean in thy might\nRama speeds on wings of vengeance Lanka's impious lord to smite!\""
+  }
+ ],
+ "workId": "hindu-ramayana-3",
+ "livingTradition": "Hindus",
+ "wordCount": 2881,
+ "readingMinutes": 16,
+ "readingLevel": {
+  "fkGrade": 21.1,
+  "avgSentenceWords": 51.9,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-hindu--the-ramayana-part-3-hanuman-finds-sita"
+}

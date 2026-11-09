@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 1151 public-domain children's stories in 102 collections — Aesop
+A calm, offline-capable reader for 1175 public-domain children's stories in 103 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -60,7 +60,10 @@ Ganga from Dutt's Ramayana; Ganesha writing down the Mahabharata, Krishna's birt
 Kaliya and the lifting of Govardhana, and Hanuman leaping for the sun from the same books, and
 Krishna the butter thief from Baba Premanand Bharati's Sree Krishna, the Lord of Love (1904); and
 Ganesha's elephant head, his race with Kartikeya, and Durga and the buffalo demon, retold by
-Claude; all marked as sacred to Hindus. Where no
+Claude; the Ramayana in six parts, from Romesh C. Dutt's verse condensation (1899) and Manmatha
+Nath Dutt's prose; and six episodes of the Mahabharata from Ganguli (Arjuna and the bird, Ekalavya,
+Nala and Damayanti, Bhima meeting Hanuman, Savitri, and Yudhishthira's answers to the yaksha); all
+marked as sacred to Hindus. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,
@@ -94,8 +97,8 @@ Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, E
 - Works on phones, tablets and desktops: a bottom tab bar on small screens, a sidebar with wider,
   multi-column pages on desktop; keyboard-friendly dialogs (Escape closes), hover actions with a
   mouse, and Back returns to where you were in a list.
-- Installable PWA that works offline; one tap in Settings saves every story (~45 MB with
-  illustrations, ~10 MB text only).
+- Installable PWA that works offline; one tap in Settings saves every story (~47 MB with
+  illustrations, ~12 MB text only).
 - Tales told in more than one translation link to each other ("Other versions").
 - One entry per myth: where a myth has a retelling for young readers, the library lists the
   retelling, with "Read the original" inside; a Settings switch lists the original texts instead.

@@ -1,0 +1,112 @@
+{
+ "id": "myths-hindu--arjuna-sees-only-the-bird",
+ "collectionId": "myths-hindu",
+ "order": 24,
+ "title": "Arjuna Sees Only the Bird",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Long ago, the great teacher Drona taught the young princes of the Kuru family how to use the bow and arrow. There were five Pandava brothers, Yudhishthira, Bhima, Arjuna and the twins Nakula and Sahadeva, and their hundred cousins, the sons of King Dhritarashtra. And of all of them, Drona's favourite pupil was Arjuna, because he worked harder than anyone."
+  },
+  {
+   "type": "p",
+   "text": "One day Drona said secretly to the cook, \"Never give Arjuna his supper in the dark. And don't tell him I said so.\""
+  },
+  {
+   "type": "p",
+   "text": "But a few days later, while Arjuna was eating his supper, a wind blew out the lamp. Arjuna went on eating in the dark, and found that his hand still went to his mouth all by itself, because it was so used to it. \"If I can eat in the dark,\" he thought, \"I can learn to shoot in the dark.\" And from then on, he practised with his bow at night too."
+  },
+  {
+   "type": "p",
+   "text": "When Drona heard the twang of a bowstring in the night, he came out and found Arjuna practising. And Drona hugged him. \"I promise you,\" he said, \"I will make you the best archer in the world. No one will ever be your equal.\""
+  },
+  {
+   "type": "p",
+   "text": "When the princes had finished their training, Drona wanted to test them. Before they came, he had a model of a bird put up at the top of a tall tree. Then he gathered all his pupils together."
+  },
+  {
+   "type": "p",
+   "text": "\"Take up your bows,\" he said, \"and aim at that bird on the tree, with your arrows ready on your bowstrings. When I give the word, shoot off the bird's head. I will give each of you a turn.\""
+  },
+  {
+   "type": "p",
+   "text": "First he called Yudhishthira, the eldest. Yudhishthira took up his bow and aimed at the bird."
+  },
+  {
+   "type": "p",
+   "text": "\"Do you see the bird at the top of the tree?\" asked Drona."
+  },
+  {
+   "type": "p",
+   "text": "\"I do,\" said Yudhishthira."
+  },
+  {
+   "type": "p",
+   "text": "\"And what do you see now?\" asked Drona. \"Do you see the tree, and me, and your brothers?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I see the tree, and you, and my brothers, and the bird,\" said Yudhishthira."
+  },
+  {
+   "type": "p",
+   "text": "Drona asked again, and again, and each time Yudhishthira said the same. \"Stand aside,\" said Drona crossly. \"You will not hit the mark.\""
+  },
+  {
+   "type": "p",
+   "text": "Then Drona tried Duryodhana and his brothers, and Bhima and the others, and the princes who had come from other lands. And every one of them said the same: \"We see the tree, and you, and the others, and the bird.\" And Drona told each of them to stand aside."
+  },
+  {
+   "type": "p",
+   "text": "When they had all failed, Drona smiled and called Arjuna. \"Now it's your turn,\" he said. \"Look at the bird, and shoot when I give the word.\""
+  },
+  {
+   "type": "p",
+   "text": "Arjuna stood and aimed his bow at the bird."
+  },
+  {
+   "type": "p",
+   "text": "\"Arjuna,\" said Drona, \"do you see the bird, and the tree, and me?\""
+  },
+  {
+   "type": "p",
+   "text": "\"I see only the bird,\" said Arjuna. \"I don't see the tree, or you.\""
+  },
+  {
+   "type": "p",
+   "text": "Drona was delighted. \"If you can see the bird,\" he said, \"tell me what it looks like.\""
+  },
+  {
+   "type": "p",
+   "text": "\"I see only its head,\" said Arjuna. \"I can't see its body.\""
+  },
+  {
+   "type": "p",
+   "text": "Drona was so happy that the hair on his arms stood on end. \"Shoot!\" he said."
+  },
+  {
+   "type": "p",
+   "text": "Arjuna let his arrow fly at once. It cut off the bird's head, and the head fell down to the ground."
+  },
+  {
+   "type": "note",
+   "text": "A simplified retelling of “Arjuna Sees Only the Bird” in The Mahabharata of Krishna-Dwaipayana Vyasa, translated by Kisari Mohan Ganguli (1883). The original is listed under Other versions. From the first book of the Mahabharata. The Pandavas are the five sons of King Pandu, and the Kauravas, their cousins, are the hundred sons of King Dhritarashtra."
+  }
+ ],
+ "workId": "hindu-arjuna-bird",
+ "adaptation": "simplified",
+ "adaptedBy": "Claude (Anthropic), 2026",
+ "adaptedFrom": "ganguli-mahabharata--arjuna-sees-only-the-bird",
+ "livingTradition": "Hindus",
+ "wordCount": 600,
+ "readingMinutes": 3,
+ "readingLevel": {
+  "fkGrade": 3.5,
+  "avgSentenceWords": 10.9,
+  "band": "early"
+ }
+}

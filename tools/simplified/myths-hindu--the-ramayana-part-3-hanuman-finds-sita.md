@@ -1,0 +1,42 @@
+---
+title: 'The Ramayana, Part 3: Hanuman Finds Sita'
+adaptedFrom: rc-dutt-ramayana--the-ramayana-part-3-hanuman-finds-sita
+order: 20
+namesNote: From the Ramayana. The Vanars are the monkey people, and Kishkindha is their kingdom. Dutt spells Bali for the monkey king often called Vali.
+---
+
+Rama searched everywhere for Sita. The dying vulture Jatayu had told him that Ravana carried her away to the south, so Rama and Lakshmana went south, through forests and over mountains, until they came to the Malya mountains near the southern sea.
+
+In those mountains, in a cave, lived Sugriva, a king of the Vanars, the monkey people. He had been driven out of his kingdom, and his faithful friend Hanuman lived with him. When Hanuman saw the two princes, he said to Sugriva, "Look, those are the sons of King Dasharatha. They were sent away from home, and now a wicked Rakshasa has stolen Rama's wife. Rama needs help, and so do you. You should be friends."
+
+So Sugriva went to meet Rama. "I know who you are, Rama," he said. "And I have lost my wife and my kingdom too. Let's be friends, and stand together." Rama took his hand, with tears in his eyes. They lit a sacred fire, and Hanuman scattered flowers on it, and Rama and Sugriva walked around it together and promised to be friends for ever, in good times and bad. Then they broke branches from a sal tree and sat down on them side by side, and Hanuman made a seat for Lakshmana from a branch of sweet-smelling sandalwood.
+
+"My brother Bali has taken my kingdom and my wife," said Sugriva, "and driven me out. Help me get them back."
+
+"I will," said Rama. "My arrows are as fast as lightning. Your brother will fall, and your kingdom will be yours again."
+
+And Rama kept his promise. Bali was killed, and Sugriva became king of the Vanars in Kishkindha. Then, when the rainy season was over, Sugriva sent out his armies to search for Sita in every direction: north, south, east and west. He sent his bravest chiefs to the south, and Hanuman, the son of the Wind, went with them. "Search every hill and every forest," said Sugriva, "every river and every town, all the way to the southern sea."
+
+Far in the south, the searchers found out that Sita was being kept in Lanka, an island across the sea. So Hanuman leaped across the sea, and landed on the island.
+
+Lanka was a beautiful island, full of gardens and flowers and fruit trees, with lakes of lotus flowers and birds singing in the branches. Hanuman crept into a dark garden of ashoka trees, and hid himself up in one of the trees, and looked around.
+
+Near a white palace he saw a woman sitting alone. She was dressed in plain forest clothes, and her long dark hair hung down in a single braid. She was pale and thin, and her eyes were full of tears. Fierce Rakshasa women were guarding her, and she looked like a frightened deer with wolves all around her.
+
+Hanuman looked at the jewels she was wearing: golden earrings and bracelets, just as Rama had described them. "This is Sita!" he thought. "She is still true to Rama, and she is sad because he is far away."
+
+Then from his hiding place among the leaves, Hanuman began to sing. He sang about the good King Dasharatha and his son Rama, about how Rama was sent away to the forest with his wife and brother, and how a wicked king stole Rama's wife. He sang about how Rama had searched everywhere for her, and made friends with Sugriva, and how Sugriva's armies were searching for her too. "I am Sugriva's servant," he sang, "and I have crossed the great sea to look for Sita. And I think that this lovely lady must be Rama's wife."
+
+Sita looked around in wonder. Where was that song coming from? Was it only a dream?
+
+"It isn't a dream!" said Hanuman, and he came down from the tree. "I am Rama's messenger. Look, here is a ring with Rama's name on it. He sends you his love, and he is coming to rescue you."
+
+Sita took the ring, and held it, and for a moment she felt as if she were back in Rama's arms. Her pale face lit up, like the moon when the clouds pass away. "Brave messenger!" she said. "You have crossed the wild ocean to find me. Tell me, is Rama safe? Is Lakshmana still with him? Does Rama still think of me? Is he coming with an army to fight Ravana?"
+
+"Trust me, my lady," said Hanuman, bowing. "Rama is coming soon, with a great army. He will cross the ocean, and beat Ravana, and set you free. Rama thinks of you day and night. He doesn't eat meat or honey, and he doesn't care for flowers, and he won't rest until you are safe."
+
+Then Sita took a jewel from her hair and gave it to Hanuman, to take back to Rama. And Hanuman leaped back over the sea, to the mountain where Rama was waiting. He told Rama everything: how Ravana had tried to win Sita, and how she had scorned him, and stayed true to Rama.
+
+Rama took the jewel, and pressed it to his heart, and wept. "I know this jewel," he said. "The god Indra gave it to Sita's father, and he put it in her hair on the day of our wedding. Tell me again, Hanuman, what Sita said. Her words are like water to someone dying of thirst."
+
+Then Rama turned to Sugriva. "Gather your armies, my friend," he said. "We must not wait. We will cross the ocean to Lanka, and bring Sita home."
