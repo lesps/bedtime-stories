@@ -89,7 +89,11 @@ tools/extract_*.py        reproduce compendium patches 001–003 (Andersen #2720
                           Vishnu Purana (after Wilson) and Dutt's Ramayana (incl. the bridge to
                           Lanka), and Krishna's childhood from Bharati's Sree Krishna;
                           extract_ramayana_verse.py: five parts of the six-part Ramayana from Romesh
-                          C. Dutt's verse condensation, sacred-texts.com's edition)
+                          C. Dutt's verse condensation, sacred-texts.com's edition;
+                          extract_buddhist.py: seven Jātaka tales from Cowell's Jātaka
+                          (sacred-texts.com's edition), the four omens, the renunciation and the
+                          Bo-tree from Rhys Davids's Buddhist Birth Stories, and Kisā Gotamī from
+                          Carus's The Gospel of Buddha)
 tools/simplified/*.md     editable source of the simplified retellings (front matter, whose values
                           may be quoted, + paragraphs; a paragraph of `> ` lines is verse)
 tools/build_simplified.py builds simplified collections from those files and links both ways
@@ -144,7 +148,7 @@ such as `egy` for Ancient Egyptian). Each story entry has `id` (`<collectionId>-
 `compendium/`, JPEG or WebP, `alt` may be empty = decorative) and optional `firstPublished`,
 `source` (per-book, Potter), `originalTitle` (Hunt) and `livingTradition` (who holds the story
 sacred today, e.g. "Jews and Christians"). Everything is validated with zod on load;
-failures throw `DataError` (`kind: network | http | invalid`). 1177 stories, 104 collections, ~12 MB
+failures throw `DataError` (`kind: network | http | invalid`). 1194 stories, 108 collections, ~12 MB
 of story JSON and ~35 MB of illustrations. Tests derive counts from `index.json`; never hardcode
 them.
 
@@ -184,7 +188,7 @@ collections; and, on story files, `adaptation` and `adaptedBy`.
 
 `tags.json`: `{ schemaVersion: 1, cultures: {id,label}[], themes: {id,label}[], stories: { [id]:
 { cultures, themes } } }`. Every story has ≥1 of each; every defined tag is used (integrity test).
-45 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
+46 cultures (tale origin, not editor: Lang's book is split by `origin`, and `STORY_CULTURE` tags
 Bulfinch's Roman sections `roman`, Tages `etruscan`, Baldwin's Tell and Winkelried `swiss`,
 the Manx and Breton retellings in `myths-celtic` as `manx` and `breton`, the Estonian and Sámi
 ones in `myths-finnic` as `estonian` and `sami`, Libuše in `myths-west-slavic` as `czech`, Manole
@@ -215,10 +219,11 @@ Russian epic heroes, since the Russian collections are fairy-tale books). Regene
   is sacred to … today." The Hebrew Bible passages carry "Jews and Christians" and the Gospel passages
   "Christians" (not the Seven Sleepers, a saints' legend), the Qur'an passages "Muslims", and the
   Avesta's Yima and the Zoroastrian creation "Zoroastrians", and the Mahabharata, Vishnu Purana and
-  Ramayana passages (both Dutts'), Bharati's Krishna, the three Hindu ‡ retellings and the Tamil Murugan "Hindus"; a retelling
+  Ramayana passages (both Dutts'), Bharati's Krishna, the three Hindu ‡ retellings and the Tamil Murugan "Hindus", and the
+  Jātaka tales, Rhys Davids's Nidānakathā passages and Carus's Kisā Gotamī "Buddhists"; a retelling
   inherits its original's (`build_simplified.py`). Their
-  themes never use `magic` or `ghosts` (`HEBREW_BIBLE`, `QURAN`, `PERSIAN` and `HINDU` in
-  `tag_stories.py`). A story sacred to Muslims never has a
+  themes never use `magic` or `ghosts` (`HEBREW_BIBLE`, `QURAN`, `PERSIAN`, `HINDU` and `BUDDHIST` in
+  `tag_stories.py`), and the Buddhist ones, like the Bible's and the Qur'an's, not `gods-heroes`. A story sacred to Muslims never has a
   picture, since the prophets are not depicted; the integrity test checks.
 - **Store** (`storage/store.ts`): key `storybook:v1` holds `{ version, settings, favorites,
 progress, history, recentPicks, openStoryId, annotations, storyNotes }`. Progress entries also carry `blockCount` (when
@@ -347,9 +352,9 @@ fine)`.
   `myths-celtic` (Scottish, Manx and Breton), `myths-arthurian`, `myths-finnic` (Finnish,
   Estonian and Sámi), `myths-baltic` (Lithuanian and Latvian), `myths-russian`, `myths-west-slavic` (Polish and Czech),
   `myths-balkan` (Serbian, Romanian and Albanian), `myths-hungarian`, `myths-caucasus` (Circassian
-  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends`, `christian-stories`, `quran-stories`, `myths-persian`, `myths-armenian`, `myths-hindu` or `myths-tamil` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
-  contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, and Claude's own
-  translations), or the book and its editor for an anthology whose author is "Various" (Lang's
+  and Georgian), `myths-basque`, `myths-egyptian`, `myths-mesopotamian`, `myths-hittite-canaanite` (Hittite, Hurrian and Canaanite), `hebrew-bible`, `jewish-legends`, `christian-stories`, `quran-stories`, `myths-persian`, `myths-armenian`, `myths-hindu`, `myths-tamil` or `myths-buddhist` by file-name prefix; their end note credits the original's author, or its translator for a collection whose
+  contributor is "Translated by …" (Hesiod and the Hymns, the two Eddas, Claude's own
+  translations, and Cowell's Jātaka, "translated by various hands, edited by E. B. Cowell"), or the book and its editor for an anthology whose author is "Various" (Lang's
   Red Fairy Book, Yeats, Jacobs).
 - Where no public-domain English source exists, Claude translates the ancient passages itself
   (`tools/translations/*.md`, from the Perseus Digital Library's Greek and Latin texts, The Latin
@@ -380,6 +385,19 @@ fine)`.
   Nath Dutt's prose, since Romesh Dutt leaves it out. Retellings of these passages stay close to the
   text and add no interpretation; the Qur'an retellings use the Arabic names (Nuh, Sulayman, Yunus)
   and "Allah", as Pickthall does.
+- The Jātaka tales are the Cambridge translation edited by E. B. Cowell (volumes I–III, 1895–97,
+  translated by Robert Chalmers, W. H. D. Rouse, and H. T. Francis and R. A. Neil), from
+  sacred-texts.com's digitization; each story carries its volume's `source` and `firstPublished`,
+  and its opening note names the translator. A Jātaka has three parts: the story in the present
+  (why the Buddha told it), the story of the past and the identification ("I myself was the hare").
+  The app keeps the last two, with the occasion in a sentence in the note, since the stories in the
+  present are about monks and nuns (one about a nun's pregnancy). `extract_buddhist.py` fixes the
+  digitization's slips (`FIXES`) and rejoins paragraphs split at page breaks. Ellen Babbitt's
+  Jataka Tales (1912) isn't used: her death date is unknown. The Buddha's life is from the
+  Nidānakathā in Rhys Davids's Buddhist Birth Stories (1880; Arnold's The Light of Asia has only
+  three of the four omens), and Kisā Gotamī from Carus's The Gospel of Buddha (1894). The
+  Jātaka retellings end with the Buddha's identification of himself; the others in it are left
+  out. The Buddhist retellings use the Sanskrit "Siddhartha" for Rhys Davids's Pāli "Siddhattha".
 - Content flags and exclusions in the patches are editorial first passes (see each patch's notes);
   `excluded` alone decides the antisemitic-caricature stories.
 

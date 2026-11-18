@@ -1,0 +1,88 @@
+{
+ "id": "cowell-jataka--the-tortoise-who-talked-too-much",
+ "collectionId": "cowell-jataka",
+ "order": 4,
+ "title": "The Tortoise Who Talked Too Much",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "The Kacchapa Jātaka (No. 215), translated by W. H. D. Rouse. The Buddha told this story about Kokālika, a monk who was ruined by his own tongue. The two famous Elders are the Buddha's chief disciples, Sāriputta and Moggallāna, and Ānanda was his cousin and attendant. In the Jātaka, the stories of the Buddha's earlier lives, the Bodhisatta is the Buddha-to-be."
+  },
+  {
+   "type": "p",
+   "text": "Once on a time Brahmadatta was king of Benares, and the Bodhisatta, being born to one of the king's court, grew up, and became the king's adviser in all things human and divine. But this king was very talkative; and when he talked there was no chance for any other to get in a word. And the Bodhisatta, wishing to put a stop to his much talking, kept watching for an opportunity."
+  },
+  {
+   "type": "p",
+   "text": "Now there dwelt a Tortoise in a certain pond in the region of Himalaya."
+  },
+  {
+   "type": "p",
+   "text": "Two young wild Geese, searching for food, struck up an acquaintance with him; and by and bye they grew close friends together. One day these two said to him: \"Friend Tortoise, we have a lovely home in Himalaya, on a plateau of Mount Cittakūta, in a cave of gold! Will you come with us?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Why,\" said he, \"how can I get there?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Oh, we will take you, if only you can keep your mouth shut, and say not a word to any body.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Yes, I can do that,\" says he; \"take me along!\""
+  },
+  {
+   "type": "p",
+   "text": "So they made the Tortoise hold a stick between his teeth; and themselves taking hold so of the two ends, they sprang up into the air."
+  },
+  {
+   "type": "p",
+   "text": "The village children saw this, and exclaimed--\"There are two geese carrying a tortoise by a stick!\""
+  },
+  {
+   "type": "p",
+   "text": "(By this time the geese flying swiftly had arrived at the space above the palace of the king, at Benares.) The Tortoise wanted to cry out-- \"Well, and if my friends do carry me, what is that to you, you caitiffs?\"--and he let go the stick from between his teeth, and falling into the open courtyard he split in two. What an uproar there was! \"A tortoise has fallen in the courtyard, and broken in two!\" they cried. The king, with the Bodhisatta, and all his court, came up to the place, and seeing the tortoise asked the Bodhisatta a question. \"Wise Sir, what made this creature fall?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Now's my time!\" thought he. \"For a long while I have been wishing to admonish the king, and I have gone about seeking my opportunity. No doubt the truth is this: the tortoise and the geese became friendly; the geese must have meant to carry him to Himalaya, and so made him hold a stick between his teeth, and then lifted him into the air; then he must have heard some remark, and wanted to reply; and not being able to keep his mouth shut he must have let himself go; and so he must have fallen from the sky and thus come by his death.\" So thought he; and addressed the king: \"O king, they that have too much tongue, that set no limit to their speaking, ever come to such misfortune as this;\" and he uttered the following verses:--"
+  },
+  {
+   "type": "verse",
+   "text": "\"The Tortoise needs must speak aloud,\nAlthough between his teeth\nA stick he bit: yet, spite of it,\nHe spoke--and fell beneath."
+  },
+  {
+   "type": "verse",
+   "text": "\"And now, O mighty master, mark it well.\nSee thou speak wisely, see thou speak in season.\nTo death the Tortoise fell:\nHe talked too much: that was the reason.\""
+  },
+  {
+   "type": "p",
+   "text": "\"He is speaking of me!\" the king thought to himself; and asked the Bodhisatta if it was so."
+  },
+  {
+   "type": "p",
+   "text": "\"Be it you, O great king, or be it another,\" replied he, \"whosoever talks beyond measure comes by some misery of this kind;\" and so he made the thing manifest. And thenceforward the king abstained from talking, and became a man of few words."
+  },
+  {
+   "type": "p",
+   "text": "This discourse ended, the Master identified the Birth:--\"Kokālika was the tortoise then, the two famous Elders were the two wild geese, Ānanda was the king, and I was his wise adviser.\""
+  }
+ ],
+ "workId": "jataka-215",
+ "livingTradition": "Buddhists",
+ "source": "https://sacred-texts.com/bud/j2/index.htm",
+ "firstPublished": 1895,
+ "wordCount": 676,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 6.9,
+  "avgSentenceWords": 19.4,
+  "band": "advanced"
+ },
+ "simplifiedId": "myths-buddhist--the-tortoise-who-talked-too-much"
+}
