@@ -284,6 +284,17 @@ COLLECTIONS = {
         "language": "en",
         "originalLanguage": "en",
     },
+    "myths-buddhist": {
+        "id": "myths-buddhist",
+        "title": "Buddhist Stories, Simply Told",
+        "author": "Traditional (Buddhist)",
+        "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+        "firstPublished": None,
+        "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+        "license": "Public domain in the USA",
+        "language": "en",
+        "originalLanguage": "en",
+    },
     "myths-armenian": {
         "id": "myths-armenian",
         "title": "Armenian Myths, Simply Told",

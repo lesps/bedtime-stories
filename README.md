@@ -1,6 +1,6 @@
 # Storybook
 
-A calm, offline-capable reader for 1177 public-domain children's stories in 104 collections — Aesop
+A calm, offline-capable reader for 1194 public-domain children's stories in 108 collections — Aesop
 (with Milo Winter's illustrations), Grimm (Taylor's selection and Hunt's complete translation),
 Andersen, Beatrix Potter's 21 illustrated tales, Lang's Blue Fairy Book, Jacobs' English Fairy
 Tales, Kipling's Just So Stories, two collections of Japanese fairy tales (Ozaki; James with Warwick
@@ -65,14 +65,20 @@ Nath Dutt's prose; and six episodes of the Mahabharata from Ganguli (Arjuna and 
 Nala and Damayanti, Bhima meeting Hanuman, Savitri, and Yudhishthira's answers to the yaksha); all
 marked as sacred to Hindus. Tamil: Murugan and the fruit of wisdom (the Palani legend, linked to
 Ganesha's race as another version) and Kannagi and the anklet, from the Silappatikaram, both
-retold by Claude. Where no
+retold by Claude. Buddhist: seven Jātaka tales of the Buddha's earlier lives (the banyan deer, the
+quails and the net, the monkey and the crocodile, the talkative tortoise, the hare in the moon,
+the hare who thought the world was ending, and the monkey king's bridge) from the Cambridge
+translation edited by E. B. Cowell (1895–97); Prince Siddhattha's four omens and leaving home, and
+his victory over Māra under the Bo-tree, from T. W. Rhys Davids's Buddhist Birth Stories (1880);
+and Kisā Gotamī and the mustard seed from Paul Carus's The Gospel of Buddha (1894); all marked as
+sacred to Buddhists. Where no
 free English version exists, Claude's
 own translations from Homer, Pindar, Apollodorus, Pausanias, Cicero, Ovid, Snorri, the Golden
 Legend's Saint George, and the Lorelei and Wild Huntsman ballads of Brentano, Heine and Bürger,
 and Arany's Hungarian legend of the wondrous stag.
 Simplified retellings for young readers in Greek, Roman, Norse, German, English, Irish, Welsh,
 Scottish, Manx and Breton, Arthurian, Finnish, Estonian and Sámi, Lithuanian and Latvian, Russian,
-Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, Mesopotamian, Hittite and Canaanite, Hebrew Bible, Jewish legend, Christian, Qur'an, Persian, Armenian and Hindu collections "Simply Told".
+Polish and Czech, Serbian, Romanian and Albanian, Hungarian, Caucasus, Basque, Egyptian, Mesopotamian, Hittite and Canaanite, Hebrew Bible, Jewish legend, Christian, Qur'an, Persian, Armenian, Hindu, Tamil and Buddhist collections "Simply Told".
 
 **Live:** https://lesps.github.io/bedtime-stories/
 

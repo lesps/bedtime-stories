@@ -1248,6 +1248,54 @@
    "language": "en",
    "originalLanguage": "en",
    "storyCount": 2
+  },
+  {
+   "id": "cowell-jataka",
+   "title": "The Jātaka, or Stories of the Buddha's Former Births",
+   "author": "The Jātaka",
+   "contributor": "Translated by various hands, edited by E. B. Cowell",
+   "firstPublished": 1895,
+   "source": "https://sacred-texts.com/bud/j1/index.htm",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "pi",
+   "storyCount": 7
+  },
+  {
+   "id": "rhys-davids-birth-stories",
+   "title": "Buddhist Birth Stories",
+   "author": "The Nidānakathā",
+   "contributor": "Translated by T. W. Rhys Davids",
+   "firstPublished": 1880,
+   "source": "https://www.gutenberg.org/ebooks/51880",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "pi",
+   "storyCount": 2
+  },
+  {
+   "id": "carus-gospel-of-buddha",
+   "title": "The Gospel of Buddha",
+   "author": "Paul Carus",
+   "contributor": null,
+   "firstPublished": 1894,
+   "source": "https://www.gutenberg.org/ebooks/35895",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "pi",
+   "storyCount": 1
+  },
+  {
+   "id": "myths-buddhist",
+   "title": "Buddhist Stories, Simply Told",
+   "author": "Traditional (Buddhist)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 7
   }
  ],
  "stories": [
@@ -18610,6 +18658,309 @@
     "avgSentenceWords": 13.4,
     "band": "middle"
    }
+  },
+  {
+   "id": "cowell-jataka--the-banyan-deer",
+   "collectionId": "cowell-jataka",
+   "order": 1,
+   "title": "The Banyan Deer",
+   "wordCount": 1509,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-012",
+   "readingLevel": {
+    "fkGrade": 7.1,
+    "avgSentenceWords": 20.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-buddhist--the-banyan-deer"
+  },
+  {
+   "id": "cowell-jataka--the-quails-and-the-net",
+   "collectionId": "cowell-jataka",
+   "order": 2,
+   "title": "The Quails and the Net",
+   "wordCount": 754,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-033",
+   "readingLevel": {
+    "fkGrade": 7.2,
+    "avgSentenceWords": 18.5,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-buddhist--the-quails-and-the-net"
+  },
+  {
+   "id": "cowell-jataka--the-monkey-and-the-crocodile",
+   "collectionId": "cowell-jataka",
+   "order": 3,
+   "title": "The Monkey and the Crocodile",
+   "wordCount": 688,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-208",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 14.4,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "cowell-jataka--the-tortoise-who-talked-too-much",
+   "collectionId": "cowell-jataka",
+   "order": 4,
+   "title": "The Tortoise Who Talked Too Much",
+   "wordCount": 676,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-215",
+   "readingLevel": {
+    "fkGrade": 6.9,
+    "avgSentenceWords": 19.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-buddhist--the-tortoise-who-talked-too-much"
+  },
+  {
+   "id": "cowell-jataka--the-hare-in-the-moon",
+   "collectionId": "cowell-jataka",
+   "order": 5,
+   "title": "The Hare in the Moon",
+   "wordCount": 1480,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-316",
+   "readingLevel": {
+    "fkGrade": 9.4,
+    "avgSentenceWords": 25.6,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-buddhist--the-hare-in-the-moon"
+  },
+  {
+   "id": "cowell-jataka--the-hare-who-thought-the-world-was-ending",
+   "collectionId": "cowell-jataka",
+   "order": 6,
+   "title": "The Hare Who Thought the World Was Ending",
+   "wordCount": 1061,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-322",
+   "readingLevel": {
+    "fkGrade": 5.1,
+    "avgSentenceWords": 15.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "cowell-jataka--the-monkey-kings-bridge",
+   "collectionId": "cowell-jataka",
+   "order": 7,
+   "title": "The Monkey King's Bridge",
+   "wordCount": 1464,
+   "readingMinutes": 8,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-407",
+   "readingLevel": {
+    "fkGrade": 11.8,
+    "avgSentenceWords": 30.9,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-buddhist--the-monkey-kings-bridge"
+  },
+  {
+   "id": "rhys-davids-birth-stories--the-four-omens-and-the-great-renunciation",
+   "collectionId": "rhys-davids-birth-stories",
+   "order": 1,
+   "title": "The Four Omens and the Great Renunciation",
+   "wordCount": 3410,
+   "readingMinutes": 19,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "buddha-renunciation",
+   "readingLevel": {
+    "fkGrade": 9.2,
+    "avgSentenceWords": 23.2,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-buddhist--prince-siddhartha-leaves-home"
+  },
+  {
+   "id": "rhys-davids-birth-stories--the-victory-under-the-bo-tree",
+   "collectionId": "rhys-davids-birth-stories",
+   "order": 2,
+   "title": "The Victory under the Bo-tree",
+   "wordCount": 4300,
+   "readingMinutes": 24,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "buddha-enlightenment",
+   "readingLevel": {
+    "fkGrade": 8.3,
+    "avgSentenceWords": 22.4,
+    "band": "advanced"
+   },
+   "simplifiedId": "myths-buddhist--the-buddha-under-the-bodhi-tree"
+  },
+  {
+   "id": "carus-gospel-of-buddha--the-mustard-seed",
+   "collectionId": "carus-gospel-of-buddha",
+   "order": 1,
+   "title": "The Mustard Seed",
+   "wordCount": 954,
+   "readingMinutes": 5,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "kisa-gotami",
+   "readingLevel": {
+    "fkGrade": 6.5,
+    "avgSentenceWords": 18.1,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-buddhist--prince-siddhartha-leaves-home",
+   "collectionId": "myths-buddhist",
+   "order": 1,
+   "title": "Prince Siddhartha Leaves Home",
+   "wordCount": 2121,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "buddha-renunciation",
+   "readingLevel": {
+    "fkGrade": 4.1,
+    "avgSentenceWords": 13.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "rhys-davids-birth-stories--the-four-omens-and-the-great-renunciation"
+  },
+  {
+   "id": "myths-buddhist--the-buddha-under-the-bodhi-tree",
+   "collectionId": "myths-buddhist",
+   "order": 2,
+   "title": "The Buddha under the Bodhi Tree",
+   "wordCount": 2104,
+   "readingMinutes": 12,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "buddha-enlightenment",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 14.3,
+    "band": "middle"
+   },
+   "adaptedFrom": "rhys-davids-birth-stories--the-victory-under-the-bo-tree"
+  },
+  {
+   "id": "myths-buddhist--the-banyan-deer",
+   "collectionId": "myths-buddhist",
+   "order": 3,
+   "title": "The Banyan Deer",
+   "wordCount": 1164,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-012",
+   "readingLevel": {
+    "fkGrade": 2.8,
+    "avgSentenceWords": 12.2,
+    "band": "early"
+   },
+   "adaptedFrom": "cowell-jataka--the-banyan-deer"
+  },
+  {
+   "id": "myths-buddhist--the-quails-and-the-net",
+   "collectionId": "myths-buddhist",
+   "order": 4,
+   "title": "The Quails and the Net",
+   "wordCount": 688,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-033",
+   "readingLevel": {
+    "fkGrade": 3.3,
+    "avgSentenceWords": 11.6,
+    "band": "early"
+   },
+   "adaptedFrom": "cowell-jataka--the-quails-and-the-net"
+  },
+  {
+   "id": "myths-buddhist--the-tortoise-who-talked-too-much",
+   "collectionId": "myths-buddhist",
+   "order": 5,
+   "title": "The Tortoise Who Talked Too Much",
+   "wordCount": 597,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-215",
+   "readingLevel": {
+    "fkGrade": 2.9,
+    "avgSentenceWords": 11.2,
+    "band": "early"
+   },
+   "adaptedFrom": "cowell-jataka--the-tortoise-who-talked-too-much"
+  },
+  {
+   "id": "myths-buddhist--the-hare-in-the-moon",
+   "collectionId": "myths-buddhist",
+   "order": 6,
+   "title": "The Hare in the Moon",
+   "wordCount": 1083,
+   "readingMinutes": 6,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-316",
+   "readingLevel": {
+    "fkGrade": 3.9,
+    "avgSentenceWords": 14.0,
+    "band": "middle"
+   },
+   "adaptedFrom": "cowell-jataka--the-hare-in-the-moon"
+  },
+  {
+   "id": "myths-buddhist--the-monkey-kings-bridge",
+   "collectionId": "myths-buddhist",
+   "order": 7,
+   "title": "The Monkey King's Bridge",
+   "wordCount": 1325,
+   "readingMinutes": 7,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "jataka-407",
+   "readingLevel": {
+    "fkGrade": 4.4,
+    "avgSentenceWords": 14.8,
+    "band": "middle"
+   },
+   "adaptedFrom": "cowell-jataka--the-monkey-kings-bridge"
   }
  ]
 }

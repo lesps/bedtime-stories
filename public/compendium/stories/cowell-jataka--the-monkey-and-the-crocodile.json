@@ -1,0 +1,115 @@
+{
+ "id": "cowell-jataka--the-monkey-and-the-crocodile",
+ "collectionId": "cowell-jataka",
+ "order": 3,
+ "title": "The Monkey and the Crocodile",
+ "origin": null,
+ "excluded": false,
+ "flags": [],
+ "moral": null,
+ "blocks": [
+  {
+   "type": "note",
+   "text": "The Suṃsumāra Jātaka (No. 208), translated by W. H. D. Rouse. The Buddha told this story when he heard that his cousin Devadatta had tried to kill him. Ciñcā was a woman who told lies about the Buddha. In the Jātaka, the stories of the Buddha's earlier lives, the Bodhisatta is the Buddha-to-be."
+  },
+  {
+   "type": "p",
+   "text": "Once upon a time, while Brahmadatta was king of Benares, the Bodhisatta came to life at the foot of Himalaya as a Monkey. He grew strong and sturdy, big of frame, well-to-do, and lived by a curve of the river Ganges in a forest haunt."
+  },
+  {
+   "type": "p",
+   "text": "Now at that time there was a Crocodile dwelling in the Ganges. The Crocodile's mate saw the great frame of the monkey, and she conceived a longing for his heart to eat. So she said to her lord: \"Sir, I desire to eat the heart of that great king of the monkeys!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Good wife,\" said the Crocodile, \"I live in the water and he lives on dry land: how can we catch him?\""
+  },
+  {
+   "type": "p",
+   "text": "\"By hook or by crook,\" she replied, \"caught he must be. If I don't get him, I shall die.\""
+  },
+  {
+   "type": "p",
+   "text": "\"All right,\" answered the Crocodile, consoling her, \"don't trouble yourself. I have a plan; I will give you his heart to eat.\""
+  },
+  {
+   "type": "p",
+   "text": "So when the Bodhisatta was sitting on the bank of the Ganges, after taking a drink of water, the Crocodile drew near, and said:"
+  },
+  {
+   "type": "p",
+   "text": "\"Sir Monkey, why do you live on bad fruits in this old familiar place? On the other side of the Ganges there is no end to the mango trees, and labuja trees, with fruit sweet as honey! Is it not better to cross over and have all kinds of wild fruit to eat?\""
+  },
+  {
+   "type": "p",
+   "text": "\"Lord Crocodile,\" the Monkey made answer, \"deep and wide is the Ganges: how shall I get across?\""
+  },
+  {
+   "type": "p",
+   "text": "\"If you will go, I will mount you on my back, and carry you over.\""
+  },
+  {
+   "type": "p",
+   "text": "The Monkey trusted him, and agreed. \"Come here, then,\" said the other, \"up on my back with you!\" and up the monkey climbed. But when the Crocodile had swum a little way, he plunged the Monkey under the water."
+  },
+  {
+   "type": "p",
+   "text": "\"Good friend, you are letting me sink!\" cried the Monkey. \"What is that for?\""
+  },
+  {
+   "type": "p",
+   "text": "Said the Crocodile, \"You think I'm carrying you out of pure good nature? Not a bit of it! My wife has a longing for your heart, and I want to give it her to eat.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Friend,\" said the Monkey, \"it is nice of you to tell me. Why, if our heart were inside us when we go jumping among the tree-tops, it would be all knocked to pieces!\""
+  },
+  {
+   "type": "p",
+   "text": "\"Well, where do you keep it?\" asked the other."
+  },
+  {
+   "type": "p",
+   "text": "The Bodhisatta pointed out a fig-tree, with clusters of ripe fruit, standing not far off. \"See,\" said he, \"there are our hearts hanging on yon fig-tree.\""
+  },
+  {
+   "type": "p",
+   "text": "\"If you will show me your heart,\" said the Crocodile, \"then I won't kill you.\""
+  },
+  {
+   "type": "p",
+   "text": "\"Take me to the tree, then, and I will point it out to you hanging upon it.\""
+  },
+  {
+   "type": "p",
+   "text": "The Crocodile brought him to the place. The Monkey leapt off his back, and climbing up the fig-tree sat upon it. \"O silly Crocodile!\" said he, \"you thought that there were creatures that kept their hearts in a tree-top! You are a fool, and I have outwitted you! You may keep your fruit to yourself. Your body is great, but you have no sense.\" And then to explain this idea he uttered the following stanzas:--"
+  },
+  {
+   "type": "verse",
+   "text": "\"Rose-apple, jack-fruit, mangoes too across the water there I see;\nEnough of them, I want them not; my fig is good enough for me!"
+  },
+  {
+   "type": "verse",
+   "text": "\"Great is your body, verily, but how much smaller is your wit!\nNow go your ways, Sir Crocodile, for I have had the best of it.\""
+  },
+  {
+   "type": "p",
+   "text": "The Crocodile, feeling as sad and miserable as if he had lost a thousand pieces of money, went back sorrowing to the place where he lived."
+  },
+  {
+   "type": "p",
+   "text": "When the Master had ended this discourse, he identified the Birth:--\"In those days Devadatta was the Crocodile, the lady Ciñcā was his mate, and I was the Monkey.\""
+  }
+ ],
+ "workId": "jataka-208",
+ "livingTradition": "Buddhists",
+ "source": "https://sacred-texts.com/bud/j2/index.htm",
+ "firstPublished": 1895,
+ "wordCount": 688,
+ "readingMinutes": 4,
+ "readingLevel": {
+  "fkGrade": 4.8,
+  "avgSentenceWords": 14.4,
+  "band": "middle"
+ }
+}

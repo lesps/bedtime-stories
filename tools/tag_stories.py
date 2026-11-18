@@ -59,6 +59,7 @@ CULTURES = [
     ("armenian", "Armenian"),
     ("hindu", "Hindu"),
     ("tamil", "Tamil"),
+    ("buddhist", "Buddhist"),
     ("japanese", "Japanese"),
 ]
 
@@ -188,6 +189,10 @@ COLLECTION_CULTURE = {
     "rc-dutt-ramayana": "hindu",
     "myths-hindu": "hindu",
     "myths-tamil": "tamil",
+    "cowell-jataka": "buddhist",
+    "rhys-davids-birth-stories": "buddhist",
+    "carus-gospel-of-buddha": "buddhist",
+    "myths-buddhist": "buddhist",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -920,6 +925,32 @@ OVERRIDES["myths-hindu--durga-and-the-buffalo-demon"] = {"add": ["monsters", "le
 OVERRIDES["myths-tamil--murugan-and-the-fruit-of-wisdom"] = {
     "add": ["family", "animals", "legends", "gentle"], "remove": ["magic", "ghosts", "quests"]}
 OVERRIDES["myths-tamil--kannagi-and-the-anklet"] = {"add": ["royalty", "legends"]}
+# Buddhist: the passage and its retelling share their themes, with the Hebrew Bible's rule (never
+# "magic" or "ghosts"), and, as for the Bible and the Qur'an, no "gods-heroes". The Jātaka tales
+# are fables. A tale with no retelling has None in place of the retelling's slug.
+BUDDHIST = {
+    ("cowell-jataka--the-banyan-deer", "the-banyan-deer"):
+        {"add": ["fables", "kindness"], "remove": ["wishes", "gentle"]},
+    ("cowell-jataka--the-quails-and-the-net", "the-quails-and-the-net"):
+        {"add": ["animals", "fables", "tricksters", "legends"], "remove": ["gentle"]},
+    ("cowell-jataka--the-monkey-and-the-crocodile", None): {"add": ["fables"]},
+    ("cowell-jataka--the-tortoise-who-talked-too-much", "the-tortoise-who-talked-too-much"):
+        {"add": ["fables", "fools"]},
+    ("cowell-jataka--the-hare-in-the-moon", "the-hare-in-the-moon"):
+        {"add": ["fables", "kindness", "how-things-began"]},
+    ("cowell-jataka--the-hare-who-thought-the-world-was-ending", None):
+        {"add": ["fables", "fools", "legends"], "remove": ["quests"]},
+    ("cowell-jataka--the-monkey-kings-bridge", "the-monkey-kings-bridge"): {"add": ["fables", "kindness"]},
+    ("rhys-davids-birth-stories--the-four-omens-and-the-great-renunciation", "prince-siddhartha-leaves-home"):
+        {"add": ["royalty", "family"]},
+    ("rhys-davids-birth-stories--the-victory-under-the-bo-tree", "the-buddha-under-the-bodhi-tree"):
+        {"add": ["monsters"], "remove": ["gentle"]},
+    ("carus-gospel-of-buddha--the-mustard-seed", None): {"add": ["family"]},
+}
+for (_orig, _retold), _o in BUDDHIST.items():
+    OVERRIDES[_orig] = _o
+    if _retold:
+        OVERRIDES[f"myths-buddhist--{_retold}"] = _o
 OVERRIDES["jps-1917--cain-and-abel"] = {"add": ["family", "legends"]}
 OVERRIDES["jps-1917--jacob-wrestles-with-the-angel"] = {"add": ["family", "legends"]}
 

@@ -38,6 +38,21 @@ versioning: [SemVer](https://semver.org/).
 
 ### Added
 
+- Mythology, part 30: Buddhist stories, three new collections and a new `buddhist` culture, every
+  story marked as sacred to Buddhists. Seven Jātaka tales from the Cambridge translation edited by
+  E. B. Cowell (`cowell-jataka`; volumes I–III, 1895–97, translated by Robert Chalmers, W. H. D.
+  Rouse, and H. T. Francis and R. A. Neil, each story carrying its volume's `source` and
+  `firstPublished`): the banyan deer, the quails and the net, the monkey and the crocodile, the
+  tortoise who talked too much, the hare in the moon, the hare who thought the world was ending and
+  the monkey king's bridge. Each is the story of the past and the Buddha's closing identification
+  ("I myself was the wise hare"), after a note giving in a sentence why he told it. Prince
+  Siddhattha's four omens and the Great Renunciation, and his victory over Māra under the Bo-tree,
+  from the Nidānakathā in T. W. Rhys Davids's Buddhist Birth Stories (1880,
+  `rhys-davids-birth-stories`), and Kisā Gotamī and the mustard seed from Paul Carus's The Gospel of
+  Buddha (1894, `carus-gospel-of-buddha`). Seven are `advanced` and get retellings in a new
+  `myths-buddhist` collection ("Buddhist Stories, Simply Told"). Ellen Babbitt's Jataka Tales
+  (1912) isn't used: her death date is unknown. The themes never use `magic`, `ghosts` or
+  `gods-heroes` (`BUDDHIST` in `tag_stories.py`).
 - Mythology, part 29: Tamil myths, a new `myths-tamil` collection and `tamil` culture, both retold
   by Claude with no public-domain text to work from (‡). Murugan and the fruit of wisdom, the
   Palani temple legend, shares a `workId` with Ganesha and Kartikeya's race, so each lists the
