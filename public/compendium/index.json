@@ -1236,6 +1236,18 @@
    "language": "en",
    "originalLanguage": "sa",
    "storyCount": 5
+  },
+  {
+   "id": "myths-tamil",
+   "title": "Tamil Myths, Simply Told",
+   "author": "Traditional (Tamil)",
+   "contributor": "Simplified retellings by Claude (Anthropic), 2026",
+   "firstPublished": null,
+   "source": "https://github.com/lesps/bedtime-stories/tree/main/tools/simplified",
+   "license": "Public domain in the USA",
+   "language": "en",
+   "originalLanguage": "en",
+   "storyCount": 2
   }
  ],
  "stories": [
@@ -18562,6 +18574,42 @@
     "band": "advanced"
    },
    "simplifiedId": "myths-hindu--the-ramayana-part-6-rama-comes-home"
+  },
+  {
+   "id": "myths-tamil--murugan-and-the-fruit-of-wisdom",
+   "collectionId": "myths-tamil",
+   "order": 1,
+   "title": "Murugan and the Fruit of Wisdom",
+   "wordCount": 497,
+   "readingMinutes": 3,
+   "excluded": false,
+   "flags": [],
+   "hasImages": false,
+   "workId": "hindu-ganesha-race",
+   "readingLevel": {
+    "fkGrade": 4.0,
+    "avgSentenceWords": 11.8,
+    "band": "middle"
+   }
+  },
+  {
+   "id": "myths-tamil--kannagi-and-the-anklet",
+   "collectionId": "myths-tamil",
+   "order": 2,
+   "title": "Kannagi and the Anklet",
+   "wordCount": 754,
+   "readingMinutes": 4,
+   "excluded": false,
+   "flags": [
+    "mature-themes"
+   ],
+   "hasImages": false,
+   "workId": "tamil-kannagi",
+   "readingLevel": {
+    "fkGrade": 4.8,
+    "avgSentenceWords": 13.4,
+    "band": "middle"
+   }
   }
  ]
 }

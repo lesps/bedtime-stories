@@ -58,6 +58,7 @@ CULTURES = [
     ("persian", "Persian"),
     ("armenian", "Armenian"),
     ("hindu", "Hindu"),
+    ("tamil", "Tamil"),
     ("japanese", "Japanese"),
 ]
 
@@ -186,6 +187,7 @@ COLLECTION_CULTURE = {
     "bharati-krishna": "hindu",
     "rc-dutt-ramayana": "hindu",
     "myths-hindu": "hindu",
+    "myths-tamil": "tamil",
 }
 
 # Stories whose culture differs from their collection's: Bulfinch's Roman sections, the
@@ -226,6 +228,7 @@ MYTH_COLLECTIONS = {
     "bharati-krishna",
     "rc-dutt-ramayana",
     "myths-hindu",
+    "myths-tamil",
     "myths-armenian",
     "zimmern-kings",
     "darmesteter-avesta",
@@ -913,6 +916,10 @@ OVERRIDES["myths-hindu--how-ganesha-got-his-elephant-head"] = {"add": ["family",
 OVERRIDES["myths-hindu--ganesha-and-kartikeya-race-around-the-world"] = {
     "add": ["family", "tricksters", "legends"], "remove": ["quests"]}
 OVERRIDES["myths-hindu--durga-and-the-buffalo-demon"] = {"add": ["monsters", "legends"], "remove": ["ghosts"]}
+# Tamil (both ‡): Murugan is sacred to Hindus, so no magic or ghosts.
+OVERRIDES["myths-tamil--murugan-and-the-fruit-of-wisdom"] = {
+    "add": ["family", "animals", "legends", "gentle"], "remove": ["magic", "ghosts", "quests"]}
+OVERRIDES["myths-tamil--kannagi-and-the-anklet"] = {"add": ["royalty", "legends"]}
 OVERRIDES["jps-1917--cain-and-abel"] = {"add": ["family", "legends"]}
 OVERRIDES["jps-1917--jacob-wrestles-with-the-angel"] = {"add": ["family", "legends"]}
 
